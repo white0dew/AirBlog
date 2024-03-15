@@ -1,25 +1,40 @@
 'use client'
 
 import { useEffect } from 'react';
-import { init } from '@waline/client';
-import '@waline/client/dist/waline.css';
+import Artalk from 'artalk';
 
 const WalineComment = () => {
   useEffect(() => {
-    init({
-      el: '#waline',
-      dark: '.dark',
-      serverURL: 'https://waline.contrails.space/',
-      emoji: [
-        'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo',
-        'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus'
-      ],
-      requiredMeta: ['nick']
-      // 此处可以配置更多配置，参考Waline官方文档...
+    Artalk.init({
+      el: '#Comments',
+      pageKey: "",
+      pageTitle: "",
+      server: 'http://api2.aistar.cool:8080',
+      site: 'AirBlog',
     });
+    //   // 确保Artalk.js在客户端加载
+    //   const script = document.createElement('script');
+    //   script.src = "http://api2.aistar.cool:8080/dist/Artalk.js";
+    //   script.onload = () => {
+    //     // 初始化Artalk评论系统
+
+    //     Artalk.init({
+    //       el: '#Comments',
+    //       pageKey: "",
+    //       pageTitle: "",
+    //       server: 'http://api2.aistar.cool:8080',
+    //       site: 'Artalk 的博客',
+    //     });
+    //   };
+    //   document.body.appendChild(script);
+
+    //   // 移除script标签以防止多次加载
+    //   return () => {
+    //     document.body.removeChild(script);
+    //   };
   }, []);
 
-  return <div id="waline" />;
-};
+  return <div id="Comments"></div>;
+}
 
 export default WalineComment;

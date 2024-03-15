@@ -6,6 +6,8 @@ import { ThemeProviders } from '@/components/ThemeProviders';
 import SectionContainer from '@/components/SectionContainer';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Script from 'next/script';
+import Head from 'next/head';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteMetadata.siteUrl),
@@ -58,6 +60,7 @@ export default function RootLayout({
       className="scroll-smooth"
       suppressHydrationWarning
     >
+
       <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
@@ -66,6 +69,7 @@ export default function RootLayout({
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff" />
       <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
+      {/* 全局 CSS */}
       <body className="bg-white text-black antialiased dark:bg-gray-950 dark:text-white">
         <ThemeProviders>
           <SectionContainer>

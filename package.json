@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@fancyapps/ui": "^5.0.28",
+    "artalk": "^2.8.3",
     "contentlayer": "^0.3.4",
     "dayjs": "^1.11.10",
     "esbuild": "^0.19.5",

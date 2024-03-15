@@ -44,7 +44,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                   <dt className="sr-only">Published on</dt>
                   <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
                     <time dateTime={date} className="inline-flex items-center">
-                      <FaRegCalendarAlt className="mr-1.5"/>
+                      <FaRegCalendarAlt className="mr-1.5" />
                       {new Date(date).toLocaleDateString('zh-CN', postDateTemplate)}
                     </time>
                   </dd>
@@ -58,7 +58,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                   <dt className="sr-only">Reading time</dt>
                   <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
                     <span className="inline-flex items-center">
-                      <FaRegClock className="mr-1.5"/>
+                      <FaRegClock className="mr-1.5" />
                       {readingTime.text}
                     </span>
                   </dd>
@@ -71,32 +71,32 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
               <dd>
                 <ul className="flex flex-wrap justify-center gap-4 sm:space-x-12 xl:block xl:space-x-0 xl:space-y-8">
                   {authorDetails.map((author) => (
-                      <li className="flex items-center justify-center space-x-2" key={author.name}>
-                        {author.avatar && (
-                            <Image
-                                src={author.avatar}
-                                width={38}
-                                height={38}
-                                alt="avatar"
-                                className="h-10 w-10 rounded-full"
-                            />
-                        )}
-                        <dl className="whitespace-nowrap text-sm font-medium leading-5">
-                          <dt className="sr-only">Name</dt>
-                          <dd className="text-gray-900 dark:text-gray-100">{author.name}</dd>
-                          <dt className="sr-only">Github</dt>
-                          <dd>
-                            {author.github && (
-                                <Link
-                                    href={author.github}
-                                    className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                                >
-                                  {author.github.replace('https://github.com/', '@')}
-                                </Link>
-                            )}
-                          </dd>
-                        </dl>
-                      </li>
+                    <li className="flex items-center justify-center space-x-2" key={author.name}>
+                      {author.avatar && (
+                        <Image
+                          src={author.avatar}
+                          width={38}
+                          height={38}
+                          alt="avatar"
+                          className="h-10 w-10 rounded-full"
+                        />
+                      )}
+                      <dl className="whitespace-nowrap text-sm font-medium leading-5">
+                        <dt className="sr-only">Name</dt>
+                        <dd className="text-gray-900 dark:text-gray-100">{author.name}</dd>
+                        <dt className="sr-only">Github</dt>
+                        <dd>
+                          {author.github && (
+                            <Link
+                              href={author.github}
+                              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                            >
+                              {author.github.replace('https://github.com/', '@')}
+                            </Link>
+                          )}
+                        </dd>
+                      </dl>
+                    </li>
                   ))}
                 </ul>
               </dd>
@@ -115,7 +115,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                     </h2>
                     <div className="flex flex-wrap">
                       {tags.map((tag) => (
-                          <Tag key={tag} text={tag}/>
+                        <Tag key={tag} text={tag} />
                       ))}
                     </div>
                   </div>
@@ -133,16 +133,16 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                       </div>
                     )}
                     {next && next.path && (
-                    <div>
-                      <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
-                        下一篇文章
-                      </h2>
-                      <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
-                        <Link href={`/posts/${next.url}`}>{next.title}</Link>
+                      <div>
+                        <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
+                          下一篇文章
+                        </h2>
+                        <div className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">
+                          <Link href={`/posts/${next.url}`}>{next.title}</Link>
+                        </div>
                       </div>
-                    </div>
-                  )}
-                </div>
+                    )}
+                  </div>
                 )}
               </div>
               <div className="pt-4">

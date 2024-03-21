@@ -23,7 +23,7 @@ export default function Header() {
             )}
           </div>
         </Link>
-        <link href="http://api2.aistar.cool/dist/Artalk.css" rel="stylesheet" />
+        <link href="http://artalk.aistar.cool/dist/Artalk.css" rel="stylesheet" />
       </div>
       <div className="flex items-center leading-5 space-x-4 sm:space-x-6">
         {headerNavLinks

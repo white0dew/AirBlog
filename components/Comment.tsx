@@ -9,7 +9,7 @@ const WalineComment = () => {
       el: '#Comments',
       pageKey: "",
       pageTitle: "",
-      server: 'http://api2.aistar.cool:8080',
+      server: 'http://artalk.aistar.cool:8080',
       site: 'AirBlog',
       versionCheck: true,
     });

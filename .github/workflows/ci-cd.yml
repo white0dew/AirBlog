@@ -42,7 +42,7 @@ jobs:
         username: ${{ secrets.SERVER_USER }}
         password: ${{ secrets.SERVER_PASSWORD }}
         script: |
-          echo ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }} | docker login -u ${{ secrets.DOCKER_HUB_USERNAME }} --password-stdin
+          echo ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }} | docker login -u ${{ secrets.DOCKER_HUB_USERNAME }} registry.cn-hongkong.aliyuncs.com --password-stdin
           docker pull registry.cn-hongkong.aliyuncs.com/whitedewgit/airblog:latest
           docker stop airblog || true
           docker rm airblog || true

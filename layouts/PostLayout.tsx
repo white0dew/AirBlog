@@ -11,6 +11,8 @@ import ProgressBar from '@/components/ProgressBar';
 import Comment from '@/components/Comment';
 import { FaRegCalendarAlt } from 'react-icons/fa';
 import { FaRegClock } from 'react-icons/fa6';
+import { FaStreetView } from "react-icons/fa";
+import { FaRegCommentDots } from "react-icons/fa";
 
 const postDateTemplate: Intl.DateTimeFormatOptions = {
   weekday: 'long',
@@ -60,6 +62,12 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                     <span className="inline-flex items-center">
                       <FaRegClock className="mr-1.5" />
                       {readingTime.text}
+
+                      <FaStreetView className="mr-1.5 ml-1.5"/>
+                      <text > 阅读量:<span id="ArtalkPV" className="ml-1">加载...</span></text>
+
+                      <FaRegCommentDots className="mr-1.5 ml-1.5"/>
+                      <text >评论量:<span id="ArtalkCount" className="ml-1">加载...</span></text>
                     </span>
                   </dd>
                 </div>
@@ -157,7 +165,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
             </footer>
           </div>
           <div
-            className="pt-8 text-center text-gray-700 dark:text-gray-300"
+            className="pt-8 text-start text-gray-700 dark:text-gray-300"
             id="comment"
           >
             <Comment />

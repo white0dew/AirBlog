@@ -11,6 +11,7 @@ const WalineComment = () => {
       pageTitle: "",
       server: 'http://api2.aistar.cool:8080',
       site: 'AirBlog',
+      versionCheck: true,
     });
     //   // 确保Artalk.js在客户端加载
     //   const script = document.createElement('script');
@@ -29,8 +30,8 @@ const WalineComment = () => {
     //   document.body.appendChild(script);
 
     //   // 移除script标签以防止多次加载
-    //   return () => {
-    //     document.body.removeChild(script);
+    // return () => {
+    //   Artalk.
     //   };
   }, []);
 

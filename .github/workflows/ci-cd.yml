@@ -1,0 +1,49 @@
+name: Node.js CI/CD
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    # - name: Install dependencies
+    #   run: npm install
+
+    # - name: Build
+    #   run: npm run build
+
+    - name: Login to Docker Hub
+      uses: docker/login-action@v3
+      with:
+        registry: registry.cn-hongkong.aliyuncs.com # 用您的Registry地址替换
+        username: ${{ secrets.DOCKER_HUB_USERNAME }}
+        password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
+
+    - name: Build and push Docker image
+      uses: docker/build-push-action@v5.1.0
+      with:
+        push: true
+        tags: registry.cn-hongkong.aliyuncs.com/whitedewgit/air_link:latest # 用您的完整镜像名称替换
+
+
+    - name: Deploy to server
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.SERVER_HOST }}
+        username: ${{ secrets.SERVER_USER }}
+        password: ${{ secrets.SERVER_PASSWORD }}
+        script: |
+          echo ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }} | docker login -u ${{ secrets.DOCKER_HUB_USERNAME }} --password-stdin
+          docker pull registry.cn-hongkong.aliyuncs.com/whitedewgit/airblog:latest
+          docker stop airblog || true
+          docker rm airblog || true
+          docker run -d --name airblog -p 3020:3020 registry.cn-hongkong.aliyuncs.com/whitedewgit/airblog:latest

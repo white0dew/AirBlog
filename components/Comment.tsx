@@ -13,7 +13,7 @@ const WalineComment = () => {
 
   useEffect(() => {
     // artalk.setDarkMode(theme === 'dark')
-    const artalk = Artalk.init({
+    Artalk.init({
       el: '#Comments',
       pageKey: "",
       pageTitle: "",

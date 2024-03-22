@@ -9,19 +9,20 @@ const WalineComment = () => {
   // useEffect(
   //   artalk.setDarkMode(true)
   // ,[])
-  const artalk = Artalk.init({
-    el: '#Comments',
-    pageKey: "",
-    pageTitle: "",
-    server: 'http://artalk.aistar.cool:8080',
-    site: 'AirBlog',
-    versionCheck: true,
-    useBackendConf: true,
-    darkMode: theme === 'dark',
-  });
+
 
   useEffect(() => {
-    artalk.setDarkMode(theme === 'dark')
+    // artalk.setDarkMode(theme === 'dark')
+    const artalk = Artalk.init({
+      el: '#Comments',
+      pageKey: "",
+      pageTitle: "",
+      server: 'http://artalk.aistar.cool:8080',
+      site: 'AirBlog',
+      versionCheck: true,
+      useBackendConf: true,
+      darkMode: theme === 'dark',
+    });
   }, [theme]);
 
   return <div id="Comments"></div>;

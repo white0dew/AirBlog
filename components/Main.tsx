@@ -63,7 +63,7 @@ export default function Home({ posts }: Props) {
                               {title}
                             </Link>
                           </h2>
-                          <div className="flex flex-wrap">
+                          <div className="flex flex-wrap py-1">
                             {tags.map((tag) => (
                               <Tag key={tag} text={tag} />
                             ))}
@@ -84,12 +84,12 @@ export default function Home({ posts }: Props) {
                         <FaStreetView className="mr-1.5 ml-3.5" />
                         <text >阅读:<span id="ArtalkPV"
                           data-page-key={`/posts/${url}`}
-                          className="ml-1">加载...</span></text>
+                          className="ml-1">..</span></text>
 
                         <FaRegCommentDots className="mr-1.5 ml-3.5" />
                         <text >评论:<span id="ArtalkCount"
                           data-page-key={`/posts/${url}`}
-                          className="ml-1">加载...</span></text>
+                          className="ml-1">..</span></text>
                       </div>
                     </div>
                   </div>

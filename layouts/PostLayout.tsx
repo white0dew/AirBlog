@@ -63,11 +63,11 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                       <FaRegClock className="mr-1.5" />
                       {readingTime.text}
 
-                      <FaStreetView className="mr-1.5 ml-1.5"/>
-                      <text > 阅读量:<span id="ArtalkPV" className="ml-1">加载...</span></text>
+                      <FaStreetView className="mr-1.5 ml-1.5" />
+                      <text >阅读:<span id="ArtalkPV" className="ml-1">..</span></text>
 
-                      <FaRegCommentDots className="mr-1.5 ml-1.5"/>
-                      <text >评论量:<span id="ArtalkCount" className="ml-1">加载...</span></text>
+                      <FaRegCommentDots className="mr-1.5 ml-1.5" />
+                      <text >评论:<span id="ArtalkCount" className="ml-1">..</span></text>
                     </span>
                   </dd>
                 </div>

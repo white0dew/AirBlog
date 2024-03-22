@@ -19,8 +19,8 @@ export default function Home({ posts }: Props) {
   useEffect(
     () => {
       Artalk.loadCountWidget({
-        server: '服务器地址',
-        site: '站点名',
+        server: 'http://artalk.aistar.cool:8080',
+        site: 'AirBlog',
         pvEl: '#ArtalkPV',
         countEl: '#ArtalkCount',
       });

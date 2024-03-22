@@ -2,7 +2,7 @@ const siteMetadata = {
   title: `青玉白露 - white0dew's Blog`,
   author: 'white0dew',
   headerTitle: '青玉白露',
-  description: '我的所学、所思、所想,希望你喜欢',
+  description: '我的所学、所思、所想, 希望你喜欢',
   language: 'zh-cn',
   buildTime: '2023-08-01 10:14:12', // 建站时间
   theme: 'system', // system, dark or light

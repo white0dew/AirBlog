@@ -1,8 +1,13 @@
+"use client"
+
 import Link from '@/components/Link';
 import Tag from '@/components/Tag';
 import siteMetadata from '@/assets/siteMetadata';
 import { formatDate, truncateSummary } from '@/lib/utils';
 import { Post } from 'contentlayer/generated';
+import { FaRegCommentDots, FaStreetView } from 'react-icons/fa6';
+import { useEffect } from 'react';
+import Artalk from 'artalk';
 
 type Props = {
   posts: Post[]
@@ -11,6 +16,17 @@ type Props = {
 const MAX_DISPLAY = 6;
 
 export default function Home({ posts }: Props) {
+  useEffect(
+    () => {
+      Artalk.loadCountWidget({
+        server: '服务器地址',
+        site: '站点名',
+        pvEl: '#ArtalkPV',
+        countEl: '#ArtalkCount',
+      });
+    }, []
+  )
+
   return (
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -27,9 +43,9 @@ export default function Home({ posts }: Props) {
           {posts.slice(0, MAX_DISPLAY).map((post) => {
             const { slug, date, url, title, summary, tags } = post;
             return (
-              <li key={slug} className="py-12">
+              <li key={slug} className="py-4">
                 <article>
-                  <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
+                  <div className="space-y-1 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
                     <dl>
                       <dt className="sr-only">Published on</dt>
                       <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
@@ -57,7 +73,7 @@ export default function Home({ posts }: Props) {
                           {truncateSummary(summary)}
                         </div>
                       </div>
-                      <div className="text-base font-medium leading-6">
+                      <div className="flex flex-row text-base font-medium leading-6">
                         <Link
                           href={`/posts/${url}`}
                           className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
@@ -65,6 +81,15 @@ export default function Home({ posts }: Props) {
                         >
                           查看更多 &rarr;
                         </Link>
+                        <FaStreetView className="mr-1.5 ml-3.5" />
+                        <text >阅读:<span id="ArtalkPV"
+                          data-page-key={`/posts/${url}`}
+                          className="ml-1">加载...</span></text>
+
+                        <FaRegCommentDots className="mr-1.5 ml-3.5" />
+                        <text >评论:<span id="ArtalkCount"
+                          data-page-key={`/posts/${url}`}
+                          className="ml-1">加载...</span></text>
                       </div>
                     </div>
                   </div>

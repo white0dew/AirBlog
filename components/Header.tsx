@@ -1,5 +1,5 @@
 import Link from '@/components/Link';
-import Logo from '@/public/logo1.svg';
+import Logo from '@/public/blog.svg';
 import headerNavLinks from '@/assets/headerNavLinks';
 import siteMetadata from '@/assets/siteMetadata';
 import ThemeSwitch from '@/components/ThemeSwitch';

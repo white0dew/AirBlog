@@ -32,7 +32,9 @@ jobs:
       uses: docker/build-push-action@v5.1.0
       with:
         push: true
-        tags: registry.cn-hongkong.aliyuncs.com/whitedewgit/airblog:latest # 用您的完整镜像名称替换
+        tags: |
+          registry.cn-hongkong.aliyuncs.com/whitedewgit/airblog:latest 
+          registry.cn-hongkong.aliyuncs.com/whitedewgit/airblog:${{ github.sha }}
 
 
     - name: Deploy to server

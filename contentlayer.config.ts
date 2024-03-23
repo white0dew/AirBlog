@@ -29,7 +29,7 @@ const computedFields: ComputedFields = {
 
 export const Post = defineDocumentType(() => ({
   name: 'Post',
-  filePathPattern: `posts/**/*.mdx`,
+  filePathPattern: `content/posts/**/*.mdx`,
   contentType: 'mdx',
   fields: {
     title: { type: 'string', required: true },
@@ -65,7 +65,7 @@ export const Post = defineDocumentType(() => ({
 
 export const Author = defineDocumentType(() => ({
   name: 'Author',
-  filePathPattern: 'authors/**/*.mdx',
+  filePathPattern: 'content/authors/**/*.mdx',
   contentType: 'mdx',
   fields: {
     name: { type: 'string', required: true },
@@ -83,7 +83,7 @@ export const Author = defineDocumentType(() => ({
 
 export default makeSource({
   contentDirPath: '.',
-  contentDirInclude: ['posts', 'authors'],
+  contentDirInclude: ['content'],
   documentTypes: [Post, Author],
   mdx: {
     remarkPlugins: [

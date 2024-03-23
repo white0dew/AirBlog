@@ -17,7 +17,7 @@ const WalineComment = () => {
       el: '#Comments',
       pageKey: "",
       pageTitle: "",
-      server: 'http://artalk.aistar.cool:8080',
+      server: 'https://artalk.aistar.cool',
       site: 'AirBlog',
       versionCheck: true,
       useBackendConf: true,

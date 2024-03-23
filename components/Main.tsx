@@ -19,7 +19,7 @@ export default function Home({ posts }: Props) {
   useEffect(
     () => {
       Artalk.loadCountWidget({
-        server: 'http://artalk.aistar.cool:8080',
+        server: 'https://artalk.aistar.cool',
         site: 'AirBlog',
         pvEl: '#ArtalkPV',
         countEl: '#ArtalkCount',

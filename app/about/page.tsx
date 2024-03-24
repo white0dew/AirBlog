@@ -7,7 +7,6 @@ import { genPageMetadata } from '@/lib/seo';
 export const metadata = genPageMetadata({ title: '关于' })
 
 export default function About() {
-  console.log(allAuthors)
   const author = allAuthors.find((p) => p.slug === 'authors/default') as Author;
   const mainContent = coreContent(author)
 

@@ -54,6 +54,20 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  const getBdAnalyticsTag = () => {
+    return {
+      __html: `
+      var _hmt = _hmt || [];
+      (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?5b49a877b946e0893bc6274e84b9a8d0";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+      })();`,
+    }
+  }
+
+
   return (
     <html
       lang={siteMetadata.language}
@@ -71,6 +85,7 @@ export default function RootLayout({
       <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
       {/* 全局 CSS */}
       <body className="bg-white text-black antialiased dark:bg-gray-950 dark:text-white">
+        <script dangerouslySetInnerHTML={getBdAnalyticsTag()} />
         <ThemeProviders>
           <SectionContainer>
             <div className="flex h-screen flex-col justify-between font-sans">

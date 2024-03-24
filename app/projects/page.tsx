@@ -1,12 +1,10 @@
 
 export default function ProjectPage() {
-    return (<div>
+    return (<div className="flex flex-col text-center space-y-2">
+        <text className="text-xl font-mono">Project</text>
         <div>
-            <h1>Project</h1>
             <div>
-                <div>
-                    <text> 正在建设中</text>
-                </div>
+                <text> 正在建设中</text>
             </div>
         </div>
     </div>)

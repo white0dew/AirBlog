@@ -73,7 +73,7 @@ export default function Home({ posts }: Props) {
                           {truncateSummary(summary)}
                         </div>
                       </div>
-                      <div className="flex flex-row text-base font-medium leading-6">
+                      <div className="flex flex-row items-center  text-base font-medium leading-6">
                         <Link
                           href={`/posts/${url}`}
                           className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"

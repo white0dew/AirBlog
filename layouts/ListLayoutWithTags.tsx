@@ -10,6 +10,9 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/assets/siteMetadata'
 import allTags from '@/lib/tags';
 import { truncateSummary } from '@/lib/utils';
+import { FaRegCommentDots, FaStreetView } from 'react-icons/fa6';
+import { useEffect } from 'react';
+import Artalk from 'artalk';
 
 interface PaginationProps {
   totalPages: number
@@ -68,6 +71,16 @@ export default function ListLayoutWithTags({
   initialDisplayPosts = [],
   pagination,
 }: ListLayoutProps) {
+  useEffect(
+    () => {
+      Artalk.loadCountWidget({
+        server: 'https://artalk.aistar.cool',
+        site: 'AirBlog',
+        pvEl: '#ArtalkPV',
+        countEl: '#ArtalkCount',
+      });
+    }, [])
+
   const pathname = usePathname()
   const tagCounts = allTags;
   const tagKeys = Object.keys(tagCounts)
@@ -119,6 +132,7 @@ export default function ListLayoutWithTags({
               </ul>
             </div>
           </div>
+
           <div>
             <ul>
               {displayPosts.map((post) => {
@@ -146,6 +160,19 @@ export default function ListLayoutWithTags({
                         <div className="prose max-w-none text-gray-500 dark:text-gray-400">
                           {truncateSummary(summary)}
                         </div>
+                        <div className='flex text-sm flex-row items-center'>
+
+                          <FaStreetView className="mr-1.5 ml-3.5" />
+                          <text >阅读:<span id="ArtalkPV"
+                            data-page-key={`/posts/${url}`}
+                            className="ml-1">..</span></text>
+
+                          <FaRegCommentDots className="mr-1.5 ml-3.5" />
+                          <text >评论:<span id="ArtalkCount"
+                            data-page-key={`/posts/${url}`}
+                            className="ml-1">..</span></text>
+                        </div>
+
                       </div>
                     </article>
                   </li>

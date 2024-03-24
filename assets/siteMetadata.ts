@@ -6,18 +6,18 @@ const siteMetadata = {
   language: 'zh-cn',
   buildTime: '2023-08-01 10:14:12', // 建站时间
   theme: 'system', // system, dark or light
-  siteUrl: 'https://www.contrails.space',
+  siteUrl: 'https://blog.aistar.cool',
   siteRepo: 'https://github.com/white0dew/AirBlog',
   siteLogo: '/static/images/logo.png',
   socialBanner: 'https://chev.contrails.space:12650/images/2023/03/28/44f8adeb18db19af2772e5e6436f31fb.png',
   mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'chaosspades@gmail.com',
+  email: '1373685219@aa.com',
   github: 'https://github.com/white0dew',
   twitter: 'https://twitter.com/Twitter',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com',
-  juejin: 'https://juejin.cn/user/3171446982457687/posts',
+  juejin: 'https://juejin.cn/user/4046645244199597/posts',
   locale: 'zh-CN',
   analytics: {
     // If you want to use an analytics provider you have to add it to the

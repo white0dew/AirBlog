@@ -1,0 +1,262 @@
+---
+title: 'Dockerfile入门手册'
+date: '2024-03-24'
+url: 'dockerfile-learning-book'
+summary: 我在Centos7服务器上无法安装nodejs18，但通过Docker成功部署了Node.js项目。Dockerfile是构建Docker镜像的核心，包含多条指令，每条创建一个镜像层。通过Dockerfile，我学习了基础命令、多阶段构建、缓存机制、构建参数和层优化等进阶技巧，实现了高效、安全的容器部署。
+tags:
+  - Docker
+  - Node.js
+---
+
+
+**举个Docker应用很简单的例子，我有一个Centos7的服务器，但是由于系统限制，我无法安装nodejs18.....**
+
+**但是！我在Docker里就可以！**
+
+Dockerfile是Docker的心脏，一个文本文件，包含了一系列的指令，用来构建一个Docker镜像。每条指令都会在镜像中创建一个层。现在，让我带来一探究竟！
+
+
+
+![img](https://www.oss-images01.aistar.online/2024/03/33c7f6235217410665a975da99ffb336.jpeg)
+
+#### Dockerfile的基础命令
+
+- `FROM`：基础镜像指令。所有Dockerfile都以一个`FROM`指令开始，它指定了一个已存在的镜像作为构建的基础。
+- `RUN`：执行命令。在当前镜像层上执行命令，并提交结果，用于创建新的镜像层。
+- `CMD`：容器启动命令。提供容器启动时的默认执行命令。
+- `LABEL`：标签。用于为镜像添加元数据。
+- `EXPOSE`：暴露端口。它告诉Docker容器在运行时监听的端口。
+- `ENV`：环境变量。设置容器内的环境变量。
+- `ADD`和`COPY`：添加文件。`ADD`可以解压缩和远程URL，而`COPY`则更适用于本地文件复制操作。
+- `ENTRYPOINT`：入口点。配置容器启动时运行的命令。
+- `VOLUME`：定义匿名卷。用于在容器和宿主机之间共享数据。
+- `USER`：设置用户。指定运行容器的用户名或UID。
+- `WORKDIR`：工作目录。设置在容器内的命令执行的当前工作目录。
+- `ARG`：构建参数。用于定义构建时传递给Dockerfile的变量。
+- `ONBUILD`：构建触发器。当一个镜像被用作另一个构建的基础时，触发指令执行。
+
+#### 创建一个简单的Dockerfile
+
+让我们通过一个实际的例子：**部署Node.js项目来学习Dockerfile的使用**。
+
+首先，这里假设你已经有了一个`package.json`和一个主文件比如`app.js`。
+
+```dockerfile
+# 使用官方Node.js的最新LTS版本作为基础镜像
+FROM node:lts
+
+# 设置容器内部的工作目录
+WORKDIR /usr/src/app
+
+# 将package.json和package-lock.json复制到工作目录
+COPY package*.json ./
+
+# 安装项目依赖
+RUN npm install
+
+# 将本地代码复制到工作目录
+COPY . .
+
+# 告诉Docker在运行时监听3000端口
+EXPOSE 3000
+
+# 定义环境变量
+ENV NODE_ENV=production
+
+# 运行你的app.js当容器启动
+CMD ["node", "app.js"]
+```
+
+#### 构建与运行
+
+现在有了一个Dockerfile，那么如何使用它呢？
+
+**你只需要构建它！**
+
+```shell
+docker build -t your-username/nodejs-app .
+```
+
+
+
+这个命令将构建Docker镜像，并标记它为`your-username/nodejs-app`。
+
+
+
+**接下来，运行你的容器！**
+
+```shell
+docker run -p 3000:3000 -d your-username/nodejs-app
+```
+
+
+
+`-p`参数映射了容器的端口到宿主机的端口。`-d`参数代表“detached”，意味着容器会在后台运行。
+
+
+
+在掌握了Dockerfile的基础命令之后，让我们深入探索一些高级用法，这些技巧可以帮助你构建更高效、更安全、更专业的Docker镜像。
+
+![img](https://www.oss-images01.aistar.online/2024/03/c41ffc601dd84b833e6eb5218dda9710.jpeg)
+
+#### 多阶段构建 (Multi-stage Builds)
+
+
+
+多阶段构建是Dockerfile的一项强大功能，**允许你在单个Dockerfile中使用多个构建阶段，但最终只取最后阶段的结果**。
+
+
+
+这样做的好处是可以**减小镜像大小、简化构建步骤、减少安全风险，并且保持Dockerfile的可维护性**。
+
+
+
+**简单来说，就是【提纯】。**
+
+
+
+```dockerfile
+# 第一阶段：构建阶段
+FROM node:14 AS builder
+WORKDIR /app
+COPY package.json package-lock.json ./
+RUN npm install
+COPY . .
+RUN npm run build
+
+# 第二阶段：运行阶段
+FROM node:14-slim
+WORKDIR /app
+COPY --from=builder /app/build ./build
+COPY --from=builder /app/node_modules ./node_modules
+
+CMD ["node", "build/app.js"]
+```
+
+备注：在Dockerfile中的WORKDIR和COPY指令涉及到路径时，它们所指的都是容器内部的文件系统，而不是宿主机的目录。
+
+具体来说：
+
+- WORKDIR /app：**这条指令设置的是容器内部的工作目录**。如果这个目录不存在，Docker会自动创建这个目录。之后的指令如果使用相对路径，都会相对于这个/app目录。
+- COPY package.json package-lock.json ./：这里的COPY指令将宿主机上的package.json和package-lock.json文件复制到容器内部的当前工作目录（由WORKDIR指定的/app目录）。.是一个相对路径，代表了Dockerfile中通过WORKDIR指令设置的当前工作目录。
+
+简而言之，WORKDIR和COPY指令中的路径都是在容器的上下文中，不涉及到宿主机的文件系统。当你构建镜像并创建容器时，WORKDIR和COPY定义的路径和操作都是在容器内部执行的。
+
+
+
+在上面的例子中，我们首先使用一个较大的基础镜像来构建Node.js应用。
+
+
+
+构建完成后，我们复制构建结果到一个更小的基础镜像中。**这样，最终的镜像不包含构建阶段的所有额外依赖和层，从而显著减少了镜像的大小。**
+
+
+
+#### 缓存机制 (Leveraging Build Cache)
+
+
+
+Docker在构建过程中会利用缓存来提速，如果一条指令之前已经执行过，并且之后的指令没有变化，Docker会使用缓存结果而不是重新执行该指令。
+
+
+
+合理利用这一机制，可以加快镜像构建速度。
+
+
+
+```dockerfile
+# 尽量将不常变动的指令放在Dockerfile的前面
+FROM node:lts
+ENV NODE_ENV=production
+
+WORKDIR /usr/src/app
+
+# 将package.json和package-lock.json单独复制
+# 这样只有当这些文件发生变化时才会重新安装依赖
+COPY package*.json ./
+RUN npm install
+
+# 将代码复制到容器中
+COPY . .
+```
+
+
+
+#### 使用ARG和ENV优化构建参数和环境变量
+
+
+
+`ARG`指令允许你定义在构建时可以传递给Dockerfile的变量。而`ENV`指令则是设置容器运行时的环境变量。
+
+
+
+合理使用这两个指令可以让你的Dockerfile更灵活、更易于配置。
+
+
+
+```dockerfile
+# 使用ARG定义构建时的变量
+ARG NODE_VERSION=14
+
+# 使用ARG变量来指定FROM镜像
+FROM node:${NODE_VERSION}
+ARG NODE_ENV=production
+
+# 使用ENV指令设置环境变量
+ENV NODE_ENV=${NODE_ENV}
+```
+
+
+
+#### 优化指令顺序以合理利用Docker层
+
+由于Dockerfile中的每条指令都会创建一个新的层，因此合理安排指令顺序也是一种优化。
+
+
+
+```dockerfile
+# 错误的做法：先复制全部文件再安装依赖
+# 这样即使只是代码变动，也会导致缓存失效，重新安装依赖
+COPY . /app
+RUN npm install
+
+# 正确的做法：先安装依赖，再复制代码
+COPY package.json /app/
+RUN npm install
+COPY . /app
+```
+
+
+
+#### 使用.dockerignore文件
+
+类似于`.gitignore`，你可以创建一个`.dockerignore`文件来告诉Docker在构建镜像时忽略文件和目录。这不仅能减小镜像大小，也能减少构建上下文，加快构建速度。
+
+```plain
+node_modules
+npm-debug.log
+.DS_Store
+.git
+```
+
+
+
+#### 使用ONBUILD指令
+
+
+
+ONBUILD指令可以在构建一个基础镜像时预定义一些命令，这些命令将在该基础镜像作为另一个构建的基础时执行。
+
+```plain
+FROM node:12-alpine
+ONBUILD COPY . /app
+ONBUILD RUN npm install
+```
+
+
+
+这样，每次使用这个基础镜像时，COPY和RUN命令会自动执行，无需在子Dockerfile中重复这些步骤。
+
+
+
+通过上述高级用法，你可以构建出更优化、更专业的Docker镜像！

@@ -10,7 +10,7 @@ import rehypePresetMinify from 'rehype-preset-minify';
 import { Pluggable } from 'unified';
 import rehypeKatex from 'rehype-katex';
 import { countWords } from './lib/utils';
-
+import GithubSlugger from "github-slugger"
 const computedFields: ComputedFields = {
   readingTime: { type: 'json', resolve: (doc) => countWords(doc.body.raw) },
   slug: {
@@ -26,6 +26,13 @@ const computedFields: ComputedFields = {
     resolve: (doc) => doc._raw.sourceFilePath,
   }
 };
+
+// Define the shape of the document's data with TypeScript interfaces
+interface Heading {
+  level: string;
+  text: string;
+  slug?: string;
+}
 
 export const Post = defineDocumentType(() => ({
   name: 'Post',
@@ -43,7 +50,7 @@ export const Post = defineDocumentType(() => ({
     authors: { type: 'list', of: { type: 'string' } },
     layout: { type: 'string' },
     bibliography: { type: 'string' },
-    canonicalUrl: { type: 'string' }
+    canonicalUrl: { type: 'string' },
   },
   computedFields: {
     ...computedFields,
@@ -59,7 +66,28 @@ export const Post = defineDocumentType(() => ({
         image: doc.images ? doc.images[0] : siteMetadata.socialBanner,
         url: `${siteMetadata.siteUrl}/${doc._raw.flattenedPath}`
       }),
-    }
+    },
+    // 文章目录构建，参考：https://yusuf.fyi/posts/contentlayer-table-of-contents
+    headings: {
+      type: 'json',
+      resolve: async (doc) => {
+        const regXHeader = /(?:^|\n)(?<flag>#{1,6})\s+(?<content>[^\n]+)(?:\n|$)/gm;
+        const slugger = new GithubSlugger();
+        // @ts-ignore
+        const headings: Heading[] = Array.from(doc.body.raw.matchAll(regXHeader))
+          .filter(({ groups }) => groups?.flag && groups.flag.length <= 2)
+          .map(({ groups }) => {
+            const flag = groups?.flag;
+            const content = groups?.content;
+            return {
+              level: flag?.length === 1 ? 'one' : 'two',
+              text: content,
+              slug: content ? slugger.slug(content) : undefined,
+            };
+          });
+        return headings;
+      },
+    },
   },
 }))
 
@@ -97,7 +125,25 @@ export default makeSource({
       rehypeSlug,
       rehypeAutolinkHeadings,
       rehypeKatex,
-      [rehypePrismPlus, { defaultLanguage: 'js', ignoreMissing: true, showLineNumbers: true }],
+      [rehypePrismPlus, {
+        defaultLanguage: 'js', ignoreMissing: true, showLineNumbers: false, alias: {
+          js: 'javascript',
+          html: 'markup',
+          svg: 'markup',
+          xml: 'markup',
+          py: 'python',
+          css: 'css',
+          ts: 'typescript',
+          tsx: 'typescript',
+          jsx: 'typescript',
+          md: 'markdown',
+          mdx: 'markdown',
+          sh: 'bash',
+          bash: 'bash',
+          bat: 'bat',
+          // 添加更多语言别名对应关系
+        }
+      }],
       rehypePresetMinify as Pluggable<any[]>
     ]
   }

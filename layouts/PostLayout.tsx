@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { AwaitedReactNode, JSXElementConstructor, ReactElement, ReactNode, ReactPortal } from 'react';
 import { CoreContent } from 'pliny/utils/contentlayer';
 import type { Post, Author } from 'contentlayer/generated';
 import Link from '@/components/Link';
@@ -30,7 +30,7 @@ interface LayoutProps {
 }
 
 export default function PostLayout({ content, authorDetails, next, prev, children }: LayoutProps) {
-  const { path, date, title, tags, readingTime } = content;
+  const { path, date, title, tags, readingTime, headings } = content;
   const basePath = path.split('/')[0]
 
   return (
@@ -110,10 +110,30 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
               </dd>
             </dl>
           </header>
+
           <div className="divide-y divide-gray-200 dark:divide-gray-700">
-            <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
+            <div className="flex justify-center divide-y  space-x-2 divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
+              {/* 文章主体 */}
               <div className="prose max-w-none pb-8 pt-10 dark:prose-invert">{children}</div>
+              {/* 文章目录 */}
+              {/* <div className="hidden xl:block w-full">
+
+                <div className="sticky top-20 pt-10 bg-blue-100 rounded-lg py-20 pl-4 w-fit max-w-64">
+                  <h1 className='text-lg font-semibold mb-3'>文章目录</h1>
+                  {headings?.map((heading: { slug: any; level: any; text: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<AwaitedReactNode> | null | undefined; }) => {
+                    return (
+                      <div key={`#${heading.slug}`}>
+                        <a className="underline data-[level=two]:pl-4 data-[level=three]:pl-8 " data-level={heading.level} href={`#${heading.slug}`}>
+                          {heading.text}
+                        </a>
+                      </div>
+                    )
+                  })}
+                </div>
+              </div> */}
             </div>
+
+
             <footer className="pb-6">
               <div className="divide-gray-200 text-sm font-medium leading-5 dark:divide-gray-700">
                 {tags && (
@@ -163,13 +183,14 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                 </Link>
               </div>
             </footer>
+            <div
+              className="pt-8 text-start text-gray-700 dark:text-gray-300"
+              id="comment"
+            >
+              <Comment />
+            </div>
           </div>
-          <div
-            className="pt-8 text-start text-gray-700 dark:text-gray-300"
-            id="comment"
-          >
-            <Comment />
-          </div>
+
         </div>
       </article>
     </SectionContainer>

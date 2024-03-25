@@ -20,7 +20,7 @@ export default function Header() {
   //   : 'hover:bg-gray-100'; // 非/posts/路径时的hover背景色
 
   return (
-    <header className="flex items-center justify-between py-10">
+    <header className=" top-1 z-999 flex items-center justify-between py-10 ">
       <div>
         <Link href="/" aria-label={siteMetadata.headerTitle}>
           <div className="flex items-center justify-between">

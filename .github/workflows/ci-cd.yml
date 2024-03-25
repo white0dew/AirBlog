@@ -48,4 +48,5 @@ jobs:
           docker pull registry.cn-hongkong.aliyuncs.com/whitedewgit/airblog:latest
           docker stop airblog || true
           docker rm airblog || true
+          rm -rf /www/server/nginx/proxy_cache_dir/*
           docker run -d --name airblog -p 3020:3020 registry.cn-hongkong.aliyuncs.com/whitedewgit/airblog:latest

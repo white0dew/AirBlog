@@ -1,4 +1,4 @@
-import { AwaitedReactNode, JSXElementConstructor, ReactElement, ReactNode, ReactPortal } from 'react';
+import { ReactNode } from 'react';
 import { CoreContent } from 'pliny/utils/contentlayer';
 import type { Post, Author } from 'contentlayer/generated';
 import Link from '@/components/Link';

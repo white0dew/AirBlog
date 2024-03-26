@@ -19,7 +19,7 @@ export default function Toc() {
             /* Optional 2. 
             Enable this if 'active' class on scroll won't work properly
             */
-            hasInnerContainers: false,
+            hasInnerContainers: true,
             linkClass: 'toc-link'
         });
 

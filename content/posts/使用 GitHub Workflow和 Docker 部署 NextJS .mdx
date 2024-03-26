@@ -1,0 +1,202 @@
+---
+title: '通过Github Action和Docker自动化部署Nextjs应用'
+date: '2024-03-24'
+url: 'automated-deployment-nextjs-app-github-action-docker'
+summary: Nextjs是一个功能强大的JavaScript框架，通过Github Action和Docker可以实现自动化部署。本文介绍了如何设置Nextjs项目、创建Dockerfile并通过Github Workflow进行构建和推送镜像的过程。使用node:lts-alpine作为基础镜像，通过在Github Actions中设置环境变量，避免在Docker中构建时遇到的问题。本文详细解释了为何直接复制.next和public文件夹到容器中，以及如何使用Github Actions进行CI/CD，最终实现Nextjs应用的自动化部署。
+tags:
+  - Docker
+  - Nextjs
+---
+最近由于某个偶然的事件，突然对Docker、Github自动化部署产生了浓厚的兴趣，开始研究Docker部署Nextjs应用！
+
+**通过这篇博客，你将会了解如何通过Github Action以及Docker自动化部署你的镜像。**
+
+NextJS 是 vercel 创建的 JavaScript 框架。它允许你使用 React 构建无服务器 API、服务器端渲染和静态 Web 应用程序。 Vercel 提供与 GitHub、GitLab 和 BitHub 的开箱即用 CI/CD 集成。
+
+但有时，我们希望将 NextJS 应用程序托管在 vercel 之外的其他平台上，例如 AWS、 Azure。
+
+在本博客中，我们将了解如何使用 GitHub Workflow 和 Docker 构建 NextJS 应用程序。
+
+### 设置 NextJS 应用程序
+
+NextJS 建议使用 create-next-app ，它会自动为你设置所有内容。要创建项目，请运行：
+
+```jsx
+npx create-next-app
+# or
+yarn create next-app
+```
+
+安装完成后，按照说明启动开发服务器。尝试编辑 pages/index.js 并在浏览器上查看结果。
+
+### 设置 Dockerfile
+
+我们将把 NextJS 应用程序打包到 Docker 镜像中。使用 Docker 的原因是当我们想要运行 NextJS 服务器时，我们不需要安装任何额外的软件包，如 nodejs、pm2 等。 
+
+Docker 会将所有内容捆绑在一起，并为我们提供可以在任何地方运行的镜像。以下是我的 NextJS 应用程序的示例 Dockerfile。
+
+```jsx
+FROM node:lts-alpine
+
+ENV NODE_ENV production
+ENV NPM_CONFIG_LOGLEVEL warn
+
+RUN mkdir /home/node/app/ && chown -R node:node /home/node/app
+
+WORKDIR /home/node/app
+
+COPY package.json package.json
+COPY package-lock.json package-lock.json
+
+USER node
+
+RUN npm install --production
+
+COPY --chown=node:node .next .next
+COPY --chown=node:node public public
+
+EXPOSE 3000
+
+CMD npm start
+```
+
+现在，让我们逐步看看上面的 Dockerfile 中发生了什么。
+
+- 我们使用 node:lts-alpine 作为基础镜像。
+- 将环境变量设置为 production 。
+- 设置一个 app 文件夹，并以 node 用户作为所有者。
+- 将 package.json 和 package-lock.json 复制到映像中。
+- 运行 npm install production 仅安装生产依赖项。
+- 将 .next 和 public 文件夹复制到容器中。这是非常有趣的一步。为什么我们要复制文件夹而不是使用 next build 命令构建应用程序？我们将在下面详细讨论这一点。
+- 暴露端口 3000，以便我们的应用程序可以从容器中访问。
+- 最后，运行 npm start 命令来启动我们的 NextJS 应用服务器。
+
+
+
+我们可以看到，我们没有对 Dockerfile 进行任何更改。它很容易理解并且简单明了。有趣的部分是我们将 .next 和 public 文件夹复制到容器中，而不是在容器内构建。
+
+这是详细的解释：
+
+- 在NextJS应用程序中，我们可能需要使用NEXT_PUBLIC环境变量。构建时过程需要 NEXT_PUBLIC 变量。 （例如 Firebase Web 客户端）
+- 如果我们使用 Firebase Web 客户端，那么我们需要提供一些必需的变量，例如 firebase api_key、app_id、auth_domain。
+- 在本地开发应用程序时，我们将这些变量写入 .env 或 .env.local 文件中。但我们不、不应该也不得将此文件推送到 git 等 VCS 系统上。
+- 因此，当我们在本地构建应用程序时，它将使用 .env 中的这些变量，并且过程会顺利完成。但是，当我们使用 RUN next build 命令在 Docker 中构建应用程序时，构建命令将失败，因为我们没有在 docker 映像中提供这些变量。
+- 如果我们想在 docker 构建过程中构建 NextJS 应用程序，我们需要在 docker build 命令中使用 --build-args 来传递构建时变量。有两种方法可以做到这一点。
+
+1. 我们使用 ci 秘密变量并将它们传递到 docker build 命令中
+2. 我们创建一个 .env 文件，使用 base64 对其进行编码，将其作为 ci 秘密变量传递，在 docker 文件内使用 base64 对其进行解码，然后构建 docker 映像。
+
+- 如果我们的公共变量列表将来增长，这将变得非常难以传递和维护。
+- 因此，为了不使构建过程复杂化，我们将使用 ci job 在 docker 映像之外构建应用程序，然后将 .next 、 public 文件夹复制到 docker 映像中。
+- 要在 ci 中传递环境变量，有两种方法。
+
+1. 将环境变量作为秘密传递
+2. 传递 .env 文件的base64编码，在ci进程中对其进行解码，将文件写入我们项目文件夹的根目录，与本地开发相同并构建我们的应用程序。
+
+
+
+### GtiHub Workflow
+
+Workflow是由一个或多个作业组成的可配置自动化流程。我们将使用 YAML 文件配置工作流程。你可以在这里阅读更多。
+
+下面是工作流程文件，我们将使用相同的。将此文件保存在 PROJECT_ROOT_FOLDER/.github/workflows/main.yml ，以便 GitHub 可以读取 yaml 文件并相应地设置操作。
+
+```jsx
+name: Build & Publish
+
+on:
+  push:
+    branches:
+      - "**"             # all branches
+      - "!dependabot/**"      # exclude dependbot branches
+  workflow_dispatch:      # Manually run the workflow
+
+jobs:
+  next-build:
+    if: ${{ github.event_name == 'workflow_dispatch' }}       # Run only if triggered manually
+    runs-on: ubuntu-latest
+    container: node:lts          # Use node LTS container version, same as Dockerfile base image
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2       # Checkout the code
+      - run: npm ci            #install dependencies
+      - run: npm run build
+        env:
+          NEXT_PUBLIC_FIREBASE_API_KEY: ${{secrets.NEXT_PUBLIC_FIREBASE_API_KEY}}
+          NEXT_PUBLIC_FIREBASE_APP_ID: ${{secrets.NEXT_PUBLIC_FIREBASE_APP_ID}}
+          NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN: ${{secrets.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN}}
+          NEXT_PUBLIC_FIREBASE_PROJECT_ID: ${{secrets.NEXT_PUBLIC_FIREBASE_PROJECT_ID}}
+          NEXT_PUBLIC_SENTRY_DSN: ${{secrets.NEXT_PUBLIC_SENTRY_DSN}}
+      - name: Upload Next build          # Upload the artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: build
+          path: |
+            .next
+            public
+          retention-days: 7         # artifact retention duration, can be upto 30 days
+  docker-push:
+    needs: next-build        # Job depends on next-build(above) job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Download next build       # Download the above uploaded artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: build
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.CR_PAT }}
+      - name: Build and Push Docker Images
+        run: |
+          export CURRENT_BRANCH=${GITHUB_REF#refs/heads/}
+          export TAG=$([[ $CURRENT_BRANCH == "main" ]] && echo "latest" || echo $CURRENT_BRANCH)
+          export GITHUB_REF_IMAGE=ghcr.io/$GITHUB_REPOSITORY:$GITHUB_SHA
+          export GITHUB_BRANCH_IMAGE=ghcr.io/$GITHUB_REPOSITORY:$TAG
+          docker build -t $GCR_IMAGE -t $GITHUB_REF_IMAGE -t $GITHUB_BRANCH_IMAGE .
+          echo "Pushing Image to GitHub Container Registry"
+          docker push $GITHUB_REF_IMAGE
+          docker push $GITHUB_BRANCH_IMAGE
+```
+
+现在，让我们讨论一下 yaml 文件中发生了什么。
+
+- 我们需要传递要触发工作流程的事件的条件。在我们的例子中，我们希望它出现在推送事件上。它也可以像 [push, pull_request] 一样多个。你可以在这里阅读更多。
+- 我们可以定义分支，我们希望这个工作流运行来观看。 ！意味着要排除这些分支。
+- workflow_dispatch 手动运行构建过程。如果我们不写这个，我们的工作流程将在每次推送到存储库的任何分支时运行。你可以在这里阅读更多。
+- 我们将构建过程分为 2 个作业。
+
+1.  构建Nextjs：
+
+- 在此步骤中，我们使用 node:lts 作为基础镜像，这必须与 Dockerfile 基础镜像相同
+- 我们保留这份作业手册，因为我们不希望每次推送代码时都运行该作业。所以我们在步骤中添加 `if: ${{ github.event_name == 'workflow_dispatch' }}` 条件。
+- 在 env 部分中，我们从机密中导出环境变量。所以我们需要在GitHub项目的secret中添加这些变量。请在此处阅读有关如何操作的更多信息。
+- 在下一步中，操作将检查代码，运行 npm ci 以安装依赖项，并运行 npm run build 使用导出的环境变量构建 NextJS 应用程序。
+- 最后，在成功构建后，CI 作业将使用 actions/upload-artifact@v2 操作将我们的构建文件夹作为工件上传到 GitHub 上，保留时间为 7 天，以便 ci 作业可以在 docker-build 作业中下载相同的文件夹并用它来构建图像。在构建文件夹中，我们包括 .next 和 public 文件夹。 .next 文件夹是由构建过程生成的，我们使用公共文件夹来存放 svgs、图像等资源。因此我们也希望保留该文件夹。
+
+2. docker-push：构建我们的 docker 镜像
+
+- 该作业依赖于 needs:next-build ，这意味着我们只有在成功 next-build 作业后才会看到该作业。如果我们不写这个，那么我们的两个作业将并行，并且该作业将失败，因为它将无法下载 build 工件。 next build 将上传工件，然后，ci 作业，我们将能够访问它。所以我们需要这样写，它将创建一个顺序作业，而不是并行作业。
+- CI 作业将检查代码，使用 actions/download-artifact@v2 下载构建工件文件夹并将其解压缩。
+- 我们希望将 docker 镜像托管在 GitHub 包上，为此，我们将使用 docker/login-action@v1 操作使用用户名和密码登录 GitHub 容器注册表服务器。我们还需要在存储库机密中传递 CR_PAT ，与 NEXT_PUBLIC 变量相同。我们还可以在此处添加其他注册表，例如 GCR、AWS ECR 等。
+- 接下来，ci 作业将获取 CURRENT_BRANCH 并相应地标记我们的 docker 构建。在这里，我们创建 2 个标签，一个是分支名称，如 dev 、 qa 、 uat 、 main ，另一个是 commit沙。
+- 之后，该作业将开始构建我们的 docker 镜像，并在成功构建后将其推送到 GitHub 包。在这里，我们也可以将其推送到其他注册表，例如 GCR、AWS ECR 等。
+- 最后，这个作业就会退出，我们的工作流程就成功通过了。
+
+要运行作业，我们必须导航到存储库操作，你将在左侧边栏上看到带有 Build & Push 的工作流程。单击该链接，你将看到如下屏幕。n
+
+![img](https://www.oss-images01.aistar.online/2024/03/64ab433dbc9d88fc1681ee409b740426.png)
+
+有了这个，我们将能够构建和打包我们的 NextJS 应用程序。你将在屏幕截图下方看到操作屏幕。
+
+![img](https://www.oss-images01.aistar.online/2024/03/d215203a8eb82449cdbb792fb3438f15.png)
+
+
+
+参考链接:
+
+https://dev.to/thakkaryash94/build-nextjs-application-using-github-workflow-and-docker-3foj

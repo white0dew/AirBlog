@@ -30,7 +30,8 @@
     "remark": "^15.0.1",
     "remark-gfm": "^3.0.1",
     "remark-math": "^6.0.0",
-    "remark-toc": "^9.0.0"
+    "remark-toc": "^9.0.0",
+    "tocbot": "^4.25.0"
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",

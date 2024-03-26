@@ -112,27 +112,10 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
           </header>
 
           <div id='post_content' className="max-w-none divide-y divide-gray-200 dark:divide-gray-700">
-            <div className="flex justify-between divide-y  space-x-2 divide-gray-200 dark:divide-gray-700  xl:pb-0">
+            <div className="flex justify-center mx-auto divide-y  space-x-2 divide-gray-200 dark:divide-gray-700  xl:pb-0">
               {/* 文章主体 */}
-              <div className="flex-4 prose max-w-4xl pb-8 pt-10 dark:prose-invert">{children}</div>
-
-              {/* 文章目录 */}
-              <div className="hidden xl:block w-64">
-                <div className="sticky top-20 pt-10 bg-blue-100 rounded-lg py-20 pl-4 ">
-                  <h1 className='text-lg font-semibold mb-3'>目录</h1>
-                  {headings?.map((heading: any) => {
-                    return (
-                      <div key={`#${heading.slug}`}>
-                        <a className="underline data-[level=two]:pl-4 data-[level=three]:pl-8 " data-level={heading.level} href={`#${heading.slug}`}>
-                          {heading.text}
-                        </a>
-                      </div>
-                    )
-                  })}
-                </div>
-              </div>
+              <div className="js-toc-content  prose max-w-7xl pb-8 pt-10 dark:prose-invert">{children}</div>
             </div>
-
 
             <footer className="pb-6">
               <div className="divide-gray-200 text-sm font-medium leading-5 dark:divide-gray-700">

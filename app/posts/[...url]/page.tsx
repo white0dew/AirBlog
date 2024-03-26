@@ -1,4 +1,5 @@
 import '@/assets/css/prism.css';
+import '@/assets/css/toc.css';
 import 'katex/dist/katex.css';
 
 import PageTitle from '@/components/PageTitle';
@@ -10,6 +11,7 @@ import { allCoreContent, coreContent } from 'pliny/utils/contentlayer';
 import { Metadata } from 'next';
 import siteMetadata from '@/assets/siteMetadata';
 import { components } from '@/components/MDXComponents';
+import Toc from '@/components/Toc';
 
 type Props = {
   params: {
@@ -117,7 +119,7 @@ export default function Page({ params }: Props) {
   });
 
   return (
-    <>
+    <div className='flex flex-row '>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -125,6 +127,11 @@ export default function Page({ params }: Props) {
       <PostLayout content={mainContent} authorDetails={authorDetails} next={next} prev={prev}>
         <MDXLayoutRenderer code={post.body.code} components={components} />
       </PostLayout>
-    </>
+      <aside>
+        <div className="hidden xl:block w-64 sticky top-72 pt-10 bg-blue-100 rounded-lg py-20 pl-4 ">
+          <Toc />
+        </div>
+      </aside>
+    </div>
   );
 }

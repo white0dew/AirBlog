@@ -1,29 +1,14 @@
 /* 第一级目录样式 */
-.toc-list li.toc-level-1 {
-    margin-left: 0;
-  }
-  
-  /* 第二级目录样式 */
-  .toc-list li.toc-level-2 {
-    margin-left: 20px;
-  }
-  
-  /* 第三级目录样式 */
-  .toc-list li.toc-level-3 {
-    margin-left: 40px;
-  }
+.js-toc li.toc-level-1 {
+    padding-left: 0;
+}
 
-  /* 第一级目录样式 */
-.toc-list > ul > li {
-    margin-left: 0;
-  }
-  
-  /* 第二级目录样式 */
-  .toc-list > ul > li > ul > li {
-    margin-left: 20px;
-  }
-  
-  /* 第三级目录样式 */
-  .toc-list > ul > li > ul > li > ul > li {
-    margin-left: 40px;
-  }
+/* 第二级目录样式 */
+.js-toc li.toc-level-2 {
+    padding-left: 20px;
+}
+
+/* 第三级目录样式 */
+.js-toc li.toc-level-3 {
+    padding-left: 40px;
+}

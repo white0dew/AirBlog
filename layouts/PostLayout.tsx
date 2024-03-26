@@ -38,7 +38,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
       <ProgressBar />
       <ScrollTopAndComment />
       <article>
-        <div className="divide-y divide-gray-200 dark:divide-gray-700">
+        <div className="divide-y divide-gray-200 dark:divide-gray-700 max-w-none">
           <header className="pt-6 pb-6">
             <div className="space-y-1 text-center">
               <dl className="space-y-10">
@@ -111,16 +111,16 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
             </dl>
           </header>
 
-          <div className="divide-y divide-gray-200 dark:divide-gray-700">
-            <div className="flex justify-center divide-y  space-x-2 divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
+          <div id='post_content' className="max-w-none divide-y divide-gray-200 dark:divide-gray-700">
+            <div className="flex justify-between divide-y  space-x-2 divide-gray-200 dark:divide-gray-700  xl:pb-0">
               {/* 文章主体 */}
-              <div className="prose max-w-none pb-8 pt-10 dark:prose-invert">{children}</div>
-              {/* 文章目录 */}
-              {/* <div className="hidden xl:block w-full">
+              <div className="flex-4 prose max-w-4xl pb-8 pt-10 dark:prose-invert">{children}</div>
 
-                <div className="sticky top-20 pt-10 bg-blue-100 rounded-lg py-20 pl-4 w-fit max-w-64">
-                  <h1 className='text-lg font-semibold mb-3'>文章目录</h1>
-                  {headings?.map((heading: { slug: any; level: any; text: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | Promise<AwaitedReactNode> | null | undefined; }) => {
+              {/* 文章目录 */}
+              <div className="hidden xl:block w-64">
+                <div className="sticky top-20 pt-10 bg-blue-100 rounded-lg py-20 pl-4 ">
+                  <h1 className='text-lg font-semibold mb-3'>目录</h1>
+                  {headings?.map((heading: any) => {
                     return (
                       <div key={`#${heading.slug}`}>
                         <a className="underline data-[level=two]:pl-4 data-[level=three]:pl-8 " data-level={heading.level} href={`#${heading.slug}`}>
@@ -130,7 +130,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                     )
                   })}
                 </div>
-              </div> */}
+              </div>
             </div>
 
 
@@ -184,12 +184,13 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
               </div>
             </footer>
             <div
-              className="pt-8 text-start text-gray-700 dark:text-gray-300"
+              className="p-2 text-start text-gray-700 dark:text-gray-300"
               id="comment"
             >
               <Comment />
             </div>
           </div>
+
 
         </div>
       </article>

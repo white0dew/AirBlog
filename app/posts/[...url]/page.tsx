@@ -57,6 +57,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata | un
       images: ogImages,
       authors: authors.length > 0 ? authors : [siteMetadata.author],
     },
+    applicationName: "AirBlog",
+    generator: "Nextjs",
+    authors: {
+      url: "https://github.com/white0dew",
+      name: "青玉白露"
+    },
+    keywords: post.tags,
     twitter: {
       card: 'summary_large_image',
       title: post.title,
@@ -84,8 +91,8 @@ export default function Page({ params }: Props) {
         <PageTitle>
           Under Construction{' '}
           <span role="img" aria-label="roadwork sign">
-          🚧
-        </span>
+            🚧
+          </span>
         </PageTitle>
       </div>
     );

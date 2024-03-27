@@ -23,7 +23,7 @@ tags:
   
 
 
-### 我们将做什么？
+## 我们将做什么？
 
 在开始前，我将向你展示我们将在本文中创建的目录类型。
 
@@ -45,14 +45,14 @@ tags:
   
 
 
-#### 步骤1. 安装包
+### 步骤1. 安装包
 
   
 
 
 首先，我们需要安装以下包。
 
-```
+``` console
 npm install rehype-slug tocbot
 ```
 
@@ -62,7 +62,7 @@ npm install rehype-slug tocbot
   
 
 
-#### 步骤2. 使用rehype-slug为标题标签添加id
+### 步骤2. 使用rehype-slug为标题标签添加id
 
   
 
@@ -81,14 +81,15 @@ npm install rehype-slug tocbot
   
 
 
-##### rehype-slug的工作原理
+#### rehype-slug的工作原理
 
   
 
 
 让我向你展示这个插件是如何工作的。假设你的mdx文件包含以下内容。
 
-```
+``` md
+# 这是一级标题
 ## 这是二级标题
 ### 这是三级标题
 #### 示例标题
@@ -100,7 +101,7 @@ npm install rehype-slug tocbot
 
 当在浏览器中渲染时，它看起来像这样。
 
-```
+``` html
 <h2 id="this-is-heading-2">这是二级标题</h2>
 <h3 id="this-is-heading-3">这是三级标题</h3>
 <h4 id="sample-heading">示例标题</h4>
@@ -120,7 +121,7 @@ rehype会查找标题标签，并添加id属性，其值为标签内部的文本
   
 
 
-##### 在contentlayer.config.js中设置rehype-slug
+#### 在contentlayer.config.js中设置rehype-slug
 
   
 
@@ -129,7 +130,7 @@ rehype会查找标题标签，并添加id属性，其值为标签内部的文本
 
   
 
-```
+``` javascript
 import rehypeSlug from "rehype-slug";
 
 export default makeSource({
@@ -149,7 +150,7 @@ export default makeSource({
   
 
 
-#### 步骤3. 创建toc组件
+### 步骤3. 创建toc组件
 
   
 
@@ -158,7 +159,7 @@ export default makeSource({
 
   
 
-```
+``` jsx
 // /components/toc.jsx
 
 import { useEffect } from "react";
@@ -204,7 +205,7 @@ export default function Toc() {
 
   
 
-```
+``` jsx
 // /components/toc.jsx
 
 useEffect(() => {
@@ -237,7 +238,7 @@ useEffect(() => {
 
   
 
-```
+``` jsx
 // /components/toc.jsx
 
 import { useEffect } from "react";
@@ -262,14 +263,14 @@ export default function Toc() {
   
 
 
-#### 步骤4. 在单页的博客内容包装器中添加类
+### 步骤4. 在单页的博客内容包装器中添加类
 
 
 我们需要告诉Tocbot从哪里获取所有标题来制作目录。为了做到这一点，我们需要在单页（在我的案例中是/pages/posts/[slug].js）中添加几行代码。如果你有一个使用Contentlayer的MDX博客，你的[slug].js文件应该看起来像这样：
 
  
 
-```
+``` javascript
 // pages/posts/[slug].js
 
 import { useMDXComponent } from "next-contentlayer/hooks";
@@ -293,11 +294,12 @@ export default PostLayout;
   
 
 
-<MDXContent />是MDX内容将被渲染的地方。所以，我们添加一个带有js-toc-content类的div标签，并将<MDXContent />包裹起来，如下所示：
+`<MDXContent />`是MDX内容将被渲染的地方。
+所以，我们添加一个带有js-toc-content类的div标签，并将`<MDXContent />`包裹起来，如下所示：
 
  
 
-```
+``` javascript
 // pages/posts/[slug].js
 
 return (
@@ -317,7 +319,7 @@ return (
   
 
 
-#### 步骤5. 将toc组件导入到你的页面中
+### 步骤5. 将toc组件导入到你的页面中
 
   
 
@@ -335,7 +337,7 @@ return (
 
 转到你的单页（[slug].js），并添加突出显示的行:
 
-```
+``` javascript
 // pages/posts/[slug].js
 
 import { useMDXComponent } from "next-contentlayer/hooks";
@@ -353,9 +355,9 @@ const mdxComponents = {
   
 
 
-现在，<Toc />组件已经可以在.mdx文件中使用，你可以这样调用它：
+现在，`<Toc />`组件已经可以在.mdx文件中使用，你可以这样调用它：
 
-```
+``` mdx
 // /posts/sample.mdx
 
 ---
@@ -363,7 +365,7 @@ title: 示例mdx文件
 publishedAt: 2023-02-04T20:00:00
 ---
 这是一个示例内容。
-<Toc />
+`<Toc />`
 这是一个示例内容...
 ```
 
@@ -383,7 +385,7 @@ publishedAt: 2023-02-04T20:00:00
 
 在我的博客中，我在[slug].js文件中的侧边栏显示它。
 
-```
+``` javascript
 // /pages/posts/[slug].js
 
 import { useMDXComponent } from "next-contentlayer/hooks";
@@ -416,7 +418,7 @@ export default PostLayout;
 
   
 
-### 最后的想法
+## 最后的想法
 
 
 
@@ -425,6 +427,6 @@ export default PostLayout;
 
   
 
-### 参考
+## 参考
 
 https://webtech-note.com/posts/tocbot-contentlayer

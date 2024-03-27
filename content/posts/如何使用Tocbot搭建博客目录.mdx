@@ -1,0 +1,430 @@
+---
+
+title: '如何使用Contentlayer和Tocbot创建博客网站目录？' 
+
+date: '2024-03-27' 
+
+url: 'create-toc-with-contentlayer-and-tocbot' 
+
+summary: 本文介绍如何结合Contentlayer和Tocbot在Next.js项目中创建目录。详细步骤包括安装必要的包、为标题添加ID、设置rehype-slug、创建toc组件，并在页面中添加目录。目录功能包括平滑滚动到锚点、设置偏移量、选择显示的标题级别以及滚动时高亮当前部分。本教程适合使用Next.js、Contentlayer和markdown或MDX的开发者。 
+
+tags:  
+    - Contentlayer  
+    - Next.js 
+---
+
+目录可以帮助访问者快速了解文章的摘要，并导航至他们感兴趣的部分。
+
+  
+
+
+在本文中，我将向你展示如何结合Contentlayer和Next.js使用Tocbot创建目录。本教程适合在其网站中使用Next.js、Contentlayer或者markdown或MDX的人。
+
+  
+
+
+### 我们将做什么？
+
+在开始前，我将向你展示我们将在本文中创建的目录类型。
+
+
+-   你可以将其放置在任何地方（在博客内容中、侧边栏等）
+-   点击时平滑滚动到锚点
+-   如果你有一个固定头部，可以设置偏移值
+-   选择你想要显示的标题标签级别
+-   滚动时设置活动类以突出显示当前部分
+
+ 
+
+
+基本上，我们将创建你在[本页面](https://blog.aistar.cool)侧边栏中看到的同一类型的目录。（如果你看不到，请将浏览器宽度增加到1280px或更宽）
+
+
+如果这是你想要构建的，那么让我们开始吧！
+
+  
+
+
+#### 步骤1. 安装包
+
+  
+
+
+首先，我们需要安装以下包。
+
+```
+npm install rehype-slug tocbot
+```
+
+
+这些就是我们所需要的。稍后我会解释这些包将要做的事情。
+
+  
+
+
+#### 步骤2. 使用rehype-slug为标题标签添加id
+
+  
+
+
+为了设置标题标签的锚点链接，每个标题都必须具有一个具有唯一值的id属性。
+
+  
+
+
+为此，我们将使用rehype-slug。rehype-slug将自动完成以下工作：
+
+
+-   使用内部文本作为值为h1-h6标签添加id
+-   确保每个id值都是唯一的
+
+  
+
+
+##### rehype-slug的工作原理
+
+  
+
+
+让我向你展示这个插件是如何工作的。假设你的mdx文件包含以下内容。
+
+```
+## 这是二级标题
+### 这是三级标题
+#### 示例标题
+##### 示例标题
+```
+
+  
+
+
+当在浏览器中渲染时，它看起来像这样。
+
+```
+<h2 id="this-is-heading-2">这是二级标题</h2>
+<h3 id="this-is-heading-3">这是三级标题</h3>
+<h4 id="sample-heading">示例标题</h4>
+<h5 id="sample-heading-1">示例标题</h5>
+```
+
+  
+
+
+rehype会查找标题标签，并添加id属性，其值为标签内部的文本内容。
+
+  
+
+
+此外，即使标题标签具有相同的文本字符串，它也会生成唯一的id值。你可以通过查看两个内部包含示例标题字符串的标题来看出。当rehype-slug检测到相同的字符串时，它会添加额外的值以使它们唯一。
+
+  
+
+
+##### 在contentlayer.config.js中设置rehype-slug
+
+  
+
+
+要使用rehype插件，你需要在contentlayer.config.js中导入它。
+
+  
+
+```
+import rehypeSlug from "rehype-slug";
+
+export default makeSource({
+  contentDirPath: "posts", // 你自己的设置
+  documentTypes: [Post], // 你自己的设置
+  mdx: {
+    rehypePlugins: [rehypeSlug],
+  },
+});
+```
+
+  
+
+
+这是你所需要的全部设置。你只需将rephype-slug包含在rehypePlugins数组中。如果你导航到你的博客页面，你将看到带有id属性的标题。
+
+  
+
+
+#### 步骤3. 创建toc组件
+
+  
+
+
+现在，让我们开始使用Tocbot构建目录。首先创建一个新的文件toc.jsx，并复制粘贴以下代码。
+
+  
+
+```
+// /components/toc.jsx
+
+import { useEffect } from "react";
+import tocbot from "tocbot";
+
+export default function Toc() {
+  useEffect(() => {
+    tocbot.init({
+      tocSelector: ".js-toc", // 选择toc的包装器
+      contentSelector: ".js-toc-content", // 选择内容的包装器
+      headingSelector: "h2, h3", // 选择要显示的标题标签
+      /* 可选1.
+      如果你有一个固定的头部并调整偏移值，请启用这些
+      */
+      // headingsOffset: 100,
+      // scrollSmoothOffset: -100,
+      /* 可选2.
+      如果滚动时'active'类不能正常工作，请启用这个
+      */
+      // hasInnerContainers: true,
+    });
+    return () => tocbot.destroy();
+  }, []);
+
+  return (
+    <div>
+      <span>目录</span>
+      <div className="js-toc"></div>
+    </div>
+  );
+}
+```
+
+  
+
+
+这是最基本的设置，仅包含最少的选项。我将逐个分解并单独解释。
+
+  
+
+3-1. 初始化tocbot 
+我们使用React useEffect来初始化tocbot。组件渲染后，它创建目录。完成后，调用destroy方法移除事件监听器。
+
+  
+
+```
+// /components/toc.jsx
+
+useEffect(() => {
+  tocbot.init({
+    // ...
+  });
+  return () => tocbot.destroy();
+}, []);
+```
+
+  
+
+
+在初始化tocbot时，你可以传递一些选项。这3个选项是创建ToC所必需的。
+
+
+-   tocSelector - 在哪里渲染目录。
+-   contentSelector - 从哪里获取标题来构建目录。
+-   headingSelector - 在contentSelector元素内选择哪些标题。
+
+  
+
+
+关于可选设置和其他选项，请查看官方Tocbot页面。
+
+  
+
+3-2. 创建目录模板 
+我们需要创建一个模板来显示目录。
+
+  
+
+```
+// /components/toc.jsx
+
+import { useEffect } from "react";
+import tocbot from "tocbot";
+
+export default function Toc() {
+  // ...
+  return (
+    <div>
+      <span>目录</span>
+      <div className="js-toc"></div>
+    </div>
+  );
+}
+```
+
+  
+
+
+首先，你需要有生成目录的容器。在这段代码中，带有js-toc类名的div标签将是容器，因为我们将tocSelector值设置为js-toc。其余部分完全由你决定。如果你愿意，可以添加更多标签或一些图标。
+
+  
+
+
+#### 步骤4. 在单页的博客内容包装器中添加类
+
+
+我们需要告诉Tocbot从哪里获取所有标题来制作目录。为了做到这一点，我们需要在单页（在我的案例中是/pages/posts/[slug].js）中添加几行代码。如果你有一个使用Contentlayer的MDX博客，你的[slug].js文件应该看起来像这样：
+
+ 
+
+```
+// pages/posts/[slug].js
+
+import { useMDXComponent } from "next-contentlayer/hooks";
+import { allPosts } from "contentlayer/generated";
+// ...
+
+const PostLayout = ({ post }) => {
+  const MDXContent = useMDXComponent(post.body.code);
+  return (
+    <>
+      {/* 其他内容... */}
+      <MDXContent components={mdxComponents} />
+    </>
+  );
+};
+
+export default PostLayout;
+// ...
+```
+
+  
+
+
+<MDXContent />是MDX内容将被渲染的地方。所以，我们添加一个带有js-toc-content类的div标签，并将<MDXContent />包裹起来，如下所示：
+
+ 
+
+```
+// pages/posts/[slug].js
+
+return (
+  <>
+    <div className="js-toc-content">
+      <MDXContent components={mdxComponents} />
+    </div>
+  </>
+);
+```
+
+  
+
+
+通过这样做，Tocbot将在js-toc-content内查找标题标签并生成目录。
+
+  
+
+
+#### 步骤5. 将toc组件导入到你的页面中
+
+  
+
+
+最后，我们将在你的页面中导入toc。根据你想在哪里显示目录，有两种方法可以做到这一点。
+
+  
+
+
+1.  在.mdx文件中使用目录 
+    如果你想在.mdx文件中嵌入目录，首先需要将其添加到mdxComponents中。
+
+  
+
+
+转到你的单页（[slug].js），并添加突出显示的行:
+
+```
+// pages/posts/[slug].js
+
+import { useMDXComponent } from "next-contentlayer/hooks";
+import { allPosts } from "contentlayer/generated";
+import Toc from "@/components/toc";
+
+const mdxComponents = {
+  Toc,
+  // ...
+};
+
+// ...
+```
+
+  
+
+
+现在，<Toc />组件已经可以在.mdx文件中使用，你可以这样调用它：
+
+```
+// /posts/sample.mdx
+
+---
+title: 示例mdx文件
+publishedAt: 2023-02-04T20:00:00
+---
+这是一个示例内容。
+<Toc />
+这是一个示例内容...
+```
+
+  
+
+
+这种方法的好处是，你可以控制在每个页面上显示目录的位置和是否显示。
+
+  
+
+
+2.  在.mdx文件之外使用目录 
+    当你想在侧边栏中显示目录时，通常会这样做。在这种情况下，你可以像使用其他组件一样简单地导入并在实际想要显示它的文件中使用它。
+
+  
+
+
+在我的博客中，我在[slug].js文件中的侧边栏显示它。
+
+```
+// /pages/posts/[slug].js
+
+import { useMDXComponent } from "next-contentlayer/hooks";
+import { allPosts } from "contentlayer/generated";
+import Toc from "@/components/toc";
+// ...
+
+const PostLayout = ({ post }) => {
+  const MDXContent = useMDXComponent(post.body.code);
+  return (
+    <>
+      <main>
+        <MDXContent components={mdxComponents} />
+      </main>
+      <aside>
+        <Toc />
+      </aside>
+    </>
+  );
+};
+
+export default PostLayout;
+// ...
+```
+
+  
+
+
+就这样！现在你已经成功地在你的网站上实现了目录。
+
+  
+
+### 最后的想法
+
+
+
+
+我最初尝试自己创建目录，但后来我意识到如果我使用一个包会节省很多时间。幸运的是，Tocbot拥有我想要的目录的所有功能，所以我现在对此感到满意。
+
+  
+
+### 参考
+
+https://webtech-note.com/posts/tocbot-contentlayer

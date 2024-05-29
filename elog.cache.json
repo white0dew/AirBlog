@@ -1,0 +1,4600 @@
+{
+  "docs": [
+    {
+      "id": 169963644,
+      "doc_id": "kbo5ucr66rpm0n73",
+      "updated": 1716424097000,
+      "properties": {
+        "title": "计算机网络",
+        "urlname": "kbo5ucr66rpm0n73",
+        "date": "2024-05-16 22:30:55",
+        "updated": "2024-05-23 08:28:17",
+        "description": "---nav_path: network---哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...",
+        "nav_path": "network"
+      },
+      "catalog": [
+        {
+          "title": "八股文",
+          "doc_id": "kbo5ucr66rpm0n73"
+        }
+      ],
+      "realName": "kbo5ucr66rpm0n73",
+      "relativePath": "\\八股文\\kbo5ucr66rpm0n73.md",
+      "docPath": "docs\\doc\\八股文"
+    },
+    {
+      "id": 169649927,
+      "doc_id": "bxxwzvxxq58cnace",
+      "updated": 1716424237000,
+      "properties": {
+        "title": "拿下面试官实战",
+        "urlname": "bxxwzvxxq58cnace",
+        "date": "2024-05-14 21:16:02",
+        "updated": "2024-05-23 08:30:37",
+        "description": "---is_nav: truenav_path: chat_view---",
+        "is_nav": true,
+        "nav_path": "chat_view"
+      },
+      "catalog": [
+        {
+          "title": "大厂面经",
+          "doc_id": "bxxwzvxxq58cnace"
+        }
+      ],
+      "realName": "bxxwzvxxq58cnace",
+      "relativePath": "\\大厂面经\\bxxwzvxxq58cnace.md",
+      "docPath": "docs\\doc\\大厂面经"
+    },
+    {
+      "id": 169649886,
+      "doc_id": "lee28kbqshx46bn8",
+      "updated": 1716991882000,
+      "properties": {
+        "title": "📚 计算机基础",
+        "urlname": "lee28kbqshx46bn8",
+        "date": "2024-05-14 21:15:35",
+        "updated": "2024-05-29 22:11:22",
+        "description": "---is_nav: truenav_path: knowledge---在软件开发领域，\"八股文\"通常是指那些在技术面试中反复出现的理论问题和常见的编程题目。虽然这个术语可能带有一些负面含义，暗指这些问题可能过于死板和理论化，但是准备八股文无疑能够帮助求职者在面试中更好地展现自己的技术实力和...",
+        "is_nav": true,
+        "nav_path": "knowledge"
+      },
+      "catalog": [],
+      "realName": "lee28kbqshx46bn8",
+      "relativePath": "\\lee28kbqshx46bn8.md",
+      "docPath": "docs\\doc"
+    },
+    {
+      "id": 169649920,
+      "doc_id": "rnwghpv7c59vgtuo",
+      "updated": 1716338637000,
+      "properties": {
+        "title": "面经小程序",
+        "urlname": "rnwghpv7c59vgtuo",
+        "date": "2024-05-14 21:15:56",
+        "updated": "2024-05-22 08:43:57"
+      },
+      "catalog": [
+        {
+          "title": "大厂面经",
+          "doc_id": "rnwghpv7c59vgtuo"
+        }
+      ],
+      "realName": "rnwghpv7c59vgtuo",
+      "relativePath": "\\大厂面经\\rnwghpv7c59vgtuo.md",
+      "docPath": "docs\\doc\\大厂面经"
+    },
+    {
+      "id": 169649875,
+      "doc_id": "ttymzn2156q6eim1",
+      "updated": 1716991515000,
+      "properties": {
+        "title": "🧰 实践项目",
+        "urlname": "ttymzn2156q6eim1",
+        "date": "2024-05-14 21:15:30",
+        "updated": "2024-05-29 22:05:15",
+        "description": "---is_nav: truenav_path: project---编程学习不仅需要理论知识的积累，更需要通过实践项目将所学知识应用到实际问题的解决中。实践项目帮助你加深对编程概念的理解，提升解决复杂问题的能力，并且可以成为你个人作品集的亮点，增强你的职业竞争力。推荐实践项目 个人网站：使用...",
+        "is_nav": true,
+        "nav_path": "project"
+      },
+      "catalog": [],
+      "realName": "ttymzn2156q6eim1",
+      "relativePath": "\\ttymzn2156q6eim1.md",
+      "docPath": "docs\\doc"
+    },
+    {
+      "id": 169649865,
+      "doc_id": "gc6kwq2a9iufudga",
+      "updated": 1716991522000,
+      "properties": {
+        "title": "💹 大厂面经",
+        "urlname": "gc6kwq2a9iufudga",
+        "date": "2024-05-14 21:15:22",
+        "updated": "2024-05-29 22:05:22",
+        "description": "---is_nav: truenav_path: interview---面试大厂是许多软件开发者职业生涯中的一个重要目标。大厂通常指的是那些在行业内有着显著影响力和技术实力的公司，比如字节、阿里、腾讯、Google、Amazon、Facebook、Apple、微软等。面试过程往往包括算法、数...",
+        "is_nav": true,
+        "nav_path": "interview"
+      },
+      "catalog": [],
+      "realName": "gc6kwq2a9iufudga",
+      "relativePath": "\\gc6kwq2a9iufudga.md",
+      "docPath": "docs\\doc"
+    },
+    {
+      "id": 79294310,
+      "doc_id": "gu7y1k",
+      "updated": 1716990964000,
+      "properties": {
+        "title": "🏄 关于",
+        "urlname": "gu7y1k",
+        "date": "2022-06-01 19:34:04",
+        "updated": "2024-05-29 21:56:04",
+        "cover": "https://cdn.nlark.com/yuque/0/2022/png/22382235/1654084105084-db848bc6-9549-487f-ab10-78708de3dec5.png",
+        "description": "---is_nav: falsenav_path: about---",
+        "is_nav": false,
+        "nav_path": "about"
+      },
+      "catalog": [],
+      "realName": "gu7y1k",
+      "relativePath": "\\gu7y1k.md",
+      "docPath": "docs\\doc"
+    },
+    {
+      "id": 170676389,
+      "doc_id": "gzdu2g90x1k7goos",
+      "updated": 1716514695000,
+      "properties": {
+        "title": "Go",
+        "urlname": "gzdu2g90x1k7goos",
+        "date": "2024-05-22 17:04:00",
+        "updated": "2024-05-24 09:38:15",
+        "description": "---nav_path: golang---",
+        "nav_path": "golang"
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "gzdu2g90x1k7goos"
+        }
+      ],
+      "realName": "gzdu2g90x1k7goos",
+      "relativePath": "\\编程语言\\gzdu2g90x1k7goos.md",
+      "docPath": "docs\\doc\\编程语言"
+    },
+    {
+      "id": 170676314,
+      "doc_id": "gu2a0qdxqzzgwob6",
+      "updated": 1716889829000,
+      "properties": {
+        "title": "💻 编程语言",
+        "urlname": "gu2a0qdxqzzgwob6",
+        "date": "2024-05-22 17:03:34",
+        "updated": "2024-05-28 17:50:29",
+        "description": "---is_nav: truenav_path: language---在这个数字化迅速发展的时代，编程语言无疑成为了我们探索数字世界的重要工具。无论是构建一个复杂的软件系统，还是简单的个人网站，甚至是开发一款有趣的手机应用，编程语言都是实现这一切不可或缺的基石。热门编程语言速达 C/C++：...",
+        "is_nav": true,
+        "nav_path": "language"
+      },
+      "catalog": [],
+      "realName": "gu2a0qdxqzzgwob6",
+      "relativePath": "\\gu2a0qdxqzzgwob6.md",
+      "docPath": "docs\\doc"
+    },
+    {
+      "id": 170693123,
+      "doc_id": "rwa8n4f482ryn4o9",
+      "updated": 1716526142000,
+      "properties": {
+        "title": "🤔 Golang语法速查手册",
+        "urlname": "rwa8n4f482ryn4o9",
+        "date": "2024-05-22 19:12:04",
+        "updated": "2024-05-24 12:49:02",
+        "description": "---nav_path: golang_instant_reference---golang-cheat-sheet是目前GitHub上最流行的golang代码速查表。作者Ariel Mashraki也是Facebook著名ORM框架ent(2019年开源)的作者和首席布道师。这一篇是中文翻译...",
+        "nav_path": "golang_instant_reference"
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "rwa8n4f482ryn4o9"
+        },
+        {
+          "title": "Go",
+          "doc_id": "rwa8n4f482ryn4o9"
+        }
+      ],
+      "realName": "rwa8n4f482ryn4o9",
+      "relativePath": "\\编程语言\\Go\\rwa8n4f482ryn4o9.md",
+      "docPath": "docs\\doc\\编程语言\\Go"
+    },
+    {
+      "id": 170598652,
+      "doc_id": "oawe7ufgang93sac",
+      "updated": 1716524908000,
+      "properties": {
+        "title": "MySQL",
+        "urlname": "oawe7ufgang93sac",
+        "date": "2024-05-22 08:50:06",
+        "updated": "2024-05-24 12:28:28",
+        "description": "---nav_path: mysql---",
+        "nav_path": "mysql"
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "oawe7ufgang93sac"
+        }
+      ],
+      "realName": "oawe7ufgang93sac",
+      "relativePath": "\\小小八股文\\oawe7ufgang93sac.md",
+      "docPath": "docs\\doc\\小小八股文"
+    },
+    {
+      "id": 170598593,
+      "doc_id": "giovviztpgb64iw5",
+      "updated": 1716424121000,
+      "properties": {
+        "title": "Linux解密",
+        "urlname": "giovviztpgb64iw5",
+        "date": "2024-05-22 08:49:10",
+        "updated": "2024-05-23 08:28:41",
+        "description": "---nav_path: linux---",
+        "nav_path": "linux"
+      },
+      "catalog": [
+        {
+          "title": "八股文",
+          "doc_id": "giovviztpgb64iw5"
+        }
+      ],
+      "realName": "giovviztpgb64iw5",
+      "relativePath": "\\八股文\\giovviztpgb64iw5.md",
+      "docPath": "docs\\doc\\八股文"
+    },
+    {
+      "id": 170598544,
+      "doc_id": "wqxa4oybgctzpy2u",
+      "updated": 1716424103000,
+      "properties": {
+        "title": "操作系统",
+        "urlname": "wqxa4oybgctzpy2u",
+        "date": "2024-05-22 08:48:36",
+        "updated": "2024-05-23 08:28:23",
+        "description": "---nav_path: os---",
+        "nav_path": "os"
+      },
+      "catalog": [
+        {
+          "title": "八股文",
+          "doc_id": "wqxa4oybgctzpy2u"
+        }
+      ],
+      "realName": "wqxa4oybgctzpy2u",
+      "relativePath": "\\八股文\\wqxa4oybgctzpy2u.md",
+      "docPath": "docs\\doc\\八股文"
+    },
+    {
+      "id": 170598217,
+      "doc_id": "stgbwxi8ws2ks98w",
+      "updated": 1716424240000,
+      "properties": {
+        "title": "无标题文档",
+        "urlname": "stgbwxi8ws2ks98w",
+        "date": "2024-05-22 08:43:57",
+        "updated": "2024-05-23 08:30:40"
+      },
+      "catalog": [
+        {
+          "title": "大厂面经",
+          "doc_id": "stgbwxi8ws2ks98w"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "stgbwxi8ws2ks98w"
+        }
+      ],
+      "realName": "stgbwxi8ws2ks98w",
+      "relativePath": "\\大厂面经\\拿下面试官实战\\stgbwxi8ws2ks98w.md",
+      "docPath": "docs\\doc\\大厂面经\\拿下面试官实战"
+    },
+    {
+      "id": 171264691,
+      "doc_id": "dt41v1b1lx0wnavv",
+      "updated": 1716791944000,
+      "properties": {
+        "title": "代码片段 💻",
+        "urlname": "dt41v1b1lx0wnavv",
+        "date": "2024-05-27 14:38:23",
+        "updated": "2024-05-27 14:39:04",
+        "description": "---is_nav: falsenav_path: code_snippet---",
+        "is_nav": false,
+        "nav_path": "code_snippet"
+      },
+      "catalog": [
+        {
+          "title": "自我修养",
+          "doc_id": "dt41v1b1lx0wnavv"
+        }
+      ],
+      "realName": "dt41v1b1lx0wnavv",
+      "relativePath": "\\自我修养\\dt41v1b1lx0wnavv.md",
+      "docPath": "docs\\doc\\自我修养"
+    },
+    {
+      "id": 171264322,
+      "doc_id": "usykzpi3rfqf4vut",
+      "updated": 1716791882000,
+      "properties": {
+        "title": "安装pnpm",
+        "urlname": "usykzpi3rfqf4vut",
+        "date": "2024-05-27 14:36:16",
+        "updated": "2024-05-27 14:38:02",
+        "description": "怎么在windows、linux、mac上安装pnpm呢？前言如果您不使用独立脚本或 @pnpm/exe 来安装 pnpm，则需要在系统上安装 Node.js（至少 v16.14）。原址：https://pnpm.io/zh/installation使用独立脚本安装即使没有安装 Node.js..."
+      },
+      "catalog": [
+        {
+          "title": "自我修养",
+          "doc_id": "usykzpi3rfqf4vut"
+        },
+        {
+          "title": "环境安装😭",
+          "doc_id": "usykzpi3rfqf4vut"
+        }
+      ],
+      "realName": "usykzpi3rfqf4vut",
+      "relativePath": "\\自我修养\\环境安装😭\\usykzpi3rfqf4vut.md",
+      "docPath": "docs\\doc\\自我修养\\环境安装😭"
+    },
+    {
+      "id": 171241326,
+      "doc_id": "zz7wzx74m9sgu0bb",
+      "updated": 1716990926000,
+      "properties": {
+        "title": "🔥 程序员自我修养",
+        "urlname": "zz7wzx74m9sgu0bb",
+        "date": "2024-05-27 11:27:11",
+        "updated": "2024-05-29 21:55:26",
+        "description": "---is_nav: truenav_path: self_improve---一个优秀的程序员，意味着不断学习和提升专业技能，包括了解最新的编程趋势、掌握高效的开发工具、练习编写高质量的代码，以及培养优秀的软件工程习惯。以下是一些程序员自我修养的关键方面以及相关的资源推荐。知识收集学习平台：...",
+        "is_nav": true,
+        "nav_path": "self_improve"
+      },
+      "catalog": [],
+      "realName": "zz7wzx74m9sgu0bb",
+      "relativePath": "\\zz7wzx74m9sgu0bb.md",
+      "docPath": "docs\\doc"
+    },
+    {
+      "id": 171259873,
+      "doc_id": "nhp7016fcte2xc9l",
+      "updated": 1716991698000,
+      "properties": {
+        "title": "持续学习 🐚",
+        "urlname": "nhp7016fcte2xc9l",
+        "date": "2024-05-27 14:12:07",
+        "updated": "2024-05-29 22:08:18",
+        "description": "---is_nav: falsenav_path: studing---",
+        "is_nav": false,
+        "nav_path": "studing"
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "nhp7016fcte2xc9l"
+        }
+      ],
+      "realName": "nhp7016fcte2xc9l",
+      "relativePath": "\\🔥 程序员自我修养\\nhp7016fcte2xc9l.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养"
+    },
+    {
+      "id": 171259325,
+      "doc_id": "uz8g4zstl7skaubu",
+      "updated": 1716991983000,
+      "properties": {
+        "title": "十万个为什么💡",
+        "urlname": "uz8g4zstl7skaubu",
+        "date": "2024-05-27 14:09:41",
+        "updated": "2024-05-29 22:13:03",
+        "description": "---is_nav: falsenav_path: screct_qas---",
+        "is_nav": false,
+        "nav_path": "screct_qas"
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "uz8g4zstl7skaubu"
+        }
+      ],
+      "realName": "uz8g4zstl7skaubu",
+      "relativePath": "\\🔥 程序员自我修养\\uz8g4zstl7skaubu.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养"
+    },
+    {
+      "id": 171259351,
+      "doc_id": "io5kukplplfeb9ls",
+      "updated": 1716790357000,
+      "properties": {
+        "title": "环境安装😭",
+        "urlname": "io5kukplplfeb9ls",
+        "date": "2024-05-27 14:09:49",
+        "updated": "2024-05-27 14:12:37",
+        "description": "---is_nav: falsenav_path: install_env---",
+        "is_nav": false,
+        "nav_path": "install_env"
+      },
+      "catalog": [
+        {
+          "title": "自我修养",
+          "doc_id": "io5kukplplfeb9ls"
+        }
+      ],
+      "realName": "io5kukplplfeb9ls",
+      "relativePath": "\\自我修养\\io5kukplplfeb9ls.md",
+      "docPath": "docs\\doc\\自我修养"
+    },
+    {
+      "id": 170952941,
+      "doc_id": "bmmb4nkg10qvgsyf",
+      "updated": 1716538195000,
+      "properties": {
+        "title": "无标题文档",
+        "urlname": "bmmb4nkg10qvgsyf",
+        "date": "2024-05-24 16:08:26",
+        "updated": "2024-05-24 16:09:55",
+        "description": "好的，继续回答问题并使用可视化展示。八、Redis 实战（续）29. Redis管道有什么用？回答：Redis管道（Pipeline）允许在一次请求中发送多个命令，减少客户端与服务器之间的往返次数，从而提高批量操作的性能。 批量发送命令： 客户端将多个命令一次性发送到服务器。服务器按顺序执行命..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "bmmb4nkg10qvgsyf"
+        },
+        {
+          "title": "Redis",
+          "doc_id": "bmmb4nkg10qvgsyf"
+        },
+        {
+          "title": "无标题文档",
+          "doc_id": "bmmb4nkg10qvgsyf"
+        }
+      ],
+      "realName": "bmmb4nkg10qvgsyf",
+      "relativePath": "\\小小八股文\\Redis\\无标题文档\\bmmb4nkg10qvgsyf.md",
+      "docPath": "docs\\doc\\小小八股文\\Redis\\无标题文档"
+    },
+    {
+      "id": 170953587,
+      "doc_id": "rpkbuac4rqibc4w3",
+      "updated": 1716538493000,
+      "properties": {
+        "title": "无标题文档",
+        "urlname": "rpkbuac4rqibc4w3",
+        "date": "2024-05-24 16:12:43",
+        "updated": "2024-05-24 16:14:53",
+        "description": "好的，以下是对LFU和LRU算法的详细解释，并使用Golang、Java和C/C++实现这两个缓存淘汰算法。一、LRU（Least Recently Used）算法解释：LRU算法淘汰最近最少使用的缓存数据。实现LRU算法的常见方法是使用双向链表和哈希表。双向链表用于维护缓存数据的使用顺序，哈..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "rpkbuac4rqibc4w3"
+        },
+        {
+          "title": "Redis",
+          "doc_id": "rpkbuac4rqibc4w3"
+        },
+        {
+          "title": "无标题文档",
+          "doc_id": "rpkbuac4rqibc4w3"
+        }
+      ],
+      "realName": "rpkbuac4rqibc4w3",
+      "relativePath": "\\小小八股文\\Redis\\无标题文档\\rpkbuac4rqibc4w3.md",
+      "docPath": "docs\\doc\\小小八股文\\Redis\\无标题文档"
+    },
+    {
+      "id": 170950193,
+      "doc_id": "zwi4pf2m8beke5yt",
+      "updated": 1716538101000,
+      "properties": {
+        "title": "无标题文档",
+        "urlname": "zwi4pf2m8beke5yt",
+        "date": "2024-05-24 15:51:56",
+        "updated": "2024-05-24 16:08:21",
+        "description": "好的，继续回答问题并使用可视化展示。25. 说说常见的缓存更新策略？回答：常见的缓存更新策略主要有以下几种：定时更新（Time-based Refresh）： 定时刷新缓存，定期从数据库中获取最新数据，更新缓存。优点：缓存数据定时更新，保证数据的新鲜度。缺点：可能会导致短暂的不一致性，尤其在定..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "zwi4pf2m8beke5yt"
+        },
+        {
+          "title": "Redis",
+          "doc_id": "zwi4pf2m8beke5yt"
+        },
+        {
+          "title": "无标题文档",
+          "doc_id": "zwi4pf2m8beke5yt"
+        }
+      ],
+      "realName": "zwi4pf2m8beke5yt",
+      "relativePath": "\\小小八股文\\Redis\\无标题文档\\zwi4pf2m8beke5yt.md",
+      "docPath": "docs\\doc\\小小八股文\\Redis\\无标题文档"
+    },
+    {
+      "id": 170949318,
+      "doc_id": "griqt7guq59lzeni",
+      "updated": 1716536891000,
+      "properties": {
+        "title": "无标题文档",
+        "urlname": "griqt7guq59lzeni",
+        "date": "2024-05-24 15:48:01",
+        "updated": "2024-05-24 15:48:11",
+        "description": "好的，我会继续详细回答问题，并在涉及原理和结构方面的内容时使用Mermaid语法进行可视化展示。六、Redis 过期删除与内存淘汰（续）17. Redis使用的过期删除策略是什么？回答：Redis使用两种过期删除策略：惰性删除（Lazy Deletion）：当访问一个键时，Redis检查其是否..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "griqt7guq59lzeni"
+        },
+        {
+          "title": "Redis",
+          "doc_id": "griqt7guq59lzeni"
+        },
+        {
+          "title": "无标题文档",
+          "doc_id": "griqt7guq59lzeni"
+        }
+      ],
+      "realName": "griqt7guq59lzeni",
+      "relativePath": "\\小小八股文\\Redis\\无标题文档\\griqt7guq59lzeni.md",
+      "docPath": "docs\\doc\\小小八股文\\Redis\\无标题文档"
+    },
+    {
+      "id": 170949393,
+      "doc_id": "gtagx5eoumgtvf0d",
+      "updated": 1716537984000,
+      "properties": {
+        "title": "无标题文档",
+        "urlname": "gtagx5eoumgtvf0d",
+        "date": "2024-05-24 15:48:21",
+        "updated": "2024-05-24 16:06:24",
+        "description": "明白了，从23题开始重写，确保Mermaid图表符合Markdown格式。七、Redis 缓存设计23. 如何避免缓存雪崩、缓存击穿、缓存穿透？回答：缓存雪崩： 原因：大量缓存同时过期，导致大量请求直接打到数据库，造成数据库压力过大。解决方案： 设置不同的缓存过期时间以错开缓存过期时间。在缓存..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "gtagx5eoumgtvf0d"
+        },
+        {
+          "title": "Redis",
+          "doc_id": "gtagx5eoumgtvf0d"
+        },
+        {
+          "title": "无标题文档",
+          "doc_id": "gtagx5eoumgtvf0d"
+        }
+      ],
+      "realName": "gtagx5eoumgtvf0d",
+      "relativePath": "\\小小八股文\\Redis\\无标题文档\\gtagx5eoumgtvf0d.md",
+      "docPath": "docs\\doc\\小小八股文\\Redis\\无标题文档"
+    },
+    {
+      "id": 170947984,
+      "doc_id": "oo8f14csyz62wf9g",
+      "updated": 1716536552000,
+      "properties": {
+        "title": "无标题文档",
+        "urlname": "oo8f14csyz62wf9g",
+        "date": "2024-05-24 15:41:12",
+        "updated": "2024-05-24 15:42:32",
+        "description": "好的，接下来我会继续详细回答问题，并在涉及原理和结构方面的内容时使用Mermaid语法进行可视化展示。三、Redis 线程模型6. Redis是单线程吗？回答：是的，Redis的命令执行部分是单线程的。这意味着Redis在处理客户端请求时使用单线程来执行所有命令。这种设计简化了Redis的实现..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "oo8f14csyz62wf9g"
+        },
+        {
+          "title": "Redis",
+          "doc_id": "oo8f14csyz62wf9g"
+        },
+        {
+          "title": "无标题文档",
+          "doc_id": "oo8f14csyz62wf9g"
+        }
+      ],
+      "realName": "oo8f14csyz62wf9g",
+      "relativePath": "\\小小八股文\\Redis\\无标题文档\\oo8f14csyz62wf9g.md",
+      "docPath": "docs\\doc\\小小八股文\\Redis\\无标题文档"
+    },
+    {
+      "id": 170947495,
+      "doc_id": "qx6kos41dklecvg6",
+      "updated": 1716536473000,
+      "properties": {
+        "title": "无标题文档",
+        "urlname": "qx6kos41dklecvg6",
+        "date": "2024-05-24 15:38:16",
+        "updated": "2024-05-24 15:41:13",
+        "description": "好的，我会逐一回答这些问题，尽量详细解释每个问题的相关知识点。一、认识 Redis1. 什么是Redis？回答：Redis（Remote Dictionary Server）是一个开源的、基于内存的数据结构存储系统。它可以用作数据库、缓存和消息代理。Redis支持多种数据结构，如字符串（Str..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "qx6kos41dklecvg6"
+        },
+        {
+          "title": "Redis",
+          "doc_id": "qx6kos41dklecvg6"
+        },
+        {
+          "title": "无标题文档",
+          "doc_id": "qx6kos41dklecvg6"
+        }
+      ],
+      "realName": "qx6kos41dklecvg6",
+      "relativePath": "\\小小八股文\\Redis\\无标题文档\\qx6kos41dklecvg6.md",
+      "docPath": "docs\\doc\\小小八股文\\Redis\\无标题文档"
+    },
+    {
+      "id": 170947477,
+      "doc_id": "hee9hlritx0n8hcc",
+      "updated": 1716536297000,
+      "properties": {
+        "title": "无标题文档",
+        "urlname": "hee9hlritx0n8hcc",
+        "date": "2024-05-24 15:38:11",
+        "updated": "2024-05-24 15:38:17",
+        "description": "好的，根据你提供的问题列表，我对其进行了优化和扩充，并添加了详细的子问题。这些问题涵盖了Redis的各个技术层面，能够帮助展示求职者对Redis的深入理解和实际应用能力。一、认识 Redis什么是Redis？Redis和Memcached有什么区别？ 数据类型支持持久化分布式特性内存管理为什么..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "hee9hlritx0n8hcc"
+        },
+        {
+          "title": "Redis",
+          "doc_id": "hee9hlritx0n8hcc"
+        }
+      ],
+      "realName": "hee9hlritx0n8hcc",
+      "relativePath": "\\小小八股文\\Redis\\hee9hlritx0n8hcc.md",
+      "docPath": "docs\\doc\\小小八股文\\Redis"
+    },
+    {
+      "id": 170944181,
+      "doc_id": "qf6b0vmagi3cbnbv",
+      "updated": 1716889658000,
+      "properties": {
+        "title": "🔥 Mysql面试必问（二）",
+        "urlname": "qf6b0vmagi3cbnbv",
+        "date": "2024-05-24 15:19:07",
+        "updated": "2024-05-28 17:47:38",
+        "description": "一、存储引擎 MySQL有哪些常用的存储引擎？回答： InnoDB：默认存储引擎，支持ACID事务、外键、行级锁和自动崩溃恢复。适用于支持高并发事务处理和数据完整性要求高的应用。MyISAM：不支持事务和外键，使用表级锁，适用于读操作频繁、数据修改较少的应用。具有较高的读取性能。Memory：..."
+      },
+      "catalog": [
+        {
+          "title": "📚 小小八股文",
+          "doc_id": "qf6b0vmagi3cbnbv"
+        },
+        {
+          "title": "MySQL",
+          "doc_id": "qf6b0vmagi3cbnbv"
+        }
+      ],
+      "realName": "qf6b0vmagi3cbnbv",
+      "relativePath": "\\📚 小小八股文\\MySQL\\qf6b0vmagi3cbnbv.md",
+      "docPath": "docs\\doc\\📚 小小八股文\\MySQL"
+    },
+    {
+      "id": 170923370,
+      "doc_id": "vm62ytquukgy0sp8",
+      "updated": 1716527168000,
+      "properties": {
+        "title": "C++多线程",
+        "urlname": "vm62ytquukgy0sp8",
+        "date": "2024-05-24 13:05:57",
+        "updated": "2024-05-24 13:06:08",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1716527165316-5b65a7b4-7ad5-44d5-bfd4-e238db553544.png",
+        "description": "多线程学习笔记前言：这周学习学习了多线程并发的相关知识，写一个读书笔记以作记录。学习的教程是网易云课堂的：https://study.163.com/course/courseMain.htm?courseId=1006067356&trace_c_p_k2=217aa888da5741698..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "vm62ytquukgy0sp8"
+        },
+        {
+          "title": "C/C++",
+          "doc_id": "vm62ytquukgy0sp8"
+        }
+      ],
+      "realName": "vm62ytquukgy0sp8",
+      "relativePath": "\\编程语言\\C\\C++\\vm62ytquukgy0sp8.md",
+      "docPath": "docs\\doc\\编程语言\\C\\C++"
+    },
+    {
+      "id": 170923348,
+      "doc_id": "pnla5tghgsndtv2w",
+      "updated": 1716527144000,
+      "properties": {
+        "title": "面试题",
+        "urlname": "pnla5tghgsndtv2w",
+        "date": "2024-05-24 13:05:34",
+        "updated": "2024-05-24 13:05:44",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1716527138699-b70488ac-8fa1-4a7b-94bb-4db25b435612.png",
+        "description": "面试题在Tinywebserver这个项目最后，社长提出了一些可能的面试问题，读者学习完该项目之后可以试着回答一下，看是否究竟对这个项目了如指掌：：包括项目介绍，线程池相关，并发模型相关，HTTP报文解析相关，定时器相关，日志相关，压测相关，综合能力等。我对此进行了简单的回答，如果有所纰漏请大..."
+      },
+      "catalog": [
+        {
+          "title": "实践项目",
+          "doc_id": "pnla5tghgsndtv2w"
+        },
+        {
+          "title": "TinyWebServer",
+          "doc_id": "pnla5tghgsndtv2w"
+        }
+      ],
+      "realName": "pnla5tghgsndtv2w",
+      "relativePath": "\\实践项目\\TinyWebServer\\pnla5tghgsndtv2w.md",
+      "docPath": "docs\\doc\\实践项目\\TinyWebServer"
+    },
+    {
+      "id": 170598275,
+      "doc_id": "tihx6bwirgug3b9d",
+      "updated": 1716527125000,
+      "properties": {
+        "title": "TinyWebServer",
+        "urlname": "tihx6bwirgug3b9d",
+        "date": "2024-05-22 08:44:52",
+        "updated": "2024-05-24 13:05:25",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1716527116265-facee58e-37f6-42ad-bd7e-65dfac72b542.png",
+        "description": "从0到服务器开发——TinyWebServer阅读笔记前言它是个什么项目？——Linux下C++轻量级Web服务器，助力初学者快速实践网络编程，搭建属于自己的服务器。使用线程池 + 非阻塞socket + epoll(ET和LT均实现) + 事件处理(Reactor和模拟Proactor均实现..."
+      },
+      "catalog": [
+        {
+          "title": "实践项目",
+          "doc_id": "tihx6bwirgug3b9d"
+        }
+      ],
+      "realName": "tihx6bwirgug3b9d",
+      "relativePath": "\\实践项目\\tihx6bwirgug3b9d.md",
+      "docPath": "docs\\doc\\实践项目"
+    },
+    {
+      "id": 170923102,
+      "doc_id": "kr08pwsfxwyvmygv",
+      "updated": 1716870506000,
+      "properties": {
+        "title": "一文搞懂Java注解",
+        "urlname": "kr08pwsfxwyvmygv",
+        "date": "2024-05-24 13:00:06",
+        "updated": "2024-05-28 12:28:26",
+        "description": "Java注解是Java 5引入的一种新功能，用于为Java代码提供元数据。作为元数据，注解不直接影响代码的执行，但有些类型的注解可以用于此目的。注解为我们在代码中添加信息提供了一种形式化的方法，帮助我们更快捷地编写代码。注解的作用注解主要有以下四个作用：生成文档：将元数据生成为Javadoc文..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "kr08pwsfxwyvmygv"
+        },
+        {
+          "title": "Java",
+          "doc_id": "kr08pwsfxwyvmygv"
+        }
+      ],
+      "realName": "kr08pwsfxwyvmygv",
+      "relativePath": "/编程语言/Java/kr08pwsfxwyvmygv.md",
+      "docPath": "docs/doc/编程语言/Java"
+    },
+    {
+      "id": 170923280,
+      "doc_id": "ho88cbpxgbc2gpnf",
+      "updated": 1716889351000,
+      "properties": {
+        "title": "8.进程管理",
+        "urlname": "ho88cbpxgbc2gpnf",
+        "date": "2024-05-24 13:04:10",
+        "updated": "2024-05-28 17:42:31",
+        "cover": "https://cdn.nlark.com/yuque/0/2021/png/22382235/1629729501290-e21d56f9-f2f7-4aad-a17b-07a01cc983c8.png",
+        "description": "“如果你要组织一个活动怎么办？你首先会想到，这个活动的流程是什么，需要配备哪些人员和物资，中途要不要休息，活动当前进行到哪里了……如果你是个精明的人，你大概会用表格把这些信息记录下来。同理，你运行一个应用程序时，操作系统也要记录这个应用程序使用多少内存，打开了什么文件，当有些资源不可用的时候要..."
+      },
+      "catalog": [
+        {
+          "title": "📚 小小八股文",
+          "doc_id": "ho88cbpxgbc2gpnf"
+        },
+        {
+          "title": "操作系统",
+          "doc_id": "ho88cbpxgbc2gpnf"
+        },
+        {
+          "title": "🔥《手写操作系统》",
+          "doc_id": "ho88cbpxgbc2gpnf"
+        }
+      ],
+      "realName": "ho88cbpxgbc2gpnf",
+      "relativePath": "\\📚 小小八股文\\操作系统\\🔥《手写操作系统》\\ho88cbpxgbc2gpnf.md",
+      "docPath": "docs\\doc\\📚 小小八股文\\操作系统\\🔥《手写操作系统》"
+    },
+    {
+      "id": 170923262,
+      "doc_id": "zm4bp59ittrsp82l",
+      "updated": 1716527029000,
+      "properties": {
+        "title": "6.同步(锁、信号量)底层原理",
+        "urlname": "zm4bp59ittrsp82l",
+        "date": "2024-05-24 13:03:49",
+        "updated": "2024-05-24 13:03:49",
+        "cover": "https://cdn.nlark.com/yuque/0/2021/png/22382235/1628912426953-311742e9-adfb-45a8-8e0d-44c2b28cf1b1.png",
+        "description": "前言由于在接下来的学习内容中涉及到对信息、数据的同步，我们在开发操作系统的时候必须考虑到并发、多核情况下的同步问题，要想解决这些问题，实际应用中一般采用锁：原子变量、关中断、信号量、自旋锁。那么其底层如何实现的呢？——让我们跟着彭老师的讲解，一起学习！以对一个全局变量进行操作为例，下述代码是一..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "zm4bp59ittrsp82l"
+        },
+        {
+          "title": "操作系统",
+          "doc_id": "zm4bp59ittrsp82l"
+        },
+        {
+          "title": "😂《手写操作系统》",
+          "doc_id": "zm4bp59ittrsp82l"
+        }
+      ],
+      "realName": "zm4bp59ittrsp82l",
+      "relativePath": "\\小小八股文\\操作系统\\😂《手写操作系统》\\zm4bp59ittrsp82l.md",
+      "docPath": "docs\\doc\\小小八股文\\操作系统\\😂《手写操作系统》"
+    },
+    {
+      "id": 170923250,
+      "doc_id": "kcin2evo3gdwfeqr",
+      "updated": 1716527020000,
+      "properties": {
+        "title": "5.CPU工作模式与虚拟地址",
+        "urlname": "kcin2evo3gdwfeqr",
+        "date": "2024-05-24 13:03:39",
+        "updated": "2024-05-24 13:03:40",
+        "cover": "https://cdn.nlark.com/yuque/0/2021/png/22382235/1628769463819-ed783625-6641-4c53-ba3e-dfa89658a115.png",
+        "description": "CPU工作模式按照CPU功能升级迭代的顺序，CPU的一共有三种工作模式：实模式、保护模式、长模式。在不同的工作模式下，CPU执行程序的方式不同，至于有什么不同以及为什么会造成不同，接着往下看。实模式(Real Mode)实模式，何为实？一是指运行的指令是真实的，没有权限区分；二是指运行的地址是..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "kcin2evo3gdwfeqr"
+        },
+        {
+          "title": "操作系统",
+          "doc_id": "kcin2evo3gdwfeqr"
+        },
+        {
+          "title": "😂《手写操作系统》",
+          "doc_id": "kcin2evo3gdwfeqr"
+        }
+      ],
+      "realName": "kcin2evo3gdwfeqr",
+      "relativePath": "\\小小八股文\\操作系统\\😂《手写操作系统》\\kcin2evo3gdwfeqr.md",
+      "docPath": "docs\\doc\\小小八股文\\操作系统\\😂《手写操作系统》"
+    },
+    {
+      "id": 170923221,
+      "doc_id": "rgbxy15tudl9mcvw",
+      "updated": 1716526982000,
+      "properties": {
+        "title": "3.开发环境与内核架构",
+        "urlname": "rgbxy15tudl9mcvw",
+        "date": "2024-05-24 13:03:01",
+        "updated": "2024-05-24 13:03:02",
+        "cover": "https://cdn.nlark.com/yuque/0/2021/png/22382235/1628769614112-3d6ae298-2e61-400c-a2ac-1ce9d2ee9604.png",
+        "description": "之前介绍了简单的Hello OS以及代码是如何运行的。接下来我们会真正动手开始往我们的Hello OS中增加功能，但是——操作系统架构是一个极其精细的活。如老话所言“凡事三思而后行”，虽说是手写操作系统，但也得先想清楚内核的细节、一步一步的来构建操作系统不是？这一次，我们先跟着彭老师的课程在M..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "rgbxy15tudl9mcvw"
+        },
+        {
+          "title": "操作系统",
+          "doc_id": "rgbxy15tudl9mcvw"
+        },
+        {
+          "title": "😂《手写操作系统》",
+          "doc_id": "rgbxy15tudl9mcvw"
+        }
+      ],
+      "realName": "rgbxy15tudl9mcvw",
+      "relativePath": "\\小小八股文\\操作系统\\😂《手写操作系统》\\rgbxy15tudl9mcvw.md",
+      "docPath": "docs\\doc\\小小八股文\\操作系统\\😂《手写操作系统》"
+    },
+    {
+      "id": 170923215,
+      "doc_id": "eg1fdbxkz0713vyl",
+      "updated": 1716526972000,
+      "properties": {
+        "title": "2.代码是怎么运行起来的？",
+        "urlname": "eg1fdbxkz0713vyl",
+        "date": "2024-05-24 13:02:51",
+        "updated": "2024-05-24 13:02:52",
+        "cover": "https://cdn.nlark.com/yuque/0/2021/png/22382235/1628769032204-3786d029-f39b-48d4-a0ea-441e80a8bc4d.png",
+        "description": "从0和1到代码现在可以开始回答这个问题了：一个代码到底是怎么执行起来的？CPU内部到底是怎么工作的？电影片段里黑客出场时一般都少不了如下图所示的“数字雨”特效：我们先来看看计算机内部的基本元素“0”和“1”。0和1那么，计算机中的“0”和“1”到底是什么？简单，就是低电平和高电平的意思。啥意思..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "eg1fdbxkz0713vyl"
+        },
+        {
+          "title": "操作系统",
+          "doc_id": "eg1fdbxkz0713vyl"
+        },
+        {
+          "title": "😂《手写操作系统》",
+          "doc_id": "eg1fdbxkz0713vyl"
+        }
+      ],
+      "realName": "eg1fdbxkz0713vyl",
+      "relativePath": "\\小小八股文\\操作系统\\😂《手写操作系统》\\eg1fdbxkz0713vyl.md",
+      "docPath": "docs\\doc\\小小八股文\\操作系统\\😂《手写操作系统》"
+    },
+    {
+      "id": 170923206,
+      "doc_id": "vg4gldsnlenfkq11",
+      "updated": 1716889401000,
+      "properties": {
+        "title": "1. HelloOS",
+        "urlname": "vg4gldsnlenfkq11",
+        "date": "2024-05-24 13:02:41",
+        "updated": "2024-05-28 17:43:21",
+        "cover": "https://cdn.nlark.com/yuque/0/2021/png/22382235/1628768372937-0c40859b-b4c8-47d3-8020-56d834c8fad9.png",
+        "description": "让我们一起学习，由简单的Hello OS入手，最终码出一个属于自己的操作系统！前言为什么要学写一个操作系统？为什么要学写一个操作系统？为什么要学写一个操作系统？众所周知，操作系统是所有软件的基础（也是面试的三板斧之一！）。对于后端开发而言，操作系统层面的进程、线程、内存、I/O等相关知识根本逃..."
+      },
+      "catalog": [
+        {
+          "title": "📚 小小八股文",
+          "doc_id": "vg4gldsnlenfkq11"
+        },
+        {
+          "title": "操作系统",
+          "doc_id": "vg4gldsnlenfkq11"
+        },
+        {
+          "title": "🔥《手写操作系统》",
+          "doc_id": "vg4gldsnlenfkq11"
+        }
+      ],
+      "realName": "vg4gldsnlenfkq11",
+      "relativePath": "\\📚 小小八股文\\操作系统\\🔥《手写操作系统》\\vg4gldsnlenfkq11.md",
+      "docPath": "docs\\doc\\📚 小小八股文\\操作系统\\🔥《手写操作系统》"
+    },
+    {
+      "id": 170923052,
+      "doc_id": "bcuux2bqoe4r5e43",
+      "updated": 1716870494000,
+      "properties": {
+        "title": "Java Spring三大特性",
+        "urlname": "bcuux2bqoe4r5e43",
+        "date": "2024-05-24 12:59:02",
+        "updated": "2024-05-28 12:28:14",
+        "description": "本文主要讲述，Java 三大特性：IoC、DI、AOP。一、控制反转（IoC）1. 什么是控制反转控制反转（IoC，Inversion of Control）是一种设计思想，主要用于将对象的创建和控制权交给容器管理，而不是在对象内部主动控制。这种方式实现了高内聚、低耦合。传统模式：资源的主控权..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "bcuux2bqoe4r5e43"
+        },
+        {
+          "title": "Java",
+          "doc_id": "bcuux2bqoe4r5e43"
+        }
+      ],
+      "realName": "bcuux2bqoe4r5e43",
+      "relativePath": "/编程语言/Java/bcuux2bqoe4r5e43.md",
+      "docPath": "docs/doc/编程语言/Java"
+    },
+    {
+      "id": 170922717,
+      "doc_id": "dw3rk59616zfltq2",
+      "updated": 1716870544000,
+      "properties": {
+        "title": "👋 Java 集合类剖析",
+        "urlname": "dw3rk59616zfltq2",
+        "date": "2024-05-24 12:50:17",
+        "updated": "2024-05-28 12:29:04",
+        "cover": "https://cdn.nlark.com/yuque/0/2022/jpeg/22382235/1651227483857-b2d60627-7c5c-4894-b201-16761b2a52f8.jpeg",
+        "description": "---nav_path: java-collections---Java集合类的主要目的是创建一个简单的、高性能的数据结构操作框架。Java的集合框架围绕一组标准接口设计，根接口是数据集合（Collection）与键值映射表（Map），并基于这两个接口派生了多个子接口，实现包括数组、哈希表、集...",
+        "nav_path": "java-collections"
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "dw3rk59616zfltq2"
+        },
+        {
+          "title": "Java",
+          "doc_id": "dw3rk59616zfltq2"
+        }
+      ],
+      "realName": "dw3rk59616zfltq2",
+      "relativePath": "/编程语言/Java/dw3rk59616zfltq2.md",
+      "docPath": "docs/doc/编程语言/Java"
+    },
+    {
+      "id": 170598708,
+      "doc_id": "ovnsrnr6cn8gasi5",
+      "updated": 1716526197000,
+      "properties": {
+        "title": "📖 Java速查手册",
+        "urlname": "ovnsrnr6cn8gasi5",
+        "date": "2024-05-22 08:50:43",
+        "updated": "2024-05-24 12:49:57",
+        "description": "---nav_path: java_instant_reference---下面是Java速查手册的一个大纲，涵盖了基本语法、常用类和方法、异常处理等内容。这样的手册对初学者和有经验的开发者都非常有用，可以节省查找文档和在线搜索的时间。1. 基本语法1.1 数据类型 基本数据类型： byte ...",
+        "nav_path": "java_instant_reference"
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "ovnsrnr6cn8gasi5"
+        },
+        {
+          "title": "Java",
+          "doc_id": "ovnsrnr6cn8gasi5"
+        }
+      ],
+      "realName": "ovnsrnr6cn8gasi5",
+      "relativePath": "\\编程语言\\Java\\ovnsrnr6cn8gasi5.md",
+      "docPath": "docs\\doc\\编程语言\\Java"
+    },
+    {
+      "id": 170922556,
+      "doc_id": "traig2qo1kgs1ct7",
+      "updated": 1716889444000,
+      "properties": {
+        "title": "计网疑云",
+        "urlname": "traig2qo1kgs1ct7",
+        "date": "2024-05-24 12:45:26",
+        "updated": "2024-05-28 17:44:04",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1712839608474-88ff4270-a531-468a-a41e-82d13d24e820.png",
+        "description": "偶然看到一篇推文说“计算机网络的知识繁杂难懂，诸如不同层级的协议、特性相互联系又有所不同，要想学懂计算机网络就得抓住一条主线。”文中所说的主线是“一个数据包是如何发送出去的”。只有把握住了整个网络脉络主线才不至于被纷繁复杂的网络协议所搞晕，剩下的就是不断的细化，填充这些主干上的细枝末节。OSI..."
+      },
+      "catalog": [
+        {
+          "title": "📚 小小八股文",
+          "doc_id": "traig2qo1kgs1ct7"
+        },
+        {
+          "title": "计算机网络",
+          "doc_id": "traig2qo1kgs1ct7"
+        }
+      ],
+      "realName": "traig2qo1kgs1ct7",
+      "relativePath": "\\📚 小小八股文\\计算机网络\\traig2qo1kgs1ct7.md",
+      "docPath": "docs\\doc\\📚 小小八股文\\计算机网络"
+    },
+    {
+      "id": 170922417,
+      "doc_id": "kewfeh2gmbrr6p0q",
+      "updated": 1716889667000,
+      "properties": {
+        "title": "🔥 MySQL面试必问（一）",
+        "urlname": "kewfeh2gmbrr6p0q",
+        "date": "2024-05-24 12:43:33",
+        "updated": "2024-05-28 17:47:47",
+        "cover": "https://cdn.nlark.com/yuque/0/2021/png/22382235/1630507852986-80aef639-4ae5-4f18-88d1-932c3606d05e.png",
+        "description": "数据库基础知识数据库三范式（3NF）简单来说，在关系型数据库汇总，三范式就是设计一个好的数据库所必须要遵循的一些规则。每列原子性（1NF）比如某一个数据表中有“地址”信息，但是实际业务场景下经常查询“地址”中的城市部分，那么就需要将“地址”拆分成多个部分来保存（否则的话，实际业务场景还需要在地..."
+      },
+      "catalog": [
+        {
+          "title": "📚 小小八股文",
+          "doc_id": "kewfeh2gmbrr6p0q"
+        },
+        {
+          "title": "MySQL",
+          "doc_id": "kewfeh2gmbrr6p0q"
+        }
+      ],
+      "realName": "kewfeh2gmbrr6p0q",
+      "relativePath": "\\📚 小小八股文\\MySQL\\kewfeh2gmbrr6p0q.md",
+      "docPath": "docs\\doc\\📚 小小八股文\\MySQL"
+    },
+    {
+      "id": 170922439,
+      "doc_id": "gtg6lubgteg35gf3",
+      "updated": 1716525861000,
+      "properties": {
+        "title": "Redis源码阅读笔记",
+        "urlname": "gtg6lubgteg35gf3",
+        "date": "2024-05-24 12:44:00",
+        "updated": "2024-05-24 12:44:21",
+        "cover": "https://cdn.nlark.com/yuque/0/2021/png/22382235/1630549953915-4ba335be-d0ce-40d9-b622-35527e0631c4.png",
+        "description": "源码阅读方式建议：VScode打开Redis源码，结合黄健宏老师的《Redis设计与实现》，先理解概念，再回归代码。在阅读到数据库的具体实现时，建议在Linux系统下编译并运行Redis，对其的理解将更为直观。源码阅读顺序：阅读数据结构的源码阅读内存编码数据结构实现阅读数据类型的实现阅读单机数..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "gtg6lubgteg35gf3"
+        },
+        {
+          "title": "Redis",
+          "doc_id": "gtg6lubgteg35gf3"
+        }
+      ],
+      "realName": "gtg6lubgteg35gf3",
+      "relativePath": "\\小小八股文\\Redis\\gtg6lubgteg35gf3.md",
+      "docPath": "docs\\doc\\小小八股文\\Redis"
+    },
+    {
+      "id": 170922080,
+      "doc_id": "dnlzg5c1knqo7vq0",
+      "updated": 1716886050000,
+      "properties": {
+        "title": "C++杂谈：指针、常量、数组？📖",
+        "urlname": "dnlzg5c1knqo7vq0",
+        "date": "2024-05-24 12:33:59",
+        "updated": "2024-05-28 16:47:30",
+        "description": "《C++杂谈》探讨了指针与常量、迭代器与失效、内联函数、数组名及常量指针等核心概念，剖析了其用法和实现原理。指针数组和数组指针？变量类型区分要区分某个变量是指针数组还是数组指针，只需要看 * 修饰的是哪个变量！int main() {     int a[3] = {1, 2, 3};  //..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "dnlzg5c1knqo7vq0"
+        },
+        {
+          "title": "C/C++",
+          "doc_id": "dnlzg5c1knqo7vq0"
+        }
+      ],
+      "realName": "dnlzg5c1knqo7vq0",
+      "relativePath": "\\💻 编程语言\\C\\C++\\dnlzg5c1knqo7vq0.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C\\C++"
+    },
+    {
+      "id": 170922071,
+      "doc_id": "ieg2wz53uo7g4oik",
+      "updated": 1716525237000,
+      "properties": {
+        "title": "C/C++",
+        "urlname": "ieg2wz53uo7g4oik",
+        "date": "2024-05-24 12:33:28",
+        "updated": "2024-05-24 12:33:57",
+        "description": "---nav_path: cpp---",
+        "nav_path": "cpp"
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "ieg2wz53uo7g4oik"
+        }
+      ],
+      "realName": "ieg2wz53uo7g4oik",
+      "relativePath": "\\编程语言\\ieg2wz53uo7g4oik.md",
+      "docPath": "docs\\doc\\编程语言"
+    },
+    {
+      "id": 170918246,
+      "doc_id": "sopmax1eeghv3smd",
+      "updated": 1716525021000,
+      "properties": {
+        "title": "第4章 MySQL高级查询",
+        "urlname": "sopmax1eeghv3smd",
+        "date": "2024-05-24 11:40:07",
+        "updated": "2024-05-24 12:30:21",
+        "cover": "https://cdn.nlark.com/yuque/__puml/a33ebc8326fd5e0b056af13876f9b19c.svg",
+        "description": "本章将介绍MySQL的高级查询，包括联合查询（JOIN）、子查询和视图的使用。通过这些内容，你将学会如何进行复杂的数据查询和操作，并理解MySQL高级查询的实现原理。4.1 联合查询（JOIN）4.1.1 联合查询的概述联合查询用于从多个表中检索数据。MySQL支持多种类型的联合查询，包括内连..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "sopmax1eeghv3smd"
+        },
+        {
+          "title": "MySQL",
+          "doc_id": "sopmax1eeghv3smd"
+        },
+        {
+          "title": "MySQL必知必会",
+          "doc_id": "sopmax1eeghv3smd"
+        }
+      ],
+      "realName": "sopmax1eeghv3smd",
+      "relativePath": "\\小小八股文\\MySQL\\MySQL必知必会\\sopmax1eeghv3smd.md",
+      "docPath": "docs\\doc\\小小八股文\\MySQL\\MySQL必知必会"
+    },
+    {
+      "id": 170917326,
+      "doc_id": "aatkm5bcecwh82zb",
+      "updated": 1716524947000,
+      "properties": {
+        "title": "第3章 MySQL查询数据",
+        "urlname": "aatkm5bcecwh82zb",
+        "date": "2024-05-24 11:33:04",
+        "updated": "2024-05-24 12:29:07",
+        "description": "本章将介绍MySQL的数据查询，包括基本查询语法、条件查询、排序与分页、聚合函数与分组查询等内容。通过这些内容，你将学会如何从数据库中检索所需的数据，并理解MySQL查询的执行过程。3.1 基本查询语法3.1.1 SELECT语句SELECT语句用于从数据库中检索数据。最简单的查询语法如下：S..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "aatkm5bcecwh82zb"
+        },
+        {
+          "title": "MySQL",
+          "doc_id": "aatkm5bcecwh82zb"
+        },
+        {
+          "title": "MySQL必知必会",
+          "doc_id": "aatkm5bcecwh82zb"
+        }
+      ],
+      "realName": "aatkm5bcecwh82zb",
+      "relativePath": "\\小小八股文\\MySQL\\MySQL必知必会\\aatkm5bcecwh82zb.md",
+      "docPath": "docs\\doc\\小小八股文\\MySQL\\MySQL必知必会"
+    },
+    {
+      "id": 170920968,
+      "doc_id": "nphgk4npeh93y635",
+      "updated": 1716524978000,
+      "properties": {
+        "title": "第6章 MySQL索引",
+        "urlname": "nphgk4npeh93y635",
+        "date": "2024-05-24 12:11:07",
+        "updated": "2024-05-24 12:29:38",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/c4fa3515f34e474246c3e8da81251923.svg",
+        "description": "本章将介绍MySQL的索引，包括什么是索引、如何创建和删除索引、索引的种类和使用场景。通过这些内容，你将学会如何使用索引来提高查询性能，并理解MySQL索引的实现原理。6.1 什么是索引6.1.1 索引的概述索引是一种用于加速数据检索的数据结构。通过索引，可以快速查找到表中符合条件的记录，而不..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "nphgk4npeh93y635"
+        },
+        {
+          "title": "MySQL",
+          "doc_id": "nphgk4npeh93y635"
+        },
+        {
+          "title": "MySQL必知必会",
+          "doc_id": "nphgk4npeh93y635"
+        }
+      ],
+      "realName": "nphgk4npeh93y635",
+      "relativePath": "\\小小八股文\\MySQL\\MySQL必知必会\\nphgk4npeh93y635.md",
+      "docPath": "docs\\doc\\小小八股文\\MySQL\\MySQL必知必会"
+    },
+    {
+      "id": 170922123,
+      "doc_id": "kzeaege1xzso8hh8",
+      "updated": 1716889395000,
+      "properties": {
+        "title": "《操作系统随想录》",
+        "urlname": "kzeaege1xzso8hh8",
+        "date": "2024-05-24 12:34:59",
+        "updated": "2024-05-28 17:43:15",
+        "cover": "https://cdn.nlark.com/yuque/0/2021/jpeg/22382235/1632813845745-81a4443b-8bd8-4d72-a7ea-291b0b49c2e4.jpeg",
+        "description": "对于操作系统这门课，其实只有以下几个部分内存管理、进程、文件、IO、网络、硬件设备，如下图所示：以下所有内容，均来自我当初校招求职时整理的资料，并备注转载链接，如有侵权请联系我处理。课前复习常问的操作系统问题，如果都知道，之后的知识选择性看就好了。一日之计在于晨什么是操作系统？从本质上来说其实..."
+      },
+      "catalog": [
+        {
+          "title": "📚 小小八股文",
+          "doc_id": "kzeaege1xzso8hh8"
+        },
+        {
+          "title": "操作系统",
+          "doc_id": "kzeaege1xzso8hh8"
+        }
+      ],
+      "realName": "kzeaege1xzso8hh8",
+      "relativePath": "\\📚 小小八股文\\操作系统\\kzeaege1xzso8hh8.md",
+      "docPath": "docs\\doc\\📚 小小八股文\\操作系统"
+    },
+    {
+      "id": 170916954,
+      "doc_id": "rggr746er445f1as",
+      "updated": 1716524881000,
+      "properties": {
+        "title": "第1章 MySQL简介与安装",
+        "urlname": "rggr746er445f1as",
+        "date": "2024-05-24 11:30:28",
+        "updated": "2024-05-24 12:28:01",
+        "description": "本章将介绍MySQL的基本概念、特点和应用场景，并详细讲解在不同操作系统上安装和配置MySQL的方法。通过这些内容，你将了解MySQL的基本特性，并成功安装和配置MySQL数据库。1.1 什么是MySQL1.1.1 定义MySQL是一个开源的关系型数据库管理系统（RDBMS），由瑞典公司MyS..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "rggr746er445f1as"
+        },
+        {
+          "title": "MySQL",
+          "doc_id": "rggr746er445f1as"
+        },
+        {
+          "title": "MySQL必知必会",
+          "doc_id": "rggr746er445f1as"
+        }
+      ],
+      "realName": "rggr746er445f1as",
+      "relativePath": "\\小小八股文\\MySQL\\MySQL必知必会\\rggr746er445f1as.md",
+      "docPath": "docs\\doc\\小小八股文\\MySQL\\MySQL必知必会"
+    },
+    {
+      "id": 170921529,
+      "doc_id": "pogqdcgobu5gk60t",
+      "updated": 1716525058000,
+      "properties": {
+        "title": "第12章 MySQL常用工具",
+        "urlname": "pogqdcgobu5gk60t",
+        "date": "2024-05-24 12:21:44",
+        "updated": "2024-05-24 12:30:58",
+        "description": "本章将介绍MySQL的常用工具，包括MySQL Workbench、命令行工具以及其他一些有用的第三方工具。通过这些内容，你将学会如何高效地使用这些工具进行数据库管理和操作。12.1 MySQL Workbench12.1.1 简介MySQL Workbench是一款集成的可视化工具，用于数据..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "pogqdcgobu5gk60t"
+        },
+        {
+          "title": "MySQL",
+          "doc_id": "pogqdcgobu5gk60t"
+        },
+        {
+          "title": "MySQL必知必会",
+          "doc_id": "pogqdcgobu5gk60t"
+        }
+      ],
+      "realName": "pogqdcgobu5gk60t",
+      "relativePath": "\\小小八股文\\MySQL\\MySQL必知必会\\pogqdcgobu5gk60t.md",
+      "docPath": "docs\\doc\\小小八股文\\MySQL\\MySQL必知必会"
+    },
+    {
+      "id": 170917051,
+      "doc_id": "pz0w9p1xmrhrw4vc",
+      "updated": 1716524894000,
+      "properties": {
+        "title": "第2章 MySQL基本操作",
+        "urlname": "pz0w9p1xmrhrw4vc",
+        "date": "2024-05-24 11:31:15",
+        "updated": "2024-05-24 12:28:14",
+        "cover": "https://cdn.nlark.com/yuque/__puml/3ee2c7e3b83a484ac20acb8b2eb6770c.svg",
+        "description": "本章将介绍MySQL的基本操作，包括如何连接数据库、创建和删除数据库、创建和删除表，以及插入、更新和删除数据。这些操作是使用MySQL进行数据管理的基础。2.1 连接数据库2.1.1 使用MySQL命令行客户端连接数据库启动MySQL命令行客户端mysql -u root -p-u root：..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "pz0w9p1xmrhrw4vc"
+        },
+        {
+          "title": "MySQL",
+          "doc_id": "pz0w9p1xmrhrw4vc"
+        },
+        {
+          "title": "MySQL必知必会",
+          "doc_id": "pz0w9p1xmrhrw4vc"
+        }
+      ],
+      "realName": "pz0w9p1xmrhrw4vc",
+      "relativePath": "\\小小八股文\\MySQL\\MySQL必知必会\\pz0w9p1xmrhrw4vc.md",
+      "docPath": "docs\\doc\\小小八股文\\MySQL\\MySQL必知必会"
+    },
+    {
+      "id": 170921048,
+      "doc_id": "dluq61e4yfx2q3sd",
+      "updated": 1716524903000,
+      "properties": {
+        "title": "MySQL必知必会",
+        "urlname": "dluq61e4yfx2q3sd",
+        "date": "2024-05-24 12:12:25",
+        "updated": "2024-05-24 12:28:23",
+        "description": "---nav_path: mysql_basic---MySQL入门教程目录 简介与安装 什么是MySQLMySQL的特点和优势MySQL的应用场景安装MySQL配置MySQL启动与停止MySQL服务 基本操作 连接数据库创建和删除数据库创建和删除表插入、更新和删除数据 查询数据 基本查询语法...",
+        "nav_path": "mysql_basic"
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "dluq61e4yfx2q3sd"
+        },
+        {
+          "title": "MySQL",
+          "doc_id": "dluq61e4yfx2q3sd"
+        }
+      ],
+      "realName": "dluq61e4yfx2q3sd",
+      "relativePath": "\\小小八股文\\MySQL\\dluq61e4yfx2q3sd.md",
+      "docPath": "docs\\doc\\小小八股文\\MySQL"
+    },
+    {
+      "id": 170919589,
+      "doc_id": "wg57uzpv5k9xaawf",
+      "updated": 1716524963000,
+      "properties": {
+        "title": "第5章 MySQL主键、外键、唯一键",
+        "urlname": "wg57uzpv5k9xaawf",
+        "date": "2024-05-24 11:51:49",
+        "updated": "2024-05-24 12:29:23",
+        "description": "本章将介绍MySQL的数据完整性，包括主键与外键、唯一约束与检查约束的使用。通过这些内容，你将学会如何在数据库中确保数据的准确性和一致性，并理解MySQL约束的实现机制。5.1 主键与外键5.1.1 主键（Primary Key）主键是表中一列或多列的组合，其值在表中必须唯一，并且不能为NUL..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "wg57uzpv5k9xaawf"
+        },
+        {
+          "title": "MySQL",
+          "doc_id": "wg57uzpv5k9xaawf"
+        },
+        {
+          "title": "MySQL必知必会",
+          "doc_id": "wg57uzpv5k9xaawf"
+        }
+      ],
+      "realName": "wg57uzpv5k9xaawf",
+      "relativePath": "\\小小八股文\\MySQL\\MySQL必知必会\\wg57uzpv5k9xaawf.md",
+      "docPath": "docs\\doc\\小小八股文\\MySQL\\MySQL必知必会"
+    },
+    {
+      "id": 170921372,
+      "doc_id": "lfe65y27k6wp1p0a",
+      "updated": 1716525049000,
+      "properties": {
+        "title": "第11章 MySQL性能优化",
+        "urlname": "lfe65y27k6wp1p0a",
+        "date": "2024-05-24 12:18:52",
+        "updated": "2024-05-24 12:30:49",
+        "description": "本章将介绍MySQL的性能优化，包括查询优化、索引优化和数据库设计优化。通过这些内容，你将学会如何识别和解决性能瓶颈，提高数据库的运行效率，并理解MySQL查询优化器的工作原理。11.1 查询优化11.1.1 使用EXPLAIN分析查询EXPLAIN语句用于显示SQL查询的执行计划，帮助你理解..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "lfe65y27k6wp1p0a"
+        },
+        {
+          "title": "MySQL",
+          "doc_id": "lfe65y27k6wp1p0a"
+        },
+        {
+          "title": "MySQL必知必会",
+          "doc_id": "lfe65y27k6wp1p0a"
+        }
+      ],
+      "realName": "lfe65y27k6wp1p0a",
+      "relativePath": "\\小小八股文\\MySQL\\MySQL必知必会\\lfe65y27k6wp1p0a.md",
+      "docPath": "docs\\doc\\小小八股文\\MySQL\\MySQL必知必会"
+    },
+    {
+      "id": 170921005,
+      "doc_id": "nuznm9xzxtg9fn0r",
+      "updated": 1716524986000,
+      "properties": {
+        "title": "第7章 MySQL事务管理",
+        "urlname": "nuznm9xzxtg9fn0r",
+        "date": "2024-05-24 12:11:44",
+        "updated": "2024-05-24 12:29:46",
+        "description": "本章将介绍MySQL的事务管理，包括事务的概念、ACID特性、事务的使用以及事务的底层实现原理。通过这些内容，你将学会如何在数据库中使用事务来确保数据的一致性和完整性，并理解MySQL事务的实现机制。7.1 事务的概念7.1.1 事务的定义事务（Transaction）是一个不可分割的工作单元..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "nuznm9xzxtg9fn0r"
+        },
+        {
+          "title": "MySQL",
+          "doc_id": "nuznm9xzxtg9fn0r"
+        },
+        {
+          "title": "MySQL必知必会",
+          "doc_id": "nuznm9xzxtg9fn0r"
+        }
+      ],
+      "realName": "nuznm9xzxtg9fn0r",
+      "relativePath": "\\小小八股文\\MySQL\\MySQL必知必会\\nuznm9xzxtg9fn0r.md",
+      "docPath": "docs\\doc\\小小八股文\\MySQL\\MySQL必知必会"
+    },
+    {
+      "id": 170921154,
+      "doc_id": "wfq73pht526qgytk",
+      "updated": 1716525032000,
+      "properties": {
+        "title": "第8章 MySQL存储引擎",
+        "urlname": "wfq73pht526qgytk",
+        "date": "2024-05-24 12:14:31",
+        "updated": "2024-05-24 12:30:32",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/2c8ad32b5ae3599765ae964abd3259a4.svg",
+        "description": "本章将介绍MySQL的存储引擎，包括不同存储引擎的概述、特点、使用场景以及存储引擎的底层实现原理。通过这些内容，你将学会如何选择和使用最适合的存储引擎，并理解MySQL存储引擎的工作机制。8.1 存储引擎概述8.1.1 什么是存储引擎存储引擎是MySQL用于存储、处理和检索数据的模块。不同的存..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "wfq73pht526qgytk"
+        },
+        {
+          "title": "MySQL",
+          "doc_id": "wfq73pht526qgytk"
+        },
+        {
+          "title": "MySQL必知必会",
+          "doc_id": "wfq73pht526qgytk"
+        }
+      ],
+      "realName": "wfq73pht526qgytk",
+      "relativePath": "\\小小八股文\\MySQL\\MySQL必知必会\\wfq73pht526qgytk.md",
+      "docPath": "docs\\doc\\小小八股文\\MySQL\\MySQL必知必会"
+    },
+    {
+      "id": 170921295,
+      "doc_id": "wcxhvtogvg6gsxc2",
+      "updated": 1716525043000,
+      "properties": {
+        "title": "第10章 MySQL用户管理与权限",
+        "urlname": "wcxhvtogvg6gsxc2",
+        "date": "2024-05-24 12:17:00",
+        "updated": "2024-05-24 12:30:43",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/eb1987499e5fc06128a253439ff14a1a.svg",
+        "description": "本章将介绍MySQL的用户管理与权限系统，包括如何创建和删除用户、设置用户权限以及用户管理的最佳实践。通过这些内容，你将学会如何安全高效地管理数据库用户，并理解MySQL权限控制的实现机制。10.1 创建和删除用户10.1.1 创建用户使用CREATE USER语句创建新的数据库用户，并设置其..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "wcxhvtogvg6gsxc2"
+        },
+        {
+          "title": "MySQL",
+          "doc_id": "wcxhvtogvg6gsxc2"
+        },
+        {
+          "title": "MySQL必知必会",
+          "doc_id": "wcxhvtogvg6gsxc2"
+        }
+      ],
+      "realName": "wcxhvtogvg6gsxc2",
+      "relativePath": "\\小小八股文\\MySQL\\MySQL必知必会\\wcxhvtogvg6gsxc2.md",
+      "docPath": "docs\\doc\\小小八股文\\MySQL\\MySQL必知必会"
+    },
+    {
+      "id": 170897593,
+      "doc_id": "piqeakcxrghiq16l",
+      "updated": 1716516146000,
+      "properties": {
+        "title": "7、Java虚拟机（JVM）",
+        "urlname": "piqeakcxrghiq16l",
+        "date": "2024-05-24 09:47:24",
+        "updated": "2024-05-24 10:02:26",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/1a98304cb5278f98d89137ef94334269.svg",
+        "description": "Java虚拟机（JVM）是运行Java程序的抽象计算机，它在实际的硬件和操作系统上提供了一个执行环境。理解JVM的内部机制对于优化和调试Java程序至关重要。7.1 JVM架构解析JVM的架构由多个组件组成，每个组件在Java程序的执行过程中都扮演着重要角色。7.1.1 JVM的主要组件类加载..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "piqeakcxrghiq16l"
+        },
+        {
+          "title": "Java",
+          "doc_id": "piqeakcxrghiq16l"
+        },
+        {
+          "title": "😄 Java编程大师手册",
+          "doc_id": "piqeakcxrghiq16l"
+        }
+      ],
+      "realName": "piqeakcxrghiq16l",
+      "relativePath": "\\编程语言\\Java\\😄 Java编程大师手册\\piqeakcxrghiq16l.md",
+      "docPath": "docs\\doc\\编程语言\\Java\\😄 Java编程大师手册"
+    },
+    {
+      "id": 170921209,
+      "doc_id": "pigvhm70n8mbghmu",
+      "updated": 1716525037000,
+      "properties": {
+        "title": "第9章 MySQL备份与恢复",
+        "urlname": "pigvhm70n8mbghmu",
+        "date": "2024-05-24 12:15:29",
+        "updated": "2024-05-24 12:30:37",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/a5d90415a400e1c9623afcb4fd31e153.svg",
+        "description": "本章将介绍MySQL的备份与恢复，包括备份数据的方法、恢复数据的步骤以及逻辑备份与物理备份的区别。通过这些内容，你将学会如何确保数据的安全和可恢复性，并理解MySQL备份与恢复的实现原理。为了更好地理解MySQL备份与恢复的实现原理，我们可以绘制了图片。9.1 备份数据备份是保护数据的重要手段..."
+      },
+      "catalog": [
+        {
+          "title": "小小八股文",
+          "doc_id": "pigvhm70n8mbghmu"
+        },
+        {
+          "title": "MySQL",
+          "doc_id": "pigvhm70n8mbghmu"
+        },
+        {
+          "title": "MySQL必知必会",
+          "doc_id": "pigvhm70n8mbghmu"
+        }
+      ],
+      "realName": "pigvhm70n8mbghmu",
+      "relativePath": "\\小小八股文\\MySQL\\MySQL必知必会\\pigvhm70n8mbghmu.md",
+      "docPath": "docs\\doc\\小小八股文\\MySQL\\MySQL必知必会"
+    },
+    {
+      "id": 170896045,
+      "doc_id": "ybp7dzzpfx11hkms",
+      "updated": 1716870477000,
+      "properties": {
+        "title": "😄 Java编程大师手册",
+        "urlname": "ybp7dzzpfx11hkms",
+        "date": "2024-05-24 09:38:51",
+        "updated": "2024-05-28 12:27:57",
+        "description": "---nav_path: java_master---第一部分：Java基础篇第1章 初识JavaJava的安装与配置第一个Java程序：Hello World!第2章 Java基础语法变量与数据类型运算符与表达式控制流程：条件语句与循环语句第3章 面向对象的Java类与对象：Java的心脏继...",
+        "nav_path": "java_master"
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "ybp7dzzpfx11hkms"
+        },
+        {
+          "title": "Java",
+          "doc_id": "ybp7dzzpfx11hkms"
+        }
+      ],
+      "realName": "ybp7dzzpfx11hkms",
+      "relativePath": "/编程语言/Java/ybp7dzzpfx11hkms.md",
+      "docPath": "docs/doc/编程语言/Java"
+    },
+    {
+      "id": 170899854,
+      "doc_id": "egdut651nmx8bwzm",
+      "updated": 1716515819000,
+      "properties": {
+        "title": "10、Java项目实战",
+        "urlname": "egdut651nmx8bwzm",
+        "date": "2024-05-24 09:55:54",
+        "updated": "2024-05-24 09:56:59",
+        "description": "本章将通过一个实战项目演示如何应用前面所学的Java知识，构建一个完整的个人记账本Web应用。10.1 实战项目：个人记账本Web应用10.1.1 项目概述我们将构建一个简单的个人记账本Web应用，用户可以记录和查看他们的收入和支出。10.1.2 技术栈Spring Boot：用于快速构建和部..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "egdut651nmx8bwzm"
+        },
+        {
+          "title": "Java",
+          "doc_id": "egdut651nmx8bwzm"
+        },
+        {
+          "title": "😄 Java编程大师手册",
+          "doc_id": "egdut651nmx8bwzm"
+        }
+      ],
+      "realName": "egdut651nmx8bwzm",
+      "relativePath": "\\编程语言\\Java\\😄 Java编程大师手册\\egdut651nmx8bwzm.md",
+      "docPath": "docs\\doc\\编程语言\\Java\\😄 Java编程大师手册"
+    },
+    {
+      "id": 170900146,
+      "doc_id": "sh85l5yfgmlm3uh5",
+      "updated": 1716515978000,
+      "properties": {
+        "title": "11、Java新技术探索:云原生",
+        "urlname": "sh85l5yfgmlm3uh5",
+        "date": "2024-05-24 09:57:06",
+        "updated": "2024-05-24 09:59:38",
+        "description": "本章将探讨Java在现代软件开发中的一些新技术趋势，包括微服务架构与Spring Cloud、容器化与Docker，以及Java在云原生时代的应用。11.1 微服务架构与Spring Cloud微服务架构是一种将应用程序拆分为多个独立服务的设计方法，每个服务可以独立开发、部署和扩展。Sprin..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "sh85l5yfgmlm3uh5"
+        },
+        {
+          "title": "Java",
+          "doc_id": "sh85l5yfgmlm3uh5"
+        },
+        {
+          "title": "😄 Java编程大师手册",
+          "doc_id": "sh85l5yfgmlm3uh5"
+        }
+      ],
+      "realName": "sh85l5yfgmlm3uh5",
+      "relativePath": "\\编程语言\\Java\\😄 Java编程大师手册\\sh85l5yfgmlm3uh5.md",
+      "docPath": "docs\\doc\\编程语言\\Java\\😄 Java编程大师手册"
+    },
+    {
+      "id": 170899579,
+      "doc_id": "dc8asrncbtqn2gvr",
+      "updated": 1716515822000,
+      "properties": {
+        "title": "9、Java Web开发",
+        "urlname": "dc8asrncbtqn2gvr",
+        "date": "2024-05-24 09:55:02",
+        "updated": "2024-05-24 09:57:02",
+        "description": "本章介绍如何使用Java进行Web开发，包括Servlet与JSP、Spring框架入门以及如何构建RESTful Web服务与Spring Boot应用。9.1 Servlet与JSPServlet和JSP是Java Web开发的基础技术，Servlet用于处理请求和响应，JSP用于生成动态..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "dc8asrncbtqn2gvr"
+        },
+        {
+          "title": "Java",
+          "doc_id": "dc8asrncbtqn2gvr"
+        },
+        {
+          "title": "😄 Java编程大师手册",
+          "doc_id": "dc8asrncbtqn2gvr"
+        }
+      ],
+      "realName": "dc8asrncbtqn2gvr",
+      "relativePath": "\\编程语言\\Java\\😄 Java编程大师手册\\dc8asrncbtqn2gvr.md",
+      "docPath": "docs\\doc\\编程语言\\Java\\😄 Java编程大师手册"
+    },
+    {
+      "id": 170897604,
+      "doc_id": "uey01tcc9noh9y0w",
+      "updated": 1716515824000,
+      "properties": {
+        "title": "8、Java 8新特性",
+        "urlname": "uey01tcc9noh9y0w",
+        "date": "2024-05-24 09:47:28",
+        "updated": "2024-05-24 09:57:04",
+        "description": "Java 8引入了许多强大且实用的新特性，使得Java编程更加简洁和高效。本章将介绍其中一些最重要的特性。8.1 Lambda表达式与函数式编程Lambda表达式是Java 8引入的一种新语法，用于实现函数式编程。它允许你以更简洁的方式来表示匿名函数。8.1.1 Lambda表达式的语法Lam..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "uey01tcc9noh9y0w"
+        },
+        {
+          "title": "Java",
+          "doc_id": "uey01tcc9noh9y0w"
+        },
+        {
+          "title": "😄 Java编程大师手册",
+          "doc_id": "uey01tcc9noh9y0w"
+        }
+      ],
+      "realName": "uey01tcc9noh9y0w",
+      "relativePath": "\\编程语言\\Java\\😄 Java编程大师手册\\uey01tcc9noh9y0w.md",
+      "docPath": "docs\\doc\\编程语言\\Java\\😄 Java编程大师手册"
+    },
+    {
+      "id": 170598553,
+      "doc_id": "qnf5c4s774uxb7s4",
+      "updated": 1716515578000,
+      "properties": {
+        "title": "Java",
+        "urlname": "qnf5c4s774uxb7s4",
+        "date": "2024-05-22 08:48:41",
+        "updated": "2024-05-24 09:52:58",
+        "description": "---nav_path: java---",
+        "nav_path": "java"
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "qnf5c4s774uxb7s4"
+        }
+      ],
+      "realName": "qnf5c4s774uxb7s4",
+      "relativePath": "\\编程语言\\qnf5c4s774uxb7s4.md",
+      "docPath": "docs\\doc\\编程语言"
+    },
+    {
+      "id": 170897518,
+      "doc_id": "tkc45sgkfghf6cwq",
+      "updated": 1716515493000,
+      "properties": {
+        "title": "6、Java并发编程",
+        "urlname": "tkc45sgkfghf6cwq",
+        "date": "2024-05-24 09:47:02",
+        "updated": "2024-05-24 09:51:33",
+        "description": "并发编程是指同时执行多个任务，以提高程序的性能和响应速度。Java提供了丰富的并发编程工具和类。6.1 线程的创建与运行6.1.1 继承Thread类我们可以通过继承Thread类来创建线程。示例// 创建一个继承Thread类的自定义线程类 class MyThread extends Th..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "tkc45sgkfghf6cwq"
+        },
+        {
+          "title": "Java",
+          "doc_id": "tkc45sgkfghf6cwq"
+        },
+        {
+          "title": "😄 Java编程大师手册",
+          "doc_id": "tkc45sgkfghf6cwq"
+        }
+      ],
+      "realName": "tkc45sgkfghf6cwq",
+      "relativePath": "\\编程语言\\Java\\😄 Java编程大师手册\\tkc45sgkfghf6cwq.md",
+      "docPath": "docs\\doc\\编程语言\\Java\\😄 Java编程大师手册"
+    },
+    {
+      "id": 170897457,
+      "doc_id": "eyigfudhdxqiuax4",
+      "updated": 1716515353000,
+      "properties": {
+        "title": "4、Java中的基础类",
+        "urlname": "eyigfudhdxqiuax4",
+        "date": "2024-05-24 09:46:42",
+        "updated": "2024-05-24 09:49:13",
+        "description": "4.1 字符串处理字符串是Java中常用的数据类型，用于表示和操作字符序列。Java提供了丰富的字符串处理类。4.1.1 创建字符串String str1 = \"Hello, World!\"; String str2 = new String(\"Hello, World!\");4.1.2 字符..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "eyigfudhdxqiuax4"
+        },
+        {
+          "title": "Java",
+          "doc_id": "eyigfudhdxqiuax4"
+        },
+        {
+          "title": "😄 Java编程大师手册",
+          "doc_id": "eyigfudhdxqiuax4"
+        }
+      ],
+      "realName": "eyigfudhdxqiuax4",
+      "relativePath": "\\编程语言\\Java\\😄 Java编程大师手册\\eyigfudhdxqiuax4.md",
+      "docPath": "docs\\doc\\编程语言\\Java\\😄 Java编程大师手册"
+    },
+    {
+      "id": 170897521,
+      "doc_id": "gwtxhkglgx6m77r7",
+      "updated": 1716515413000,
+      "properties": {
+        "title": "5、Java玩转I/O",
+        "urlname": "gwtxhkglgx6m77r7",
+        "date": "2024-05-24 09:47:03",
+        "updated": "2024-05-24 09:50:13",
+        "description": "5.1 文件操作Java提供了丰富的类和方法用于文件操作，例如读取和写入文件。5.1.1 读取文件使用FileReader和BufferedReader类可以读取文件内容。import java.io.BufferedReader; import java.io.FileReader; imp..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "gwtxhkglgx6m77r7"
+        },
+        {
+          "title": "Java",
+          "doc_id": "gwtxhkglgx6m77r7"
+        },
+        {
+          "title": "😄 Java编程大师手册",
+          "doc_id": "gwtxhkglgx6m77r7"
+        }
+      ],
+      "realName": "gwtxhkglgx6m77r7",
+      "relativePath": "\\编程语言\\Java\\😄 Java编程大师手册\\gwtxhkglgx6m77r7.md",
+      "docPath": "docs\\doc\\编程语言\\Java\\😄 Java编程大师手册"
+    },
+    {
+      "id": 170897296,
+      "doc_id": "cmycpz0uonvbubaf",
+      "updated": 1716515201000,
+      "properties": {
+        "title": "3、面向对象的Java",
+        "urlname": "cmycpz0uonvbubaf",
+        "date": "2024-05-24 09:45:53",
+        "updated": "2024-05-24 09:46:41",
+        "description": "3.1 类与对象：Java的心脏Java是一种面向对象的编程语言，类和对象是其核心概念。3.1.1 类的定义类是对象的模板，定义了对象的属性和行为。在Java中，类使用class关键字定义。public class Person {     String name;     int age; ..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "cmycpz0uonvbubaf"
+        },
+        {
+          "title": "Java",
+          "doc_id": "cmycpz0uonvbubaf"
+        },
+        {
+          "title": "😄 Java编程大师手册",
+          "doc_id": "cmycpz0uonvbubaf"
+        }
+      ],
+      "realName": "cmycpz0uonvbubaf",
+      "relativePath": "\\编程语言\\Java\\😄 Java编程大师手册\\cmycpz0uonvbubaf.md",
+      "docPath": "docs\\doc\\编程语言\\Java\\😄 Java编程大师手册"
+    },
+    {
+      "id": 170897039,
+      "doc_id": "ewu8fhrp6gm1yvpa",
+      "updated": 1716515114000,
+      "properties": {
+        "title": "1、Java的安装与配置",
+        "urlname": "ewu8fhrp6gm1yvpa",
+        "date": "2024-05-24 09:44:39",
+        "updated": "2024-05-24 09:45:14",
+        "description": "1.1 选择并下载JDKJava开发工具包（JDK）是我们编写、编译和运行Java程序的必备工具。您可以从Oracle官网或OpenJDK下载最新版本的JDK。安装步骤： 下载JDK：访问Oracle官网或OpenJDK网站，选择适合您操作系统的JDK版本进行下载。  安装JDK：双击下载的安..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "ewu8fhrp6gm1yvpa"
+        },
+        {
+          "title": "Java",
+          "doc_id": "ewu8fhrp6gm1yvpa"
+        },
+        {
+          "title": "😄 Java编程大师手册",
+          "doc_id": "ewu8fhrp6gm1yvpa"
+        }
+      ],
+      "realName": "ewu8fhrp6gm1yvpa",
+      "relativePath": "\\编程语言\\Java\\😄 Java编程大师手册\\ewu8fhrp6gm1yvpa.md",
+      "docPath": "docs\\doc\\编程语言\\Java\\😄 Java编程大师手册"
+    },
+    {
+      "id": 170897146,
+      "doc_id": "oac96glbs6zlqy4q",
+      "updated": 1716515158000,
+      "properties": {
+        "title": "2、Java基础语法",
+        "urlname": "oac96glbs6zlqy4q",
+        "date": "2024-05-24 09:45:13",
+        "updated": "2024-05-24 09:45:58",
+        "description": "2.1 变量与数据类型在Java中，变量是用来存储数据的命名内存位置。数据类型决定了变量可以存储的数据的类型。2.1.1 基本数据类型Java中有八种基本数据类型：byte：8位整数，范围是-128到127。short：16位整数，范围是-32768到32767。int：32位整数，范围是-2..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "oac96glbs6zlqy4q"
+        },
+        {
+          "title": "Java",
+          "doc_id": "oac96glbs6zlqy4q"
+        },
+        {
+          "title": "😄 Java编程大师手册",
+          "doc_id": "oac96glbs6zlqy4q"
+        }
+      ],
+      "realName": "oac96glbs6zlqy4q",
+      "relativePath": "\\编程语言\\Java\\😄 Java编程大师手册\\oac96glbs6zlqy4q.md",
+      "docPath": "docs\\doc\\编程语言\\Java\\😄 Java编程大师手册"
+    },
+    {
+      "id": 170766294,
+      "doc_id": "reg9kozm27gdfcfa",
+      "updated": 1716514498000,
+      "properties": {
+        "title": "send-only channel和receive-only channel的争议",
+        "urlname": "reg9kozm27gdfcfa",
+        "date": "2024-05-23 10:31:47",
+        "updated": "2024-05-24 09:34:58",
+        "description": "在Go语言中，channel是一个非常重要的内置数据结构，几乎每个Go开发者都非常熟悉。它不仅能帮助实现goroutine之间的通信和同步，还通过goroutine和channel实现了CSP（Communicating Sequential Processes）模型。Go语言的共同创始人之一..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "reg9kozm27gdfcfa"
+        },
+        {
+          "title": "Go",
+          "doc_id": "reg9kozm27gdfcfa"
+        },
+        {
+          "title": "🎁 最佳实践",
+          "doc_id": "reg9kozm27gdfcfa"
+        }
+      ],
+      "realName": "reg9kozm27gdfcfa",
+      "relativePath": "\\编程语言\\Go\\🎁 最佳实践\\reg9kozm27gdfcfa.md",
+      "docPath": "docs\\doc\\编程语言\\Go\\🎁 最佳实践"
+    },
+    {
+      "id": 170766232,
+      "doc_id": "cucnu4x7f111nups",
+      "updated": 1716514524000,
+      "properties": {
+        "title": "new与make的差异及使用策略",
+        "urlname": "cucnu4x7f111nups",
+        "date": "2024-05-23 10:31:30",
+        "updated": "2024-05-24 09:35:24",
+        "description": "Go语言在数据结构初始化时，经常会用到new和make两个内置函数。这两个函数都能分配内存空间，但它们具体有什么不同？而在编码实践中，如何正确高效地使用new和make呢？new的内涵让我们先来探讨new函数：func new(Type) *Type new函数用于分配内存。它的第一个参数是类..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "cucnu4x7f111nups"
+        },
+        {
+          "title": "Go",
+          "doc_id": "cucnu4x7f111nups"
+        },
+        {
+          "title": "🎁 最佳实践",
+          "doc_id": "cucnu4x7f111nups"
+        }
+      ],
+      "realName": "cucnu4x7f111nups",
+      "relativePath": "\\编程语言\\Go\\🎁 最佳实践\\cucnu4x7f111nups.md",
+      "docPath": "docs\\doc\\编程语言\\Go\\🎁 最佳实践"
+    },
+    {
+      "id": 170767290,
+      "doc_id": "vdg53p6km14umie5",
+      "updated": 1716514453000,
+      "properties": {
+        "title": "你知道引用传递与引用变量？",
+        "urlname": "vdg53p6km14umie5",
+        "date": "2024-05-23 10:36:44",
+        "updated": "2024-05-24 09:34:13",
+        "description": "当我们在Go语言中使用map和channel时，你可能会注意到，将这些类型作为函数参数传递时，并不需要在形参中为map和channel添加指针符号*，依然能在函数体内改变外部map和channel的值。这种现象可能会让一些人联想到C++中的引用变量和引用传递。比如，考虑以下Go代码片段：pac..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "vdg53p6km14umie5"
+        },
+        {
+          "title": "Go",
+          "doc_id": "vdg53p6km14umie5"
+        },
+        {
+          "title": "🎁 最佳实践",
+          "doc_id": "vdg53p6km14umie5"
+        }
+      ],
+      "realName": "vdg53p6km14umie5",
+      "relativePath": "\\编程语言\\Go\\🎁 最佳实践\\vdg53p6km14umie5.md",
+      "docPath": "docs\\doc\\编程语言\\Go\\🎁 最佳实践"
+    },
+    {
+      "id": 170769092,
+      "doc_id": "az40vm4vsa7g6rpx",
+      "updated": 1716514403000,
+      "properties": {
+        "title": "枚举陷阱：如何避免“未知值”引发的灾难",
+        "urlname": "az40vm4vsa7g6rpx",
+        "date": "2024-05-23 10:46:07",
+        "updated": "2024-05-24 09:33:23",
+        "description": "在编程的海洋里，有一个常见的暗礁，即错误地处理枚举类型，特别是在Go语言中，这个问题更是隐蔽且普遍。这篇文章将带你深入探讨如何安全地航行过这片险水，这也是“Go十大常见错误”系列的开篇之作，来源于资深工程师Teiva Harsanyi的实战经验。更多源代码和错误分析，欢迎访问Go十大常见错误源..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "az40vm4vsa7g6rpx"
+        },
+        {
+          "title": "Go",
+          "doc_id": "az40vm4vsa7g6rpx"
+        },
+        {
+          "title": "🎁 最佳实践",
+          "doc_id": "az40vm4vsa7g6rpx"
+        }
+      ],
+      "realName": "az40vm4vsa7g6rpx",
+      "relativePath": "\\编程语言\\Go\\🎁 最佳实践\\az40vm4vsa7g6rpx.md",
+      "docPath": "docs\\doc\\编程语言\\Go\\🎁 最佳实践"
+    },
+    {
+      "id": 170768302,
+      "doc_id": "ifewuztzgoqgac68",
+      "updated": 1716514431000,
+      "properties": {
+        "title": "匿名结构体的奇妙用途",
+        "urlname": "ifewuztzgoqgac68",
+        "date": "2024-05-23 10:41:34",
+        "updated": "2024-05-24 09:33:51",
+        "description": "Go语言像一个充满魔法的世界，你可以在其中找到许多有趣的语法糖。其中，匿名结构体就如隐形斗篷一般，虽不显眼，却能在特定场景释放强大的魔法。比如，我们熟知的闭包（Closure）、结构体中的匿名字段（Anonymous Fields）以及本文的主角——匿名结构体（Anonymous Struct..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "ifewuztzgoqgac68"
+        },
+        {
+          "title": "Go",
+          "doc_id": "ifewuztzgoqgac68"
+        },
+        {
+          "title": "🎁 最佳实践",
+          "doc_id": "ifewuztzgoqgac68"
+        }
+      ],
+      "realName": "ifewuztzgoqgac68",
+      "relativePath": "\\编程语言\\Go\\🎁 最佳实践\\ifewuztzgoqgac68.md",
+      "docPath": "docs\\doc\\编程语言\\Go\\🎁 最佳实践"
+    },
+    {
+      "id": 170698560,
+      "doc_id": "htpzy6yum72pgula",
+      "updated": 1716514568000,
+      "properties": {
+        "title": "🎁 最佳实践",
+        "urlname": "htpzy6yum72pgula",
+        "date": "2024-05-22 20:17:02",
+        "updated": "2024-05-24 09:36:08",
+        "description": "---nav_path: best_practice---Go语言中的defer特性详解在Go语言中，defer关键字用于预定函数或方法的执行，这常用于处理成对的操作如打开关闭文件、加解锁、记录时间等。defer的独特之处在于，无论包含它的函数通过何种路径返回，它都确保调用被defer的函数。...",
+        "nav_path": "best_practice"
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "htpzy6yum72pgula"
+        },
+        {
+          "title": "Go",
+          "doc_id": "htpzy6yum72pgula"
+        }
+      ],
+      "realName": "htpzy6yum72pgula",
+      "relativePath": "\\编程语言\\Go\\htpzy6yum72pgula.md",
+      "docPath": "docs\\doc\\编程语言\\Go"
+    },
+    {
+      "id": 170698550,
+      "doc_id": "keyfqrqqbpiaa3ug",
+      "updated": 1716888754000,
+      "properties": {
+        "title": "第7章：Go航天器 - 模块化与测试",
+        "urlname": "keyfqrqqbpiaa3ug",
+        "date": "2024-05-22 20:16:57",
+        "updated": "2024-05-28 17:32:34",
+        "description": "欢迎进入Go航天器的世界，这里我们将探索Go语言的模块化构建和测试机制，保障你的代码质量和性能。包与模块的管理、单元测试与性能测试，以及并发编程模式和同步机制将是我们的重点。航天工程 - 包与模块的创建与管理在Go语言中，包和模块是代码组织和依赖管理的基石。创建和管理包创建包：在Go项目中，每..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "keyfqrqqbpiaa3ug"
+        },
+        {
+          "title": "Go",
+          "doc_id": "keyfqrqqbpiaa3ug"
+        },
+        {
+          "title": "🏫 新手入门",
+          "doc_id": "keyfqrqqbpiaa3ug"
+        }
+      ],
+      "realName": "keyfqrqqbpiaa3ug",
+      "relativePath": "\\💻 编程语言\\Go\\🏫 新手入门\\keyfqrqqbpiaa3ug.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Go\\🏫 新手入门"
+    },
+    {
+      "id": 170894224,
+      "doc_id": "eigb7p6levvwasze",
+      "updated": 1716514344000,
+      "properties": {
+        "title": "🏫 新手入门",
+        "urlname": "eigb7p6levvwasze",
+        "date": "2024-05-24 09:29:15",
+        "updated": "2024-05-24 09:32:24",
+        "description": "---nav_path: noob---",
+        "nav_path": "noob"
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "eigb7p6levvwasze"
+        },
+        {
+          "title": "Go",
+          "doc_id": "eigb7p6levvwasze"
+        }
+      ],
+      "realName": "eigb7p6levvwasze",
+      "relativePath": "\\编程语言\\Go\\eigb7p6levvwasze.md",
+      "docPath": "docs\\doc\\编程语言\\Go"
+    },
+    {
+      "id": 170697730,
+      "doc_id": "fkhl2h5k4efw4611",
+      "updated": 1716514133000,
+      "properties": {
+        "title": "第6章：Go操控台 - 高级特性",
+        "urlname": "fkhl2h5k4efw4611",
+        "date": "2024-05-22 20:07:10",
+        "updated": "2024-05-24 09:28:53",
+        "description": "这一章节将带你进入Go语言高级特性的操控台，从接口的灵活性到并发编程的强大，再到异常处理的艺术。让我们逐一深入解析。接口定义 - 接口的声明与实现接口在Go语言中是一种类型，它定义了一组方法，但不实现这些方法。当一个类型为接口中的所有方法提供了实现，它被称为实现该接口。接口声明// 定义一个动..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "fkhl2h5k4efw4611"
+        },
+        {
+          "title": "Go",
+          "doc_id": "fkhl2h5k4efw4611"
+        },
+        {
+          "title": "🏫 新手入门",
+          "doc_id": "fkhl2h5k4efw4611"
+        }
+      ],
+      "realName": "fkhl2h5k4efw4611",
+      "relativePath": "\\编程语言\\Go\\🏫 新手入门\\fkhl2h5k4efw4611.md",
+      "docPath": "docs\\doc\\编程语言\\Go\\🏫 新手入门"
+    },
+    {
+      "id": 170696195,
+      "doc_id": "ri9u49otr6ib48c2",
+      "updated": 1716514129000,
+      "properties": {
+        "title": "第5章：Go动力核心 - 函数与方法",
+        "urlname": "ri9u49otr6ib48c2",
+        "date": "2024-05-22 19:49:53",
+        "updated": "2024-05-24 09:28:49",
+        "description": "在这一章中，我们将探讨Go中的函数与方法，它们是构建强大和高效程序的动力核心。让我们来详细了解能量转换的艺术，动力系统的构建，以及能量场的奥秘。能量转换 - 编写和调用函数函数是Go中用来封装一段执行特定任务代码的单元。理解函数的编写和调用对于开发高效且可复用代码至关重要。编写函数// 定义一..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "ri9u49otr6ib48c2"
+        },
+        {
+          "title": "Go",
+          "doc_id": "ri9u49otr6ib48c2"
+        },
+        {
+          "title": "🏫 新手入门",
+          "doc_id": "ri9u49otr6ib48c2"
+        }
+      ],
+      "realName": "ri9u49otr6ib48c2",
+      "relativePath": "\\编程语言\\Go\\🏫 新手入门\\ri9u49otr6ib48c2.md",
+      "docPath": "docs\\doc\\编程语言\\Go\\🏫 新手入门"
+    },
+    {
+      "id": 170695641,
+      "doc_id": "gcu7t8o1hfh3tgks",
+      "updated": 1716514119000,
+      "properties": {
+        "title": "第3章：Go行动指南 - 流程控制与决策",
+        "urlname": "gcu7t8o1hfh3tgks",
+        "date": "2024-05-22 19:42:06",
+        "updated": "2024-05-24 09:28:39",
+        "description": "本章节将引导你穿越Go语言的逻辑迷宫，深入了解条件语句和循环语句的使用，是时候做出决策和循环巡航了。路线选择 - 条件语句if/switch的使用在Go的世界中，条件语句就像是在路口做出选择的指南针，它帮助我们根据不同的条件走向不同的路径。使用if语句if语句是最基础的条件判断语句，它允许程序..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "gcu7t8o1hfh3tgks"
+        },
+        {
+          "title": "Go",
+          "doc_id": "gcu7t8o1hfh3tgks"
+        },
+        {
+          "title": "🏫 新手入门",
+          "doc_id": "gcu7t8o1hfh3tgks"
+        }
+      ],
+      "realName": "gcu7t8o1hfh3tgks",
+      "relativePath": "\\编程语言\\Go\\🏫 新手入门\\gcu7t8o1hfh3tgks.md",
+      "docPath": "docs\\doc\\编程语言\\Go\\🏫 新手入门"
+    },
+    {
+      "id": 170695619,
+      "doc_id": "yvlmw16u6dg0bnyb",
+      "updated": 1716514113000,
+      "properties": {
+        "title": "第2章：Go工具箱 - 基础语法全接触",
+        "urlname": "yvlmw16u6dg0bnyb",
+        "date": "2024-05-22 19:41:38",
+        "updated": "2024-05-24 09:28:33",
+        "description": "进一步深入Go语言的世界，本章将全方位接触Go的基础语法，从数据类型、变量与常量的声明与初始化，到运算符与表达式的应用，为你绘制出Go语言的基本脉络。处理信号 - 数据类型的运用与转换在Go语言的行星上，正确地处理数据类型和进行类型转换就像是在浩瀚的宇宙中发送和接收信号一样重要。基本数据类型G..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "yvlmw16u6dg0bnyb"
+        },
+        {
+          "title": "Go",
+          "doc_id": "yvlmw16u6dg0bnyb"
+        },
+        {
+          "title": "🏫 新手入门",
+          "doc_id": "yvlmw16u6dg0bnyb"
+        }
+      ],
+      "realName": "yvlmw16u6dg0bnyb",
+      "relativePath": "\\编程语言\\Go\\🏫 新手入门\\yvlmw16u6dg0bnyb.md",
+      "docPath": "docs\\doc\\编程语言\\Go\\🏫 新手入门"
+    },
+    {
+      "id": 170695646,
+      "doc_id": "glme2cxvpkbflykn",
+      "updated": 1716514123000,
+      "properties": {
+        "title": "第4章：Go组件库 - 数据结构与集合",
+        "urlname": "glme2cxvpkbflykn",
+        "date": "2024-05-22 19:42:09",
+        "updated": "2024-05-24 09:28:43",
+        "description": "在本章节中，我们将深入探讨Go语言中的数组与切片、Map以及结构体与指针的高效使用与实战应用。这些是构建Go应用程序中不可或缺的基石，能够帮助我们更好地管理和操作数据。装载资源 - 数组与切片的高效使用数组和切片是Go语言中处理一系列数据的基本工具。数组的大小在声明时固定，而切片则更加灵活，支..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "glme2cxvpkbflykn"
+        },
+        {
+          "title": "Go",
+          "doc_id": "glme2cxvpkbflykn"
+        },
+        {
+          "title": "🏫 新手入门",
+          "doc_id": "glme2cxvpkbflykn"
+        }
+      ],
+      "realName": "glme2cxvpkbflykn",
+      "relativePath": "\\编程语言\\Go\\🏫 新手入门\\glme2cxvpkbflykn.md",
+      "docPath": "docs\\doc\\编程语言\\Go\\🏫 新手入门"
+    },
+    {
+      "id": 170695193,
+      "doc_id": "tgkdc0idgg402xt1",
+      "updated": 1716514110000,
+      "properties": {
+        "title": "第1章：Go启航 - 快速入门指南",
+        "urlname": "tgkdc0idgg402xt1",
+        "date": "2024-05-22 19:36:24",
+        "updated": "2024-05-24 09:28:30",
+        "description": "在这个章节中，我们将深入探索Go的程序结构，包括包声明、导入包、函数、变量、语句和表达式以及注释等各个部分。通过详细解析和配合实例代码，让你对Go程序的基本结构有个全面的了解。1.1 包声明在Go语言中，每个文件都属于一个包，而一个程序可能由多个包组成。包是Go语言组织代码的基本单位，有助于代..."
+      },
+      "catalog": [
+        {
+          "title": "编程语言",
+          "doc_id": "tgkdc0idgg402xt1"
+        },
+        {
+          "title": "Go",
+          "doc_id": "tgkdc0idgg402xt1"
+        },
+        {
+          "title": "🏫 新手入门",
+          "doc_id": "tgkdc0idgg402xt1"
+        }
+      ],
+      "realName": "tgkdc0idgg402xt1",
+      "relativePath": "\\编程语言\\Go\\🏫 新手入门\\tgkdc0idgg402xt1.md",
+      "docPath": "docs\\doc\\编程语言\\Go\\🏫 新手入门"
+    },
+    {
+      "id": 170786633,
+      "doc_id": "srte6wq59tapieq4",
+      "updated": 1716820604000,
+      "properties": {
+        "title": "我是谁？青玉白露",
+        "urlname": "srte6wq59tapieq4",
+        "date": "2024-05-23 13:27:20",
+        "updated": "2024-05-27 22:36:44",
+        "description": "---nav_path: whitedew---青玉白露，现役程序员写过 C/C++、Go、Java, 迷恋上了 AI 。正在学习全栈开发，喜欢 Nextjs、ChakaUI、Tailwindcss 等技术，也开始了解 Web3.0、量化交易。喜欢游戏，最近是「幻兽帕鲁」喜欢阅读，最近喜欢的是...",
+        "nav_path": "whitedew"
+      },
+      "catalog": [
+        {
+          "title": "关于",
+          "doc_id": "srte6wq59tapieq4"
+        }
+      ],
+      "realName": "srte6wq59tapieq4",
+      "relativePath": "/关于/srte6wq59tapieq4.md",
+      "docPath": "docs/doc/关于"
+    },
+    {
+      "id": 170598820,
+      "doc_id": "qhcv6k1zz4pwgp11",
+      "updated": 1716427209000,
+      "properties": {
+        "title": "友情链接",
+        "urlname": "qhcv6k1zz4pwgp11",
+        "date": "2024-05-22 08:52:07",
+        "updated": "2024-05-23 09:20:09",
+        "description": "测试友情链接！"
+      },
+      "catalog": [
+        {
+          "title": "关于",
+          "doc_id": "qhcv6k1zz4pwgp11"
+        }
+      ],
+      "realName": "qhcv6k1zz4pwgp11",
+      "relativePath": "\\关于\\qhcv6k1zz4pwgp11.md",
+      "docPath": "docs\\doc\\关于"
+    },
+    {
+      "id": 171329311,
+      "doc_id": "dm7l5god0npph8v4",
+      "updated": 1716820589000,
+      "properties": {
+        "title": "Git配置Name和Email",
+        "urlname": "dm7l5god0npph8v4",
+        "date": "2024-05-27 22:35:55",
+        "updated": "2024-05-27 22:36:29",
+        "description": "因为git全局设置用户名跟邮箱，基本操作一次以后很少再变化，所以记忆不是很深刻，但是更换电脑的时候又会用到，然后再去查，所以在这里记录一下，方便自己以后查看。查看git配置信息：git config --list查看用户名：git config user.name查看邮箱：git config..."
+      },
+      "catalog": [
+        {
+          "title": "自我修养",
+          "doc_id": "dm7l5god0npph8v4"
+        },
+        {
+          "title": "环境安装😭",
+          "doc_id": "dm7l5god0npph8v4"
+        }
+      ],
+      "realName": "dm7l5god0npph8v4",
+      "relativePath": "/自我修养/环境安装😭/dm7l5god0npph8v4.md",
+      "docPath": "docs/doc/自我修养/环境安装😭"
+    },
+    {
+      "id": 171465346,
+      "doc_id": "glv9lipwvttdu4zz",
+      "updated": 1716901129000,
+      "properties": {
+        "title": "小鹅通后端开发面经",
+        "urlname": "glv9lipwvttdu4zz",
+        "date": "2024-05-28 20:57:54",
+        "updated": "2024-05-28 20:58:49",
+        "description": "一面（30min）一面主要拷打八股，问的不是很深，但是很广没录音只有记得多少写多少1，自我介绍2，聊专业学的是什么，感觉会用到 python？（我说专业课很多确实是需要用 python 做些机器学习和数据处理的东西）3，谈一谈 python 和 golang 的区别4，为什么说 python ..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "glv9lipwvttdu4zz"
+        },
+        {
+          "title": "面试真题",
+          "doc_id": "glv9lipwvttdu4zz"
+        }
+      ],
+      "realName": "glv9lipwvttdu4zz",
+      "relativePath": "\\💹 大厂面经\\面试真题\\glv9lipwvttdu4zz.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\面试真题"
+    },
+    {
+      "id": 171457122,
+      "doc_id": "tb9loaz638yp9hqh",
+      "updated": 1716897662000,
+      "properties": {
+        "title": "无标题文档",
+        "urlname": "tb9loaz638yp9hqh",
+        "date": "2024-05-28 19:36:22",
+        "updated": "2024-05-28 20:01:02",
+        "description": "第四章 语义分析4.1 语义分析的概述语义分析（Semantic Analysis）是编译过程中的第三个阶段。语义分析器的任务是检查源代码的语义是否正确。例如，类型检查、作用域解析等。语义分析器通常会构建和维护符号表，并进行各种语义检查，以确保程序的正确性。4.1.1 语义分析的功能符号表管理..."
+      },
+      "catalog": [
+        {
+          "title": "📚 小小八股文",
+          "doc_id": "tb9loaz638yp9hqh"
+        },
+        {
+          "title": "编译原理",
+          "doc_id": "tb9loaz638yp9hqh"
+        }
+      ],
+      "realName": "tb9loaz638yp9hqh",
+      "relativePath": "\\📚 小小八股文\\编译原理\\tb9loaz638yp9hqh.md",
+      "docPath": "docs\\doc\\📚 小小八股文\\编译原理"
+    },
+    {
+      "id": 170598572,
+      "doc_id": "pmgc87gi7d1cap66",
+      "updated": 1716895560000,
+      "properties": {
+        "title": "编译原理",
+        "urlname": "pmgc87gi7d1cap66",
+        "date": "2024-05-22 08:48:53",
+        "updated": "2024-05-28 19:26:00",
+        "description": "以下是一个编译原理（Compiler Principles）的章节目录示例，共包含10个章节。这些章节涵盖了编译器设计与实现的核心内容，包括词法分析、语法分析、语义分析、中间代码生成、代码优化等方面。编译原理章节目录第1章 引言1.1 编译器的概述1.2 编译过程的阶段1.3 编译器与解释器的..."
+      },
+      "catalog": [
+        {
+          "title": "📚 小小八股文",
+          "doc_id": "pmgc87gi7d1cap66"
+        }
+      ],
+      "realName": "pmgc87gi7d1cap66",
+      "relativePath": "\\📚 小小八股文\\pmgc87gi7d1cap66.md",
+      "docPath": "docs\\doc\\📚 小小八股文"
+    },
+    {
+      "id": 171454324,
+      "doc_id": "oo2c6vylgrygmfaa",
+      "updated": 1716895669000,
+      "properties": {
+        "title": "3",
+        "urlname": "oo2c6vylgrygmfaa",
+        "date": "2024-05-28 18:59:35",
+        "updated": "2024-05-28 19:27:49",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/f26cb428fabdb38140beef4650dc7a4b.svg",
+        "description": "第三章 语法分析3.1 语法分析的概述语法分析（Syntax Analysis）是编译过程中的第二个阶段。语法分析器的任务是根据词法分析器生成的记号（Token）序列，构造语法树或抽象语法树（AST），并检查源代码是否符合语言的语法规则。3.1.1 语法分析的功能构造语法树：根据记号序列构造程..."
+      },
+      "catalog": [
+        {
+          "title": "📚 小小八股文",
+          "doc_id": "oo2c6vylgrygmfaa"
+        },
+        {
+          "title": "编译原理",
+          "doc_id": "oo2c6vylgrygmfaa"
+        }
+      ],
+      "realName": "oo2c6vylgrygmfaa",
+      "relativePath": "\\📚 小小八股文\\编译原理\\oo2c6vylgrygmfaa.md",
+      "docPath": "docs\\doc\\📚 小小八股文\\编译原理"
+    },
+    {
+      "id": 171448372,
+      "doc_id": "ovzvcms97euksuig",
+      "updated": 1716890298000,
+      "properties": {
+        "title": "2",
+        "urlname": "ovzvcms97euksuig",
+        "date": "2024-05-28 17:55:59",
+        "updated": "2024-05-28 17:58:18",
+        "description": "第二章 词法分析在本章中，我们详细介绍词法分析的基本概念、正则表达式与词法规则、有限自动机、词法分析器的实现方法及常用工具、错误处理和性能优化等内容。通过结合 Mermaid 图表，我们直观地展示了词法分析器的工作原理和各个步骤的具体实现。2.1 词法分析的概述词法分析（Lexical Ana..."
+      },
+      "catalog": [
+        {
+          "title": "📚 小小八股文",
+          "doc_id": "ovzvcms97euksuig"
+        },
+        {
+          "title": "编译原理",
+          "doc_id": "ovzvcms97euksuig"
+        }
+      ],
+      "realName": "ovzvcms97euksuig",
+      "relativePath": "\\📚 小小八股文\\编译原理\\ovzvcms97euksuig.md",
+      "docPath": "docs\\doc\\📚 小小八股文\\编译原理"
+    },
+    {
+      "id": 171447953,
+      "doc_id": "rssk43a5l6vb8hl9",
+      "updated": 1716889953000,
+      "properties": {
+        "title": "1",
+        "urlname": "rssk43a5l6vb8hl9",
+        "date": "2024-05-28 17:52:04",
+        "updated": "2024-05-28 17:52:33",
+        "description": "这一章通过介绍编译器的基本概念、编译过程各个阶段、编译器与解释器的区别以及编译器设计的挑战，为读者奠定了理解编译原理的基础。第一章 引言1.1 编译器的概述编译器（Compiler）是将高级编程语言编写的源代码翻译成机器语言或中间代码的程序。编译器的主要目标是生成高效和正确的目标代码，使得程序..."
+      },
+      "catalog": [
+        {
+          "title": "📚 小小八股文",
+          "doc_id": "rssk43a5l6vb8hl9"
+        },
+        {
+          "title": "编译原理",
+          "doc_id": "rssk43a5l6vb8hl9"
+        }
+      ],
+      "realName": "rssk43a5l6vb8hl9",
+      "relativePath": "\\📚 小小八股文\\编译原理\\rssk43a5l6vb8hl9.md",
+      "docPath": "docs\\doc\\📚 小小八股文\\编译原理"
+    },
+    {
+      "id": 171422424,
+      "doc_id": "ke4dfxri1tn7lnbm",
+      "updated": 1716889690000,
+      "properties": {
+        "title": "ElasticSearch",
+        "urlname": "ke4dfxri1tn7lnbm",
+        "date": "2024-05-28 15:14:51",
+        "updated": "2024-05-28 17:48:10",
+        "description": "Elasticsearch（简称 ES）是一个基于 Lucene 的全文检索引擎。其核心功能是将数据进行分词后保存索引，从而实现高效的查询。虽然在频繁数据更新和关联查询方面不如 MySQL，但在处理和管理大数据量的查询上，Elasticsearch 展现出了极高的效率。索引的重要性在学习其他数..."
+      },
+      "catalog": [
+        {
+          "title": "📚 小小八股文",
+          "doc_id": "ke4dfxri1tn7lnbm"
+        }
+      ],
+      "realName": "ke4dfxri1tn7lnbm",
+      "relativePath": "\\📚 小小八股文\\ke4dfxri1tn7lnbm.md",
+      "docPath": "docs\\doc\\📚 小小八股文"
+    },
+    {
+      "id": 171442837,
+      "doc_id": "lgga0u5nxhhncbe1",
+      "updated": 1716888458000,
+      "properties": {
+        "title": "TCC事务是什么？",
+        "urlname": "lgga0u5nxhhncbe1",
+        "date": "2024-05-28 17:15:04",
+        "updated": "2024-05-28 17:27:38",
+        "description": "何为TCC？TCC（Try-Confirm-Cancel）即补偿型事务，是一种分布式事务解决方案。TCC 分布式事务的核心思想是先尝试改变数据库状态为中间态，如果没有问题才进行真正的修改，如果有问题则返回之前的状态。三个部分的拆解如下：Try：尝试将结果修改为中间态；Confirm：如果 Tr..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "lgga0u5nxhhncbe1"
+        },
+        {
+          "title": "疑难问题💡",
+          "doc_id": "lgga0u5nxhhncbe1"
+        }
+      ],
+      "realName": "lgga0u5nxhhncbe1",
+      "relativePath": "\\🔥 程序员自我修养\\疑难问题💡\\lgga0u5nxhhncbe1.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\疑难问题💡"
+    },
+    {
+      "id": 171444489,
+      "doc_id": "ilz2siimxs2xmb7g",
+      "updated": 1716888376000,
+      "properties": {
+        "title": "Next.js 和 Contentlayer 项目中实现自动生成 Sitemap",
+        "urlname": "ilz2siimxs2xmb7g",
+        "date": "2024-05-28 17:25:59",
+        "updated": "2024-05-28 17:26:16",
+        "description": "要在 Next.js 和 Contentlayer 项目中实现自动生成 Sitemap 的功能，你可以编写一个脚本，在每次生成文档后自动生成 Sitemap。以下是一个示例脚本，你可以根据自己的需求进行调整。步骤 1：安装必要的依赖首先，你需要安装必要的依赖库，用于生成 Sitemap 和处理..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "ilz2siimxs2xmb7g"
+        },
+        {
+          "title": "环境安装😭",
+          "doc_id": "ilz2siimxs2xmb7g"
+        }
+      ],
+      "realName": "ilz2siimxs2xmb7g",
+      "relativePath": "\\🔥 程序员自我修养\\环境安装😭\\ilz2siimxs2xmb7g.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\环境安装😭"
+    },
+    {
+      "id": 171440113,
+      "doc_id": "mmoy1c0lqpq2zm5z",
+      "updated": 1716888778000,
+      "properties": {
+        "title": "Filter和Interceptor什么区别？",
+        "urlname": "mmoy1c0lqpq2zm5z",
+        "date": "2024-05-28 16:58:45",
+        "updated": "2024-05-28 17:32:58",
+        "description": "在Java Spring框架中，Filter和Interceptor是两个常见的组件，用于处理请求和响应的拦截逻辑。虽然它们有一些相似之处，但也有许多重要的区别。下面详细介绍它们的区别和各自的特点。Filter介绍Filter是Servlet规范的一部分，用于在请求到达Servlet之前和响应..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "mmoy1c0lqpq2zm5z"
+        },
+        {
+          "title": "Java",
+          "doc_id": "mmoy1c0lqpq2zm5z"
+        }
+      ],
+      "realName": "mmoy1c0lqpq2zm5z",
+      "relativePath": "\\💻 编程语言\\Java\\mmoy1c0lqpq2zm5z.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Java"
+    },
+    {
+      "id": 171439962,
+      "doc_id": "gw3x2w4gvo9f3p6d",
+      "updated": 1716886684000,
+      "properties": {
+        "title": "🔥 Golang学习笔记",
+        "urlname": "gw3x2w4gvo9f3p6d",
+        "date": "2024-05-28 16:57:23",
+        "updated": "2024-05-28 16:58:04",
+        "cover": "https://cdn.nlark.com/yuque/0/2022/png/22382235/1654694414190-af83c57e-5dd5-4bc1-813d-4703d10bf870.png",
+        "description": "安装环境安装环境=安装golang环境+编辑器安装golang环境：https://www.runoob.com/go/go-environment.html，注意配置环境变量，大致有三个：安装编辑器：goland（只有30天免费使用）或者直接使用sublime text（配置教程）或VSCo..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "gw3x2w4gvo9f3p6d"
+        },
+        {
+          "title": "Go",
+          "doc_id": "gw3x2w4gvo9f3p6d"
+        }
+      ],
+      "realName": "gw3x2w4gvo9f3p6d",
+      "relativePath": "\\💻 编程语言\\Go\\gw3x2w4gvo9f3p6d.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Go"
+    },
+    {
+      "id": 171438287,
+      "doc_id": "oetbxdnh3iczsukb",
+      "updated": 1716886016000,
+      "properties": {
+        "title": "搞懂Socket网络编程 🤔",
+        "urlname": "oetbxdnh3iczsukb",
+        "date": "2024-05-28 16:46:28",
+        "updated": "2024-05-28 16:46:56",
+        "cover": "https://cdn.nlark.com/yuque/0/2021/png/22382235/1632469452426-1d73ba73-7388-4605-8522-1bde02a33211.png",
+        "description": "进一步学习select、poll、epoll。Socket网络编程学过计算机网络的同学应该都看得懂这幅图：一个进程进行网络传输的过程可以分为两个阶段：第一阶段：在用户态下，将需要用到的数据封装，调用相应的系统函数如write/read，陷入内核态；第二阶段：在内核态下，内核根据拷贝至内核空间的..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "oetbxdnh3iczsukb"
+        },
+        {
+          "title": "C/C++",
+          "doc_id": "oetbxdnh3iczsukb"
+        }
+      ],
+      "realName": "oetbxdnh3iczsukb",
+      "relativePath": "\\💻 编程语言\\C\\C++\\oetbxdnh3iczsukb.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C\\C++"
+    },
+    {
+      "id": 171439086,
+      "doc_id": "ccershuyglgpxsdp",
+      "updated": 1716886343000,
+      "properties": {
+        "title": "㊙️ 自用算法小册",
+        "urlname": "ccershuyglgpxsdp",
+        "date": "2024-05-28 16:51:58",
+        "updated": "2024-05-28 16:52:23",
+        "cover": "https://cdn.nlark.com/yuque/0/2021/png/22382235/1633655486985-57fe5ede-3f3c-4901-aef1-a3b8fdeec83f.png",
+        "description": "似乎以前都只注重于把这道题解出来，而没有在意做题时的“心路历程”，也没有归类总结，更没有去回顾····这样的刷题，如同空中楼阁一样，轻飘飘的，长远来看没有任何益处。因此在平时练习题的时候，最重要的先写清楚思路，再进行代码的编写。排序算法注：外部排序其实大数据量下的排序，也是基于内部排序进行的。..."
+      },
+      "catalog": [
+        {
+          "title": "⬇️ 区区算法",
+          "doc_id": "ccershuyglgpxsdp"
+        }
+      ],
+      "realName": "ccershuyglgpxsdp",
+      "relativePath": "\\⬇️ 区区算法\\ccershuyglgpxsdp.md",
+      "docPath": "docs\\doc\\⬇️ 区区算法"
+    },
+    {
+      "id": 171438874,
+      "doc_id": "hogrunp9g0bggri2",
+      "updated": 1716886515000,
+      "properties": {
+        "title": "🗡 剑指OFFER精讲",
+        "urlname": "hogrunp9g0bggri2",
+        "date": "2024-05-28 16:50:31",
+        "updated": "2024-05-28 16:55:15",
+        "cover": "https://cdn.nlark.com/yuque/0/2021/png/22382235/1629211889249-6820e8c8-0e98-4006-89f7-1eeb48220c00.png",
+        "description": "001.赋值运算符函数有一个类声明如下，请重载其赋值运算符：class CMyString { public:     CMyString(char *p = nullptr);     CMyString(const CMyString& str);     ~CMyString(); pr..."
+      },
+      "catalog": [
+        {
+          "title": "⬇️ 区区算法",
+          "doc_id": "hogrunp9g0bggri2"
+        }
+      ],
+      "realName": "hogrunp9g0bggri2",
+      "relativePath": "\\⬇️ 区区算法\\hogrunp9g0bggri2.md",
+      "docPath": "docs\\doc\\⬇️ 区区算法"
+    },
+    {
+      "id": 171437045,
+      "doc_id": "fwqm54bdgsxi6reg",
+      "updated": 1716885616000,
+      "properties": {
+        "title": "Reactor与Proactor 两种事件分发模式？",
+        "urlname": "fwqm54bdgsxi6reg",
+        "date": "2024-05-28 16:38:33",
+        "updated": "2024-05-28 16:40:16",
+        "cover": "https://cdn.nlark.com/yuque/0/2021/png/22382235/1634002490029-c029c3ec-c80f-4fed-8f40-d4f05ac77f1b.png",
+        "description": "在多线程服务器中，一般是使用IO复用+线程池来实现，具体的实现方式有：Reactor和Proactor。例如为人所知的Netty、Redis等就是使用Reactor实现的，具有很高的性能。简单来说，两者都是基于事件分发所实现的网络编程模型。Reactor模式下是一种非阻塞同步模式，其感知的是已..."
+      },
+      "catalog": [
+        {
+          "title": "🧰 实践项目",
+          "doc_id": "fwqm54bdgsxi6reg"
+        },
+        {
+          "title": "TinyWebServer",
+          "doc_id": "fwqm54bdgsxi6reg"
+        }
+      ],
+      "realName": "fwqm54bdgsxi6reg",
+      "relativePath": "\\🧰 实践项目\\TinyWebServer\\fwqm54bdgsxi6reg.md",
+      "docPath": "docs\\doc\\🧰 实践项目\\TinyWebServer"
+    },
+    {
+      "id": 171437385,
+      "doc_id": "gm794a2b9t67g9ii",
+      "updated": 1716885922000,
+      "properties": {
+        "title": "一文搞懂C++多线程 🔥",
+        "urlname": "gm794a2b9t67g9ii",
+        "date": "2024-05-28 16:40:29",
+        "updated": "2024-05-28 16:45:22",
+        "description": "这周学习了多线程并发的相关知识，写一个读书笔记以作记录。包括进程、线程、并发、mutex等等。一、进程、线程、并发进程：简而言之就是一个运行的程序，如点开一个exe文件就打开了一个进程。线程：进程中的不同执行路径，即在一个进程中运行了多个功能。每一个进程都至少包含有一个线程，即主线程，主线程与..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "gm794a2b9t67g9ii"
+        },
+        {
+          "title": "C/C++",
+          "doc_id": "gm794a2b9t67g9ii"
+        }
+      ],
+      "realName": "gm794a2b9t67g9ii",
+      "relativePath": "\\💻 编程语言\\C\\C++\\gm794a2b9t67g9ii.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C\\C++"
+    },
+    {
+      "id": 171616012,
+      "doc_id": "flvo4dgqu6ybreu1",
+      "updated": 1716992044000,
+      "properties": {
+        "title": "prettier 如何禁止编译报错？",
+        "urlname": "flvo4dgqu6ybreu1",
+        "date": "2024-05-29 22:13:18",
+        "updated": "2024-05-29 22:14:04",
+        "description": "在Next.js项目中，如果你使用了Prettier并且配置了ESLint来检查代码风格，有时可能会遇到Prettier的格式化规则与ESLint规则产生冲突，导致编译时报错。为了避免这种情况，你可以在你的ESLint配置文件中禁用Prettier的规则。以下是一个常见的配置方法，用于在ESL..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "flvo4dgqu6ybreu1"
+        },
+        {
+          "title": "十万个为什么💡",
+          "doc_id": "flvo4dgqu6ybreu1"
+        }
+      ],
+      "realName": "flvo4dgqu6ybreu1",
+      "relativePath": "\\🔥 程序员自我修养\\十万个为什么💡\\flvo4dgqu6ybreu1.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\十万个为什么💡"
+    },
+    {
+      "id": 171438865,
+      "doc_id": "nwf4zh020zubf4ae",
+      "updated": 1716991937000,
+      "properties": {
+        "title": "⬇️ 区区算法",
+        "urlname": "nwf4zh020zubf4ae",
+        "date": "2024-05-28 16:50:29",
+        "updated": "2024-05-29 22:12:17",
+        "description": "---is_nav: truenav_path: algorithm---在数字化时代的浪潮中，算法作为信息处理的心脏，扮演着至关重要的角色。无论是探索数据科学的奥秘，还是塑造现代网络的未来，算法都是推动前进的无形之手。\"区区算法\"栏目旨在为读者揭开算法背后的神秘面纱，将复杂的理论和技术浅显易...",
+        "is_nav": true,
+        "nav_path": "algorithm"
+      },
+      "catalog": [],
+      "realName": "nwf4zh020zubf4ae",
+      "relativePath": "\\nwf4zh020zubf4ae.md",
+      "docPath": "docs\\doc"
+    }
+  ],
+  "catalog": [
+    {
+      "type": "DOC",
+      "title": "🔥 程序员自我修养",
+      "uuid": "_AUtENOpDG0ZxF_E",
+      "url": "zz7wzx74m9sgu0bb",
+      "prev_uuid": "",
+      "sibling_uuid": "1Yk7ZpGC1ALK7ryF",
+      "child_uuid": "PlrctMGesywNFpWl",
+      "parent_uuid": "",
+      "doc_id": 171241326,
+      "level": 0,
+      "id": 171241326,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "持续学习 🐚",
+      "uuid": "PlrctMGesywNFpWl",
+      "url": "nhp7016fcte2xc9l",
+      "prev_uuid": "_AUtENOpDG0ZxF_E",
+      "sibling_uuid": "dM55tS-xNS9gbu5Q",
+      "child_uuid": "",
+      "parent_uuid": "_AUtENOpDG0ZxF_E",
+      "doc_id": 171259873,
+      "level": 1,
+      "id": 171259873,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "十万个为什么💡",
+      "uuid": "dM55tS-xNS9gbu5Q",
+      "url": "uz8g4zstl7skaubu",
+      "prev_uuid": "PlrctMGesywNFpWl",
+      "sibling_uuid": "aRn1n4HB0iY7c91I",
+      "child_uuid": "o-iqGQn8GSUxlLgv",
+      "parent_uuid": "_AUtENOpDG0ZxF_E",
+      "doc_id": 171259325,
+      "level": 1,
+      "id": 171259325,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "prettier 如何禁止编译报错？",
+      "uuid": "o-iqGQn8GSUxlLgv",
+      "url": "flvo4dgqu6ybreu1",
+      "prev_uuid": "dM55tS-xNS9gbu5Q",
+      "sibling_uuid": "Nw98ZBQqa1X-GkLT",
+      "child_uuid": "",
+      "parent_uuid": "dM55tS-xNS9gbu5Q",
+      "doc_id": 171616012,
+      "level": 2,
+      "id": 171616012,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "TCC事务是什么？",
+      "uuid": "Nw98ZBQqa1X-GkLT",
+      "url": "lgga0u5nxhhncbe1",
+      "prev_uuid": "o-iqGQn8GSUxlLgv",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "dM55tS-xNS9gbu5Q",
+      "doc_id": 171442837,
+      "level": 2,
+      "id": 171442837,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "代码片段 💻",
+      "uuid": "aRn1n4HB0iY7c91I",
+      "url": "dt41v1b1lx0wnavv",
+      "prev_uuid": "dM55tS-xNS9gbu5Q",
+      "sibling_uuid": "_d86pwt2PnWp0V6d",
+      "child_uuid": "",
+      "parent_uuid": "_AUtENOpDG0ZxF_E",
+      "doc_id": 171264691,
+      "level": 1,
+      "id": 171264691,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "环境安装😭",
+      "uuid": "_d86pwt2PnWp0V6d",
+      "url": "io5kukplplfeb9ls",
+      "prev_uuid": "aRn1n4HB0iY7c91I",
+      "sibling_uuid": "",
+      "child_uuid": "endSX96m-bNscj-H",
+      "parent_uuid": "_AUtENOpDG0ZxF_E",
+      "doc_id": 171259351,
+      "level": 1,
+      "id": 171259351,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Git配置Name和Email",
+      "uuid": "endSX96m-bNscj-H",
+      "url": "dm7l5god0npph8v4",
+      "prev_uuid": "_d86pwt2PnWp0V6d",
+      "sibling_uuid": "p4X4dU_Ko_TL5FTi",
+      "child_uuid": "",
+      "parent_uuid": "_d86pwt2PnWp0V6d",
+      "doc_id": 171329311,
+      "level": 2,
+      "id": 171329311,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "安装pnpm",
+      "uuid": "p4X4dU_Ko_TL5FTi",
+      "url": "usykzpi3rfqf4vut",
+      "prev_uuid": "endSX96m-bNscj-H",
+      "sibling_uuid": "OpkPh7_yiOrXspW6",
+      "child_uuid": "",
+      "parent_uuid": "_d86pwt2PnWp0V6d",
+      "doc_id": 171264322,
+      "level": 2,
+      "id": 171264322,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Next.js 和 Contentlayer 项目中实现自动生成 Sitemap",
+      "uuid": "OpkPh7_yiOrXspW6",
+      "url": "ilz2siimxs2xmb7g",
+      "prev_uuid": "p4X4dU_Ko_TL5FTi",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "_d86pwt2PnWp0V6d",
+      "doc_id": 171444489,
+      "level": 2,
+      "id": 171444489,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "📚 计算机基础",
+      "uuid": "1Yk7ZpGC1ALK7ryF",
+      "url": "lee28kbqshx46bn8",
+      "prev_uuid": "_AUtENOpDG0ZxF_E",
+      "sibling_uuid": "uHCIfCp4Xzc-fCfY",
+      "child_uuid": "TXk0ZQsG_e0NV7As",
+      "parent_uuid": "",
+      "doc_id": 169649886,
+      "level": 0,
+      "id": 169649886,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "操作系统",
+      "uuid": "TXk0ZQsG_e0NV7As",
+      "url": "wqxa4oybgctzpy2u",
+      "prev_uuid": "1Yk7ZpGC1ALK7ryF",
+      "sibling_uuid": "c1Doep2zcca_61xM",
+      "child_uuid": "pDHMwZRQIJTaL1JF",
+      "parent_uuid": "1Yk7ZpGC1ALK7ryF",
+      "doc_id": 170598544,
+      "level": 1,
+      "id": 170598544,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "《操作系统随想录》",
+      "uuid": "pDHMwZRQIJTaL1JF",
+      "url": "kzeaege1xzso8hh8",
+      "prev_uuid": "TXk0ZQsG_e0NV7As",
+      "sibling_uuid": "jUuglbGbRbX_L56c",
+      "child_uuid": "",
+      "parent_uuid": "TXk0ZQsG_e0NV7As",
+      "doc_id": 170922123,
+      "level": 2,
+      "id": 170922123,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "🔥《手写操作系统》",
+      "uuid": "jUuglbGbRbX_L56c",
+      "url": "tfhlw8c5gubnwfsb",
+      "prev_uuid": "pDHMwZRQIJTaL1JF",
+      "sibling_uuid": "",
+      "child_uuid": "1VzHtPj3AX-pN5T_",
+      "parent_uuid": "TXk0ZQsG_e0NV7As",
+      "doc_id": 170923166,
+      "level": 2,
+      "id": 170923166,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "1. HelloOS",
+      "uuid": "1VzHtPj3AX-pN5T_",
+      "url": "vg4gldsnlenfkq11",
+      "prev_uuid": "jUuglbGbRbX_L56c",
+      "sibling_uuid": "cIB-qvLiT4utnTPf",
+      "child_uuid": "",
+      "parent_uuid": "jUuglbGbRbX_L56c",
+      "doc_id": 170923206,
+      "level": 3,
+      "id": 170923206,
+      "open_window": 0,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "2.代码是怎么运行起来的？",
+      "uuid": "cIB-qvLiT4utnTPf",
+      "url": "eg1fdbxkz0713vyl",
+      "prev_uuid": "1VzHtPj3AX-pN5T_",
+      "sibling_uuid": "skUaLEqG1IGlO5M9",
+      "child_uuid": "",
+      "parent_uuid": "jUuglbGbRbX_L56c",
+      "doc_id": 170923215,
+      "level": 3,
+      "id": 170923215,
+      "open_window": 0,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "3.开发环境与内核架构",
+      "uuid": "skUaLEqG1IGlO5M9",
+      "url": "rgbxy15tudl9mcvw",
+      "prev_uuid": "cIB-qvLiT4utnTPf",
+      "sibling_uuid": "oZ-rzgRNsdTdEoWw",
+      "child_uuid": "",
+      "parent_uuid": "jUuglbGbRbX_L56c",
+      "doc_id": 170923221,
+      "level": 3,
+      "id": 170923221,
+      "open_window": 0,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "4.计算机怎么启动的？",
+      "uuid": "oZ-rzgRNsdTdEoWw",
+      "url": "txgyg1ibyrbxh81k",
+      "prev_uuid": "skUaLEqG1IGlO5M9",
+      "sibling_uuid": "j3pNfeC82A0vFHZQ",
+      "child_uuid": "",
+      "parent_uuid": "jUuglbGbRbX_L56c",
+      "doc_id": 170923230,
+      "level": 3,
+      "id": 170923230,
+      "open_window": 0,
+      "visible": 0
+    },
+    {
+      "type": "DOC",
+      "title": "5.CPU工作模式与虚拟地址",
+      "uuid": "j3pNfeC82A0vFHZQ",
+      "url": "kcin2evo3gdwfeqr",
+      "prev_uuid": "oZ-rzgRNsdTdEoWw",
+      "sibling_uuid": "ICtA6kHOl96LGKuq",
+      "child_uuid": "",
+      "parent_uuid": "jUuglbGbRbX_L56c",
+      "doc_id": 170923250,
+      "level": 3,
+      "id": 170923250,
+      "open_window": 0,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "6.同步(锁、信号量)底层原理",
+      "uuid": "ICtA6kHOl96LGKuq",
+      "url": "zm4bp59ittrsp82l",
+      "prev_uuid": "j3pNfeC82A0vFHZQ",
+      "sibling_uuid": "ibN4_nMmkYLwfPYM",
+      "child_uuid": "",
+      "parent_uuid": "jUuglbGbRbX_L56c",
+      "doc_id": 170923262,
+      "level": 3,
+      "id": 170923262,
+      "open_window": 0,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "7.内存管理",
+      "uuid": "ibN4_nMmkYLwfPYM",
+      "url": "vpcarog0vdzlbgx3",
+      "prev_uuid": "ICtA6kHOl96LGKuq",
+      "sibling_uuid": "UQK_fM2K-1Wn5xVI",
+      "child_uuid": "",
+      "parent_uuid": "jUuglbGbRbX_L56c",
+      "doc_id": 170923270,
+      "level": 3,
+      "id": 170923270,
+      "open_window": 0,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "8.进程管理",
+      "uuid": "UQK_fM2K-1Wn5xVI",
+      "url": "ho88cbpxgbc2gpnf",
+      "prev_uuid": "ibN4_nMmkYLwfPYM",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "jUuglbGbRbX_L56c",
+      "doc_id": 170923280,
+      "level": 3,
+      "id": 170923280,
+      "open_window": 0,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "计算机网络",
+      "uuid": "c1Doep2zcca_61xM",
+      "url": "kbo5ucr66rpm0n73",
+      "prev_uuid": "TXk0ZQsG_e0NV7As",
+      "sibling_uuid": "NqPQmrLc_QZ1nPAj",
+      "child_uuid": "JZGuJnU9gvxziuKF",
+      "parent_uuid": "1Yk7ZpGC1ALK7ryF",
+      "doc_id": 169963644,
+      "level": 1,
+      "id": 169963644,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "计网疑云",
+      "uuid": "JZGuJnU9gvxziuKF",
+      "url": "traig2qo1kgs1ct7",
+      "prev_uuid": "c1Doep2zcca_61xM",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "c1Doep2zcca_61xM",
+      "doc_id": 170922556,
+      "level": 2,
+      "id": 170922556,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "MySQL",
+      "uuid": "NqPQmrLc_QZ1nPAj",
+      "url": "oawe7ufgang93sac",
+      "prev_uuid": "c1Doep2zcca_61xM",
+      "sibling_uuid": "JpDwlz0RW8PSAzpL",
+      "child_uuid": "d8j8nIfk7mEGouOA",
+      "parent_uuid": "1Yk7ZpGC1ALK7ryF",
+      "doc_id": 170598652,
+      "level": 1,
+      "id": 170598652,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "🔥 MySQL面试必问（一）",
+      "uuid": "d8j8nIfk7mEGouOA",
+      "url": "kewfeh2gmbrr6p0q",
+      "prev_uuid": "NqPQmrLc_QZ1nPAj",
+      "sibling_uuid": "k9uj_UI95OXK9ikq",
+      "child_uuid": "",
+      "parent_uuid": "NqPQmrLc_QZ1nPAj",
+      "doc_id": 170922417,
+      "level": 2,
+      "id": 170922417,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "🔥 Mysql面试必问（二）",
+      "uuid": "k9uj_UI95OXK9ikq",
+      "url": "qf6b0vmagi3cbnbv",
+      "prev_uuid": "d8j8nIfk7mEGouOA",
+      "sibling_uuid": "Hw46u1AfFXiESqJD",
+      "child_uuid": "",
+      "parent_uuid": "NqPQmrLc_QZ1nPAj",
+      "doc_id": 170944181,
+      "level": 2,
+      "id": 170944181,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "MySQL必知必会",
+      "uuid": "Hw46u1AfFXiESqJD",
+      "url": "dluq61e4yfx2q3sd",
+      "prev_uuid": "k9uj_UI95OXK9ikq",
+      "sibling_uuid": "",
+      "child_uuid": "_Bpk0fnd1nrfYfyP",
+      "parent_uuid": "NqPQmrLc_QZ1nPAj",
+      "doc_id": 170921048,
+      "level": 2,
+      "id": 170921048,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第1章 MySQL简介与安装",
+      "uuid": "_Bpk0fnd1nrfYfyP",
+      "url": "rggr746er445f1as",
+      "prev_uuid": "Hw46u1AfFXiESqJD",
+      "sibling_uuid": "qnVKAXCwuHGYggDX",
+      "child_uuid": "",
+      "parent_uuid": "Hw46u1AfFXiESqJD",
+      "doc_id": 170916954,
+      "level": 3,
+      "id": 170916954,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第2章 MySQL基本操作",
+      "uuid": "qnVKAXCwuHGYggDX",
+      "url": "pz0w9p1xmrhrw4vc",
+      "prev_uuid": "_Bpk0fnd1nrfYfyP",
+      "sibling_uuid": "EXJNUpF5Ra3MKJyN",
+      "child_uuid": "",
+      "parent_uuid": "Hw46u1AfFXiESqJD",
+      "doc_id": 170917051,
+      "level": 3,
+      "id": 170917051,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第3章 MySQL查询数据",
+      "uuid": "EXJNUpF5Ra3MKJyN",
+      "url": "aatkm5bcecwh82zb",
+      "prev_uuid": "qnVKAXCwuHGYggDX",
+      "sibling_uuid": "-6yLK6SVaDfpILK-",
+      "child_uuid": "",
+      "parent_uuid": "Hw46u1AfFXiESqJD",
+      "doc_id": 170917326,
+      "level": 3,
+      "id": 170917326,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第4章 MySQL高级查询",
+      "uuid": "-6yLK6SVaDfpILK-",
+      "url": "sopmax1eeghv3smd",
+      "prev_uuid": "EXJNUpF5Ra3MKJyN",
+      "sibling_uuid": "rbivJZSyA5VIpMnl",
+      "child_uuid": "",
+      "parent_uuid": "Hw46u1AfFXiESqJD",
+      "doc_id": 170918246,
+      "level": 3,
+      "id": 170918246,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第5章 MySQL主键、外键、唯一键",
+      "uuid": "rbivJZSyA5VIpMnl",
+      "url": "wg57uzpv5k9xaawf",
+      "prev_uuid": "-6yLK6SVaDfpILK-",
+      "sibling_uuid": "IDK3CUQwF7uJVbkj",
+      "child_uuid": "",
+      "parent_uuid": "Hw46u1AfFXiESqJD",
+      "doc_id": 170919589,
+      "level": 3,
+      "id": 170919589,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第6章 MySQL索引",
+      "uuid": "IDK3CUQwF7uJVbkj",
+      "url": "nphgk4npeh93y635",
+      "prev_uuid": "rbivJZSyA5VIpMnl",
+      "sibling_uuid": "eQeoACBNfZMzVjf0",
+      "child_uuid": "",
+      "parent_uuid": "Hw46u1AfFXiESqJD",
+      "doc_id": 170920968,
+      "level": 3,
+      "id": 170920968,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第7章 MySQL事务管理",
+      "uuid": "eQeoACBNfZMzVjf0",
+      "url": "nuznm9xzxtg9fn0r",
+      "prev_uuid": "IDK3CUQwF7uJVbkj",
+      "sibling_uuid": "cdyenlMNtZeHdinq",
+      "child_uuid": "",
+      "parent_uuid": "Hw46u1AfFXiESqJD",
+      "doc_id": 170921005,
+      "level": 3,
+      "id": 170921005,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第8章 MySQL存储引擎",
+      "uuid": "cdyenlMNtZeHdinq",
+      "url": "wfq73pht526qgytk",
+      "prev_uuid": "eQeoACBNfZMzVjf0",
+      "sibling_uuid": "X9Vo10vZpYz5hFOe",
+      "child_uuid": "",
+      "parent_uuid": "Hw46u1AfFXiESqJD",
+      "doc_id": 170921154,
+      "level": 3,
+      "id": 170921154,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第9章 MySQL备份与恢复",
+      "uuid": "X9Vo10vZpYz5hFOe",
+      "url": "pigvhm70n8mbghmu",
+      "prev_uuid": "cdyenlMNtZeHdinq",
+      "sibling_uuid": "SWv6eIYvv9L0oCSc",
+      "child_uuid": "",
+      "parent_uuid": "Hw46u1AfFXiESqJD",
+      "doc_id": 170921209,
+      "level": 3,
+      "id": 170921209,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第10章 MySQL用户管理与权限",
+      "uuid": "SWv6eIYvv9L0oCSc",
+      "url": "wcxhvtogvg6gsxc2",
+      "prev_uuid": "X9Vo10vZpYz5hFOe",
+      "sibling_uuid": "pLqLD7uXHqcsgqq1",
+      "child_uuid": "",
+      "parent_uuid": "Hw46u1AfFXiESqJD",
+      "doc_id": 170921295,
+      "level": 3,
+      "id": 170921295,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第11章 MySQL性能优化",
+      "uuid": "pLqLD7uXHqcsgqq1",
+      "url": "lfe65y27k6wp1p0a",
+      "prev_uuid": "SWv6eIYvv9L0oCSc",
+      "sibling_uuid": "xFZ5X8ulQsZJSiqr",
+      "child_uuid": "",
+      "parent_uuid": "Hw46u1AfFXiESqJD",
+      "doc_id": 170921372,
+      "level": 3,
+      "id": 170921372,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第12章 MySQL常用工具",
+      "uuid": "xFZ5X8ulQsZJSiqr",
+      "url": "pogqdcgobu5gk60t",
+      "prev_uuid": "pLqLD7uXHqcsgqq1",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "Hw46u1AfFXiESqJD",
+      "doc_id": 170921529,
+      "level": 3,
+      "id": 170921529,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Redis",
+      "uuid": "JpDwlz0RW8PSAzpL",
+      "url": "zk26wlg3ozzqospe",
+      "prev_uuid": "NqPQmrLc_QZ1nPAj",
+      "sibling_uuid": "ARr0dfbmXLgkGUau",
+      "child_uuid": "Ta5iHwl5TRMrSby1",
+      "parent_uuid": "1Yk7ZpGC1ALK7ryF",
+      "doc_id": 170921032,
+      "level": 1,
+      "id": 170921032,
+      "open_window": 1,
+      "visible": 0
+    },
+    {
+      "type": "DOC",
+      "title": "无标题文档",
+      "uuid": "Ta5iHwl5TRMrSby1",
+      "url": "hee9hlritx0n8hcc",
+      "prev_uuid": "JpDwlz0RW8PSAzpL",
+      "sibling_uuid": "OJ_QMojOHNbkWRFj",
+      "child_uuid": "oUNn5zMETeBdUqFj",
+      "parent_uuid": "JpDwlz0RW8PSAzpL",
+      "doc_id": 170947477,
+      "level": 2,
+      "id": 170947477,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "无标题文档",
+      "uuid": "oUNn5zMETeBdUqFj",
+      "url": "rpkbuac4rqibc4w3",
+      "prev_uuid": "Ta5iHwl5TRMrSby1",
+      "sibling_uuid": "xX28LWSMb7lY3DaY",
+      "child_uuid": "",
+      "parent_uuid": "Ta5iHwl5TRMrSby1",
+      "doc_id": 170953587,
+      "level": 3,
+      "id": 170953587,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "无标题文档",
+      "uuid": "xX28LWSMb7lY3DaY",
+      "url": "bmmb4nkg10qvgsyf",
+      "prev_uuid": "oUNn5zMETeBdUqFj",
+      "sibling_uuid": "XiFUI0Xd7fq8mBnw",
+      "child_uuid": "",
+      "parent_uuid": "Ta5iHwl5TRMrSby1",
+      "doc_id": 170952941,
+      "level": 3,
+      "id": 170952941,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "无标题文档",
+      "uuid": "XiFUI0Xd7fq8mBnw",
+      "url": "zwi4pf2m8beke5yt",
+      "prev_uuid": "xX28LWSMb7lY3DaY",
+      "sibling_uuid": "ZrwzuvD78tMieJ3X",
+      "child_uuid": "",
+      "parent_uuid": "Ta5iHwl5TRMrSby1",
+      "doc_id": 170950193,
+      "level": 3,
+      "id": 170950193,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "无标题文档",
+      "uuid": "ZrwzuvD78tMieJ3X",
+      "url": "gtagx5eoumgtvf0d",
+      "prev_uuid": "XiFUI0Xd7fq8mBnw",
+      "sibling_uuid": "Cj2m7p84VaAYg4Bk",
+      "child_uuid": "",
+      "parent_uuid": "Ta5iHwl5TRMrSby1",
+      "doc_id": 170949393,
+      "level": 3,
+      "id": 170949393,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "无标题文档",
+      "uuid": "Cj2m7p84VaAYg4Bk",
+      "url": "griqt7guq59lzeni",
+      "prev_uuid": "ZrwzuvD78tMieJ3X",
+      "sibling_uuid": "tpyDjnWdDI_tR8JF",
+      "child_uuid": "",
+      "parent_uuid": "Ta5iHwl5TRMrSby1",
+      "doc_id": 170949318,
+      "level": 3,
+      "id": 170949318,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "无标题文档",
+      "uuid": "tpyDjnWdDI_tR8JF",
+      "url": "oo8f14csyz62wf9g",
+      "prev_uuid": "Cj2m7p84VaAYg4Bk",
+      "sibling_uuid": "mCEgf463ikkHLyVe",
+      "child_uuid": "",
+      "parent_uuid": "Ta5iHwl5TRMrSby1",
+      "doc_id": 170947984,
+      "level": 3,
+      "id": 170947984,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "无标题文档",
+      "uuid": "mCEgf463ikkHLyVe",
+      "url": "qx6kos41dklecvg6",
+      "prev_uuid": "tpyDjnWdDI_tR8JF",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "Ta5iHwl5TRMrSby1",
+      "doc_id": 170947495,
+      "level": 3,
+      "id": 170947495,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Redis源码阅读笔记",
+      "uuid": "OJ_QMojOHNbkWRFj",
+      "url": "gtg6lubgteg35gf3",
+      "prev_uuid": "Ta5iHwl5TRMrSby1",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "JpDwlz0RW8PSAzpL",
+      "doc_id": 170922439,
+      "level": 2,
+      "id": 170922439,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "ElasticSearch",
+      "uuid": "ARr0dfbmXLgkGUau",
+      "url": "ke4dfxri1tn7lnbm",
+      "prev_uuid": "JpDwlz0RW8PSAzpL",
+      "sibling_uuid": "wBenEb1xOKuqMtgf",
+      "child_uuid": "",
+      "parent_uuid": "1Yk7ZpGC1ALK7ryF",
+      "doc_id": 171422424,
+      "level": 1,
+      "id": 171422424,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Linux解密",
+      "uuid": "wBenEb1xOKuqMtgf",
+      "url": "giovviztpgb64iw5",
+      "prev_uuid": "ARr0dfbmXLgkGUau",
+      "sibling_uuid": "qIllkRCeDObCnvZe",
+      "child_uuid": "",
+      "parent_uuid": "1Yk7ZpGC1ALK7ryF",
+      "doc_id": 170598593,
+      "level": 1,
+      "id": 170598593,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "编译原理",
+      "uuid": "qIllkRCeDObCnvZe",
+      "url": "pmgc87gi7d1cap66",
+      "prev_uuid": "wBenEb1xOKuqMtgf",
+      "sibling_uuid": "",
+      "child_uuid": "b7u14_d6MLYiDvqY",
+      "parent_uuid": "1Yk7ZpGC1ALK7ryF",
+      "doc_id": 170598572,
+      "level": 1,
+      "id": 170598572,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "无标题文档",
+      "uuid": "b7u14_d6MLYiDvqY",
+      "url": "tb9loaz638yp9hqh",
+      "prev_uuid": "qIllkRCeDObCnvZe",
+      "sibling_uuid": "_kG0lKmUBswtDUrd",
+      "child_uuid": "",
+      "parent_uuid": "qIllkRCeDObCnvZe",
+      "doc_id": 171457122,
+      "level": 2,
+      "id": 171457122,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "3",
+      "uuid": "_kG0lKmUBswtDUrd",
+      "url": "oo2c6vylgrygmfaa",
+      "prev_uuid": "b7u14_d6MLYiDvqY",
+      "sibling_uuid": "hS-56xbpd_A8xK5W",
+      "child_uuid": "",
+      "parent_uuid": "qIllkRCeDObCnvZe",
+      "doc_id": 171454324,
+      "level": 2,
+      "id": 171454324,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "2",
+      "uuid": "hS-56xbpd_A8xK5W",
+      "url": "ovzvcms97euksuig",
+      "prev_uuid": "_kG0lKmUBswtDUrd",
+      "sibling_uuid": "NIDdMQEIqvmra-_P",
+      "child_uuid": "",
+      "parent_uuid": "qIllkRCeDObCnvZe",
+      "doc_id": 171448372,
+      "level": 2,
+      "id": 171448372,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "1",
+      "uuid": "NIDdMQEIqvmra-_P",
+      "url": "rssk43a5l6vb8hl9",
+      "prev_uuid": "hS-56xbpd_A8xK5W",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "qIllkRCeDObCnvZe",
+      "doc_id": 171447953,
+      "level": 2,
+      "id": 171447953,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "💹 大厂面经",
+      "uuid": "uHCIfCp4Xzc-fCfY",
+      "url": "gc6kwq2a9iufudga",
+      "prev_uuid": "1Yk7ZpGC1ALK7ryF",
+      "sibling_uuid": "g79LhyuCIcy2z2cx",
+      "child_uuid": "NcVLTZK8sE8hkJmb",
+      "parent_uuid": "",
+      "doc_id": 169649865,
+      "level": 0,
+      "id": 169649865,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "面试真题",
+      "uuid": "NcVLTZK8sE8hkJmb",
+      "url": "vxn8883st7lhfom9",
+      "prev_uuid": "uHCIfCp4Xzc-fCfY",
+      "sibling_uuid": "-4qV2TE5gTaU9pS4",
+      "child_uuid": "__b-yzQX_VGEvscX",
+      "parent_uuid": "uHCIfCp4Xzc-fCfY",
+      "doc_id": 171465323,
+      "level": 1,
+      "id": 171465323,
+      "open_window": 1,
+      "visible": 0
+    },
+    {
+      "type": "DOC",
+      "title": "小鹅通后端开发面经",
+      "uuid": "__b-yzQX_VGEvscX",
+      "url": "glv9lipwvttdu4zz",
+      "prev_uuid": "NcVLTZK8sE8hkJmb",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "NcVLTZK8sE8hkJmb",
+      "doc_id": 171465346,
+      "level": 2,
+      "id": 171465346,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "拿下面试官实战",
+      "uuid": "-4qV2TE5gTaU9pS4",
+      "url": "bxxwzvxxq58cnace",
+      "prev_uuid": "NcVLTZK8sE8hkJmb",
+      "sibling_uuid": "gnTMab2BAh8HSHNb",
+      "child_uuid": "f3v2nXNbsLVeSnoK",
+      "parent_uuid": "uHCIfCp4Xzc-fCfY",
+      "doc_id": 169649927,
+      "level": 1,
+      "id": 169649927,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "无标题文档",
+      "uuid": "f3v2nXNbsLVeSnoK",
+      "url": "stgbwxi8ws2ks98w",
+      "prev_uuid": "-4qV2TE5gTaU9pS4",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "-4qV2TE5gTaU9pS4",
+      "doc_id": 170598217,
+      "level": 2,
+      "id": 170598217,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "经典智力题",
+      "uuid": "gnTMab2BAh8HSHNb",
+      "url": "bzcgeyqlpmluo6ln",
+      "prev_uuid": "-4qV2TE5gTaU9pS4",
+      "sibling_uuid": "zZqPxfRY2KNsrSyg",
+      "child_uuid": "",
+      "parent_uuid": "uHCIfCp4Xzc-fCfY",
+      "doc_id": 170598252,
+      "level": 1,
+      "id": 170598252,
+      "open_window": 1,
+      "visible": 0
+    },
+    {
+      "type": "DOC",
+      "title": "高频场景题",
+      "uuid": "zZqPxfRY2KNsrSyg",
+      "url": "ddiqc8kv6p73lgsu",
+      "prev_uuid": "gnTMab2BAh8HSHNb",
+      "sibling_uuid": "0hWjD28cuTqator9",
+      "child_uuid": "",
+      "parent_uuid": "uHCIfCp4Xzc-fCfY",
+      "doc_id": 170598231,
+      "level": 1,
+      "id": 170598231,
+      "open_window": 1,
+      "visible": 0
+    },
+    {
+      "type": "DOC",
+      "title": "面经小程序",
+      "uuid": "0hWjD28cuTqator9",
+      "url": "rnwghpv7c59vgtuo",
+      "prev_uuid": "zZqPxfRY2KNsrSyg",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "uHCIfCp4Xzc-fCfY",
+      "doc_id": 169649920,
+      "level": 1,
+      "id": 169649920,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "💻 编程语言",
+      "uuid": "g79LhyuCIcy2z2cx",
+      "url": "gu2a0qdxqzzgwob6",
+      "prev_uuid": "uHCIfCp4Xzc-fCfY",
+      "sibling_uuid": "w3lr-82OziASjvSa",
+      "child_uuid": "RO5GHZ28Ar7Yjtoa",
+      "parent_uuid": "",
+      "doc_id": 170676314,
+      "level": 0,
+      "id": 170676314,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "C/C++",
+      "uuid": "RO5GHZ28Ar7Yjtoa",
+      "url": "ieg2wz53uo7g4oik",
+      "prev_uuid": "g79LhyuCIcy2z2cx",
+      "sibling_uuid": "H0rmZbYX4VJLpRmp",
+      "child_uuid": "RV9SwTPGCTYHrdiu",
+      "parent_uuid": "g79LhyuCIcy2z2cx",
+      "doc_id": 170922071,
+      "level": 1,
+      "id": 170922071,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "C++多线程",
+      "uuid": "RV9SwTPGCTYHrdiu",
+      "url": "vm62ytquukgy0sp8",
+      "prev_uuid": "RO5GHZ28Ar7Yjtoa",
+      "sibling_uuid": "KnYtPNqXd3gTWiXV",
+      "child_uuid": "",
+      "parent_uuid": "RO5GHZ28Ar7Yjtoa",
+      "doc_id": 170923370,
+      "level": 2,
+      "id": 170923370,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "C++杂谈：指针、常量、数组？📖",
+      "uuid": "KnYtPNqXd3gTWiXV",
+      "url": "dnlzg5c1knqo7vq0",
+      "prev_uuid": "RV9SwTPGCTYHrdiu",
+      "sibling_uuid": "9g96xyrWUtIUj5Kj",
+      "child_uuid": "",
+      "parent_uuid": "RO5GHZ28Ar7Yjtoa",
+      "doc_id": 170922080,
+      "level": 2,
+      "id": 170922080,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "搞懂Socket网络编程 🤔",
+      "uuid": "9g96xyrWUtIUj5Kj",
+      "url": "oetbxdnh3iczsukb",
+      "prev_uuid": "KnYtPNqXd3gTWiXV",
+      "sibling_uuid": "qQRqP7JGDg7dWliN",
+      "child_uuid": "",
+      "parent_uuid": "RO5GHZ28Ar7Yjtoa",
+      "doc_id": 171438287,
+      "level": 2,
+      "id": 171438287,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "一文搞懂C++多线程 🔥",
+      "uuid": "qQRqP7JGDg7dWliN",
+      "url": "gm794a2b9t67g9ii",
+      "prev_uuid": "9g96xyrWUtIUj5Kj",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "RO5GHZ28Ar7Yjtoa",
+      "doc_id": 171437385,
+      "level": 2,
+      "id": 171437385,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Java",
+      "uuid": "H0rmZbYX4VJLpRmp",
+      "url": "qnf5c4s774uxb7s4",
+      "prev_uuid": "RO5GHZ28Ar7Yjtoa",
+      "sibling_uuid": "Kz42HmwRUbbo3mma",
+      "child_uuid": "OAkwTMe7qfTiwfHj",
+      "parent_uuid": "g79LhyuCIcy2z2cx",
+      "doc_id": 170598553,
+      "level": 1,
+      "id": 170598553,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "😄 Java编程大师手册",
+      "uuid": "OAkwTMe7qfTiwfHj",
+      "url": "ybp7dzzpfx11hkms",
+      "prev_uuid": "H0rmZbYX4VJLpRmp",
+      "sibling_uuid": "_wmg0eA4VOOJqH3r",
+      "child_uuid": "svAQ325G-3M0OJ3H",
+      "parent_uuid": "H0rmZbYX4VJLpRmp",
+      "doc_id": 170896045,
+      "level": 2,
+      "id": 170896045,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "1、Java的安装与配置",
+      "uuid": "svAQ325G-3M0OJ3H",
+      "url": "ewu8fhrp6gm1yvpa",
+      "prev_uuid": "OAkwTMe7qfTiwfHj",
+      "sibling_uuid": "F2frU6XxELacK_r_",
+      "child_uuid": "",
+      "parent_uuid": "OAkwTMe7qfTiwfHj",
+      "doc_id": 170897039,
+      "level": 3,
+      "id": 170897039,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "2、Java基础语法",
+      "uuid": "F2frU6XxELacK_r_",
+      "url": "oac96glbs6zlqy4q",
+      "prev_uuid": "svAQ325G-3M0OJ3H",
+      "sibling_uuid": "MTjBosAeO_f5xAP6",
+      "child_uuid": "",
+      "parent_uuid": "OAkwTMe7qfTiwfHj",
+      "doc_id": 170897146,
+      "level": 3,
+      "id": 170897146,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "3、面向对象的Java",
+      "uuid": "MTjBosAeO_f5xAP6",
+      "url": "cmycpz0uonvbubaf",
+      "prev_uuid": "F2frU6XxELacK_r_",
+      "sibling_uuid": "7k0Nh_E1ixDb-7Qb",
+      "child_uuid": "",
+      "parent_uuid": "OAkwTMe7qfTiwfHj",
+      "doc_id": 170897296,
+      "level": 3,
+      "id": 170897296,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "4、Java中的基础类",
+      "uuid": "7k0Nh_E1ixDb-7Qb",
+      "url": "eyigfudhdxqiuax4",
+      "prev_uuid": "MTjBosAeO_f5xAP6",
+      "sibling_uuid": "ved9JIc2H4eqe8q4",
+      "child_uuid": "",
+      "parent_uuid": "OAkwTMe7qfTiwfHj",
+      "doc_id": 170897457,
+      "level": 3,
+      "id": 170897457,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5、Java玩转I/O",
+      "uuid": "ved9JIc2H4eqe8q4",
+      "url": "gwtxhkglgx6m77r7",
+      "prev_uuid": "7k0Nh_E1ixDb-7Qb",
+      "sibling_uuid": "yCmK44mg2tn1aBzi",
+      "child_uuid": "",
+      "parent_uuid": "OAkwTMe7qfTiwfHj",
+      "doc_id": 170897521,
+      "level": 3,
+      "id": 170897521,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "6、Java并发编程",
+      "uuid": "yCmK44mg2tn1aBzi",
+      "url": "tkc45sgkfghf6cwq",
+      "prev_uuid": "ved9JIc2H4eqe8q4",
+      "sibling_uuid": "v84AjfqOUS4doOPA",
+      "child_uuid": "",
+      "parent_uuid": "OAkwTMe7qfTiwfHj",
+      "doc_id": 170897518,
+      "level": 3,
+      "id": 170897518,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "7、Java虚拟机（JVM）",
+      "uuid": "v84AjfqOUS4doOPA",
+      "url": "piqeakcxrghiq16l",
+      "prev_uuid": "yCmK44mg2tn1aBzi",
+      "sibling_uuid": "4TAChKJ4GnHJ9sIq",
+      "child_uuid": "",
+      "parent_uuid": "OAkwTMe7qfTiwfHj",
+      "doc_id": 170897593,
+      "level": 3,
+      "id": 170897593,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "8、Java 8新特性",
+      "uuid": "4TAChKJ4GnHJ9sIq",
+      "url": "uey01tcc9noh9y0w",
+      "prev_uuid": "v84AjfqOUS4doOPA",
+      "sibling_uuid": "zMcic7mmGkz7tH5c",
+      "child_uuid": "",
+      "parent_uuid": "OAkwTMe7qfTiwfHj",
+      "doc_id": 170897604,
+      "level": 3,
+      "id": 170897604,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "9、Java Web开发",
+      "uuid": "zMcic7mmGkz7tH5c",
+      "url": "dc8asrncbtqn2gvr",
+      "prev_uuid": "4TAChKJ4GnHJ9sIq",
+      "sibling_uuid": "6aZy03AkdOtM1h-r",
+      "child_uuid": "",
+      "parent_uuid": "OAkwTMe7qfTiwfHj",
+      "doc_id": 170899579,
+      "level": 3,
+      "id": 170899579,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "10、Java项目实战",
+      "uuid": "6aZy03AkdOtM1h-r",
+      "url": "egdut651nmx8bwzm",
+      "prev_uuid": "zMcic7mmGkz7tH5c",
+      "sibling_uuid": "IJ7V2A_MPFzpGwJh",
+      "child_uuid": "",
+      "parent_uuid": "OAkwTMe7qfTiwfHj",
+      "doc_id": 170899854,
+      "level": 3,
+      "id": 170899854,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "11、Java新技术探索:云原生",
+      "uuid": "IJ7V2A_MPFzpGwJh",
+      "url": "sh85l5yfgmlm3uh5",
+      "prev_uuid": "6aZy03AkdOtM1h-r",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "OAkwTMe7qfTiwfHj",
+      "doc_id": 170900146,
+      "level": 3,
+      "id": 170900146,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "📖 Java速查手册",
+      "uuid": "_wmg0eA4VOOJqH3r",
+      "url": "ovnsrnr6cn8gasi5",
+      "prev_uuid": "OAkwTMe7qfTiwfHj",
+      "sibling_uuid": "BdGz2kNssLRUGU1Y",
+      "child_uuid": "",
+      "parent_uuid": "H0rmZbYX4VJLpRmp",
+      "doc_id": 170598708,
+      "level": 2,
+      "id": 170598708,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "👋 Java 集合类剖析",
+      "uuid": "BdGz2kNssLRUGU1Y",
+      "url": "dw3rk59616zfltq2",
+      "prev_uuid": "_wmg0eA4VOOJqH3r",
+      "sibling_uuid": "UVBDi_LqxiPzNwqD",
+      "child_uuid": "",
+      "parent_uuid": "H0rmZbYX4VJLpRmp",
+      "doc_id": 170922717,
+      "level": 2,
+      "id": 170922717,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Filter和Interceptor什么区别？",
+      "uuid": "UVBDi_LqxiPzNwqD",
+      "url": "mmoy1c0lqpq2zm5z",
+      "prev_uuid": "BdGz2kNssLRUGU1Y",
+      "sibling_uuid": "X5gwF8BtInywDfp3",
+      "child_uuid": "",
+      "parent_uuid": "H0rmZbYX4VJLpRmp",
+      "doc_id": 171440113,
+      "level": 2,
+      "id": 171440113,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Java Spring三大特性",
+      "uuid": "X5gwF8BtInywDfp3",
+      "url": "bcuux2bqoe4r5e43",
+      "prev_uuid": "UVBDi_LqxiPzNwqD",
+      "sibling_uuid": "LIdHVFF_Dgekv9p8",
+      "child_uuid": "",
+      "parent_uuid": "H0rmZbYX4VJLpRmp",
+      "doc_id": 170923052,
+      "level": 2,
+      "id": 170923052,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "一文搞懂Java注解",
+      "uuid": "LIdHVFF_Dgekv9p8",
+      "url": "kr08pwsfxwyvmygv",
+      "prev_uuid": "X5gwF8BtInywDfp3",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "H0rmZbYX4VJLpRmp",
+      "doc_id": 170923102,
+      "level": 2,
+      "id": 170923102,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Go",
+      "uuid": "Kz42HmwRUbbo3mma",
+      "url": "gzdu2g90x1k7goos",
+      "prev_uuid": "H0rmZbYX4VJLpRmp",
+      "sibling_uuid": "",
+      "child_uuid": "SBteHfLgsx_bPvlO",
+      "parent_uuid": "g79LhyuCIcy2z2cx",
+      "doc_id": 170676389,
+      "level": 1,
+      "id": 170676389,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "🏫 新手入门",
+      "uuid": "SBteHfLgsx_bPvlO",
+      "url": "eigb7p6levvwasze",
+      "prev_uuid": "Kz42HmwRUbbo3mma",
+      "sibling_uuid": "YOd5pEsvtecnipV1",
+      "child_uuid": "hA9plW5hlrNNtayO",
+      "parent_uuid": "Kz42HmwRUbbo3mma",
+      "doc_id": 170894224,
+      "level": 2,
+      "id": 170894224,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第1章：Go启航 - 快速入门指南",
+      "uuid": "hA9plW5hlrNNtayO",
+      "url": "tgkdc0idgg402xt1",
+      "prev_uuid": "SBteHfLgsx_bPvlO",
+      "sibling_uuid": "nzXkuNsM0bfDkf6V",
+      "child_uuid": "",
+      "parent_uuid": "SBteHfLgsx_bPvlO",
+      "doc_id": 170695193,
+      "level": 3,
+      "id": 170695193,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第2章：Go工具箱 - 基础语法全接触",
+      "uuid": "nzXkuNsM0bfDkf6V",
+      "url": "yvlmw16u6dg0bnyb",
+      "prev_uuid": "hA9plW5hlrNNtayO",
+      "sibling_uuid": "K-WvyhJxA83EyqWU",
+      "child_uuid": "",
+      "parent_uuid": "SBteHfLgsx_bPvlO",
+      "doc_id": 170695619,
+      "level": 3,
+      "id": 170695619,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第3章：Go行动指南 - 流程控制与决策",
+      "uuid": "K-WvyhJxA83EyqWU",
+      "url": "gcu7t8o1hfh3tgks",
+      "prev_uuid": "nzXkuNsM0bfDkf6V",
+      "sibling_uuid": "j4N504KnWVuq6nM8",
+      "child_uuid": "",
+      "parent_uuid": "SBteHfLgsx_bPvlO",
+      "doc_id": 170695641,
+      "level": 3,
+      "id": 170695641,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第4章：Go组件库 - 数据结构与集合",
+      "uuid": "j4N504KnWVuq6nM8",
+      "url": "glme2cxvpkbflykn",
+      "prev_uuid": "K-WvyhJxA83EyqWU",
+      "sibling_uuid": "zeyBDF_XQlK5TYra",
+      "child_uuid": "",
+      "parent_uuid": "SBteHfLgsx_bPvlO",
+      "doc_id": 170695646,
+      "level": 3,
+      "id": 170695646,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第5章：Go动力核心 - 函数与方法",
+      "uuid": "zeyBDF_XQlK5TYra",
+      "url": "ri9u49otr6ib48c2",
+      "prev_uuid": "j4N504KnWVuq6nM8",
+      "sibling_uuid": "9JuYmX_kRjVUBYJG",
+      "child_uuid": "",
+      "parent_uuid": "SBteHfLgsx_bPvlO",
+      "doc_id": 170696195,
+      "level": 3,
+      "id": 170696195,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第6章：Go操控台 - 高级特性",
+      "uuid": "9JuYmX_kRjVUBYJG",
+      "url": "fkhl2h5k4efw4611",
+      "prev_uuid": "zeyBDF_XQlK5TYra",
+      "sibling_uuid": "cXuKSnIIepr8DcCM",
+      "child_uuid": "",
+      "parent_uuid": "SBteHfLgsx_bPvlO",
+      "doc_id": 170697730,
+      "level": 3,
+      "id": 170697730,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第7章：Go航天器 - 模块化与测试",
+      "uuid": "cXuKSnIIepr8DcCM",
+      "url": "keyfqrqqbpiaa3ug",
+      "prev_uuid": "9JuYmX_kRjVUBYJG",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "SBteHfLgsx_bPvlO",
+      "doc_id": 170698550,
+      "level": 3,
+      "id": 170698550,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "🎁 最佳实践",
+      "uuid": "YOd5pEsvtecnipV1",
+      "url": "htpzy6yum72pgula",
+      "prev_uuid": "SBteHfLgsx_bPvlO",
+      "sibling_uuid": "ZB_oxenbcQlwuU1s",
+      "child_uuid": "69NeHNa2jzJmbYzW",
+      "parent_uuid": "Kz42HmwRUbbo3mma",
+      "doc_id": 170698560,
+      "level": 2,
+      "id": 170698560,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "枚举陷阱：如何避免“未知值”引发的灾难",
+      "uuid": "69NeHNa2jzJmbYzW",
+      "url": "az40vm4vsa7g6rpx",
+      "prev_uuid": "YOd5pEsvtecnipV1",
+      "sibling_uuid": "hWwvJbV9-gWO5xD-",
+      "child_uuid": "",
+      "parent_uuid": "YOd5pEsvtecnipV1",
+      "doc_id": 170769092,
+      "level": 3,
+      "id": 170769092,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "匿名结构体的奇妙用途",
+      "uuid": "hWwvJbV9-gWO5xD-",
+      "url": "ifewuztzgoqgac68",
+      "prev_uuid": "69NeHNa2jzJmbYzW",
+      "sibling_uuid": "VZHdTC_a9h1gH9nf",
+      "child_uuid": "",
+      "parent_uuid": "YOd5pEsvtecnipV1",
+      "doc_id": 170768302,
+      "level": 3,
+      "id": 170768302,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "你知道引用传递与引用变量？",
+      "uuid": "VZHdTC_a9h1gH9nf",
+      "url": "vdg53p6km14umie5",
+      "prev_uuid": "hWwvJbV9-gWO5xD-",
+      "sibling_uuid": "hcofAwcP4Kgy6rkA",
+      "child_uuid": "",
+      "parent_uuid": "YOd5pEsvtecnipV1",
+      "doc_id": 170767290,
+      "level": 3,
+      "id": 170767290,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "send-only channel和receive-only channel的争议",
+      "uuid": "hcofAwcP4Kgy6rkA",
+      "url": "reg9kozm27gdfcfa",
+      "prev_uuid": "VZHdTC_a9h1gH9nf",
+      "sibling_uuid": "TwgIPn3_0rkxD8kM",
+      "child_uuid": "",
+      "parent_uuid": "YOd5pEsvtecnipV1",
+      "doc_id": 170766294,
+      "level": 3,
+      "id": 170766294,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "new与make的差异及使用策略",
+      "uuid": "TwgIPn3_0rkxD8kM",
+      "url": "cucnu4x7f111nups",
+      "prev_uuid": "hcofAwcP4Kgy6rkA",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "YOd5pEsvtecnipV1",
+      "doc_id": 170766232,
+      "level": 3,
+      "id": 170766232,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "🔥 Golang学习笔记",
+      "uuid": "ZB_oxenbcQlwuU1s",
+      "url": "gw3x2w4gvo9f3p6d",
+      "prev_uuid": "YOd5pEsvtecnipV1",
+      "sibling_uuid": "A8eSO-NCQw0ild1y",
+      "child_uuid": "",
+      "parent_uuid": "Kz42HmwRUbbo3mma",
+      "doc_id": 171439962,
+      "level": 2,
+      "id": 171439962,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "🤔 Golang语法速查手册",
+      "uuid": "A8eSO-NCQw0ild1y",
+      "url": "rwa8n4f482ryn4o9",
+      "prev_uuid": "ZB_oxenbcQlwuU1s",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "Kz42HmwRUbbo3mma",
+      "doc_id": 170693123,
+      "level": 2,
+      "id": 170693123,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "🧰 实践项目",
+      "uuid": "w3lr-82OziASjvSa",
+      "url": "ttymzn2156q6eim1",
+      "prev_uuid": "g79LhyuCIcy2z2cx",
+      "sibling_uuid": "rlp57EWbyvPwW5cr",
+      "child_uuid": "FKITPLoEH7Oi1Kov",
+      "parent_uuid": "",
+      "doc_id": 169649875,
+      "level": 0,
+      "id": 169649875,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "TinyWebServer",
+      "uuid": "FKITPLoEH7Oi1Kov",
+      "url": "tihx6bwirgug3b9d",
+      "prev_uuid": "w3lr-82OziASjvSa",
+      "sibling_uuid": "",
+      "child_uuid": "GPWR1NRK_zcuOiri",
+      "parent_uuid": "w3lr-82OziASjvSa",
+      "doc_id": 170598275,
+      "level": 1,
+      "id": 170598275,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Reactor与Proactor 两种事件分发模式？",
+      "uuid": "GPWR1NRK_zcuOiri",
+      "url": "fwqm54bdgsxi6reg",
+      "prev_uuid": "FKITPLoEH7Oi1Kov",
+      "sibling_uuid": "0FDqfRTsi-whVIK1",
+      "child_uuid": "",
+      "parent_uuid": "FKITPLoEH7Oi1Kov",
+      "doc_id": 171437045,
+      "level": 2,
+      "id": 171437045,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "面试题",
+      "uuid": "0FDqfRTsi-whVIK1",
+      "url": "pnla5tghgsndtv2w",
+      "prev_uuid": "GPWR1NRK_zcuOiri",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "FKITPLoEH7Oi1Kov",
+      "doc_id": 170923348,
+      "level": 2,
+      "id": 170923348,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "⬇️ 区区算法",
+      "uuid": "rlp57EWbyvPwW5cr",
+      "url": "nwf4zh020zubf4ae",
+      "prev_uuid": "w3lr-82OziASjvSa",
+      "sibling_uuid": "7ORaYayp6-Hn9xua",
+      "child_uuid": "reKm3I0g1TgNAMyB",
+      "parent_uuid": "",
+      "doc_id": 171438865,
+      "level": 0,
+      "id": 171438865,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "㊙️ 自用算法小册",
+      "uuid": "reKm3I0g1TgNAMyB",
+      "url": "ccershuyglgpxsdp",
+      "prev_uuid": "rlp57EWbyvPwW5cr",
+      "sibling_uuid": "5ryIfVDKTjHgN_Uj",
+      "child_uuid": "",
+      "parent_uuid": "rlp57EWbyvPwW5cr",
+      "doc_id": 171439086,
+      "level": 1,
+      "id": 171439086,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "🗡 剑指OFFER精讲",
+      "uuid": "5ryIfVDKTjHgN_Uj",
+      "url": "hogrunp9g0bggri2",
+      "prev_uuid": "reKm3I0g1TgNAMyB",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "rlp57EWbyvPwW5cr",
+      "doc_id": 171438874,
+      "level": 1,
+      "id": 171438874,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "🏄 关于",
+      "uuid": "7ORaYayp6-Hn9xua",
+      "url": "gu7y1k",
+      "prev_uuid": "rlp57EWbyvPwW5cr",
+      "sibling_uuid": "",
+      "child_uuid": "nNoGYOSXqouFzQJE",
+      "parent_uuid": "",
+      "doc_id": 79294310,
+      "level": 0,
+      "id": 79294310,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "我是谁？青玉白露",
+      "uuid": "nNoGYOSXqouFzQJE",
+      "url": "srte6wq59tapieq4",
+      "prev_uuid": "7ORaYayp6-Hn9xua",
+      "sibling_uuid": "-1-_voH7vuBA1Hm8",
+      "child_uuid": "",
+      "parent_uuid": "7ORaYayp6-Hn9xua",
+      "doc_id": 170786633,
+      "level": 1,
+      "id": 170786633,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "友情链接",
+      "uuid": "-1-_voH7vuBA1Hm8",
+      "url": "qhcv6k1zz4pwgp11",
+      "prev_uuid": "nNoGYOSXqouFzQJE",
+      "sibling_uuid": "wih1eSS0gzaA_IKD",
+      "child_uuid": "",
+      "parent_uuid": "7ORaYayp6-Hn9xua",
+      "doc_id": 170598820,
+      "level": 1,
+      "id": 170598820,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "更新日志",
+      "uuid": "wih1eSS0gzaA_IKD",
+      "url": "qfaugcu7d1ucqdq5",
+      "prev_uuid": "-1-_voH7vuBA1Hm8",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "7ORaYayp6-Hn9xua",
+      "doc_id": 170598462,
+      "level": 1,
+      "id": 170598462,
+      "open_window": 1,
+      "visible": 0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+name: Sync Docs
+
+on:
+  # 允许手动push触发
+  #  push:
+  #    branches:
+  #      - master
+  # 允许外部仓库事件触发
+  repository_dispatch:
+    types:
+      - deploy
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检查分支
+        uses: actions/checkout@master
+
+      - name: 安装node环境
+        uses: actions/setup-node@master
+        with:
+          node-version: "18.x"
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3 # docs https://pnpm.io/continuous-integration#github-actions
+        with:
+          version: 8 # Optional: specify a pnpm version
+
+      - name: 安装依赖
+        run: |
+          export TZ='Asia/Shanghai'
+          pnpm install
+
+      - name: 拉取文档
+        env:
+          YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
+          YUQUE_USERNAME: ${{ secrets.YUQUE_USERNAME }}
+          YUQUE_PASSWORD: ${{ secrets.YUQUE_PASSWORD }}
+          YUQUE_LOGIN: ${{ secrets.YUQUE_LOGIN }}
+          YUQUE_REPO: ${{ secrets.YUQUE_REPO }}
+          R2_ACCESSKEYID: ${{secrets.R2_ACCESSKEYID}}
+          R2_SECRET_ACCESSKEY: ${{secrets.R2_SECRET_ACCESSKEY}}
+          R2_BUCKET: ${{secrets.R2_BUCKET}}
+          R2_ENDPOINT: ${{secrets.R2_ENDPOINT}}
+          R2_HOST: ${{secrets.R2_HOST}}
+        run: |
+          pnpm sync-s
+      #          npm run elog:sync-short
+      - name: 配置Git用户名邮箱
+        run: |
+          git config --global user.name "white0dew"
+          git config --global user.email ${{ secrets.Email_Github }}
+
+      - name: 提交拉取的文档到GitHub仓库
+        run: |
+          git add .
+          git commit -m "更新文档" -a
+
+      - name: 推送文档到仓库
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,72 @@
+name: deploy
+
+on:
+  push:
+    branches: [master, dev]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          registry: registry.cn-hongkong.aliyuncs.com # 用您的Registry地址替换
+          username: ${{ secrets.DOCKER_HUB_USERNAME }}
+          password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5.1.0
+        with:
+          push: true
+          tags: |
+            registry.cn-hongkong.aliyuncs.com/whitedewgit/airblog:latest 
+            registry.cn-hongkong.aliyuncs.com/whitedewgit/airblog:${{ github.sha }}
+
+      - name: Deploy to server on master branch
+        if: github.ref == 'refs/heads/master'
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USER }}
+          password: ${{ secrets.SERVER_PASSWORD }}
+          script: |
+            echo ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }} | docker login -u ${{ secrets.DOCKER_HUB_USERNAME }} registry.cn-hongkong.aliyuncs.com --password-stdin
+            docker pull registry.cn-hongkong.aliyuncs.com/whitedewgit/airblog:latest
+            docker stop airblog || true
+            docker rm airblog || true
+            rm -rf /www/server/nginx/proxy_cache_dir/*
+            docker run -d --name airblog -p 3020:3020 registry.cn-hongkong.aliyuncs.com/whitedewgit/airblog:latest
+
+      - name: Deploy to server on dev branch
+        if: github.ref == 'refs/heads/dev'
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USER }}
+          password: ${{ secrets.SERVER_PASSWORD }}
+          script: |
+            echo ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }} | docker login -u ${{ secrets.DOCKER_HUB_USERNAME }} registry.cn-hongkong.aliyuncs.com --password-stdin
+      
+      # - name: Send notification email
+      #   if: failure()
+      #   uses: dawidd6/action-send-mail@v3
+      #   with:
+      #     server_address: smtp.example.com
+      #     server_port: 587
+      #     username: ${{ secrets.EMAIL_USERNAME }}
+      #     password: ${{ secrets.EMAIL_PASSWORD }}
+      #     subject: GitHub Actions Workflow Failed
+      #     to: your-email@example.com
+      #     from: ${{ secrets.EMAIL_USERNAME }}
+      #     content_type: text/html
+      #     body: |
+      #       <h1>Workflow Failed</h1>
+      #       <p>Your GitHub Actions workflow has failed. Please check the logs for more details.</p>

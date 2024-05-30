@@ -88,6 +88,7 @@ export default function RootLayout({
       <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff" />
       <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
       {/* 全局 CSS */}
+      <meta name="baidu-site-verification" content="codeva-I0qCzKCAtu" />
       <body className="bg-white w-screen max-w-screen
        overflow-x-hidden
       text-black antialiased dark:bg-gray-950 dark:text-white">

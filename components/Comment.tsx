@@ -21,7 +21,7 @@ const ArtalkComment = () => {
       pageKey: "",
       pageTitle: "",
       server: 'https://artalk.aistar.cool',
-      site: 'OfferNow',
+      site: 'offernow',
       versionCheck: true,
       useBackendConf: true,
       darkMode: theme === 'dark',

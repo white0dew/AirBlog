@@ -31,7 +31,7 @@ jobs:
             registry.cn-hongkong.aliyuncs.com/whitedewgit/airblog:${{ github.sha }}
 
       - name: Deploy to server on master branch
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/main'
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SERVER_HOST }}

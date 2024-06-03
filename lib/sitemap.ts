@@ -2,6 +2,7 @@ import fs from 'fs';
 import { create } from 'xmlbuilder2';
 import path from 'path';
 import { ChapterTree, DocIDMap } from './elog';
+import { SubmitUrlsToBaidu } from './baidu-seo';
 
 // 假设ElogChapter接口和实例的树状数组已经定义好了
 export interface ElogChapter {
@@ -27,6 +28,10 @@ const buildSitemapXml = (rootUrl: string, chapters: ElogChapter[]): string => {
         xmlns: 'http://www.sitemaps.org/schemas/sitemap/0.9',
     });
 
+    // 站点url数组
+    let urls: string[] = [];
+
+
     // 递归函数遍历树
     const addUrls = (chapter: ElogChapter) => {
         let tmpDoc = DocIDMap.get(chapter.urlname)
@@ -40,13 +45,14 @@ const buildSitemapXml = (rootUrl: string, chapters: ElogChapter[]): string => {
         urlElement.ele('changefreq').txt('weekly');
         urlElement.ele('priority').txt(chapter.level === 1 ? '1.0' : '0.5'); // 假设子级优先级降低
         urlElement.ele('lastmod').txt(tmpDate.toISOString());
+        urls.push(`${rootUrl}${chapter.url.startsWith('/') ? '' : '/'}${chapter.url}`);
         // 递归添加子章节
         chapter.children.forEach(addUrls);
     };
 
     // 开始遍历树
     chapters.forEach(addUrls);
-
+    SubmitUrlsToBaidu(urls)
     return root.end({ prettyPrint: true });
 };
 

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "pnpm sync-s && next build",
     "start": "next start",
     "elog:sync": "elog clean && elog sync -e .env.local",
     "sync:clean": "elog clean",
@@ -29,6 +29,7 @@
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "artalk": "^2.8.6",
     "aws-sdk": "^2.1621.0",
+    "axios": "^1.7.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "contentlayer2": "0.4.6",

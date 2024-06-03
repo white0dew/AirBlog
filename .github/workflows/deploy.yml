@@ -21,7 +21,21 @@ jobs:
           registry: registry.cn-hongkong.aliyuncs.com # 用您的Registry地址替换
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
-
+      - name: 拉取文档
+        env:
+          YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
+          YUQUE_USERNAME: ${{ secrets.YUQUE_USERNAME }}
+          YUQUE_PASSWORD: ${{ secrets.YUQUE_PASSWORD }}
+          YUQUE_LOGIN: ${{ secrets.YUQUE_LOGIN }}
+          YUQUE_REPO: ${{ secrets.YUQUE_REPO }}
+          R2_ACCESSKEYID: ${{secrets.R2_ACCESSKEYID}}
+          R2_SECRET_ACCESSKEY: ${{secrets.R2_SECRET_ACCESSKEY}}
+          R2_BUCKET: ${{secrets.R2_BUCKET}}
+          R2_ENDPOINT: ${{secrets.R2_ENDPOINT}}
+          R2_HOST: ${{secrets.R2_HOST}}
+        run: |
+          pnpm sync-s
+          
       - name: Build and push Docker image
         uses: docker/build-push-action@v5.1.0
         with:

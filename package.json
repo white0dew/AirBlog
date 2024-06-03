@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "pnpm sync-s && next build",
+    "build": "next build",
     "start": "next start",
     "elog:sync": "elog clean && elog sync -e .env.local",
     "sync:clean": "elog clean",

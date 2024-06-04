@@ -20,6 +20,7 @@ module.exports = {
       repo: process.env.YUQUE_REPO,
       onlyPublic: false,
       onlyPublished: true,
+
     },
   },
   deploy: {

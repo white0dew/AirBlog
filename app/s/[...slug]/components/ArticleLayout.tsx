@@ -65,10 +65,10 @@ export default function ArticlePostLayout({ curArticle, content, next, prev, chi
                                         {readingTime.text}
 
                                         <FaStreetView className="mr-1.5 ml-1.5" />
-                                        <text >阅读:<span id="ArtalkPV" className="ml-1">..</span></text>
+                                        <text >阅读:<span id="" className="ml-1 artalk-pv-count" >..</span></text>
 
                                         <FaRegCommentDots className="mr-1.5 ml-1.5" />
-                                        <text >评论:<span id="ArtalkCount" className="ml-1">..</span></text>
+                                        <text >评论:<span id="" className="ml-1 artalk-comment-count">..</span></text>
                                     </span>
                                 </dd>
 

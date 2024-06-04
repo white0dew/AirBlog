@@ -18,8 +18,6 @@ const ArtalkComment = () => {
     // artalk.setDarkMode(theme === 'dark')
     Artalk.init({
       el: '#Comments',
-      pageKey: "",
-      pageTitle: "",
       server: 'https://artalk.aistar.cool',
       site: 'offernow',
       versionCheck: true,

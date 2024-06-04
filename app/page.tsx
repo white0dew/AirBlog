@@ -17,7 +17,7 @@ const products = [
 export default function Home() {
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-100 dark:bg-slate-900">
 
       {/* Hero Section */}
       <section className="text-center py-20 bg-gradient-to-r  from-teal-700 to-blue-500 text-white">

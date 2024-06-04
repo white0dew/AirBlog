@@ -2,9 +2,9 @@
 title: "\U0001F44B Java 集合类剖析"
 urlname: dw3rk59616zfltq2
 date: '2024-05-24 12:50:17'
-updated: '2024-06-03 15:34:50'
+updated: '2024-06-04 23:01:05'
 cover: 'https://cdn.nlark.com/yuque/0/2022/jpeg/22382235/1651227483857-b2d60627-7c5c-4894-b201-16761b2a52f8.jpeg'
-description: '---nav_path: java-collections---Java集合类的主要目的是创建一个简单的、高性能的数据结构操作框架。Java的集合框架围绕一组标准接口设计，根接口是数据集合（Collection）与键值映射表（Map），并基于这两个接口派生了多个子接口，实现包括数组、哈希表、集...'
+description: '---nav_path: java-collections ---Java集合类的主要目的是创建一个简单的、高性能的数据结构操作框架。Java的集合框架围绕一组标准接口设计，根接口是数据集合（Collection）与键值映射表（Map），并基于这两个接口派生了多个子接口，实现包括数组、哈希表、...'
 nav_path: java-collections
 ---
 Java集合类的主要目的是创建一个简单的、高性能的数据结构操作框架。Java的集合框架围绕一组标准接口设计，根接口是数据集合（`Collection`）与键值映射表（`Map`），并基于这两个接口派生了多个子接口，实现包括数组、哈希表、集合等数据结构。

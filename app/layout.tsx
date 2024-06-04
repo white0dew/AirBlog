@@ -84,6 +84,11 @@ export default function RootLayout({
       <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
       <link rel="manifest" href="/favicons/site.webmanifest" />
       <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+      <link
+        rel="stylesheet"
+        href="https://unpkg.com/lightgallery@2.5.0/css/lightgallery.css"
+      />
+      <script src="https://unpkg.com/lightgallery@2.5.0/lightgallery.min.js"></script>
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff" />
       <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />

@@ -10,6 +10,7 @@ import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeKatex from "rehype-katex";
 import NextImage, { ImageProps } from 'next/image'
+import CustomImage from "@/components/markdown/CustomImage"
 // @ts-ignore
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter"
 // @ts-ignore
@@ -48,6 +49,12 @@ const MDViewer = (params: MDViewerParams) => {
                         <code {...rest} className={className}>
                             {children}
                         </code>
+                    )
+                },
+                img(props) {
+                    const { alt, src, title } = props
+                    return (
+                        <CustomImage src={src || ""} alt={alt} />
                     )
                 }
             }}

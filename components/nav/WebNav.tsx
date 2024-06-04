@@ -38,7 +38,7 @@ export default function Navigation({ chapters }: { chapters: ElogChapter[] }) {
 
                             )}>{chapter.title}</NavigationMenuTrigger>
 
-                            <NavigationMenuContent className=' border-1  px-5'>
+                            <NavigationMenuContent className=' border-1  px-2'>
                                 {chapter.children.map((child) => (
                                     (child?.is_nav) && (<Link key={child.uuid} href={child.url} legacyBehavior passHref
                                         className='w-full'>

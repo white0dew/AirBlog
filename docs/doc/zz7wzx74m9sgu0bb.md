@@ -2,8 +2,8 @@
 title: "\U0001F525 程序员自我修养"
 urlname: zz7wzx74m9sgu0bb
 date: '2024-05-27 11:27:11'
-updated: '2024-05-29 21:55:26'
-description: '---is_nav: truenav_path: self_improve---一个优秀的程序员，意味着不断学习和提升专业技能，包括了解最新的编程趋势、掌握高效的开发工具、练习编写高质量的代码，以及培养优秀的软件工程习惯。以下是一些程序员自我修养的关键方面以及相关的资源推荐。知识收集学习平台：...'
+updated: '2024-06-04 23:02:57'
+description: 'is_nav: truenav_path: self_improve一个优秀的程序员，意味着不断学习和提升专业技能，包括了解最新的编程趋势、掌握高效的开发工具、练习编写高质量的代码，以及培养优秀的软件工程习惯。以下是一些程序员自我修养的关键方面以及相关的资源推荐。知识收集学习平台：Course...'
 is_nav: true
 nav_path: self_improve
 ---

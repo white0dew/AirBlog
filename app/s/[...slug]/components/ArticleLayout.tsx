@@ -36,11 +36,11 @@ export default function ArticlePostLayout({ curArticle, content, next, prev, chi
     const { urlname, date, title, tags, readingTime } = curArticle;
 
     return (
-        <div className="w-full py-1 flex flex-col justify-center scroll-smooth ">
+        <div className="w-max mx-auto py-1 flex flex-col justify-center scroll-smooth ">
             <ProgressBar />
             <ScrollTopAndComment />
             <article className="divide-y divide-gray-200 dark:divide-gray-700 max-w-none">
-                <header className="pt-6 pb-6">
+                <header className="pt-2">
                     <div className="space-y-1 text-center">
                         <div className="mb-4">
                             <PageTitle>{title}</PageTitle>

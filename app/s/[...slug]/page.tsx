@@ -151,17 +151,17 @@ export default function ArticlePage({ params }: { params: { slug: string[] } }) 
     }
     // mylog(curArticle?.body.raw)
     return (
-        <div className="relative mx-auto max-w-screen-xl space-x-3 px-4 py-2 md:flex md:flex-row md:py-2 gap-5">
+        <div className="relative mx-auto max-w-screen-xl justify-center space-x-3 px-4 py-2 md:flex md:flex-row md:py-2 lg:space-x-16">
             <div className="sticky top-[90px] hidden h-[calc(100vh-20vh)] w-[284px] 
             md:flex md:shrink-0 md:flex-col md:justify-between
             overflow-y-auto scrollbar-thin">
                 <SidebarChapter chapters={curChapter?.children ?? []} />
             </div>
 
-            {(curArticle && !IsEmptyString(curArticle?.body.raw)) ? (<div className=" w-auto lg:min-w-2xl lg:max-w-2xl py-10 min-h-screen 
-            md:flex-1 px-1 md:px-6  dark:bg-slate-800 2xl:max-w-3xl 2xl:min-w-3xl ">
+            {(curArticle && !IsEmptyString(curArticle?.body.raw)) ? (<div className=" w-max lg:min-w-2xl lg:max-w-2xl py-10 min-h-screen 
+            md:flex-1 px-1 md:px-6  dark:bg-slate-800 2xl:max-w-3xl xl:min-w-3xl ">
                 <ArticlePostLayout curArticle={curArticle}>
-                    <div className="js-toc-content prose prose-teal dark:prose-invert min-h-screen w-full">
+                    <div className="js-toc-content prose prose-blue dark:prose-invert min-h-screen w-max">
                         <MDViewer source={curArticle.body.raw} />
                     </div>
                 </ArticlePostLayout>

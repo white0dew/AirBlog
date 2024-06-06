@@ -20,38 +20,27 @@ export default function CustomImage(props: CustomImageProps) {
     const [modalIsOpen, setModalIsOpen] = useState<boolean>(false);
 
     return (
-        <>
-
-            {/* <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} style={{ content: { top: '50%', left: '50%', right: 'auto', bottom: 'auto', marginRight: '-50%', transform: 'translate(-50%, -50%)' } }}>
-                <img src={src} alt={alt} style={{ maxWidth: '100%' }} />
-            </Modal> */}
+        <div className=' items-center flex justify-center'>
             <Dialog>
-                <DialogTrigger><Image src={props.src} alt={props.alt ?? ""}
-                    width={600}
-                    height={400}
-                    className=' rounded-md  shadow-lg max-w-max'
-                    onClick={() => setModalIsOpen(true)}
-                    style={{ cursor: 'pointer', display: 'block', marginLeft: 'auto', marginRight: 'auto', maxWidth: '100%' }}
-                /></DialogTrigger>
-                <DialogContent>
+                <DialogTrigger>
                     <Image src={props.src} alt={props.alt ?? ""}
                         width={600}
                         height={400}
                         className=' rounded-md  shadow-lg max-w-max'
-                        onClick={() => setModalIsOpen(true)}
+                        style={{ cursor: 'pointer', display: 'block', marginLeft: 'auto', marginRight: 'auto', maxWidth: '100%' }}
+                    /></DialogTrigger>
+                <DialogContent>
+                    <Image src={props.src} alt={props.alt ?? ""}
+                        layout="responsive"
+                        width={800}
+                        height={600}
+                        className=' rounded-md  shadow-lg max-w-max'
                         style={{ cursor: 'pointer', display: 'block', marginLeft: 'auto', marginRight: 'auto', maxWidth: '100%' }}
                     />
-                    {/* <DialogHeader> */}
-                    {/* <DialogTitle>Are you absolutely sure?</DialogTitle> */}
-                    {/* <DialogDescription>
-                            This action cannot be undone. This will permanently delete your account
-                            and remove your data from our servers.
-                        </DialogDescription> */}
-                    {/* </DialogHeader> */}
                 </DialogContent>
             </Dialog>
 
-        </>
+        </div>
     );
 };
 

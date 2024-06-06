@@ -7,21 +7,21 @@ export default function Footer() {
   return (
     <footer>
       <div className="mt-16 flex flex-col items-center bg-black text-white pt-10 md:pt-10">
-        <div className="sm:flex sm:justify-between md:py-5">
+        <div className="sm:flex sm:justify-between md:py-5 md:space-x-10">
           {/* Company Info & Links */}
-          <div className="sm:flex sm:space-x-4 lg:space-x-10">
-            <div className="flex-1 mb-6 sm:mb-0">
-              <h5 className="text-lg font-bold  mb-2">关于我们</h5>
-              <p>OfferNow, 分享知识的平台</p>
-              <p>让每个人了解计算机、编程、AI</p>
-            </div>
-            <div className="flex-1 mb-6 sm:mb-0 space-y-1">
-              <h5 className="text-lg font-bold  mb-2">联系方式</h5>
-              <ul>
-                <li>1373685219@qq.com</li>
-                <li>官网:<Link href={"https://aistar.cool"} >aistar.cool </Link></li>
-              </ul>
-            </div>
+          <div className="flex-1 mb-6 sm:mb-0">
+            <h5 className="text-lg font-bold  mb-2">关于我们</h5>
+            <p>OfferNow, 分享知识的平台</p>
+            <p>让每个人了解计算机、编程、AI</p>
+          </div>
+
+
+          <div className="flex-1 mb-6 sm:mb-0 space-y-1">
+            <h5 className="text-lg font-bold  mb-2">联系方式</h5>
+            <ul>
+              <li>1373685219@qq.com</li>
+              <li>官网:<Link href={"https://aistar.cool"} >aistar.cool </Link></li>
+            </ul>
           </div>
 
           {/* Social Media Links */}
@@ -33,7 +33,21 @@ export default function Footer() {
               <Image src={"https://oss1.aistar.cool/%E4%BA%8C%E8%BF%9B%E5%88%B6%E7%9A%84%E8%80%B3%E8%AF%AD.jpg "} width={100} height={100} alt='' />
             </div>
           </div>
+
+          <div className="flex-1 flex mb-6 sm:mb-0 flex-col">
+            <h5 className="text-lg font-bold  mb-2">关于网站</h5>
+            <Link href="/s/web/changelog">更新日志</Link>
+            <Link href="/s/web/friend_link">友情链接</Link>
+            <Link href="/s/web/whitedew">青玉白露</Link>
+            <Link href="/sitemap.xml">站点地图</Link>
+          </div>
+
         </div>
+
+
+
+
+
 
         <div className="mb-2 flex space-x-2 text-sm text-gray-500 dark:text-gray-400">
           <div>{siteMetadata.author}</div>

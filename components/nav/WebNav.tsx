@@ -33,8 +33,9 @@ export default function Navigation({ chapters }: { chapters: ElogChapter[] }) {
                     (chapter.children) && (chapter.children.length > 0) && subChildrenIsNav(chapter.children) ? (
                         (chapter?.is_nav && <NavigationMenuItem key={chapter.uuid} className='w-full'>
                             <NavigationMenuTrigger className={cn(
-                                `${path.includes(chapter.url) ? 'bg-slate-200' : ''}`,
-                                "px-2"
+                                `${path.includes(chapter.url) ? 'bg-slate-300' : ''}`,
+                                "px-2",
+                                "shadow-md",
 
                             )}>{chapter.title}</NavigationMenuTrigger>
 
@@ -52,8 +53,8 @@ export default function Navigation({ chapters }: { chapters: ElogChapter[] }) {
                     ) : (
                         (chapter?.is_nav && <NavigationMenuItem key={chapter.uuid} className="">
                             <Link href={chapter.url} legacyBehavior passHref>
-                                <NavigationMenuLink className={cn(navigationMenuTriggerStyle(),
-                                    `${path.includes(chapter.url) ? 'bg-slate-200' : ''}`,
+                                <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), "shadow-md",
+                                    `${path.includes(chapter.url) ? 'bg-slate-300' : ''}`,
                                     "px-2"
                                 )}>
                                     {chapter.title}

@@ -37,6 +37,7 @@ const config = {
     extend: {
       minWidth: {
         '2xl': '42rem',
+        "3xl": '50rem',
       },
       colors: {
         border: "hsl(var(--border))",

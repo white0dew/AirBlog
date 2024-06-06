@@ -94,7 +94,7 @@
     <loc>https://offernow.cn/s/cs_base/os/tfhlw8c5gubnwfsb</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-06-04T15:04:33.524Z</lastmod>
+    <lastmod>2024-06-06T15:08:06.132Z</lastmod>
   </url>
   <url>
     <loc>https://offernow.cn/s/cs_base/os/tfhlw8c5gubnwfsb/vg4gldsnlenfkq11</loc>
@@ -118,7 +118,7 @@
     <loc>https://offernow.cn/s/cs_base/os/tfhlw8c5gubnwfsb/txgyg1ibyrbxh81k</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-06-04T15:04:33.524Z</lastmod>
+    <lastmod>2024-06-06T15:08:06.133Z</lastmod>
   </url>
   <url>
     <loc>https://offernow.cn/s/cs_base/os/tfhlw8c5gubnwfsb/kcin2evo3gdwfeqr</loc>
@@ -136,7 +136,7 @@
     <loc>https://offernow.cn/s/cs_base/os/tfhlw8c5gubnwfsb/vpcarog0vdzlbgx3</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-06-04T15:04:33.524Z</lastmod>
+    <lastmod>2024-06-06T15:08:06.133Z</lastmod>
   </url>
   <url>
     <loc>https://offernow.cn/s/cs_base/os/tfhlw8c5gubnwfsb/ho88cbpxgbc2gpnf</loc>
@@ -256,7 +256,7 @@
     <loc>https://offernow.cn/s/cs_base/zk26wlg3ozzqospe</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <lastmod>2024-06-04T15:04:33.525Z</lastmod>
+    <lastmod>2024-06-06T15:08:06.133Z</lastmod>
   </url>
   <url>
     <loc>https://offernow.cn/s/cs_base/zk26wlg3ozzqospe/hee9hlritx0n8hcc</loc>
@@ -275,6 +275,84 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <lastmod>2024-06-03T07:32:47.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/cs_base/Docker</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2024-06-06T13:20:04.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/cs_base/Docker/wxfb81i787twwg1d</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T13:21:12.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/cs_base/Docker/og4m0zpmpo6fmymk</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T13:21:28.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/cs_base/Docker/mylthedoavc4zlah</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T13:21:44.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/cs_base/Docker/lbhwlgqkvk3gfyui</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T13:22:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/cs_base/Docker/ghwoip0fbd0hzxyi</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T13:22:18.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/cs_base/Docker/mny88bf7pkzlwcpe</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T13:22:32.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/cs_base/Docker/gf2abf0roxptg3gm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T13:22:47.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/cs_base/Docker/zska461892z4wyv9</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T13:23:02.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/cs_base/Docker/gs32fkerb7qam3z5</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T13:23:20.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/cs_base/Docker/fgd4f06xqeq9mx27</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T13:23:41.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/cs_base/Docker/yz1cy1d2qb01sfwr</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T13:24:38.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/cs_base/Docker/rhsc97ze4klle0mw</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T13:25:05.000Z</lastmod>
   </url>
   <url>
     <loc>https://offernow.cn/s/cs_base/ke4dfxri1tn7lnbm</loc>
@@ -331,16 +409,142 @@
     <lastmod>2024-05-28T09:50:29.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/zxr575sqdpq3e4by</loc>
+    <loc>https://offernow.cn/s/language/golang</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <lastmod>2024-06-04T09:13:10.000Z</lastmod>
+    <lastmod>2024-05-24T01:38:15.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/aik2girglv1pxdnz</loc>
+    <loc>https://offernow.cn/s/language/golang/noob</loc>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <lastmod>2024-06-04T09:13:27.000Z</lastmod>
+    <priority>0.5</priority>
+    <lastmod>2024-05-24T01:32:24.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/golang/noob/tgkdc0idgg402xt1</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-05-24T01:28:30.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/golang/noob/yvlmw16u6dg0bnyb</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-05-24T01:28:33.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/golang/noob/gcu7t8o1hfh3tgks</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-05-24T01:28:39.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/golang/noob/glme2cxvpkbflykn</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-05-24T01:28:43.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/golang/noob/ri9u49otr6ib48c2</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-05-24T01:28:49.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/golang/noob/fkhl2h5k4efw4611</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-05-24T01:28:53.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/golang/noob/keyfqrqqbpiaa3ug</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-05-28T09:32:34.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/golang/gw3x2w4gvo9f3p6d</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-05-28T08:58:04.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/golang/golang_instant_reference</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-05-24T04:49:02.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/golang/best_practice</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-05-24T01:36:08.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/golang/best_practice/gngndpw23pnmp9ui</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-03T07:31:42.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/golang/best_practice/iqh4l9x2txk58kss</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-03T07:26:56.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/golang/best_practice/hn222ds8l0mhz091</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-03T06:20:56.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/golang/best_practice/mgkiu0x8upweqrsb</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-03T06:16:01.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/golang/best_practice/doxxm5gbxqmp037q</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-03T06:14:37.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/golang/best_practice/fwg60cskvnfowboi</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-03T06:16:12.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/golang/best_practice/az40vm4vsa7g6rpx</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-05-24T01:33:23.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/golang/best_practice/ifewuztzgoqgac68</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-05-24T01:33:51.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/golang/best_practice/vdg53p6km14umie5</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-05-24T01:34:13.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/golang/best_practice/reg9kozm27gdfcfa</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-05-24T01:34:58.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/golang/best_practice/cucnu4x7f111nups</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-05-24T01:35:24.000Z</lastmod>
   </url>
   <url>
     <loc>https://offernow.cn/s/language/cpp</loc>
@@ -481,142 +685,346 @@
     <lastmod>2024-05-28T04:28:26.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang</loc>
+    <loc>https://offernow.cn/s/language/python</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <lastmod>2024-05-24T01:38:15.000Z</lastmod>
+    <lastmod>2024-06-06T13:18:37.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/noob</loc>
+    <loc>https://offernow.cn/s/language/python/bg7zrrbwsud3n0ns</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-05-24T01:32:24.000Z</lastmod>
+    <lastmod>2024-06-06T13:10:04.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/noob/tgkdc0idgg402xt1</loc>
+    <loc>https://offernow.cn/s/language/python/obdb3gm7ffdg1yho</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-05-24T01:28:30.000Z</lastmod>
+    <lastmod>2024-06-06T13:10:32.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/noob/yvlmw16u6dg0bnyb</loc>
+    <loc>https://offernow.cn/s/language/python/mrlpifpqy4nyfcl1</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-05-24T01:28:33.000Z</lastmod>
+    <lastmod>2024-06-06T13:11:16.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/noob/gcu7t8o1hfh3tgks</loc>
+    <loc>https://offernow.cn/s/language/python/iktx8rplvlb9evix</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-05-24T01:28:39.000Z</lastmod>
+    <lastmod>2024-06-06T13:11:56.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/noob/glme2cxvpkbflykn</loc>
+    <loc>https://offernow.cn/s/language/python/en013flx6b8gtvyi</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-05-24T01:28:43.000Z</lastmod>
+    <lastmod>2024-06-06T13:12:18.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/noob/ri9u49otr6ib48c2</loc>
+    <loc>https://offernow.cn/s/language/python/nf1psgb7aploi6sy</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-05-24T01:28:49.000Z</lastmod>
+    <lastmod>2024-06-06T13:12:36.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/noob/fkhl2h5k4efw4611</loc>
+    <loc>https://offernow.cn/s/language/python/guvhggxqlp5q5310</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-05-24T01:28:53.000Z</lastmod>
+    <lastmod>2024-06-06T13:13:21.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/noob/keyfqrqqbpiaa3ug</loc>
+    <loc>https://offernow.cn/s/language/python/woggg82kv2g6l9yk</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-05-28T09:32:34.000Z</lastmod>
+    <lastmod>2024-06-06T13:13:38.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/gw3x2w4gvo9f3p6d</loc>
+    <loc>https://offernow.cn/s/language/python/shm1q3eulqyv9rtv</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-05-28T08:58:04.000Z</lastmod>
+    <lastmod>2024-06-06T13:15:44.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/golang_instant_reference</loc>
+    <loc>https://offernow.cn/s/language/python/pm63yobk1ogyquuo</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-05-24T04:49:02.000Z</lastmod>
+    <lastmod>2024-06-06T13:16:05.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/best_practice</loc>
+    <loc>https://offernow.cn/s/language/python/uiupdyiivfsu881e</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-05-24T01:36:08.000Z</lastmod>
+    <lastmod>2024-06-06T13:16:50.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/best_practice/gngndpw23pnmp9ui</loc>
+    <loc>https://offernow.cn/s/language/python/atlossyzyv61l9mv</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-06-03T07:31:42.000Z</lastmod>
+    <lastmod>2024-06-06T13:17:12.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/best_practice/iqh4l9x2txk58kss</loc>
+    <loc>https://offernow.cn/s/language/python/ot0ouhqynyuy3ovi</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-06-03T07:26:56.000Z</lastmod>
+    <lastmod>2024-06-06T13:17:32.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/best_practice/hn222ds8l0mhz091</loc>
+    <loc>https://offernow.cn/s/language/php</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <lastmod>2024-06-03T06:20:56.000Z</lastmod>
+    <priority>1.0</priority>
+    <lastmod>2024-06-06T13:07:48.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/best_practice/mgkiu0x8upweqrsb</loc>
+    <loc>https://offernow.cn/s/language/php/gbs82nup9mi8b74t</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-06-03T06:16:01.000Z</lastmod>
+    <lastmod>2024-06-06T12:55:35.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/best_practice/doxxm5gbxqmp037q</loc>
+    <loc>https://offernow.cn/s/language/php/gs8hg3gxeuo5fk6s</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-06-03T06:14:37.000Z</lastmod>
+    <lastmod>2024-06-06T12:56:07.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/best_practice/fwg60cskvnfowboi</loc>
+    <loc>https://offernow.cn/s/language/php/xr7ke859gt93r6b1</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-06-03T06:16:12.000Z</lastmod>
+    <lastmod>2024-06-06T12:58:02.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/best_practice/az40vm4vsa7g6rpx</loc>
+    <loc>https://offernow.cn/s/language/php/xtwxxkkcg4k5714x</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-05-24T01:33:23.000Z</lastmod>
+    <lastmod>2024-06-06T13:02:17.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/best_practice/ifewuztzgoqgac68</loc>
+    <loc>https://offernow.cn/s/language/php/qws9bios7wl3p9rf</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-05-24T01:33:51.000Z</lastmod>
+    <lastmod>2024-06-06T13:03:07.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/best_practice/vdg53p6km14umie5</loc>
+    <loc>https://offernow.cn/s/language/php/uccxksbim9tw9ex5</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-05-24T01:34:13.000Z</lastmod>
+    <lastmod>2024-06-06T13:03:24.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/best_practice/reg9kozm27gdfcfa</loc>
+    <loc>https://offernow.cn/s/language/php/tbm5xx6o52l7wl3q</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-05-24T01:34:58.000Z</lastmod>
+    <lastmod>2024-06-06T13:03:44.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/language/golang/best_practice/cucnu4x7f111nups</loc>
+    <loc>https://offernow.cn/s/language/php/mgr9vbx84mhwrztw</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-05-24T01:35:24.000Z</lastmod>
+    <lastmod>2024-06-06T13:04:14.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/php/nqpe5cnq7c60rcfv</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T13:05:23.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/php/bh6bor1mf0ylvx5k</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T13:05:49.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/php/txfcgfsfxdhd7sxm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T13:06:05.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/php/cw7dt4tdo1btwg5f</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T13:06:28.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2024-06-06T13:07:59.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/html/ahl7knwxuwgf78il</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:30:04.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/html/rb4ye0t3yaqbxzpg</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:30:24.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/html/zkgqems7mofxiukr</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:30:49.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/html/gqskznmrisypt5cc</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:31:15.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/html/pkd0n1bl0otacdk8</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:31:51.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/html/qqpwoxgs149zde15</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:32:15.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/html/cxvr6luk8bw66d2s</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:32:36.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/html/fuv2pl2mc3qgfzlh</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:33:14.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/html/tlcwlhbihyz55da6</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:33:29.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/html/quvzonpqlvtknn62</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:33:53.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/html/ptpvy38ims4qwnm1</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:34:12.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/html/xfyg852rer6qo7sk</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:34:45.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/html/qdbx2gsk1ueungnm</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:35:05.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/html/afdbqhveh0wdig9d</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:35:31.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/html/yfa0upx1bro31vok</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:36:01.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/css</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2024-06-06T13:08:08.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/css/puuvedqp2wzlc9hi</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:45:28.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/css/eliv1b998cgcev7b</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:46:11.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/css/ldegf1cokbeqxaz6</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:46:34.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/css/gpi033cgll2yqupy</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:46:59.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/css/wofgtfxighsrilqr</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:48:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/css/hymkly476a5278g0</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:49:20.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/css/ugcqxf30k12gdkic</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:49:37.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/css/ka3v1d0ucgf0qxf9</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:50:02.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/css/ddgrqxv0hf72h2s1</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:50:26.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/css/tdk1gwkigaz5pu7d</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:50:52.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/css/lq2tb7mgzm32zafs</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:51:15.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/css/vdk10lu3bumgg45z</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:54:07.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/language/css/qmskxpgo0gepy3as</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-06-06T12:54:30.000Z</lastmod>
   </url>
   <url>
     <loc>https://offernow.cn/s/language/vite</loc>
@@ -868,7 +1276,7 @@
     <loc>https://offernow.cn/s/interview/ddiqc8kv6p73lgsu</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <lastmod>2024-06-04T15:04:33.527Z</lastmod>
+    <lastmod>2024-06-06T15:08:06.139Z</lastmod>
   </url>
   <url>
     <loc>https://offernow.cn/s/interview/rnwghpv7c59vgtuo</loc>
@@ -880,7 +1288,7 @@
     <loc>https://offernow.cn/s/interview/bzcgeyqlpmluo6ln</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <lastmod>2024-06-04T15:04:33.527Z</lastmod>
+    <lastmod>2024-06-06T15:08:06.139Z</lastmod>
   </url>
   <url>
     <loc>https://offernow.cn/s/algorithm</loc>
@@ -901,27 +1309,27 @@
     <lastmod>2024-05-28T08:55:15.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/about</loc>
+    <loc>https://offernow.cn/s/web</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-05-29T13:56:04.000Z</lastmod>
+    <lastmod>2024-06-06T14:59:46.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/about/whitedew</loc>
+    <loc>https://offernow.cn/s/web/whitedew</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <lastmod>2024-05-27T14:36:44.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/about/qhcv6k1zz4pwgp11</loc>
+    <loc>https://offernow.cn/s/web/friend_link</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <lastmod>2024-05-23T01:20:09.000Z</lastmod>
+    <lastmod>2024-06-06T15:07:23.000Z</lastmod>
   </url>
   <url>
-    <loc>https://offernow.cn/s/about/qfaugcu7d1ucqdq5</loc>
+    <loc>https://offernow.cn/s/web/changelog</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <lastmod>2024-06-04T15:04:33.527Z</lastmod>
+    <lastmod>2024-06-06T15:05:59.000Z</lastmod>
   </url>
 </urlset>

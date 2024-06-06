@@ -12,6 +12,7 @@ import EmptyArticle from "./components/EmptyArticle";
 import { Metadata } from "next";
 import siteMetadata from "@/assets/siteMetadata";
 import MDViewer from "@/components/markdown/MarkdownView";
+import Image from 'next/image';
 
 export const dynamicParams = true;
 export const revalidate = 60 * 60 * 1;//60*60*1 s
@@ -157,8 +158,8 @@ export default function ArticlePage({ params }: { params: { slug: string[] } }) 
                 <SidebarChapter chapters={curChapter?.children ?? []} />
             </div>
 
-            {(curArticle && !IsEmptyString(curArticle?.body.raw)) ? (<div className=" w-auto lg: min-w-2xl lg:max-x-2xl py-10 min-h-screen 
-            md:flex-1 px-1 md:px-6  dark:bg-slate-800">
+            {(curArticle && !IsEmptyString(curArticle?.body.raw)) ? (<div className=" w-auto lg:min-w-2xl lg:max-w-2xl py-10 min-h-screen 
+            md:flex-1 px-1 md:px-6  dark:bg-slate-800 2xl:max-w-3xl 2xl:min-w-3xl ">
                 <ArticlePostLayout curArticle={curArticle}>
                     <div className="js-toc-content prose prose-teal dark:prose-invert min-h-screen w-full">
                         <MDViewer source={curArticle.body.raw} />
@@ -172,14 +173,23 @@ export default function ArticlePage({ params }: { params: { slug: string[] } }) 
             </div>) : <EmptyArticle />
             }
 
-            <div className="hidden sticky top-[90px]  h-[calc(100vh-30vh)] prose prose-blue
+            <div className="hidden sticky top-[80px]  h-[calc(100vh-20vh)] prose prose-blue
             dark:prose-invert
-            w-[324px] xl:flex md:shrink-0 md:flex-col md:justify-between overflow-y-auto scrollbar-thin 
+            w-[324px] xl:flex md:shrink-0 xl:flex-col md:justify-between ">
+                {curArticle && <div className="overflow-y-auto scrollbar-thin h-fit
             scrollbar-thumb-rounded-full
             scroll-m-2 scrollbar-thumb-gray-900 scrollbar-track-gray-100 scrollbar-corner-ring scrollbar-w-1 
-            dark:scrollbar-thumb-sky-500 overflow-x-hidden">
-                {curArticle && <Toc />}
+            dark:scrollbar-thumb-sky-500 overflow-x-hidden"><Toc /></div>}
+                {curArticle && <div className="flex-1 flex flex-col 
+                mt-10
+                items-center mb-1 sm:mb-0 self-center h-fit">
+                    <h5 className="text-lg text-center font-bold mb-2">关注获取一手Offer信息</h5>
+                    <div className="mb-3 flex space-x-4 ">
+                        <Image src={"https://oss1.aistar.cool/%E4%BA%8C%E8%BF%9B%E5%88%B6%E7%9A%84%E8%80%B3%E8%AF%AD.jpg "} width={200} height={200} alt='' />
+                    </div>
+                </div>}
             </div>
+
         </div >
     )
 }

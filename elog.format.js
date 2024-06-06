@@ -1,4 +1,5 @@
 const { matterMarkdownAdapter } = require("@elog/cli");
+
 /**
  * 自定义文档插件
  * @param {DocDetail} doc doc的类型定义为 DocDetail
@@ -22,3 +23,7 @@ module.exports = {
 };
 
 // TODO 还需要一个文件,将ecah里不存在的文档删除,否则会剩下多余的数据
+
+
+
+

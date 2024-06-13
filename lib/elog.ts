@@ -48,6 +48,7 @@ function buildChapterTree(
     // 有父节点，那么它是一个子节点
     if (item.parent_uuid) {
       const parentChapter = itemMap.get(item.parent_uuid);
+      currentChapter.parent = parentChapter ?? null;
       parentChapter?.children.push(currentChapter);
     } else {
       // 顶级章节没有 parent_uuid
@@ -92,14 +93,19 @@ function buildChapterTree(
 // 使用上述函数构建整个章节目录树
 const ChapterTree = buildChapterTree(ElogCacheData.catalog, null);
 
-// 构建chapterList,转换成数组
-export const ChapterList = ChapterTree.flatMap((item) => {
-  const children = item.children.flatMap((child) => {
-    return [child, ...child.children];
-  });
-  return [item, ...children];
-});
+function flattenTree(node: ElogChapter): ElogChapter[] {
+  // 检查节点是否具有children属性
+  if (node.children && node.children.length > 0) {
+    // 如果有children，递归调用flattenTree函数，并将当前节点与其子节点的展开结果合并
+    return [node, ...node.children.flatMap(flattenTree)];
+  } else {
+    // 如果没有children，只返回当前节点
+    return [node];
+  }
+}
+
+// 假设ChapterTree是一个具有嵌套children属性的树状结构
+export const ChapterList = ChapterTree.flatMap(flattenTree);
 
 console.log("buildChapterTree success");
-
 export { ChapterTree, ElogCacheData, DocIDMap };

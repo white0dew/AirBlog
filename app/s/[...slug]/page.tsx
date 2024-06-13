@@ -59,10 +59,9 @@ function findChapterV2(
   slug: string[]
 ): ElogChapter | null {
   let tempChapter = null;
-  // 先根据slug找到chapter
-  // 拼接slug
+  // 先根据slug找到chapter,拼接slug
   const chapterDocNav = ContentPrefixPath + "/" + slug.join("/");
-  mylog("chapterDocNav", chapterDocNav);
+  mylog("chapterDocNav slug", chapterDocNav);
 
   // 遍历ElogChapter，寻找匹配
   for (const chapter of chapters) {
@@ -76,7 +75,7 @@ function findChapterV2(
 
   // 根据elogChapter的parent，找到最上层的parent
   while (tempChapter && tempChapter.parent) {
-    mylog("tempChapter", tempChapter);
+    // mylog("tempChapter", tempChapter);
     tempChapter = tempChapter.parent;
   }
 
@@ -187,7 +186,7 @@ export default function ArticlePage({
 }: {
   params: { slug: string[] };
 }) {
-  const curChapter = findChapter(ChapterTree, params.slug);
+  const curChapter = findChapterV2(ChapterList, params.slug);
   const curArticle = findPost(params.slug, curChapter);
 
   // 如果实在是找不到

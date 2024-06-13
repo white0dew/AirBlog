@@ -438,109 +438,6 @@
       "docPath": "docs\\doc\\💻 编程语言\\Vite"
     },
     {
-      "id": 172297519,
-      "doc_id": "yrbkwwlbtcrfg2eo",
-      "updated": 1717460997000,
-      "properties": {
-        "title": "南开毕业：金三银四结束了，听说还有铜五铁六。。。",
-        "urlname": "yrbkwwlbtcrfg2eo",
-        "date": "2024-06-04 08:29:44",
-        "updated": "2024-06-04 08:29:57",
-        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1715778941545-c31980d3-0ba9-4d5a-918b-91eb1f278326.png",
-        "description": "大家好，我是白露，全栈开发。大家经常都说春招是金三银四。说明在三月之前找到工作的难度最低，找的公司也最好；四月次之。毕竟好的公司，面试的人数往往远大于在实际招聘人数，因此招聘的时候都是时间越靠前，获得 offer 的难度更低。今天在论坛看到一个南开大学的同学发的帖子，分享给大家：看到这样的帖子..."
-      },
-      "catalog": [
-        {
-          "title": "💹 大厂面经",
-          "doc_id": "yrbkwwlbtcrfg2eo"
-        },
-        {
-          "title": "拿下面试官实战",
-          "doc_id": "yrbkwwlbtcrfg2eo"
-        }
-      ],
-      "realName": "yrbkwwlbtcrfg2eo",
-      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\yrbkwwlbtcrfg2eo.md",
-      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战"
-    },
-    {
-      "id": 172297503,
-      "doc_id": "scme1ctt3pyyzs1i",
-      "updated": 1717460986000,
-      "properties": {
-        "title": "8岁编程，20岁创业：GPT创始人的Sam Altman的简历。。。",
-        "urlname": "scme1ctt3pyyzs1i",
-        "date": "2024-06-04 08:29:25",
-        "updated": "2024-06-04 08:29:46",
-        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1715951640662-a96f5b52-0687-40c3-9dba-238407609dc6.png",
-        "description": "大家好，我是白露，全栈开发。OpenAI 发布GPT-4o的消息又双叒刷屏了。大家都在说它多好用、多先进的时候……我反问了一句：谁造就了它？细数整个GPT爆火的背后，都离不开OpenAI 的CEO——Sam Altman，网友亲切的称之为“奥特曼”。我们直接来看看这位大佬的简历吧：20岁辍学创..."
-      },
-      "catalog": [
-        {
-          "title": "💹 大厂面经",
-          "doc_id": "scme1ctt3pyyzs1i"
-        },
-        {
-          "title": "拿下面试官实战",
-          "doc_id": "scme1ctt3pyyzs1i"
-        }
-      ],
-      "realName": "scme1ctt3pyyzs1i",
-      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\scme1ctt3pyyzs1i.md",
-      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战"
-    },
-    {
-      "id": 172297529,
-      "doc_id": "gvmgek2ntvo4wyla",
-      "updated": 1717461026000,
-      "properties": {
-        "title": "GPT-4o的发布，留给程序员的后路不多了。。。",
-        "urlname": "gvmgek2ntvo4wyla",
-        "date": "2024-06-04 08:29:56",
-        "updated": "2024-06-04 08:30:26",
-        "description": "大家好，我是白露，全栈工程师。今天凌晨，OpenAI发布了GPT-4o。然后，朋友圈就炸了。一方面是大部分搞 ai的朋友在狂欢，aigc已来！另一方面，是其他领域的朋友在反思、苦笑、焦虑，特别是程序员：我还还要多久才会被 AI 取代？从去年GPT3出现，我就是一个 AI 深度用户，因此起床的第..."
-      },
-      "catalog": [
-        {
-          "title": "💹 大厂面经",
-          "doc_id": "gvmgek2ntvo4wyla"
-        },
-        {
-          "title": "拿下面试官实战",
-          "doc_id": "gvmgek2ntvo4wyla"
-        }
-      ],
-      "realName": "gvmgek2ntvo4wyla",
-      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\gvmgek2ntvo4wyla.md",
-      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战"
-    },
-    {
-      "id": 172297487,
-      "doc_id": "zouc7aqee7u20lls",
-      "updated": 1717460966000,
-      "properties": {
-        "title": "回寒啦，今年的工作比明年好找。。",
-        "urlname": "zouc7aqee7u20lls",
-        "date": "2024-06-04 08:29:11",
-        "updated": "2024-06-04 08:29:26",
-        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1716043232035-f7e873e7-eddc-4bf8-928b-0271375654d4.png",
-        "description": "大家好，我是白露。今儿个半夜，我在牛客里溜达，一不小心就瞄到这么一句话：等我反应过来，我就乐了，这话太有意思了！我差点儿没把手机给扔了，哈哈，这不是明摆着的反话嘛！啊，说真的，要是大胆宣布“今年工作好找了，比去年容易多了”，那估计得挨一顿炮轰，没人信吧，即便今年稍微宽松那么一丁点儿。但话锋一转..."
-      },
-      "catalog": [
-        {
-          "title": "💹 大厂面经",
-          "doc_id": "zouc7aqee7u20lls"
-        },
-        {
-          "title": "拿下面试官实战",
-          "doc_id": "zouc7aqee7u20lls"
-        }
-      ],
-      "realName": "zouc7aqee7u20lls",
-      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\zouc7aqee7u20lls.md",
-      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战"
-    },
-    {
       "id": 171765323,
       "doc_id": "qf9b99e3kvichnqb",
       "updated": 1717460927000,
@@ -588,249 +485,15 @@
       "docPath": "docs\\doc\\💹 大厂面经"
     },
     {
-      "id": 172297134,
-      "doc_id": "lscxstnfwd5ag0u8",
-      "updated": 1717460561000,
-      "properties": {
-        "title": "淘宝618，不如拼多多，揭秘拼多多薪资体系",
-        "urlname": "lscxstnfwd5ag0u8",
-        "date": "2024-06-04 08:22:12",
-        "updated": "2024-06-04 08:22:41",
-        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1716469571085-ee3e57d0-9d53-4700-bf3f-055fb2af01fd.png",
-        "description": "大家好，我是白露啊。刚有朋友问我：淘宝618开始了，怎么拼多多还没有动静啊？我笑说，对于拼多多来说，每天都是618 。至于淘宝618，已经逐渐沦为耍猴的活动。比如最近淘宝618的活动，88会员可以拿到一张消费券，5000-400。然后那些商家立马涨价三四百，优惠之后的价格跟之前的几乎一样，甚至..."
-      },
-      "catalog": [
-        {
-          "title": "💹 大厂面经",
-          "doc_id": "lscxstnfwd5ag0u8"
-        },
-        {
-          "title": "拿下面试官实战",
-          "doc_id": "lscxstnfwd5ag0u8"
-        }
-      ],
-      "realName": "lscxstnfwd5ag0u8",
-      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\lscxstnfwd5ag0u8.md",
-      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战"
-    },
-    {
-      "id": 172297114,
-      "doc_id": "dhg2ldsqrlvc6xcd",
-      "updated": 1717460533000,
-      "properties": {
-        "title": "一个年薪80w+的方向，我也入局了。。。",
-        "urlname": "dhg2ldsqrlvc6xcd",
-        "date": "2024-06-04 08:21:54",
-        "updated": "2024-06-04 08:22:13",
-        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22389147/1716645803838-e567d636-85a4-49d5-907c-3cab243e8f40.png",
-        "description": "旱的旱死、涝的涝死？大家好，我是白露。现在的市场可以说是，旱的旱死、涝的涝死！应该不用我说，大家都知道，24年甚至未来近几年，最热的技术还得是——AIGC！！随着先进人工智能的崛起，众多科技公司纷纷大规模扩充相关领域的人才。算法岗位在过去三个月里增长了68%，这一现象在HR圈内引起了极大的震动..."
-      },
-      "catalog": [
-        {
-          "title": "💹 大厂面经",
-          "doc_id": "dhg2ldsqrlvc6xcd"
-        },
-        {
-          "title": "拿下面试官实战",
-          "doc_id": "dhg2ldsqrlvc6xcd"
-        }
-      ],
-      "realName": "dhg2ldsqrlvc6xcd",
-      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\dhg2ldsqrlvc6xcd.md",
-      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战"
-    },
-    {
-      "id": 172297317,
-      "doc_id": "kcwknubn2nu1tncf",
-      "updated": 1717460791000,
-      "properties": {
-        "title": "8个面试，已经给了6个offer了，我该咋办。。",
-        "urlname": "kcwknubn2nu1tncf",
-        "date": "2024-06-04 08:26:14",
-        "updated": "2024-06-04 08:26:31",
-        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1716217039531-8de55ce8-bdc9-48af-8381-7cddd0ac7a1a.png",
-        "description": "大家好，我是白露啊。今天偶然看到一个帖子，我都有点看懵了。帖子下面的评论全都破防了。。。然后一大堆网友开始“举报”。老实说，混迹论坛这么多年，我还是“头一回在评论区见到这么多举报截图哈哈哈哈”。为什么大家都破防了呢？因为现在的大背景下，求职越来越难，一个offer都拿不到的同学大有人在。这也是..."
-      },
-      "catalog": [
-        {
-          "title": "💹 大厂面经",
-          "doc_id": "kcwknubn2nu1tncf"
-        },
-        {
-          "title": "拿下面试官实战",
-          "doc_id": "kcwknubn2nu1tncf"
-        }
-      ],
-      "realName": "kcwknubn2nu1tncf",
-      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\kcwknubn2nu1tncf.md",
-      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战"
-    },
-    {
-      "id": 172297098,
-      "doc_id": "gsng0pgo5y245ygx",
-      "updated": 1717460515000,
-      "properties": {
-        "title": "618还没过，京东就“暴雷”了！",
-        "urlname": "gsng0pgo5y245ygx",
-        "date": "2024-06-04 08:21:42",
-        "updated": "2024-06-04 08:21:55",
-        "cover": "https://cdn.nlark.com/yuque/0/2024/jpeg/22389147/1716901686253-b01d06ae-151f-4ab2-b86b-ee59ceadf7ab.jpeg",
-        "description": "不拼博，不是我的兄弟京东每月1.4万人次代打卡，每次收费15元？新规要求午休时间缩短为一小时，不得关灯目前，京东针对此问题严抓考勤，午休时间由两小时缩短为一小时，且取消午休关灯。在此背景下，京东创始人、董事会主席刘强东在日前的高管会上直言：“凡是长期业绩不好，从来不拼搏的人，不是我的兄弟。”但..."
-      },
-      "catalog": [
-        {
-          "title": "💹 大厂面经",
-          "doc_id": "gsng0pgo5y245ygx"
-        },
-        {
-          "title": "拿下面试官实战",
-          "doc_id": "gsng0pgo5y245ygx"
-        }
-      ],
-      "realName": "gsng0pgo5y245ygx",
-      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\gsng0pgo5y245ygx.md",
-      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战"
-    },
-    {
-      "id": 172297086,
-      "doc_id": "iy3ow1ezfmsag9ss",
-      "updated": 1717460503000,
-      "properties": {
-        "title": "寒冬来了，字节跳动开启裁员新模式。。",
-        "urlname": "iy3ow1ezfmsag9ss",
-        "date": "2024-06-04 08:21:26",
-        "updated": "2024-06-04 08:21:43",
-        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1716905308210-c5848a68-e0ca-4acd-8cc3-7e7643f9c671.png",
-        "description": "大家好，我是白露啊。不得不说，字节跳动还是真的会搞事啊。最近一段时间，字节搞出了一个裁员新模式：“细水长流”。这个寓意和“财（裁）源（员）广进”计划差不多了，只不过比较含蓄了。在一个著名社交平台上里，有字节员工发帖称，HR透露北京已经裁员到了不让裁员的地步。相比过去的一次性大规模裁员，目前字节..."
-      },
-      "catalog": [
-        {
-          "title": "💹 大厂面经",
-          "doc_id": "iy3ow1ezfmsag9ss"
-        },
-        {
-          "title": "拿下面试官实战",
-          "doc_id": "iy3ow1ezfmsag9ss"
-        }
-      ],
-      "realName": "iy3ow1ezfmsag9ss",
-      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\iy3ow1ezfmsag9ss.md",
-      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战"
-    },
-    {
-      "id": 172297064,
-      "doc_id": "amcblwr7a9guid6w",
-      "updated": 1717460485000,
-      "properties": {
-        "title": "从字节跳槽去国企，我真的很后悔了。",
-        "urlname": "amcblwr7a9guid6w",
-        "date": "2024-06-04 08:21:06",
-        "updated": "2024-06-04 08:21:25",
-        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1717077322078-c35a0496-50fc-4b7c-8f58-5679ee009596.png",
-        "description": "大家好，我是白露啊。 今天和大家分享一位前字节跳动产品经理的故事。他曾经是字节的一员，职级2-2。他从字节跳槽到国企，感觉肠子都悔青了，如下。我是一名前字节跳动的产品经理，职级2-2。 2019年的时候，我还在小厂打拼，收到字节的面试邀请，我难以抑制内心的激动，这是我梦寐以求的大厂啊。 通过面..."
-      },
-      "catalog": [
-        {
-          "title": "💹 大厂面经",
-          "doc_id": "amcblwr7a9guid6w"
-        },
-        {
-          "title": "拿下面试官实战",
-          "doc_id": "amcblwr7a9guid6w"
-        }
-      ],
-      "realName": "amcblwr7a9guid6w",
-      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\amcblwr7a9guid6w.md",
-      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战"
-    },
-    {
-      "id": 172297060,
-      "doc_id": "liy20bi3n4zh2mt4",
-      "updated": 1717460467000,
-      "properties": {
-        "title": "计算机专业的爽了，彻底爽了",
-        "urlname": "liy20bi3n4zh2mt4",
-        "date": "2024-06-04 08:20:53",
-        "updated": "2024-06-04 08:21:07",
-        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1717079456648-e357efbf-620e-45b8-a8a7-36704278fba3.png",
-        "description": "大家好，我是白露啊。以下内容建议大家“全文背诵“，因为计算机专业的彻底“爽了”，是计算机行业的“新圣经”！都说计算机专业的毕业生，一门技能走遍天下，哪怕是出门倒垃圾，风都绕道走。 招聘会上，大厂、国企、外企争相抢人，老板们为了讨好我们计算机专业出身的职工，不仅给安排单独的豪华办公室和住宿，甚至..."
-      },
-      "catalog": [
-        {
-          "title": "💹 大厂面经",
-          "doc_id": "liy20bi3n4zh2mt4"
-        },
-        {
-          "title": "拿下面试官实战",
-          "doc_id": "liy20bi3n4zh2mt4"
-        }
-      ],
-      "realName": "liy20bi3n4zh2mt4",
-      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\liy20bi3n4zh2mt4.md",
-      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战"
-    },
-    {
-      "id": 172297049,
-      "doc_id": "nk7m2uu3apsleh2l",
-      "updated": 1717460451000,
-      "properties": {
-        "title": "不愧是华为，这个薪资离谱了。。",
-        "urlname": "nk7m2uu3apsleh2l",
-        "date": "2024-06-04 08:20:39",
-        "updated": "2024-06-04 08:20:51",
-        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1717080395966-8bb343ec-c196-4911-a4b0-e13476f3def8.png",
-        "description": "大家好，我是白露啊。 在我的博客、博客分享网站的留言里，经常能够看到学生问“华为应届生薪资是多少？”、“评级13级对应的总包有多少？”等等问题。今天想和大家讨论一下华为这个神奇的存在。不愧是华为，这薪资真的令人惊叹啊！  拿好小本本，记下来吧！ 🔹智能制造与精密制造工程师：13.5k * 1..."
-      },
-      "catalog": [
-        {
-          "title": "💹 大厂面经",
-          "doc_id": "nk7m2uu3apsleh2l"
-        },
-        {
-          "title": "拿下面试官实战",
-          "doc_id": "nk7m2uu3apsleh2l"
-        }
-      ],
-      "realName": "nk7m2uu3apsleh2l",
-      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\nk7m2uu3apsleh2l.md",
-      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战"
-    },
-    {
-      "id": 172297037,
-      "doc_id": "lgc0p6snsd16q6ex",
-      "updated": 1717460439000,
-      "properties": {
-        "title": "这。。24届毕业生24.9%学生0 Offer？",
-        "urlname": "lgc0p6snsd16q6ex",
-        "date": "2024-06-04 08:20:24",
-        "updated": "2024-06-04 08:20:39",
-        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1717080918109-89d69cb4-737f-472e-a104-cb9b59af279f.png",
-        "description": "大家好，我是白露啊。据牛客网统计，2024届全国普通高校毕业生预计达到1179万人，同比增加21万人。就业形势比往年更加严峻，每一个毕业生都在这场前所未有的战役中努力拼搏。近期，牛客最新调查显示，24.9%的受访同学仍处于0 Offer的状态。在已经拿到Offer的学生中，普遍手握1-3个。真..."
-      },
-      "catalog": [
-        {
-          "title": "💹 大厂面经",
-          "doc_id": "lgc0p6snsd16q6ex"
-        },
-        {
-          "title": "拿下面试官实战",
-          "doc_id": "lgc0p6snsd16q6ex"
-        }
-      ],
-      "realName": "lgc0p6snsd16q6ex",
-      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\lgc0p6snsd16q6ex.md",
-      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战"
-    },
-    {
       "id": 169649927,
       "doc_id": "bxxwzvxxq58cnace",
-      "updated": 1717460559000,
+      "updated": 1718284849000,
       "properties": {
         "title": "拿下面试官实战",
         "urlname": "bxxwzvxxq58cnace",
         "date": "2024-05-14 21:16:02",
-        "updated": "2024-06-04 08:22:39",
-        "description": "---is_nav: truenav_path: chat_view---拿下面试官？不！不只是拿下面试官，还得了解最新的职场信息~",
+        "updated": "2024-06-13 21:20:49",
+        "description": "---is_nav: truenav_path: chat_view---拿下面试官？不！不只是拿下面试官，还得了解最新的职场信息~拿下面试官系列文章，通过相关职场信息+面试问题，让大家了解互联网+AI领域的最新消息！",
         "is_nav": true,
         "nav_path": "chat_view"
       },
@@ -868,32 +531,6 @@
       "realName": "nddl3dg8byerdi06",
       "relativePath": "\\💹 大厂面经\\面试真题\\nddl3dg8byerdi06.md",
       "docPath": "docs\\doc\\💹 大厂面经\\面试真题"
-    },
-    {
-      "id": 172296928,
-      "doc_id": "fm8c5ygvfskes395",
-      "updated": 1717460215000,
-      "properties": {
-        "title": "夸张，腾讯实习三个月，存款20W+",
-        "urlname": "fm8c5ygvfskes395",
-        "date": "2024-06-04 08:16:39",
-        "updated": "2024-06-04 08:16:55",
-        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1717428810924-f867c9fa-c710-4e08-904c-7707a976ce1e.png",
-        "description": "大家好，我是白露。 今天在牛客上看到一条帖子，让我感叹万分：实习两三个月，竟然已经存下了20多万的存款。 这也太夸张了吧？不太真实啊……很多网友表示疑问，“两三个月实习顶多存两三万吧？武理奖学金十几万？”楼主回复说：“还有学校补贴和导师横向，实习了半年多，存了五六万吧。” 所以真相了，其实是算..."
-      },
-      "catalog": [
-        {
-          "title": "💹 大厂面经",
-          "doc_id": "fm8c5ygvfskes395"
-        },
-        {
-          "title": "拿下面试官实战",
-          "doc_id": "fm8c5ygvfskes395"
-        }
-      ],
-      "realName": "fm8c5ygvfskes395",
-      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\fm8c5ygvfskes395.md",
-      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战"
     },
     {
       "id": 171822778,
@@ -5503,31 +5140,6 @@
       "docPath": "docs\\doc\\🏄 关于"
     },
     {
-      "id": 173437784,
-      "doc_id": "cc58ryvs6giskhlh",
-      "updated": 1718205355000,
-      "properties": {
-        "title": "五一过半，我还在想春招……",
-        "urlname": "cc58ryvs6giskhlh",
-        "date": "2024-06-12 23:15:05",
-        "updated": "2024-06-12 23:15:55",
-        "description": "昨天有个同学跟我分享他的春招经历：我就读于南京航空航天大学，目前大四，五一期间一直在复盘自己最终能够进入腾讯、阿里的原因，我认为自己从简历层被字节HR选中的原因，有以下几点。经验总结怎么写一份无法被HR拒绝的简历匹配度：最吸引人的是科研项目与岗位需求的高度匹配。我将自己原本的专业方向的研究方向..."
-      },
-      "catalog": [
-        {
-          "title": "💹 大厂面经",
-          "doc_id": "cc58ryvs6giskhlh"
-        },
-        {
-          "title": "拿下面试官实战",
-          "doc_id": "cc58ryvs6giskhlh"
-        }
-      ],
-      "realName": "cc58ryvs6giskhlh",
-      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\cc58ryvs6giskhlh.md",
-      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战"
-    },
-    {
       "id": 173435904,
       "doc_id": "kxrip3aituetr71i",
       "updated": 1718204484000,
@@ -5552,31 +5164,6 @@
       "realName": "kxrip3aituetr71i",
       "relativePath": "\\🔥 程序员自我修养\\持续学习 🐚\\kxrip3aituetr71i.md",
       "docPath": "docs\\doc\\🔥 程序员自我修养\\持续学习 🐚"
-    },
-    {
-      "id": 173437802,
-      "doc_id": "buub55tu7bbikvld",
-      "updated": 1718205347000,
-      "properties": {
-        "title": "中科大研二：字节实习半年的感悟和求职经验",
-        "urlname": "buub55tu7bbikvld",
-        "date": "2024-06-12 23:15:17",
-        "updated": "2024-06-12 23:15:47",
-        "description": "在科技巨头字节跳动的实习经历无疑是一段难忘之旅。我有幸作为中科大软件学院研二学生，获得了这样的机会。实习的总时长超过半年，让我深刻体会到了字节跳动对实习生的重视与培养。在这里，我不仅技术能力得到了锤炼，更在mentor的指导下，解决了一个又一个具有挑战性的问题。如今，我想把这些珍贵的经验和大家..."
-      },
-      "catalog": [
-        {
-          "title": "💹 大厂面经",
-          "doc_id": "buub55tu7bbikvld"
-        },
-        {
-          "title": "拿下面试官实战",
-          "doc_id": "buub55tu7bbikvld"
-        }
-      ],
-      "realName": "buub55tu7bbikvld",
-      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\buub55tu7bbikvld.md",
-      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战"
     },
     {
       "id": 172786087,
@@ -5957,6 +5544,2313 @@
       "realName": "txgyg1ibyrbxh81k",
       "relativePath": "\\📚 计算机基础\\操作系统\\🔥《手写操作系统》\\txgyg1ibyrbxh81k.md",
       "docPath": "docs\\doc\\📚 计算机基础\\操作系统\\🔥《手写操作系统》"
+    },
+    {
+      "id": 173583444,
+      "doc_id": "vkm0wmtadabu45qk",
+      "updated": 1718284490000,
+      "properties": {
+        "title": "3/28 太难了！深入语言核心！腾讯视频后台开发一面经验分享",
+        "urlname": "vkm0wmtadabu45qk",
+        "date": "2024-06-13 21:14:41",
+        "updated": "2024-06-13 21:14:50",
+        "description": "https://www.nowcoder.com/feed/main/detail/0d2e3d5bce19438a880ed23d5428abcf【提醒】通过这次面试经验，你将可以复习到以下知识点：Go语言的特性及其垃圾回收（GC）机制。Go语言的GMP调度模型。Go语言中的并发控制工具：c..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "vkm0wmtadabu45qk"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "vkm0wmtadabu45qk"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "vkm0wmtadabu45qk"
+        }
+      ],
+      "realName": "vkm0wmtadabu45qk",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\vkm0wmtadabu45qk.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583446,
+      "doc_id": "tuvfdu72a3uvmdt1",
+      "updated": 1718284490000,
+      "properties": {
+        "title": "3/27 太难了！阿里云面试令人发指！",
+        "urlname": "tuvfdu72a3uvmdt1",
+        "date": "2024-06-13 21:14:42",
+        "updated": "2024-06-13 21:14:50",
+        "description": "https://www.nowcoder.com/?type=818_1【提醒】通过这次面试经验，你将可以复习到以下知识点：面向对象编程（OOP）的基本概念：封装、继承、多态。Golang中goroutine与线程的区别和GMP模型的理解。Go的垃圾回收机制以及与Python垃圾回收的对比。G..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "tuvfdu72a3uvmdt1"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "tuvfdu72a3uvmdt1"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "tuvfdu72a3uvmdt1"
+        }
+      ],
+      "realName": "tuvfdu72a3uvmdt1",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\tuvfdu72a3uvmdt1.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583445,
+      "doc_id": "gcdzehnfhoqrwpdu",
+      "updated": 1718284490000,
+      "properties": {
+        "title": "3/26 太简单了! 平平无奇的美团二面！",
+        "urlname": "gcdzehnfhoqrwpdu",
+        "date": "2024-06-13 21:14:42",
+        "updated": "2024-06-13 21:14:50",
+        "description": "原链接：https://www.nowcoder.com/discuss/601813614772662272?sourceSSR=searchtheme: cyanosis【提醒】通过这次面试经验，你将可以复习到以下知识点：Java集合类的了解，如List, Set, Map及其实现类。Ha..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "gcdzehnfhoqrwpdu"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "gcdzehnfhoqrwpdu"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "gcdzehnfhoqrwpdu"
+        }
+      ],
+      "realName": "gcdzehnfhoqrwpdu",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\gcdzehnfhoqrwpdu.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583442,
+      "doc_id": "hknd17h7i6hsgxwg",
+      "updated": 1718284489000,
+      "properties": {
+        "title": "3/29 打穿！得物青训营Golang面试全记录！",
+        "urlname": "hknd17h7i6hsgxwg",
+        "date": "2024-06-13 21:14:41",
+        "updated": "2024-06-13 21:14:49",
+        "description": "https://www.nowcoder.com/?type=818_1下面我将分享一位同学在得物青训营的面试经历，对于这次面试，他的评价是，很有难度，你试试呢？【提醒】通过这次面试经验，你将可以复习到以下知识点，注意汇总，不超过10个快排算法动态规划的概念面向对象的理解Golang的调度模型..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "hknd17h7i6hsgxwg"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "hknd17h7i6hsgxwg"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "hknd17h7i6hsgxwg"
+        }
+      ],
+      "realName": "hknd17h7i6hsgxwg",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\hknd17h7i6hsgxwg.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583441,
+      "doc_id": "ye5hk2gzoaeh95us",
+      "updated": 1718284489000,
+      "properties": {
+        "title": "3/31 蚂蚁集团Java一面，不只是技术问题，还有系统设计的深度拷问！",
+        "urlname": "ye5hk2gzoaeh95us",
+        "date": "2024-06-13 21:14:41",
+        "updated": "2024-06-13 21:14:49",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1711544256669-3e7e0807-93ea-4e27-93bc-66acaaf67b7c.png",
+        "description": "https://www.nowcoder.com/discuss/601794045181997056下面我将分享一位同学在蚂蚁集团Java一面的面试经历，他的评价是，面试过程中问题很深入，你试试呢？【提醒】通过这次面试经验，你将可以复习到以下知识点：线程池的工作原理、参数配置及使用注意事项C..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "ye5hk2gzoaeh95us"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "ye5hk2gzoaeh95us"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "ye5hk2gzoaeh95us"
+        }
+      ],
+      "realName": "ye5hk2gzoaeh95us",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\ye5hk2gzoaeh95us.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583443,
+      "doc_id": "xvs38ptqpq63en6m",
+      "updated": 1718284489000,
+      "properties": {
+        "title": "3/30 天崩开局😭！两个小时！美团一面！",
+        "urlname": "xvs38ptqpq63en6m",
+        "date": "2024-06-13 21:14:41",
+        "updated": "2024-06-13 21:14:49",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1711542073325-02c4c1b3-4895-4033-ace0-97884558fbbe.png",
+        "description": "https://www.nowcoder.com/discuss/602263922418151424下面我将分享一位同学在美团后端一面的面试经历，对于这次面试，他的评价是，很有难度，你试试呢？【提醒】通过这次面试经验，你将可以复习到以下知识点：算法题：LeetCode124，LeetCode..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "xvs38ptqpq63en6m"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "xvs38ptqpq63en6m"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "xvs38ptqpq63en6m"
+        }
+      ],
+      "realName": "xvs38ptqpq63en6m",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\xvs38ptqpq63en6m.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583437,
+      "doc_id": "bubs1avkkli85tbn",
+      "updated": 1718284489000,
+      "properties": {
+        "title": "4/1 背刺！春招B站一面，这些问题你都会吗？",
+        "urlname": "bubs1avkkli85tbn",
+        "date": "2024-06-13 21:14:41",
+        "updated": "2024-06-13 21:14:49",
+        "description": "下面我将分享一位同学在Bilibili一面的面试经历，对于这次面试，他的评价是，很有难度，你试试呢？【提醒】通过这次面试经验，你将可以复习到以下知识点，注意汇总，不超过10个RPC调用的网络中断处理DPDKC++的多态实现和应用场景C++类的大小及成员变量初始化unique_ptr的用法Gol..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "bubs1avkkli85tbn"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "bubs1avkkli85tbn"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "bubs1avkkli85tbn"
+        }
+      ],
+      "realName": "bubs1avkkli85tbn",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\bubs1avkkli85tbn.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583436,
+      "doc_id": "cslqxxvst26d0tw7",
+      "updated": 1718284489000,
+      "properties": {
+        "title": "4/2 腾讯PCG二面：技术深度不够？腾讯PCG面试问到你怕了没？",
+        "urlname": "cslqxxvst26d0tw7",
+        "date": "2024-06-13 21:14:41",
+        "updated": "2024-06-13 21:14:49",
+        "description": "下面我将分享一位同学在腾讯PCG TRPC二面的面试经历，他说这场面试好比走进了技术的迷宫，充满了挑战和机遇，你准备好了吗？【提醒】通过这次面试经验，你将可以复习到以下知识点：RPC框架原理Localcache组件使用Redis库选择Golang的interface概念Golang中的map使..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "cslqxxvst26d0tw7"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "cslqxxvst26d0tw7"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "cslqxxvst26d0tw7"
+        }
+      ],
+      "realName": "cslqxxvst26d0tw7",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\cslqxxvst26d0tw7.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583435,
+      "doc_id": "iok9gzmat6hudv1t",
+      "updated": 1718284489000,
+      "properties": {
+        "title": "4/2 腾讯PCG一：问麻了！腾讯一面究竟问了什么？从HTTP到算法····",
+        "urlname": "iok9gzmat6hudv1t",
+        "date": "2024-06-13 21:14:41",
+        "updated": "2024-06-13 21:14:49",
+        "description": "下面我将分享一位同学在腾讯PCG的trpc一面的面试经历，对于这次面试，他的评价是，既全面又深入，涵盖了从网络基础到算法的多个领域，你试试呢？【提醒】通过这次面试经验，你将可以复习到以下知识点：浏览器到服务器的请求流程HTTPS与HTTP的差异JWT Token的原理和优势TCP连接的建立和断..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "iok9gzmat6hudv1t"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "iok9gzmat6hudv1t"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "iok9gzmat6hudv1t"
+        }
+      ],
+      "realName": "iok9gzmat6hudv1t",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\iok9gzmat6hudv1t.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583433,
+      "doc_id": "trklqv1f6ekrnrnl",
+      "updated": 1718284489000,
+      "properties": {
+        "title": "4/3 蚂蚁一面：揭秘蚂蚁一面：你真的懂MySQL和Redis吗？",
+        "urlname": "trklqv1f6ekrnrnl",
+        "date": "2024-06-13 21:14:41",
+        "updated": "2024-06-13 21:14:49",
+        "description": "咱们来分享一位同学在蚂蚁金服的一面面试经历，这位同学对这次面试的评价是：考察宽广深刻，需要将知识点串联起来。那么，你准备好挑战自己的知识体系了吗？【提醒】通过这次面试经验，你将可以复习到以下知识点：Docker与虚拟机的区别Kubernetes的核心组件令牌桶算法与压力测试Redis的持久化和..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "trklqv1f6ekrnrnl"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "trklqv1f6ekrnrnl"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "trklqv1f6ekrnrnl"
+        }
+      ],
+      "realName": "trklqv1f6ekrnrnl",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\trklqv1f6ekrnrnl.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583432,
+      "doc_id": "ip5m72cycgk48xo6",
+      "updated": 1718284489000,
+      "properties": {
+        "title": "4/4 滴滴后端：太深入了！面试滴滴存储后端，我被这些问题问住了！",
+        "urlname": "ip5m72cycgk48xo6",
+        "date": "2024-06-13 21:14:41",
+        "updated": "2024-06-13 21:14:49",
+        "description": "下面我将分享一位同学在滴滴的存储后端面试经历，对于这次面试，他的评价是，考察深度和广度都很足，你准备好迎接挑战了吗？【提醒】通过这次面试经验，你将可以复习到以下知识点：Raft一致性算法Golang的核心特性和并发模型GPM模型详解算法：最长公共子序列数据库事务隔离级别Go语言源码阅读和协程机..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "ip5m72cycgk48xo6"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "ip5m72cycgk48xo6"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "ip5m72cycgk48xo6"
+        }
+      ],
+      "realName": "ip5m72cycgk48xo6",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\ip5m72cycgk48xo6.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583431,
+      "doc_id": "oo90yhzkwk34410x",
+      "updated": 1718284489000,
+      "properties": {
+        "title": "4/5 美团：“轻松”！深入JVM和MySQL，美团优选事业群一面你准备好了吗？",
+        "urlname": "oo90yhzkwk34410x",
+        "date": "2024-06-13 21:14:41",
+        "updated": "2024-06-13 21:14:49",
+        "description": "咱们来看一场美团优选事业群后端开发岗位的一面面试经历，面试官人很和善，整个过程既轻松又充实。这场面试不仅考察了基础知识，还涉及到了项目实战和算法。赶紧来看看，这样的面试你能hold住吗？【提醒】通过这次面试经验，你将可以复习到以下知识点：Java集合类的使用及线程安全并发编程的相关类和机制Ja..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "oo90yhzkwk34410x"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "oo90yhzkwk34410x"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "oo90yhzkwk34410x"
+        }
+      ],
+      "realName": "oo90yhzkwk34410x",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\oo90yhzkwk34410x.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583430,
+      "doc_id": "fvstr3qzo7gqguok",
+      "updated": 1718284489000,
+      "properties": {
+        "title": "4/6 字节三面真刺激！前端都这么难？",
+        "urlname": "fvstr3qzo7gqguok",
+        "date": "2024-06-13 21:14:41",
+        "updated": "2024-06-13 21:14:49",
+        "description": "下面我将分享一位同学在字节跳动的三面面试经历，对于这次面试，他的评价是非常注重深度和技术广度，准备好挑战你的前端知识储备了吗？【提醒】通过这次面试经验，你将可以复习到以下知识点：Vue 2和Vue 3的差异Vue模板编译过程及AST的角色虚拟DOM的生成过程React Hooks中useSta..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "fvstr3qzo7gqguok"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "fvstr3qzo7gqguok"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "fvstr3qzo7gqguok"
+        }
+      ],
+      "realName": "fvstr3qzo7gqguok",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\fvstr3qzo7gqguok.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583429,
+      "doc_id": "oklf57y328g00vpa",
+      "updated": 1718284489000,
+      "properties": {
+        "title": "4/7 小米 C++ | 小米Su7 面经分享~",
+        "urlname": "oklf57y328g00vpa",
+        "date": "2024-06-13 21:14:40",
+        "updated": "2024-06-13 21:14:49",
+        "description": "https://www.nowcoder.com/share/jump/1712366593836下面分享一位同学在小米的面试经历，对于这次面试，他的评价是，阵容强大，你试试呢？【提醒】通过这次面试经验，你将可以复习到以下知识点（注意汇总，不超过6个）继承与多态的基本概念和实现方式C++中的虚..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "oklf57y328g00vpa"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "oklf57y328g00vpa"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "oklf57y328g00vpa"
+        }
+      ],
+      "realName": "oklf57y328g00vpa",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\oklf57y328g00vpa.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583428,
+      "doc_id": "aqgngfkdutop1k94",
+      "updated": 1718284488000,
+      "properties": {
+        "title": "4/9 折磨！一小时面试如深渊试炼，拼多多的暗黑挑战",
+        "urlname": "aqgngfkdutop1k94",
+        "date": "2024-06-13 21:14:40",
+        "updated": "2024-06-13 21:14:48",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/jpeg/22382235/1712366658142-648811f1-b720-4504-ba24-a0636794336c.jpeg",
+        "description": "https://www.nowcoder.com/discuss/604806997279506432下面我将分享一位同学在拼多多面试的经历，对于这次面试，他的评价是，压力巨大，感觉像是经历了一场暗黑风暴。面试官的提问如同机关枪一般连绵不绝，让人猝不及防。想象一下：紧张的氛围、快速的问题切换、..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "aqgngfkdutop1k94"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "aqgngfkdutop1k94"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "aqgngfkdutop1k94"
+        }
+      ],
+      "realName": "aqgngfkdutop1k94",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\aqgngfkdutop1k94.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583426,
+      "doc_id": "cpkt2rm3gl36g4if",
+      "updated": 1718284488000,
+      "properties": {
+        "title": "4/10 一面成教训! 腾讯PCG后台开发面试官的“善意”追问！",
+        "urlname": "cpkt2rm3gl36g4if",
+        "date": "2024-06-13 21:14:40",
+        "updated": "2024-06-13 21:14:48",
+        "description": "作者：池敖池恩链接：https://www.nowcoder.com/interview/center?entranceType=%E5%AF%BC%E8%88%AA%E6%A0%8F来源：牛客下面分享一位同学在腾讯PCG的一面面试经历，对于这次面试，他的评价是，在交流中学习成长。让我们看看这..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "cpkt2rm3gl36g4if"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "cpkt2rm3gl36g4if"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "cpkt2rm3gl36g4if"
+        }
+      ],
+      "realName": "cpkt2rm3gl36g4if",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\cpkt2rm3gl36g4if.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583427,
+      "doc_id": "syvcyt4o14hzg9fm",
+      "updated": 1718284488000,
+      "properties": {
+        "title": "4/8 美团实习转正面试···过了！",
+        "urlname": "syvcyt4o14hzg9fm",
+        "date": "2024-06-13 21:14:40",
+        "updated": "2024-06-13 21:14:48",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1712365870440-0d38dccd-34b6-48ad-95bb-3879c3e5af39.png",
+        "description": "https://www.nowcoder.com/feed/main/detail/a98f1d0b65894e4999478282ca2fc3df下面我将分享一位同学在美团转正实习到店平台技术部的一面面试经历，他的评价是，面试官很友好，问题全面，充分考察了对Kafka和MySQL的理解。如果..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "syvcyt4o14hzg9fm"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "syvcyt4o14hzg9fm"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "syvcyt4o14hzg9fm"
+        }
+      ],
+      "realName": "syvcyt4o14hzg9fm",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\syvcyt4o14hzg9fm.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583425,
+      "doc_id": "semmykgoba7owx89",
+      "updated": 1718284488000,
+      "properties": {
+        "title": "4/11 百度| 三面凉经：百度Go实习生技术面试实录",
+        "urlname": "semmykgoba7owx89",
+        "date": "2024-06-13 21:14:40",
+        "updated": "2024-06-13 21:14:48",
+        "description": "作者：nemurubaka链接：https://www.nowcoder.com/?type=818_1来源：牛客网下面分享一位同学在百度后端Golang实习的三面面试经历，对于这次面试，他的评价是，充满挑战。面试过程中遇到了网络信号问题，以及一些陌生的问题，让我们看看他是怎样应对这场战斗的。..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "semmykgoba7owx89"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "semmykgoba7owx89"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "semmykgoba7owx89"
+        }
+      ],
+      "realName": "semmykgoba7owx89",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\semmykgoba7owx89.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583423,
+      "doc_id": "pic89gwlv72y59qo",
+      "updated": 1718284488000,
+      "properties": {
+        "title": "4/14 无offer，但有所得：美团技术中心面试心得分享",
+        "urlname": "pic89gwlv72y59qo",
+        "date": "2024-06-13 21:14:40",
+        "updated": "2024-06-13 21:14:48",
+        "description": "最近关于美团平台增长技术和智能引擎部业务技术中心的面试话题在论坛上引起了不少讨论。有一位同学分享了他的面试经历，听说这个部门主要负责美团app打开后的推荐feed流后端。面试过程中，面试官在闲聊环节后，深入探讨了C++的智能指针和STL容器等技术实现。虽然最后没有拿到offer，但这位同学的经..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "pic89gwlv72y59qo"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "pic89gwlv72y59qo"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "pic89gwlv72y59qo"
+        }
+      ],
+      "realName": "pic89gwlv72y59qo",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\pic89gwlv72y59qo.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583424,
+      "doc_id": "dnb52x3dyoscmwyw",
+      "updated": 1718284488000,
+      "properties": {
+        "title": "4/12  美团技术部一面深度解析：后端开发岗位你能答对几题？",
+        "urlname": "dnb52x3dyoscmwyw",
+        "date": "2024-06-13 21:14:40",
+        "updated": "2024-06-13 21:14:48",
+        "description": "好像和4/8 一样这里是一位同学在美团转正实习到店平台技术部的一面面试分享，面试题目涉及了Zookeeper、Kafka和MySQL等多个重点技术领域，面试官很和气，引导式的提问让整个面试过程充满学习和成长。现在我们就来一起回顾这些问题，并深入探讨其中的技术细节。【提醒】通过这次面试经验，你将..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "dnb52x3dyoscmwyw"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "dnb52x3dyoscmwyw"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "dnb52x3dyoscmwyw"
+        }
+      ],
+      "realName": "dnb52x3dyoscmwyw",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\dnb52x3dyoscmwyw.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583422,
+      "doc_id": "gggqtyot9c91og42",
+      "updated": 1718284488000,
+      "properties": {
+        "title": "4/13 腾讯一面：HTTP和HTTPS我终于搞明白了！",
+        "urlname": "gggqtyot9c91og42",
+        "date": "2024-06-13 21:14:40",
+        "updated": "2024-06-13 21:14:48",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/jpeg/22382235/1713276096800-adda1632-d5ca-4010-a317-16929ddd5f12.jpeg",
+        "description": "嘿，今天我们来看看一位同学在腾讯音乐的面试经历。面试的内容涵盖了项目难点、Redis锁、进程通信方式、进程与线程的区别、CPU使用率查看方法、空文件创建、抓包工具、HTTP与HTTPS的区别等多个方面，真是内容丰富，挑战性十足啊。特别是在算法部分，面试官从堆排序切换到快排，可见面试的灵活性。对..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "gggqtyot9c91og42"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "gggqtyot9c91og42"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "gggqtyot9c91og42"
+        }
+      ],
+      "realName": "gggqtyot9c91og42",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\gggqtyot9c91og42.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583421,
+      "doc_id": "gq8mqmknp0ciuwvr",
+      "updated": 1718284488000,
+      "properties": {
+        "title": "4/15 腾讯面试官考了我Spring的AOP",
+        "urlname": "gq8mqmknp0ciuwvr",
+        "date": "2024-06-13 21:14:40",
+        "updated": "2024-06-13 21:14:48",
+        "description": "最近腾讯云智基础平台的实习机会火爆异常，据说他们的面试题目广泛且深入，特别是对于Java相关的技术栈，涵盖了Spring的IOC和AOP，循环依赖的解决方法，以及类加载机制等。一位名叫“讲义气的小太阳在努力”的同学分享了自己的面试经历，让我们一起来看看他是如何应对的，也许能给打算申请的你一些灵..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "gq8mqmknp0ciuwvr"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "gq8mqmknp0ciuwvr"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "gq8mqmknp0ciuwvr"
+        }
+      ],
+      "realName": "gq8mqmknp0ciuwvr",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\gq8mqmknp0ciuwvr.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583420,
+      "doc_id": "iv993phgec0ybt41",
+      "updated": 1718284488000,
+      "properties": {
+        "title": "4/16 又一个公司要倒下了：从洗脑广告到裁员风波",
+        "urlname": "iv993phgec0ybt41",
+        "date": "2024-06-13 21:14:40",
+        "updated": "2024-06-13 21:14:48",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1713533648200-b35416c3-a7ed-430a-8a8f-8218852b9905.png",
+        "description": "从 这一次开始，我们引入更有趣的开篇曾几何时，“找工作，就上58同城！”这句话仿佛成了无数求职者的心声。杨幂代言时期的“58同城，一个神奇的网站”广告语，更是在电视上、网络上洗脑式地传播。但今日的58同城，似乎正经历着自己的内部风波——面对盈利压力，不得不对业务进行大刀阔斧的裁剪。近期，一则让..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "iv993phgec0ybt41"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "iv993phgec0ybt41"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "iv993phgec0ybt41"
+        }
+      ],
+      "realName": "iv993phgec0ybt41",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\iv993phgec0ybt41.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583419,
+      "doc_id": "qr3clvvbzi9cg2gh",
+      "updated": 1718284488000,
+      "properties": {
+        "title": "4/18 4月阿里offer被毁，我该怎么进字节？",
+        "urlname": "qr3clvvbzi9cg2gh",
+        "date": "2024-06-13 21:14:40",
+        "updated": "2024-06-13 21:14:48",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1713536359324-f34aeab3-f533-46c6-8789-a42ef94433fa.png",
+        "description": "在校招求职的浪潮中，有些故事总是让人唏嘘不已。比如最近在社交平台上广泛讨论的一个话题：“4月阿里offer被毁，我该怎么进字节？”这不仅反映了当下职场的变动性，也映射了求职者在面对突如其来的变故时的无助与挣扎。时间回溯到2021年7月至9月，一个年轻的实习生在阿里巴巴拿到了转正的offer，这..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "qr3clvvbzi9cg2gh"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "qr3clvvbzi9cg2gh"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "qr3clvvbzi9cg2gh"
+        }
+      ],
+      "realName": "qr3clvvbzi9cg2gh",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\qr3clvvbzi9cg2gh.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583417,
+      "doc_id": "ar2e2voeocrtbpio",
+      "updated": 1718284487000,
+      "properties": {
+        "title": "4/19 985毕业生:至今0 offer，深夜无眠",
+        "urlname": "ar2e2voeocrtbpio",
+        "date": "2024-06-13 21:14:39",
+        "updated": "2024-06-13 21:14:47",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1713688227879-d88c655f-931a-430c-be88-02de63eee1cf.png",
+        "description": "南京大学，作为国内顶尖的学府之一，其计算机科学与技术系近年来在人才培养和科研创新方面成绩斐然，无数优秀学子从这里走出，成为了科技界的中坚力量。而在这样一个充满竞争和挑战的环境中，学生们的求职之路并非一帆风顺。 就在不久前的一篇帖子中，一名南京大学的计算机类学生分享了他的求职焦虑——面试数月，依..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "ar2e2voeocrtbpio"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "ar2e2voeocrtbpio"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "ar2e2voeocrtbpio"
+        }
+      ],
+      "realName": "ar2e2voeocrtbpio",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\ar2e2voeocrtbpio.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583415,
+      "doc_id": "vc2soai9wm3g7xyz",
+      "updated": 1718284487000,
+      "properties": {
+        "title": "4/20 双非研一退学转IT 专业，做对了什么？",
+        "urlname": "vc2soai9wm3g7xyz",
+        "date": "2024-06-13 21:14:39",
+        "updated": "2024-06-13 21:14:47",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1713791113969-69687f7b-40c3-46d3-b7f9-2d6bec3995f1.png",
+        "description": "在学术和职业的道路上，我们总会面临着选择与决定。最近看到一位同学分享的文章，一个双非学校的仪器科学与技术专业读学硕的学生在网络上分享了自己的迷茫和想法。这位研一的学生，面对未来的不确定性，正在考虑一个重大的决定——是否应该退学并换个专业重新考研。这位学生之所以有这个想法，主要基于以下几点考虑：..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "vc2soai9wm3g7xyz"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "vc2soai9wm3g7xyz"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "vc2soai9wm3g7xyz"
+        }
+      ],
+      "realName": "vc2soai9wm3g7xyz",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\vc2soai9wm3g7xyz.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583414,
+      "doc_id": "qg6w5i80r8ydt744",
+      "updated": 1718284487000,
+      "properties": {
+        "title": "4/22 清华毕业，细数24年秋招的艰辛与无用功",
+        "urlname": "qg6w5i80r8ydt744",
+        "date": "2024-06-13 21:14:39",
+        "updated": "2024-06-13 21:14:47",
+        "description": "以下内容，来自于清华24届硕士毕业生的自述自序\"每个人的人生都是一场马拉松，而我，在清华电气的赛道上，难免跌跌撞撞。\" 在秋招这场没有硝烟的战场上，我，一位211工科本科毕业生，跨考进入清华大学电气工程与自动化专业的研究生，亲身经历了从代码到金融的跨界之旅。然而，也正是这段日子里，我深刻体会到..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "qg6w5i80r8ydt744"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "qg6w5i80r8ydt744"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "qg6w5i80r8ydt744"
+        }
+      ],
+      "realName": "qg6w5i80r8ydt744",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\qg6w5i80r8ydt744.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583413,
+      "doc_id": "yz0tvggwqsckul9e",
+      "updated": 1718284487000,
+      "properties": {
+        "title": "4/21 六个月滴滴实习：轻松、舒心又高薪！",
+        "urlname": "yz0tvggwqsckul9e",
+        "date": "2024-06-13 21:14:39",
+        "updated": "2024-06-13 21:14:47",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1713967235272-e1f0b889-27e8-4ef3-887a-d2f71bb98446.png",
+        "description": "https://www.nowcoder.com/discuss/610130751605981184?sourceSSR=post不久前，一位在滴滴后端研发部门实习了六个月的小伙伴在牛客网上分享了他的实习体验， 作者详细描述了他在滴滴的实习生活。从他的叙述中，我们可以感受到与其他互联网公司相..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "yz0tvggwqsckul9e"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "yz0tvggwqsckul9e"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "yz0tvggwqsckul9e"
+        }
+      ],
+      "realName": "yz0tvggwqsckul9e",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\yz0tvggwqsckul9e.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583411,
+      "doc_id": "qg3mrber4se3u9fy",
+      "updated": 1718284487000,
+      "properties": {
+        "title": "4/23 阿里云又崩啦！一次逆天的技术拷打",
+        "urlname": "qg3mrber4se3u9fy",
+        "date": "2024-06-13 21:14:39",
+        "updated": "2024-06-13 21:14:47",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1714051311931-d9936783-75af-4bd5-90bf-ae925e670076.png",
+        "description": "在科技世界的舞台上，我们会经常看到一些出人意料的事件。前不久，阿里旗下的淘宝、闲鱼、阿里云盘、饿了么、钉钉等产品突然出现了崩溃，引发了广泛的关注和热议。“阿里全系产品崩了”，这一话题在微博上迅速登上了热搜。阿里云作为国内的云计算领军者，一直以来都处于遥遥领先的位置。然而，这次的全系产品崩溃事件..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "qg3mrber4se3u9fy"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "qg3mrber4se3u9fy"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "qg3mrber4se3u9fy"
+        }
+      ],
+      "realName": "qg3mrber4se3u9fy",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\qg3mrber4se3u9fy.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583412,
+      "doc_id": "aq1212cxh4z9k8st",
+      "updated": 1718284487000,
+      "properties": {
+        "title": "4/24 哭了，没找到暑期实习，真的会耽误秋招上岸吗？",
+        "urlname": "aq1212cxh4z9k8st",
+        "date": "2024-06-13 21:14:39",
+        "updated": "2024-06-13 21:14:47",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/jpeg/22389147/1714195976193-db8e9aac-5696-42ef-98bf-56bb5cdbcf8b.jpeg",
+        "description": "夏天到了，你大概能感受到的不仅仅是温度的上升，对很多大学生来说，暑期实习的话题也开始火热起来。暑期实习，听着就像是一场夏日大作战，每个学生都希望能在这个季节为自己的简历添上亮眼的一笔。但是，这到底是不是唯一的选择呢？暑期实习真的就比日常实习强？一、丑话说在前面首先，得承认，如果你实力足够，暑期..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "aq1212cxh4z9k8st"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "aq1212cxh4z9k8st"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "aq1212cxh4z9k8st"
+        }
+      ],
+      "realName": "aq1212cxh4z9k8st",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\aq1212cxh4z9k8st.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583410,
+      "doc_id": "obtempoe5ennystv",
+      "updated": 1718284487000,
+      "properties": {
+        "title": "4/27 双非本科自述: 无竞赛国奖,怎么逆袭腾讯字节",
+        "urlname": "obtempoe5ennystv",
+        "date": "2024-06-13 21:14:39",
+        "updated": "2024-06-13 21:14:47",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1714483002228-dab01552-8129-4438-a06b-75858b7daa5d.png",
+        "description": "https://www.nowcoder.com/discuss/505466271127908352?sourceSSR=search写在前面大家好，我是青玉白露。在这个充斥着精英主义色彩的社会里，\"双一流\"大学和耀眼奖项似乎成了走向职业成功、大厂的不二法门及必备之物。然而，今天我要分享的，..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "obtempoe5ennystv"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "obtempoe5ennystv"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "obtempoe5ennystv"
+        }
+      ],
+      "realName": "obtempoe5ennystv",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\obtempoe5ennystv.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583409,
+      "doc_id": "bw0l9y2hx0qxc9w2",
+      "updated": 1718284487000,
+      "properties": {
+        "title": "4/26 真香！腾讯拿到SP了！",
+        "urlname": "bw0l9y2hx0qxc9w2",
+        "date": "2024-06-13 21:14:39",
+        "updated": "2024-06-13 21:14:47",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1714305011026-7dc3654c-3e1c-45ab-b620-b0937b2d2bd4.png",
+        "description": "面试腾讯需要做什么？大家好，我是青玉白露。为了准备面试腾讯的后台开发岗位，你需要全面地准备以下几个方面：1. 项目经验准备项目介绍：准备清晰的项目介绍，包括项目背景、你的具体角色、技术栈、关键功能、解决的难题以及项目的成果。深入理解项目：了解项目的每个细节，包括架构设计、数据库设计、性能优化等..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "bw0l9y2hx0qxc9w2"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "bw0l9y2hx0qxc9w2"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "bw0l9y2hx0qxc9w2"
+        }
+      ],
+      "realName": "bw0l9y2hx0qxc9w2",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\bw0l9y2hx0qxc9w2.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583408,
+      "doc_id": "yle9x1mig3opkp9m",
+      "updated": 1718284486000,
+      "properties": {
+        "title": "4/29 中科大研二：字节实习半年的感悟和求职经验",
+        "urlname": "yle9x1mig3opkp9m",
+        "date": "2024-06-13 21:14:39",
+        "updated": "2024-06-13 21:14:46",
+        "description": "https://www.nowcoder.com/discuss在科技巨头字节跳动的实习经历无疑是一段难忘之旅。我有幸作为中科大软件学院研二学生，获得了这样的机会。实习的总时长超过半年，让我深刻体会到了字节跳动对实习生的重视与培养。在这里，我不仅技术能力得到了锤炼，更在mentor的指导下，解..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "yle9x1mig3opkp9m"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "yle9x1mig3opkp9m"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "yle9x1mig3opkp9m"
+        }
+      ],
+      "realName": "yle9x1mig3opkp9m",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\yle9x1mig3opkp9m.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583407,
+      "doc_id": "txa9sgikm5pac3cw",
+      "updated": 1718284486000,
+      "properties": {
+        "title": "4/25 中科大：字节实习一年的感受，真的有点···",
+        "urlname": "txa9sgikm5pac3cw",
+        "date": "2024-06-13 21:14:39",
+        "updated": "2024-06-13 21:14:46",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1714230609350-dad5f971-ec36-4f51-a5d3-96597e33f38a.png",
+        "description": "大家好，我是青玉白露，下面是一位中科大的同学，分享在字节实习一年的刚收，真的有点东西，强烈建议多次阅读！收藏！分享作为一个中科大软件工程的学生，我有幸在字节跳动实习了一年多的时间。这段经历无疑是我学习和成长过程中的一笔宝贵财富。一年多来，我见证了自己的变化，也积累了不少心得。是时候把这些经历和..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "txa9sgikm5pac3cw"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "txa9sgikm5pac3cw"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "txa9sgikm5pac3cw"
+        }
+      ],
+      "realName": "txa9sgikm5pac3cw",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\txa9sgikm5pac3cw.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583406,
+      "doc_id": "sdq1t8gtsqk629g6",
+      "updated": 1718284486000,
+      "properties": {
+        "title": "4/30 五一过半，我还在想春招……",
+        "urlname": "sdq1t8gtsqk629g6",
+        "date": "2024-06-13 21:14:39",
+        "updated": "2024-06-13 21:14:46",
+        "description": "https://www.nowcoder.com/discuss/614511730340659200昨天有个同学跟我分享他的春招经历：我就读于南京航空航天大学，目前大四，五一期间一直在复盘自己最终能够进入腾讯、阿里的原因，我认为自己从简历层被字节HR选中的原因，有以下几点。经验总结怎么写一份..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "sdq1t8gtsqk629g6"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "sdq1t8gtsqk629g6"
+        },
+        {
+          "title": "4 月",
+          "doc_id": "sdq1t8gtsqk629g6"
+        }
+      ],
+      "realName": "sdq1t8gtsqk629g6",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\4 月\\sdq1t8gtsqk629g6.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\4 月"
+    },
+    {
+      "id": 173583405,
+      "doc_id": "bb1q96x83h9u96w2",
+      "updated": 1718284889000,
+      "properties": {
+        "title": "4 月",
+        "urlname": "bb1q96x83h9u96w2",
+        "date": "2024-06-13 21:14:38",
+        "updated": "2024-06-13 21:21:29",
+        "description": "---is_nav: falsenav_path: 2024_4skip_nav: false---",
+        "is_nav": false,
+        "nav_path": 20244,
+        "skip_nav": false
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "bb1q96x83h9u96w2"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "bb1q96x83h9u96w2"
+        }
+      ],
+      "realName": "bb1q96x83h9u96w2",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\bb1q96x83h9u96w2.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战"
+    },
+    {
+      "id": 173583404,
+      "doc_id": "ant8ga6buh1zbg0q",
+      "updated": 1718284486000,
+      "properties": {
+        "title": "5/3 学弟学妹听劝，谨慎选后端！要选…",
+        "urlname": "ant8ga6buh1zbg0q",
+        "date": "2024-06-13 21:14:38",
+        "updated": "2024-06-13 21:14:46",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/jpeg/22382235/1714660672150-3a6f0d62-4b85-4dd1-9cb5-72b5bbab1bf5.jpeg",
+        "description": "今天不分享面经了，给大家说说心里话.......学弟学妹们，如果你现在还在大学的校园里，或者已经在准备投递简历了，今天的这篇文章，你一定要看！！后端开发，这个曾经的热门选择，现在已经成为了一个需要我们更加谨慎考虑的领域。甚至于，我都不建议你们选择后端开发（虽然我是后端开发...），且听我慢慢说..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "ant8ga6buh1zbg0q"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "ant8ga6buh1zbg0q"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "ant8ga6buh1zbg0q"
+        }
+      ],
+      "realName": "ant8ga6buh1zbg0q",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\ant8ga6buh1zbg0q.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583403,
+      "doc_id": "dckfr4w455txftuh",
+      "updated": 1718284486000,
+      "properties": {
+        "title": "5/1 来看看阿里今年的年终奖···",
+        "urlname": "dckfr4w455txftuh",
+        "date": "2024-06-13 21:14:38",
+        "updated": "2024-06-13 21:14:46",
+        "description": "阿里开奖大家好，我是白露呀。最近阿里各部分的年终相继开奖了，有人欢喜有人愁：淘天在今年的现金激励非常足，作为集团的核心业务之一，淘天今年的现金激励相当丰厚，特别是对于高绩效员工（绩效3.75），除了28-70万长期激励奖金和2000-4000普调。绩效3.5的员工虽然奖金较低，但接近一半的员工..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "dckfr4w455txftuh"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "dckfr4w455txftuh"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "dckfr4w455txftuh"
+        }
+      ],
+      "realName": "dckfr4w455txftuh",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\dckfr4w455txftuh.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583402,
+      "doc_id": "rflb7oxc3ugweal0",
+      "updated": 1718284486000,
+      "properties": {
+        "title": "5/2 美团实习",
+        "urlname": "rflb7oxc3ugweal0",
+        "date": "2024-06-13 21:14:38",
+        "updated": "2024-06-13 21:14:46",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1714524504982-5895272f-aa56-4611-b140-f196338fbb67.png",
+        "description": "https://www.nowcoder.com/feed/main/detail/b6e7154498094ed4a8fbde61769b30d4面试官: 嗨，欢迎来到美团的后端面试。我们今天会讨论一些技术问题，先从基础开始。你能给我讲讲HashMap的原理以及它为什么线程不安全吗？还有，红..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "rflb7oxc3ugweal0"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "rflb7oxc3ugweal0"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "rflb7oxc3ugweal0"
+        }
+      ],
+      "realName": "rflb7oxc3ugweal0",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\rflb7oxc3ugweal0.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583401,
+      "doc_id": "puv1lz3y958v4ies",
+      "updated": 1718284486000,
+      "properties": {
+        "title": "5/4 清华毕业：今年的暑期实习很不乐观···",
+        "urlname": "puv1lz3y958v4ies",
+        "date": "2024-06-13 21:14:38",
+        "updated": "2024-06-13 21:14:46",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1714702627851-70bf6382-267b-45aa-9765-82a695606f69.png",
+        "description": "https://www.nowcoder.com/feed/main/detail/53fc30099a4c4cb9831993889d946d54今天有个清华的粉丝在群里发出一个感叹：今年暑期实习的形势不太乐观，互联网大厂的招聘门槛越来越高，竞争压力前所未有。实习招聘曲折他认识的同学拿到的互..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "puv1lz3y958v4ies"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "puv1lz3y958v4ies"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "puv1lz3y958v4ies"
+        }
+      ],
+      "realName": "puv1lz3y958v4ies",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\puv1lz3y958v4ies.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583399,
+      "doc_id": "nirofi8i3qi3o30w",
+      "updated": 1718284486000,
+      "properties": {
+        "title": "5.6 从 0 offer 到春招上岸，我只做了这一个决定...",
+        "urlname": "nirofi8i3qi3o30w",
+        "date": "2024-06-13 21:14:38",
+        "updated": "2024-06-13 21:14:46",
+        "description": "https://www.nowcoder.com/discuss/616222020405092352大家好，我是白露啊。 今天我想和大家聊一聊关于春招编程语言的选择问题。这个问题其实我一直就想写了，但是之前忘记了···其实白露当年毕业找工作的时候，可谓是一波三折。最沉痛的打击就是在4月份的时..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "nirofi8i3qi3o30w"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "nirofi8i3qi3o30w"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "nirofi8i3qi3o30w"
+        }
+      ],
+      "realName": "nirofi8i3qi3o30w",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\nirofi8i3qi3o30w.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583398,
+      "doc_id": "oaqqha6cgfddogpl",
+      "updated": 1718284486000,
+      "properties": {
+        "title": "5.5 60*13薪，外包到新疆...去吗？",
+        "urlname": "oaqqha6cgfddogpl",
+        "date": "2024-06-13 21:14:38",
+        "updated": "2024-06-13 21:14:46",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1714996675947-78dddc31-0dcb-43d0-a5a5-505a7e9d1927.png",
+        "description": "大家好，我是白露呀。今天我在牛客上看到一篇帖子，一位网友说自己收到一个 offer ，薪资很高：60k*13，大约一年有近80万。但是有个要求是外包到新疆的乌鲁木齐，他拿不定主意，就在牛客上发了这个帖子。然后这个“凡尔赛式”的发言就把网友们给搞懵了，纷纷留下了他们的“祝福”，有网友说“外派月球..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "oaqqha6cgfddogpl"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "oaqqha6cgfddogpl"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "oaqqha6cgfddogpl"
+        }
+      ],
+      "realName": "oaqqha6cgfddogpl",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\oaqqha6cgfddogpl.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583396,
+      "doc_id": "ypafbgby31t8s0ek",
+      "updated": 1718284485000,
+      "properties": {
+        "title": "5.8 华为校招上岸50w？揭秘华为职级薪资体系。。",
+        "urlname": "ypafbgby31t8s0ek",
+        "date": "2024-06-13 21:14:38",
+        "updated": "2024-06-13 21:14:45",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1715179697854-2e75c9a1-3e08-4cc3-a8d1-20c43c4a92c8.png",
+        "description": "https://www.sohu.com/a/749794372_121124367https://www.nowcoder.com/discuss/371286697395449856 很多面经大家好，我是白露啊。之前昨天聊字节的薪资职级的时候，有朋友留言，华为校招上岸是不是就50W？那我们..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "ypafbgby31t8s0ek"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "ypafbgby31t8s0ek"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "ypafbgby31t8s0ek"
+        }
+      ],
+      "realName": "ypafbgby31t8s0ek",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\ypafbgby31t8s0ek.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583397,
+      "doc_id": "vee4zpgz7mnpyi9h",
+      "updated": 1718284486000,
+      "properties": {
+        "title": "5.7 字节薪资解密。。张一鸣啥等级？",
+        "urlname": "vee4zpgz7mnpyi9h",
+        "date": "2024-06-13 21:14:38",
+        "updated": "2024-06-13 21:14:46",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/jpeg/22382235/1715176258995-f9432213-e1dc-43e8-9587-72d19f9528d6.jpeg",
+        "description": "还有阿里和腾讯的https://www.iyunying.org/news/328783.htmlhttps://www.nowcoder.com/feed/main/detail/38e0f968cbec471b8fd6dca2e9551215?sourceSSR=search大家好，我是白..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "vee4zpgz7mnpyi9h"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "vee4zpgz7mnpyi9h"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "vee4zpgz7mnpyi9h"
+        }
+      ],
+      "realName": "vee4zpgz7mnpyi9h",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\vee4zpgz7mnpyi9h.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583395,
+      "doc_id": "hk6rh30pvkk1rszw",
+      "updated": 1718284485000,
+      "properties": {
+        "title": "5.9 快手营收千亿，薪资60W。。能去吗",
+        "urlname": "hk6rh30pvkk1rszw",
+        "date": "2024-06-13 21:14:38",
+        "updated": "2024-06-13 21:14:45",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1715302451293-8e32ffc6-e91b-454b-8fa7-58aa0a5b41cc.png",
+        "description": "大家好，我是白露啊。最近快手发布了 2023 年度财报，里面有几点关键信息，我觉得大家应该很感兴趣。信息参考自 HR实名俱乐部人均薪酬60W，酸了···1、快手2023年全年总收入达1134.7亿元，同比增长20.5%。要知道，这个全年收入证明快手是一线互联网公司了，要知道，百度2023年的营..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "hk6rh30pvkk1rszw"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "hk6rh30pvkk1rszw"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "hk6rh30pvkk1rszw"
+        }
+      ],
+      "realName": "hk6rh30pvkk1rszw",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\hk6rh30pvkk1rszw.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583394,
+      "doc_id": "ltb7vneuipd9n7u3",
+      "updated": 1718284485000,
+      "properties": {
+        "title": "5.10 百度女公关璩静，发短视频弄丢千万年薪工作。。",
+        "urlname": "ltb7vneuipd9n7u3",
+        "date": "2024-06-13 21:14:38",
+        "updated": "2024-06-13 21:14:45",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1715342607315-bc8f69f0-c4d9-47f8-8dfb-3a4915003b07.png",
+        "description": "百度面经https://zhuanlan.zhihu.com/p/641792349大家好，我是白露啊。百度前第一女公关璩静火了，然后被火速离职。看看她的简历，还是前华为副总裁，真的厉害。她以“霸道女总裁”的形象在短视频平台亮相，发了几条短视频，然后引发了一场公关界的“大海啸”（🌊🌊🌊）..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "ltb7vneuipd9n7u3"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "ltb7vneuipd9n7u3"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "ltb7vneuipd9n7u3"
+        }
+      ],
+      "realName": "ltb7vneuipd9n7u3",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\ltb7vneuipd9n7u3.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583393,
+      "doc_id": "agprzvnqlb1k3fdc",
+      "updated": 1718284485000,
+      "properties": {
+        "title": "5.11 华中科大:感谢大家，我的春招之旅结束了",
+        "urlname": "agprzvnqlb1k3fdc",
+        "date": "2024-06-13 21:14:38",
+        "updated": "2024-06-13 21:14:45",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1715523269355-3b148b36-28a0-4c15-aa1d-adfb35b79235.png",
+        "description": "https://www.nowcoder.com/feed/main/detail/b26ee2a341d94869a67e1aa073d6aff1场景提：https://www.nowcoder.com/discuss/353159395452329984大家好，我是白露。今天在论坛上看到一..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "agprzvnqlb1k3fdc"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "agprzvnqlb1k3fdc"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "agprzvnqlb1k3fdc"
+        }
+      ],
+      "realName": "agprzvnqlb1k3fdc",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\agprzvnqlb1k3fdc.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583391,
+      "doc_id": "ozc0nm6ghq8ome67",
+      "updated": 1718284485000,
+      "properties": {
+        "title": "无标题文档",
+        "urlname": "ozc0nm6ghq8ome67",
+        "date": "2024-06-13 21:14:38",
+        "updated": "2024-06-13 21:14:45",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1715524190521-f0606a3c-fb91-4d5f-8fb1-bf9de4062f5a.png"
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "ozc0nm6ghq8ome67"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "ozc0nm6ghq8ome67"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "ozc0nm6ghq8ome67"
+        }
+      ],
+      "realName": "ozc0nm6ghq8ome67",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\ozc0nm6ghq8ome67.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583392,
+      "doc_id": "ri9ghkuk8bxsazsi",
+      "updated": 1718284485000,
+      "properties": {
+        "title": "5.12 在国企工作的人。。。躺平了吗？",
+        "urlname": "ri9ghkuk8bxsazsi",
+        "date": "2024-06-13 21:14:38",
+        "updated": "2024-06-13 21:14:45",
+        "description": "大家好，我是白露，全栈工程师。昨天和几个在互联网工作的朋友吃饭，其中有两个朋友抱怨道，现在互联网的工作节奏实在是太大了，真的想找个国企躺平了。这个时候，旁边从国企跳槽到互联网的朋友开口说：在国企工作，其实不是那么容易躺平的。他说，你们早应该对国企祛魅才对。接着他说了很多之前工作的事情，我总结了..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "ri9ghkuk8bxsazsi"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "ri9ghkuk8bxsazsi"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "ri9ghkuk8bxsazsi"
+        }
+      ],
+      "realName": "ri9ghkuk8bxsazsi",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\ri9ghkuk8bxsazsi.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583390,
+      "doc_id": "no39xdu8bghyabg9",
+      "updated": 1718284695000,
+      "properties": {
+        "title": "5.13 打工人最爱！生产力*5倍的GPT 4，无需网络！半价！",
+        "urlname": "no39xdu8bghyabg9",
+        "date": "2024-06-13 21:14:38",
+        "updated": "2024-06-13 21:18:15",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/jpeg/22382235/1715774097361-3425b9e5-28a5-415e-8332-4a89ead88836.jpeg",
+        "description": "大家好，我是白露，专注于全栈开发。今天我想分享一个提高工作效率的秘诀——利用先进的GPT技术。接下来，我将介绍如何以更经济的方式获取并使用这一工具。简言之：以低于官方价格的费用，享受与官方账号无差别的完整功能。一个ChatGPT Plus账号加上一个月的售后服务，市场价格通常在220元左右。即..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "no39xdu8bghyabg9"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "no39xdu8bghyabg9"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "no39xdu8bghyabg9"
+        }
+      ],
+      "realName": "no39xdu8bghyabg9",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\no39xdu8bghyabg9.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583389,
+      "doc_id": "gz4ygukzz7p6k1rg",
+      "updated": 1718284485000,
+      "properties": {
+        "title": "5.13 GPT-4o的发布，留给程序员的后路不多了。。。",
+        "urlname": "gz4ygukzz7p6k1rg",
+        "date": "2024-06-13 21:14:37",
+        "updated": "2024-06-13 21:14:45",
+        "description": "https://juejin.cn/post/6920517654323298311大家好，我是白露，全栈工程师。今天凌晨，OpenAI发布了GPT-4o。然后，朋友圈就炸了。一方面是大部分搞 ai的朋友在狂欢，aigc已来！另一方面，是其他领域的朋友在反思、苦笑、焦虑，特别是程序员：我还还要..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "gz4ygukzz7p6k1rg"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "gz4ygukzz7p6k1rg"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "gz4ygukzz7p6k1rg"
+        }
+      ],
+      "realName": "gz4ygukzz7p6k1rg",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\gz4ygukzz7p6k1rg.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583388,
+      "doc_id": "uhb41g1tpsf7cbqo",
+      "updated": 1718284485000,
+      "properties": {
+        "title": "5.17 回寒啦，今年的工作比明年好找。。",
+        "urlname": "uhb41g1tpsf7cbqo",
+        "date": "2024-06-13 21:14:37",
+        "updated": "2024-06-13 21:14:45",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1716043232035-f7e873e7-eddc-4bf8-928b-0271375654d4.png",
+        "description": "大家好，我是白露。今儿个半夜，我在牛客里溜达，一不小心就瞄到这么一句话：等我反应过来，我就乐了，这话太有意思了！我差点儿没把手机给扔了，哈哈，这不是明摆着的反话嘛！啊，说真的，要是大胆宣布“今年工作好找了，比去年容易多了”，那估计得挨一顿炮轰，没人信吧，即便今年稍微宽松那么一丁点儿。但话锋一转..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "uhb41g1tpsf7cbqo"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "uhb41g1tpsf7cbqo"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "uhb41g1tpsf7cbqo"
+        }
+      ],
+      "realName": "uhb41g1tpsf7cbqo",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\uhb41g1tpsf7cbqo.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583387,
+      "doc_id": "mbh6cq201quvnvv8",
+      "updated": 1718284485000,
+      "properties": {
+        "title": "5.16 8岁编程，20岁创业：GPT创始人的Sam Altman的简历。。。",
+        "urlname": "mbh6cq201quvnvv8",
+        "date": "2024-06-13 21:14:37",
+        "updated": "2024-06-13 21:14:45",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1715951640662-a96f5b52-0687-40c3-9dba-238407609dc6.png",
+        "description": "参考鱼皮：https://mp.weixin.qq.com/s/qI7F8kK67O973IK1doWJ6A大家好，我是白露，全栈开发。OpenAI 发布GPT-4o的消息又双叒刷屏了。大家都在说它多好用、多先进的时候……我反问了一句：谁造就了它？细数整个GPT爆火的背后，都离不开OpenAI..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "mbh6cq201quvnvv8"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "mbh6cq201quvnvv8"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "mbh6cq201quvnvv8"
+        }
+      ],
+      "realName": "mbh6cq201quvnvv8",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\mbh6cq201quvnvv8.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583386,
+      "doc_id": "nd0ixdhsozud7vuy",
+      "updated": 1718284485000,
+      "properties": {
+        "title": "5.14 南开毕业：金三银四结束了，听说还有铜五铁六。。。",
+        "urlname": "nd0ixdhsozud7vuy",
+        "date": "2024-06-13 21:14:37",
+        "updated": "2024-06-13 21:14:45",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1715778941545-c31980d3-0ba9-4d5a-918b-91eb1f278326.png",
+        "description": "大家好，我是白露，全栈开发。大家经常都说春招是金三银四。说明在三月之前找到工作的难度最低，找的公司也最好；四月次之。毕竟好的公司，面试的人数往往远大于在实际招聘人数，因此招聘的时候都是时间越靠前，获得 offer 的难度更低。今天在论坛看到一个南开大学的同学发的帖子，分享给大家：看到这样的帖子..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "nd0ixdhsozud7vuy"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "nd0ixdhsozud7vuy"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "nd0ixdhsozud7vuy"
+        }
+      ],
+      "realName": "nd0ixdhsozud7vuy",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\nd0ixdhsozud7vuy.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583385,
+      "doc_id": "iuxt4arg489m7mmr",
+      "updated": 1718284485000,
+      "properties": {
+        "title": "5.20 8个面试，已经给了6个offer了，我该咋办。。",
+        "urlname": "iuxt4arg489m7mmr",
+        "date": "2024-06-13 21:14:37",
+        "updated": "2024-06-13 21:14:45",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1716217039531-8de55ce8-bdc9-48af-8381-7cddd0ac7a1a.png",
+        "description": "大家好，我是白露啊。今天偶然看到一个帖子，我都有点看懵了。帖子下面的评论全都破防了。。。然后一大堆网友开始“举报”。老实说，混迹论坛这么多年，我还是“头一回在评论区见到这么多举报截图哈哈哈哈”。为什么大家都破防了呢？因为现在的大背景下，求职越来越难，一个offer都拿不到的同学大有人在。这也是..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "iuxt4arg489m7mmr"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "iuxt4arg489m7mmr"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "iuxt4arg489m7mmr"
+        }
+      ],
+      "realName": "iuxt4arg489m7mmr",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\iuxt4arg489m7mmr.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583384,
+      "doc_id": "ir4p81l1hm0s13hm",
+      "updated": 1718284484000,
+      "properties": {
+        "title": "5.18 双 9 科班：实习难求，认命，总结，反思。。。",
+        "urlname": "ir4p81l1hm0s13hm",
+        "date": "2024-06-13 21:14:37",
+        "updated": "2024-06-13 21:14:44",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1716131990587-364f0093-1192-4812-95a9-00c71ac86bd2.png",
+        "description": "大家好，我是白露啊。 今天，我偶然刷到了一篇帖子，一位寻找实习的同学的艰辛历程，现在不得不接受实习找不到的尴尬境地。让白露遗憾的是，这位同学看起来是很努力地在准备，但是不得不说，时间和方向弄错了，大家已经要引以为戒！我将他这段时间的经历，简单整理了一下：3月开始准备，刷了一个月leetcode..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "ir4p81l1hm0s13hm"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "ir4p81l1hm0s13hm"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "ir4p81l1hm0s13hm"
+        }
+      ],
+      "realName": "ir4p81l1hm0s13hm",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\ir4p81l1hm0s13hm.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583383,
+      "doc_id": "lo1umogty242l1pn",
+      "updated": 1718284484000,
+      "properties": {
+        "title": "5.21 淘宝618，不如拼多多，揭秘拼多多薪资体系",
+        "urlname": "lo1umogty242l1pn",
+        "date": "2024-06-13 21:14:37",
+        "updated": "2024-06-13 21:14:44",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1716469571085-ee3e57d0-9d53-4700-bf3f-055fb2af01fd.png",
+        "description": "https://www.nowcoder.com/feed/main/detail/72db891253a84c8d91f05b7bb8bcbf95?sourceSSR=search大家好，我是白露啊。刚有朋友问我：淘宝618开始了，怎么拼多多还没有动静啊？我笑说，对于拼多多来说，每天都是61..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "lo1umogty242l1pn"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "lo1umogty242l1pn"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "lo1umogty242l1pn"
+        }
+      ],
+      "realName": "lo1umogty242l1pn",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\lo1umogty242l1pn.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583382,
+      "doc_id": "yq9gp8ec15blqt55",
+      "updated": 1718284484000,
+      "properties": {
+        "title": "0528——618还没过，京东就“暴雷”了！",
+        "urlname": "yq9gp8ec15blqt55",
+        "date": "2024-06-13 21:14:37",
+        "updated": "2024-06-13 21:14:44",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/jpeg/22389147/1716901686253-b01d06ae-151f-4ab2-b86b-ee59ceadf7ab.jpeg",
+        "description": "不拼博，不是我的兄弟京东每月1.4万人次代打卡，每次收费15元？新规要求午休时间缩短为一小时，不得关灯目前，京东针对此问题严抓考勤，午休时间由两小时缩短为一小时，且取消午休关灯。在此背景下，京东创始人、董事会主席刘强东在日前的高管会上直言：“凡是长期业绩不好，从来不拼搏的人，不是我的兄弟。”但..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "yq9gp8ec15blqt55"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "yq9gp8ec15blqt55"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "yq9gp8ec15blqt55"
+        }
+      ],
+      "realName": "yq9gp8ec15blqt55",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\yq9gp8ec15blqt55.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583381,
+      "doc_id": "gqkotrulk2fbi053",
+      "updated": 1718284484000,
+      "properties": {
+        "title": "5.23 一个年薪80w+的方向，我也入局了。。。",
+        "urlname": "gqkotrulk2fbi053",
+        "date": "2024-06-13 21:14:37",
+        "updated": "2024-06-13 21:14:44",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22389147/1716645803838-e567d636-85a4-49d5-907c-3cab243e8f40.png",
+        "description": "旱的旱死、涝的涝死？大家好，我是白露。现在的市场可以说是，旱的旱死、涝的涝死！应该不用我说，大家都知道，24年甚至未来近几年，最热的技术还得是——AIGC！！随着先进人工智能的崛起，众多科技公司纷纷大规模扩充相关领域的人才。算法岗位在过去三个月里增长了68%，这一现象在HR圈内引起了极大的震动..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "gqkotrulk2fbi053"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "gqkotrulk2fbi053"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "gqkotrulk2fbi053"
+        }
+      ],
+      "realName": "gqkotrulk2fbi053",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\gqkotrulk2fbi053.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583380,
+      "doc_id": "xkmfsfmiumxogo0z",
+      "updated": 1718284484000,
+      "properties": {
+        "title": "5.29 寒冬来了，字节跳动开启裁员新模式。。",
+        "urlname": "xkmfsfmiumxogo0z",
+        "date": "2024-06-13 21:14:37",
+        "updated": "2024-06-13 21:14:44",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1716905308210-c5848a68-e0ca-4acd-8cc3-7e7643f9c671.png",
+        "description": "大家好，我是白露啊。不得不说，字节跳动还是真的会搞事啊。最近一段时间，字节搞出了一个裁员新模式：“细水长流”。这个寓意和“财（裁）源（员）广进”计划差不多了，只不过比较含蓄了。在一个著名社交平台上里，有字节员工发帖称，HR透露北京已经裁员到了不让裁员的地步。相比过去的一次性大规模裁员，目前字节..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "xkmfsfmiumxogo0z"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "xkmfsfmiumxogo0z"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "xkmfsfmiumxogo0z"
+        }
+      ],
+      "realName": "xkmfsfmiumxogo0z",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\xkmfsfmiumxogo0z.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583379,
+      "doc_id": "bsh2qrgcc6d9wg01",
+      "updated": 1718284484000,
+      "properties": {
+        "title": "5.19 终于轮到我选大厂offer了！",
+        "urlname": "bsh2qrgcc6d9wg01",
+        "date": "2024-06-13 21:14:36",
+        "updated": "2024-06-13 21:14:44",
+        "description": "https://www.nowcoder.com/share/jump/1716131762065或者：https://www.nowcoder.com/feed/main/detail/61b840489b60400b9a72fa6c1652c51chttps://www.nowcoder...."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "bsh2qrgcc6d9wg01"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "bsh2qrgcc6d9wg01"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "bsh2qrgcc6d9wg01"
+        }
+      ],
+      "realName": "bsh2qrgcc6d9wg01",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\bsh2qrgcc6d9wg01.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583378,
+      "doc_id": "guhokgyv4b2gngzx",
+      "updated": 1718284484000,
+      "properties": {
+        "title": "5.30 从字节跳槽去国企，我真的很后悔了。",
+        "urlname": "guhokgyv4b2gngzx",
+        "date": "2024-06-13 21:14:36",
+        "updated": "2024-06-13 21:14:44",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1717077322078-c35a0496-50fc-4b7c-8f58-5679ee009596.png",
+        "description": "大家好，我是白露啊。 今天和大家分享一位前字节跳动产品经理的故事。他曾经是字节的一员，职级2-2。他从字节跳槽到国企，感觉肠子都悔青了，如下。我是一名前字节跳动的产品经理，职级2-2。 2019年的时候，我还在小厂打拼，收到字节的面试邀请，我难以抑制内心的激动，这是我梦寐以求的大厂啊。 通过面..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "guhokgyv4b2gngzx"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "guhokgyv4b2gngzx"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "guhokgyv4b2gngzx"
+        }
+      ],
+      "realName": "guhokgyv4b2gngzx",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\guhokgyv4b2gngzx.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583377,
+      "doc_id": "gals8do4o84olthy",
+      "updated": 1718284484000,
+      "properties": {
+        "title": "5.22 计算机专业的爽了，彻底爽了",
+        "urlname": "gals8do4o84olthy",
+        "date": "2024-06-13 21:14:36",
+        "updated": "2024-06-13 21:14:44",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1717079456648-e357efbf-620e-45b8-a8a7-36704278fba3.png",
+        "description": "大家好，我是白露啊。以下内容建议大家“全文背诵“，因为计算机专业的彻底“爽了”，是计算机行业的“新圣经”！都说计算机专业的毕业生，一门技能走遍天下，哪怕是出门倒垃圾，风都绕道走。 招聘会上，大厂、国企、外企争相抢人，老板们为了讨好我们计算机专业出身的职工，不仅给安排单独的豪华办公室和住宿，甚至..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "gals8do4o84olthy"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "gals8do4o84olthy"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "gals8do4o84olthy"
+        }
+      ],
+      "realName": "gals8do4o84olthy",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\gals8do4o84olthy.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583376,
+      "doc_id": "giwtq6xgghxutcwr",
+      "updated": 1718284484000,
+      "properties": {
+        "title": "5.32 不愧是华为，这个薪资离谱了。。",
+        "urlname": "giwtq6xgghxutcwr",
+        "date": "2024-06-13 21:14:36",
+        "updated": "2024-06-13 21:14:44",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1717080395966-8bb343ec-c196-4911-a4b0-e13476f3def8.png",
+        "description": "大家好，我是白露啊。 在我的博客、博客分享网站的留言里，经常能够看到学生问“华为应届生薪资是多少？”、“评级13级对应的总包有多少？”等等问题。今天想和大家讨论一下华为这个神奇的存在。不愧是华为，这薪资真的令人惊叹啊！  拿好小本本，记下来吧！ 🔹智能制造与精密制造工程师：13.5k * 1..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "giwtq6xgghxutcwr"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "giwtq6xgghxutcwr"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "giwtq6xgghxutcwr"
+        }
+      ],
+      "realName": "giwtq6xgghxutcwr",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\giwtq6xgghxutcwr.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583375,
+      "doc_id": "fi7t6871nzglh4zr",
+      "updated": 1718284484000,
+      "properties": {
+        "title": "5.31 这。。24届毕业生24.9%学生0 Offer？",
+        "urlname": "fi7t6871nzglh4zr",
+        "date": "2024-06-13 21:14:36",
+        "updated": "2024-06-13 21:14:44",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1717080918109-89d69cb4-737f-472e-a104-cb9b59af279f.png",
+        "description": "大家好，我是白露啊。据牛客网统计，2024届全国普通高校毕业生预计达到1179万人，同比增加21万人。就业形势比往年更加严峻，每一个毕业生都在这场前所未有的战役中努力拼搏。近期，牛客最新调查显示，24.9%的受访同学仍处于0 Offer的状态。在已经拿到Offer的学生中，普遍手握1-3个。真..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "fi7t6871nzglh4zr"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "fi7t6871nzglh4zr"
+        },
+        {
+          "title": "5 月",
+          "doc_id": "fi7t6871nzglh4zr"
+        }
+      ],
+      "realName": "fi7t6871nzglh4zr",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\5 月\\fi7t6871nzglh4zr.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\5 月"
+    },
+    {
+      "id": 173583374,
+      "doc_id": "waouohwqugquh410",
+      "updated": 1718284484000,
+      "properties": {
+        "title": "6.1 夸张，腾讯实习三个月，存款20W+",
+        "urlname": "waouohwqugquh410",
+        "date": "2024-06-13 21:14:36",
+        "updated": "2024-06-13 21:14:44",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1717428810924-f867c9fa-c710-4e08-904c-7707a976ce1e.png",
+        "description": "大家好，我是白露。 今天在牛客上看到一条帖子，让我感叹万分：实习两三个月，竟然已经存下了20多万的存款。 这也太夸张了吧？不太真实啊……很多网友表示疑问，“两三个月实习顶多存两三万吧？武理奖学金十几万？”楼主回复说：“还有学校补贴和导师横向，实习了半年多，存了五六万吧。” 所以真相了，其实是算..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "waouohwqugquh410"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "waouohwqugquh410"
+        },
+        {
+          "title": "6月",
+          "doc_id": "waouohwqugquh410"
+        }
+      ],
+      "realName": "waouohwqugquh410",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\6月\\waouohwqugquh410.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\6月"
+    },
+    {
+      "id": 173583372,
+      "doc_id": "ami3m0g2n2amiklt",
+      "updated": 1718284483000,
+      "properties": {
+        "title": "6.2 美团实习，感觉部门很穷，要去吗？",
+        "urlname": "ami3m0g2n2amiklt",
+        "date": "2024-06-13 21:14:36",
+        "updated": "2024-06-13 21:14:43",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1717461498054-e0cb1ecc-724f-4400-bb83-ed8f6a50a0ab.png",
+        "description": "大家好，我是白露啊。最近有位同学在美团实习，感觉部门有点穷……为什么呢？因为对部门的设备表示有些失望。他说刚来没两天，领到的是一台2019款的MacBook，感觉有点拉胯。看到正式员工——大多数是2021年入职的——用的也是同款设备，就更加怀疑是不是部门太穷了，没经费换新的设备。评论区有网友也..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "ami3m0g2n2amiklt"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "ami3m0g2n2amiklt"
+        },
+        {
+          "title": "6月",
+          "doc_id": "ami3m0g2n2amiklt"
+        }
+      ],
+      "realName": "ami3m0g2n2amiklt",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\6月\\ami3m0g2n2amiklt.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\6月"
+    },
+    {
+      "id": 173583368,
+      "doc_id": "ab8nllkdlh7p3inz",
+      "updated": 1718284483000,
+      "properties": {
+        "title": "6.8 阎王爷背上是不是纹的拼多多？",
+        "urlname": "ab8nllkdlh7p3inz",
+        "date": "2024-06-13 21:14:36",
+        "updated": "2024-06-13 21:14:43",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1717948488993-a3d95deb-95ee-43f9-93aa-345c5f125dfc.png",
+        "description": "大家好，我是白露啊。昨天端午在刷帖子的时候，看到一个让人哭笑不得的吐槽，忍不住要和大家分享一下。帖子的标题是：“阎王爷背上是不是纹的拼多多”，接着是一段满满都是血泪的控诉。这哪里是工作，简直像是进“十八层地狱”。不仅工时长得吓人，每一分钟都被盯着，连喝水上厕所都成问题，忍不住感叹周扒皮遇到这种..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "ab8nllkdlh7p3inz"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "ab8nllkdlh7p3inz"
+        },
+        {
+          "title": "6月",
+          "doc_id": "ab8nllkdlh7p3inz"
+        }
+      ],
+      "realName": "ab8nllkdlh7p3inz",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\6月\\ab8nllkdlh7p3inz.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\6月"
+    },
+    {
+      "id": 173583373,
+      "doc_id": "lg7x0n2rrs6akt2r",
+      "updated": 1718284484000,
+      "properties": {
+        "title": "6.4 现在卷疯了，HR都怀疑人生，大二做三项目。。",
+        "urlname": "lg7x0n2rrs6akt2r",
+        "date": "2024-06-13 21:14:36",
+        "updated": "2024-06-13 21:14:44",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1717509206724-0b9850df-efab-4e2b-8fbb-83dffa3029b1.png",
+        "description": "https://www.nowcoder.com/feed/main/detail/215ab385fcb14decb5c803e97c67c318?fromPut=%3F%3F%3F%3F_pc_%3F%3F%3F%3F%3F_%3F%3F%3F%3F_1717462812367大家好，我是..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "lg7x0n2rrs6akt2r"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "lg7x0n2rrs6akt2r"
+        },
+        {
+          "title": "6月",
+          "doc_id": "lg7x0n2rrs6akt2r"
+        }
+      ],
+      "realName": "lg7x0n2rrs6akt2r",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\6月\\lg7x0n2rrs6akt2r.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\6月"
+    },
+    {
+      "id": 173583367,
+      "doc_id": "chzybsqqhaq6arob",
+      "updated": 1718284483000,
+      "properties": {
+        "title": "6.9 小公司要求真高",
+        "urlname": "chzybsqqhaq6arob",
+        "date": "2024-06-13 21:14:36",
+        "updated": "2024-06-13 21:14:43",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1717949289930-a385e4b9-6963-4802-95a9-0d0351f39960.png",
+        "description": "https://www.nowcoder.com/feed/main/detail/6d73c0bef74a4ea6bd2d68ce7cd0e9b4大家好，我是白露啊。最近看到一个爽文帖，标题就是——“小公司要求真高”。事情是这样的，一家的小公司在拿到简历之后，HR直接对楼主说：“你不合适，简..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "chzybsqqhaq6arob"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "chzybsqqhaq6arob"
+        },
+        {
+          "title": "6月",
+          "doc_id": "chzybsqqhaq6arob"
+        }
+      ],
+      "realName": "chzybsqqhaq6arob",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\6月\\chzybsqqhaq6arob.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\6月"
+    },
+    {
+      "id": 173583366,
+      "doc_id": "bo3u73tfp6ek94n6",
+      "updated": 1718284483000,
+      "properties": {
+        "title": "6.10 双非本科一年20w，已是人中龙凤了",
+        "urlname": "bo3u73tfp6ek94n6",
+        "date": "2024-06-13 21:14:36",
+        "updated": "2024-06-13 21:14:43",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1718197592810-0a2f2074-a697-4090-9e64-9bb18cf99ae9.png",
+        "description": "大家好，我是白露啊。 “双非本科一年20w已经是人中龙凤了”……吗？牛客上刷到这条帖子，我一开始以为是一个钓鱼、引战贴。看完才觉得他说的很对，现在在求职选择工作的时候，网上都觉得得40万、50万，但当真没必要那么焦虑，因为那毕竟是少数。各位同学，不要被牛客、脉脉等论坛上“公布”的薪资给打击到了..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "bo3u73tfp6ek94n6"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "bo3u73tfp6ek94n6"
+        },
+        {
+          "title": "6月",
+          "doc_id": "bo3u73tfp6ek94n6"
+        }
+      ],
+      "realName": "bo3u73tfp6ek94n6",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\6月\\bo3u73tfp6ek94n6.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\6月"
+    },
+    {
+      "id": 173583365,
+      "doc_id": "gm1xmcdrvteelkgi",
+      "updated": 1718284483000,
+      "properties": {
+        "title": "6.5 来腾讯第4天，我已经焦虑昏了啊！",
+        "urlname": "gm1xmcdrvteelkgi",
+        "date": "2024-06-13 21:14:36",
+        "updated": "2024-06-13 21:14:43",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1717683261567-39fcd3a4-7ab6-4e77-add9-6a6b4cf555a2.png",
+        "description": "https://www.nowcoder.com/discuss/626130333355749376?fromPut=%3F%3F%3F%3F_pc_%3F%3F%3F%3F%3F_%3F%3F%3F%3F_1717681723966大家好，我是白露啊。今天在看到一个实习生在抱怨，给我笑惨了..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "gm1xmcdrvteelkgi"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "gm1xmcdrvteelkgi"
+        },
+        {
+          "title": "6月",
+          "doc_id": "gm1xmcdrvteelkgi"
+        }
+      ],
+      "realName": "gm1xmcdrvteelkgi",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\6月\\gm1xmcdrvteelkgi.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\6月"
+    },
+    {
+      "id": 173583364,
+      "doc_id": "obr7vwumxdr170hy",
+      "updated": 1718284483000,
+      "properties": {
+        "title": "6.3 学历差，就不能学计算机？扯",
+        "urlname": "obr7vwumxdr170hy",
+        "date": "2024-06-13 21:14:36",
+        "updated": "2024-06-13 21:14:43",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1717507741102-eba64c0a-1c3f-474c-b789-9fbd816c8ac3.png",
+        "description": "大家好，我是白露。最近看到一篇帖子，不得不跟大家好好唠嗑唠嗑！这位网友说“真别学计算机了，计算机真是天坑，学历差的真别学了。”然后列举了一些看似正确，实则站不住脚的观点，xs。这话可以说是让我瞠目结舌。今天，白露就好好聊一聊，希望能给大家一些清醒的思考。学历与能力：别总拿学历说事儿没错，学历的..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "obr7vwumxdr170hy"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "obr7vwumxdr170hy"
+        },
+        {
+          "title": "6月",
+          "doc_id": "obr7vwumxdr170hy"
+        }
+      ],
+      "realName": "obr7vwumxdr170hy",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\6月\\obr7vwumxdr170hy.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\6月"
+    },
+    {
+      "id": 173583363,
+      "doc_id": "ozxzm57oyh321uc5",
+      "updated": 1718284483000,
+      "properties": {
+        "title": "6.7 这公司是怎么存活的？真的有存在的必要吗？",
+        "urlname": "ozxzm57oyh321uc5",
+        "date": "2024-06-13 21:14:36",
+        "updated": "2024-06-13 21:14:43",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1717773861686-657ff3fa-92b7-43ce-aebd-422a7365daff.png",
+        "description": "大家好，我是白露啊。昨天看到一个招聘经历的分享，简直让我怀疑人生。还能有这样的公司？对方HR说：“*** ，学习期间是单休，每天需要加班4-5小时，并且学习期间每天要写工作总结。该岗位的薪资5500元(已包含加班费)+300元全勤，提供食宿，吃饭5元一餐，住宿平摊水电费。”看到这里，大家是不是..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "ozxzm57oyh321uc5"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "ozxzm57oyh321uc5"
+        },
+        {
+          "title": "6月",
+          "doc_id": "ozxzm57oyh321uc5"
+        }
+      ],
+      "realName": "ozxzm57oyh321uc5",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\6月\\ozxzm57oyh321uc5.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\6月"
+    },
+    {
+      "id": 173583362,
+      "doc_id": "ot4hbnxm5dhsdeno",
+      "updated": 1718284483000,
+      "properties": {
+        "title": "6.6 请问开水(美)团除了开水还有什么？",
+        "urlname": "ot4hbnxm5dhsdeno",
+        "date": "2024-06-13 21:14:36",
+        "updated": "2024-06-13 21:14:43",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1717947356369-eacc68fd-b324-4150-917f-2f9465073b6c.png",
+        "description": "大家好，我是白露啊。开水团除了开水，还有啥惊喜呢？免费办公用品，舒适工作环境首先，你知道开水团还能领一些免费的办公用品吗？从基本的文具到高档的鼠标垫，开水团都为员工准备得妥妥的。一个高效的工作环境总是少不了这些小细节的支撑，让你的办公体验更加舒适。记得还有团团周边团团周边可是开水团的一大特色。..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "ot4hbnxm5dhsdeno"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "ot4hbnxm5dhsdeno"
+        },
+        {
+          "title": "6月",
+          "doc_id": "ot4hbnxm5dhsdeno"
+        }
+      ],
+      "realName": "ot4hbnxm5dhsdeno",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\6月\\ot4hbnxm5dhsdeno.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\6月"
+    },
+    {
+      "id": 173583360,
+      "doc_id": "pg7c69bwhhlk3otz",
+      "updated": 1718284483000,
+      "properties": {
+        "title": "6.11 重来一次，我还会选择计算机专业吗?",
+        "urlname": "pg7c69bwhhlk3otz",
+        "date": "2024-06-13 21:14:36",
+        "updated": "2024-06-13 21:14:43",
+        "description": "大家好，我是白露啊。 转眼间，我的年龄即将奔28了。回想起大学毕业时自己的样子，没想到时间过得这么快。 那时的我才23岁，后来选择继续读研，到26岁才完成学业。 大学时的我，是个风风火火的人，有想法、有干劲、有活力，觉得未来充满无限可能。 我参加了很多活动，并亲自作为负责人举办了全校规模的比赛..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "pg7c69bwhhlk3otz"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "pg7c69bwhhlk3otz"
+        },
+        {
+          "title": "6月",
+          "doc_id": "pg7c69bwhhlk3otz"
+        }
+      ],
+      "realName": "pg7c69bwhhlk3otz",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\6月\\pg7c69bwhhlk3otz.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\6月"
+    },
+    {
+      "id": 173583359,
+      "doc_id": "rufaif78psnb10tt",
+      "updated": 1718284903000,
+      "properties": {
+        "title": "6月",
+        "urlname": "rufaif78psnb10tt",
+        "date": "2024-06-13 21:14:35",
+        "updated": "2024-06-13 21:21:43",
+        "description": "---is_nav: falsenav_path: 2024_6skip_nav: false---",
+        "is_nav": false,
+        "nav_path": 20246,
+        "skip_nav": false
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "rufaif78psnb10tt"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "rufaif78psnb10tt"
+        }
+      ],
+      "realName": "rufaif78psnb10tt",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\rufaif78psnb10tt.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战"
+    },
+    {
+      "id": 173583371,
+      "doc_id": "gc18uuv6s0o0k5b0",
+      "updated": 1718284897000,
+      "properties": {
+        "title": "5 月",
+        "urlname": "gc18uuv6s0o0k5b0",
+        "date": "2024-06-13 21:14:36",
+        "updated": "2024-06-13 21:21:37",
+        "description": "---is_nav: falsenav_path: 2024_5skip_nav: false---",
+        "is_nav": false,
+        "nav_path": 20245,
+        "skip_nav": false
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "gc18uuv6s0o0k5b0"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "gc18uuv6s0o0k5b0"
+        }
+      ],
+      "realName": "gc18uuv6s0o0k5b0",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\gc18uuv6s0o0k5b0.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战"
     }
   ],
   "catalog": [
@@ -9132,7 +11026,7 @@
       "url": "bxxwzvxxq58cnace",
       "prev_uuid": "NcVLTZK8sE8hkJmb",
       "sibling_uuid": "zZqPxfRY2KNsrSyg",
-      "child_uuid": "QPZuxNGpOk4c4QaY",
+      "child_uuid": "fh7wwKngfBxfiChx",
       "parent_uuid": "uHCIfCp4Xzc-fCfY",
       "doc_id": 169649927,
       "level": 1,
@@ -9142,241 +11036,1186 @@
     },
     {
       "type": "DOC",
-      "title": "中科大研二：字节实习半年的感悟和求职经验",
-      "uuid": "QPZuxNGpOk4c4QaY",
-      "url": "buub55tu7bbikvld",
+      "title": "4 月",
+      "uuid": "fh7wwKngfBxfiChx",
+      "url": "bb1q96x83h9u96w2",
       "prev_uuid": "-4qV2TE5gTaU9pS4",
-      "sibling_uuid": "iLmk_c19aw4WwMHG",
-      "child_uuid": "",
+      "sibling_uuid": "PzcVTeQ3NXSBPXrT",
+      "child_uuid": "oCh7TINQ1eVgJlDK",
       "parent_uuid": "-4qV2TE5gTaU9pS4",
-      "doc_id": 173437802,
+      "doc_id": 173583405,
       "level": 2,
-      "id": 173437802,
+      "id": 173583405,
       "open_window": 1,
       "visible": 1
     },
     {
       "type": "DOC",
-      "title": "五一过半，我还在想春招……",
-      "uuid": "iLmk_c19aw4WwMHG",
-      "url": "cc58ryvs6giskhlh",
-      "prev_uuid": "QPZuxNGpOk4c4QaY",
-      "sibling_uuid": "9JfW7Jj8szSsSgD3",
+      "title": "4/30 五一过半，我还在想春招……",
+      "uuid": "oCh7TINQ1eVgJlDK",
+      "url": "sdq1t8gtsqk629g6",
+      "prev_uuid": "fh7wwKngfBxfiChx",
+      "sibling_uuid": "i3KCwZ6QefheHT0y",
       "child_uuid": "",
-      "parent_uuid": "-4qV2TE5gTaU9pS4",
-      "doc_id": 173437784,
-      "level": 2,
-      "id": 173437784,
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583406,
+      "level": 3,
+      "id": 173583406,
       "open_window": 1,
       "visible": 1
     },
     {
       "type": "DOC",
-      "title": "GPT-4o的发布，留给程序员的后路不多了。。。",
-      "uuid": "9JfW7Jj8szSsSgD3",
-      "url": "gvmgek2ntvo4wyla",
-      "prev_uuid": "iLmk_c19aw4WwMHG",
-      "sibling_uuid": "4V2VVZX5pR8pbUzx",
+      "title": "4/29 中科大研二：字节实习半年的感悟和求职经验",
+      "uuid": "i3KCwZ6QefheHT0y",
+      "url": "yle9x1mig3opkp9m",
+      "prev_uuid": "oCh7TINQ1eVgJlDK",
+      "sibling_uuid": "tdX6FuEFisdPAnkW",
       "child_uuid": "",
-      "parent_uuid": "-4qV2TE5gTaU9pS4",
-      "doc_id": 172297529,
-      "level": 2,
-      "id": 172297529,
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583408,
+      "level": 3,
+      "id": 173583408,
       "open_window": 1,
       "visible": 1
     },
     {
       "type": "DOC",
-      "title": "南开毕业：金三银四结束了，听说还有铜五铁六。。。",
-      "uuid": "4V2VVZX5pR8pbUzx",
-      "url": "yrbkwwlbtcrfg2eo",
-      "prev_uuid": "9JfW7Jj8szSsSgD3",
-      "sibling_uuid": "IsVY6WkXtpvtCT-f",
+      "title": "4/25 中科大：字节实习一年的感受，真的有点···",
+      "uuid": "tdX6FuEFisdPAnkW",
+      "url": "txa9sgikm5pac3cw",
+      "prev_uuid": "i3KCwZ6QefheHT0y",
+      "sibling_uuid": "VKEtGM06_Va5Nitm",
       "child_uuid": "",
-      "parent_uuid": "-4qV2TE5gTaU9pS4",
-      "doc_id": 172297519,
-      "level": 2,
-      "id": 172297519,
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583407,
+      "level": 3,
+      "id": 173583407,
       "open_window": 1,
       "visible": 1
     },
     {
       "type": "DOC",
-      "title": "8岁编程，20岁创业：GPT创始人的Sam Altman的简历。。。",
-      "uuid": "IsVY6WkXtpvtCT-f",
-      "url": "scme1ctt3pyyzs1i",
-      "prev_uuid": "4V2VVZX5pR8pbUzx",
-      "sibling_uuid": "ylZQhVAGm7B3vQMK",
+      "title": "4/26 真香！腾讯拿到SP了！",
+      "uuid": "VKEtGM06_Va5Nitm",
+      "url": "bw0l9y2hx0qxc9w2",
+      "prev_uuid": "tdX6FuEFisdPAnkW",
+      "sibling_uuid": "8WQn1smswqgEBEZC",
       "child_uuid": "",
-      "parent_uuid": "-4qV2TE5gTaU9pS4",
-      "doc_id": 172297503,
-      "level": 2,
-      "id": 172297503,
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583409,
+      "level": 3,
+      "id": 173583409,
       "open_window": 1,
       "visible": 1
     },
     {
       "type": "DOC",
-      "title": "回寒啦，今年的工作比明年好找。。",
-      "uuid": "ylZQhVAGm7B3vQMK",
-      "url": "zouc7aqee7u20lls",
-      "prev_uuid": "IsVY6WkXtpvtCT-f",
-      "sibling_uuid": "z4O2OsIeq4pjkgtD",
+      "title": "4/27 双非本科自述: 无竞赛国奖,怎么逆袭腾讯字节",
+      "uuid": "8WQn1smswqgEBEZC",
+      "url": "obtempoe5ennystv",
+      "prev_uuid": "VKEtGM06_Va5Nitm",
+      "sibling_uuid": "ju67xxuuyuUp7rLQ",
       "child_uuid": "",
-      "parent_uuid": "-4qV2TE5gTaU9pS4",
-      "doc_id": 172297487,
-      "level": 2,
-      "id": 172297487,
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583410,
+      "level": 3,
+      "id": 173583410,
       "open_window": 1,
       "visible": 1
     },
     {
       "type": "DOC",
-      "title": "8个面试，已经给了6个offer了，我该咋办。。",
-      "uuid": "z4O2OsIeq4pjkgtD",
-      "url": "kcwknubn2nu1tncf",
-      "prev_uuid": "ylZQhVAGm7B3vQMK",
-      "sibling_uuid": "7GuPzcNDW5FOLXq8",
+      "title": "4/24 哭了，没找到暑期实习，真的会耽误秋招上岸吗？",
+      "uuid": "ju67xxuuyuUp7rLQ",
+      "url": "aq1212cxh4z9k8st",
+      "prev_uuid": "8WQn1smswqgEBEZC",
+      "sibling_uuid": "qJZuNyNwvQ7cRsJC",
       "child_uuid": "",
-      "parent_uuid": "-4qV2TE5gTaU9pS4",
-      "doc_id": 172297317,
-      "level": 2,
-      "id": 172297317,
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583412,
+      "level": 3,
+      "id": 173583412,
       "open_window": 1,
       "visible": 1
     },
     {
       "type": "DOC",
-      "title": "淘宝618，不如拼多多，揭秘拼多多薪资体系",
-      "uuid": "7GuPzcNDW5FOLXq8",
-      "url": "lscxstnfwd5ag0u8",
-      "prev_uuid": "z4O2OsIeq4pjkgtD",
-      "sibling_uuid": "rFrnJqZx_Ka0dFae",
+      "title": "4/23 阿里云又崩啦！一次逆天的技术拷打",
+      "uuid": "qJZuNyNwvQ7cRsJC",
+      "url": "qg3mrber4se3u9fy",
+      "prev_uuid": "ju67xxuuyuUp7rLQ",
+      "sibling_uuid": "BCtcptDonWtaCu6h",
       "child_uuid": "",
-      "parent_uuid": "-4qV2TE5gTaU9pS4",
-      "doc_id": 172297134,
-      "level": 2,
-      "id": 172297134,
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583411,
+      "level": 3,
+      "id": 173583411,
       "open_window": 1,
       "visible": 1
     },
     {
       "type": "DOC",
-      "title": "一个年薪80w+的方向，我也入局了。。。",
-      "uuid": "rFrnJqZx_Ka0dFae",
-      "url": "dhg2ldsqrlvc6xcd",
-      "prev_uuid": "7GuPzcNDW5FOLXq8",
-      "sibling_uuid": "ujym5tuxht69IwBX",
+      "title": "4/22 清华毕业，细数24年秋招的艰辛与无用功",
+      "uuid": "BCtcptDonWtaCu6h",
+      "url": "qg6w5i80r8ydt744",
+      "prev_uuid": "qJZuNyNwvQ7cRsJC",
+      "sibling_uuid": "aXqAG4OtOaLIAAsh",
       "child_uuid": "",
-      "parent_uuid": "-4qV2TE5gTaU9pS4",
-      "doc_id": 172297114,
-      "level": 2,
-      "id": 172297114,
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583414,
+      "level": 3,
+      "id": 173583414,
       "open_window": 1,
       "visible": 1
     },
     {
       "type": "DOC",
-      "title": "618还没过，京东就“暴雷”了！",
-      "uuid": "ujym5tuxht69IwBX",
-      "url": "gsng0pgo5y245ygx",
-      "prev_uuid": "rFrnJqZx_Ka0dFae",
-      "sibling_uuid": "GT_wDMljE7N3kNv6",
+      "title": "4/21 六个月滴滴实习：轻松、舒心又高薪！",
+      "uuid": "aXqAG4OtOaLIAAsh",
+      "url": "yz0tvggwqsckul9e",
+      "prev_uuid": "BCtcptDonWtaCu6h",
+      "sibling_uuid": "bgp16nudsEF5MSxf",
       "child_uuid": "",
-      "parent_uuid": "-4qV2TE5gTaU9pS4",
-      "doc_id": 172297098,
-      "level": 2,
-      "id": 172297098,
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583413,
+      "level": 3,
+      "id": 173583413,
       "open_window": 1,
       "visible": 1
     },
     {
       "type": "DOC",
-      "title": "寒冬来了，字节跳动开启裁员新模式。。",
-      "uuid": "GT_wDMljE7N3kNv6",
-      "url": "iy3ow1ezfmsag9ss",
-      "prev_uuid": "ujym5tuxht69IwBX",
-      "sibling_uuid": "2xh2xYL6F1m9lNkx",
+      "title": "4/20 双非研一退学转IT 专业，做对了什么？",
+      "uuid": "bgp16nudsEF5MSxf",
+      "url": "vc2soai9wm3g7xyz",
+      "prev_uuid": "aXqAG4OtOaLIAAsh",
+      "sibling_uuid": "aOYf6Tj31MAIFHOB",
       "child_uuid": "",
-      "parent_uuid": "-4qV2TE5gTaU9pS4",
-      "doc_id": 172297086,
-      "level": 2,
-      "id": 172297086,
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583415,
+      "level": 3,
+      "id": 173583415,
       "open_window": 1,
       "visible": 1
     },
     {
       "type": "DOC",
-      "title": "从字节跳槽去国企，我真的很后悔了。",
-      "uuid": "2xh2xYL6F1m9lNkx",
-      "url": "amcblwr7a9guid6w",
-      "prev_uuid": "GT_wDMljE7N3kNv6",
-      "sibling_uuid": "BbdznnrGX9cNtRRw",
+      "title": "4/19 985毕业生:至今0 offer，深夜无眠",
+      "uuid": "aOYf6Tj31MAIFHOB",
+      "url": "ar2e2voeocrtbpio",
+      "prev_uuid": "bgp16nudsEF5MSxf",
+      "sibling_uuid": "O9qbsITFJb5AHtT4",
       "child_uuid": "",
-      "parent_uuid": "-4qV2TE5gTaU9pS4",
-      "doc_id": 172297064,
-      "level": 2,
-      "id": 172297064,
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583417,
+      "level": 3,
+      "id": 173583417,
       "open_window": 1,
       "visible": 1
     },
     {
       "type": "DOC",
-      "title": "计算机专业的爽了，彻底爽了",
-      "uuid": "BbdznnrGX9cNtRRw",
-      "url": "liy20bi3n4zh2mt4",
-      "prev_uuid": "2xh2xYL6F1m9lNkx",
-      "sibling_uuid": "N5w8r2cRGHU3ekZz",
+      "title": "4/18 4月阿里offer被毁，我该怎么进字节？",
+      "uuid": "O9qbsITFJb5AHtT4",
+      "url": "qr3clvvbzi9cg2gh",
+      "prev_uuid": "aOYf6Tj31MAIFHOB",
+      "sibling_uuid": "eKkrgCA5hJeq9TRd",
       "child_uuid": "",
-      "parent_uuid": "-4qV2TE5gTaU9pS4",
-      "doc_id": 172297060,
-      "level": 2,
-      "id": 172297060,
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583419,
+      "level": 3,
+      "id": 173583419,
       "open_window": 1,
       "visible": 1
     },
     {
       "type": "DOC",
-      "title": "不愧是华为，这个薪资离谱了。。",
-      "uuid": "N5w8r2cRGHU3ekZz",
-      "url": "nk7m2uu3apsleh2l",
-      "prev_uuid": "BbdznnrGX9cNtRRw",
-      "sibling_uuid": "f7oyQrGlmpaY6Inh",
+      "title": "4/17 TODO 如果校招重来我最想改变的事情",
+      "uuid": "eKkrgCA5hJeq9TRd",
+      "url": "lgawhfx8pq2slyko",
+      "prev_uuid": "O9qbsITFJb5AHtT4",
+      "sibling_uuid": "4kQqyuwQFyL119_p",
       "child_uuid": "",
-      "parent_uuid": "-4qV2TE5gTaU9pS4",
-      "doc_id": 172297049,
-      "level": 2,
-      "id": 172297049,
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583416,
+      "level": 3,
+      "id": 173583416,
+      "open_window": 1,
+      "visible": 0
+    },
+    {
+      "type": "DOC",
+      "title": "4/16 又一个公司要倒下了：从洗脑广告到裁员风波",
+      "uuid": "4kQqyuwQFyL119_p",
+      "url": "iv993phgec0ybt41",
+      "prev_uuid": "eKkrgCA5hJeq9TRd",
+      "sibling_uuid": "Itd6TbrgftYNkHIo",
+      "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583420,
+      "level": 3,
+      "id": 173583420,
       "open_window": 1,
       "visible": 1
     },
     {
       "type": "DOC",
-      "title": "这。。24届毕业生24.9%学生0 Offer？",
-      "uuid": "f7oyQrGlmpaY6Inh",
-      "url": "lgc0p6snsd16q6ex",
-      "prev_uuid": "N5w8r2cRGHU3ekZz",
-      "sibling_uuid": "8xQV3KD43me50ysV",
+      "title": "4/15 腾讯面试官考了我Spring的AOP",
+      "uuid": "Itd6TbrgftYNkHIo",
+      "url": "gq8mqmknp0ciuwvr",
+      "prev_uuid": "4kQqyuwQFyL119_p",
+      "sibling_uuid": "Ahqaf-xgZESE0JwH",
       "child_uuid": "",
-      "parent_uuid": "-4qV2TE5gTaU9pS4",
-      "doc_id": 172297037,
-      "level": 2,
-      "id": 172297037,
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583421,
+      "level": 3,
+      "id": 173583421,
       "open_window": 1,
       "visible": 1
     },
     {
       "type": "DOC",
-      "title": "夸张，腾讯实习三个月，存款20W+",
-      "uuid": "8xQV3KD43me50ysV",
-      "url": "fm8c5ygvfskes395",
-      "prev_uuid": "f7oyQrGlmpaY6Inh",
+      "title": "4/13 腾讯一面：HTTP和HTTPS我终于搞明白了！",
+      "uuid": "Ahqaf-xgZESE0JwH",
+      "url": "gggqtyot9c91og42",
+      "prev_uuid": "Itd6TbrgftYNkHIo",
+      "sibling_uuid": "J4uvEPBpl_KDNfJS",
+      "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583422,
+      "level": 3,
+      "id": 173583422,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "4/14 无offer，但有所得：美团技术中心面试心得分享",
+      "uuid": "J4uvEPBpl_KDNfJS",
+      "url": "pic89gwlv72y59qo",
+      "prev_uuid": "Ahqaf-xgZESE0JwH",
+      "sibling_uuid": "GK2OwyQNtbPrfhj9",
+      "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583423,
+      "level": 3,
+      "id": 173583423,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "4/12  美团技术部一面深度解析：后端开发岗位你能答对几题？",
+      "uuid": "GK2OwyQNtbPrfhj9",
+      "url": "dnb52x3dyoscmwyw",
+      "prev_uuid": "J4uvEPBpl_KDNfJS",
+      "sibling_uuid": "TqnFErzagRqHqLN5",
+      "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583424,
+      "level": 3,
+      "id": 173583424,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "4/11 百度| 三面凉经：百度Go实习生技术面试实录",
+      "uuid": "TqnFErzagRqHqLN5",
+      "url": "semmykgoba7owx89",
+      "prev_uuid": "GK2OwyQNtbPrfhj9",
+      "sibling_uuid": "Ra93CmLG4dOZoM3g",
+      "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583425,
+      "level": 3,
+      "id": 173583425,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "4/10 一面成教训! 腾讯PCG后台开发面试官的“善意”追问！",
+      "uuid": "Ra93CmLG4dOZoM3g",
+      "url": "cpkt2rm3gl36g4if",
+      "prev_uuid": "TqnFErzagRqHqLN5",
+      "sibling_uuid": "wA3sQ_gk-K7wJz2u",
+      "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583426,
+      "level": 3,
+      "id": 173583426,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "4/9 折磨！一小时面试如深渊试炼，拼多多的暗黑挑战",
+      "uuid": "wA3sQ_gk-K7wJz2u",
+      "url": "aqgngfkdutop1k94",
+      "prev_uuid": "Ra93CmLG4dOZoM3g",
+      "sibling_uuid": "9y6C7_7AmTZ3Qx7q",
+      "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583428,
+      "level": 3,
+      "id": 173583428,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "4/8 美团实习转正面试···过了！",
+      "uuid": "9y6C7_7AmTZ3Qx7q",
+      "url": "syvcyt4o14hzg9fm",
+      "prev_uuid": "wA3sQ_gk-K7wJz2u",
+      "sibling_uuid": "9Iwkpgwm-YNmk0B2",
+      "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583427,
+      "level": 3,
+      "id": 173583427,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "4/7 小米 C++ | 小米Su7 面经分享~",
+      "uuid": "9Iwkpgwm-YNmk0B2",
+      "url": "oklf57y328g00vpa",
+      "prev_uuid": "9y6C7_7AmTZ3Qx7q",
+      "sibling_uuid": "385xRGbPr-vRlT8Y",
+      "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583429,
+      "level": 3,
+      "id": 173583429,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "4/6 字节三面真刺激！前端都这么难？",
+      "uuid": "385xRGbPr-vRlT8Y",
+      "url": "fvstr3qzo7gqguok",
+      "prev_uuid": "9Iwkpgwm-YNmk0B2",
+      "sibling_uuid": "bI9dKGIL9ujfhtVJ",
+      "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583430,
+      "level": 3,
+      "id": 173583430,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "4/5 美团：“轻松”！深入JVM和MySQL，美团优选事业群一面你准备好了吗？",
+      "uuid": "bI9dKGIL9ujfhtVJ",
+      "url": "oo90yhzkwk34410x",
+      "prev_uuid": "385xRGbPr-vRlT8Y",
+      "sibling_uuid": "mrnBInzPrC50_JCN",
+      "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583431,
+      "level": 3,
+      "id": 173583431,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "4/4 滴滴后端：太深入了！面试滴滴存储后端，我被这些问题问住了！",
+      "uuid": "mrnBInzPrC50_JCN",
+      "url": "ip5m72cycgk48xo6",
+      "prev_uuid": "bI9dKGIL9ujfhtVJ",
+      "sibling_uuid": "Ll_f6_KPJ4cfyGQ7",
+      "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583432,
+      "level": 3,
+      "id": 173583432,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "4/3 蚂蚁一面：揭秘蚂蚁一面：你真的懂MySQL和Redis吗？",
+      "uuid": "Ll_f6_KPJ4cfyGQ7",
+      "url": "trklqv1f6ekrnrnl",
+      "prev_uuid": "mrnBInzPrC50_JCN",
+      "sibling_uuid": "_QrIMgP6ZX90wQe1",
+      "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583433,
+      "level": 3,
+      "id": 173583433,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "4/2 腾讯PCG一：问麻了！腾讯一面究竟问了什么？从HTTP到算法····",
+      "uuid": "_QrIMgP6ZX90wQe1",
+      "url": "iok9gzmat6hudv1t",
+      "prev_uuid": "Ll_f6_KPJ4cfyGQ7",
+      "sibling_uuid": "Rc06JGU-XE710k-A",
+      "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583435,
+      "level": 3,
+      "id": 173583435,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "4/2 腾讯PCG二面：技术深度不够？腾讯PCG面试问到你怕了没？",
+      "uuid": "Rc06JGU-XE710k-A",
+      "url": "cslqxxvst26d0tw7",
+      "prev_uuid": "_QrIMgP6ZX90wQe1",
+      "sibling_uuid": "s2BZOIxkeIEQDwLR",
+      "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583436,
+      "level": 3,
+      "id": 173583436,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "4/1 背刺！春招B站一面，这些问题你都会吗？",
+      "uuid": "s2BZOIxkeIEQDwLR",
+      "url": "bubs1avkkli85tbn",
+      "prev_uuid": "Rc06JGU-XE710k-A",
+      "sibling_uuid": "bXDv_ObxaLZQXbSA",
+      "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583437,
+      "level": 3,
+      "id": 173583437,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "3/31 蚂蚁集团Java一面，不只是技术问题，还有系统设计的深度拷问！",
+      "uuid": "bXDv_ObxaLZQXbSA",
+      "url": "ye5hk2gzoaeh95us",
+      "prev_uuid": "s2BZOIxkeIEQDwLR",
+      "sibling_uuid": "W-oEjNYPnGodM2oy",
+      "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583441,
+      "level": 3,
+      "id": 173583441,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "3/30 天崩开局😭！两个小时！美团一面！",
+      "uuid": "W-oEjNYPnGodM2oy",
+      "url": "xvs38ptqpq63en6m",
+      "prev_uuid": "bXDv_ObxaLZQXbSA",
+      "sibling_uuid": "bgKYGoy3eLVww_4J",
+      "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583443,
+      "level": 3,
+      "id": 173583443,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "3/29 打穿！得物青训营Golang面试全记录！",
+      "uuid": "bgKYGoy3eLVww_4J",
+      "url": "hknd17h7i6hsgxwg",
+      "prev_uuid": "W-oEjNYPnGodM2oy",
+      "sibling_uuid": "0FR2TQjaVnzGFWOP",
+      "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583442,
+      "level": 3,
+      "id": 173583442,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "3/28 太难了！深入语言核心！腾讯视频后台开发一面经验分享",
+      "uuid": "0FR2TQjaVnzGFWOP",
+      "url": "vkm0wmtadabu45qk",
+      "prev_uuid": "bgKYGoy3eLVww_4J",
+      "sibling_uuid": "URANvYq8d0dfVVna",
+      "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583444,
+      "level": 3,
+      "id": 173583444,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "3/26 太简单了! 平平无奇的美团二面！",
+      "uuid": "URANvYq8d0dfVVna",
+      "url": "gcdzehnfhoqrwpdu",
+      "prev_uuid": "0FR2TQjaVnzGFWOP",
+      "sibling_uuid": "GADb7_fVhJtSgDBM",
+      "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583445,
+      "level": 3,
+      "id": 173583445,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "3/27 太难了！阿里云面试令人发指！",
+      "uuid": "GADb7_fVhJtSgDBM",
+      "url": "tuvfdu72a3uvmdt1",
+      "prev_uuid": "URANvYq8d0dfVVna",
       "sibling_uuid": "",
       "child_uuid": "",
+      "parent_uuid": "fh7wwKngfBxfiChx",
+      "doc_id": 173583446,
+      "level": 3,
+      "id": 173583446,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5 月",
+      "uuid": "PzcVTeQ3NXSBPXrT",
+      "url": "gc18uuv6s0o0k5b0",
+      "prev_uuid": "fh7wwKngfBxfiChx",
+      "sibling_uuid": "pPPzDRd6r7P6pM03",
+      "child_uuid": "gYH532gjcFkAWHKj",
       "parent_uuid": "-4qV2TE5gTaU9pS4",
-      "doc_id": 172296928,
+      "doc_id": 173583371,
       "level": 2,
-      "id": 172296928,
+      "id": 173583371,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.31 这。。24届毕业生24.9%学生0 Offer？",
+      "uuid": "gYH532gjcFkAWHKj",
+      "url": "fi7t6871nzglh4zr",
+      "prev_uuid": "PzcVTeQ3NXSBPXrT",
+      "sibling_uuid": "RWtWuWUMaSAlbAhF",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583375,
+      "level": 3,
+      "id": 173583375,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.32 不愧是华为，这个薪资离谱了。。",
+      "uuid": "RWtWuWUMaSAlbAhF",
+      "url": "giwtq6xgghxutcwr",
+      "prev_uuid": "gYH532gjcFkAWHKj",
+      "sibling_uuid": "-IF1yfntVfaOmKYc",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583376,
+      "level": 3,
+      "id": 173583376,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.22 计算机专业的爽了，彻底爽了",
+      "uuid": "-IF1yfntVfaOmKYc",
+      "url": "gals8do4o84olthy",
+      "prev_uuid": "RWtWuWUMaSAlbAhF",
+      "sibling_uuid": "UMmJ26S-U3ppiNhm",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583377,
+      "level": 3,
+      "id": 173583377,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.30 从字节跳槽去国企，我真的很后悔了。",
+      "uuid": "UMmJ26S-U3ppiNhm",
+      "url": "guhokgyv4b2gngzx",
+      "prev_uuid": "-IF1yfntVfaOmKYc",
+      "sibling_uuid": "RlECf1nVJicb3X99",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583378,
+      "level": 3,
+      "id": 173583378,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.19 终于轮到我选大厂offer了！",
+      "uuid": "RlECf1nVJicb3X99",
+      "url": "bsh2qrgcc6d9wg01",
+      "prev_uuid": "UMmJ26S-U3ppiNhm",
+      "sibling_uuid": "LCrNeVEbukMrwE7o",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583379,
+      "level": 3,
+      "id": 173583379,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.29 寒冬来了，字节跳动开启裁员新模式。。",
+      "uuid": "LCrNeVEbukMrwE7o",
+      "url": "xkmfsfmiumxogo0z",
+      "prev_uuid": "RlECf1nVJicb3X99",
+      "sibling_uuid": "AlqXsf4JY6GOadHe",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583380,
+      "level": 3,
+      "id": 173583380,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "0528——618还没过，京东就“暴雷”了！",
+      "uuid": "AlqXsf4JY6GOadHe",
+      "url": "yq9gp8ec15blqt55",
+      "prev_uuid": "LCrNeVEbukMrwE7o",
+      "sibling_uuid": "QpgYBn0izVeZ8CQC",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583382,
+      "level": 3,
+      "id": 173583382,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.23 一个年薪80w+的方向，我也入局了。。。",
+      "uuid": "QpgYBn0izVeZ8CQC",
+      "url": "gqkotrulk2fbi053",
+      "prev_uuid": "AlqXsf4JY6GOadHe",
+      "sibling_uuid": "eW-BHyd3-GG99Qaf",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583381,
+      "level": 3,
+      "id": 173583381,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.21 淘宝618，不如拼多多，揭秘拼多多薪资体系",
+      "uuid": "eW-BHyd3-GG99Qaf",
+      "url": "lo1umogty242l1pn",
+      "prev_uuid": "QpgYBn0izVeZ8CQC",
+      "sibling_uuid": "FVWDLByZzEmxWk80",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583383,
+      "level": 3,
+      "id": 173583383,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.20 8个面试，已经给了6个offer了，我该咋办。。",
+      "uuid": "FVWDLByZzEmxWk80",
+      "url": "iuxt4arg489m7mmr",
+      "prev_uuid": "eW-BHyd3-GG99Qaf",
+      "sibling_uuid": "kv3tKrqEY1EfVnZF",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583385,
+      "level": 3,
+      "id": 173583385,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.18 双 9 科班：实习难求，认命，总结，反思。。。",
+      "uuid": "kv3tKrqEY1EfVnZF",
+      "url": "ir4p81l1hm0s13hm",
+      "prev_uuid": "FVWDLByZzEmxWk80",
+      "sibling_uuid": "mjHfmiAYZyMpAxNS",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583384,
+      "level": 3,
+      "id": 173583384,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.17 回寒啦，今年的工作比明年好找。。",
+      "uuid": "mjHfmiAYZyMpAxNS",
+      "url": "uhb41g1tpsf7cbqo",
+      "prev_uuid": "kv3tKrqEY1EfVnZF",
+      "sibling_uuid": "DPTo_XvvqfroBSlR",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583388,
+      "level": 3,
+      "id": 173583388,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.16 8岁编程，20岁创业：GPT创始人的Sam Altman的简历。。。",
+      "uuid": "DPTo_XvvqfroBSlR",
+      "url": "mbh6cq201quvnvv8",
+      "prev_uuid": "mjHfmiAYZyMpAxNS",
+      "sibling_uuid": "eiFmwRg5iAagjq7e",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583387,
+      "level": 3,
+      "id": 173583387,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.14 南开毕业：金三银四结束了，听说还有铜五铁六。。。",
+      "uuid": "eiFmwRg5iAagjq7e",
+      "url": "nd0ixdhsozud7vuy",
+      "prev_uuid": "DPTo_XvvqfroBSlR",
+      "sibling_uuid": "tONU-SiLFls4uMix",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583386,
+      "level": 3,
+      "id": 173583386,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.13 GPT-4o的发布，留给程序员的后路不多了。。。",
+      "uuid": "tONU-SiLFls4uMix",
+      "url": "gz4ygukzz7p6k1rg",
+      "prev_uuid": "eiFmwRg5iAagjq7e",
+      "sibling_uuid": "Jvl6XyBYB9-TauJH",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583389,
+      "level": 3,
+      "id": 173583389,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.13 打工人最爱！生产力*5倍的GPT 4，无需网络！半价！",
+      "uuid": "Jvl6XyBYB9-TauJH",
+      "url": "no39xdu8bghyabg9",
+      "prev_uuid": "tONU-SiLFls4uMix",
+      "sibling_uuid": "03XgAftRoPpi35sb",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583390,
+      "level": 3,
+      "id": 173583390,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.12 在国企工作的人。。。躺平了吗？",
+      "uuid": "03XgAftRoPpi35sb",
+      "url": "ri9ghkuk8bxsazsi",
+      "prev_uuid": "Jvl6XyBYB9-TauJH",
+      "sibling_uuid": "0fPiRLydsoSeG7ci",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583392,
+      "level": 3,
+      "id": 173583392,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "无标题文档",
+      "uuid": "0fPiRLydsoSeG7ci",
+      "url": "ozc0nm6ghq8ome67",
+      "prev_uuid": "03XgAftRoPpi35sb",
+      "sibling_uuid": "4DbS6bX9XTyYt6OW",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583391,
+      "level": 3,
+      "id": 173583391,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.11 华中科大:感谢大家，我的春招之旅结束了",
+      "uuid": "4DbS6bX9XTyYt6OW",
+      "url": "agprzvnqlb1k3fdc",
+      "prev_uuid": "0fPiRLydsoSeG7ci",
+      "sibling_uuid": "XKc_YG65AiLtlB8w",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583393,
+      "level": 3,
+      "id": 173583393,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.10 百度女公关璩静，发短视频弄丢千万年薪工作。。",
+      "uuid": "XKc_YG65AiLtlB8w",
+      "url": "ltb7vneuipd9n7u3",
+      "prev_uuid": "4DbS6bX9XTyYt6OW",
+      "sibling_uuid": "634-XTL8gQb9WhO4",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583394,
+      "level": 3,
+      "id": 173583394,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.9 快手营收千亿，薪资60W。。能去吗",
+      "uuid": "634-XTL8gQb9WhO4",
+      "url": "hk6rh30pvkk1rszw",
+      "prev_uuid": "XKc_YG65AiLtlB8w",
+      "sibling_uuid": "A4YeP8KidmittTnP",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583395,
+      "level": 3,
+      "id": 173583395,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.8 华为校招上岸50w？揭秘华为职级薪资体系。。",
+      "uuid": "A4YeP8KidmittTnP",
+      "url": "ypafbgby31t8s0ek",
+      "prev_uuid": "634-XTL8gQb9WhO4",
+      "sibling_uuid": "SXbHBzQrZVcuJdMq",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583396,
+      "level": 3,
+      "id": 173583396,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.7 字节薪资解密。。张一鸣啥等级？",
+      "uuid": "SXbHBzQrZVcuJdMq",
+      "url": "vee4zpgz7mnpyi9h",
+      "prev_uuid": "A4YeP8KidmittTnP",
+      "sibling_uuid": "kj2vcvM6sTCwv7yr",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583397,
+      "level": 3,
+      "id": 173583397,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.6 从 0 offer 到春招上岸，我只做了这一个决定...",
+      "uuid": "kj2vcvM6sTCwv7yr",
+      "url": "nirofi8i3qi3o30w",
+      "prev_uuid": "SXbHBzQrZVcuJdMq",
+      "sibling_uuid": "GrLK8IsLRqaHamVf",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583399,
+      "level": 3,
+      "id": 173583399,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5.5 60*13薪，外包到新疆...去吗？",
+      "uuid": "GrLK8IsLRqaHamVf",
+      "url": "oaqqha6cgfddogpl",
+      "prev_uuid": "kj2vcvM6sTCwv7yr",
+      "sibling_uuid": "EB-0W_CtuiKngGIz",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583398,
+      "level": 3,
+      "id": 173583398,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5/4 清华毕业：今年的暑期实习很不乐观···",
+      "uuid": "EB-0W_CtuiKngGIz",
+      "url": "puv1lz3y958v4ies",
+      "prev_uuid": "GrLK8IsLRqaHamVf",
+      "sibling_uuid": "QdXVlh7KX7YRKFH9",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583401,
+      "level": 3,
+      "id": 173583401,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5/3 学弟学妹听劝，谨慎选后端！要选…",
+      "uuid": "QdXVlh7KX7YRKFH9",
+      "url": "ant8ga6buh1zbg0q",
+      "prev_uuid": "EB-0W_CtuiKngGIz",
+      "sibling_uuid": "vnBtxyyoa1TihEVq",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583404,
+      "level": 3,
+      "id": 173583404,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5/2 美团实习",
+      "uuid": "vnBtxyyoa1TihEVq",
+      "url": "rflb7oxc3ugweal0",
+      "prev_uuid": "QdXVlh7KX7YRKFH9",
+      "sibling_uuid": "omMS8vSIXFg7fzzC",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583402,
+      "level": 3,
+      "id": 173583402,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5/1 来看看阿里今年的年终奖···",
+      "uuid": "omMS8vSIXFg7fzzC",
+      "url": "dckfr4w455txftuh",
+      "prev_uuid": "vnBtxyyoa1TihEVq",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "PzcVTeQ3NXSBPXrT",
+      "doc_id": 173583403,
+      "level": 3,
+      "id": 173583403,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "6月",
+      "uuid": "pPPzDRd6r7P6pM03",
+      "url": "rufaif78psnb10tt",
+      "prev_uuid": "PzcVTeQ3NXSBPXrT",
+      "sibling_uuid": "",
+      "child_uuid": "nYSaMBAdHhGSoM_C",
+      "parent_uuid": "-4qV2TE5gTaU9pS4",
+      "doc_id": 173583359,
+      "level": 2,
+      "id": 173583359,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "6.11 重来一次，我还会选择计算机专业吗?",
+      "uuid": "nYSaMBAdHhGSoM_C",
+      "url": "pg7c69bwhhlk3otz",
+      "prev_uuid": "pPPzDRd6r7P6pM03",
+      "sibling_uuid": "fKhbESdU994RDYWU",
+      "child_uuid": "",
+      "parent_uuid": "pPPzDRd6r7P6pM03",
+      "doc_id": 173583360,
+      "level": 3,
+      "id": 173583360,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "6.10 双非本科一年20w，已是人中龙凤了",
+      "uuid": "fKhbESdU994RDYWU",
+      "url": "bo3u73tfp6ek94n6",
+      "prev_uuid": "nYSaMBAdHhGSoM_C",
+      "sibling_uuid": "ZHqQKzVkP5_WBQL5",
+      "child_uuid": "",
+      "parent_uuid": "pPPzDRd6r7P6pM03",
+      "doc_id": 173583366,
+      "level": 3,
+      "id": 173583366,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "6.6 请问开水(美)团除了开水还有什么？",
+      "uuid": "ZHqQKzVkP5_WBQL5",
+      "url": "ot4hbnxm5dhsdeno",
+      "prev_uuid": "fKhbESdU994RDYWU",
+      "sibling_uuid": "dmNa_6qGsVTsN5Ky",
+      "child_uuid": "",
+      "parent_uuid": "pPPzDRd6r7P6pM03",
+      "doc_id": 173583362,
+      "level": 3,
+      "id": 173583362,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "6.9 小公司要求真高",
+      "uuid": "dmNa_6qGsVTsN5Ky",
+      "url": "chzybsqqhaq6arob",
+      "prev_uuid": "ZHqQKzVkP5_WBQL5",
+      "sibling_uuid": "Kns1sOcCsf7dBewC",
+      "child_uuid": "",
+      "parent_uuid": "pPPzDRd6r7P6pM03",
+      "doc_id": 173583367,
+      "level": 3,
+      "id": 173583367,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "6.8 阎王爷背上是不是纹的拼多多？",
+      "uuid": "Kns1sOcCsf7dBewC",
+      "url": "ab8nllkdlh7p3inz",
+      "prev_uuid": "dmNa_6qGsVTsN5Ky",
+      "sibling_uuid": "vfBPzzJT70xsD_1-",
+      "child_uuid": "",
+      "parent_uuid": "pPPzDRd6r7P6pM03",
+      "doc_id": 173583368,
+      "level": 3,
+      "id": 173583368,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "6.3 学历差，就不能学计算机？扯",
+      "uuid": "vfBPzzJT70xsD_1-",
+      "url": "obr7vwumxdr170hy",
+      "prev_uuid": "Kns1sOcCsf7dBewC",
+      "sibling_uuid": "p8ejo6ZepTF-kZNS",
+      "child_uuid": "",
+      "parent_uuid": "pPPzDRd6r7P6pM03",
+      "doc_id": 173583364,
+      "level": 3,
+      "id": 173583364,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "6.7 这公司是怎么存活的？真的有存在的必要吗？",
+      "uuid": "p8ejo6ZepTF-kZNS",
+      "url": "ozxzm57oyh321uc5",
+      "prev_uuid": "vfBPzzJT70xsD_1-",
+      "sibling_uuid": "7rrE42CRhG5XR8_5",
+      "child_uuid": "",
+      "parent_uuid": "pPPzDRd6r7P6pM03",
+      "doc_id": 173583363,
+      "level": 3,
+      "id": 173583363,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "6.5 来腾讯第4天，我已经焦虑昏了啊！",
+      "uuid": "7rrE42CRhG5XR8_5",
+      "url": "gm1xmcdrvteelkgi",
+      "prev_uuid": "p8ejo6ZepTF-kZNS",
+      "sibling_uuid": "s6lU5y1abwkYcDDO",
+      "child_uuid": "",
+      "parent_uuid": "pPPzDRd6r7P6pM03",
+      "doc_id": 173583365,
+      "level": 3,
+      "id": 173583365,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "6.4 现在卷疯了，HR都怀疑人生，大二做三项目。。",
+      "uuid": "s6lU5y1abwkYcDDO",
+      "url": "lg7x0n2rrs6akt2r",
+      "prev_uuid": "7rrE42CRhG5XR8_5",
+      "sibling_uuid": "Rkr-m_lneiC9gZw9",
+      "child_uuid": "",
+      "parent_uuid": "pPPzDRd6r7P6pM03",
+      "doc_id": 173583373,
+      "level": 3,
+      "id": 173583373,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "6.2 美团实习，感觉部门很穷，要去吗？",
+      "uuid": "Rkr-m_lneiC9gZw9",
+      "url": "ami3m0g2n2amiklt",
+      "prev_uuid": "s6lU5y1abwkYcDDO",
+      "sibling_uuid": "Svfd9g61U7WtmurD",
+      "child_uuid": "",
+      "parent_uuid": "pPPzDRd6r7P6pM03",
+      "doc_id": 173583372,
+      "level": 3,
+      "id": 173583372,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "6.1 夸张，腾讯实习三个月，存款20W+",
+      "uuid": "Svfd9g61U7WtmurD",
+      "url": "waouohwqugquh410",
+      "prev_uuid": "Rkr-m_lneiC9gZw9",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "pPPzDRd6r7P6pM03",
+      "doc_id": 173583374,
+      "level": 3,
+      "id": 173583374,
       "open_window": 1,
       "visible": 1
     },

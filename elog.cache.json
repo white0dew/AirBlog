@@ -5927,6 +5927,36 @@
       "realName": "tfhlw8c5gubnwfsb",
       "relativePath": "\\📚 计算机基础\\操作系统\\tfhlw8c5gubnwfsb.md",
       "docPath": "docs\\doc\\📚 计算机基础\\操作系统"
+    },
+    {
+      "id": 170923230,
+      "doc_id": "txgyg1ibyrbxh81k",
+      "updated": 1718275731000,
+      "properties": {
+        "title": "4.计算机怎么启动的？",
+        "urlname": "txgyg1ibyrbxh81k",
+        "date": "2024-05-24 13:03:10",
+        "updated": "2024-06-13 18:48:51",
+        "cover": "https://cdn.nlark.com/yuque/0/2021/png/22382235/1628769545222-af9f1d70-32a7-43a5-9f99-2d32d3a34722.png",
+        "description": "我一直有一个疑惑——计算机到底是怎么启动的？而且似乎有点矛盾——要想启动，就必须运行程序，但是计算机没开机怎么加载和运行程序呢？为了解决这个矛盾，工程师终于想出将一小段程序固化进一块存储设备，电脑只要开机就会开始执行这段程序。并且上节课中提到了BIOS、GRUB、BootLoader等概念，与..."
+      },
+      "catalog": [
+        {
+          "title": "📚 计算机基础",
+          "doc_id": "txgyg1ibyrbxh81k"
+        },
+        {
+          "title": "操作系统",
+          "doc_id": "txgyg1ibyrbxh81k"
+        },
+        {
+          "title": "🔥《手写操作系统》",
+          "doc_id": "txgyg1ibyrbxh81k"
+        }
+      ],
+      "realName": "txgyg1ibyrbxh81k",
+      "relativePath": "\\📚 计算机基础\\操作系统\\🔥《手写操作系统》\\txgyg1ibyrbxh81k.md",
+      "docPath": "docs\\doc\\📚 计算机基础\\操作系统\\🔥《手写操作系统》"
     }
   ],
   "catalog": [
@@ -6243,7 +6273,7 @@
       "level": 3,
       "id": 170923230,
       "open_window": 0,
-      "visible": 0
+      "visible": 1
     },
     {
       "type": "DOC",

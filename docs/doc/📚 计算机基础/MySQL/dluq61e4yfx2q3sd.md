@@ -2,9 +2,10 @@
 title: MySQL必知必会
 urlname: dluq61e4yfx2q3sd
 date: '2024-05-24 12:12:25'
-updated: '2024-05-24 12:28:23'
-description: '---nav_path: mysql_basic---MySQL入门教程目录 简介与安装 什么是MySQLMySQL的特点和优势MySQL的应用场景安装MySQL配置MySQL启动与停止MySQL服务 基本操作 连接数据库创建和删除数据库创建和删除表插入、更新和删除数据 查询数据 基本查询语法...'
+updated: '2024-06-13 09:20:03'
+description: '---nav_path: mysql_basicskip_nav: false---MySQL入门教程目录 简介与安装 什么是MySQLMySQL的特点和优势MySQL的应用场景安装MySQL配置MySQL启动与停止MySQL服务 基本操作 连接数据库创建和删除数据库创建和删除表插入、更新和删...'
 nav_path: mysql_basic
+skip_nav: false
 ---
 ### MySQL入门教程
 

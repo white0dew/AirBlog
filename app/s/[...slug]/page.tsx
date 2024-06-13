@@ -118,7 +118,7 @@ export async function generateMetadata({
   params,
 }: Props): Promise<Metadata | undefined> {
   //   const curChapter = findChapter(ChapterTree, params.slug);
-  const curChapter = findChapter(ChapterTree, params.slug);
+  const curChapter = findChapterV2(ChapterList, params.slug);
   const curArticle = findPost(params.slug, curChapter);
 
   // 如果实在是找不到

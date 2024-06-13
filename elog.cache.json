@@ -1619,12 +1619,12 @@
     {
       "id": 170944181,
       "doc_id": "qf6b0vmagi3cbnbv",
-      "updated": 1718208284000,
+      "updated": 1718240355000,
       "properties": {
         "title": "🔥 MySQL面试必问（二）",
         "urlname": "qf6b0vmagi3cbnbv",
         "date": "2024-05-24 15:19:07",
-        "updated": "2024-06-13 00:04:44",
+        "updated": "2024-06-13 08:59:15",
         "description": "一、存储引擎MySQL有哪些常用的存储引擎？回答：InnoDB：默认存储引擎，支持ACID事务、外键、行级锁和自动崩溃恢复。适用于支持高并发事务处理和数据完整性要求高的应用。MyISAM：不支持事务和外键，使用表级锁，适用于读操作频繁、数据修改较少的应用。具有较高的读取性能。Memory：将数..."
       },
       "catalog": [
@@ -2697,14 +2697,15 @@
     {
       "id": 170921048,
       "doc_id": "dluq61e4yfx2q3sd",
-      "updated": 1716524903000,
+      "updated": 1718241603000,
       "properties": {
         "title": "MySQL必知必会",
         "urlname": "dluq61e4yfx2q3sd",
         "date": "2024-05-24 12:12:25",
-        "updated": "2024-05-24 12:28:23",
-        "description": "---nav_path: mysql_basic---MySQL入门教程目录 简介与安装 什么是MySQLMySQL的特点和优势MySQL的应用场景安装MySQL配置MySQL启动与停止MySQL服务 基本操作 连接数据库创建和删除数据库创建和删除表插入、更新和删除数据 查询数据 基本查询语法...",
-        "nav_path": "mysql_basic"
+        "updated": "2024-06-13 09:20:03",
+        "description": "---nav_path: mysql_basicskip_nav: false---MySQL入门教程目录 简介与安装 什么是MySQLMySQL的特点和优势MySQL的应用场景安装MySQL配置MySQL启动与停止MySQL服务 基本操作 连接数据库创建和删除数据库创建和删除表插入、更新和删...",
+        "nav_path": "mysql_basic",
+        "skip_nav": false
       },
       "catalog": [
         {
@@ -5482,13 +5483,13 @@
     {
       "id": 170598462,
       "doc_id": "qfaugcu7d1ucqdq5",
-      "updated": 1717686359000,
+      "updated": 1718239879000,
       "properties": {
         "title": "更新日志",
         "urlname": "qfaugcu7d1ucqdq5",
         "date": "2024-05-22 08:47:22",
-        "updated": "2024-06-06 23:05:59",
-        "description": "---nav_path: changelog---2024-6-06导航栏优化增加微信二维码增加友情链接增加站点地图代码优化2024-5-22网站第一次提交上线",
+        "updated": "2024-06-13 08:51:19",
+        "description": "---nav_path: changelog---2024-6-13优化网站排版：防止页面崩溃2024-6-06导航栏优化增加微信二维码增加友情链接增加站点地图代码优化2024-5-22网站第一次提交上线",
         "nav_path": "changelog"
       },
       "catalog": [
@@ -5898,6 +5899,34 @@
       "realName": "lzdv93b8t8soe0mn",
       "relativePath": "\\💻 编程语言\\JavaScript\\lzdv93b8t8soe0mn.md",
       "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+    },
+    {
+      "id": 170923166,
+      "doc_id": "tfhlw8c5gubnwfsb",
+      "updated": 1718241656000,
+      "properties": {
+        "title": "🔥《手写操作系统》",
+        "urlname": "tfhlw8c5gubnwfsb",
+        "date": "2024-05-24 13:01:43",
+        "updated": "2024-06-13 09:20:56",
+        "description": "---is_nav: falsenav_path: hand_osskip_nav: false---",
+        "is_nav": false,
+        "nav_path": "hand_os",
+        "skip_nav": false
+      },
+      "catalog": [
+        {
+          "title": "📚 计算机基础",
+          "doc_id": "tfhlw8c5gubnwfsb"
+        },
+        {
+          "title": "操作系统",
+          "doc_id": "tfhlw8c5gubnwfsb"
+        }
+      ],
+      "realName": "tfhlw8c5gubnwfsb",
+      "relativePath": "\\📚 计算机基础\\操作系统\\tfhlw8c5gubnwfsb.md",
+      "docPath": "docs\\doc\\📚 计算机基础\\操作系统"
     }
   ],
   "catalog": [
@@ -5908,7 +5937,7 @@
       "url": "zz7wzx74m9sgu0bb",
       "prev_uuid": "",
       "sibling_uuid": "1Yk7ZpGC1ALK7ryF",
-      "child_uuid": "pzU6x4VThGDwLdrN",
+      "child_uuid": "dM55tS-xNS9gbu5Q",
       "parent_uuid": "",
       "doc_id": 171241326,
       "level": 0,
@@ -5918,56 +5947,11 @@
     },
     {
       "type": "DOC",
-      "title": "个人建站 🤖",
-      "uuid": "pzU6x4VThGDwLdrN",
-      "url": "ogfvsltzo95v0k88",
-      "prev_uuid": "_AUtENOpDG0ZxF_E",
-      "sibling_uuid": "PlrctMGesywNFpWl",
-      "child_uuid": "",
-      "parent_uuid": "_AUtENOpDG0ZxF_E",
-      "doc_id": 171769376,
-      "level": 1,
-      "id": 171769376,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "持续学习 🐚",
-      "uuid": "PlrctMGesywNFpWl",
-      "url": "nhp7016fcte2xc9l",
-      "prev_uuid": "pzU6x4VThGDwLdrN",
-      "sibling_uuid": "dM55tS-xNS9gbu5Q",
-      "child_uuid": "fCA238yKut6wM0fE",
-      "parent_uuid": "_AUtENOpDG0ZxF_E",
-      "doc_id": 171259873,
-      "level": 1,
-      "id": 171259873,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "Artalk-CORS，跨域拦截问题",
-      "uuid": "fCA238yKut6wM0fE",
-      "url": "be5t885bk7x8paug",
-      "prev_uuid": "PlrctMGesywNFpWl",
-      "sibling_uuid": "",
-      "child_uuid": "",
-      "parent_uuid": "PlrctMGesywNFpWl",
-      "doc_id": 171662650,
-      "level": 2,
-      "id": 171662650,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
       "title": "十万个为什么💡",
       "uuid": "dM55tS-xNS9gbu5Q",
       "url": "uz8g4zstl7skaubu",
-      "prev_uuid": "PlrctMGesywNFpWl",
-      "sibling_uuid": "aRn1n4HB0iY7c91I",
+      "prev_uuid": "_AUtENOpDG0ZxF_E",
+      "sibling_uuid": "pzU6x4VThGDwLdrN",
       "child_uuid": "2w9bdHvwW6Ieb_bQ",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
       "doc_id": 171259325,
@@ -6023,10 +6007,55 @@
     },
     {
       "type": "DOC",
+      "title": "个人建站 🤖",
+      "uuid": "pzU6x4VThGDwLdrN",
+      "url": "ogfvsltzo95v0k88",
+      "prev_uuid": "dM55tS-xNS9gbu5Q",
+      "sibling_uuid": "PlrctMGesywNFpWl",
+      "child_uuid": "",
+      "parent_uuid": "_AUtENOpDG0ZxF_E",
+      "doc_id": 171769376,
+      "level": 1,
+      "id": 171769376,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "持续学习 🐚",
+      "uuid": "PlrctMGesywNFpWl",
+      "url": "nhp7016fcte2xc9l",
+      "prev_uuid": "pzU6x4VThGDwLdrN",
+      "sibling_uuid": "aRn1n4HB0iY7c91I",
+      "child_uuid": "fCA238yKut6wM0fE",
+      "parent_uuid": "_AUtENOpDG0ZxF_E",
+      "doc_id": 171259873,
+      "level": 1,
+      "id": 171259873,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Artalk-CORS，跨域拦截问题",
+      "uuid": "fCA238yKut6wM0fE",
+      "url": "be5t885bk7x8paug",
+      "prev_uuid": "PlrctMGesywNFpWl",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "PlrctMGesywNFpWl",
+      "doc_id": 171662650,
+      "level": 2,
+      "id": 171662650,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "代码片段 💻",
       "uuid": "aRn1n4HB0iY7c91I",
       "url": "dt41v1b1lx0wnavv",
-      "prev_uuid": "dM55tS-xNS9gbu5Q",
+      "prev_uuid": "PlrctMGesywNFpWl",
       "sibling_uuid": "_d86pwt2PnWp0V6d",
       "child_uuid": "",
       "parent_uuid": "_AUtENOpDG0ZxF_E",

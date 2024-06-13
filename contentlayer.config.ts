@@ -7,7 +7,7 @@ import {
 import siteMetadata from "./assets/siteMetadata";
 import rehypePrismPlus from "rehype-prism-plus";
 import { fromHtmlIsomorphic } from "hast-util-from-html-isomorphic";
-import generateSitemap from "./lib/sitemap"
+import generateSitemap from "./lib/sitemap";
 import {
   remarkCodeTitles,
   remarkExtractFrontmatter,
@@ -24,7 +24,6 @@ import rehypePresetMinify from "rehype-preset-minify";
 import rehypeKatex from "rehype-katex";
 import { countWords } from "./lib/utils";
 import rehypeCitation from "rehype-citation";
-
 
 const computedFields: ComputedFields = {
   readingTime: { type: "json", resolve: (doc) => countWords(doc.body.raw) },
@@ -59,7 +58,7 @@ export const Post = defineDocumentType(() => ({
     is_nav: { type: "boolean", default: false },
     nav_path: { type: "string" },
     updated: { type: "date" },
-    // draft: { type: "boolean" },
+    skip_nav: { type: "boolean" },
     description: { type: "string" },
     cover: { type: "string" },
     tags: { type: "list", of: { type: "string" }, default: [] },
@@ -103,7 +102,7 @@ export const Author = defineDocumentType(() => ({
 
 export default makeSource({
   contentDirPath: ".",
-  contentDirInclude: ["content", "docs/doc"],
+  contentDirInclude: ["docs/authors", "docs/doc"],
   documentTypes: [Post, Author],
   markdown: {
     remarkPlugins: [
@@ -158,7 +157,7 @@ export default makeSource({
     ],
   },
   onSuccess: async (importData) => {
-    generateSitemap()
+    generateSitemap();
     // const { allBlogs } = await importData();
     // createTagCount(allBlogs);
     // createSearchIndex(allBlogs);

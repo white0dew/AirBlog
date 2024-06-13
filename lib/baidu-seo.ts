@@ -32,6 +32,7 @@ export async function SubmitUrlsToBaidu(urls: string[]) {
         console.log('Submit response:', response.data);
     } catch (error) {
         // 错误处理
-        console.error('Error submitting to Baidu:', error);
+        console.error('Error submitting to Baidu:err');
+        // console.error('Error submitting to Baidu:', error);
     }
 }

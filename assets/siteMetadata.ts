@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: `OfferNow - 拿到 Offer`,
+  title: `OfferNow`,
   author: "white0dew",
   headerTitle: "OfferNow",
   description:

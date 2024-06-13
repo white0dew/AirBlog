@@ -83,3 +83,15 @@ export function IsEmptyString(str: string): boolean {
   mylog(str.trim().length === 0);
   return str.trim().length === 0;
 }
+
+
+export function RemoveYamlFrontMatterForDesc(text: string) {
+  // 正则表达式匹配文档开头的YAML字段
+  // 这里假设YAML块以三个短横线开始和结束
+  const yamlBlockRegex = /---[\s\S]*?---/g;
+
+  // 使用replace方法去除匹配到的YAML块
+  const cleanedText = text.replace(yamlBlockRegex, '');
+  mylog(cleanedText);
+  return cleanedText;
+}

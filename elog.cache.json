@@ -3,15 +3,16 @@
     {
       "id": 171241326,
       "doc_id": "zz7wzx74m9sgu0bb",
-      "updated": 1717513377000,
+      "updated": 1718238114000,
       "properties": {
         "title": "🔥 程序员自我修养",
         "urlname": "zz7wzx74m9sgu0bb",
         "date": "2024-05-27 11:27:11",
-        "updated": "2024-06-04 23:02:57",
-        "description": "is_nav: truenav_path: self_improve一个优秀的程序员，意味着不断学习和提升专业技能，包括了解最新的编程趋势、掌握高效的开发工具、练习编写高质量的代码，以及培养优秀的软件工程习惯。以下是一些程序员自我修养的关键方面以及相关的资源推荐。知识收集学习平台：Course...",
+        "updated": "2024-06-13 08:21:54",
+        "description": "is_nav: truenav_path: self_improveskip_nav: false一个优秀的程序员，意味着不断学习和提升专业技能，包括了解最新的编程趋势、掌握高效的开发工具、练习编写高质量的代码，以及培养优秀的软件工程习惯。以下是一些程序员自我修养的关键方面以及相关的资源推荐。...",
         "is_nav": true,
-        "nav_path": "self_improve"
+        "nav_path": "self_improve",
+        "skip_nav": false
       },
       "catalog": [],
       "realName": "zz7wzx74m9sgu0bb",
@@ -1618,13 +1619,13 @@
     {
       "id": 170944181,
       "doc_id": "qf6b0vmagi3cbnbv",
-      "updated": 1716889658000,
+      "updated": 1718208284000,
       "properties": {
-        "title": "🔥 Mysql面试必问（二）",
+        "title": "🔥 MySQL面试必问（二）",
         "urlname": "qf6b0vmagi3cbnbv",
         "date": "2024-05-24 15:19:07",
-        "updated": "2024-05-28 17:47:38",
-        "description": "一、存储引擎 MySQL有哪些常用的存储引擎？回答： InnoDB：默认存储引擎，支持ACID事务、外键、行级锁和自动崩溃恢复。适用于支持高并发事务处理和数据完整性要求高的应用。MyISAM：不支持事务和外键，使用表级锁，适用于读操作频繁、数据修改较少的应用。具有较高的读取性能。Memory：..."
+        "updated": "2024-06-13 00:04:44",
+        "description": "一、存储引擎MySQL有哪些常用的存储引擎？回答：InnoDB：默认存储引擎，支持ACID事务、外键、行级锁和自动崩溃恢复。适用于支持高并发事务处理和数据完整性要求高的应用。MyISAM：不支持事务和外键，使用表级锁，适用于读操作频繁、数据修改较少的应用。具有较高的读取性能。Memory：将数..."
       },
       "catalog": [
         {
@@ -5499,6 +5500,404 @@
       "realName": "qfaugcu7d1ucqdq5",
       "relativePath": "\\🏄 关于\\qfaugcu7d1ucqdq5.md",
       "docPath": "docs\\doc\\🏄 关于"
+    },
+    {
+      "id": 173437784,
+      "doc_id": "cc58ryvs6giskhlh",
+      "updated": 1718205355000,
+      "properties": {
+        "title": "五一过半，我还在想春招……",
+        "urlname": "cc58ryvs6giskhlh",
+        "date": "2024-06-12 23:15:05",
+        "updated": "2024-06-12 23:15:55",
+        "description": "昨天有个同学跟我分享他的春招经历：我就读于南京航空航天大学，目前大四，五一期间一直在复盘自己最终能够进入腾讯、阿里的原因，我认为自己从简历层被字节HR选中的原因，有以下几点。经验总结怎么写一份无法被HR拒绝的简历匹配度：最吸引人的是科研项目与岗位需求的高度匹配。我将自己原本的专业方向的研究方向..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "cc58ryvs6giskhlh"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "cc58ryvs6giskhlh"
+        }
+      ],
+      "realName": "cc58ryvs6giskhlh",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\cc58ryvs6giskhlh.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战"
+    },
+    {
+      "id": 173435904,
+      "doc_id": "kxrip3aituetr71i",
+      "updated": 1718204484000,
+      "properties": {
+        "title": "添加网页到桌面快捷方式？",
+        "urlname": "kxrip3aituetr71i",
+        "date": "2024-06-12 22:51:19",
+        "updated": "2024-06-12 23:01:24",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1718204241684-25d41923-5b94-4df2-978d-e081ed89e3f4.png",
+        "description": "添加网页到桌面快捷方式？很简单，仅需要两步，接下来以chrome浏览器为例。第一步在想要保存的网页右上角点击设置。第二步保存并分享-创建快捷方式，保存到桌面即可!"
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "kxrip3aituetr71i"
+        },
+        {
+          "title": "持续学习 🐚",
+          "doc_id": "kxrip3aituetr71i"
+        }
+      ],
+      "realName": "kxrip3aituetr71i",
+      "relativePath": "\\🔥 程序员自我修养\\持续学习 🐚\\kxrip3aituetr71i.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\持续学习 🐚"
+    },
+    {
+      "id": 173437802,
+      "doc_id": "buub55tu7bbikvld",
+      "updated": 1718205347000,
+      "properties": {
+        "title": "中科大研二：字节实习半年的感悟和求职经验",
+        "urlname": "buub55tu7bbikvld",
+        "date": "2024-06-12 23:15:17",
+        "updated": "2024-06-12 23:15:47",
+        "description": "在科技巨头字节跳动的实习经历无疑是一段难忘之旅。我有幸作为中科大软件学院研二学生，获得了这样的机会。实习的总时长超过半年，让我深刻体会到了字节跳动对实习生的重视与培养。在这里，我不仅技术能力得到了锤炼，更在mentor的指导下，解决了一个又一个具有挑战性的问题。如今，我想把这些珍贵的经验和大家..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "buub55tu7bbikvld"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "buub55tu7bbikvld"
+        }
+      ],
+      "realName": "buub55tu7bbikvld",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\buub55tu7bbikvld.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战"
+    },
+    {
+      "id": 172786087,
+      "doc_id": "obhmxn0wg1gxp2n6",
+      "updated": 1717727966000,
+      "properties": {
+        "title": "第十二章：高级应用与最佳实践",
+        "urlname": "obhmxn0wg1gxp2n6",
+        "date": "2024-06-07 10:39:12",
+        "updated": "2024-06-07 10:39:26",
+        "description": "在前面的章节中，我们已经掌握了JavaScript的基础知识和进阶技巧。在本章中，我们将探讨一些高级应用和最佳实践，帮助你在实际项目中更高效地运用JavaScript。前沿技术与框架React 的基本概念与使用React 是由 Facebook 开发的一个用于构建用户界面的 JavaScrip..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "obhmxn0wg1gxp2n6"
+        },
+        {
+          "title": "JavaScript",
+          "doc_id": "obhmxn0wg1gxp2n6"
+        }
+      ],
+      "realName": "obhmxn0wg1gxp2n6",
+      "relativePath": "\\💻 编程语言\\JavaScript\\obhmxn0wg1gxp2n6.md",
+      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+    },
+    {
+      "id": 172786002,
+      "doc_id": "myrlyqga6ewhaxdm",
+      "updated": 1717727951000,
+      "properties": {
+        "title": "第十一章：现代 JavaScript 工具链",
+        "urlname": "myrlyqga6ewhaxdm",
+        "date": "2024-06-07 10:38:43",
+        "updated": "2024-06-07 10:39:11",
+        "description": "由代码编写到代码部署，合理地使用工具可以大幅提升开发效率和代码质量。本章我们将深入探讨几种重要的 JavaScript 工具，包括模块打包工具、代码质量工具和构建与部署工具，并通过实际操作示例，帮助你熟悉并掌握这些工具的使用。模块打包工具模块化开发有助于代码的维护和复用，而模块打包工具则是将这..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "myrlyqga6ewhaxdm"
+        },
+        {
+          "title": "JavaScript",
+          "doc_id": "myrlyqga6ewhaxdm"
+        }
+      ],
+      "realName": "myrlyqga6ewhaxdm",
+      "relativePath": "\\💻 编程语言\\JavaScript\\myrlyqga6ewhaxdm.md",
+      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+    },
+    {
+      "id": 172784644,
+      "doc_id": "offv8b28x2gp79gv",
+      "updated": 1717728162000,
+      "properties": {
+        "title": "JavaScript",
+        "urlname": "offv8b28x2gp79gv",
+        "date": "2024-06-07 10:32:16",
+        "updated": "2024-06-07 10:42:42",
+        "description": "---nav_path: js---第一部分：JavaScript 入门第一章：初识 JavaScript JavaScript 简介 JavaScript 的历史与发展JavaScript 的应用领域为什么选择 JavaScript 安装与设置 浏览器自带的 JavaScript 环境安装 ...",
+        "nav_path": "js"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "offv8b28x2gp79gv"
+        }
+      ],
+      "realName": "offv8b28x2gp79gv",
+      "relativePath": "\\💻 编程语言\\offv8b28x2gp79gv.md",
+      "docPath": "docs\\doc\\💻 编程语言"
+    },
+    {
+      "id": 172785957,
+      "doc_id": "tvi5rnx6lvl2sczq",
+      "updated": 1717727922000,
+      "properties": {
+        "title": "第十章：测试与调试",
+        "urlname": "tvi5rnx6lvl2sczq",
+        "date": "2024-06-07 10:38:31",
+        "updated": "2024-06-07 10:38:42",
+        "description": "1. 单元测试1.1 什么是单元测试单元测试（Unit Testing）是对软件的最小可测试单元进行验证，以确保其功能正确。它能够帮助开发者发现和修复错误，提高代码的稳定性和可维护性。单元测试通常由开发者自己编写，并且与实际的业务逻辑代码分开。1.2 使用 Jest 编写单元测试Jest 是一..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "tvi5rnx6lvl2sczq"
+        },
+        {
+          "title": "JavaScript",
+          "doc_id": "tvi5rnx6lvl2sczq"
+        }
+      ],
+      "realName": "tvi5rnx6lvl2sczq",
+      "relativePath": "\\💻 编程语言\\JavaScript\\tvi5rnx6lvl2sczq.md",
+      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+    },
+    {
+      "id": 172785828,
+      "doc_id": "fkoyngxgpmgaeg44",
+      "updated": 1717727884000,
+      "properties": {
+        "title": "第八章：浏览器 API 与本地存储",
+        "urlname": "fkoyngxgpmgaeg44",
+        "date": "2024-06-07 10:37:53",
+        "updated": "2024-06-07 10:38:04",
+        "description": "1. 浏览器 API在现代 Web 开发中，浏览器为开发者提供了丰富的 API，用于处理各种任务，如网络请求、剪贴板操作等。本节将介绍一些常用的浏览器 API，并演示其使用方法。常用浏览器 API 介绍Fetch APIFetch API 用于执行网络请求，替代了老旧的 XMLHttpRequ..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "fkoyngxgpmgaeg44"
+        },
+        {
+          "title": "JavaScript",
+          "doc_id": "fkoyngxgpmgaeg44"
+        }
+      ],
+      "realName": "fkoyngxgpmgaeg44",
+      "relativePath": "\\💻 编程语言\\JavaScript\\fkoyngxgpmgaeg44.md",
+      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+    },
+    {
+      "id": 172785881,
+      "doc_id": "xwymt3c06amgkp2n",
+      "updated": 1717727909000,
+      "properties": {
+        "title": "第九章：项目实战：创建一个任务管理应用",
+        "urlname": "xwymt3c06amgkp2n",
+        "date": "2024-06-07 10:38:06",
+        "updated": "2024-06-07 10:38:29",
+        "description": "在这一章中，我们将通过创建一个完整的任务管理应用，来综合运用前几章所学的知识。这个项目将涵盖需求分析、功能规划、开发实现以及项目部署等多个方面，帮助你掌握实际项目开发的流程。项目介绍与规划项目需求分析与功能规划在开发一个任务管理应用之前，我们需要首先明确应用的需求和功能。以下是对项目的需求分析..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "xwymt3c06amgkp2n"
+        },
+        {
+          "title": "JavaScript",
+          "doc_id": "xwymt3c06amgkp2n"
+        }
+      ],
+      "realName": "xwymt3c06amgkp2n",
+      "relativePath": "\\💻 编程语言\\JavaScript\\xwymt3c06amgkp2n.md",
+      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+    },
+    {
+      "id": 172785732,
+      "doc_id": "xwdzodwra6u55sib",
+      "updated": 1717727859000,
+      "properties": {
+        "title": "第六章：异步编程",
+        "urlname": "xwdzodwra6u55sib",
+        "date": "2024-06-07 10:37:26",
+        "updated": "2024-06-07 10:37:39",
+        "description": "1. 回调函数在 JavaScript 中，异步编程是处理时间消耗任务（如网络请求、文件读取等）的核心技术之一。回调函数是处理异步操作的最基本方式。什么是回调函数回调函数是作为参数传递给另一个函数的函数，当那个函数完成其任务后会调用这个回调函数。此模式常用于处理异步操作。以下是一个基本示例：f..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "xwdzodwra6u55sib"
+        },
+        {
+          "title": "JavaScript",
+          "doc_id": "xwdzodwra6u55sib"
+        }
+      ],
+      "realName": "xwdzodwra6u55sib",
+      "relativePath": "\\💻 编程语言\\JavaScript\\xwdzodwra6u55sib.md",
+      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+    },
+    {
+      "id": 172785778,
+      "doc_id": "bbsxpgzzhu3i88xy",
+      "updated": 1717727872000,
+      "properties": {
+        "title": "第七章：DOM 操作与事件处理",
+        "urlname": "bbsxpgzzhu3i88xy",
+        "date": "2024-06-07 10:37:40",
+        "updated": "2024-06-07 10:37:52",
+        "description": "1. DOM 基本概念什么是 DOMDOM（Document Object Model）是 HTML 和 XML 文档的编程接口。它提供了一组标准的对象，使开发者能够动态访问和更新文档的内容、结构和样式。DOM 把文档表示为一个树结构，其中每个节点都是文档的一部分。DOM 树的结构DOM 树是..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "bbsxpgzzhu3i88xy"
+        },
+        {
+          "title": "JavaScript",
+          "doc_id": "bbsxpgzzhu3i88xy"
+        }
+      ],
+      "realName": "bbsxpgzzhu3i88xy",
+      "relativePath": "\\💻 编程语言\\JavaScript\\bbsxpgzzhu3i88xy.md",
+      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+    },
+    {
+      "id": 172785226,
+      "doc_id": "pogg73bgofw753sb",
+      "updated": 1717727721000,
+      "properties": {
+        "title": "第五章：面向对象编程",
+        "urlname": "pogg73bgofw753sb",
+        "date": "2024-06-07 10:34:54",
+        "updated": "2024-06-07 10:35:21",
+        "description": "1. ObjectsJavaScript 的对象是存储键值对的容器。对象在 JavaScript 中扮演了重要的角色，它们允许我们将数据和功能组织在一起，使代码更加结构化和模块化。1.1 对象的定义与属性在 JavaScript 中，可以使用花括号 {} 来定义对象，并通过键值对的形式来添加属..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "pogg73bgofw753sb"
+        },
+        {
+          "title": "JavaScript",
+          "doc_id": "pogg73bgofw753sb"
+        }
+      ],
+      "realName": "pogg73bgofw753sb",
+      "relativePath": "\\💻 编程语言\\JavaScript\\pogg73bgofw753sb.md",
+      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+    },
+    {
+      "id": 172785156,
+      "doc_id": "yl3i2ox3zh528deh",
+      "updated": 1717727692000,
+      "properties": {
+        "title": "第四章：函数与作用域",
+        "urlname": "yl3i2ox3zh528deh",
+        "date": "2024-06-07 10:34:29",
+        "updated": "2024-06-07 10:34:52",
+        "description": "在这一章中，我们将深入探讨 JavaScript 中函数的各个方面，包括函数的定义与调用、参数与返回值、箭头函数与匿名函数。此外，我们还会探讨作用域的概念，以及如何利用闭包来创建更强大的代码。最后，我们将介绍高阶函数及其在简化代码方面的应用。1. 函数1.1 函数的定义与调用在 JavaScr..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "yl3i2ox3zh528deh"
+        },
+        {
+          "title": "JavaScript",
+          "doc_id": "yl3i2ox3zh528deh"
+        }
+      ],
+      "realName": "yl3i2ox3zh528deh",
+      "relativePath": "\\💻 编程语言\\JavaScript\\yl3i2ox3zh528deh.md",
+      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+    },
+    {
+      "id": 172785097,
+      "doc_id": "ced0rgbttkbm4gsn",
+      "updated": 1717727667000,
+      "properties": {
+        "title": "第三章：控制结构",
+        "urlname": "ced0rgbttkbm4gsn",
+        "date": "2024-06-07 10:34:15",
+        "updated": "2024-06-07 10:34:27",
+        "description": "在编写程序的过程中，控制结构是非常重要的概念。它们决定了代码的执行顺序，使我们能够根据不同的条件或重复执行代码块。JavaScript 提供了丰富的控制结构，包括条件语句和循环语句。本章将详细介绍这些控制结构及其应用。1. 条件语句条件语句允许代码根据不同的条件执行不同的操作。这对于编写逻辑复..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "ced0rgbttkbm4gsn"
+        },
+        {
+          "title": "JavaScript",
+          "doc_id": "ced0rgbttkbm4gsn"
+        }
+      ],
+      "realName": "ced0rgbttkbm4gsn",
+      "relativePath": "\\💻 编程语言\\JavaScript\\ced0rgbttkbm4gsn.md",
+      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+    },
+    {
+      "id": 172785030,
+      "doc_id": "wyh4y9de5m1h1n0e",
+      "updated": 1717727654000,
+      "properties": {
+        "title": "第二章：JavaScript 基础语法",
+        "urlname": "wyh4y9de5m1h1n0e",
+        "date": "2024-06-07 10:33:50",
+        "updated": "2024-06-07 10:34:14",
+        "description": "1. 变量与数据类型变量的声明在 JavaScript 中，我们可以使用 var、let 和 const 这三种关键词来声明变量。下面是每种声明方式的详细解释和示例：var 关键词var 是 JavaScript 中最早用来声明变量的关键词。它有一些特性需要注意：var name = \"Ali..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "wyh4y9de5m1h1n0e"
+        },
+        {
+          "title": "JavaScript",
+          "doc_id": "wyh4y9de5m1h1n0e"
+        }
+      ],
+      "realName": "wyh4y9de5m1h1n0e",
+      "relativePath": "\\💻 编程语言\\JavaScript\\wyh4y9de5m1h1n0e.md",
+      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+    },
+    {
+      "id": 172784684,
+      "doc_id": "lzdv93b8t8soe0mn",
+      "updated": 1717727629000,
+      "properties": {
+        "title": "第一章：初识 JavaScript",
+        "urlname": "lzdv93b8t8soe0mn",
+        "date": "2024-06-07 10:32:26",
+        "updated": "2024-06-07 10:33:49",
+        "description": "JavaScript 是现代 Web 开发的核心技术之一，任何想要成为全栈开发者的人都必须掌握它。这一章将带你初步了解 JavaScript，从其历史、发展到应用领域，再到实际的环境搭建和第一个 JavaScript 程序编写。这是你迈入 JavaScript 世界的第一步。1. JavaSc..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "lzdv93b8t8soe0mn"
+        },
+        {
+          "title": "JavaScript",
+          "doc_id": "lzdv93b8t8soe0mn"
+        }
+      ],
+      "realName": "lzdv93b8t8soe0mn",
+      "relativePath": "\\💻 编程语言\\JavaScript\\lzdv93b8t8soe0mn.md",
+      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
     }
   ],
   "catalog": [
@@ -5569,7 +5968,7 @@
       "url": "uz8g4zstl7skaubu",
       "prev_uuid": "PlrctMGesywNFpWl",
       "sibling_uuid": "aRn1n4HB0iY7c91I",
-      "child_uuid": "1ynhYnHVE9RxCf3I",
+      "child_uuid": "2w9bdHvwW6Ieb_bQ",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
       "doc_id": 171259325,
       "level": 1,
@@ -5579,10 +5978,25 @@
     },
     {
       "type": "DOC",
+      "title": "添加网页到桌面快捷方式？",
+      "uuid": "2w9bdHvwW6Ieb_bQ",
+      "url": "kxrip3aituetr71i",
+      "prev_uuid": "dM55tS-xNS9gbu5Q",
+      "sibling_uuid": "1ynhYnHVE9RxCf3I",
+      "child_uuid": "",
+      "parent_uuid": "dM55tS-xNS9gbu5Q",
+      "doc_id": 173435904,
+      "level": 2,
+      "id": 173435904,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "GitHub Actions 怎么开启工作流程(workflow)邮件通知？",
       "uuid": "1ynhYnHVE9RxCf3I",
       "url": "lthz7palxgytu0f2",
-      "prev_uuid": "dM55tS-xNS9gbu5Q",
+      "prev_uuid": "2w9bdHvwW6Ieb_bQ",
       "sibling_uuid": "Nw98ZBQqa1X-GkLT",
       "child_uuid": "",
       "parent_uuid": "dM55tS-xNS9gbu5Q",
@@ -5924,7 +6338,7 @@
     },
     {
       "type": "DOC",
-      "title": "🔥 Mysql面试必问（二）",
+      "title": "🔥 MySQL面试必问（二）",
       "uuid": "k9uj_UI95OXK9ikq",
       "url": "qf6b0vmagi3cbnbv",
       "prev_uuid": "d8j8nIfk7mEGouOA",
@@ -7623,7 +8037,7 @@
       "uuid": "WnDVNfei5morwo3q",
       "url": "aik2girglv1pxdnz",
       "prev_uuid": "IksL8_aQ70Z_soJh",
-      "sibling_uuid": "XyLVtY3XHTWQeIIY",
+      "sibling_uuid": "GWbkA9WJsR8wmJ0z",
       "child_uuid": "TW5HOP6hZQGJzf5A",
       "parent_uuid": "g79LhyuCIcy2z2cx",
       "doc_id": 172376096,
@@ -7859,10 +8273,205 @@
     },
     {
       "type": "DOC",
+      "title": "JavaScript",
+      "uuid": "GWbkA9WJsR8wmJ0z",
+      "url": "offv8b28x2gp79gv",
+      "prev_uuid": "WnDVNfei5morwo3q",
+      "sibling_uuid": "XyLVtY3XHTWQeIIY",
+      "child_uuid": "_0cBHl5uRPWeUEmI",
+      "parent_uuid": "g79LhyuCIcy2z2cx",
+      "doc_id": 172784644,
+      "level": 1,
+      "id": 172784644,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第一章：初识 JavaScript",
+      "uuid": "_0cBHl5uRPWeUEmI",
+      "url": "lzdv93b8t8soe0mn",
+      "prev_uuid": "GWbkA9WJsR8wmJ0z",
+      "sibling_uuid": "ThG6zClcQH8jhUTH",
+      "child_uuid": "",
+      "parent_uuid": "GWbkA9WJsR8wmJ0z",
+      "doc_id": 172784684,
+      "level": 2,
+      "id": 172784684,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第二章：JavaScript 基础语法",
+      "uuid": "ThG6zClcQH8jhUTH",
+      "url": "wyh4y9de5m1h1n0e",
+      "prev_uuid": "_0cBHl5uRPWeUEmI",
+      "sibling_uuid": "lzrem1Qu1orcv4Vn",
+      "child_uuid": "",
+      "parent_uuid": "GWbkA9WJsR8wmJ0z",
+      "doc_id": 172785030,
+      "level": 2,
+      "id": 172785030,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第三章：控制结构",
+      "uuid": "lzrem1Qu1orcv4Vn",
+      "url": "ced0rgbttkbm4gsn",
+      "prev_uuid": "ThG6zClcQH8jhUTH",
+      "sibling_uuid": "jxJ0yaS9f-4XoxOI",
+      "child_uuid": "",
+      "parent_uuid": "GWbkA9WJsR8wmJ0z",
+      "doc_id": 172785097,
+      "level": 2,
+      "id": 172785097,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第四章：函数与作用域",
+      "uuid": "jxJ0yaS9f-4XoxOI",
+      "url": "yl3i2ox3zh528deh",
+      "prev_uuid": "lzrem1Qu1orcv4Vn",
+      "sibling_uuid": "81c1cAV95PIW_dKf",
+      "child_uuid": "",
+      "parent_uuid": "GWbkA9WJsR8wmJ0z",
+      "doc_id": 172785156,
+      "level": 2,
+      "id": 172785156,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第五章：面向对象编程",
+      "uuid": "81c1cAV95PIW_dKf",
+      "url": "pogg73bgofw753sb",
+      "prev_uuid": "jxJ0yaS9f-4XoxOI",
+      "sibling_uuid": "xjxAWOV1UpFc_-JU",
+      "child_uuid": "",
+      "parent_uuid": "GWbkA9WJsR8wmJ0z",
+      "doc_id": 172785226,
+      "level": 2,
+      "id": 172785226,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第六章：异步编程",
+      "uuid": "xjxAWOV1UpFc_-JU",
+      "url": "xwdzodwra6u55sib",
+      "prev_uuid": "81c1cAV95PIW_dKf",
+      "sibling_uuid": "qHWfP6cqBCiJpAZj",
+      "child_uuid": "",
+      "parent_uuid": "GWbkA9WJsR8wmJ0z",
+      "doc_id": 172785732,
+      "level": 2,
+      "id": 172785732,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第七章：DOM 操作与事件处理",
+      "uuid": "qHWfP6cqBCiJpAZj",
+      "url": "bbsxpgzzhu3i88xy",
+      "prev_uuid": "xjxAWOV1UpFc_-JU",
+      "sibling_uuid": "8EOrs4fKIERTEJFe",
+      "child_uuid": "",
+      "parent_uuid": "GWbkA9WJsR8wmJ0z",
+      "doc_id": 172785778,
+      "level": 2,
+      "id": 172785778,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第八章：浏览器 API 与本地存储",
+      "uuid": "8EOrs4fKIERTEJFe",
+      "url": "fkoyngxgpmgaeg44",
+      "prev_uuid": "qHWfP6cqBCiJpAZj",
+      "sibling_uuid": "uEGooUs2Q0WZKu9C",
+      "child_uuid": "",
+      "parent_uuid": "GWbkA9WJsR8wmJ0z",
+      "doc_id": 172785828,
+      "level": 2,
+      "id": 172785828,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第九章：项目实战：创建一个任务管理应用",
+      "uuid": "uEGooUs2Q0WZKu9C",
+      "url": "xwymt3c06amgkp2n",
+      "prev_uuid": "8EOrs4fKIERTEJFe",
+      "sibling_uuid": "NlQM3nWN-3wM_Sx0",
+      "child_uuid": "",
+      "parent_uuid": "GWbkA9WJsR8wmJ0z",
+      "doc_id": 172785881,
+      "level": 2,
+      "id": 172785881,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第十章：测试与调试",
+      "uuid": "NlQM3nWN-3wM_Sx0",
+      "url": "tvi5rnx6lvl2sczq",
+      "prev_uuid": "uEGooUs2Q0WZKu9C",
+      "sibling_uuid": "EeWDyFhB1aQgWkCy",
+      "child_uuid": "",
+      "parent_uuid": "GWbkA9WJsR8wmJ0z",
+      "doc_id": 172785957,
+      "level": 2,
+      "id": 172785957,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第十一章：现代 JavaScript 工具链",
+      "uuid": "EeWDyFhB1aQgWkCy",
+      "url": "myrlyqga6ewhaxdm",
+      "prev_uuid": "NlQM3nWN-3wM_Sx0",
+      "sibling_uuid": "yM2CYDO62hHZaNip",
+      "child_uuid": "",
+      "parent_uuid": "GWbkA9WJsR8wmJ0z",
+      "doc_id": 172786002,
+      "level": 2,
+      "id": 172786002,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第十二章：高级应用与最佳实践",
+      "uuid": "yM2CYDO62hHZaNip",
+      "url": "obhmxn0wg1gxp2n6",
+      "prev_uuid": "EeWDyFhB1aQgWkCy",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "GWbkA9WJsR8wmJ0z",
+      "doc_id": 172786087,
+      "level": 2,
+      "id": 172786087,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "CSS",
       "uuid": "XyLVtY3XHTWQeIIY",
       "url": "zxr575sqdpq3e4by",
-      "prev_uuid": "WnDVNfei5morwo3q",
+      "prev_uuid": "GWbkA9WJsR8wmJ0z",
       "sibling_uuid": "x98AJrMx8CxrVoy6",
       "child_uuid": "HD_1J_HuGNJ0oZjQ",
       "parent_uuid": "g79LhyuCIcy2z2cx",
@@ -8464,7 +9073,7 @@
       "url": "bxxwzvxxq58cnace",
       "prev_uuid": "NcVLTZK8sE8hkJmb",
       "sibling_uuid": "zZqPxfRY2KNsrSyg",
-      "child_uuid": "9JfW7Jj8szSsSgD3",
+      "child_uuid": "QPZuxNGpOk4c4QaY",
       "parent_uuid": "uHCIfCp4Xzc-fCfY",
       "doc_id": 169649927,
       "level": 1,
@@ -8474,10 +9083,40 @@
     },
     {
       "type": "DOC",
+      "title": "中科大研二：字节实习半年的感悟和求职经验",
+      "uuid": "QPZuxNGpOk4c4QaY",
+      "url": "buub55tu7bbikvld",
+      "prev_uuid": "-4qV2TE5gTaU9pS4",
+      "sibling_uuid": "iLmk_c19aw4WwMHG",
+      "child_uuid": "",
+      "parent_uuid": "-4qV2TE5gTaU9pS4",
+      "doc_id": 173437802,
+      "level": 2,
+      "id": 173437802,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "五一过半，我还在想春招……",
+      "uuid": "iLmk_c19aw4WwMHG",
+      "url": "cc58ryvs6giskhlh",
+      "prev_uuid": "QPZuxNGpOk4c4QaY",
+      "sibling_uuid": "9JfW7Jj8szSsSgD3",
+      "child_uuid": "",
+      "parent_uuid": "-4qV2TE5gTaU9pS4",
+      "doc_id": 173437784,
+      "level": 2,
+      "id": 173437784,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "GPT-4o的发布，留给程序员的后路不多了。。。",
       "uuid": "9JfW7Jj8szSsSgD3",
       "url": "gvmgek2ntvo4wyla",
-      "prev_uuid": "-4qV2TE5gTaU9pS4",
+      "prev_uuid": "iLmk_c19aw4WwMHG",
       "sibling_uuid": "4V2VVZX5pR8pbUzx",
       "child_uuid": "",
       "parent_uuid": "-4qV2TE5gTaU9pS4",

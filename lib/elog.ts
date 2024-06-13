@@ -1,6 +1,7 @@
 import { CatalogItem, Doc, ElogCache, ElogChapter } from "@/types/elog";
 import elogCache from "../elog.cache.json" assert { type: "json" };
 import { ContentPrefixPath } from "../constants/path";
+import { mylog } from "./utils";
 
 const ElogCacheData = elogCache as ElogCache;
 
@@ -30,6 +31,7 @@ function buildChapterTree(
       parent_uuid: item.parent_uuid ? item.parent_uuid : undefined,
       parent: null,
       urlname: item.url,
+      skip_nav: DocIDMap.get(item.url)?.properties?.skip_nav ?? false,
     });
   });
 
@@ -57,7 +59,21 @@ function buildChapterTree(
   function genFinalUrl(curTree: ElogChapter[]) {
     curTree.forEach((item) => {
       if (item.parent_uuid && itemMap.get(item.parent_uuid)) {
+        let oldUrl = item.url;
         item.url = itemMap.get(item.parent_uuid)?.url + "/" + item.url;
+
+        // 跳过父节点的路径
+        if (itemMap.get(item.parent_uuid)?.skip_nav) {
+          mylog("skip_nav", item.url, item.parent_uuid, item.parent?.url);
+          let parentPath = itemMap.get(item.parent_uuid)?.url;
+          mylog("parentPath", parentPath);
+          parentPath = parentPath?.replace(
+            "/" + itemMap.get(item.parent_uuid)?.nav_path,
+            ""
+          );
+          mylog("parentPath", parentPath);
+          item.url = parentPath + "/" + oldUrl;
+        }
       } else {
         item.url = ContentPrefixPath + "/" + item.url;
       }
@@ -66,21 +82,24 @@ function buildChapterTree(
       }
     });
   }
+
   // 从父到子，对所有的节点的url进行拼接
   genFinalUrl(tree);
-  console.log("buildChapterTree success");
-
-  // 填充父节点
-  tree.forEach((item) => {
-    if (item.parent_uuid && itemMap.get(item.parent_uuid)) {
-      item.parent = itemMap.get(item.parent_uuid) ?? null;
-    }
-  });
 
   return tree;
 }
 
 // 使用上述函数构建整个章节目录树
 const ChapterTree = buildChapterTree(ElogCacheData.catalog, null);
+
+// 构建chapterList,转换成数组
+export const ChapterList = ChapterTree.flatMap((item) => {
+  const children = item.children.flatMap((child) => {
+    return [child, ...child.children];
+  });
+  return [item, ...children];
+});
+
+console.log("buildChapterTree success");
 
 export { ChapterTree, ElogCacheData, DocIDMap };

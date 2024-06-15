@@ -7996,6 +7996,352 @@
       "realName": "pysvuh4kpt1qwkoe",
       "relativePath": "\\🔥 程序员自我修养\\十万个为什么💡\\pysvuh4kpt1qwkoe.md",
       "docPath": "docs\\doc\\🔥 程序员自我修养\\十万个为什么💡"
+    },
+    {
+      "id": 173826516,
+      "doc_id": "eoy7yl53cf9t7mpp",
+      "updated": 1718457975000,
+      "properties": {
+        "title": "13、插件发布",
+        "urlname": "eoy7yl53cf9t7mpp",
+        "date": "2024-06-15 21:25:55",
+        "updated": "2024-06-15 21:26:15",
+        "description": "在完成了插件的开发和测试之后，最后一步就是将其发布到 Chrome Web Store 上。这一章将详细介绍如何创建 Chrome Web Store 账号、打包和上传插件、填写插件信息以及发布和更新插件的过程。创建 Chrome Web Store 账号在发布插件之前，你需要一个 Chrom..."
+      },
+      "catalog": [
+        {
+          "title": "🧰 实践项目",
+          "doc_id": "eoy7yl53cf9t7mpp"
+        },
+        {
+          "title": "ChromePlugin项目实战",
+          "doc_id": "eoy7yl53cf9t7mpp"
+        }
+      ],
+      "realName": "eoy7yl53cf9t7mpp",
+      "relativePath": "\\🧰 实践项目\\ChromePlugin项目实战\\eoy7yl53cf9t7mpp.md",
+      "docPath": "docs\\doc\\🧰 实践项目\\ChromePlugin项目实战"
+    },
+    {
+      "id": 173826128,
+      "doc_id": "eydyl7oc3k5ivgbz",
+      "updated": 1718457996000,
+      "properties": {
+        "title": "2、项目文件",
+        "urlname": "eydyl7oc3k5ivgbz",
+        "date": "2024-06-15 21:20:10",
+        "updated": "2024-06-15 21:26:36",
+        "description": "在本章中，我们将从零开始创建我们的 Chrome 插件项目。你将学会如何创建项目文件夹，了解项目的结构，并编写必要的 manifest.json 文件来配置插件。创建项目文件夹首先，我们需要为我们的插件创建一个项目文件夹。在你的计算机上选择一个合适的位置，然后按照以下步骤创建文件夹：在你的计算..."
+      },
+      "catalog": [
+        {
+          "title": "🧰 实践项目",
+          "doc_id": "eydyl7oc3k5ivgbz"
+        },
+        {
+          "title": "ChromePlugin项目实战",
+          "doc_id": "eydyl7oc3k5ivgbz"
+        }
+      ],
+      "realName": "eydyl7oc3k5ivgbz",
+      "relativePath": "\\🧰 实践项目\\ChromePlugin项目实战\\eydyl7oc3k5ivgbz.md",
+      "docPath": "docs\\doc\\🧰 实践项目\\ChromePlugin项目实战"
+    },
+    {
+      "id": 173826233,
+      "doc_id": "hoxdx3meswbbhpff",
+      "updated": 1718458003000,
+      "properties": {
+        "title": "4、网页交互",
+        "urlname": "hoxdx3meswbbhpff",
+        "date": "2024-06-15 21:22:08",
+        "updated": "2024-06-15 21:26:43",
+        "description": "在本章中，我们将深入探讨如何使用 Chrome 扩展中的内容脚本与网页进行交互。内容脚本是 Chrome 扩展中的一个重要部分，它能够访问和操作网页的 DOM（Document Object Model）。通过内容脚本，我们可以获取网页的选中内容并进行处理，为接下来的翻译和词典功能打下基础。添..."
+      },
+      "catalog": [
+        {
+          "title": "🧰 实践项目",
+          "doc_id": "hoxdx3meswbbhpff"
+        },
+        {
+          "title": "ChromePlugin项目实战",
+          "doc_id": "hoxdx3meswbbhpff"
+        }
+      ],
+      "realName": "hoxdx3meswbbhpff",
+      "relativePath": "\\🧰 实践项目\\ChromePlugin项目实战\\hoxdx3meswbbhpff.md",
+      "docPath": "docs\\doc\\🧰 实践项目\\ChromePlugin项目实战"
+    },
+    {
+      "id": 173826484,
+      "doc_id": "xbzsvccoy347guga",
+      "updated": 1718457992000,
+      "properties": {
+        "title": "12、国际化支持",
+        "urlname": "xbzsvccoy347guga",
+        "date": "2024-06-15 21:25:25",
+        "updated": "2024-06-15 21:26:32",
+        "description": "本章节将详细介绍如何在 Chrome 插件中添加国际化支持，以便让插件适应不同语言环境中的用户需求。我们将通过编写国际化文件，并以中文和英文为例进行演示。通过本章的学习，您将掌握国际化插件开发的基础知识和技术实现。1. 引言国际化（Internationalization, i18n）是指为软..."
+      },
+      "catalog": [
+        {
+          "title": "🧰 实践项目",
+          "doc_id": "xbzsvccoy347guga"
+        },
+        {
+          "title": "ChromePlugin项目实战",
+          "doc_id": "xbzsvccoy347guga"
+        }
+      ],
+      "realName": "xbzsvccoy347guga",
+      "relativePath": "\\🧰 实践项目\\ChromePlugin项目实战\\xbzsvccoy347guga.md",
+      "docPath": "docs\\doc\\🧰 实践项目\\ChromePlugin项目实战"
+    },
+    {
+      "id": 173826456,
+      "doc_id": "zbeb9457iikko9uw",
+      "updated": 1718457987000,
+      "properties": {
+        "title": "11、调试与测试",
+        "urlname": "zbeb9457iikko9uw",
+        "date": "2024-06-15 21:24:58",
+        "updated": "2024-06-15 21:26:27",
+        "description": "在完成插件开发后，调试和测试是确保插件稳定性和功能完整性的重要步骤。本章将详细讲解如何使用 Chrome 开发者工具进行调试，并介绍一些常见的错误及其解决方法，最后还会指导你编写自动化测试脚本。11.1 使用 Chrome 开发者工具进行调试Chrome 开发者工具是调试插件最常用且强大的工具..."
+      },
+      "catalog": [
+        {
+          "title": "🧰 实践项目",
+          "doc_id": "zbeb9457iikko9uw"
+        },
+        {
+          "title": "ChromePlugin项目实战",
+          "doc_id": "zbeb9457iikko9uw"
+        }
+      ],
+      "realName": "zbeb9457iikko9uw",
+      "relativePath": "\\🧰 实践项目\\ChromePlugin项目实战\\zbeb9457iikko9uw.md",
+      "docPath": "docs\\doc\\🧰 实践项目\\ChromePlugin项目实战"
+    },
+    {
+      "id": 173826419,
+      "doc_id": "dd58xbizumpbgilb",
+      "updated": 1718457983000,
+      "properties": {
+        "title": "10、性能优化",
+        "urlname": "dd58xbizumpbgilb",
+        "date": "2024-06-15 21:24:32",
+        "updated": "2024-06-15 21:26:23",
+        "description": "在完成了插件的核心功能之后，插件的性能优化是确保用户获得最佳体验的关键一步。性能优化不仅能提升插件的加载速度，还能减少内存占用，优化 API 调用。通过这一章的学习，读者将掌握如何针对 Chrome 插件进行一系列性能优化操作。提升插件加载速度优化文件加载在开发 Chrome 插件时，合理组织..."
+      },
+      "catalog": [
+        {
+          "title": "🧰 实践项目",
+          "doc_id": "dd58xbizumpbgilb"
+        },
+        {
+          "title": "ChromePlugin项目实战",
+          "doc_id": "dd58xbizumpbgilb"
+        }
+      ],
+      "realName": "dd58xbizumpbgilb",
+      "relativePath": "\\🧰 实践项目\\ChromePlugin项目实战\\dd58xbizumpbgilb.md",
+      "docPath": "docs\\doc\\🧰 实践项目\\ChromePlugin项目实战"
+    },
+    {
+      "id": 173826380,
+      "doc_id": "dpmrx7kbh9a840er",
+      "updated": 1718457872000,
+      "properties": {
+        "title": "9、界面优化与用户交互",
+        "urlname": "dpmrx7kbh9a840er",
+        "date": "2024-06-15 21:24:00",
+        "updated": "2024-06-15 21:24:32",
+        "description": "在本章中，我们将讨论如何优化插件的用户界面，以及如何增强用户交互体验。我们将改进 Popup 界面，添加多语言支持，并实现用户设置选项。改进 Popup 界面首先，我们需要对 Popup 界面进行改进，使其更加美观和用户友好。我们将使用 HTML 和 CSS 来设计一个简洁、现代的界面。创建改..."
+      },
+      "catalog": [
+        {
+          "title": "🧰 实践项目",
+          "doc_id": "dpmrx7kbh9a840er"
+        },
+        {
+          "title": "ChromePlugin项目实战",
+          "doc_id": "dpmrx7kbh9a840er"
+        }
+      ],
+      "realName": "dpmrx7kbh9a840er",
+      "relativePath": "\\🧰 实践项目\\ChromePlugin项目实战\\dpmrx7kbh9a840er.md",
+      "docPath": "docs\\doc\\🧰 实践项目\\ChromePlugin项目实战"
+    },
+    {
+      "id": 173826345,
+      "doc_id": "zid22mlibhcghi01",
+      "updated": 1718457842000,
+      "properties": {
+        "title": "8、数据存储与同步",
+        "urlname": "zid22mlibhcghi01",
+        "date": "2024-06-15 21:23:41",
+        "updated": "2024-06-15 21:24:02",
+        "description": "在插件开发过程中，数据存储和同步是一个非常重要的功能。用户需要保存他们的翻译记录和查词记录，以便将来参考。这一章将详细介绍如何使用 Chrome 存储 API 来实现这一功能。8.1 使用 Chrome 存储 APIChrome 提供了一个强大的存储 API，可以在插件中存储数据。它类似于浏览..."
+      },
+      "catalog": [
+        {
+          "title": "🧰 实践项目",
+          "doc_id": "zid22mlibhcghi01"
+        },
+        {
+          "title": "ChromePlugin项目实战",
+          "doc_id": "zid22mlibhcghi01"
+        }
+      ],
+      "realName": "zid22mlibhcghi01",
+      "relativePath": "\\🧰 实践项目\\ChromePlugin项目实战\\zid22mlibhcghi01.md",
+      "docPath": "docs\\doc\\🧰 实践项目\\ChromePlugin项目实战"
+    },
+    {
+      "id": 173826320,
+      "doc_id": "vtsebpvpbg1cymg5",
+      "updated": 1718457822000,
+      "properties": {
+        "title": "7、词典功能实现",
+        "urlname": "vtsebpvpbg1cymg5",
+        "date": "2024-06-15 21:23:23",
+        "updated": "2024-06-15 21:23:42",
+        "description": "在本章中，我们将进一步扩展我们的翻译插件，增加一个词典功能。这将允许用户在使用插件进行翻译时，同时获取词语的详细解释。本章将详细介绍如何选择词典 API，如何调用词典 API，以及如何将词典解释结果显示在插件中。选择词典 API选择一个合适的词典 API 是实现词典功能的关键步骤。常见的词典 ..."
+      },
+      "catalog": [
+        {
+          "title": "🧰 实践项目",
+          "doc_id": "vtsebpvpbg1cymg5"
+        },
+        {
+          "title": "ChromePlugin项目实战",
+          "doc_id": "vtsebpvpbg1cymg5"
+        }
+      ],
+      "realName": "vtsebpvpbg1cymg5",
+      "relativePath": "\\🧰 实践项目\\ChromePlugin项目实战\\vtsebpvpbg1cymg5.md",
+      "docPath": "docs\\doc\\🧰 实践项目\\ChromePlugin项目实战"
+    },
+    {
+      "id": 173826262,
+      "doc_id": "zqv9hf5rs9wbcmyh",
+      "updated": 1718457772000,
+      "properties": {
+        "title": "5、消息传递机制",
+        "urlname": "zqv9hf5rs9wbcmyh",
+        "date": "2024-06-15 21:22:35",
+        "updated": "2024-06-15 21:22:52",
+        "description": "在 Chrome 插件的开发过程中，消息传递机制是实现不同部分之间通信的关键。无论是从背景脚本到内容脚本，还是从 popup 界面到背景脚本，都需要建立有效的通信管道。本章将详细介绍如何实现这些通信机制。背景脚本与内容脚本通信1. 背景脚本background.js的编写背景脚本在 Chrom..."
+      },
+      "catalog": [
+        {
+          "title": "🧰 实践项目",
+          "doc_id": "zqv9hf5rs9wbcmyh"
+        },
+        {
+          "title": "ChromePlugin项目实战",
+          "doc_id": "zqv9hf5rs9wbcmyh"
+        }
+      ],
+      "realName": "zqv9hf5rs9wbcmyh",
+      "relativePath": "\\🧰 实践项目\\ChromePlugin项目实战\\zqv9hf5rs9wbcmyh.md",
+      "docPath": "docs\\doc\\🧰 实践项目\\ChromePlugin项目实战"
+    },
+    {
+      "id": 173826294,
+      "doc_id": "csxtdf0gdbfudqg7",
+      "updated": 1718457798000,
+      "properties": {
+        "title": "6、调用翻译 API",
+        "urlname": "csxtdf0gdbfudqg7",
+        "date": "2024-06-15 21:22:57",
+        "updated": "2024-06-15 21:23:18",
+        "description": "在这一章中，我们将学习如何选择合适的翻译 API，并且设置 API 访问权限，使用内容脚本调用翻译 API 并显示结果。这个章节将重点讲解如何在 Chrome 插件中实现在线翻译功能。6.1 选择合适的翻译 API6.1.1 Google Translate APIGoogle Transla..."
+      },
+      "catalog": [
+        {
+          "title": "🧰 实践项目",
+          "doc_id": "csxtdf0gdbfudqg7"
+        },
+        {
+          "title": "ChromePlugin项目实战",
+          "doc_id": "csxtdf0gdbfudqg7"
+        }
+      ],
+      "realName": "csxtdf0gdbfudqg7",
+      "relativePath": "\\🧰 实践项目\\ChromePlugin项目实战\\csxtdf0gdbfudqg7.md",
+      "docPath": "docs\\doc\\🧰 实践项目\\ChromePlugin项目实战"
+    },
+    {
+      "id": 173826174,
+      "doc_id": "fhh99lgx1ihp1ykw",
+      "updated": 1718457728000,
+      "properties": {
+        "title": "3、创建 Popup 界面",
+        "urlname": "fhh99lgx1ihp1ykw",
+        "date": "2024-06-15 21:21:04",
+        "updated": "2024-06-15 21:22:08",
+        "description": "在本章中，我们将一步步创建 Chrome 插件的基础 Popup 界面。这部分是用户与插件进行交互的主要界面。我们会创建一个简单的 popup.html 文件，设计其样式和布局，然后编写 popup.js 来处理用户的点击事件。创建popup.html首先，我们需要在项目文件夹内创建一个新的 ..."
+      },
+      "catalog": [
+        {
+          "title": "🧰 实践项目",
+          "doc_id": "fhh99lgx1ihp1ykw"
+        },
+        {
+          "title": "ChromePlugin项目实战",
+          "doc_id": "fhh99lgx1ihp1ykw"
+        }
+      ],
+      "realName": "fhh99lgx1ihp1ykw",
+      "relativePath": "\\🧰 实践项目\\ChromePlugin项目实战\\fhh99lgx1ihp1ykw.md",
+      "docPath": "docs\\doc\\🧰 实践项目\\ChromePlugin项目实战"
+    },
+    {
+      "id": 173826084,
+      "doc_id": "yow1nk49lu90564x",
+      "updated": 1718457716000,
+      "properties": {
+        "title": "1、什么是 Chrome 插件？",
+        "urlname": "yow1nk49lu90564x",
+        "date": "2024-06-15 21:19:17",
+        "updated": "2024-06-15 21:21:56",
+        "description": "在本章中，我们将介绍什么是 Chrome 插件、其常见用途和好处，并引导您完成安装 Chrome 浏览器以及设置开发者环境的步骤。通过这些准备工作，您将为后续章节的学习打下坚实的基础。我们将以“翻译和词典插件”为最终目标，希望大家喜欢。1.1 什么是 Chrome 插件？Chrome 插件，也..."
+      },
+      "catalog": [
+        {
+          "title": "🧰 实践项目",
+          "doc_id": "yow1nk49lu90564x"
+        },
+        {
+          "title": "ChromePlugin项目实战",
+          "doc_id": "yow1nk49lu90564x"
+        }
+      ],
+      "realName": "yow1nk49lu90564x",
+      "relativePath": "\\🧰 实践项目\\ChromePlugin项目实战\\yow1nk49lu90564x.md",
+      "docPath": "docs\\doc\\🧰 实践项目\\ChromePlugin项目实战"
+    },
+    {
+      "id": 173826065,
+      "doc_id": "mrpg5qrcb72px7ng",
+      "updated": 1718457588000,
+      "properties": {
+        "title": "ChromePlugin项目实战",
+        "urlname": "mrpg5qrcb72px7ng",
+        "date": "2024-06-15 21:18:56",
+        "updated": "2024-06-15 21:19:48",
+        "description": "目录 引言与准备工作 什么是 Chrome 插件？Chrome 插件的常见用途和好处安装 Chrome 浏览器设置开发者环境 项目初始设置 创建项目文件夹项目结构介绍编写manifest.json文件 创建基础 Popup 界面 创建popup.html设计popup的样式和布局编写popup..."
+      },
+      "catalog": [
+        {
+          "title": "🧰 实践项目",
+          "doc_id": "mrpg5qrcb72px7ng"
+        }
+      ],
+      "realName": "mrpg5qrcb72px7ng",
+      "relativePath": "\\🧰 实践项目\\mrpg5qrcb72px7ng.md",
+      "docPath": "docs\\doc\\🧰 实践项目"
     }
   ],
   "catalog": [
@@ -11066,7 +11412,7 @@
       "url": "ttymzn2156q6eim1",
       "prev_uuid": "g79LhyuCIcy2z2cx",
       "sibling_uuid": "uHCIfCp4Xzc-fCfY",
-      "child_uuid": "FKITPLoEH7Oi1Kov",
+      "child_uuid": "TkLPekgDeeZJDP3x",
       "parent_uuid": "",
       "doc_id": 169649875,
       "level": 0,
@@ -11076,10 +11422,220 @@
     },
     {
       "type": "DOC",
+      "title": "ChromePlugin项目实战",
+      "uuid": "TkLPekgDeeZJDP3x",
+      "url": "mrpg5qrcb72px7ng",
+      "prev_uuid": "w3lr-82OziASjvSa",
+      "sibling_uuid": "FKITPLoEH7Oi1Kov",
+      "child_uuid": "SM-qlu7pOfs-pwl6",
+      "parent_uuid": "w3lr-82OziASjvSa",
+      "doc_id": 173826065,
+      "level": 1,
+      "id": 173826065,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "1、什么是 Chrome 插件？",
+      "uuid": "SM-qlu7pOfs-pwl6",
+      "url": "yow1nk49lu90564x",
+      "prev_uuid": "TkLPekgDeeZJDP3x",
+      "sibling_uuid": "_6BKhLnGOlFzQsaO",
+      "child_uuid": "",
+      "parent_uuid": "TkLPekgDeeZJDP3x",
+      "doc_id": 173826084,
+      "level": 2,
+      "id": 173826084,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "2、项目文件",
+      "uuid": "_6BKhLnGOlFzQsaO",
+      "url": "eydyl7oc3k5ivgbz",
+      "prev_uuid": "SM-qlu7pOfs-pwl6",
+      "sibling_uuid": "zophWceXJqPVh1v9",
+      "child_uuid": "",
+      "parent_uuid": "TkLPekgDeeZJDP3x",
+      "doc_id": 173826128,
+      "level": 2,
+      "id": 173826128,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "3、创建 Popup 界面",
+      "uuid": "zophWceXJqPVh1v9",
+      "url": "fhh99lgx1ihp1ykw",
+      "prev_uuid": "_6BKhLnGOlFzQsaO",
+      "sibling_uuid": "RnGyyFvmUz5x9DKt",
+      "child_uuid": "",
+      "parent_uuid": "TkLPekgDeeZJDP3x",
+      "doc_id": 173826174,
+      "level": 2,
+      "id": 173826174,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "4、网页交互",
+      "uuid": "RnGyyFvmUz5x9DKt",
+      "url": "hoxdx3meswbbhpff",
+      "prev_uuid": "zophWceXJqPVh1v9",
+      "sibling_uuid": "tDnX3i9mDRGLGlRi",
+      "child_uuid": "",
+      "parent_uuid": "TkLPekgDeeZJDP3x",
+      "doc_id": 173826233,
+      "level": 2,
+      "id": 173826233,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "5、消息传递机制",
+      "uuid": "tDnX3i9mDRGLGlRi",
+      "url": "zqv9hf5rs9wbcmyh",
+      "prev_uuid": "RnGyyFvmUz5x9DKt",
+      "sibling_uuid": "LHCPAPh63YgmmO8l",
+      "child_uuid": "",
+      "parent_uuid": "TkLPekgDeeZJDP3x",
+      "doc_id": 173826262,
+      "level": 2,
+      "id": 173826262,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "6、调用翻译 API",
+      "uuid": "LHCPAPh63YgmmO8l",
+      "url": "csxtdf0gdbfudqg7",
+      "prev_uuid": "tDnX3i9mDRGLGlRi",
+      "sibling_uuid": "nUW1ARUp6Gzy2rNK",
+      "child_uuid": "",
+      "parent_uuid": "TkLPekgDeeZJDP3x",
+      "doc_id": 173826294,
+      "level": 2,
+      "id": 173826294,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "7、词典功能实现",
+      "uuid": "nUW1ARUp6Gzy2rNK",
+      "url": "vtsebpvpbg1cymg5",
+      "prev_uuid": "LHCPAPh63YgmmO8l",
+      "sibling_uuid": "fJvSOUDS149y-Yd2",
+      "child_uuid": "",
+      "parent_uuid": "TkLPekgDeeZJDP3x",
+      "doc_id": 173826320,
+      "level": 2,
+      "id": 173826320,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "8、数据存储与同步",
+      "uuid": "fJvSOUDS149y-Yd2",
+      "url": "zid22mlibhcghi01",
+      "prev_uuid": "nUW1ARUp6Gzy2rNK",
+      "sibling_uuid": "KZR3f5I51F3iUYMf",
+      "child_uuid": "",
+      "parent_uuid": "TkLPekgDeeZJDP3x",
+      "doc_id": 173826345,
+      "level": 2,
+      "id": 173826345,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "9、界面优化与用户交互",
+      "uuid": "KZR3f5I51F3iUYMf",
+      "url": "dpmrx7kbh9a840er",
+      "prev_uuid": "fJvSOUDS149y-Yd2",
+      "sibling_uuid": "NdWDWDfhO4eabQ9c",
+      "child_uuid": "",
+      "parent_uuid": "TkLPekgDeeZJDP3x",
+      "doc_id": 173826380,
+      "level": 2,
+      "id": 173826380,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "10、性能优化",
+      "uuid": "NdWDWDfhO4eabQ9c",
+      "url": "dd58xbizumpbgilb",
+      "prev_uuid": "KZR3f5I51F3iUYMf",
+      "sibling_uuid": "b5KOQDdZXQOGTAbU",
+      "child_uuid": "",
+      "parent_uuid": "TkLPekgDeeZJDP3x",
+      "doc_id": 173826419,
+      "level": 2,
+      "id": 173826419,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "11、调试与测试",
+      "uuid": "b5KOQDdZXQOGTAbU",
+      "url": "zbeb9457iikko9uw",
+      "prev_uuid": "NdWDWDfhO4eabQ9c",
+      "sibling_uuid": "u9Nz1Eklz4YOQdN7",
+      "child_uuid": "",
+      "parent_uuid": "TkLPekgDeeZJDP3x",
+      "doc_id": 173826456,
+      "level": 2,
+      "id": 173826456,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "12、国际化支持",
+      "uuid": "u9Nz1Eklz4YOQdN7",
+      "url": "xbzsvccoy347guga",
+      "prev_uuid": "b5KOQDdZXQOGTAbU",
+      "sibling_uuid": "X0DdACq5RPTQhDLC",
+      "child_uuid": "",
+      "parent_uuid": "TkLPekgDeeZJDP3x",
+      "doc_id": 173826484,
+      "level": 2,
+      "id": 173826484,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "13、插件发布",
+      "uuid": "X0DdACq5RPTQhDLC",
+      "url": "eoy7yl53cf9t7mpp",
+      "prev_uuid": "u9Nz1Eklz4YOQdN7",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "TkLPekgDeeZJDP3x",
+      "doc_id": 173826516,
+      "level": 2,
+      "id": 173826516,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "TinyWebServer",
       "uuid": "FKITPLoEH7Oi1Kov",
       "url": "tihx6bwirgug3b9d",
-      "prev_uuid": "w3lr-82OziASjvSa",
+      "prev_uuid": "TkLPekgDeeZJDP3x",
       "sibling_uuid": "",
       "child_uuid": "V7ux9o8m9CWi4Zo1",
       "parent_uuid": "w3lr-82OziASjvSa",

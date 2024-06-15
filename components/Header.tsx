@@ -18,6 +18,7 @@ export default function Header() {
     justify-between 
     opacity-95 top-0"
     >
+      <meta name="sogou_site_verification" content="7AxJ6lhO0l" />
       <div>
         <Link href="/" aria-label={siteMetadata.headerTitle}>
           <div className="flex items-center justify-between">

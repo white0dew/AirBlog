@@ -2,12 +2,10 @@
 title: '5.11 华中科大:感谢大家，我的春招之旅结束了'
 urlname: agprzvnqlb1k3fdc
 date: '2024-06-13 21:14:38'
-updated: '2024-06-13 21:14:45'
+updated: '2024-06-13 21:30:49'
 cover: 'https://cdn.nlark.com/yuque/0/2024/png/22382235/1715523269355-3b148b36-28a0-4c15-aa1d-adfb35b79235.png'
-description: 'https://www.nowcoder.com/feed/main/detail/b26ee2a341d94869a67e1aa073d6aff1场景提：https://www.nowcoder.com/discuss/353159395452329984大家好，我是白露。今天在论坛上看到一...'
+description: 大家好，我是白露。今天在论坛上看到一个帖子，一位华中科大的同学，因为家中父亲突然病倒，发求助帖：请问大家，春招走哪个方向能最快找到工作？还是说继续读研呢，但是家里急需钱……当时这个帖子直接热榜第一，然后牛客网创始人直接给这位同学开了一年会员表示支持。然后其他网友也纷纷提了自己的鼓励和意见。时隔...
 ---
-[https://www.nowcoder.com/feed/main/detail/b26ee2a341d94869a67e1aa073d6aff1](https://www.nowcoder.com/feed/main/detail/b26ee2a341d94869a67e1aa073d6aff1)
-场景提：[https://www.nowcoder.com/discuss/353159395452329984](https://www.nowcoder.com/discuss/353159395452329984)
 大家好，我是白露。
 
 今天在论坛上看到一个帖子，一位华中科大的同学，因为家中父亲突然病倒，发求助帖：

@@ -2,11 +2,10 @@
 title: 5.16 8岁编程，20岁创业：GPT创始人的Sam Altman的简历。。。
 urlname: mbh6cq201quvnvv8
 date: '2024-06-13 21:14:37'
-updated: '2024-06-13 21:14:45'
+updated: '2024-06-13 21:31:00'
 cover: 'https://cdn.nlark.com/yuque/0/2024/png/22382235/1715951640662-a96f5b52-0687-40c3-9dba-238407609dc6.png'
-description: '参考鱼皮：https://mp.weixin.qq.com/s/qI7F8kK67O973IK1doWJ6A大家好，我是白露，全栈开发。OpenAI 发布GPT-4o的消息又双叒刷屏了。大家都在说它多好用、多先进的时候……我反问了一句：谁造就了它？细数整个GPT爆火的背后，都离不开OpenAI...'
+description: 大家好，我是白露，全栈开发。OpenAI 发布GPT-4o的消息又双叒刷屏了。大家都在说它多好用、多先进的时候……我反问了一句：谁造就了它？细数整个GPT爆火的背后，都离不开OpenAI 的CEO——Sam Altman，网友亲切的称之为“奥特曼”。我们直接来看看这位大佬的简历吧：20岁辍学创...
 ---
-> 参考鱼皮：[https://mp.weixin.qq.com/s/qI7F8kK67O973IK1doWJ6A](https://mp.weixin.qq.com/s/qI7F8kK67O973IK1doWJ6A)
 
 大家好，我是白露，全栈开发。
 

@@ -2,13 +2,10 @@
 title: 5/2 美团实习
 urlname: rflb7oxc3ugweal0
 date: '2024-06-13 21:14:38'
-updated: '2024-06-13 21:14:46'
+updated: '2024-06-13 21:29:46'
 cover: 'https://cdn.nlark.com/yuque/0/2024/png/22382235/1714524504982-5895272f-aa56-4611-b140-f196338fbb67.png'
-description: 'https://www.nowcoder.com/feed/main/detail/b6e7154498094ed4a8fbde61769b30d4面试官: 嗨，欢迎来到美团的后端面试。我们今天会讨论一些技术问题，先从基础开始。你能给我讲讲HashMap的原理以及它为什么线程不安全吗？还有，红...'
+description: '面试官: 嗨，欢迎来到美团的后端面试。我们今天会讨论一些技术问题，先从基础开始。你能给我讲讲HashMap的原理以及它为什么线程不安全吗？还有，红黑树的结构是怎样的？求职者: 当然可以。HashMap的原理基于散列表，它通过hashcode来计算键的存储索引。由于多线程同时修改HashMap可...'
 ---
-> [https://www.nowcoder.com/feed/main/detail/b6e7154498094ed4a8fbde61769b30d4](https://www.nowcoder.com/feed/main/detail/b6e7154498094ed4a8fbde61769b30d4)
-
-
 **面试官**: 嗨，欢迎来到美团的后端面试。我们今天会讨论一些技术问题，先从基础开始。你能给我讲讲**HashMap的原理**以及它为什么**线程不安全**吗？还有，**红黑树的结构**是怎样的？
 
 **求职者**: 当然可以。**HashMap的原理**基于散列表，它通过hashcode来计算键的存储索引。由于多线程同时修改HashMap可能会导致竞态条件，这就是它**不安全**的原因。至于**红黑树**，它是一种自平衡的二叉查找树，具有五个基本性质，保证了操作的效率。

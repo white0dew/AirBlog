@@ -2,15 +2,10 @@
 title: 5.7 字节薪资解密。。张一鸣啥等级？
 urlname: vee4zpgz7mnpyi9h
 date: '2024-06-13 21:14:38'
-updated: '2024-06-13 21:14:46'
+updated: '2024-06-13 21:30:13'
 cover: 'https://cdn.nlark.com/yuque/0/2024/jpeg/22382235/1715176258995-f9432213-e1dc-43e8-9587-72d19f9528d6.jpeg'
-description: '还有阿里和腾讯的https://www.iyunying.org/news/328783.htmlhttps://www.nowcoder.com/feed/main/detail/38e0f968cbec471b8fd6dca2e9551215?sourceSSR=search大家好，我是白...'
+description: 大家好，我是白露啊。 之前说BAT，可能是指百度、阿里、腾讯，但是现在，这个 B，大多数时候指的是字节跳动了。随着抖音系产品的流量持续升温，字节跳动已经是一个毋庸置疑的互联网大厂了，不管是想进去，还是已经入职的，大家其实对一件事情最感兴趣：那就是字节跳动的薪资到底有多少？。今天，我分享一下我从...
 ---
-> 还有阿里和腾讯的
-> [https://www.iyunying.org/news/328783.html](https://www.iyunying.org/news/328783.html)
-> [https://www.nowcoder.com/feed/main/detail/38e0f968cbec471b8fd6dca2e9551215?sourceSSR=search](https://www.nowcoder.com/feed/main/detail/38e0f968cbec471b8fd6dca2e9551215?sourceSSR=search)
-
-
 大家好，我是白露啊。 
 ![698d35748650191a2ded5756f781ebe.jpg](https://oss1.aistar.cool/elog-offer-now/ba01d626b28b2562a13868503981a976.jpeg)
 之前说BAT，可能是指**百度、阿里、腾讯**，但是现在，这个 B，大多数时候指的是**字节跳动**了。

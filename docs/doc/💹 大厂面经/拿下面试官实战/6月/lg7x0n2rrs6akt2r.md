@@ -2,11 +2,10 @@
 title: 6.4 现在卷疯了，HR都怀疑人生，大二做三项目。。
 urlname: lg7x0n2rrs6akt2r
 date: '2024-06-13 21:14:36'
-updated: '2024-06-13 21:14:44'
+updated: '2024-06-13 21:29:24'
 cover: 'https://cdn.nlark.com/yuque/0/2024/png/22382235/1717509206724-0b9850df-efab-4e2b-8fbb-83dffa3029b1.png'
-description: 'https://www.nowcoder.com/feed/main/detail/215ab385fcb14decb5c803e97c67c318?fromPut=%3F%3F%3F%3F_pc_%3F%3F%3F%3F%3F_%3F%3F%3F%3F_1717462812367大家好，我是...'
+description: 大家好，我是白露。今天看到一条让人哭笑不得的帖子，标题是：“哎，世界已经卷到连HR都不相信了”。随后还附了一张对话截图：HR：你大二做三个系统？真的？同学：有人大二几个大厂实习，我几个项目不过分吧。这对话看得我差点笑喷了。卷，真的卷到让HR都怀疑人生了。更有意思的是，这篇帖子的评论区也是各种精...
 ---
-[https://www.nowcoder.com/feed/main/detail/215ab385fcb14decb5c803e97c67c318?fromPut=%3F%3F%3F%3F_pc_%3F%3F%3F%3F%3F_%3F%3F%3F%3F_1717462812367](https://www.nowcoder.com/feed/main/detail/215ab385fcb14decb5c803e97c67c318?fromPut=%3F%3F%3F%3F_pc_%3F%3F%3F%3F%3F_%3F%3F%3F%3F_1717462812367)
 大家好，我是白露。
 
 今天看到一条让人哭笑不得的帖子，标题是：“**哎，世界已经卷到连HR都不相信了**”。

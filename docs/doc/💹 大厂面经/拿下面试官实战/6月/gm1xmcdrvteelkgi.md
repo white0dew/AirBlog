@@ -2,15 +2,10 @@
 title: 6.5 来腾讯第4天，我已经焦虑昏了啊！
 urlname: gm1xmcdrvteelkgi
 date: '2024-06-13 21:14:36'
-updated: '2024-06-13 21:14:43'
+updated: '2024-06-13 21:29:27'
 cover: 'https://cdn.nlark.com/yuque/0/2024/png/22382235/1717683261567-39fcd3a4-7ab6-4e77-add9-6a6b4cf555a2.png'
-description: 'https://www.nowcoder.com/discuss/626130333355749376?fromPut=%3F%3F%3F%3F_pc_%3F%3F%3F%3F%3F_%3F%3F%3F%3F_1717681723966大家好，我是白露啊。今天在看到一个实习生在抱怨，给我笑惨了...'
+description: "大家好，我是白露啊。今天在看到一个实习生在抱怨，给我笑惨了。标题是：“腾讯实习第4天，焦虑昏了”！他写道：“怎么办啊牛爷爷们，什么都不会。业务看不懂，文档看不懂，他们说的听不懂。整个人是空洞的，茫然无措。真怕被干掉，我该怎么办啊\U0001F62D\U0001F62D\U0001F62D\U0001F62D\U0001F62D”读到这话，不禁让我想起自己刚入职时的场景，内..."
 ---
-
-[https://www.nowcoder.com/discuss/626130333355749376?fromPut=%3F%3F%3F%3F_pc_%3F%3F%3F%3F%3F_%3F%3F%3F%3F_1717681723966](https://www.nowcoder.com/discuss/626130333355749376?fromPut=%3F%3F%3F%3F_pc_%3F%3F%3F%3F%3F_%3F%3F%3F%3F_1717681723966)
-![image.png](https://oss1.aistar.cool/elog-offer-now/50465696adebd9fc4186e95c78665e72.png)
-![image.png](https://oss1.aistar.cool/elog-offer-now/8082a0a14ff6a04214bca28c7760ff26.png)
-
 大家好，我是白露啊。
 
 今天在看到一个实习生在抱怨，给我笑惨了。

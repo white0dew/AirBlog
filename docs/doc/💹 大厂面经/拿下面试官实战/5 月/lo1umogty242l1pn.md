@@ -2,12 +2,10 @@
 title: 5.21 淘宝618，不如拼多多，揭秘拼多多薪资体系
 urlname: lo1umogty242l1pn
 date: '2024-06-13 21:14:37'
-updated: '2024-06-13 21:14:44'
+updated: '2024-06-13 21:31:10'
 cover: 'https://cdn.nlark.com/yuque/0/2024/png/22382235/1716469571085-ee3e57d0-9d53-4700-bf3f-055fb2af01fd.png'
-description: 'https://www.nowcoder.com/feed/main/detail/72db891253a84c8d91f05b7bb8bcbf95?sourceSSR=search大家好，我是白露啊。刚有朋友问我：淘宝618开始了，怎么拼多多还没有动静啊？我笑说，对于拼多多来说，每天都是61...'
+description: 大家好，我是白露啊。刚有朋友问我：淘宝618开始了，怎么拼多多还没有动静啊？我笑说，对于拼多多来说，每天都是618 。至于淘宝618，已经逐渐沦为耍猴的活动。比如最近淘宝618的活动，88会员可以拿到一张消费券，5000-400。然后那些商家立马涨价三四百，优惠之后的价格跟之前的几乎一样，甚至...
 ---
-> [https://www.nowcoder.com/feed/main/detail/72db891253a84c8d91f05b7bb8bcbf95?sourceSSR=search](https://www.nowcoder.com/feed/main/detail/72db891253a84c8d91f05b7bb8bcbf95?sourceSSR=search)
-
 大家好，我是白露啊。
 
 刚有朋友问我：淘宝618开始了，怎么拼多多还没有动静啊？

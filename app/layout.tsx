@@ -111,6 +111,7 @@ export default function RootLayout({
       />
       {/* 全局 CSS */}
       <meta name="baidu-site-verification" content="codeva-I0qCzKCAtu" />
+      <meta name="sogou_site_verification" content="7AxJ6lhO0l" />
       <body
         className="bg-white w-screen max-w-screen
        overflow-x-hidden

@@ -2,8 +2,10 @@
 title: ChromePlugin项目实战
 urlname: mrpg5qrcb72px7ng
 date: '2024-06-15 21:18:56'
-updated: '2024-06-15 21:19:48'
-description: 目录 引言与准备工作 什么是 Chrome 插件？Chrome 插件的常见用途和好处安装 Chrome 浏览器设置开发者环境 项目初始设置 创建项目文件夹项目结构介绍编写manifest.json文件 创建基础 Popup 界面 创建popup.html设计popup的样式和布局编写popup...
+updated: '2024-06-15 22:44:45'
+description: '---is_nav: falsenav_path: chrome_plugin---目录 引言与准备工作 什么是 Chrome 插件？Chrome 插件的常见用途和好处安装 Chrome 浏览器设置开发者环境 项目初始设置 创建项目文件夹项目结构介绍编写manifest.json文件 创建基础...'
+is_nav: false
+nav_path: chrome_plugin
 ---
 ## 目录
 

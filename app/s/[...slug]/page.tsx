@@ -19,6 +19,7 @@ import siteMetadata from "@/assets/siteMetadata";
 import MDViewer from "@/components/markdown/MarkdownView";
 import Image from "next/image";
 import { ContentPrefixPath } from "@/constants/path";
+import { Suspense } from "react";
 
 export const dynamicParams = true;
 export const revalidate = 60 * 60 * 1; //60*60*1 s
@@ -181,6 +182,13 @@ export async function generateMetadata({
   };
 }
 
+const LoadingSpinner = () => (
+  <div className="spinner">
+    {/* 你可以使用你喜欢的加载指示器样式 */}
+    <div>Loading...</div>
+  </div>
+);
+
 export default function ArticlePage({
   params,
 }: {
@@ -195,6 +203,7 @@ export default function ArticlePage({
   }
   // mylog(curArticle?.body.raw)
   return (
+    // <Suspense fallback={<LoadingSpinner />}>
     <div
       className="relative mx-auto max-w-screen-xl justify-center space-x-3 px-4 py-2 
         md:flex md:flex-row md:py-2 lg:space-x-16"
@@ -267,5 +276,6 @@ export default function ArticlePage({
         )}
       </div>
     </div>
+    // </Suspense>
   );
 }

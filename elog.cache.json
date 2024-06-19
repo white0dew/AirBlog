@@ -862,13 +862,15 @@
     {
       "id": 171769376,
       "doc_id": "ogfvsltzo95v0k88",
-      "updated": 1717082971000,
+      "updated": 1718593380000,
       "properties": {
         "title": "个人建站 🤖",
         "urlname": "ogfvsltzo95v0k88",
         "date": "2024-05-30 23:28:31",
-        "updated": "2024-05-30 23:29:31",
-        "description": "分享我在个人建站、网站开发方面遇到的一些问题、解决方法以及经验~"
+        "updated": "2024-06-17 11:03:00",
+        "description": "---is_nav: falsenav_path: own_web---分享我在个人建站、网站开发方面遇到的一些问题、解决方法以及经验~",
+        "is_nav": false,
+        "nav_path": "own_web"
       },
       "catalog": [
         {
@@ -3323,14 +3325,14 @@
     {
       "id": 170598820,
       "doc_id": "qhcv6k1zz4pwgp11",
-      "updated": 1717686443000,
+      "updated": 1718809645000,
       "properties": {
         "title": "友情链接",
         "urlname": "qhcv6k1zz4pwgp11",
         "date": "2024-05-22 08:52:07",
-        "updated": "2024-06-06 23:07:23",
-        "description": "---nav_path: friend_link---原则先友，后加链接。方法在自己的网站增加之后，直接在评论区给出我的友情链接。然后留下你需要添加的网站信息，格式如下：网站名称：小明的网站网站介绍：分享游戏网站地址：www.offernow.cn",
-        "nav_path": "friend_link"
+        "updated": "2024-06-19 23:07:25",
+        "description": "---nav_path: links---网站推荐一些优秀的网站推荐，以下排名不分先后～网站名称网站地址网站简介网站头图氿月博客https://chuishen.xyz/程序设计，网页设计，用户界面设计，文史哲https://cravatar.cn/avatar/57ff1222a81493a...",
+        "nav_path": "links"
       },
       "catalog": [
         {
@@ -5122,13 +5124,13 @@
     {
       "id": 170598462,
       "doc_id": "qfaugcu7d1ucqdq5",
-      "updated": 1718333213000,
+      "updated": 1718810400000,
       "properties": {
         "title": "更新日志",
         "urlname": "qfaugcu7d1ucqdq5",
         "date": "2024-05-22 08:47:22",
-        "updated": "2024-06-14 10:46:53",
-        "description": "---nav_path: changelog---2024-6-13优化网站排版：防止页面崩溃更新主页Icon增加网页动态效果适配部分移动端机型2024-6-06导航栏优化增加微信二维码增加友情链接增加站点地图代码优化2024-5-22网站第一次提交上线",
+        "updated": "2024-06-19 23:20:00",
+        "description": "---nav_path: changelog---2024-6-19新增内容：新增Go语言相关内容新增最强前端、最强后端相关内容新增友情链接功能2024-6-13优化网站排版：防止页面崩溃更新主页Icon增加网页动态效果适配部分移动端机型2024-6-06导航栏优化增加微信二维码增加友情链接增...",
         "nav_path": "changelog"
       },
       "catalog": [
@@ -8346,6 +8348,619 @@
       "realName": "mrpg5qrcb72px7ng",
       "relativePath": "\\🧰 实践项目\\mrpg5qrcb72px7ng.md",
       "docPath": "docs\\doc\\🧰 实践项目"
+    },
+    {
+      "id": 173993979,
+      "doc_id": "yruzbxv5gtss1avi",
+      "updated": 1718593799000,
+      "properties": {
+        "title": "初识SEO",
+        "urlname": "yruzbxv5gtss1avi",
+        "date": "2024-06-17 11:02:11",
+        "updated": "2024-06-17 11:09:59",
+        "description": "第一阶段：SEO基础1.1 什么是SEO？SEO是Search Engine Optimization（搜索引擎优化）的缩写。它是一组用于提高网站在搜索引擎自然搜索结果中的可见性的实践。SEO的目标是提高网站在搜索结果页面（SERP）上的排名，从而增加来自搜索引擎的有机（非付费）流量。SEO对..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "yruzbxv5gtss1avi"
+        },
+        {
+          "title": "个人建站 🤖",
+          "doc_id": "yruzbxv5gtss1avi"
+        }
+      ],
+      "realName": "yruzbxv5gtss1avi",
+      "relativePath": "\\🔥 程序员自我修养\\个人建站 🤖\\yruzbxv5gtss1avi.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\个人建站 🤖"
+    },
+    {
+      "id": 173997634,
+      "doc_id": "sf3un5ht5ehuegqh",
+      "updated": 1718594363000,
+      "properties": {
+        "title": "外部链接为什么可以影响SEO？",
+        "urlname": "sf3un5ht5ehuegqh",
+        "date": "2024-06-17 11:19:05",
+        "updated": "2024-06-17 11:19:23",
+        "description": "外部链接,也称为反向链接或入站链接,是指从其他网站指向你网站的链接。外部链接对搜索引擎排名有重大影响,原因如下:1. 链接是一种\"投票\"当一个网站链接到你的网站时,搜索引擎将其视为一种认可或\"投票\"。它表明你的内容有价值,值得链接。搜索引擎使用这些\"投票\"来评估网页的重要性和权威性。2. 链接..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "sf3un5ht5ehuegqh"
+        },
+        {
+          "title": "个人建站 🤖",
+          "doc_id": "sf3un5ht5ehuegqh"
+        }
+      ],
+      "realName": "sf3un5ht5ehuegqh",
+      "relativePath": "\\🔥 程序员自我修养\\个人建站 🤖\\sf3un5ht5ehuegqh.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\个人建站 🤖"
+    },
+    {
+      "id": 174403386,
+      "doc_id": "qqhpbchysd8n881w",
+      "updated": 1718810292000,
+      "properties": {
+        "title": "7天玩转 Golang 标准库之 flag",
+        "urlname": "qqhpbchysd8n881w",
+        "date": "2024-06-19 23:18:07",
+        "updated": "2024-06-19 23:18:12",
+        "description": "在编写Golang命令行应用时，flag标准库无疑是一个很有价值的工具。它允许你以各种方式来定义和解析命令行参数。基础示例：定义与解析参数若想使用flag标准库，你必须首先定义你希望从命令行接收的参数。下面展示了几种常见的参数类型：package main  import ( \t\"flag\" ..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "qqhpbchysd8n881w"
+        },
+        {
+          "title": "Go",
+          "doc_id": "qqhpbchysd8n881w"
+        },
+        {
+          "title": "Go标准库",
+          "doc_id": "qqhpbchysd8n881w"
+        }
+      ],
+      "realName": "qqhpbchysd8n881w",
+      "relativePath": "\\💻 编程语言\\Go\\Go标准库\\qqhpbchysd8n881w.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Go\\Go标准库"
+    },
+    {
+      "id": 174403422,
+      "doc_id": "acksp7eld7k9p7ag",
+      "updated": 1718810324000,
+      "properties": {
+        "title": "并发：Goroutines和Channels的详细指南",
+        "urlname": "acksp7eld7k9p7ag",
+        "date": "2024-06-19 23:18:29",
+        "updated": "2024-06-19 23:18:44",
+        "description": "0. 并发和并行的区别并发与并行在许多情况下被用作相互替代的术语，但在计算中，它们之间有着明显的区别。并发是指同时管理很多事情，这是软件设计的一种方式；而并行执行则指同时做很多事情，是根据硬件的计算能力来进行的。例如，假设我们在一个餐厅里做若干件事情：点菜、吃饭、结账。在并发的世界里，我们将这..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "acksp7eld7k9p7ag"
+        },
+        {
+          "title": "Go",
+          "doc_id": "acksp7eld7k9p7ag"
+        },
+        {
+          "title": "🎁 最佳实践",
+          "doc_id": "acksp7eld7k9p7ag"
+        }
+      ],
+      "realName": "acksp7eld7k9p7ag",
+      "relativePath": "\\💻 编程语言\\Go\\🎁 最佳实践\\acksp7eld7k9p7ag.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Go\\🎁 最佳实践"
+    },
+    {
+      "id": 174403360,
+      "doc_id": "kg7o7vghu19v2b48",
+      "updated": 1718810282000,
+      "properties": {
+        "title": "7天玩转 Golang 标准库之 sort",
+        "urlname": "kg7o7vghu19v2b48",
+        "date": "2024-06-19 23:17:53",
+        "updated": "2024-06-19 23:18:02",
+        "description": "数据排序 是编程任务的一个常见部分，而Go标准库的sort包提供了对切片和用户定义集合的排序操作。1.基础排序：整数、浮点数和字符串Golang自带了对于整数切片[]int，浮点数切片[]float64以及字符切片[]string的排序：package main  import ( \t\"fmt..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "kg7o7vghu19v2b48"
+        },
+        {
+          "title": "Go",
+          "doc_id": "kg7o7vghu19v2b48"
+        },
+        {
+          "title": "Go标准库",
+          "doc_id": "kg7o7vghu19v2b48"
+        }
+      ],
+      "realName": "kg7o7vghu19v2b48",
+      "relativePath": "\\💻 编程语言\\Go\\Go标准库\\kg7o7vghu19v2b48.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Go\\Go标准库"
+    },
+    {
+      "id": 174403338,
+      "doc_id": "gcpnwwcv60ep0ley",
+      "updated": 1718810270000,
+      "properties": {
+        "title": "7天玩转 Golang 标准库之 http/net",
+        "urlname": "gcpnwwcv60ep0ley",
+        "date": "2024-06-19 23:17:42",
+        "updated": "2024-06-19 23:17:50",
+        "description": "在构建web应用时，我们经常需要处理HTTP请求、做网页抓取或者搭建web服务器等任务，而Go语言在这方面为我们提供了强大的内置工具：net/http标准库，它为我们操作和处理HTTP协议提供了便利。基础用法一：处理HTTP请求首先，我们来看看如何使用net/http标准库发送一个HTTP请求..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "gcpnwwcv60ep0ley"
+        },
+        {
+          "title": "Go",
+          "doc_id": "gcpnwwcv60ep0ley"
+        },
+        {
+          "title": "Go标准库",
+          "doc_id": "gcpnwwcv60ep0ley"
+        }
+      ],
+      "realName": "gcpnwwcv60ep0ley",
+      "relativePath": "\\💻 编程语言\\Go\\Go标准库\\gcpnwwcv60ep0ley.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Go\\Go标准库"
+    },
+    {
+      "id": 174403328,
+      "doc_id": "ka141a7685toxaw8",
+      "updated": 1718810262000,
+      "properties": {
+        "title": "7天玩转 Golang 标准库之 os",
+        "urlname": "ka141a7685toxaw8",
+        "date": "2024-06-19 23:17:34",
+        "updated": "2024-06-19 23:17:42",
+        "description": "在 Golang 的日常开发中，往往要面对各种和操作系统相关的操作，例如文件的读写、环境变量的处理、程序参数的获取等等。Golang 的 os 标准库为我们提供了与操作系统打交道的各类工具，能让这些操作变得更加简洁和简单。基础应用文件的读写操作在进行文件操作时，“读” 和 “写” 是最常见且重..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "ka141a7685toxaw8"
+        },
+        {
+          "title": "Go",
+          "doc_id": "ka141a7685toxaw8"
+        },
+        {
+          "title": "Go标准库",
+          "doc_id": "ka141a7685toxaw8"
+        }
+      ],
+      "realName": "ka141a7685toxaw8",
+      "relativePath": "\\💻 编程语言\\Go\\Go标准库\\ka141a7685toxaw8.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Go\\Go标准库"
+    },
+    {
+      "id": 174403299,
+      "doc_id": "ehoqyhe7wl3ytbqk",
+      "updated": 1718810250000,
+      "properties": {
+        "title": "7天玩转 Golang 标准库之 io",
+        "urlname": "ehoqyhe7wl3ytbqk",
+        "date": "2024-06-19 23:17:19",
+        "updated": "2024-06-19 23:17:30",
+        "description": "在任何语言的开发中，输入/输出 (I/O) 操作都是非常关键的一部分。Golang 提供了 io 和 io/ioutil 标准库，帮助我们进行方便、高效的I/O操作。通过这篇文章，你将了解io库如何提供了对IO原语的基本接口，而io/ioutil库则提供了一些更高级的函数。初级应用读写的基础类..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "ehoqyhe7wl3ytbqk"
+        },
+        {
+          "title": "Go",
+          "doc_id": "ehoqyhe7wl3ytbqk"
+        },
+        {
+          "title": "Go标准库",
+          "doc_id": "ehoqyhe7wl3ytbqk"
+        }
+      ],
+      "realName": "ehoqyhe7wl3ytbqk",
+      "relativePath": "\\💻 编程语言\\Go\\Go标准库\\ehoqyhe7wl3ytbqk.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Go\\Go标准库"
+    },
+    {
+      "id": 174403240,
+      "doc_id": "nvgy48uvwxy19xo7",
+      "updated": 1718810224000,
+      "properties": {
+        "title": "7天玩转 Golang 标准库之 sync",
+        "urlname": "nvgy48uvwxy19xo7",
+        "date": "2024-06-19 23:16:50",
+        "updated": "2024-06-19 23:17:04",
+        "description": "Go语言作为现代编程语言，其并发编程的优势是有目共睹的。在实际编程中，我们常常需要保证多个goroutine之间的同步，这就需要使用到Go语言的sync标准库。sync库提供了基本的同步原语，例如互斥锁（Mutex）和等待组（WaitGroup），这些都是协调和控制并发执行的重要工具。基础应用..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "nvgy48uvwxy19xo7"
+        },
+        {
+          "title": "Go",
+          "doc_id": "nvgy48uvwxy19xo7"
+        },
+        {
+          "title": "Go标准库",
+          "doc_id": "nvgy48uvwxy19xo7"
+        }
+      ],
+      "realName": "nvgy48uvwxy19xo7",
+      "relativePath": "\\💻 编程语言\\Go\\Go标准库\\nvgy48uvwxy19xo7.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Go\\Go标准库"
+    },
+    {
+      "id": 174403271,
+      "doc_id": "ly3q2gpooe353xn2",
+      "updated": 1718810239000,
+      "properties": {
+        "title": "7天玩转 Golang 标准库之 text/template",
+        "urlname": "ly3q2gpooe353xn2",
+        "date": "2024-06-19 23:17:06",
+        "updated": "2024-06-19 23:17:19",
+        "description": "在许多编程场景中，我们经常需要把数据按照某种格式进行输出，比如生成HTML页面，或者生成配置文件。这时，我们就需要模板引擎的帮助。幸运的是，Go语言在标准库中就提供了两个强大的模板引擎：text/template和html/template。初级应用text/template库的使用text/..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "ly3q2gpooe353xn2"
+        },
+        {
+          "title": "Go",
+          "doc_id": "ly3q2gpooe353xn2"
+        },
+        {
+          "title": "Go标准库",
+          "doc_id": "ly3q2gpooe353xn2"
+        }
+      ],
+      "realName": "ly3q2gpooe353xn2",
+      "relativePath": "\\💻 编程语言\\Go\\Go标准库\\ly3q2gpooe353xn2.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Go\\Go标准库"
+    },
+    {
+      "id": 174403202,
+      "doc_id": "gr6uit1owqpgmuls",
+      "updated": 1718810209000,
+      "properties": {
+        "title": "Go标准库",
+        "urlname": "gr6uit1owqpgmuls",
+        "date": "2024-06-19 23:16:28",
+        "updated": "2024-06-19 23:16:49",
+        "description": "---nav_path: stl---",
+        "nav_path": "stl"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "gr6uit1owqpgmuls"
+        },
+        {
+          "title": "Go",
+          "doc_id": "gr6uit1owqpgmuls"
+        }
+      ],
+      "realName": "gr6uit1owqpgmuls",
+      "relativePath": "\\💻 编程语言\\Go\\gr6uit1owqpgmuls.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Go"
+    },
+    {
+      "id": 174403112,
+      "doc_id": "cq9pzn6cr3pnlwb8",
+      "updated": 1718810121000,
+      "properties": {
+        "title": "前端需要学GraphQL 吗？",
+        "urlname": "cq9pzn6cr3pnlwb8",
+        "date": "2024-06-19 23:15:17",
+        "updated": "2024-06-19 23:15:21",
+        "description": "什么是GraphQL？GraphQL 是 Facebook 开发的一个数据查询语言，可以让前端开发者更具体地指定他们需要什么数据，从而使数据获取更加高效。GraphQL 是一种数据查询和操作语言，它主要被设计用来作为 API 的请求语言。与传统的 RESTful API 相比，GraphQL ..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "cq9pzn6cr3pnlwb8"
+        },
+        {
+          "title": "最强前端🏷️",
+          "doc_id": "cq9pzn6cr3pnlwb8"
+        }
+      ],
+      "realName": "cq9pzn6cr3pnlwb8",
+      "relativePath": "\\🔥 程序员自我修养\\最强前端🏷️\\cq9pzn6cr3pnlwb8.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\最强前端🏷️"
+    },
+    {
+      "id": 174403091,
+      "doc_id": "oq3v2462g4htykqr",
+      "updated": 1718810110000,
+      "properties": {
+        "title": "ChatGPT为什么使用SSE而不是WebSocket？",
+        "urlname": "oq3v2462g4htykqr",
+        "date": "2024-06-19 23:15:04",
+        "updated": "2024-06-19 23:15:10",
+        "description": "我在探索ChatGPT的使用过程中，发现了一个有趣的现象：ChatGPT在实现流式返回的时候，选择了SSE（Server-Sent Events），而非WebSocket。那么问题来了：为什么ChatGPT选择了SSE，而不是WebSocket呢。SSE是什么？SSE，全称Server-Sen..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "oq3v2462g4htykqr"
+        },
+        {
+          "title": "十万个为什么💡",
+          "doc_id": "oq3v2462g4htykqr"
+        }
+      ],
+      "realName": "oq3v2462g4htykqr",
+      "relativePath": "\\🔥 程序员自我修养\\十万个为什么💡\\oq3v2462g4htykqr.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\十万个为什么💡"
+    },
+    {
+      "id": 174403073,
+      "doc_id": "ihwoz00dunyzo09m",
+      "updated": 1718810098000,
+      "properties": {
+        "title": "Go到底能做什么？不能做什么？",
+        "urlname": "ihwoz00dunyzo09m",
+        "date": "2024-06-19 23:14:51",
+        "updated": "2024-06-19 23:14:58",
+        "description": "首先，让我表达一下我对Golang的喜爱。作为一名科技博主和程序员，我个人非常喜欢Golang，主要有以下几点原因：1、简洁易用：Go语言非常简洁，没有繁杂的语法，读起来非常流畅。同时，它的标准库提供了丰富的功能，可以有效地减少了我们的开发工作。2、高并发：Go语言的并发模型Goroutine..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "ihwoz00dunyzo09m"
+        },
+        {
+          "title": "Go",
+          "doc_id": "ihwoz00dunyzo09m"
+        },
+        {
+          "title": "🎁 最佳实践",
+          "doc_id": "ihwoz00dunyzo09m"
+        }
+      ],
+      "realName": "ihwoz00dunyzo09m",
+      "relativePath": "\\💻 编程语言\\Go\\🎁 最佳实践\\ihwoz00dunyzo09m.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Go\\🎁 最佳实践"
+    },
+    {
+      "id": 174402968,
+      "doc_id": "mc7nvtq4c2ds0wsg",
+      "updated": 1718810020000,
+      "properties": {
+        "title": "前端全栈必须会的Prisma！",
+        "urlname": "mc7nvtq4c2ds0wsg",
+        "date": "2024-06-19 23:13:23",
+        "updated": "2024-06-19 23:13:40",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1718810004812-dd50df6a-78fb-429c-ad02-12dffca473a8.png",
+        "description": "什么是Prisma？在这个快速迭代的数字时代，开发者们始终在寻找能够提高数据库操作效率和准确性的工具。Prisma，应运而生。Prisma最初是作为一款图形QL数据库工具诞生的，随着时间的推移，它演变成了一个强大的数据库工具集，旨在解决传统ORM工具中存在的性能瓶颈和复杂性问题。与传统的ORM..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "mc7nvtq4c2ds0wsg"
+        },
+        {
+          "title": "最强前端🏷️",
+          "doc_id": "mc7nvtq4c2ds0wsg"
+        }
+      ],
+      "realName": "mc7nvtq4c2ds0wsg",
+      "relativePath": "\\🔥 程序员自我修养\\最强前端🏷️\\mc7nvtq4c2ds0wsg.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\最强前端🏷️"
+    },
+    {
+      "id": 174403000,
+      "doc_id": "kwwca84uhgta9e5s",
+      "updated": 1718810048000,
+      "properties": {
+        "title": "节流和防抖知道吗？",
+        "urlname": "kwwca84uhgta9e5s",
+        "date": "2024-06-19 23:13:57",
+        "updated": "2024-06-19 23:14:08",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1705587753359-2343c689-b7a2-460d-85a6-3d7f701c3906.png",
+        "description": "面试官:节流与防抖，说说两者各自适用场景？回答：面试官，在前端开发中，节流（Throttle）和防抖（Debounce）是两种常用的优化高频率执行JavaScript代码的技术。我将分别阐述它们的概念、适用场景，并给出代码示例。首先解释一下防抖（Debounce）：防抖是指在事件被触发后延迟一..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "kwwca84uhgta9e5s"
+        },
+        {
+          "title": "最强前端🏷️",
+          "doc_id": "kwwca84uhgta9e5s"
+        }
+      ],
+      "realName": "kwwca84uhgta9e5s",
+      "relativePath": "\\🔥 程序员自我修养\\最强前端🏷️\\kwwca84uhgta9e5s.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\最强前端🏷️"
+    },
+    {
+      "id": 174402950,
+      "doc_id": "ria4g4alm00t95pc",
+      "updated": 1718809988000,
+      "properties": {
+        "title": "react-use-form的onSubmit没有被触发",
+        "urlname": "ria4g4alm00t95pc",
+        "date": "2024-06-19 23:12:59",
+        "updated": "2024-06-19 23:13:08",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1710676279519-3f43cddc-21c7-43de-acf1-e48fd6818ce0.png",
+        "description": "背景今天在写Nextjs代码的时候，发现一个问题，我使用react-use-form的表单，点击提交按钮的时候：onSubmit没有被触发！！于是排查···源代码如下：\"use client\"  import { AddLinkRequest } from '@/app/api/link/ad..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "ria4g4alm00t95pc"
+        },
+        {
+          "title": "最强前端🏷️",
+          "doc_id": "ria4g4alm00t95pc"
+        }
+      ],
+      "realName": "ria4g4alm00t95pc",
+      "relativePath": "\\🔥 程序员自我修养\\最强前端🏷️\\ria4g4alm00t95pc.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\最强前端🏷️"
+    },
+    {
+      "id": 174402902,
+      "doc_id": "pg7y8w44ytvs2iz8",
+      "updated": 1718809939000,
+      "properties": {
+        "title": "6.16 硕博就业率1/3，你不干有的是人干",
+        "urlname": "pg7y8w44ytvs2iz8",
+        "date": "2024-06-19 23:12:06",
+        "updated": "2024-06-19 23:12:19",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1718627600352-e915c883-738d-45ea-b25c-4ea3846e1f6a.png",
+        "description": "大家好，我是白露啊。今天，我看到智联招聘发布了一组数据，今年普本(注非双一流本科院校)院校的硕博毕业生offer获得率为33.2%,较去年下降17个百分点,同时也低于普本院校本科毕业生的offer获得率43.9%。大家没看错，研究生就业率居然比本科还低！这可是前所未有的现象。报告显示，应届生选..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "pg7y8w44ytvs2iz8"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "pg7y8w44ytvs2iz8"
+        },
+        {
+          "title": "6月",
+          "doc_id": "pg7y8w44ytvs2iz8"
+        }
+      ],
+      "realName": "pg7y8w44ytvs2iz8",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\6月\\pg7y8w44ytvs2iz8.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\6月"
+    },
+    {
+      "id": 174402711,
+      "doc_id": "gpcprixm66vwcedl",
+      "updated": 1718809892000,
+      "properties": {
+        "title": "6.15 工作能力强，其实做好四个方面就够了",
+        "urlname": "gpcprixm66vwcedl",
+        "date": "2024-06-19 23:11:11",
+        "updated": "2024-06-19 23:11:32",
+        "description": "大家好，我是白露啊。职场上，有的人工作两三年之后事业一路飙升，工资翻番涨；而有的人工作了四五年还在原地踏步，职位和薪水毫无变化。互联网大厂里，员工之间竞争激烈，只想着拿基本工资的人，事业上肯定不会有起色。那么，什么样的人才能实现月薪好几万的梦想呢？今天，我给大家分享四个职场心得，这些心得能帮助..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "gpcprixm66vwcedl"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "gpcprixm66vwcedl"
+        },
+        {
+          "title": "6月",
+          "doc_id": "gpcprixm66vwcedl"
+        }
+      ],
+      "realName": "gpcprixm66vwcedl",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\6月\\gpcprixm66vwcedl.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\6月"
+    },
+    {
+      "id": 174402767,
+      "doc_id": "fdh0qxhfnqh2cqe6",
+      "updated": 1718809912000,
+      "properties": {
+        "title": "6.20 计算机行业会成为下一个土木吗？",
+        "urlname": "fdh0qxhfnqh2cqe6",
+        "date": "2024-06-19 23:11:32",
+        "updated": "2024-06-19 23:11:52",
+        "description": "大家好，我是白露。计算机行业会不会成为下一个土木工程？这个问题不仅关乎行业发展，还关系到下一代从业者的未来职业规划。我分享一位网友的经历，希望对大家有所启发。中国互联网的黄金十年我与计算机的缘分始于2012年高考后的专业选择。那个时候，最火的专业是金融、建筑、土木和医学。这些专业无论分数还是就..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "fdh0qxhfnqh2cqe6"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "fdh0qxhfnqh2cqe6"
+        },
+        {
+          "title": "6月",
+          "doc_id": "fdh0qxhfnqh2cqe6"
+        }
+      ],
+      "realName": "fdh0qxhfnqh2cqe6",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\6月\\fdh0qxhfnqh2cqe6.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\6月"
+    },
+    {
+      "id": 174402666,
+      "doc_id": "loirov7wpifevglz",
+      "updated": 1718809869000,
+      "properties": {
+        "title": "6.14 清华毕业十年后，一半无娃，压力很大",
+        "urlname": "loirov7wpifevglz",
+        "date": "2024-06-19 23:10:48",
+        "updated": "2024-06-19 23:11:09",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/jpeg/22382235/1718720267411-d03e3beb-be11-4e0a-b982-b9b293a272d6.jpeg",
+        "description": "大家好，我是白露啊。今天，我们来聊一聊学历和幸福感之间的关系。这个话题总是让人百感交集，不少人觉得学历高就能过上幸福的好日子，但事实真的如此简单吗？在常规的认知里，考上清华大学的人，在同龄人里肯定是极为优秀的了。正常来说毕业后工作是不愁的，成为工作所在地的中产者问题不大。实际情况究竟怎样呢？在..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "loirov7wpifevglz"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "loirov7wpifevglz"
+        },
+        {
+          "title": "6月",
+          "doc_id": "loirov7wpifevglz"
+        }
+      ],
+      "realName": "loirov7wpifevglz",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\6月\\loirov7wpifevglz.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\6月"
+    },
+    {
+      "id": 174402499,
+      "doc_id": "yzihdzv9ytpzrt8w",
+      "updated": 1718809845000,
+      "properties": {
+        "title": "6.19 西电毕业生的迷茫：二战考研还是接受调剂？",
+        "urlname": "yzihdzv9ytpzrt8w",
+        "date": "2024-06-19 23:10:03",
+        "updated": "2024-06-19 23:10:45",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1718723069494-cb9026ea-92c8-409c-b5a5-6c8fde8ba770.png",
+        "description": "今天在网上看到一位兄弟的烦恼，忍不住想和大家分享一下。他本科毕业于西电，去年目标北大软微，结果总分差了几分，今年调剂到了中国航天科技集团第五研究院西安分院，也就是504所。Now他在纠结，稳稳地拿着504所那一份稳定的银行路，还是二战再搏一搏。背景介绍：本科西电，去年12月应届考研，成绩是36..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "yzihdzv9ytpzrt8w"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "yzihdzv9ytpzrt8w"
+        },
+        {
+          "title": "6月",
+          "doc_id": "yzihdzv9ytpzrt8w"
+        }
+      ],
+      "realName": "yzihdzv9ytpzrt8w",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\6月\\yzihdzv9ytpzrt8w.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\6月"
     }
   ],
   "catalog": [
@@ -8371,7 +8986,7 @@
       "url": "zvhtpcf14k5ubrg3",
       "prev_uuid": "_AUtENOpDG0ZxF_E",
       "sibling_uuid": "PlrctMGesywNFpWl",
-      "child_uuid": "N_OwC3ocEFR3hwrW",
+      "child_uuid": "Cv2Cf0lmYZ2F3aed",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
       "doc_id": 173652661,
       "level": 1,
@@ -8381,10 +8996,70 @@
     },
     {
       "type": "DOC",
+      "title": "前端需要学GraphQL 吗？",
+      "uuid": "Cv2Cf0lmYZ2F3aed",
+      "url": "cq9pzn6cr3pnlwb8",
+      "prev_uuid": "Oi5FMtop6oZm1oNe",
+      "sibling_uuid": "xYEG0ISPE83hVlOs",
+      "child_uuid": "",
+      "parent_uuid": "Oi5FMtop6oZm1oNe",
+      "doc_id": 174403112,
+      "level": 2,
+      "id": 174403112,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "节流和防抖知道吗？",
+      "uuid": "xYEG0ISPE83hVlOs",
+      "url": "kwwca84uhgta9e5s",
+      "prev_uuid": "Cv2Cf0lmYZ2F3aed",
+      "sibling_uuid": "e6ujkS__UEPW9UOj",
+      "child_uuid": "",
+      "parent_uuid": "Oi5FMtop6oZm1oNe",
+      "doc_id": 174403000,
+      "level": 2,
+      "id": 174403000,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "前端全栈必须会的Prisma！",
+      "uuid": "e6ujkS__UEPW9UOj",
+      "url": "mc7nvtq4c2ds0wsg",
+      "prev_uuid": "xYEG0ISPE83hVlOs",
+      "sibling_uuid": "-ayp8mF-R054XzBd",
+      "child_uuid": "",
+      "parent_uuid": "Oi5FMtop6oZm1oNe",
+      "doc_id": 174402968,
+      "level": 2,
+      "id": 174402968,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "react-use-form的onSubmit没有被触发",
+      "uuid": "-ayp8mF-R054XzBd",
+      "url": "ria4g4alm00t95pc",
+      "prev_uuid": "e6ujkS__UEPW9UOj",
+      "sibling_uuid": "N_OwC3ocEFR3hwrW",
+      "child_uuid": "",
+      "parent_uuid": "Oi5FMtop6oZm1oNe",
+      "doc_id": 174402950,
+      "level": 2,
+      "id": 174402950,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "使用react-markdown 自定义组件在 Next.js 中进行渲染",
       "uuid": "N_OwC3ocEFR3hwrW",
       "url": "ee5pgwsb1imq4fyg",
-      "prev_uuid": "Oi5FMtop6oZm1oNe",
+      "prev_uuid": "-ayp8mF-R054XzBd",
       "sibling_uuid": "",
       "child_uuid": "",
       "parent_uuid": "Oi5FMtop6oZm1oNe",
@@ -8461,7 +9136,7 @@
       "url": "uz8g4zstl7skaubu",
       "prev_uuid": "PlrctMGesywNFpWl",
       "sibling_uuid": "pzU6x4VThGDwLdrN",
-      "child_uuid": "8IHAx0LgQFPdmznU",
+      "child_uuid": "CjWpHgb8QQDDZ9ok",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
       "doc_id": 171259325,
       "level": 1,
@@ -8471,10 +9146,25 @@
     },
     {
       "type": "DOC",
+      "title": "ChatGPT为什么使用SSE而不是WebSocket？",
+      "uuid": "CjWpHgb8QQDDZ9ok",
+      "url": "oq3v2462g4htykqr",
+      "prev_uuid": "dM55tS-xNS9gbu5Q",
+      "sibling_uuid": "8IHAx0LgQFPdmznU",
+      "child_uuid": "",
+      "parent_uuid": "dM55tS-xNS9gbu5Q",
+      "doc_id": 174403091,
+      "level": 2,
+      "id": 174403091,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "如何提高学习效率？",
       "uuid": "8IHAx0LgQFPdmznU",
       "url": "lhdpzegytx39ap8h",
-      "prev_uuid": "dM55tS-xNS9gbu5Q",
+      "prev_uuid": "CjWpHgb8QQDDZ9ok",
       "sibling_uuid": "G-eejK1ayujg7-ve",
       "child_uuid": "",
       "parent_uuid": "dM55tS-xNS9gbu5Q",
@@ -8566,11 +9256,41 @@
       "url": "ogfvsltzo95v0k88",
       "prev_uuid": "dM55tS-xNS9gbu5Q",
       "sibling_uuid": "aRn1n4HB0iY7c91I",
-      "child_uuid": "",
+      "child_uuid": "7Il5VOepxYzKww1q",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
       "doc_id": 171769376,
       "level": 1,
       "id": 171769376,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "外部链接为什么可以影响SEO？",
+      "uuid": "7Il5VOepxYzKww1q",
+      "url": "sf3un5ht5ehuegqh",
+      "prev_uuid": "pzU6x4VThGDwLdrN",
+      "sibling_uuid": "E9DihaNjFG_s9V6i",
+      "child_uuid": "",
+      "parent_uuid": "pzU6x4VThGDwLdrN",
+      "doc_id": 173997634,
+      "level": 2,
+      "id": 173997634,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "初识SEO",
+      "uuid": "E9DihaNjFG_s9V6i",
+      "url": "yruzbxv5gtss1avi",
+      "prev_uuid": "7Il5VOepxYzKww1q",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "pzU6x4VThGDwLdrN",
+      "doc_id": 173993979,
+      "level": 2,
+      "id": 173993979,
       "open_window": 1,
       "visible": 1
     },
@@ -9660,8 +10380,8 @@
       "uuid": "YOd5pEsvtecnipV1",
       "url": "htpzy6yum72pgula",
       "prev_uuid": "A8eSO-NCQw0ild1y",
-      "sibling_uuid": "",
-      "child_uuid": "OQU4CuyqNKP1JxfO",
+      "sibling_uuid": "u2KBx-kui0oQ6a40",
+      "child_uuid": "0mSAwTN00OhNernO",
       "parent_uuid": "Kz42HmwRUbbo3mma",
       "doc_id": 170698560,
       "level": 2,
@@ -9671,10 +10391,40 @@
     },
     {
       "type": "DOC",
+      "title": "并发：Goroutines和Channels的详细指南",
+      "uuid": "0mSAwTN00OhNernO",
+      "url": "acksp7eld7k9p7ag",
+      "prev_uuid": "YOd5pEsvtecnipV1",
+      "sibling_uuid": "QbSmaCB_JDZ5arro",
+      "child_uuid": "",
+      "parent_uuid": "YOd5pEsvtecnipV1",
+      "doc_id": 174403422,
+      "level": 3,
+      "id": 174403422,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Go到底能做什么？不能做什么？",
+      "uuid": "QbSmaCB_JDZ5arro",
+      "url": "ihwoz00dunyzo09m",
+      "prev_uuid": "0mSAwTN00OhNernO",
+      "sibling_uuid": "OQU4CuyqNKP1JxfO",
+      "child_uuid": "",
+      "parent_uuid": "YOd5pEsvtecnipV1",
+      "doc_id": 174403073,
+      "level": 3,
+      "id": 174403073,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "Go 语言的内存模型",
       "uuid": "OQU4CuyqNKP1JxfO",
       "url": "gngndpw23pnmp9ui",
-      "prev_uuid": "YOd5pEsvtecnipV1",
+      "prev_uuid": "QbSmaCB_JDZ5arro",
       "sibling_uuid": "P5MzyabivdN61cQG",
       "child_uuid": "",
       "parent_uuid": "YOd5pEsvtecnipV1",
@@ -9831,6 +10581,126 @@
       "doc_id": 170766232,
       "level": 3,
       "id": 170766232,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Go标准库",
+      "uuid": "u2KBx-kui0oQ6a40",
+      "url": "gr6uit1owqpgmuls",
+      "prev_uuid": "YOd5pEsvtecnipV1",
+      "sibling_uuid": "",
+      "child_uuid": "SR-yHRzNpSsmTecf",
+      "parent_uuid": "Kz42HmwRUbbo3mma",
+      "doc_id": 174403202,
+      "level": 2,
+      "id": 174403202,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "7天玩转 Golang 标准库之 flag",
+      "uuid": "SR-yHRzNpSsmTecf",
+      "url": "qqhpbchysd8n881w",
+      "prev_uuid": "u2KBx-kui0oQ6a40",
+      "sibling_uuid": "ZlWoFf2EGZlp0nF7",
+      "child_uuid": "",
+      "parent_uuid": "u2KBx-kui0oQ6a40",
+      "doc_id": 174403386,
+      "level": 3,
+      "id": 174403386,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "7天玩转 Golang 标准库之 sort",
+      "uuid": "ZlWoFf2EGZlp0nF7",
+      "url": "kg7o7vghu19v2b48",
+      "prev_uuid": "SR-yHRzNpSsmTecf",
+      "sibling_uuid": "pVmmbR-NXtf1mHWj",
+      "child_uuid": "",
+      "parent_uuid": "u2KBx-kui0oQ6a40",
+      "doc_id": 174403360,
+      "level": 3,
+      "id": 174403360,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "7天玩转 Golang 标准库之 http/net",
+      "uuid": "pVmmbR-NXtf1mHWj",
+      "url": "gcpnwwcv60ep0ley",
+      "prev_uuid": "ZlWoFf2EGZlp0nF7",
+      "sibling_uuid": "ocru96Rx4xQ1rx3z",
+      "child_uuid": "",
+      "parent_uuid": "u2KBx-kui0oQ6a40",
+      "doc_id": 174403338,
+      "level": 3,
+      "id": 174403338,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "7天玩转 Golang 标准库之 os",
+      "uuid": "ocru96Rx4xQ1rx3z",
+      "url": "ka141a7685toxaw8",
+      "prev_uuid": "pVmmbR-NXtf1mHWj",
+      "sibling_uuid": "UfMNHIblIVpO2Q41",
+      "child_uuid": "",
+      "parent_uuid": "u2KBx-kui0oQ6a40",
+      "doc_id": 174403328,
+      "level": 3,
+      "id": 174403328,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "7天玩转 Golang 标准库之 io",
+      "uuid": "UfMNHIblIVpO2Q41",
+      "url": "ehoqyhe7wl3ytbqk",
+      "prev_uuid": "ocru96Rx4xQ1rx3z",
+      "sibling_uuid": "tfu5FgKj5USdHTrj",
+      "child_uuid": "",
+      "parent_uuid": "u2KBx-kui0oQ6a40",
+      "doc_id": 174403299,
+      "level": 3,
+      "id": 174403299,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "7天玩转 Golang 标准库之 text/template",
+      "uuid": "tfu5FgKj5USdHTrj",
+      "url": "ly3q2gpooe353xn2",
+      "prev_uuid": "UfMNHIblIVpO2Q41",
+      "sibling_uuid": "Ql8ZHfuiKRYUFN50",
+      "child_uuid": "",
+      "parent_uuid": "u2KBx-kui0oQ6a40",
+      "doc_id": 174403271,
+      "level": 3,
+      "id": 174403271,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "7天玩转 Golang 标准库之 sync",
+      "uuid": "Ql8ZHfuiKRYUFN50",
+      "url": "nvgy48uvwxy19xo7",
+      "prev_uuid": "tfu5FgKj5USdHTrj",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "u2KBx-kui0oQ6a40",
+      "doc_id": 174403240,
+      "level": 3,
+      "id": 174403240,
       "open_window": 1,
       "visible": 1
     },
@@ -11416,7 +12286,7 @@
       "url": "ttymzn2156q6eim1",
       "prev_uuid": "g79LhyuCIcy2z2cx",
       "sibling_uuid": "uHCIfCp4Xzc-fCfY",
-      "child_uuid": "TkLPekgDeeZJDP3x",
+      "child_uuid": "FKITPLoEH7Oi1Kov",
       "parent_uuid": "",
       "doc_id": 169649875,
       "level": 0,
@@ -11426,11 +12296,71 @@
     },
     {
       "type": "DOC",
+      "title": "TinyWebServer",
+      "uuid": "FKITPLoEH7Oi1Kov",
+      "url": "tihx6bwirgug3b9d",
+      "prev_uuid": "w3lr-82OziASjvSa",
+      "sibling_uuid": "TkLPekgDeeZJDP3x",
+      "child_uuid": "V7ux9o8m9CWi4Zo1",
+      "parent_uuid": "w3lr-82OziASjvSa",
+      "doc_id": 170598275,
+      "level": 1,
+      "id": 170598275,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "TinyWebServer——基于C++的高并发服务器",
+      "uuid": "V7ux9o8m9CWi4Zo1",
+      "url": "rmu0b4pf9g9f2y87",
+      "prev_uuid": "FKITPLoEH7Oi1Kov",
+      "sibling_uuid": "0FDqfRTsi-whVIK1",
+      "child_uuid": "",
+      "parent_uuid": "FKITPLoEH7Oi1Kov",
+      "doc_id": 172099236,
+      "level": 2,
+      "id": 172099236,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "TinywebServer面试题",
+      "uuid": "0FDqfRTsi-whVIK1",
+      "url": "pnla5tghgsndtv2w",
+      "prev_uuid": "V7ux9o8m9CWi4Zo1",
+      "sibling_uuid": "GPWR1NRK_zcuOiri",
+      "child_uuid": "",
+      "parent_uuid": "FKITPLoEH7Oi1Kov",
+      "doc_id": 170923348,
+      "level": 2,
+      "id": 170923348,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Reactor与Proactor 两种事件分发模式？",
+      "uuid": "GPWR1NRK_zcuOiri",
+      "url": "fwqm54bdgsxi6reg",
+      "prev_uuid": "0FDqfRTsi-whVIK1",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "FKITPLoEH7Oi1Kov",
+      "doc_id": 171437045,
+      "level": 2,
+      "id": 171437045,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "ChromePlugin项目实战",
       "uuid": "TkLPekgDeeZJDP3x",
       "url": "mrpg5qrcb72px7ng",
-      "prev_uuid": "w3lr-82OziASjvSa",
-      "sibling_uuid": "FKITPLoEH7Oi1Kov",
+      "prev_uuid": "FKITPLoEH7Oi1Kov",
+      "sibling_uuid": "",
       "child_uuid": "SM-qlu7pOfs-pwl6",
       "parent_uuid": "w3lr-82OziASjvSa",
       "doc_id": 173826065,
@@ -11631,66 +12561,6 @@
       "doc_id": 173826516,
       "level": 2,
       "id": 173826516,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "TinyWebServer",
-      "uuid": "FKITPLoEH7Oi1Kov",
-      "url": "tihx6bwirgug3b9d",
-      "prev_uuid": "TkLPekgDeeZJDP3x",
-      "sibling_uuid": "",
-      "child_uuid": "V7ux9o8m9CWi4Zo1",
-      "parent_uuid": "w3lr-82OziASjvSa",
-      "doc_id": 170598275,
-      "level": 1,
-      "id": 170598275,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "TinyWebServer——基于C++的高并发服务器",
-      "uuid": "V7ux9o8m9CWi4Zo1",
-      "url": "rmu0b4pf9g9f2y87",
-      "prev_uuid": "FKITPLoEH7Oi1Kov",
-      "sibling_uuid": "0FDqfRTsi-whVIK1",
-      "child_uuid": "",
-      "parent_uuid": "FKITPLoEH7Oi1Kov",
-      "doc_id": 172099236,
-      "level": 2,
-      "id": 172099236,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "TinywebServer面试题",
-      "uuid": "0FDqfRTsi-whVIK1",
-      "url": "pnla5tghgsndtv2w",
-      "prev_uuid": "V7ux9o8m9CWi4Zo1",
-      "sibling_uuid": "GPWR1NRK_zcuOiri",
-      "child_uuid": "",
-      "parent_uuid": "FKITPLoEH7Oi1Kov",
-      "doc_id": 170923348,
-      "level": 2,
-      "id": 170923348,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "Reactor与Proactor 两种事件分发模式？",
-      "uuid": "GPWR1NRK_zcuOiri",
-      "url": "fwqm54bdgsxi6reg",
-      "prev_uuid": "0FDqfRTsi-whVIK1",
-      "sibling_uuid": "",
-      "child_uuid": "",
-      "parent_uuid": "FKITPLoEH7Oi1Kov",
-      "doc_id": 171437045,
-      "level": 2,
-      "id": 171437045,
       "open_window": 1,
       "visible": 1
     },
@@ -12826,7 +13696,7 @@
       "url": "rufaif78psnb10tt",
       "prev_uuid": "PzcVTeQ3NXSBPXrT",
       "sibling_uuid": "",
-      "child_uuid": "wQs1TrbFHryXmCwj",
+      "child_uuid": "kgkYPSmYVOB5Dwg3",
       "parent_uuid": "-4qV2TE5gTaU9pS4",
       "doc_id": 173583359,
       "level": 2,
@@ -12836,10 +13706,85 @@
     },
     {
       "type": "DOC",
+      "title": "6.20 计算机行业会成为下一个土木吗？",
+      "uuid": "kgkYPSmYVOB5Dwg3",
+      "url": "fdh0qxhfnqh2cqe6",
+      "prev_uuid": "pPPzDRd6r7P6pM03",
+      "sibling_uuid": "Bxj5KZAZSgNlBoj_",
+      "child_uuid": "",
+      "parent_uuid": "pPPzDRd6r7P6pM03",
+      "doc_id": 174402767,
+      "level": 3,
+      "id": 174402767,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "6.19 西电毕业生的迷茫：二战考研还是接受调剂？",
+      "uuid": "Bxj5KZAZSgNlBoj_",
+      "url": "yzihdzv9ytpzrt8w",
+      "prev_uuid": "kgkYPSmYVOB5Dwg3",
+      "sibling_uuid": "LSgXoIwmvaBzvtE3",
+      "child_uuid": "",
+      "parent_uuid": "pPPzDRd6r7P6pM03",
+      "doc_id": 174402499,
+      "level": 3,
+      "id": 174402499,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "6.16 硕博就业率1/3，你不干有的是人干",
+      "uuid": "LSgXoIwmvaBzvtE3",
+      "url": "pg7y8w44ytvs2iz8",
+      "prev_uuid": "Bxj5KZAZSgNlBoj_",
+      "sibling_uuid": "lkcaeXmzejGP76Z5",
+      "child_uuid": "",
+      "parent_uuid": "pPPzDRd6r7P6pM03",
+      "doc_id": 174402902,
+      "level": 3,
+      "id": 174402902,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "6.15 工作能力强，其实做好四个方面就够了",
+      "uuid": "lkcaeXmzejGP76Z5",
+      "url": "gpcprixm66vwcedl",
+      "prev_uuid": "LSgXoIwmvaBzvtE3",
+      "sibling_uuid": "opjBAc5XY2dRnySr",
+      "child_uuid": "",
+      "parent_uuid": "pPPzDRd6r7P6pM03",
+      "doc_id": 174402711,
+      "level": 3,
+      "id": 174402711,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "6.14 清华毕业十年后，一半无娃，压力很大",
+      "uuid": "opjBAc5XY2dRnySr",
+      "url": "loirov7wpifevglz",
+      "prev_uuid": "lkcaeXmzejGP76Z5",
+      "sibling_uuid": "wQs1TrbFHryXmCwj",
+      "child_uuid": "",
+      "parent_uuid": "pPPzDRd6r7P6pM03",
+      "doc_id": 174402666,
+      "level": 3,
+      "id": 174402666,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "6.12 跟年薪100w的95后聊了，他说晋升不靠努力",
       "uuid": "wQs1TrbFHryXmCwj",
       "url": "stq0311uxpw8665g",
-      "prev_uuid": "pPPzDRd6r7P6pM03",
+      "prev_uuid": "opjBAc5XY2dRnySr",
       "sibling_uuid": "nYSaMBAdHhGSoM_C",
       "child_uuid": "",
       "parent_uuid": "pPPzDRd6r7P6pM03",

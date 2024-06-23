@@ -2,13 +2,15 @@ name: deploy
 
 on:
   push:
-    branches: [master, dev,main]
+    branches: [master, dev, main]
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -21,7 +23,7 @@ jobs:
           registry: registry.cn-hongkong.aliyuncs.com # 用您的Registry地址替换
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
-          
+
       - name: Build and push Docker image
         uses: docker/build-push-action@v5.1.0
         with:
@@ -54,7 +56,7 @@ jobs:
           password: ${{ secrets.SERVER_PASSWORD }}
           script: |
             echo ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }} | docker login -u ${{ secrets.DOCKER_HUB_USERNAME }} registry.cn-hongkong.aliyuncs.com --password-stdin
-      
+
       # - name: Send notification email
       #   if: failure()
       #   uses: dawidd6/action-send-mail@v3

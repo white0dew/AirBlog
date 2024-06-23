@@ -2,8 +2,8 @@
 title: 第 11 章：集合
 urlname: vpvppyhndghx56x3
 date: '2024-06-21 16:41:11'
-updated: '2024-06-21 16:41:24'
-description: '探讨 C# 中集合的应用，包括 List、Dictionary<TKey, TValue> 和 HashSet 的基本操作、定义、初始化及常见使用场景。'
+updated: '2024-06-23 21:04:33'
+description: 'keywords: 集合, List, Dictionary, HashSet, C#, 数据结构集合是编程中常用的数据结构之一，用于存储和管理一组数据。在 C# 中，集合类提供了丰富的功能，使得数据的存取和操作更加便捷高效。本章将详细介绍 List、Dictionary<TKey, TVal...'
 keywords: '集合, List, Dictionary, HashSet, C#, 数据结构'
 ---
 集合是编程中常用的数据结构之一，用于存储和管理一组数据。在 C# 中，集合类提供了丰富的功能，使得数据的存取和操作更加便捷高效。本章将详细介绍 List、Dictionary<TKey, TValue> 和 HashSet 以及它们的常用操作。
@@ -398,13 +398,6 @@ class Program
 - Microsoft's official C# documentation on collections: [Introduction to Collections](https://docs.microsoft.com/en-us/dotnet/standard/collections/)
 - C# in Depth by Jon Skeet - A great book providing in-depth knowledge about C# and its features.
 
-## 本章小结
-
 在本章中，我们详细介绍了 C#中的集合类型，包括 `List<T>`、`Dictionary<TKey, TValue>` 和 `HashSet<T>`，并且演示了它们的定义、初始化和常用操作。集合是编程中非常重要的工具，掌握它们将极大提高你的编程效率和代码质量。
 
 希望通过本章的学习，你已经能够熟练应用这些集合类型来解决实际编程问题。在接下来的章节中，我们将继续探讨更多高级主题，进一步提升你的 C#编程技能。
-
----
-
-【本章节完毕】
-

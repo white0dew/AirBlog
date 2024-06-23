@@ -2,8 +2,8 @@
 title: 第 14 章：Rust 和其他语言的交互
 urlname: gmxq1nek2xn8eefx
 date: '2024-06-20 19:54:07'
-updated: '2024-06-20 19:54:28'
-description: 本章详细探讨 Rust 如何与其他编程语言进行交互，包括与 C 语言、Python、Node.js 和 Java 的集成，以及 Rust 和 WebAssembly 的使用。
+updated: '2024-06-23 21:01:27'
+description: 'keywords: Rust, 交互, C 语言, Python, Node.js, WebAssembly在现代软件开发中，语言间的互操作性变得越来越重要。Rust 以其安全性、高性能和并发性著称，但在某些情况下，我们仍需要与其他编程语言进行交互。本章将详细探讨 Rust 如何与 C 语言、...'
 keywords: 'Rust, 交互, C 语言, Python, Node.js, WebAssembly'
 ---
 在现代软件开发中，语言间的互操作性变得越来越重要。Rust 以其安全性、高性能和并发性著称，但在某些情况下，我们仍需要与其他编程语言进行交互。本章将详细探讨 Rust 如何与 C 语言、Python、Node.js 和 Java 进行交互，以及如何利用 Rust 和 WebAssembly 开发高效的 Web 应用。

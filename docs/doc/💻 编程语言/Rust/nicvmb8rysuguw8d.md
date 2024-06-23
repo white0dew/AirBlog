@@ -2,8 +2,8 @@
 title: 第 15 章：Rust 社区和学习资源
 urlname: nicvmb8rysuguw8d
 date: '2024-06-20 19:54:29'
-updated: '2024-06-20 19:54:59'
-description: 本章将重点介绍 Rust 社区和学习资源，包括官方文档、论坛、聊天室、博客、播客、会议和活动，以及如何继续你的 Rust 学习之旅。
+updated: '2024-06-23 21:01:35'
+description: 'keywords: Rust 社区, Rust 学习资源, Rust 论坛, Rust 活动, Rust 继续学习在学习 Rust 编程语言的过程中，掌握好社区资源和学习途径至关重要。本章将介绍 Rust 官方网站和文档、Rust 论坛和聊天室、Rust 博客和播客、Rust 会议和活动，并提...'
 keywords: 'Rust 社区, Rust 学习资源, Rust 论坛, Rust 活动, Rust 继续学习'
 ---
 在学习 Rust 编程语言的过程中，掌握好社区资源和学习途径至关重要。本章将介绍 Rust 官方网站和文档、Rust 论坛和聊天室、Rust 博客和播客、Rust 会议和活动，并提供建议以继续你的 Rust 学习之旅。

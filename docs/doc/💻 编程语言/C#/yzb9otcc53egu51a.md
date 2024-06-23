@@ -2,7 +2,7 @@
 title: 第 6 章：异常处理
 urlname: yzb9otcc53egu51a
 date: '2024-06-21 16:37:49'
-updated: '2024-06-21 16:37:59'
+updated: '2024-06-23 21:03:10'
 description: 本章详细介绍了 C#中的异常处理机制，包括异常的类型、try-catch-finally 语句的使用、如何抛出异常以及如何定义自定义异常。通过图文结合的方式帮助读者深刻理解异常处理的原理和应用。
 keywords: '异常处理, C#异常, try-catch-finally, 自定义异常, 抛出异常'
 ---
@@ -94,8 +94,5 @@ public void CheckAge(int age) {
 
 在该示例中，定义了一个名为`InvalidAgeException`的自定义异常类，并在`CheckAge`方法中使用该异常。
 
-## 总结
-
 通过本章的学习，您应该已经掌握了 C#中的异常处理机制，包括如何使用`try-catch-finally`语句、如何手动抛出异常以及如何定义自定义异常。异常处理对于编写健壮和稳定的代码至关重要，希望您能够深入理解并熟练应用。
 
-【本章节完毕】

@@ -2,8 +2,8 @@
 title: 第 13 章：LINQ
 urlname: ks16hc0d9oh0gryd
 date: '2024-06-21 16:44:10'
-updated: '2024-06-21 16:44:24'
-description: 本章详细介绍了 LINQ 的基本概念、查询语法和方法语法，通过实例展示了如何在 C# 中使用 LINQ 来处理对象和 XML 数据。
+updated: '2024-06-23 21:04:52'
+description: 'keywords: LINQ, C# 查询语法, LINQ 方法语法, LINQ to Objects, LINQ to XML什么是 LINQLINQ (Language Integrated Query) 是一种在 C# 和其他 .NET 语言中用于查询数据的强大工具。它允许开发者以声明性...'
 keywords: 'LINQ, C# 查询语法, LINQ 方法语法, LINQ to Objects, LINQ to XML'
 ---
 ## 什么是 LINQ
@@ -131,8 +131,5 @@ foreach (var person in people)
 }
 ```
 
-## 总结
-
 通过本章的学习，我们了解了 LINQ 的基本概念和使用方法。我们探索了查询表达式语法和方法语法，并展示了如何在内存对象和 XML 数据上使用 LINQ。掌握 LINQ 将极大提高数据处理的效率，使代码更加简洁和易读。
 
-【本章节完毕】

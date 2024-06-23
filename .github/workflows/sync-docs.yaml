@@ -1,11 +1,6 @@
 name: Sync Docs
 
 on:
-  # 允许手动push触发
-  #  push:
-  #    branches:
-  #      - master
-  # 允许外部仓库事件触发
   repository_dispatch:
     types:
       - deploy
@@ -35,7 +30,6 @@ jobs:
 
       - name: 拉取文档
         env:
-          YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
           YUQUE_USERNAME: ${{ secrets.YUQUE_USERNAME }}
           YUQUE_PASSWORD: ${{ secrets.YUQUE_PASSWORD }}
           YUQUE_LOGIN: ${{ secrets.YUQUE_LOGIN }}

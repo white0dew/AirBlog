@@ -2,8 +2,9 @@
 title: 3、创建 Popup 界面
 urlname: fhh99lgx1ihp1ykw
 date: '2024-06-15 21:21:04'
-updated: '2024-06-15 21:22:08'
-description: 在本章中，我们将一步步创建 Chrome 插件的基础 Popup 界面。这部分是用户与插件进行交互的主要界面。我们会创建一个简单的 popup.html 文件，设计其样式和布局，然后编写 popup.js 来处理用户的点击事件。创建popup.html首先，我们需要在项目文件夹内创建一个新的 ...
+updated: '2024-06-21 17:03:29'
+description: 在本章中，我们将一步步创建Chrome插件的基础Popup界面，包括设计popup.html、popup.css以及编写popup.js来处理用户的点击事件。
+keywords: '创建Popup界面, Chrome插件, popup.html, popup.js, popup.css'
 ---
 在本章中，我们将一步步创建 Chrome 插件的基础 Popup 界面。这部分是用户与插件进行交互的主要界面。我们会创建一个简单的 `popup.html` 文件，设计其样式和布局，然后编写 `popup.js` 来处理用户的点击事件。
 

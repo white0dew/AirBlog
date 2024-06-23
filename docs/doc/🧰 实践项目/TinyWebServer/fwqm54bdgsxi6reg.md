@@ -2,9 +2,10 @@
 title: Reactor与Proactor 两种事件分发模式？
 urlname: fwqm54bdgsxi6reg
 date: '2024-05-28 16:38:33'
-updated: '2024-05-28 16:40:16'
+updated: '2024-06-21 17:07:33'
 cover: 'https://cdn.nlark.com/yuque/0/2021/png/22382235/1634002490029-c029c3ec-c80f-4fed-8f40-d4f05ac77f1b.png'
-description: 在多线程服务器中，一般是使用IO复用+线程池来实现，具体的实现方式有：Reactor和Proactor。例如为人所知的Netty、Redis等就是使用Reactor实现的，具有很高的性能。简单来说，两者都是基于事件分发所实现的网络编程模型。Reactor模式下是一种非阻塞同步模式，其感知的是已...
+description: 探讨Reactor和Proactor两种事件分发模式在多线程服务器中的应用，包括Netty、Redis等的实现方式及其优缺点对比。
+keywords: 'Reactor模式, Proactor模式, 事件分发, 网络编程, 多线程服务器, 高性能'
 ---
 在多线程服务器中，一般是使用IO复用+线程池来实现，具体的实现方式有：Reactor和Proactor。例如为人所知的Netty、Redis等就是使用Reactor实现的，具有很高的性能。
 

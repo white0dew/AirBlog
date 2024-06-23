@@ -1,10 +1,11 @@
 ---
-title: TinyWebServer——基于C++的高并发服务器
+title: 基于C++的高并发服务器
 urlname: rmu0b4pf9g9f2y87
 date: '2024-06-03 00:16:46'
-updated: '2024-06-03 00:17:17'
+updated: '2024-06-21 17:08:24'
 cover: 'https://cdn.nlark.com/yuque/0/2024/png/22382235/1716527116265-facee58e-37f6-42ad-bd7e-65dfac72b542.png'
-description: 从0到服务器开发——TinyWebServer阅读笔记前言它是个什么项目？——Linux下C++轻量级Web服务器，助力初学者快速实践网络编程，搭建属于自己的服务器。使用线程池 + 非阻塞socket + epoll(ET和LT均实现) + 事件处理(Reactor和模拟Proactor均实现...
+description: TinyWebServer 是一个基于 C++ 的高并发 Web 服务器项目，旨在帮助初学者快速掌握网络编程并搭建属于自己的服务器。项目采用线程池、非阻塞 socket、epoll 以及 Reactor 和 Proactor 模式进行事件处理，并支持同步/异步日志系统。通过 Webbench 压力测试，TinyWebServer 可以实现上万的并发连接数据交换。
+keywords: '高并发服务器, C++ Web服务器, TinyWebServer, 网络编程, 线程池, epoll'
 ---
 > 从0到服务器开发——TinyWebServer阅读笔记
 

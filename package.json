@@ -8,7 +8,7 @@
     "start": "next start",
     "elog:sync": "elog clean && elog sync -e .env.local",
     "sync:clean": "elog clean",
-    "sync-s": "elog sync -e .env.local -c elog.config.shorturl.js -a elog.cache.json",
+    "sync-s": "elog sync --force -e .env.local -c elog.config.shorturl.js -a elog.cache.json",
     "sync-s-c": "elog clean && elog sync -e .env.local -c elog.config.shorturl.js -a elog.cache.json",
     "clean-s": "elog clean &&elog clean -e .env.local -c elog.config.shorturl.js -a elog.cache.json"
   },

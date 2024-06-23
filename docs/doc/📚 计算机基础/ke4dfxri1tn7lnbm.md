@@ -2,13 +2,20 @@
 title: ElasticSearch
 urlname: ke4dfxri1tn7lnbm
 date: '2024-05-28 15:14:51'
-updated: '2024-05-28 17:48:10'
-description: Elasticsearch（简称 ES）是一个基于 Lucene 的全文检索引擎。其核心功能是将数据进行分词后保存索引，从而实现高效的查询。虽然在频繁数据更新和关联查询方面不如 MySQL，但在处理和管理大数据量的查询上，Elasticsearch 展现出了极高的效率。索引的重要性在学习其他数...
+updated: '2024-06-21 17:10:26'
+description: Elasticsearch（简称 ES）是一个基于 Lucene 的全文检索引擎。其核心功能是将数据进行分词后保存索引，从而实现高效的查询。虽然在频繁数据更新和关联查询方面不如 MySQL，但在处理和管理大数据量的查询上，Elasticsearch 展现出了极高的效率。索引的重要性nav_pa...
 ---
+
 Elasticsearch（简称 ES）是一个基于 Lucene 的全文检索引擎。其核心功能是将数据进行分词后保存索引，从而实现高效的查询。虽然在频繁数据更新和关联查询方面不如 MySQL，但在处理和管理大数据量的查询上，Elasticsearch 展现出了极高的效率。
 
 ## 索引的重要性
 
+---
+
+nav_path:es
+keywords: Elasticsearch, Lucene, 倒排索引, Term Dictionary, Term Index, FST
+description: 了解Elasticsearch（简称ES）的核心功能及其基于Lucene的倒排索引技术，探索Term Dictionary和Term Index的优化方法，并解析FST在Elasticsearch中的应用。
+---
 在学习其他数据库时，我们了解到索引是数据库系统中至关重要的部分，直接决定着查询的效率。Elasticsearch 之所以能够实现高速查询，主要得益于其底层 Lucene 使用了倒排索引（Inverted Index）的方式，并通过多种优化提升性能。
 
 ### 什么是倒排索引？

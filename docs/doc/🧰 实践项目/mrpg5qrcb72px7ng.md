@@ -2,10 +2,11 @@
 title: ChromePlugin项目实战
 urlname: mrpg5qrcb72px7ng
 date: '2024-06-15 21:18:56'
-updated: '2024-06-15 22:44:45'
-description: '---is_nav: falsenav_path: chrome_plugin---目录 引言与准备工作 什么是 Chrome 插件？Chrome 插件的常见用途和好处安装 Chrome 浏览器设置开发者环境 项目初始设置 创建项目文件夹项目结构介绍编写manifest.json文件 创建基础...'
+updated: '2024-06-21 16:59:37'
+description: 本文详细介绍了Chrome插件开发的各个环节，从初始设置到最终发布，包括创建Popup界面、内容脚本、消息传递、调用翻译API、词典功能、数据存储、界面优化、性能优化、调试测试、国际化支持等。 ---
 is_nav: false
 nav_path: chrome_plugin
+keywords: 'Chrome插件, 插件开发, manifest.json, 内容脚本, 翻译API'
 ---
 ## 目录
 

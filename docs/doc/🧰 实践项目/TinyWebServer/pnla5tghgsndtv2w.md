@@ -2,9 +2,10 @@
 title: TinywebServer面试题
 urlname: pnla5tghgsndtv2w
 date: '2024-05-24 13:05:34'
-updated: '2024-06-03 00:17:27'
+updated: '2024-06-21 17:07:50'
 cover: 'https://cdn.nlark.com/yuque/0/2024/png/22382235/1716527138699-b70488ac-8fa1-4a7b-94bb-4db25b435612.png'
-description: 面试题在Tinywebserver这个项目最后，社长提出了一些可能的面试问题，读者学习完该项目之后可以试着回答一下，看是否究竟对这个项目了如指掌：：包括项目介绍，线程池相关，并发模型相关，HTTP报文解析相关，定时器相关，日志相关，压测相关，综合能力等。我对此进行了简单的回答，如果有所纰漏请大...
+description: 本文介绍了TinywebServer项目中的一些面试题，涵盖项目介绍、线程池、并发模型、HTTP报文解析、定时器、日志系统以及压测等多个方面，旨在帮助读者更好地理解和掌握相关知识。
+keywords: 'TinywebServer面试题, 线程池, 并发模型, HTTP报文解析, 数据库登录注册, 压测'
 ---
 ## **面试题**
 

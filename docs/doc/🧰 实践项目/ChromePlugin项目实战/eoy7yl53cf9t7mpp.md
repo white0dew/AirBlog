@@ -2,8 +2,9 @@
 title: 13、插件发布
 urlname: eoy7yl53cf9t7mpp
 date: '2024-06-15 21:25:55'
-updated: '2024-06-15 21:26:15'
-description: 在完成了插件的开发和测试之后，最后一步就是将其发布到 Chrome Web Store 上。这一章将详细介绍如何创建 Chrome Web Store 账号、打包和上传插件、填写插件信息以及发布和更新插件的过程。创建 Chrome Web Store 账号在发布插件之前，你需要一个 Chrom...
+updated: '2024-06-21 17:02:05'
+description: 本文详细介绍了如何在完成插件开发和测试后，将其发布到 Chrome Web Store 上的步骤，包括创建账号、打包上传、填写信息及更新插件等内容。
+keywords: '插件发布, Chrome Web Store, 插件开发, 打包插件, 发布插件'
 ---
 在完成了插件的开发和测试之后，最后一步就是将其发布到 Chrome Web Store 上。这一章将详细介绍如何创建 Chrome Web Store 账号、打包和上传插件、填写插件信息以及发布和更新插件的过程。
 

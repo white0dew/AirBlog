@@ -3,16 +3,17 @@
     {
       "id": 171241326,
       "doc_id": "zz7wzx74m9sgu0bb",
-      "updated": 1718238114000,
+      "updated": 1718959826000,
       "properties": {
         "title": "🔥 程序员自我修养",
         "urlname": "zz7wzx74m9sgu0bb",
         "date": "2024-05-27 11:27:11",
-        "updated": "2024-06-13 08:21:54",
-        "description": "is_nav: truenav_path: self_improveskip_nav: false一个优秀的程序员，意味着不断学习和提升专业技能，包括了解最新的编程趋势、掌握高效的开发工具、练习编写高质量的代码，以及培养优秀的软件工程习惯。以下是一些程序员自我修养的关键方面以及相关的资源推荐。...",
+        "updated": "2024-06-21 16:50:26",
+        "description": "优秀的程序员不仅需要不断学习编程技能，还要掌握高效的开发工具，参与开源项目，并通过代码挑战提升自己。了解更多程序员自我修养的关键方面和资源推荐。",
         "is_nav": true,
         "nav_path": "self_improve",
-        "skip_nav": false
+        "skip_nav": false,
+        "keywords": "程序员自我修养, 编程技能, 开发工具, 代码挑战, 开源项目"
       },
       "catalog": [],
       "realName": "zz7wzx74m9sgu0bb",
@@ -535,13 +536,14 @@
     {
       "id": 171822778,
       "doc_id": "kickx6z0136dvoad",
-      "updated": 1717400001000,
+      "updated": 1718961783000,
       "properties": {
         "title": "5、中间代码生成",
         "urlname": "kickx6z0136dvoad",
         "date": "2024-05-31 11:12:29",
-        "updated": "2024-06-03 15:33:21",
-        "description": "5.1 中间代码生成的概述中间代码生成（Intermediate Code Generation）是编译过程中的第四个阶段。中间代码是一种介于高级语言和机器语言之间的表示形式，通常是独立于具体机器的。中间代码便于优化和目标代码生成。5.1.1 中间代码的功能桥接高级语言和机器语言：中间代码充当..."
+        "updated": "2024-06-21 17:23:03",
+        "description": "keywords: 中间代码生成, 编译过程, 三地址码, 四元式, 静态单赋值5.1 中间代码生成的概述中间代码生成（Intermediate Code Generation）是编译过程中的第四个阶段。中间代码是一种介于高级语言和机器语言之间的表示形式，通常是独立于具体机器的。中间代码便于优...",
+        "keywords": "中间代码生成, 编译过程, 三地址码, 四元式, 静态单赋值"
       },
       "catalog": [
         {
@@ -784,14 +786,15 @@
     {
       "id": 171457122,
       "doc_id": "tb9loaz638yp9hqh",
-      "updated": 1717125166000,
+      "updated": 1719146202000,
       "properties": {
         "title": "4、语义分析",
         "urlname": "tb9loaz638yp9hqh",
         "date": "2024-05-28 19:36:22",
-        "updated": "2024-05-31 11:12:46",
+        "updated": "2024-06-23 20:36:42",
         "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/910451a895a1991e5d1b0eeb920cce06.svg",
-        "description": "4.1 语义分析的概述语义分析（Semantic Analysis）是编译过程中的第三个阶段。语义分析器的任务是检查源代码的语义是否正确。例如，类型检查、作用域解析等。语义分析器通常会构建和维护符号表，并进行各种语义检查，以确保程序的正确性。4.1.1 语义分析的功能符号表管理：记录和管理源代..."
+        "description": "语义分析是编译过程中第三个阶段，负责检查源代码的语义是否正确。本文详细介绍了符号表管理、类型检查、作用域解析和语义规则检查等内容，并提供了相关代码示例和性能优化策略。",
+        "keywords": "语义分析，编译过程，符号表管理，类型检查，作用域解析"
       },
       "catalog": [
         {
@@ -810,14 +813,15 @@
     {
       "id": 172099236,
       "doc_id": "rmu0b4pf9g9f2y87",
-      "updated": 1717345037000,
+      "updated": 1718960904000,
       "properties": {
-        "title": "TinyWebServer——基于C++的高并发服务器",
+        "title": "基于C++的高并发服务器",
         "urlname": "rmu0b4pf9g9f2y87",
         "date": "2024-06-03 00:16:46",
-        "updated": "2024-06-03 00:17:17",
+        "updated": "2024-06-21 17:08:24",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1716527116265-facee58e-37f6-42ad-bd7e-65dfac72b542.png",
-        "description": "从0到服务器开发——TinyWebServer阅读笔记前言它是个什么项目？——Linux下C++轻量级Web服务器，助力初学者快速实践网络编程，搭建属于自己的服务器。使用线程池 + 非阻塞socket + epoll(ET和LT均实现) + 事件处理(Reactor和模拟Proactor均实现..."
+        "description": "TinyWebServer 是一个基于 C++ 的高并发 Web 服务器项目，旨在帮助初学者快速掌握网络编程并搭建属于自己的服务器。项目采用线程池、非阻塞 socket、epoll 以及 Reactor 和 Proactor 模式进行事件处理，并支持同步/异步日志系统。通过 Webbench 压力测试，TinyWebServer 可以实现上万的并发连接数据交换。",
+        "keywords": "高并发服务器, C++ Web服务器, TinyWebServer, 网络编程, 线程池, epoll"
       },
       "catalog": [
         {
@@ -836,14 +840,15 @@
     {
       "id": 171454324,
       "doc_id": "oo2c6vylgrygmfaa",
-      "updated": 1717125060000,
+      "updated": 1718961852000,
       "properties": {
         "title": "3、编译语法分析",
         "urlname": "oo2c6vylgrygmfaa",
         "date": "2024-05-28 18:59:35",
-        "updated": "2024-05-31 11:11:00",
+        "updated": "2024-06-21 17:24:12",
         "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/f26cb428fabdb38140beef4650dc7a4b.svg",
-        "description": "3.1 语法分析的概述语法分析（Syntax Analysis）是编译过程中的第二个阶段。语法分析器的任务是根据词法分析器生成的记号（Token）序列，构造语法树或抽象语法树（AST），并检查源代码是否符合语言的语法规则。3.1.1 语法分析的功能构造语法树：根据记号序列构造程序的语法结构。语..."
+        "description": "编译过程中的语法分析概念，涵盖了语法树与抽象语法树的构建、自顶向下和自底向上的语法分析方法、语法错误处理策略以及性能优化技术，是编译器设计的重要参考资料。",
+        "keywords": "编译语法分析, 语法树, 抽象语法树, 自顶向下分析, 自底向上分析, 上下文无关文法"
       },
       "catalog": [
         {
@@ -885,13 +890,14 @@
     {
       "id": 171448372,
       "doc_id": "ovzvcms97euksuig",
-      "updated": 1717124988000,
+      "updated": 1719146745000,
       "properties": {
         "title": "2、编译器的词法分析",
         "urlname": "ovzvcms97euksuig",
         "date": "2024-05-28 17:55:59",
-        "updated": "2024-05-31 11:09:48",
-        "description": "在本章中，我们详细介绍词法分析的基本概念、正则表达式与词法规则、有限自动机、词法分析器的实现方法及常用工具、错误处理和性能优化等内容。2.1 词法分析的概述词法分析（Lexical Analysis）是编译过程的第一个阶段，它的任务是将源代码转换为记号（Token）序列。词法分析器通过扫描源代..."
+        "updated": "2024-06-23 20:45:45",
+        "description": "本章详细介绍词法分析的基本概念、正则表达式与词法规则、有限自动机、词法分析器的实现方法及常用工具、错误处理和性能优化等内容。",
+        "keywords": "词法分析, 正则表达式, 有限自动机, 词法分析器, Lex, Flex"
       },
       "catalog": [
         {
@@ -1011,15 +1017,16 @@
     {
       "id": 171438865,
       "doc_id": "nwf4zh020zubf4ae",
-      "updated": 1716991937000,
+      "updated": 1719146063000,
       "properties": {
         "title": "⬇️ 区区算法",
         "urlname": "nwf4zh020zubf4ae",
         "date": "2024-05-28 16:50:29",
-        "updated": "2024-05-29 22:12:17",
-        "description": "---is_nav: truenav_path: algorithm---在数字化时代的浪潮中，算法作为信息处理的心脏，扮演着至关重要的角色。无论是探索数据科学的奥秘，还是塑造现代网络的未来，算法都是推动前进的无形之手。\"区区算法\"栏目旨在为读者揭开算法背后的神秘面纱，将复杂的理论和技术浅显易...",
+        "updated": "2024-06-23 20:34:23",
+        "description": "揭开算法背后的神秘面纱，将复杂的理论和技术浅显易懂地呈现出来。无论你是算法新手还是资深开发者，都能在这里找到适合你的内容，涵盖从基础到高级算法、数据结构、机器学习与AI等。",
         "is_nav": true,
-        "nav_path": "algorithm"
+        "nav_path": "algorithm",
+        "keywords": "算法, 数据科学, 机器学习, 人工智能, 算法面试, 数据结构"
       },
       "catalog": [],
       "realName": "nwf4zh020zubf4ae",
@@ -1029,15 +1036,16 @@
     {
       "id": 169649886,
       "doc_id": "lee28kbqshx46bn8",
-      "updated": 1716993904000,
+      "updated": 1718959764000,
       "properties": {
         "title": "📚 计算机基础",
         "urlname": "lee28kbqshx46bn8",
         "date": "2024-05-14 21:15:35",
-        "updated": "2024-05-29 22:45:04",
-        "description": "---is_nav: truenav_path: cs_base---在软件开发领域，\"八股文\"通常是指那些在技术面试中反复出现的理论问题和常见的编程题目。虽然这个术语可能带有一些负面含义，暗指这些问题可能过于死板和理论化，但是准备八股文无疑能够帮助求职者在面试中更好地展现自己的技术实力和理论...",
+        "updated": "2024-06-21 16:49:24",
+        "description": "在软件开发领域，\"八股文\"通常指技术面试中的理论问题和常见编程题目。准备这些问题有助于求职者展示技术实力和理论知识。本文涵盖数据结构与算法、操作系统、网络协议、设计模式和数据库等核心知识。",
         "is_nav": true,
-        "nav_path": "cs_base"
+        "nav_path": "cs_base",
+        "keywords": "计算机基础, 软件开发, 数据结构, 算法, 操作系统, 网络协议"
       },
       "catalog": [],
       "realName": "lee28kbqshx46bn8",
@@ -1093,15 +1101,16 @@
     {
       "id": 169649865,
       "doc_id": "gc6kwq2a9iufudga",
-      "updated": 1716991522000,
+      "updated": 1718959673000,
       "properties": {
         "title": "💹 大厂面经",
         "urlname": "gc6kwq2a9iufudga",
         "date": "2024-05-14 21:15:22",
-        "updated": "2024-05-29 22:05:22",
-        "description": "---is_nav: truenav_path: interview---面试大厂是许多软件开发者职业生涯中的一个重要目标。大厂通常指的是那些在行业内有着显著影响力和技术实力的公司，比如字节、阿里、腾讯、Google、Amazon、Facebook、Apple、微软等。面试过程往往包括算法、数...",
+        "updated": "2024-06-21 16:47:53",
+        "description": "面试大厂是软件开发者职业生涯的重要目标，包括算法、数据结构、系统设计和行为面试等多个环节。了解常见面试题型与准备策略，助你成功迈向字节、阿里、腾讯等大厂。",
         "is_nav": true,
-        "nav_path": "interview"
+        "nav_path": "interview",
+        "keywords": "大厂面经, 算法面试, 数据结构, 系统设计, 行为面试, 智力题"
       },
       "catalog": [],
       "realName": "gc6kwq2a9iufudga",
@@ -1111,15 +1120,16 @@
     {
       "id": 169649875,
       "doc_id": "ttymzn2156q6eim1",
-      "updated": 1716991515000,
+      "updated": 1719146077000,
       "properties": {
         "title": "🧰 实践项目",
         "urlname": "ttymzn2156q6eim1",
         "date": "2024-05-14 21:15:30",
-        "updated": "2024-05-29 22:05:15",
-        "description": "---is_nav: truenav_path: project---编程学习不仅需要理论知识的积累，更需要通过实践项目将所学知识应用到实际问题的解决中。实践项目帮助你加深对编程概念的理解，提升解决复杂问题的能力，并且可以成为你个人作品集的亮点，增强你的职业竞争力。推荐实践项目 个人网站：使用...",
+        "updated": "2024-06-23 20:34:37",
+        "description": "通过实践项目将编程知识应用到实际问题中，提升编程技能，增强职业竞争力。推荐个人网站、博客平台、社交媒体应用、电子商务网站、数据分析工具等实践项目，帮助你加深对编程概念的理解。",
         "is_nav": true,
-        "nav_path": "project"
+        "nav_path": "project",
+        "keywords": "编程实践项目, 编程学习, 个人作品集, 编程技能, 职业竞争力"
       },
       "catalog": [],
       "realName": "ttymzn2156q6eim1",
@@ -1129,16 +1139,17 @@
     {
       "id": 79294310,
       "doc_id": "gu7y1k",
-      "updated": 1717685986000,
+      "updated": 1718959747000,
       "properties": {
         "title": "🏄 关于",
         "urlname": "gu7y1k",
         "date": "2022-06-01 19:34:04",
-        "updated": "2024-06-06 22:59:46",
+        "updated": "2024-06-21 16:49:07",
         "cover": "https://cdn.nlark.com/yuque/0/2022/png/22382235/1654084105084-db848bc6-9549-487f-ab10-78708de3dec5.png",
-        "description": "---is_nav: falsenav_path: web---",
+        "description": "关于页面提供最新的更新信息和网站导航。了解更多关于我们的网站及其最新功能。",
         "is_nav": false,
-        "nav_path": "web"
+        "nav_path": "web",
+        "keywords": "关于, 更新, 网站信息, 导航"
       },
       "catalog": [],
       "realName": "gu7y1k",
@@ -1173,13 +1184,16 @@
     {
       "id": 170598572,
       "doc_id": "pmgc87gi7d1cap66",
-      "updated": 1716895560000,
+      "updated": 1718961193000,
       "properties": {
         "title": "编译原理",
         "urlname": "pmgc87gi7d1cap66",
         "date": "2024-05-22 08:48:53",
-        "updated": "2024-05-28 19:26:00",
-        "description": "以下是一个编译原理（Compiler Principles）的章节目录示例，共包含10个章节。这些章节涵盖了编译器设计与实现的核心内容，包括词法分析、语法分析、语义分析、中间代码生成、代码优化等方面。编译原理章节目录第1章 引言1.1 编译器的概述1.2 编译过程的阶段1.3 编译器与解释器的..."
+        "updated": "2024-06-21 17:13:13",
+        "description": "探讨编译原理，从词法分析到语法分析，再到代码优化。了解编译器设计与实现的核心内容和前沿技术，全面掌握编译器的结构与功能。",
+        "is_nav": false,
+        "nav_path": "compile",
+        "keywords": "编译原理, 编译器设计, 词法分析, 语法分析, 代码优化"
       },
       "catalog": [
         {
@@ -1194,15 +1208,16 @@
     {
       "id": 170676314,
       "doc_id": "gu2a0qdxqzzgwob6",
-      "updated": 1718459566000,
+      "updated": 1719146034000,
       "properties": {
         "title": "💻 编程语言",
         "urlname": "gu2a0qdxqzzgwob6",
         "date": "2024-05-22 17:03:34",
-        "updated": "2024-06-15 21:52:46",
-        "description": "---is_nav: truenav_path: language---在这个数字化迅速发展的时代，编程语言无疑成为了我们探索数字世界的重要工具。无论是构建一个复杂的软件系统，还是简单的个人网站，甚至是开发一款有趣的手机应用，编程语言都是实现这一切不可或缺的基石。热门编程语言速达 C++：以高...",
+        "updated": "2024-06-23 20:33:54",
+        "description": "在数字化迅速发展的时代，编程语言成为探索数字世界的重要工具。了解热门编程语言如C++、Java、Go、Python、JavaScript和TypeScript，提升你的职业竞争力和逻辑思维能力。开始你的编程之旅，创造性地表达与全球开发者交流。",
         "is_nav": true,
-        "nav_path": "language"
+        "nav_path": "language",
+        "keywords": "编程语言，数字化时代，热门编程语言，职业机会，逻辑思维"
       },
       "catalog": [],
       "realName": "gu2a0qdxqzzgwob6",
@@ -1212,13 +1227,14 @@
     {
       "id": 171447953,
       "doc_id": "rssk43a5l6vb8hl9",
-      "updated": 1717124931000,
+      "updated": 1718961859000,
       "properties": {
         "title": "1、初识编译器",
         "urlname": "rssk43a5l6vb8hl9",
         "date": "2024-05-28 17:52:04",
-        "updated": "2024-05-31 11:08:51",
-        "description": "这一章通过介绍编译器的基本概念、编译过程各个阶段、编译器与解释器的区别以及编译器设计的挑战，为读者奠定了理解编译原理的基础。第一章 引言1.1 编译器的概述编译器（Compiler）是将高级编程语言编写的源代码翻译成机器语言或中间代码的程序。编译器的主要目标是生成高效和正确的目标代码，使得程序..."
+        "updated": "2024-06-21 17:24:19",
+        "description": "本章介绍编译器的基本概念、各个编译阶段、编译器与解释器的区别以及编译器设计的挑战，帮助读者理解编译原理。",
+        "keywords": "编译器, 编译过程, 解释器, 编译器设计, 编译原理"
       },
       "catalog": [
         {
@@ -1237,13 +1253,13 @@
     {
       "id": 171422424,
       "doc_id": "ke4dfxri1tn7lnbm",
-      "updated": 1716889690000,
+      "updated": 1718961026000,
       "properties": {
         "title": "ElasticSearch",
         "urlname": "ke4dfxri1tn7lnbm",
         "date": "2024-05-28 15:14:51",
-        "updated": "2024-05-28 17:48:10",
-        "description": "Elasticsearch（简称 ES）是一个基于 Lucene 的全文检索引擎。其核心功能是将数据进行分词后保存索引，从而实现高效的查询。虽然在频繁数据更新和关联查询方面不如 MySQL，但在处理和管理大数据量的查询上，Elasticsearch 展现出了极高的效率。索引的重要性在学习其他数..."
+        "updated": "2024-06-21 17:10:26",
+        "description": "Elasticsearch（简称 ES）是一个基于 Lucene 的全文检索引擎。其核心功能是将数据进行分词后保存索引，从而实现高效的查询。虽然在频繁数据更新和关联查询方面不如 MySQL，但在处理和管理大数据量的查询上，Elasticsearch 展现出了极高的效率。索引的重要性nav_pa..."
       },
       "catalog": [
         {
@@ -1309,14 +1325,15 @@
     {
       "id": 170922123,
       "doc_id": "kzeaege1xzso8hh8",
-      "updated": 1716889395000,
+      "updated": 1718962153000,
       "properties": {
         "title": "《操作系统随想录》",
         "urlname": "kzeaege1xzso8hh8",
         "date": "2024-05-24 12:34:59",
-        "updated": "2024-05-28 17:43:15",
+        "updated": "2024-06-21 17:29:13",
         "cover": "https://cdn.nlark.com/yuque/0/2021/jpeg/22382235/1632813845745-81a4443b-8bd8-4d72-a7ea-291b0b49c2e4.jpeg",
-        "description": "对于操作系统这门课，其实只有以下几个部分内存管理、进程、文件、IO、网络、硬件设备，如下图所示：以下所有内容，均来自我当初校招求职时整理的资料，并备注转载链接，如有侵权请联系我处理。课前复习常问的操作系统问题，如果都知道，之后的知识选择性看就好了。一日之计在于晨什么是操作系统？从本质上来说其实..."
+        "description": "keywords: 操作系统，内存管理，进程，文件系统，IO管理，硬件设备操作系统这门课程，其实只有以下几个部分，内存管理、进程、文件、IO、网络、硬件设备，思维导图如下图所示：以下所有内容，均来自我当初校招求职时整理的资料，并备注转载链接，如有侵权请联系我处理。课前复习常问的操作系统问题，如...",
+        "keywords": "操作系统，内存管理，进程，文件系统，IO管理，硬件设备"
       },
       "catalog": [
         {
@@ -1640,14 +1657,15 @@
     {
       "id": 171437045,
       "doc_id": "fwqm54bdgsxi6reg",
-      "updated": 1716885616000,
+      "updated": 1718960853000,
       "properties": {
         "title": "Reactor与Proactor 两种事件分发模式？",
         "urlname": "fwqm54bdgsxi6reg",
         "date": "2024-05-28 16:38:33",
-        "updated": "2024-05-28 16:40:16",
+        "updated": "2024-06-21 17:07:33",
         "cover": "https://cdn.nlark.com/yuque/0/2021/png/22382235/1634002490029-c029c3ec-c80f-4fed-8f40-d4f05ac77f1b.png",
-        "description": "在多线程服务器中，一般是使用IO复用+线程池来实现，具体的实现方式有：Reactor和Proactor。例如为人所知的Netty、Redis等就是使用Reactor实现的，具有很高的性能。简单来说，两者都是基于事件分发所实现的网络编程模型。Reactor模式下是一种非阻塞同步模式，其感知的是已..."
+        "description": "探讨Reactor和Proactor两种事件分发模式在多线程服务器中的应用，包括Netty、Redis等的实现方式及其优缺点对比。",
+        "keywords": "Reactor模式, Proactor模式, 事件分发, 网络编程, 多线程服务器, 高性能"
       },
       "catalog": [
         {
@@ -1788,14 +1806,15 @@
     {
       "id": 170923348,
       "doc_id": "pnla5tghgsndtv2w",
-      "updated": 1717345047000,
+      "updated": 1718960870000,
       "properties": {
         "title": "TinywebServer面试题",
         "urlname": "pnla5tghgsndtv2w",
         "date": "2024-05-24 13:05:34",
-        "updated": "2024-06-03 00:17:27",
+        "updated": "2024-06-21 17:07:50",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1716527138699-b70488ac-8fa1-4a7b-94bb-4db25b435612.png",
-        "description": "面试题在Tinywebserver这个项目最后，社长提出了一些可能的面试问题，读者学习完该项目之后可以试着回答一下，看是否究竟对这个项目了如指掌：：包括项目介绍，线程池相关，并发模型相关，HTTP报文解析相关，定时器相关，日志相关，压测相关，综合能力等。我对此进行了简单的回答，如果有所纰漏请大..."
+        "description": "本文介绍了TinywebServer项目中的一些面试题，涵盖项目介绍、线程池、并发模型、HTTP报文解析、定时器、日志系统以及压测等多个方面，旨在帮助读者更好地理解和掌握相关知识。",
+        "keywords": "TinywebServer面试题, 线程池, 并发模型, HTTP报文解析, 数据库登录注册, 压测"
       },
       "catalog": [
         {
@@ -1844,16 +1863,17 @@
     {
       "id": 170598275,
       "doc_id": "tihx6bwirgug3b9d",
-      "updated": 1718462707000,
+      "updated": 1718960402000,
       "properties": {
         "title": "TinyWebServer",
         "urlname": "tihx6bwirgug3b9d",
         "date": "2024-05-22 08:44:52",
-        "updated": "2024-06-15 22:45:07",
+        "updated": "2024-06-21 17:00:02",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1716527116265-facee58e-37f6-42ad-bd7e-65dfac72b542.png",
-        "description": "---is_nav: falsenav_path: tiny_web_server---从0到服务器开发——TinyWebServer阅读笔记前言它是个什么项目？——Linux下C++轻量级Web服务器，助力初学者快速实践网络编程，搭建属于自己的服务器。使用线程池 + 非阻塞socket + ...",
+        "description": "Linux下C++轻量级Web服务器TinyWebServer，帮助初学者快速实践网络编程。使用线程池、非阻塞socket、epoll的并发模型及状态机解析HTTP请求。了解更多关于TinyWebServer的开发和功能。",
         "is_nav": false,
-        "nav_path": "tiny_web_server"
+        "nav_path": "tiny_web_server",
+        "keywords": "TinyWebServer, C++轻量级Web服务器, 线程池, 非阻塞socket, epoll"
       },
       "catalog": [
         {
@@ -1958,14 +1978,15 @@
     {
       "id": 170923206,
       "doc_id": "vg4gldsnlenfkq11",
-      "updated": 1718289204000,
+      "updated": 1718962379000,
       "properties": {
         "title": "1. HelloOS",
         "urlname": "vg4gldsnlenfkq11",
         "date": "2024-05-24 13:02:41",
-        "updated": "2024-06-13 22:33:24",
+        "updated": "2024-06-21 17:32:59",
         "cover": "https://cdn.nlark.com/yuque/0/2021/png/22382235/1628768372937-0c40859b-b4c8-47d3-8020-56d834c8fad9.png",
-        "description": "让我们一起学习，由简单的Hello OS入手，最终码出一个属于自己的操作系统！前言为什么要学写一个操作系统？众所周知，操作系统是所有软件的基础（也是面试的三板斧之一！）。对于后端开发而言，操作系统层面的进程、线程、内存、I/O等相关知识根本逃不掉；对于WEB开发，性能调优更是离不开操作系统；对..."
+        "description": "了解代码是如何执行的，探讨CPU的工作原理，从基本的二极管、门电路到复杂的逻辑运算，深入解析计算机组成及其运行机制。由简单的Hello OS入手，最终码出一个属于自己的操作系统",
+        "keywords": "代码执行, CPU工作原理, 计算机组成, 二极管, 门电路, 逻辑运算"
       },
       "catalog": [
         {
@@ -2316,14 +2337,15 @@
     {
       "id": 170598652,
       "doc_id": "oawe7ufgang93sac",
-      "updated": 1716524908000,
+      "updated": 1718961081000,
       "properties": {
         "title": "MySQL",
         "urlname": "oawe7ufgang93sac",
         "date": "2024-05-22 08:50:06",
-        "updated": "2024-05-24 12:28:28",
-        "description": "---nav_path: mysql---",
-        "nav_path": "mysql"
+        "updated": "2024-06-21 17:11:21",
+        "description": "MySQL数据库管理系统，支持SQL语言，提供高效的数据存储和数据库优化解决方案。了解更多关于MySQL的详细信息。",
+        "nav_path": "mysql",
+        "keywords": "MySQL, 数据库管理, SQL语言, 数据存储, 数据库优化"
       },
       "catalog": [
         {
@@ -3347,14 +3369,15 @@
     {
       "id": 170598593,
       "doc_id": "giovviztpgb64iw5",
-      "updated": 1716424121000,
+      "updated": 1718960947000,
       "properties": {
         "title": "Linux解密",
         "urlname": "giovviztpgb64iw5",
         "date": "2024-05-22 08:49:10",
-        "updated": "2024-05-23 08:28:41",
-        "description": "---nav_path: linux---",
-        "nav_path": "linux"
+        "updated": "2024-06-21 17:09:07",
+        "description": "了解Linux解密的技术与方法，提高操作系统的安全性和效率。",
+        "nav_path": "linux",
+        "keywords": "Linux, 解密, 操作系统, 技术, 安全"
       },
       "catalog": [
         {
@@ -3369,14 +3392,15 @@
     {
       "id": 170598544,
       "doc_id": "wqxa4oybgctzpy2u",
-      "updated": 1716424103000,
+      "updated": 1718961740000,
       "properties": {
         "title": "操作系统",
         "urlname": "wqxa4oybgctzpy2u",
         "date": "2024-05-22 08:48:36",
-        "updated": "2024-05-23 08:28:23",
-        "description": "---nav_path: os---",
-        "nav_path": "os"
+        "updated": "2024-06-21 17:22:20",
+        "description": "了解操作系统的基本概念和功能，探索系统软件的架构和应用，掌握IT基础知识。",
+        "nav_path": "os",
+        "keywords": "操作系统, OS, 系统软件, IT基础"
       },
       "catalog": [
         {
@@ -3391,14 +3415,15 @@
     {
       "id": 169963644,
       "doc_id": "kbo5ucr66rpm0n73",
-      "updated": 1716424097000,
+      "updated": 1718960980000,
       "properties": {
         "title": "计算机网络",
         "urlname": "kbo5ucr66rpm0n73",
         "date": "2024-05-16 22:30:55",
-        "updated": "2024-05-23 08:28:17",
-        "description": "---nav_path: network---哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈...",
-        "nav_path": "network"
+        "updated": "2024-06-21 17:09:40",
+        "description": "本文探讨了计算机网络的相关技术和应用，包括信息传输、网络安全和网络架构等内容。",
+        "nav_path": "network",
+        "keywords": "计算机网络, 网络技术, 信息传输, 网络安全, 网络架构, 数据通信"
       },
       "catalog": [
         {
@@ -3413,12 +3438,14 @@
     {
       "id": 169649920,
       "doc_id": "rnwghpv7c59vgtuo",
-      "updated": 1716338637000,
+      "updated": 1718811764000,
       "properties": {
-        "title": "面经小程序",
+        "title": "🔥开发了面经小程序",
         "urlname": "rnwghpv7c59vgtuo",
         "date": "2024-05-14 21:15:56",
-        "updated": "2024-05-22 08:43:57"
+        "updated": "2024-06-19 23:42:44",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1718811751273-adc0a552-fc72-43d2-bffa-8b7e683804e4.png",
+        "description": "大家好，我是白露。面试准备对于每一个校招、社招求职的人来说都是折磨。。。。。。吐了！为什么要考八股文？太难背了啊……到底要背什么题目啊大厂都会怎么问啊？……我和朋友开发了一个小程序，目标是：帮助一万个程序员拿到 Offer。这小程序做什么？全面的题库我们汇总了Java、C++、Go、前端、大数..."
       },
       "catalog": [
         {
@@ -3733,14 +3760,15 @@
     {
       "id": 172725844,
       "doc_id": "sohzx6ofbqpb4kz2",
-      "updated": 1717680004000,
+      "updated": 1718961712000,
       "properties": {
         "title": "Docker",
         "urlname": "sohzx6ofbqpb4kz2",
         "date": "2024-06-06 21:19:40",
-        "updated": "2024-06-06 21:20:04",
-        "description": "---nav_path: Docker---",
-        "nav_path": "Docker"
+        "updated": "2024-06-21 17:21:52",
+        "description": "探索Docker的世界，从容器技术到自动化部署，了解最新的Docker发展动态和应用方案。",
+        "nav_path": "Docker",
+        "keywords": "Docker, 容器技术, 软件部署, 自动化部署"
       },
       "catalog": [
         {
@@ -5494,16 +5522,17 @@
     {
       "id": 170923166,
       "doc_id": "tfhlw8c5gubnwfsb",
-      "updated": 1718241656000,
+      "updated": 1718962237000,
       "properties": {
         "title": "🔥《手写操作系统》",
         "urlname": "tfhlw8c5gubnwfsb",
         "date": "2024-05-24 13:01:43",
-        "updated": "2024-06-13 09:20:56",
-        "description": "---is_nav: falsenav_path: hand_osskip_nav: false---",
+        "updated": "2024-06-21 17:30:37",
+        "description": "《手写操作系统》是一本关于计算机科学和操作系统编程的技术书籍。了解更多关于手写操作系统的详细信息。",
         "is_nav": false,
         "nav_path": "hand_os",
-        "skip_nav": false
+        "skip_nav": false,
+        "keywords": "手写操作系统, 计算机科学, 操作系统, 编程, 技术书籍"
       },
       "catalog": [
         {
@@ -6582,13 +6611,13 @@
     {
       "id": 173583405,
       "doc_id": "bb1q96x83h9u96w2",
-      "updated": 1718284889000,
+      "updated": 1719146099000,
       "properties": {
         "title": "4 月",
         "urlname": "bb1q96x83h9u96w2",
         "date": "2024-06-13 21:14:38",
-        "updated": "2024-06-13 21:21:29",
-        "description": "---is_nav: falsenav_path: 2024_4skip_nav: false---",
+        "updated": "2024-06-23 20:34:59",
+        "description": "---is_nav: falsenav_path: 20244skip_nav: false---",
         "is_nav": false,
         "nav_path": 20244,
         "skip_nav": false
@@ -7745,13 +7774,13 @@
     {
       "id": 173583359,
       "doc_id": "rufaif78psnb10tt",
-      "updated": 1718284903000,
+      "updated": 1719146108000,
       "properties": {
         "title": "6月",
         "urlname": "rufaif78psnb10tt",
         "date": "2024-06-13 21:14:35",
-        "updated": "2024-06-13 21:21:43",
-        "description": "---is_nav: falsenav_path: 2024_6skip_nav: false---",
+        "updated": "2024-06-23 20:35:08",
+        "description": "---is_nav: falsenav_path: 20246skip_nav: false---",
         "is_nav": false,
         "nav_path": 20246,
         "skip_nav": false
@@ -7773,13 +7802,13 @@
     {
       "id": 173583371,
       "doc_id": "gc18uuv6s0o0k5b0",
-      "updated": 1718284897000,
+      "updated": 1719146103000,
       "properties": {
         "title": "5 月",
         "urlname": "gc18uuv6s0o0k5b0",
         "date": "2024-06-13 21:14:36",
-        "updated": "2024-06-13 21:21:37",
-        "description": "---is_nav: falsenav_path: 2024_5skip_nav: false---",
+        "updated": "2024-06-23 20:35:03",
+        "description": "---is_nav: falsenav_path: 20245skip_nav: false---",
         "is_nav": false,
         "nav_path": 20245,
         "skip_nav": false
@@ -8004,13 +8033,14 @@
     {
       "id": 173826516,
       "doc_id": "eoy7yl53cf9t7mpp",
-      "updated": 1718457975000,
+      "updated": 1718960525000,
       "properties": {
         "title": "13、插件发布",
         "urlname": "eoy7yl53cf9t7mpp",
         "date": "2024-06-15 21:25:55",
-        "updated": "2024-06-15 21:26:15",
-        "description": "在完成了插件的开发和测试之后，最后一步就是将其发布到 Chrome Web Store 上。这一章将详细介绍如何创建 Chrome Web Store 账号、打包和上传插件、填写插件信息以及发布和更新插件的过程。创建 Chrome Web Store 账号在发布插件之前，你需要一个 Chrom..."
+        "updated": "2024-06-21 17:02:05",
+        "description": "本文详细介绍了如何在完成插件开发和测试后，将其发布到 Chrome Web Store 上的步骤，包括创建账号、打包上传、填写信息及更新插件等内容。",
+        "keywords": "插件发布, Chrome Web Store, 插件开发, 打包插件, 发布插件"
       },
       "catalog": [
         {
@@ -8029,13 +8059,14 @@
     {
       "id": 173826128,
       "doc_id": "eydyl7oc3k5ivgbz",
-      "updated": 1718457996000,
+      "updated": 1718960541000,
       "properties": {
         "title": "2、项目文件",
         "urlname": "eydyl7oc3k5ivgbz",
         "date": "2024-06-15 21:20:10",
-        "updated": "2024-06-15 21:26:36",
-        "description": "在本章中，我们将从零开始创建我们的 Chrome 插件项目。你将学会如何创建项目文件夹，了解项目的结构，并编写必要的 manifest.json 文件来配置插件。创建项目文件夹首先，我们需要为我们的插件创建一个项目文件夹。在你的计算机上选择一个合适的位置，然后按照以下步骤创建文件夹：在你的计算..."
+        "updated": "2024-06-21 17:02:21",
+        "description": "本章讲解如何从零开始创建 Chrome 插件项目，包括创建项目文件夹、了解项目结构和编写 manifest.json 文件。确保项目结构清晰，代码管理便捷。",
+        "keywords": "Chrome 插件, 项目文件, manifest.json, 项目结构, 版本控制"
       },
       "catalog": [
         {
@@ -8054,13 +8085,14 @@
     {
       "id": 173826233,
       "doc_id": "hoxdx3meswbbhpff",
-      "updated": 1718458003000,
+      "updated": 1718960625000,
       "properties": {
         "title": "4、网页交互",
         "urlname": "hoxdx3meswbbhpff",
         "date": "2024-06-15 21:22:08",
-        "updated": "2024-06-15 21:26:43",
-        "description": "在本章中，我们将深入探讨如何使用 Chrome 扩展中的内容脚本与网页进行交互。内容脚本是 Chrome 扩展中的一个重要部分，它能够访问和操作网页的 DOM（Document Object Model）。通过内容脚本，我们可以获取网页的选中内容并进行处理，为接下来的翻译和词典功能打下基础。添..."
+        "updated": "2024-06-21 17:03:45",
+        "description": "深入探讨如何使用Chrome扩展中的内容脚本与网页进行交互，包括添加和注册内容脚本、操作网页DOM及获取选中文本内容，为翻译和词典功能打下基础。",
+        "keywords": "Chrome扩展, 内容脚本, DOM操作, 翻译插件, 词典插件, 获取选中内容"
       },
       "catalog": [
         {
@@ -8079,13 +8111,14 @@
     {
       "id": 173826484,
       "doc_id": "xbzsvccoy347guga",
-      "updated": 1718457992000,
+      "updated": 1718960703000,
       "properties": {
         "title": "12、国际化支持",
         "urlname": "xbzsvccoy347guga",
         "date": "2024-06-15 21:25:25",
-        "updated": "2024-06-15 21:26:32",
-        "description": "本章节将详细介绍如何在 Chrome 插件中添加国际化支持，以便让插件适应不同语言环境中的用户需求。我们将通过编写国际化文件，并以中文和英文为例进行演示。通过本章的学习，您将掌握国际化插件开发的基础知识和技术实现。1. 引言国际化（Internationalization, i18n）是指为软..."
+        "updated": "2024-06-21 17:05:03",
+        "description": "本章节详细介绍如何在Chrome插件中添加国际化支持，通过编写国际化文件和示例演示，掌握多语言插件开发的基础知识和技术实现。",
+        "keywords": "Chrome插件, 国际化支持, 多语言开发, messages.json, 插件国际化"
       },
       "catalog": [
         {
@@ -8104,13 +8137,14 @@
     {
       "id": 173826456,
       "doc_id": "zbeb9457iikko9uw",
-      "updated": 1718457987000,
+      "updated": 1718960759000,
       "properties": {
         "title": "11、调试与测试",
         "urlname": "zbeb9457iikko9uw",
         "date": "2024-06-15 21:24:58",
-        "updated": "2024-06-15 21:26:27",
-        "description": "在完成插件开发后，调试和测试是确保插件稳定性和功能完整性的重要步骤。本章将详细讲解如何使用 Chrome 开发者工具进行调试，并介绍一些常见的错误及其解决方法，最后还会指导你编写自动化测试脚本。11.1 使用 Chrome 开发者工具进行调试Chrome 开发者工具是调试插件最常用且强大的工具..."
+        "updated": "2024-06-21 17:05:59",
+        "description": "keywords: 插件调试, 自动化测试, Chrome开发者工具, 常见错误, Selenium测试在完成插件开发后，调试和测试是确保插件稳定性和功能完整性的重要步骤。本章将详细讲解如何使用 Chrome 开发者工具进行调试，并介绍一些常见的错误及其解决方法，最后还会指导你编写自动化测试脚...",
+        "keywords": "插件调试, 自动化测试, Chrome开发者工具, 常见错误, Selenium测试"
       },
       "catalog": [
         {
@@ -8129,13 +8163,14 @@
     {
       "id": 173826419,
       "doc_id": "dd58xbizumpbgilb",
-      "updated": 1718457983000,
+      "updated": 1718960490000,
       "properties": {
         "title": "10、性能优化",
         "urlname": "dd58xbizumpbgilb",
         "date": "2024-06-15 21:24:32",
-        "updated": "2024-06-15 21:26:23",
-        "description": "在完成了插件的核心功能之后，插件的性能优化是确保用户获得最佳体验的关键一步。性能优化不仅能提升插件的加载速度，还能减少内存占用，优化 API 调用。通过这一章的学习，读者将掌握如何针对 Chrome 插件进行一系列性能优化操作。提升插件加载速度优化文件加载在开发 Chrome 插件时，合理组织..."
+        "updated": "2024-06-21 17:01:30",
+        "description": "通过性能优化提升Chrome插件的加载速度、减少内存占用、优化API调用，为用户提供最佳体验。掌握文件压缩、延迟加载、缓存机制等关键技术。",
+        "keywords": "性能优化, Chrome插件, 加载速度, 内存占用, API调用"
       },
       "catalog": [
         {
@@ -8154,13 +8189,14 @@
     {
       "id": 173826380,
       "doc_id": "dpmrx7kbh9a840er",
-      "updated": 1718457872000,
+      "updated": 1718960508000,
       "properties": {
         "title": "9、界面优化与用户交互",
         "urlname": "dpmrx7kbh9a840er",
         "date": "2024-06-15 21:24:00",
-        "updated": "2024-06-15 21:24:32",
-        "description": "在本章中，我们将讨论如何优化插件的用户界面，以及如何增强用户交互体验。我们将改进 Popup 界面，添加多语言支持，并实现用户设置选项。改进 Popup 界面首先，我们需要对 Popup 界面进行改进，使其更加美观和用户友好。我们将使用 HTML 和 CSS 来设计一个简洁、现代的界面。创建改..."
+        "updated": "2024-06-21 17:01:48",
+        "description": "本章介绍了如何优化插件的用户界面，增强用户交互体验。内容涵盖改进Popup界面、添加多语言支持和实现用户设置选项，提升插件的美观度和易用性。",
+        "keywords": "插件优化, 用户界面, 用户交互, 多语言支持, 用户设置"
       },
       "catalog": [
         {
@@ -8179,13 +8215,14 @@
     {
       "id": 173826345,
       "doc_id": "zid22mlibhcghi01",
-      "updated": 1718457842000,
+      "updated": 1719146413000,
       "properties": {
         "title": "8、数据存储与同步",
         "urlname": "zid22mlibhcghi01",
         "date": "2024-06-15 21:23:41",
-        "updated": "2024-06-15 21:24:02",
-        "description": "在插件开发过程中，数据存储和同步是一个非常重要的功能。用户需要保存他们的翻译记录和查词记录，以便将来参考。这一章将详细介绍如何使用 Chrome 存储 API 来实现这一功能。8.1 使用 Chrome 存储 APIChrome 提供了一个强大的存储 API，可以在插件中存储数据。它类似于浏览..."
+        "updated": "2024-06-23 20:40:13",
+        "description": "keywords: 数据存储, 同步, Chrome存储API, 插件开发, 历史记录在插件开发过程中，数据存储和同步是一个非常重要的功能。用户需要保存他们的翻译记录和查词记录，以便将来参考。这一章将详细介绍如何使用 Chrome 存储 API 来实现这一功能。8.1 使用 Chrome 存储...",
+        "keywords": "数据存储, 同步, Chrome存储API, 插件开发, 历史记录"
       },
       "catalog": [
         {
@@ -8204,13 +8241,14 @@
     {
       "id": 173826320,
       "doc_id": "vtsebpvpbg1cymg5",
-      "updated": 1718457822000,
+      "updated": 1719145738000,
       "properties": {
         "title": "7、词典功能实现",
         "urlname": "vtsebpvpbg1cymg5",
         "date": "2024-06-15 21:23:23",
-        "updated": "2024-06-15 21:23:42",
-        "description": "在本章中，我们将进一步扩展我们的翻译插件，增加一个词典功能。这将允许用户在使用插件进行翻译时，同时获取词语的详细解释。本章将详细介绍如何选择词典 API，如何调用词典 API，以及如何将词典解释结果显示在插件中。选择词典 API选择一个合适的词典 API 是实现词典功能的关键步骤。常见的词典 ..."
+        "updated": "2024-06-23 20:28:58",
+        "description": "本章介绍如何为翻译插件增加词典功能，包括选择Merriam-Webster API、调用API以及在插件中显示词典解释结果的详细步骤。",
+        "keywords": "翻译插件, 词典功能, Merriam-Webster API, 前端开发, 插件开发, API调用"
       },
       "catalog": [
         {
@@ -8229,13 +8267,14 @@
     {
       "id": 173826262,
       "doc_id": "zqv9hf5rs9wbcmyh",
-      "updated": 1718457772000,
+      "updated": 1718960808000,
       "properties": {
         "title": "5、消息传递机制",
         "urlname": "zqv9hf5rs9wbcmyh",
         "date": "2024-06-15 21:22:35",
-        "updated": "2024-06-15 21:22:52",
-        "description": "在 Chrome 插件的开发过程中，消息传递机制是实现不同部分之间通信的关键。无论是从背景脚本到内容脚本，还是从 popup 界面到背景脚本，都需要建立有效的通信管道。本章将详细介绍如何实现这些通信机制。背景脚本与内容脚本通信1. 背景脚本background.js的编写背景脚本在 Chrom..."
+        "updated": "2024-06-21 17:06:48",
+        "description": "keywords: Chrome 插件开发, 消息传递机制, 背景脚本, 内容脚本, popup 界面, 通信管道在 Chrome 插件的开发过程中，消息传递机制是实现不同部分之间通信的关键。无论是从背景脚本到内容脚本，还是从 popup 界面到背景脚本，都需要建立有效的通信管道。本章将详细介...",
+        "keywords": "Chrome 插件开发, 消息传递机制, 背景脚本, 内容脚本, popup 界面, 通信管道"
       },
       "catalog": [
         {
@@ -8254,13 +8293,14 @@
     {
       "id": 173826294,
       "doc_id": "csxtdf0gdbfudqg7",
-      "updated": 1718457798000,
+      "updated": 1719146248000,
       "properties": {
         "title": "6、调用翻译 API",
         "urlname": "csxtdf0gdbfudqg7",
         "date": "2024-06-15 21:22:57",
-        "updated": "2024-06-15 21:23:18",
-        "description": "在这一章中，我们将学习如何选择合适的翻译 API，并且设置 API 访问权限，使用内容脚本调用翻译 API 并显示结果。这个章节将重点讲解如何在 Chrome 插件中实现在线翻译功能。6.1 选择合适的翻译 API6.1.1 Google Translate APIGoogle Transla..."
+        "updated": "2024-06-23 20:37:28",
+        "description": "学习如何在 Chrome 插件中选择并设置翻译 API，使用内容脚本调用 API，显示翻译结果。包含 Google Translate 和其他免费翻译 API 的详细步骤。",
+        "keywords": "翻译 API，Chrome 插件，Google Translate，API 调用，翻译功能"
       },
       "catalog": [
         {
@@ -8279,13 +8319,14 @@
     {
       "id": 173826174,
       "doc_id": "fhh99lgx1ihp1ykw",
-      "updated": 1718457728000,
+      "updated": 1718960609000,
       "properties": {
         "title": "3、创建 Popup 界面",
         "urlname": "fhh99lgx1ihp1ykw",
         "date": "2024-06-15 21:21:04",
-        "updated": "2024-06-15 21:22:08",
-        "description": "在本章中，我们将一步步创建 Chrome 插件的基础 Popup 界面。这部分是用户与插件进行交互的主要界面。我们会创建一个简单的 popup.html 文件，设计其样式和布局，然后编写 popup.js 来处理用户的点击事件。创建popup.html首先，我们需要在项目文件夹内创建一个新的 ..."
+        "updated": "2024-06-21 17:03:29",
+        "description": "在本章中，我们将一步步创建Chrome插件的基础Popup界面，包括设计popup.html、popup.css以及编写popup.js来处理用户的点击事件。",
+        "keywords": "创建Popup界面, Chrome插件, popup.html, popup.js, popup.css"
       },
       "catalog": [
         {
@@ -8304,13 +8345,14 @@
     {
       "id": 173826084,
       "doc_id": "yow1nk49lu90564x",
-      "updated": 1718457716000,
+      "updated": 1719146269000,
       "properties": {
         "title": "1、什么是 Chrome 插件？",
         "urlname": "yow1nk49lu90564x",
         "date": "2024-06-15 21:19:17",
-        "updated": "2024-06-15 21:21:56",
-        "description": "在本章中，我们将介绍什么是 Chrome 插件、其常见用途和好处，并引导您完成安装 Chrome 浏览器以及设置开发者环境的步骤。通过这些准备工作，您将为后续章节的学习打下坚实的基础。我们将以“翻译和词典插件”为最终目标，希望大家喜欢。1.1 什么是 Chrome 插件？Chrome 插件，也..."
+        "updated": "2024-06-23 20:37:49",
+        "description": "---keywords: Chrome插件, 常见用途, 安装Chrome, 开发者环境, 翻译插件, 词典插件---我们将介绍什么是 Chrome 插件、其常见用途和好处，并引导您完成安装 Chrome 浏览器以及设置开发者环境的步骤。通过这些准备工作，您将为后续章节的学习打下坚实的基础。我...",
+        "keywords": "Chrome插件, 常见用途, 安装Chrome, 开发者环境, 翻译插件, 词典插件"
       },
       "catalog": [
         {
@@ -8329,15 +8371,16 @@
     {
       "id": 173826065,
       "doc_id": "mrpg5qrcb72px7ng",
-      "updated": 1718462685000,
+      "updated": 1718960377000,
       "properties": {
         "title": "ChromePlugin项目实战",
         "urlname": "mrpg5qrcb72px7ng",
         "date": "2024-06-15 21:18:56",
-        "updated": "2024-06-15 22:44:45",
-        "description": "---is_nav: falsenav_path: chrome_plugin---目录 引言与准备工作 什么是 Chrome 插件？Chrome 插件的常见用途和好处安装 Chrome 浏览器设置开发者环境 项目初始设置 创建项目文件夹项目结构介绍编写manifest.json文件 创建基础...",
+        "updated": "2024-06-21 16:59:37",
+        "description": "本文详细介绍了Chrome插件开发的各个环节，从初始设置到最终发布，包括创建Popup界面、内容脚本、消息传递、调用翻译API、词典功能、数据存储、界面优化、性能优化、调试测试、国际化支持等。 ---",
         "is_nav": false,
-        "nav_path": "chrome_plugin"
+        "nav_path": "chrome_plugin",
+        "keywords": "Chrome插件, 插件开发, manifest.json, 内容脚本, 翻译API"
       },
       "catalog": [
         {
@@ -8961,6 +9004,1038 @@
       "realName": "yzihdzv9ytpzrt8w",
       "relativePath": "\\💹 大厂面经\\拿下面试官实战\\6月\\yzihdzv9ytpzrt8w.md",
       "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\6月"
+    },
+    {
+      "id": 174668839,
+      "doc_id": "els4225swlif6gyw",
+      "updated": 1718959612000,
+      "properties": {
+        "title": "第 19 章：开发一个机器学习应用",
+        "urlname": "els4225swlif6gyw",
+        "date": "2024-06-21 16:46:41",
+        "updated": "2024-06-21 16:46:52",
+        "description": "本章节将介绍如何在 C# 中开发一个机器学习应用，包括数据准备和预处理、模型训练和评估，以及模型的使用和部署。",
+        "keywords": "机器学习, 数据预处理, 模型训练, 模型评估, 模型部署"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "els4225swlif6gyw"
+        },
+        {
+          "title": "C#",
+          "doc_id": "els4225swlif6gyw"
+        }
+      ],
+      "realName": "els4225swlif6gyw",
+      "relativePath": "\\💻 编程语言\\C#\\els4225swlif6gyw.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C#"
+    },
+    {
+      "id": 174668832,
+      "doc_id": "ox3khairmgqwcy3l",
+      "updated": 1718959629000,
+      "properties": {
+        "title": "第 20 章：你的下一步",
+        "urlname": "ox3khairmgqwcy3l",
+        "date": "2024-06-21 16:46:40",
+        "updated": "2024-06-21 16:47:09",
+        "description": "在本章中，我们将回顾整个 C#学习之旅，并探讨 C#的高级主题和新特性。还将推荐一些优质的 C#学习资源，并提供继续提升编程技能的方法。",
+        "keywords": "C#学习, 高级主题, 编程技能, 编程资源, 编程提升"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "ox3khairmgqwcy3l"
+        },
+        {
+          "title": "C#",
+          "doc_id": "ox3khairmgqwcy3l"
+        }
+      ],
+      "realName": "ox3khairmgqwcy3l",
+      "relativePath": "\\💻 编程语言\\C#\\ox3khairmgqwcy3l.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C#"
+    },
+    {
+      "id": 174668764,
+      "doc_id": "dnspn99ighi70h51",
+      "updated": 1719146150000,
+      "properties": {
+        "title": "第 18 章：开发一个博客系统",
+        "urlname": "dnspn99ighi70h51",
+        "date": "2024-06-21 16:46:19",
+        "updated": "2024-06-23 20:35:50",
+        "description": "读者开发一个完整的博客系统，从系统需求分析到数据库设计，再到后端 API 开发和前端界面开发，以及系统的最终测试和部署。",
+        "keywords": "博客系统开发, C# 编程, 后端 API, 前端开发, 数据库设计"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "dnspn99ighi70h51"
+        },
+        {
+          "title": "C#",
+          "doc_id": "dnspn99ighi70h51"
+        }
+      ],
+      "realName": "dnspn99ighi70h51",
+      "relativePath": "\\💻 编程语言\\C#\\dnspn99ighi70h51.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C#"
+    },
+    {
+      "id": 174668574,
+      "doc_id": "rxuh23os4gkbvdiy",
+      "updated": 1718959552000,
+      "properties": {
+        "title": "第 17 章：开发一个简单的游戏",
+        "urlname": "rxuh23os4gkbvdiy",
+        "date": "2024-06-21 16:45:36",
+        "updated": "2024-06-21 16:45:52",
+        "description": "本章节将指导你开发一个简单的游戏，从设计、界面开发到逻辑实现和测试优化，帮助你掌握 C# 实战技能。",
+        "keywords": "C# 游戏开发, C# 项目, 游戏设计, 游戏逻辑, 游戏优化"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "rxuh23os4gkbvdiy"
+        },
+        {
+          "title": "C#",
+          "doc_id": "rxuh23os4gkbvdiy"
+        }
+      ],
+      "realName": "rxuh23os4gkbvdiy",
+      "relativePath": "\\💻 编程语言\\C#\\rxuh23os4gkbvdiy.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C#"
+    },
+    {
+      "id": 174668523,
+      "doc_id": "zcn7ze3o53dx0bld",
+      "updated": 1718959535000,
+      "properties": {
+        "title": "第 16 章：特性",
+        "urlname": "zcn7ze3o53dx0bld",
+        "date": "2024-06-21 16:45:17",
+        "updated": "2024-06-21 16:45:35",
+        "description": "本章将详细介绍 C#中的特性，包括其定义、使用方法以及内置和自定义特性的具体操作。还将讨论如何使用反射来读取特性。",
+        "keywords": "C#特性, 特性定义, 内置特性, 自定义特性, C#反射"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "zcn7ze3o53dx0bld"
+        },
+        {
+          "title": "C#",
+          "doc_id": "zcn7ze3o53dx0bld"
+        }
+      ],
+      "realName": "zcn7ze3o53dx0bld",
+      "relativePath": "\\💻 编程语言\\C#\\zcn7ze3o53dx0bld.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C#"
+    },
+    {
+      "id": 174668451,
+      "doc_id": "hen6f6d77mvbngfq",
+      "updated": 1718959508000,
+      "properties": {
+        "title": "第 15 章：反射",
+        "urlname": "hen6f6d77mvbngfq",
+        "date": "2024-06-21 16:44:42",
+        "updated": "2024-06-21 16:45:08",
+        "description": "探讨 C#中的反射机制，包括 Type 类的使用，如何获取类型信息，创建对象以及调用方法的具体实现。",
+        "keywords": "反射, C# 反射, Type 类, 反射创建对象, 反射调用方法"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "hen6f6d77mvbngfq"
+        },
+        {
+          "title": "C#",
+          "doc_id": "hen6f6d77mvbngfq"
+        }
+      ],
+      "realName": "hen6f6d77mvbngfq",
+      "relativePath": "\\💻 编程语言\\C#\\hen6f6d77mvbngfq.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C#"
+    },
+    {
+      "id": 174668406,
+      "doc_id": "ak0bv8yd7g5uooog",
+      "updated": 1719145688000,
+      "properties": {
+        "title": "第 14 章：异步编程",
+        "urlname": "ak0bv8yd7g5uooog",
+        "date": "2024-06-21 16:44:25",
+        "updated": "2024-06-23 20:28:08",
+        "description": "keywords: 异步编程, Task, async 等待, 并行编程。在现代编程中，异步编程（Asynchronous Programming）是一项关键技术，能够显著提升应用程序的响应速度和性能。本章将深入探讨异步编程的概念，以及如何在 C#中使用 Task、Task以及 async 和...",
+        "keywords": "异步编程, Task, async 等待, 并行编程。"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "ak0bv8yd7g5uooog"
+        },
+        {
+          "title": "C#",
+          "doc_id": "ak0bv8yd7g5uooog"
+        }
+      ],
+      "realName": "ak0bv8yd7g5uooog",
+      "relativePath": "\\💻 编程语言\\C#\\ak0bv8yd7g5uooog.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C#"
+    },
+    {
+      "id": 174668364,
+      "doc_id": "ks16hc0d9oh0gryd",
+      "updated": 1718959464000,
+      "properties": {
+        "title": "第 13 章：LINQ",
+        "urlname": "ks16hc0d9oh0gryd",
+        "date": "2024-06-21 16:44:10",
+        "updated": "2024-06-21 16:44:24",
+        "description": "本章详细介绍了 LINQ 的基本概念、查询语法和方法语法，通过实例展示了如何在 C# 中使用 LINQ 来处理对象和 XML 数据。",
+        "keywords": "LINQ, C# 查询语法, LINQ 方法语法, LINQ to Objects, LINQ to XML"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "ks16hc0d9oh0gryd"
+        },
+        {
+          "title": "C#",
+          "doc_id": "ks16hc0d9oh0gryd"
+        }
+      ],
+      "realName": "ks16hc0d9oh0gryd",
+      "relativePath": "\\💻 编程语言\\C#\\ks16hc0d9oh0gryd.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C#"
+    },
+    {
+      "id": 174667819,
+      "doc_id": "xzt3w7c6r9o99dy9",
+      "updated": 1718959315000,
+      "properties": {
+        "title": "第 12 章：委托和事件",
+        "urlname": "xzt3w7c6r9o99dy9",
+        "date": "2024-06-21 16:41:27",
+        "updated": "2024-06-21 16:41:55",
+        "description": "本章介绍 C#中的委托和事件，包括委托的定义与使用、多播委托、事件的定义与触发等内容，帮助读者掌握这一重要编程概念。",
+        "keywords": "委托, 事件, C#高级编程, 多播委托, 事件触发"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "xzt3w7c6r9o99dy9"
+        },
+        {
+          "title": "C#",
+          "doc_id": "xzt3w7c6r9o99dy9"
+        }
+      ],
+      "realName": "xzt3w7c6r9o99dy9",
+      "relativePath": "\\💻 编程语言\\C#\\xzt3w7c6r9o99dy9.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C#"
+    },
+    {
+      "id": 174667769,
+      "doc_id": "vpvppyhndghx56x3",
+      "updated": 1718959284000,
+      "properties": {
+        "title": "第 11 章：集合",
+        "urlname": "vpvppyhndghx56x3",
+        "date": "2024-06-21 16:41:11",
+        "updated": "2024-06-21 16:41:24",
+        "description": "探讨 C# 中集合的应用，包括 List、Dictionary<TKey, TValue> 和 HashSet 的基本操作、定义、初始化及常见使用场景。",
+        "keywords": "集合, List, Dictionary, HashSet, C#, 数据结构"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "vpvppyhndghx56x3"
+        },
+        {
+          "title": "C#",
+          "doc_id": "vpvppyhndghx56x3"
+        }
+      ],
+      "realName": "vpvppyhndghx56x3",
+      "relativePath": "\\💻 编程语言\\C#\\vpvppyhndghx56x3.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C#"
+    },
+    {
+      "id": 174667367,
+      "doc_id": "ordcsqdus8g8xmsa",
+      "updated": 1718959164000,
+      "properties": {
+        "title": "第 10 章：封装",
+        "urlname": "ordcsqdus8g8xmsa",
+        "date": "2024-06-21 16:39:14",
+        "updated": "2024-06-21 16:39:24",
+        "description": "本章节介绍封装的概念，访问修饰符的种类及其使用方法，属性的定义和使用，索引器的应用，帮助读者理解和应用封装这一面向对象编程的重要特性，提升代码的安全性和可维护性。",
+        "keywords": "封装, 访问修饰符, 属性, 索引器, C#面向对象"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "ordcsqdus8g8xmsa"
+        },
+        {
+          "title": "C#",
+          "doc_id": "ordcsqdus8g8xmsa"
+        }
+      ],
+      "realName": "ordcsqdus8g8xmsa",
+      "relativePath": "\\💻 编程语言\\C#\\ordcsqdus8g8xmsa.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C#"
+    },
+    {
+      "id": 174667217,
+      "doc_id": "kugx9ym41ibcfat7",
+      "updated": 1718959116000,
+      "properties": {
+        "title": "第 9 章：多态",
+        "urlname": "kugx9ym41ibcfat7",
+        "date": "2024-06-21 16:38:26",
+        "updated": "2024-06-21 16:38:36",
+        "description": "本章将深入探讨 C# 中的多态特性，包括虚方法、抽象类和接口的使用。通过具体示例和代码演示，帮助读者掌握多态的核心概念和应用。",
+        "keywords": "C# 多态, C# 虚方法, C# 抽象类, C# 接口, 面向对象编程"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "kugx9ym41ibcfat7"
+        },
+        {
+          "title": "C#",
+          "doc_id": "kugx9ym41ibcfat7"
+        }
+      ],
+      "realName": "kugx9ym41ibcfat7",
+      "relativePath": "\\💻 编程语言\\C#\\kugx9ym41ibcfat7.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C#"
+    },
+    {
+      "id": 174667183,
+      "doc_id": "xow4xq2xbkemig5t",
+      "updated": 1718959102000,
+      "properties": {
+        "title": "第 8 章：继承",
+        "urlname": "xow4xq2xbkemig5t",
+        "date": "2024-06-21 16:38:12",
+        "updated": "2024-06-21 16:38:22",
+        "description": "本章介绍了 C#中的继承概念，包括基类和派生类的定义、继承的实现、base 关键字的使用以及方法的重写，帮助读者掌握面向对象编程的核心技术之一。",
+        "keywords": "继承, C# 继承, 基类和派生类, 方法重写, base 关键字"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "xow4xq2xbkemig5t"
+        },
+        {
+          "title": "C#",
+          "doc_id": "xow4xq2xbkemig5t"
+        }
+      ],
+      "realName": "xow4xq2xbkemig5t",
+      "relativePath": "\\💻 编程语言\\C#\\xow4xq2xbkemig5t.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C#"
+    },
+    {
+      "id": 174667157,
+      "doc_id": "bfc28fyes41agqlo",
+      "updated": 1718959091000,
+      "properties": {
+        "title": "第 7 章：类和对象",
+        "urlname": "bfc28fyes41agqlo",
+        "date": "2024-06-21 16:38:04",
+        "updated": "2024-06-21 16:38:11",
+        "description": "本章将介绍类和对象的概念、类的定义、对象的创建和使用、构造函数以及 this 关键字，帮助初学者深入理解面向对象编程的重要基础。",
+        "keywords": "类和对象, C# 面向对象编程, C# 初学者, 构造函数, this 关键字"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "bfc28fyes41agqlo"
+        },
+        {
+          "title": "C#",
+          "doc_id": "bfc28fyes41agqlo"
+        }
+      ],
+      "realName": "bfc28fyes41agqlo",
+      "relativePath": "\\💻 编程语言\\C#\\bfc28fyes41agqlo.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C#"
+    },
+    {
+      "id": 174667107,
+      "doc_id": "yzb9otcc53egu51a",
+      "updated": 1718959079000,
+      "properties": {
+        "title": "第 6 章：异常处理",
+        "urlname": "yzb9otcc53egu51a",
+        "date": "2024-06-21 16:37:49",
+        "updated": "2024-06-21 16:37:59",
+        "description": "本章详细介绍了 C#中的异常处理机制，包括异常的类型、try-catch-finally 语句的使用、如何抛出异常以及如何定义自定义异常。通过图文结合的方式帮助读者深刻理解异常处理的原理和应用。",
+        "keywords": "异常处理, C#异常, try-catch-finally, 自定义异常, 抛出异常"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "yzb9otcc53egu51a"
+        },
+        {
+          "title": "C#",
+          "doc_id": "yzb9otcc53egu51a"
+        }
+      ],
+      "realName": "yzb9otcc53egu51a",
+      "relativePath": "\\💻 编程语言\\C#\\yzb9otcc53egu51a.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C#"
+    },
+    {
+      "id": 174667070,
+      "doc_id": "zylpxs4lmgadb6pu",
+      "updated": 1718959068000,
+      "properties": {
+        "title": "第 5 章：字符串",
+        "urlname": "zylpxs4lmgadb6pu",
+        "date": "2024-06-21 16:37:36",
+        "updated": "2024-06-21 16:37:48",
+        "description": "本章将深入探讨 C#中的字符串操作，包括拼接、截取、分割等基本操作，及其常用方法和正则表达式的应用。",
+        "keywords": "字符串操作, 字符串方法, 正则表达式, C#基础, 编程学习"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "zylpxs4lmgadb6pu"
+        },
+        {
+          "title": "C#",
+          "doc_id": "zylpxs4lmgadb6pu"
+        }
+      ],
+      "realName": "zylpxs4lmgadb6pu",
+      "relativePath": "\\💻 编程语言\\C#\\zylpxs4lmgadb6pu.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C#"
+    },
+    {
+      "id": 174666889,
+      "doc_id": "dygd6foih5796n8c",
+      "updated": 1718959007000,
+      "properties": {
+        "title": "第 4 章：数组",
+        "urlname": "dygd6foih5796n8c",
+        "date": "2024-06-21 16:36:25",
+        "updated": "2024-06-21 16:36:47",
+        "description": "本章介绍什么是数组，一维数组和多维数组的概念，并且详细讲解了数组的初始化和常用操作，如遍历、查找和排序。",
+        "keywords": "数组, 一维数组, 多维数组, C#数组, 数组操作"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "dygd6foih5796n8c"
+        },
+        {
+          "title": "C#",
+          "doc_id": "dygd6foih5796n8c"
+        }
+      ],
+      "realName": "dygd6foih5796n8c",
+      "relativePath": "\\💻 编程语言\\C#\\dygd6foih5796n8c.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C#"
+    },
+    {
+      "id": 174666806,
+      "doc_id": "mmxgc7qor92m0hk8",
+      "updated": 1718958981000,
+      "properties": {
+        "title": "第 3 章：函数",
+        "urlname": "mmxgc7qor92m0hk8",
+        "date": "2024-06-21 16:35:51",
+        "updated": "2024-06-21 16:36:21",
+        "description": "介绍 C# 中函数的概念，如何定义和调用函数，参数和返回值的使用，以及函数重载和递归函数的应用。",
+        "keywords": "函数, C# 编程, 参数, 返回值, 递归"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "mmxgc7qor92m0hk8"
+        },
+        {
+          "title": "C#",
+          "doc_id": "mmxgc7qor92m0hk8"
+        }
+      ],
+      "realName": "mmxgc7qor92m0hk8",
+      "relativePath": "\\💻 编程语言\\C#\\mmxgc7qor92m0hk8.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C#"
+    },
+    {
+      "id": 174536784,
+      "doc_id": "ybn7ssm2rb66sryo",
+      "updated": 1718958949000,
+      "properties": {
+        "title": "第 2 章：C#的基本语法",
+        "urlname": "ybn7ssm2rb66sryo",
+        "date": "2024-06-20 19:57:08",
+        "updated": "2024-06-21 16:35:49",
+        "description": "本章将介绍 C#的基本语法，包括变量和数据类型、运算符、条件语句以及循环语句。这些知识是编程的基础，掌握这些内容将使你能够编写简单但功能强大的程序。",
+        "keywords": "变量, 数据类型, 运算符, 条件语句, 循环语句"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "ybn7ssm2rb66sryo"
+        },
+        {
+          "title": "C#",
+          "doc_id": "ybn7ssm2rb66sryo"
+        }
+      ],
+      "realName": "ybn7ssm2rb66sryo",
+      "relativePath": "\\💻 编程语言\\C#\\ybn7ssm2rb66sryo.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C#"
+    },
+    {
+      "id": 174657141,
+      "doc_id": "gnr3l68n0h351iw5",
+      "updated": 1719146223000,
+      "properties": {
+        "title": "怎样在Python中引入另一个文件中的函数？",
+        "urlname": "gnr3l68n0h351iw5",
+        "date": "2024-06-21 15:41:23",
+        "updated": "2024-06-23 20:37:03",
+        "description": "本文介绍了在Python中引入自定义函数或模块的多种方法，包括在同一文件中定义和调用函数、从另一个Python文件导入函数、从同一目录的多个模块导入以及使用包导入。并提供了示例代码展示如何实现这些方法。",
+        "keywords": "Python 自定义函数，导入模块，使用包，示例"
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "gnr3l68n0h351iw5"
+        },
+        {
+          "title": "十万个为什么💡",
+          "doc_id": "gnr3l68n0h351iw5"
+        }
+      ],
+      "realName": "gnr3l68n0h351iw5",
+      "relativePath": "\\🔥 程序员自我修养\\十万个为什么💡\\gnr3l68n0h351iw5.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\十万个为什么💡"
+    },
+    {
+      "id": 174450340,
+      "doc_id": "lg82iagvpxi4fpn0",
+      "updated": 1718958602000,
+      "properties": {
+        "title": "Rust",
+        "urlname": "lg82iagvpxi4fpn0",
+        "date": "2024-06-20 10:00:25",
+        "updated": "2024-06-21 16:30:02",
+        "description": "本课程介绍了Rust的基本概念及其应用领域，解释了为什么选择Rust。",
+        "nav_path": "rust",
+        "keywords": "Rust入门, Rust基础, Rust编程, Rust开发环境, Rust"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "lg82iagvpxi4fpn0"
+        }
+      ],
+      "realName": "lg82iagvpxi4fpn0",
+      "relativePath": "\\💻 编程语言\\lg82iagvpxi4fpn0.md",
+      "docPath": "docs\\doc\\💻 编程语言"
+    },
+    {
+      "id": 174536671,
+      "doc_id": "rrpqbl7gyd3cao1n",
+      "updated": 1718884623000,
+      "properties": {
+        "title": "第 1 章：初识 C#",
+        "urlname": "rrpqbl7gyd3cao1n",
+        "date": "2024-06-20 19:56:11",
+        "updated": "2024-06-20 19:57:03",
+        "description": "本章节将带领读者初识 C#编程语言，包括 C#的定义、应用领域、学习 C#的理由、如何搭建 C#开发环境，以及编写第一个 C#程序——“Hello, World!”。",
+        "keywords": "C#入门, C#基础, 编程语言, 编程学习, Hello World"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "rrpqbl7gyd3cao1n"
+        },
+        {
+          "title": "C#",
+          "doc_id": "rrpqbl7gyd3cao1n"
+        }
+      ],
+      "realName": "rrpqbl7gyd3cao1n",
+      "relativePath": "\\💻 编程语言\\C#\\rrpqbl7gyd3cao1n.md",
+      "docPath": "docs\\doc\\💻 编程语言\\C#"
+    },
+    {
+      "id": 174450366,
+      "doc_id": "tg0zoam348xl02fz",
+      "updated": 1718884569000,
+      "properties": {
+        "title": "C#",
+        "urlname": "tg0zoam348xl02fz",
+        "date": "2024-06-20 10:00:38",
+        "updated": "2024-06-20 19:56:09",
+        "description": "---nav_path: c_sharp---C#是微软公司开发的一门面向对象的编程语言,它源自C和C++,同时吸收了Java等语言的优点。自2000年首次发布以来,C#已经成为了.NET生态系统的核心语言,广泛应用于桌面应用、Web开发、游戏开发、移动应用等领域。那么,为什么要学习C#呢?多...",
+        "nav_path": "c_sharp"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "tg0zoam348xl02fz"
+        }
+      ],
+      "realName": "tg0zoam348xl02fz",
+      "relativePath": "\\💻 编程语言\\tg0zoam348xl02fz.md",
+      "docPath": "docs\\doc\\💻 编程语言"
+    },
+    {
+      "id": 174613896,
+      "doc_id": "yrlfhko367ak7dyx",
+      "updated": 1718937909000,
+      "properties": {
+        "title": "无标题文档",
+        "urlname": "yrlfhko367ak7dyx",
+        "date": "2024-06-21 10:43:56",
+        "updated": "2024-06-21 10:45:09",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/jpeg/22382235/1718937839380-d7b07d20-aabd-45f2-abb7-2c49bbdbb139.jpeg",
+        "description": "章节简述：Hello World!在本书开篇，刘遄老师将向各位读者讲述自己十多年来的Linux系统学习经历以及教学感悟，介绍《Linux就该这么学（第2版）》图书的主要优势及特点，旨在让您更快地下定学习决心。Linux系统的兴盛受益于开源社区的强健根基，我们将与读者一起学习了解开源软件的优势，..."
+      },
+      "catalog": [
+        {
+          "title": "📚 计算机基础",
+          "doc_id": "yrlfhko367ak7dyx"
+        },
+        {
+          "title": "Linux解密",
+          "doc_id": "yrlfhko367ak7dyx"
+        }
+      ],
+      "realName": "yrlfhko367ak7dyx",
+      "relativePath": "\\📚 计算机基础\\Linux解密\\yrlfhko367ak7dyx.md",
+      "docPath": "docs\\doc\\📚 计算机基础\\Linux解密"
+    },
+    {
+      "id": 174536528,
+      "doc_id": "nicvmb8rysuguw8d",
+      "updated": 1718884499000,
+      "properties": {
+        "title": "第 15 章：Rust 社区和学习资源",
+        "urlname": "nicvmb8rysuguw8d",
+        "date": "2024-06-20 19:54:29",
+        "updated": "2024-06-20 19:54:59",
+        "description": "本章将重点介绍 Rust 社区和学习资源，包括官方文档、论坛、聊天室、博客、播客、会议和活动，以及如何继续你的 Rust 学习之旅。",
+        "keywords": "Rust 社区, Rust 学习资源, Rust 论坛, Rust 活动, Rust 继续学习"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "nicvmb8rysuguw8d"
+        },
+        {
+          "title": "Rust",
+          "doc_id": "nicvmb8rysuguw8d"
+        }
+      ],
+      "realName": "nicvmb8rysuguw8d",
+      "relativePath": "\\💻 编程语言\\Rust\\nicvmb8rysuguw8d.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Rust"
+    },
+    {
+      "id": 174536501,
+      "doc_id": "gmxq1nek2xn8eefx",
+      "updated": 1718884468000,
+      "properties": {
+        "title": "第 14 章：Rust 和其他语言的交互",
+        "urlname": "gmxq1nek2xn8eefx",
+        "date": "2024-06-20 19:54:07",
+        "updated": "2024-06-20 19:54:28",
+        "description": "本章详细探讨 Rust 如何与其他编程语言进行交互，包括与 C 语言、Python、Node.js 和 Java 的集成，以及 Rust 和 WebAssembly 的使用。",
+        "keywords": "Rust, 交互, C 语言, Python, Node.js, WebAssembly"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "gmxq1nek2xn8eefx"
+        },
+        {
+          "title": "Rust",
+          "doc_id": "gmxq1nek2xn8eefx"
+        }
+      ],
+      "realName": "gmxq1nek2xn8eefx",
+      "relativePath": "\\💻 编程语言\\Rust\\gmxq1nek2xn8eefx.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Rust"
+    },
+    {
+      "id": 174536430,
+      "doc_id": "zd6i0smgxmx9hc4r",
+      "updated": 1718884446000,
+      "properties": {
+        "title": "第 13 章：系统编程和嵌入式开发",
+        "urlname": "zd6i0smgxmx9hc4r",
+        "date": "2024-06-20 19:53:21",
+        "updated": "2024-06-20 19:54:06",
+        "description": "本章将深入探讨 Rust 在系统编程和嵌入式开发中的应用，包括文件和目录操作、进程和信号处理、网络编程以及嵌入式系统开发。",
+        "keywords": "系统编程, 嵌入式开发, Rust 文件操作, 网络编程, 信号处理"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "zd6i0smgxmx9hc4r"
+        },
+        {
+          "title": "Rust",
+          "doc_id": "zd6i0smgxmx9hc4r"
+        }
+      ],
+      "realName": "zd6i0smgxmx9hc4r",
+      "relativePath": "\\💻 编程语言\\Rust\\zd6i0smgxmx9hc4r.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Rust"
+    },
+    {
+      "id": 174536052,
+      "doc_id": "upsy7mxpgl7y6uqf",
+      "updated": 1719146008000,
+      "properties": {
+        "title": "d第 12 章：构建 Web 应用",
+        "urlname": "upsy7mxpgl7y6uqf",
+        "date": "2024-06-20 19:48:23",
+        "updated": "2024-06-23 20:33:28",
+        "description": "本章节详细介绍如何使用 Rust 构建 Web 应用，包括 Web 框架的选择、处理 HTTP 请求、数据库操作，以及部署方法等内容。",
+        "keywords": "Rust Web 应用, Rust HTTP 请求, Rust 数据库操作, Rust Web 部署, Rust Web 框架"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "upsy7mxpgl7y6uqf"
+        },
+        {
+          "title": "Rust",
+          "doc_id": "upsy7mxpgl7y6uqf"
+        }
+      ],
+      "realName": "upsy7mxpgl7y6uqf",
+      "relativePath": "\\💻 编程语言\\Rust\\upsy7mxpgl7y6uqf.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Rust"
+    },
+    {
+      "id": 174536017,
+      "doc_id": "or8pk2gow7s4qgzw",
+      "updated": 1718884102000,
+      "properties": {
+        "title": "第 11 章：构建命令行应用",
+        "urlname": "or8pk2gow7s4qgzw",
+        "date": "2024-06-20 19:48:00",
+        "updated": "2024-06-20 19:48:22",
+        "description": "本章将详细介绍如何在 Rust 中构建命令行应用，包括解析命令行参数、读写文件、错误处理以及使用第三方库等内容。",
+        "keywords": "Rust 命令行应用, Rust 文件读写, Rust 错误处理, Rust 第三方库, Rust 实战教程"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "or8pk2gow7s4qgzw"
+        },
+        {
+          "title": "Rust",
+          "doc_id": "or8pk2gow7s4qgzw"
+        }
+      ],
+      "realName": "or8pk2gow7s4qgzw",
+      "relativePath": "\\💻 编程语言\\Rust\\or8pk2gow7s4qgzw.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Rust"
+    },
+    {
+      "id": 174535983,
+      "doc_id": "ttuo4tdv5c5p7iz4",
+      "updated": 1719146178000,
+      "properties": {
+        "title": "第 10 章：并发编程",
+        "urlname": "ttuo4tdv5c5p7iz4",
+        "date": "2024-06-20 19:47:30",
+        "updated": "2024-06-23 20:36:18",
+        "description": "本章节将深入探讨 Rust 中的并发编程，涵盖线程和消息传递、共享状态与 Sync trait、Send trait 和线程安全、并发模式和最佳实践。",
+        "keywords": "并发编程, Rust 线程, Rust 消息传递, Rust Sync, Rust Send"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "ttuo4tdv5c5p7iz4"
+        },
+        {
+          "title": "Rust",
+          "doc_id": "ttuo4tdv5c5p7iz4"
+        }
+      ],
+      "realName": "ttuo4tdv5c5p7iz4",
+      "relativePath": "\\💻 编程语言\\Rust\\ttuo4tdv5c5p7iz4.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Rust"
+    },
+    {
+      "id": 174535937,
+      "doc_id": "gwt9xrl6hu4ooihr",
+      "updated": 1719145580000,
+      "properties": {
+        "title": "第 9 章：智能指针和内存管理",
+        "urlname": "gwt9xrl6hu4ooihr",
+        "date": "2024-06-20 19:46:51",
+        "updated": "2024-06-23 20:26:20",
+        "description": "深入探讨 Rust 中的智能指针和内存管理，包括 Box、Rc和 Arc、RefCell以及内部可变性，Mutex和同步原语等内容，掌握 Rust 的内存管理技巧。",
+        "keywords": "Rust 智能指针, Rust 内存管理, Box, Rc, Arc, RefCell"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "gwt9xrl6hu4ooihr"
+        },
+        {
+          "title": "Rust",
+          "doc_id": "gwt9xrl6hu4ooihr"
+        }
+      ],
+      "realName": "gwt9xrl6hu4ooihr",
+      "relativePath": "\\💻 编程语言\\Rust\\gwt9xrl6hu4ooihr.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Rust"
+    },
+    {
+      "id": 174535849,
+      "doc_id": "hkkhccgfge0niqgq",
+      "updated": 1718884010000,
+      "properties": {
+        "title": "第 8 章：函数式编程和迭代器",
+        "urlname": "hkkhccgfge0niqgq",
+        "date": "2024-06-20 19:45:47",
+        "updated": "2024-06-20 19:46:50",
+        "description": "本章深入探讨 Rust 中的函数式编程，包括闭包、迭代器和高阶函数。通过详细的代码示例和解释，帮助读者掌握这些强大的编程工具。",
+        "keywords": "Rust, 函数式编程, 闭包, 迭代器, 高阶函数"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "hkkhccgfge0niqgq"
+        },
+        {
+          "title": "Rust",
+          "doc_id": "hkkhccgfge0niqgq"
+        }
+      ],
+      "realName": "hkkhccgfge0niqgq",
+      "relativePath": "\\💻 编程语言\\Rust\\hkkhccgfge0niqgq.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Rust"
+    },
+    {
+      "id": 174535026,
+      "doc_id": "za80ev1n6tkrvbdx",
+      "updated": 1718883944000,
+      "properties": {
+        "title": "第 7 章：包管理和模块系统",
+        "urlname": "za80ev1n6tkrvbdx",
+        "date": "2024-06-20 19:35:37",
+        "updated": "2024-06-20 19:45:44",
+        "description": "本章详细探讨了 Rust 中的包管理和模块系统，包含如何定义和使用模块，使用 `use` 关键字，还介绍了 Cargo 工具和 Crates.io 仓库的使用方法。",
+        "keywords": "Rust, 包管理, 模块系统, Cargo, Crates.io"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "za80ev1n6tkrvbdx"
+        },
+        {
+          "title": "Rust",
+          "doc_id": "za80ev1n6tkrvbdx"
+        }
+      ],
+      "realName": "za80ev1n6tkrvbdx",
+      "relativePath": "\\💻 编程语言\\Rust\\za80ev1n6tkrvbdx.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Rust"
+    },
+    {
+      "id": 174533881,
+      "doc_id": "wlo5n5g0z7ogdas6",
+      "updated": 1718882644000,
+      "properties": {
+        "title": "第 5 章：错误处理",
+        "urlname": "wlo5n5g0z7ogdas6",
+        "date": "2024-06-20 19:22:34",
+        "updated": "2024-06-20 19:24:04",
+        "description": "本章节将详细介绍 Rust 中的错误处理机制，包括 panic! 和 unwrap, Option 和 Result, 错误传播和自定义错误类型，帮助你在编程中更有效地处理错误。",
+        "keywords": "错误处理, Rust 错误处理, Rust 编程, Option 和 Result, 自定义错误类型"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "wlo5n5g0z7ogdas6"
+        },
+        {
+          "title": "Rust",
+          "doc_id": "wlo5n5g0z7ogdas6"
+        }
+      ],
+      "realName": "wlo5n5g0z7ogdas6",
+      "relativePath": "\\💻 编程语言\\Rust\\wlo5n5g0z7ogdas6.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Rust"
+    },
+    {
+      "id": 174534035,
+      "doc_id": "gutt9mgif32resy3",
+      "updated": 1718883585000,
+      "properties": {
+        "title": "第 6 章：泛型、trait 和生命周期",
+        "urlname": "gutt9mgif32resy3",
+        "date": "2024-06-20 19:24:08",
+        "updated": "2024-06-20 19:39:45",
+        "description": "本章深入探讨 Rust 编程中的泛型、trait 和生命周期。通过详细的示例代码，读者将学习如何定义和使用泛型函数和结构体，理解 trait 的实现，以及掌握生命周期注解，提升对 Rust 编程的理解和应用能力。",
+        "keywords": "Rust 泛型, Rust trait, Rust 生命周期, Rust 高级编程, Rust 教程"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "gutt9mgif32resy3"
+        },
+        {
+          "title": "Rust",
+          "doc_id": "gutt9mgif32resy3"
+        }
+      ],
+      "realName": "gutt9mgif32resy3",
+      "relativePath": "\\💻 编程语言\\Rust\\gutt9mgif32resy3.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Rust"
+    },
+    {
+      "id": 174533803,
+      "doc_id": "fccyi1rbvv9znu3d",
+      "updated": 1718882603000,
+      "properties": {
+        "title": "第 4 章：结构体、枚举和集合类型",
+        "urlname": "fccyi1rbvv9znu3d",
+        "date": "2024-06-20 19:21:39",
+        "updated": "2024-06-20 19:23:23",
+        "description": "本章节将深入探讨 Rust 中的结构体、枚举和集合类型的定义和使用方法，包括动态数组 Vec 和哈希表 HashMap 的操作，帮助读者掌握这些高级特性。",
+        "keywords": "Rust 结构体, Rust 枚举, Rust 集合类型, Rust 动态数组, Rust 哈希表"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "fccyi1rbvv9znu3d"
+        },
+        {
+          "title": "Rust",
+          "doc_id": "fccyi1rbvv9znu3d"
+        }
+      ],
+      "realName": "fccyi1rbvv9znu3d",
+      "relativePath": "\\💻 编程语言\\Rust\\fccyi1rbvv9znu3d.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Rust"
+    },
+    {
+      "id": 174533731,
+      "doc_id": "oayz5mpf7vk3as5g",
+      "updated": 1718882489000,
+      "properties": {
+        "title": "第 3 章：所有权和借用",
+        "urlname": "oayz5mpf7vk3as5g",
+        "date": "2024-06-20 19:20:48",
+        "updated": "2024-06-20 19:21:29",
+        "description": "本章深入探讨 Rust 中的所有权、借用和生命周期概念，帮助读者理解这些关键特性，写出更安全和高效的代码。",
+        "keywords": "Rust, 所有权, 借用, 生命周期, 编程概念"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "oayz5mpf7vk3as5g"
+        },
+        {
+          "title": "Rust",
+          "doc_id": "oayz5mpf7vk3as5g"
+        }
+      ],
+      "realName": "oayz5mpf7vk3as5g",
+      "relativePath": "\\💻 编程语言\\Rust\\oayz5mpf7vk3as5g.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Rust"
+    },
+    {
+      "id": 174533470,
+      "doc_id": "rort768t73lz7op0",
+      "updated": 1718882366000,
+      "properties": {
+        "title": "第 1 章：初识 Rust",
+        "urlname": "rort768t73lz7op0",
+        "date": "2024-06-20 19:17:42",
+        "updated": "2024-06-20 19:19:26",
+        "description": "本章介绍了Rust的基本概念及其应用领域，解释了为什么选择Rust，指导用户搭建第一个Rust开发环境，并编写第一个Rust程序“Hello, World!”。",
+        "keywords": "Rust入门, Rust基础, Rust编程, Rust开发环境, Rust Hello World"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "rort768t73lz7op0"
+        },
+        {
+          "title": "Rust",
+          "doc_id": "rort768t73lz7op0"
+        }
+      ],
+      "realName": "rort768t73lz7op0",
+      "relativePath": "\\💻 编程语言\\Rust\\rort768t73lz7op0.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Rust"
+    },
+    {
+      "id": 174533625,
+      "doc_id": "xhw47xg1eez738z7",
+      "updated": 1718882444000,
+      "properties": {
+        "title": "第 2 章：Rust 的基本语法",
+        "urlname": "xhw47xg1eez738z7",
+        "date": "2024-06-20 19:19:32",
+        "updated": "2024-06-20 19:20:44",
+        "description": "本章讲解 Rust 的基本语法，包括变量和数据类型、运算符、条件表达式和循环，帮助读者理解和掌握 Rust 编程的基础知识。",
+        "keywords": "变量, 数据类型, 运算符, 条件表达式, 循环"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "xhw47xg1eez738z7"
+        },
+        {
+          "title": "Rust",
+          "doc_id": "xhw47xg1eez738z7"
+        }
+      ],
+      "realName": "xhw47xg1eez738z7",
+      "relativePath": "\\💻 编程语言\\Rust\\xhw47xg1eez738z7.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Rust"
+    },
+    {
+      "id": 174504399,
+      "doc_id": "yngxyvkbqaf61ywf",
+      "updated": 1718870528000,
+      "properties": {
+        "title": "如何实现，用户在网页拷贝时，添加版权后缀？",
+        "urlname": "yngxyvkbqaf61ywf",
+        "date": "2024-06-20 16:01:17",
+        "updated": "2024-06-20 16:02:08",
+        "description": "要在用户从网页复制文本时添加一段自定义的后缀，可以监听copy事件，并在该事件的处理函数中修改剪贴板中的内容。这里给出一个使用TypeScript实现的示例：首先，需要一个HTML页面作为起点。以下是一个简单的示例：<!DOCTYPE html> <html lang=\"en\"> <head>..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "yngxyvkbqaf61ywf"
+        },
+        {
+          "title": "最强前端🏷️",
+          "doc_id": "yngxyvkbqaf61ywf"
+        }
+      ],
+      "realName": "yngxyvkbqaf61ywf",
+      "relativePath": "\\🔥 程序员自我修养\\最强前端🏷️\\yngxyvkbqaf61ywf.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\最强前端🏷️"
     }
   ],
   "catalog": [
@@ -8986,7 +10061,7 @@
       "url": "zvhtpcf14k5ubrg3",
       "prev_uuid": "_AUtENOpDG0ZxF_E",
       "sibling_uuid": "PlrctMGesywNFpWl",
-      "child_uuid": "Cv2Cf0lmYZ2F3aed",
+      "child_uuid": "bwhz0PmXvKX-Wpck",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
       "doc_id": 173652661,
       "level": 1,
@@ -8996,10 +10071,25 @@
     },
     {
       "type": "DOC",
+      "title": "如何实现，用户在网页拷贝时，添加版权后缀？",
+      "uuid": "bwhz0PmXvKX-Wpck",
+      "url": "yngxyvkbqaf61ywf",
+      "prev_uuid": "Oi5FMtop6oZm1oNe",
+      "sibling_uuid": "Cv2Cf0lmYZ2F3aed",
+      "child_uuid": "",
+      "parent_uuid": "Oi5FMtop6oZm1oNe",
+      "doc_id": 174504399,
+      "level": 2,
+      "id": 174504399,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "前端需要学GraphQL 吗？",
       "uuid": "Cv2Cf0lmYZ2F3aed",
       "url": "cq9pzn6cr3pnlwb8",
-      "prev_uuid": "Oi5FMtop6oZm1oNe",
+      "prev_uuid": "bwhz0PmXvKX-Wpck",
       "sibling_uuid": "xYEG0ISPE83hVlOs",
       "child_uuid": "",
       "parent_uuid": "Oi5FMtop6oZm1oNe",
@@ -9136,7 +10226,7 @@
       "url": "uz8g4zstl7skaubu",
       "prev_uuid": "PlrctMGesywNFpWl",
       "sibling_uuid": "pzU6x4VThGDwLdrN",
-      "child_uuid": "CjWpHgb8QQDDZ9ok",
+      "child_uuid": "yHSzzWdShCj7Nrpr",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
       "doc_id": 171259325,
       "level": 1,
@@ -9146,10 +10236,25 @@
     },
     {
       "type": "DOC",
+      "title": "怎样在Python中引入另一个文件中的函数？",
+      "uuid": "yHSzzWdShCj7Nrpr",
+      "url": "gnr3l68n0h351iw5",
+      "prev_uuid": "dM55tS-xNS9gbu5Q",
+      "sibling_uuid": "CjWpHgb8QQDDZ9ok",
+      "child_uuid": "",
+      "parent_uuid": "dM55tS-xNS9gbu5Q",
+      "doc_id": 174657141,
+      "level": 2,
+      "id": 174657141,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "ChatGPT为什么使用SSE而不是WebSocket？",
       "uuid": "CjWpHgb8QQDDZ9ok",
       "url": "oq3v2462g4htykqr",
-      "prev_uuid": "dM55tS-xNS9gbu5Q",
+      "prev_uuid": "yHSzzWdShCj7Nrpr",
       "sibling_uuid": "8IHAx0LgQFPdmznU",
       "child_uuid": "",
       "parent_uuid": "dM55tS-xNS9gbu5Q",
@@ -10186,11 +11291,26 @@
       "url": "giovviztpgb64iw5",
       "prev_uuid": "ARr0dfbmXLgkGUau",
       "sibling_uuid": "",
-      "child_uuid": "",
+      "child_uuid": "XSW4wj6x-Osfzg8s",
       "parent_uuid": "1Yk7ZpGC1ALK7ryF",
       "doc_id": 170598593,
       "level": 1,
       "id": 170598593,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "无标题文档",
+      "uuid": "XSW4wj6x-Osfzg8s",
+      "url": "yrlfhko367ak7dyx",
+      "prev_uuid": "wBenEb1xOKuqMtgf",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "wBenEb1xOKuqMtgf",
+      "doc_id": 174613896,
+      "level": 2,
+      "id": 174613896,
       "open_window": 1,
       "visible": 1
     },
@@ -11055,7 +12175,7 @@
       "uuid": "xyWU8VD0ESyCqfX9",
       "url": "zhq6gocbicvee96s",
       "prev_uuid": "H0rmZbYX4VJLpRmp",
-      "sibling_uuid": "IksL8_aQ70Z_soJh",
+      "sibling_uuid": "APns0KLSvJAfUJrm",
       "child_uuid": "mtHfwBeBX4mKxKUT",
       "parent_uuid": "g79LhyuCIcy2z2cx",
       "doc_id": 172725092,
@@ -11261,10 +12381,565 @@
     },
     {
       "type": "DOC",
+      "title": "Rust",
+      "uuid": "APns0KLSvJAfUJrm",
+      "url": "lg82iagvpxi4fpn0",
+      "prev_uuid": "xyWU8VD0ESyCqfX9",
+      "sibling_uuid": "nfwKTnNeHKbuusxV",
+      "child_uuid": "n5fGuUf6YnzJCOEc",
+      "parent_uuid": "g79LhyuCIcy2z2cx",
+      "doc_id": 174450340,
+      "level": 1,
+      "id": 174450340,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 1 章：初识 Rust",
+      "uuid": "n5fGuUf6YnzJCOEc",
+      "url": "rort768t73lz7op0",
+      "prev_uuid": "APns0KLSvJAfUJrm",
+      "sibling_uuid": "hQb-AK664MvzMKHM",
+      "child_uuid": "",
+      "parent_uuid": "APns0KLSvJAfUJrm",
+      "doc_id": 174533470,
+      "level": 2,
+      "id": 174533470,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 2 章：Rust 的基本语法",
+      "uuid": "hQb-AK664MvzMKHM",
+      "url": "xhw47xg1eez738z7",
+      "prev_uuid": "n5fGuUf6YnzJCOEc",
+      "sibling_uuid": "ZkmKwcr-ZsrY16X7",
+      "child_uuid": "",
+      "parent_uuid": "APns0KLSvJAfUJrm",
+      "doc_id": 174533625,
+      "level": 2,
+      "id": 174533625,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 3 章：所有权和借用",
+      "uuid": "ZkmKwcr-ZsrY16X7",
+      "url": "oayz5mpf7vk3as5g",
+      "prev_uuid": "hQb-AK664MvzMKHM",
+      "sibling_uuid": "BzQPKaF68IcDPAnE",
+      "child_uuid": "",
+      "parent_uuid": "APns0KLSvJAfUJrm",
+      "doc_id": 174533731,
+      "level": 2,
+      "id": 174533731,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 4 章：结构体、枚举和集合类型",
+      "uuid": "BzQPKaF68IcDPAnE",
+      "url": "fccyi1rbvv9znu3d",
+      "prev_uuid": "ZkmKwcr-ZsrY16X7",
+      "sibling_uuid": "s4YzDb3uiYAlAhbE",
+      "child_uuid": "",
+      "parent_uuid": "APns0KLSvJAfUJrm",
+      "doc_id": 174533803,
+      "level": 2,
+      "id": 174533803,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 5 章：错误处理",
+      "uuid": "s4YzDb3uiYAlAhbE",
+      "url": "wlo5n5g0z7ogdas6",
+      "prev_uuid": "BzQPKaF68IcDPAnE",
+      "sibling_uuid": "DY7O-TxuEnoAu8R2",
+      "child_uuid": "",
+      "parent_uuid": "APns0KLSvJAfUJrm",
+      "doc_id": 174533881,
+      "level": 2,
+      "id": 174533881,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 6 章：泛型、trait 和生命周期",
+      "uuid": "DY7O-TxuEnoAu8R2",
+      "url": "gutt9mgif32resy3",
+      "prev_uuid": "s4YzDb3uiYAlAhbE",
+      "sibling_uuid": "n39aRNMCeGr9Fh2f",
+      "child_uuid": "",
+      "parent_uuid": "APns0KLSvJAfUJrm",
+      "doc_id": 174534035,
+      "level": 2,
+      "id": 174534035,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 7 章：包管理和模块系统",
+      "uuid": "n39aRNMCeGr9Fh2f",
+      "url": "za80ev1n6tkrvbdx",
+      "prev_uuid": "DY7O-TxuEnoAu8R2",
+      "sibling_uuid": "mmW1cfoDoP83qwkL",
+      "child_uuid": "",
+      "parent_uuid": "APns0KLSvJAfUJrm",
+      "doc_id": 174535026,
+      "level": 2,
+      "id": 174535026,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 8 章：函数式编程和迭代器",
+      "uuid": "mmW1cfoDoP83qwkL",
+      "url": "hkkhccgfge0niqgq",
+      "prev_uuid": "n39aRNMCeGr9Fh2f",
+      "sibling_uuid": "LesEw_v_6Qw7OKta",
+      "child_uuid": "",
+      "parent_uuid": "APns0KLSvJAfUJrm",
+      "doc_id": 174535849,
+      "level": 2,
+      "id": 174535849,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 9 章：智能指针和内存管理",
+      "uuid": "LesEw_v_6Qw7OKta",
+      "url": "gwt9xrl6hu4ooihr",
+      "prev_uuid": "mmW1cfoDoP83qwkL",
+      "sibling_uuid": "lcm7XKL5lKyzspXd",
+      "child_uuid": "",
+      "parent_uuid": "APns0KLSvJAfUJrm",
+      "doc_id": 174535937,
+      "level": 2,
+      "id": 174535937,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 10 章：并发编程",
+      "uuid": "lcm7XKL5lKyzspXd",
+      "url": "ttuo4tdv5c5p7iz4",
+      "prev_uuid": "LesEw_v_6Qw7OKta",
+      "sibling_uuid": "sSyiwv_4RynCj0ah",
+      "child_uuid": "",
+      "parent_uuid": "APns0KLSvJAfUJrm",
+      "doc_id": 174535983,
+      "level": 2,
+      "id": 174535983,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 11 章：构建命令行应用",
+      "uuid": "sSyiwv_4RynCj0ah",
+      "url": "or8pk2gow7s4qgzw",
+      "prev_uuid": "lcm7XKL5lKyzspXd",
+      "sibling_uuid": "AYiB-22QzsGmFzQG",
+      "child_uuid": "",
+      "parent_uuid": "APns0KLSvJAfUJrm",
+      "doc_id": 174536017,
+      "level": 2,
+      "id": 174536017,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "d第 12 章：构建 Web 应用",
+      "uuid": "AYiB-22QzsGmFzQG",
+      "url": "upsy7mxpgl7y6uqf",
+      "prev_uuid": "sSyiwv_4RynCj0ah",
+      "sibling_uuid": "1j-POo7q28psRYC7",
+      "child_uuid": "",
+      "parent_uuid": "APns0KLSvJAfUJrm",
+      "doc_id": 174536052,
+      "level": 2,
+      "id": 174536052,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 13 章：系统编程和嵌入式开发",
+      "uuid": "1j-POo7q28psRYC7",
+      "url": "zd6i0smgxmx9hc4r",
+      "prev_uuid": "AYiB-22QzsGmFzQG",
+      "sibling_uuid": "z7yuHxmdzr2mRLBq",
+      "child_uuid": "",
+      "parent_uuid": "APns0KLSvJAfUJrm",
+      "doc_id": 174536430,
+      "level": 2,
+      "id": 174536430,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 14 章：Rust 和其他语言的交互",
+      "uuid": "z7yuHxmdzr2mRLBq",
+      "url": "gmxq1nek2xn8eefx",
+      "prev_uuid": "1j-POo7q28psRYC7",
+      "sibling_uuid": "NYemGQuA4icLWjKY",
+      "child_uuid": "",
+      "parent_uuid": "APns0KLSvJAfUJrm",
+      "doc_id": 174536501,
+      "level": 2,
+      "id": 174536501,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 15 章：Rust 社区和学习资源",
+      "uuid": "NYemGQuA4icLWjKY",
+      "url": "nicvmb8rysuguw8d",
+      "prev_uuid": "z7yuHxmdzr2mRLBq",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "APns0KLSvJAfUJrm",
+      "doc_id": 174536528,
+      "level": 2,
+      "id": 174536528,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "C#",
+      "uuid": "nfwKTnNeHKbuusxV",
+      "url": "tg0zoam348xl02fz",
+      "prev_uuid": "APns0KLSvJAfUJrm",
+      "sibling_uuid": "IksL8_aQ70Z_soJh",
+      "child_uuid": "unEQHwprY0FKBjQE",
+      "parent_uuid": "g79LhyuCIcy2z2cx",
+      "doc_id": 174450366,
+      "level": 1,
+      "id": 174450366,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 1 章：初识 C#",
+      "uuid": "unEQHwprY0FKBjQE",
+      "url": "rrpqbl7gyd3cao1n",
+      "prev_uuid": "nfwKTnNeHKbuusxV",
+      "sibling_uuid": "fjNhS7yuMsPiPGKz",
+      "child_uuid": "",
+      "parent_uuid": "nfwKTnNeHKbuusxV",
+      "doc_id": 174536671,
+      "level": 2,
+      "id": 174536671,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 2 章：C#的基本语法",
+      "uuid": "fjNhS7yuMsPiPGKz",
+      "url": "ybn7ssm2rb66sryo",
+      "prev_uuid": "unEQHwprY0FKBjQE",
+      "sibling_uuid": "aqm_0j4xNYljeMBN",
+      "child_uuid": "",
+      "parent_uuid": "nfwKTnNeHKbuusxV",
+      "doc_id": 174536784,
+      "level": 2,
+      "id": 174536784,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 3 章：函数",
+      "uuid": "aqm_0j4xNYljeMBN",
+      "url": "mmxgc7qor92m0hk8",
+      "prev_uuid": "fjNhS7yuMsPiPGKz",
+      "sibling_uuid": "xgG07fKaNq20G6MB",
+      "child_uuid": "",
+      "parent_uuid": "nfwKTnNeHKbuusxV",
+      "doc_id": 174666806,
+      "level": 2,
+      "id": 174666806,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 4 章：数组",
+      "uuid": "xgG07fKaNq20G6MB",
+      "url": "dygd6foih5796n8c",
+      "prev_uuid": "aqm_0j4xNYljeMBN",
+      "sibling_uuid": "_XWASyTsH5g8_-zJ",
+      "child_uuid": "",
+      "parent_uuid": "nfwKTnNeHKbuusxV",
+      "doc_id": 174666889,
+      "level": 2,
+      "id": 174666889,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 5 章：字符串",
+      "uuid": "_XWASyTsH5g8_-zJ",
+      "url": "zylpxs4lmgadb6pu",
+      "prev_uuid": "xgG07fKaNq20G6MB",
+      "sibling_uuid": "_mzgkLGaeOUIbsHG",
+      "child_uuid": "",
+      "parent_uuid": "nfwKTnNeHKbuusxV",
+      "doc_id": 174667070,
+      "level": 2,
+      "id": 174667070,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 6 章：异常处理",
+      "uuid": "_mzgkLGaeOUIbsHG",
+      "url": "yzb9otcc53egu51a",
+      "prev_uuid": "_XWASyTsH5g8_-zJ",
+      "sibling_uuid": "DSjpQvGwRti78OPK",
+      "child_uuid": "",
+      "parent_uuid": "nfwKTnNeHKbuusxV",
+      "doc_id": 174667107,
+      "level": 2,
+      "id": 174667107,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 7 章：类和对象",
+      "uuid": "DSjpQvGwRti78OPK",
+      "url": "bfc28fyes41agqlo",
+      "prev_uuid": "_mzgkLGaeOUIbsHG",
+      "sibling_uuid": "mVeZj7cpqy59HZdi",
+      "child_uuid": "",
+      "parent_uuid": "nfwKTnNeHKbuusxV",
+      "doc_id": 174667157,
+      "level": 2,
+      "id": 174667157,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 8 章：继承",
+      "uuid": "mVeZj7cpqy59HZdi",
+      "url": "xow4xq2xbkemig5t",
+      "prev_uuid": "DSjpQvGwRti78OPK",
+      "sibling_uuid": "8wyuLI2FY200Vvrp",
+      "child_uuid": "",
+      "parent_uuid": "nfwKTnNeHKbuusxV",
+      "doc_id": 174667183,
+      "level": 2,
+      "id": 174667183,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 9 章：多态",
+      "uuid": "8wyuLI2FY200Vvrp",
+      "url": "kugx9ym41ibcfat7",
+      "prev_uuid": "mVeZj7cpqy59HZdi",
+      "sibling_uuid": "6zRWtjNOD3hzsBrQ",
+      "child_uuid": "",
+      "parent_uuid": "nfwKTnNeHKbuusxV",
+      "doc_id": 174667217,
+      "level": 2,
+      "id": 174667217,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 10 章：封装",
+      "uuid": "6zRWtjNOD3hzsBrQ",
+      "url": "ordcsqdus8g8xmsa",
+      "prev_uuid": "8wyuLI2FY200Vvrp",
+      "sibling_uuid": "jplBsKC-sK_Tbxle",
+      "child_uuid": "",
+      "parent_uuid": "nfwKTnNeHKbuusxV",
+      "doc_id": 174667367,
+      "level": 2,
+      "id": 174667367,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 11 章：集合",
+      "uuid": "jplBsKC-sK_Tbxle",
+      "url": "vpvppyhndghx56x3",
+      "prev_uuid": "6zRWtjNOD3hzsBrQ",
+      "sibling_uuid": "UEBeA1DvWne75Yfc",
+      "child_uuid": "",
+      "parent_uuid": "nfwKTnNeHKbuusxV",
+      "doc_id": 174667769,
+      "level": 2,
+      "id": 174667769,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 12 章：委托和事件",
+      "uuid": "UEBeA1DvWne75Yfc",
+      "url": "xzt3w7c6r9o99dy9",
+      "prev_uuid": "jplBsKC-sK_Tbxle",
+      "sibling_uuid": "MQcdsg3931ySIzrC",
+      "child_uuid": "",
+      "parent_uuid": "nfwKTnNeHKbuusxV",
+      "doc_id": 174667819,
+      "level": 2,
+      "id": 174667819,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 13 章：LINQ",
+      "uuid": "MQcdsg3931ySIzrC",
+      "url": "ks16hc0d9oh0gryd",
+      "prev_uuid": "UEBeA1DvWne75Yfc",
+      "sibling_uuid": "xY3G73vH2aAVXbzB",
+      "child_uuid": "",
+      "parent_uuid": "nfwKTnNeHKbuusxV",
+      "doc_id": 174668364,
+      "level": 2,
+      "id": 174668364,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 14 章：异步编程",
+      "uuid": "xY3G73vH2aAVXbzB",
+      "url": "ak0bv8yd7g5uooog",
+      "prev_uuid": "MQcdsg3931ySIzrC",
+      "sibling_uuid": "ZiqF9YwFTJFmASyi",
+      "child_uuid": "",
+      "parent_uuid": "nfwKTnNeHKbuusxV",
+      "doc_id": 174668406,
+      "level": 2,
+      "id": 174668406,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 15 章：反射",
+      "uuid": "ZiqF9YwFTJFmASyi",
+      "url": "hen6f6d77mvbngfq",
+      "prev_uuid": "xY3G73vH2aAVXbzB",
+      "sibling_uuid": "o7hRkEWBpCyTtO8r",
+      "child_uuid": "",
+      "parent_uuid": "nfwKTnNeHKbuusxV",
+      "doc_id": 174668451,
+      "level": 2,
+      "id": 174668451,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 16 章：特性",
+      "uuid": "o7hRkEWBpCyTtO8r",
+      "url": "zcn7ze3o53dx0bld",
+      "prev_uuid": "ZiqF9YwFTJFmASyi",
+      "sibling_uuid": "ZyQf2q_zTYHLFad3",
+      "child_uuid": "",
+      "parent_uuid": "nfwKTnNeHKbuusxV",
+      "doc_id": 174668523,
+      "level": 2,
+      "id": 174668523,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 17 章：开发一个简单的游戏",
+      "uuid": "ZyQf2q_zTYHLFad3",
+      "url": "rxuh23os4gkbvdiy",
+      "prev_uuid": "o7hRkEWBpCyTtO8r",
+      "sibling_uuid": "58w_gZlzBeN2md5B",
+      "child_uuid": "",
+      "parent_uuid": "nfwKTnNeHKbuusxV",
+      "doc_id": 174668574,
+      "level": 2,
+      "id": 174668574,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 18 章：开发一个博客系统",
+      "uuid": "58w_gZlzBeN2md5B",
+      "url": "dnspn99ighi70h51",
+      "prev_uuid": "ZyQf2q_zTYHLFad3",
+      "sibling_uuid": "PCpV23Y5tEvYWQOG",
+      "child_uuid": "",
+      "parent_uuid": "nfwKTnNeHKbuusxV",
+      "doc_id": 174668764,
+      "level": 2,
+      "id": 174668764,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 19 章：开发一个机器学习应用",
+      "uuid": "PCpV23Y5tEvYWQOG",
+      "url": "els4225swlif6gyw",
+      "prev_uuid": "58w_gZlzBeN2md5B",
+      "sibling_uuid": "0ApJxprmw4aW7Q59",
+      "child_uuid": "",
+      "parent_uuid": "nfwKTnNeHKbuusxV",
+      "doc_id": 174668839,
+      "level": 2,
+      "id": 174668839,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 20 章：你的下一步",
+      "uuid": "0ApJxprmw4aW7Q59",
+      "url": "ox3khairmgqwcy3l",
+      "prev_uuid": "PCpV23Y5tEvYWQOG",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "nfwKTnNeHKbuusxV",
+      "doc_id": 174668832,
+      "level": 2,
+      "id": 174668832,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "PHP",
       "uuid": "IksL8_aQ70Z_soJh",
       "url": "czngzmnckwyp8lff",
-      "prev_uuid": "xyWU8VD0ESyCqfX9",
+      "prev_uuid": "nfwKTnNeHKbuusxV",
       "sibling_uuid": "WnDVNfei5morwo3q",
       "child_uuid": "EwrfHCtvFc33MrqE",
       "parent_uuid": "g79LhyuCIcy2z2cx",
@@ -12311,7 +13986,7 @@
     },
     {
       "type": "DOC",
-      "title": "TinyWebServer——基于C++的高并发服务器",
+      "title": "基于C++的高并发服务器",
       "uuid": "V7ux9o8m9CWi4Zo1",
       "url": "rmu0b4pf9g9f2y87",
       "prev_uuid": "FKITPLoEH7Oi1Kov",
@@ -12705,7 +14380,7 @@
       "uuid": "-4qV2TE5gTaU9pS4",
       "url": "bxxwzvxxq58cnace",
       "prev_uuid": "NcVLTZK8sE8hkJmb",
-      "sibling_uuid": "zZqPxfRY2KNsrSyg",
+      "sibling_uuid": "0hWjD28cuTqator9",
       "child_uuid": "fh7wwKngfBxfiChx",
       "parent_uuid": "uHCIfCp4Xzc-fCfY",
       "doc_id": 169649927,
@@ -13961,25 +15636,10 @@
     },
     {
       "type": "DOC",
-      "title": "高频场景题",
-      "uuid": "zZqPxfRY2KNsrSyg",
-      "url": "ddiqc8kv6p73lgsu",
-      "prev_uuid": "-4qV2TE5gTaU9pS4",
-      "sibling_uuid": "0hWjD28cuTqator9",
-      "child_uuid": "",
-      "parent_uuid": "uHCIfCp4Xzc-fCfY",
-      "doc_id": 170598231,
-      "level": 1,
-      "id": 170598231,
-      "open_window": 1,
-      "visible": 0
-    },
-    {
-      "type": "DOC",
-      "title": "面经小程序",
+      "title": "🔥开发了面经小程序",
       "uuid": "0hWjD28cuTqator9",
       "url": "rnwghpv7c59vgtuo",
-      "prev_uuid": "zZqPxfRY2KNsrSyg",
+      "prev_uuid": "-4qV2TE5gTaU9pS4",
       "sibling_uuid": "gnTMab2BAh8HSHNb",
       "child_uuid": "",
       "parent_uuid": "uHCIfCp4Xzc-fCfY",
@@ -13995,12 +15655,27 @@
       "uuid": "gnTMab2BAh8HSHNb",
       "url": "bzcgeyqlpmluo6ln",
       "prev_uuid": "0hWjD28cuTqator9",
-      "sibling_uuid": "",
+      "sibling_uuid": "zZqPxfRY2KNsrSyg",
       "child_uuid": "",
       "parent_uuid": "uHCIfCp4Xzc-fCfY",
       "doc_id": 170598252,
       "level": 1,
       "id": 170598252,
+      "open_window": 1,
+      "visible": 0
+    },
+    {
+      "type": "DOC",
+      "title": "高频场景题",
+      "uuid": "zZqPxfRY2KNsrSyg",
+      "url": "ddiqc8kv6p73lgsu",
+      "prev_uuid": "gnTMab2BAh8HSHNb",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "uHCIfCp4Xzc-fCfY",
+      "doc_id": 170598231,
+      "level": 1,
+      "id": 170598231,
       "open_window": 1,
       "visible": 0
     },

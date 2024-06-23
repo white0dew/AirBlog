@@ -2,14 +2,13 @@
 title: TinyWebServer
 urlname: tihx6bwirgug3b9d
 date: '2024-05-22 08:44:52'
-updated: '2024-06-15 22:45:07'
+updated: '2024-06-21 17:00:02'
 cover: 'https://cdn.nlark.com/yuque/0/2024/png/22382235/1716527116265-facee58e-37f6-42ad-bd7e-65dfac72b542.png'
-description: '---is_nav: falsenav_path: tiny_web_server---从0到服务器开发——TinyWebServer阅读笔记前言它是个什么项目？——Linux下C++轻量级Web服务器，助力初学者快速实践网络编程，搭建属于自己的服务器。使用线程池 + 非阻塞socket + ...'
+description: Linux下C++轻量级Web服务器TinyWebServer，帮助初学者快速实践网络编程。使用线程池、非阻塞socket、epoll的并发模型及状态机解析HTTP请求。了解更多关于TinyWebServer的开发和功能。
 is_nav: false
 nav_path: tiny_web_server
+keywords: 'TinyWebServer, C++轻量级Web服务器, 线程池, 非阻塞socket, epoll'
 ---
-> 从0到服务器开发——TinyWebServer阅读笔记
-
 # 前言
 它是个什么项目？——Linux下C++轻量级Web服务器，助力初学者快速实践网络编程，搭建属于自己的服务器。
 

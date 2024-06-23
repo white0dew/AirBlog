@@ -2,8 +2,9 @@
 title: 6、调用翻译 API
 urlname: csxtdf0gdbfudqg7
 date: '2024-06-15 21:22:57'
-updated: '2024-06-15 21:23:18'
-description: 在这一章中，我们将学习如何选择合适的翻译 API，并且设置 API 访问权限，使用内容脚本调用翻译 API 并显示结果。这个章节将重点讲解如何在 Chrome 插件中实现在线翻译功能。6.1 选择合适的翻译 API6.1.1 Google Translate APIGoogle Transla...
+updated: '2024-06-23 20:37:28'
+description: 学习如何在 Chrome 插件中选择并设置翻译 API，使用内容脚本调用 API，显示翻译结果。包含 Google Translate 和其他免费翻译 API 的详细步骤。
+keywords: 翻译 API，Chrome 插件，Google Translate，API 调用，翻译功能
 ---
 在这一章中，我们将学习如何选择合适的翻译 API，并且设置 API 访问权限，使用内容脚本调用翻译 API 并显示结果。这个章节将重点讲解如何在 Chrome 插件中实现在线翻译功能。
 

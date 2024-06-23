@@ -172,7 +172,7 @@ export async function generateMetadata({
       url: "https://github.com/white0dew",
       name: "青玉白露",
     },
-    keywords: curArticle.tags,
+    keywords: curArticle.keywords ? curArticle.keywords : curArticle.tags,
     twitter: {
       card: "summary_large_image",
       title: curArticle.title,

@@ -62,6 +62,7 @@ export const Post = defineDocumentType(() => ({
     description: { type: "string" },
     cover: { type: "string" },
     tags: { type: "list", of: { type: "string" }, default: [] },
+    keywords: { type: "string" },
     authors: { type: "list", of: { type: "string" }, default: ["whitedew"] },
   },
   computedFields: {

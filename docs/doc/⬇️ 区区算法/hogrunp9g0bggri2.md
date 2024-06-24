@@ -2,7 +2,7 @@
 title: "\U0001F5E1 剑指OFFER精讲"
 urlname: hogrunp9g0bggri2
 date: '2024-05-28 16:50:31'
-updated: '2024-05-28 16:55:15'
+updated: '2024-06-24 12:30:19'
 cover: 'https://cdn.nlark.com/yuque/0/2021/png/22382235/1629211889249-6820e8c8-0e98-4006-89f7-1eeb48220c00.png'
 description: '001.赋值运算符函数有一个类声明如下，请重载其赋值运算符：class CMyString { public:     CMyString(char *p = nullptr);     CMyString(const CMyString& str);     ~CMyString(); pr...'
 ---
@@ -1015,7 +1015,7 @@ public:
 ## **补充：动态规划**
 ![image.png](https://oss1.aistar.cool/elog-offer-now/93964339e2cb4ef25560bad539bd8c4b.png)
 ![image.png](https://oss1.aistar.cool/elog-offer-now/d8dc912977fb9a75e3c67731a0a6054b.png)
-# **014.****剪绳子** ![image.png](https://oss1.aistar.cool/elog-offer-now/0ebd9f5cec5216c36abf72d0bd25a345.png)
+# **014.**剪绳子![image.png](https://oss1.aistar.cool/elog-offer-now/0ebd9f5cec5216c36abf72d0bd25a345.png)
 动态规划：O（n）的时间和空间消耗；
 	设f(i)为长度为i时，最大乘积，因此动态规划的公式就为：
 	**f(k)=max（f（i）*f(k-i)）**
@@ -1071,7 +1071,7 @@ public:
     }
 };
 ```
-# **015.****二进制中1的个数**
+# **015.**二进制中1的个数
 ![image.png](https://oss1.aistar.cool/elog-offer-now/52196630fa776363aee9265f2c168b37.png)
 利用**循环移位或者**%取余来进行移动；
 ```
@@ -1112,7 +1112,7 @@ int hammingWeight(uint32_t n) {
 **广度优先搜索的缺点**：在树的层次较深&子节点数较多的情况下，**消耗内存十分严重**。广度优先搜索**适用于节点的子节点数量不多，并且树的层次不会太深的情况。**
 那么**深度优先**就可以克服这个缺点，因为每次搜的过程，每一层只需维护一个节点。但回过头想想，**广度优先能够找到最短路径**，那深度优先能否找到呢？深度优先的方法是一条路走到黑，那显然无法知道这条路是不是最短的，**所以你还得继续走别的路去判断是否是最短路？**
 深度优先搜索的缺点**：难以寻找最优解，仅仅只能寻找有解。其优点就是内存消耗小，克服了刚刚说的广度优先搜索的缺点。**
-# **016.****数值的整数次方**
+# **016.**数值的整数次方
 ![image.png](https://oss1.aistar.cool/elog-offer-now/4150fb6f8d1fcd233cfc59b881cffb8f.png)
 	难点就在于**底和幂如果小于****1（0或者负数）会怎样呢？**
 	也就是说在**计算的时候需要多判断一下**，另外似乎这个运算是不计较分数次幂的，因为幂是int型。（这道题的难点是考虑全面）
@@ -1143,7 +1143,7 @@ double myPow(double x, int n) {
 		}
 		 return re;
 	  }
-# **017.***_打印从1到最大的n位数(*_**)**
+# **017.**打印从1到最大的n位数
 ![image.png](https://oss1.aistar.cool/elog-offer-now/e9183e4405b4c2c4695c56308ed0f95e.png)
 	**这种题一定得思考大数问题，而一旦涉及大数问题基本就是用字符串来表示数字。（这种数字打印的题必考）**。
 	主体代码如下：
@@ -1264,7 +1264,7 @@ public:
         }
     }
 };
-# **018.****删除链表的节点**
+# **018.**删除链表的节点
 ![image.png](https://oss1.aistar.cool/elog-offer-now/156e2e12408b0c372c7928f8ccacafb8.png)
 ![image.png](https://oss1.aistar.cool/elog-offer-now/647d2a0d3fcb25a5a91f3e26ebb2aadf.png)
 	也就是用next节点的下一个节点的信息覆盖next，而后删除next的下一个节点，那么就相当于**删掉了****next原节点**。
@@ -2743,9 +2743,10 @@ string minNumber(vector<int>& nums) {
 PS：注意自定义的字符串大小比较：
 [](string &s1, string &s2){return s1+s2 < s2+s1;});  //按规则排序
 表示如果s1在前拼接小于s2在前拼接，那就将s1排在前面；
-# **046.***把数字翻译成字符串**
+# **046.把数字翻译成字符串**
 ![image.png](https://oss1.aistar.cool/elog-offer-now/9caae5356d281626432c71bfdac8778c.png)
 法一、暴力DFS；（递归）
+```markdown
 int backtrace(string& str, int pos) {
         int n = str.size();
         if (pos == n) {
@@ -2760,6 +2761,8 @@ int backtrace(string& str, int pos) {
         string str = to_string(num);
         return backtrace(str, 0);
     }
+    }
+```
 法二、动态规划
 用 dp[i] 来表示前 i 个数一共有多少种翻译方法。
 **假如第 i 个数单独翻译**，那么 dp[i] = dp[i - 1]。
@@ -2767,6 +2770,7 @@ int backtrace(string& str, int pos) {
 **两个数的组合处于 [10, 25] 的区间，那么既可以组合翻译，又可以单独翻译，则 dp[i] = dp[i - 2] + dp[i - 1]。**
 **两个数的组合不在 [10, 25] 的区间，那么组合失败，还是得单独翻译，也就是与第 2 点一样。所以 dp[i] = dp[i - 1]。**
 **综上所述，当两个数的组合处于 [10, 25] 的区间，dp[i] = dp[i - 2] + dp[i - 1]；当两个数的组合不在 [10, 25] 的区间，dp[i] = dp[i - 1]。（状态转移方程）**
+```markdown
 int translateNum(int num) {
         if(num < 10) {return 1;}
 
@@ -2787,6 +2791,7 @@ int translateNum(int num) {
 
         return dp[len];
     }
+```
 法三、从右到左（自下而上）来进行翻译，简短的思路：
 1.每次取最后两位数,rem = num % 100
 2.若rem > 25,则无法表示,即rem的个位和十位无法合一起，则用translateNum(num/10),表示前进一位
@@ -2794,9 +2799,10 @@ int translateNum(int num) {
 如num = 506,其只有一种表示为fag,不可表示为fg，所以0是无法和6组合一起成为06
 4.若在10 <= rem <= 25,则可以分出两种表示方法,所以用translateNum(num/10) + translateNum(num/100)递归来计算数量
 5.所以总结一下就是：
-**if (num < 10),则加1**
-**if (num%100 < 10 || num%100 > 25) translateNum(num/10);**
-**if (10 <= num % 100 <= 25) translateNum(num/10) + translateNum(num/100);**
+```markdown
+if (num < 10),则加1
+if (num%100 < 10 || num%100 > 25) translateNum(num/10);
+if (10 <= num % 100 <= 25) translateNum(num/10) + translateNum(num/100);
 if (num < 10),则加1
 if (num%100 < 10 || num%100 > 25) translateNum(num/10);
 if (10 <= num % 100 <= 25) translateNum(num/10) + translateNum(num/100);
@@ -2808,6 +2814,7 @@ public:
         return (num%100 < 10 || num%100 > 25) ?           translateNum(num/10) : translateNum(num/10) + translateNum(num/100);
     }
 };
+```
 # **047.礼物的最大价值**
 ![image.png](https://oss1.aistar.cool/elog-offer-now/2e82ef2afab25db6e1ab58f7b9d16a05.png)
 典型的动态规划，开始**设想dp[i]表示i步能获取的最大值**，但是这样根本分析不下去。
@@ -2815,7 +2822,8 @@ public:
 **dp**[i](https://www.yuque.com/qingyubailou/rvdeqg/fglaog#)**=max(dp**[i-1](https://www.yuque.com/qingyubailou/rvdeqg/fglaog#)**+dp**[i](https://www.yuque.com/qingyubailou/rvdeqg/fglaog#)**)+gift**[i](https://www.yuque.com/qingyubailou/rvdeqg/fglaog#)**;**
 ps：注意礼物的边界条件，如果到达最下或最右，那就只能向右或向下，因此需要设置判断条件。（也可以通过多开一列的空间来进行）
 代码已手撸:
- int maxValue(vector<vector<int>>& grid) {
+```markdown
+int maxValue(vector<vector<int>>& grid) {
         if(grid.size()<1)
             return -1;
         vector<vector<int>>dp(grid.size(),vector<int>(grid[0].size()));
@@ -2840,8 +2848,10 @@ ps：注意礼物的边界条件，如果到达最下或最右，那就只能向
         }
         }
         return dp[h-1][w-1];
-    } 
+    }
+```
 还可以将二维表给压缩一下，因为**只跟上两步的结果有关**，保存一下即可，**还可以原地dp直接修改grid（即将结果设置进grid）**）。
+```markdown
 int maxValue(vector<vector<int>>& grid) {
         int m = grid.size(), n = grid[0].size();
         vector<int> dp(n+1,0);
@@ -2851,9 +2861,11 @@ int maxValue(vector<vector<int>>& grid) {
         //等号右边的dp[j-1]是当前行左边的值,dp[j]是当前列上一行的值，等号左边的dp[j]是当前要更新的值
         return dp[n];
 }
+```
 # **048.最长不含重复字符的子字符串**
 ![image.png](https://oss1.aistar.cool/elog-offer-now/eba515e9c1c970f4c4e221e084f0bf31.png)
 **滑动窗口（双指针）**，**维持一个数组记录出现的次数**，**遇到重复字母则更新一下最大长度**。
+```markdown
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -2868,10 +2880,12 @@ public:
         return len;
     }
 };
+```
 # **049.丑数**
 ![image.png](https://oss1.aistar.cool/elog-offer-now/19072fb374a7dc57f10b31b5b9648d68.png)
 法一、遍历判断是否只有2 3 5的因子；时间效率不是很高；
-    int nthUglyNumber(int n) {
+```markdown
+int nthUglyNumber(int n) {
         if (n <= 6) {return n;}
 
         int count = 6, i = 7;
@@ -2896,7 +2910,9 @@ public:
 
         return (num == 1);
     }
+```
 法二、利用空间换时间，**后面一个丑数肯定是前一个丑数乘以2或3或5**，因此需要记录一下该因子使用过的次数（也可以直接使用优先队列或是大堆来进行）；
+```markdown
 int nthUglyNumber(int n) {
         int two=0;
         int three =0;
@@ -2919,9 +2935,11 @@ int nthUglyNumber(int n) {
         }
         return storeugly[n-1];
     }
+```
 # **050.第一个只出现一次的字符**
 ![image.png](https://oss1.aistar.cool/elog-offer-now/34cd817e0110ab59f2a194c2e51a7be7.png)
 法一、hash表（或数组[26]）记录一下出现的次数即可；
+```markdown
 class Solution {
 public:
     char firstUniqChar(string s) {
@@ -2935,6 +2953,7 @@ public:
         return ' ';
     }
 };
+```
 ![image.png](https://oss1.aistar.cool/elog-offer-now/e782a03d697dfcb2dd4cf314fde5290b.png)
 相比于题目一，**这个问题需要考虑后续增加的字符造成之前的字符被覆盖。**
 ![image.png](https://oss1.aistar.cool/elog-offer-now/d19c332c5b64a454dd6a4bfe13f48534.png)
@@ -3131,7 +3150,7 @@ public:
         return mid;
     }
 };
-# **054.****二叉搜索树的第K大节点**
+# **054.**二叉搜索树的第K大节点
 	![image.png](https://oss1.aistar.cool/elog-offer-now/14c125968f01f723c2e461aa3c71e599.png)
 	法一，二叉搜索树，**中序遍历就是一个从小到大的排序数组**。找第K大，那就先遍历再输出对应位置的数字即可。
  //正解：要想找第n大，只能先将二叉树变成一个数组，从中提取出想要的数
@@ -3184,7 +3203,7 @@ public:
         return n;
     }
 };
-# **055.****二叉树的深度**
+# **055.**二叉树的深度
 ![image.png](https://oss1.aistar.cool/elog-offer-now/3f71116d1c391a2a248f85f65768602d.png)
 法一、二叉树的深度其实就是**左右子树的最大深度****+1**，那么这就变成了一个简单的递归问题（DFS）。
 class Solution {
@@ -3240,7 +3259,7 @@ bool isBalanced(TreeNode* root,int &pDepth) {
         }
         return false;
     }
-# **056.****数组中出现两次**
+# **056.**数组中出现两次
 	![image.png](https://oss1.aistar.cool/elog-offer-now/e4475a0a61c6f7b8511fd38ec356d2fb.png)
 	法一、暴力求解；
 法二、异或求解。
@@ -3287,29 +3306,31 @@ public:
         return res;
     }
 };
-# **057.****和为s的数字**
+# **057.**和为?的数字(两数之和)
 ![image.png](https://oss1.aistar.cool/elog-offer-now/b1cd0120a32192443d98fe8195713bc4.png)
-	一开始通过s=a+b，想到a=s-b，所以直接遍历数组寻找是否存在对应的值即可，但是时间复杂度贼高，n平方。**不过基于这种想法可以利用双指针，提高搜索速度。（加上这个数组是排序的，根据和的****target的大小关系可以更轻松地确定指针前进的方向）**
+	一开始通过s=a+b，想到a=s-b，所以直接遍历数组寻找是否存在对应的值即可，但是时间复杂度贼高，n平方。**不过基于这种想法可以利用双指针，提高搜索速度。（加上这个数组是排序的，根据和的**target的大小关系可以更轻松地确定指针前进的方向）**
+```markdown
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        if (nums.size() == 1) {
-            return {};
-        }
-        int i = 0, j = nums.size() - 1;
-        while (i < j) {
-            if (nums[i] + nums[j] == target) {
-                return {nums[i], nums[j]};
-            }
-            else if (nums[i] + nums[j] < target) {
-                ++ i;
-            }
-            else {
-                -- j;
-            }
-        }
-        return {};
+    vector<int> twoSum(vector<int>& nums, int target) {
+        if (nums.size() == 1) {
+            return {};
+        }
+        int i = 0, j = nums.size() - 1;
+        while (i < j) {
+            if (nums[i] + nums[j] == target) {
+                return {nums[i], nums[j]};
+            }
+            else if (nums[i] + nums[j] < target) {
+                ++ i;
+            }
+            else {
+                -- j;
+            }
+        }
+        return {};
 }
+```
 	![image.png](https://oss1.aistar.cool/elog-offer-now/e93ec1bcc87e334ab9b0050845996cf1.png)
 	如果问到这个题当场暴毙啊······
 	借鉴上一个问题（虽然没有说数组是排序递增的，但是连续序列就隐含了是一个递增的数组）同样利用双指针，不过这里的双指针不是代表两个数字，而是代表区间的端点：
@@ -3318,35 +3339,37 @@ public:
 **那么终止条件是什么呢？**
 **当区间的长度为****1（或是最小值已经超过目标一半），则说明已经找不到其他的元素了。**
 **这种双指针确定区间的题太妙了吧！**
+```markdown
 vector<vector<int>> findContinuousSequence(int target) {
-    int i = 1; // 滑动窗口的左边界
-    int j = 1; // 滑动窗口的右边界
-    int sum = 0; // 滑动窗口中数字的和
-    vector<vector<int>> res;
-    while (i <= target / 2) {
-        if (sum < target) {
-            // 右边界向右移动,增大区间序列
-            sum += j;
-            j++;
-        } else if (sum > target) {
-            // 左边界向右移动，减小最小值
-            sum -= i;
-            i++;
-        } else {
-            // 记录结果
-            vector<int> arr;
-            for (int k = i; k < j; k++) {
-                arr.push_back(k);
-            }
-            res.push_back(arr);
-            // 左边界向右移动
-            sum -= i;
-            i++;
-        }
-    }
-    return res;
+    int i = 1; // 滑动窗口的左边界
+    int j = 1; // 滑动窗口的右边界
+    int sum = 0; // 滑动窗口中数字的和
+    vector<vector<int>> res;
+    while (i <= target / 2) {
+        if (sum < target) {
+            // 右边界向右移动,增大区间序列
+            sum += j;
+            j++;
+        } else if (sum > target) {
+            // 左边界向右移动，减小最小值
+            sum -= i;
+            i++;
+        } else {
+            // 记录结果
+            vector<int> arr;
+            for (int k = i; k < j; k++) {
+                arr.push_back(k);
+            }
+            res.push_back(arr);
+            // 左边界向右移动
+            sum -= i;
+            i++;
+        }
+    }
+    return res;
 }
-# **058.****反转字符串**
+```
+# **058.**反转字符串
 ![image.png](https://oss1.aistar.cool/elog-offer-now/1725d85948763e45ff1b9d6cc5502d3a.png)
 	**一种解法是先反转****整体字符串，而后再顺序翻转每个单词即可；**
 **PS:**
@@ -3358,112 +3381,118 @@ erase函数的原型如下：
 （1）erase(pos,n); 删除从pos开始的n个字符，比如erase(0,1)就是**删除第一个字符**
 （2）erase(position);删除**position处的一个字符**(position是个string类型的迭代器)
 （3）erase(first,last);删除**从first到last**之间的字符（**first和last都是迭代器**）
+```markdown
 class Solution {
 public:
-    string reverseWords(string s) {
-        if (s.length() == 1 && s[0] == ' ') {
-            // 特殊情况：直输入一个空格（s = " "），返回空字符串
-            return "";
-        }
-        trim(s); // 先去除 s 首尾的空格
-        reverse(s, 0, s.length() - 1); // 将整个 s 翻转
-        int i = 0, j = 0; // i 和 j 用于定位一个单词的首和尾（左闭右闭）
-        while (j < s.length()) {
-            if (s[j] != ' ') {
-                j++;
-                if (j == s.length()) {
-                    // 如果此时是最后一个单词，那么 j 此刻等于 s.length()
-                    // 为避免直接退出循环而导致最后一个单词没有被处理，于是在此手动处理
-                    reverse(s, i, j - 1);
-                    break;
-                }
-            } 
-            else { // j 当前指向空格
-                reverse(s, i, j - 1); // 翻转 [i, j - 1] 区间内的单词
-                j++; // 看当前空格后面还有没有多余的空格
-                while (j < s.length() && s[j] == ' ') {
-                    s.erase(j, 1);
-                }
-                i = j; // i 定位到下一个单词的起始处
-            }
-        }
-        return s;
-    }
-    void trim(string& str) {
-        // 去除一个字符串首尾的空格
-        if (str.empty()) {
-            return;
-        }
+    string reverseWords(string s) {
+        if (s.length() == 1 && s[0] == ' ') {
+            // 特殊情况：直输入一个空格（s = " "），返回空字符串
+            return "";
+        }
+        trim(s); // 先去除 s 首尾的空格
+        reverse(s, 0, s.length() - 1); // 将整个 s 翻转
+        int i = 0, j = 0; // i 和 j 用于定位一个单词的首和尾（左闭右闭）
+        while (j < s.length()) {
+            if (s[j] != ' ') {
+                j++;
+                if (j == s.length()) {
+                    // 如果此时是最后一个单词，那么 j 此刻等于 s.length()
+                    // 为避免直接退出循环而导致最后一个单词没有被处理，于是在此手动处理
+                    reverse(s, i, j - 1);
+                    break;
+                }
+            } 
+            else { // j 当前指向空格
+                reverse(s, i, j - 1); // 翻转 [i, j - 1] 区间内的单词
+                j++; // 看当前空格后面还有没有多余的空格
+                while (j < s.length() && s[j] == ' ') {
+                    s.erase(j, 1);
+                }
+                i = j; // i 定位到下一个单词的起始处
+            }
+        }
+        return s;
+    }
+    void trim(string& str) {
+        // 去除一个字符串首尾的空格
+        if (str.empty()) {
+            return;
+        }
 
-        str.erase(0, str.find_first_not_of(' '));
-        str.erase(str.find_last_not_of(' ') + 1);
-    }
-    void reverse(string& str, int start, int end) {
-        // 翻转一个字符串
-        if (end - start < 1 || end >= str.length()) {
-            return;
-        }
-        while (start < end) {
-            char temp = str[start];
-            str[start] = str[end];
-            str[end] = temp;
-            start++; end--;
-        }
-    }
+        str.erase(0, str.find_first_not_of(' '));
+        str.erase(str.find_last_not_of(' ') + 1);
+    }
+    void reverse(string& str, int start, int end) {
+        // 翻转一个字符串
+        if (end - start < 1 || end >= str.length()) {
+            return;
+        }
+        while (start < end) {
+            char temp = str[start];
+            str[start] = str[end];
+            str[end] = temp;
+            start++; end--;
+        }
+    }
 };
+```
 	**另一种解法****双指针，寻找空格而后利用string的子串特性将其提取出来；**
+```markdown
 class Solution {
 public:
-    string reverseWords(string s) {
-        //边界条件
-        int len = s.length();
-        if (len == 0) {
-            return "";
-        }
-        int j = len - 1;
-        string res = "";
-        while (j >= 0) {
-            if (s[j] == ' ') {
-                // 当 s[j] 是空格时，j 不断左移
-                j--;
-                continue;
-            }
-            while (j >= 0 && s[j] != ' ') {
-                // 注意 while 里必须用 && 短路求值，且 j >= 0 要放前面
-                // 不然如果 j 变成 -1，那么计算 s[j] 会发生溢出错误！
-                j--;
-            }
-            int pos = j; // 用 pos 保存 j 当前的位置
-            j++; // j 现在指向的是一个空格，需要右移一位才能指向一个单词的开头
-            //其实就是找到每个单词的开头  然后进行拷贝
-            while (s[j] != ' ' && j < len) {
-                // 向 res 中添加单词
-                res += s[j];
-                j++;
-            }
-            j = pos; // j 回到新添加的单词的最左端再往左一个空格处
-            res += ' '; // 单词添加完毕后需要加上一个空格
-        }
-        if (res[res.length() - 1] == ' ') {
-            // 删除 res 最后一位的多余空格
-            res.erase(res.length() - 1, 1);
-        }
-        return res;
-    }
+    string reverseWords(string s) {
+        //边界条件
+        int len = s.length();
+        if (len == 0) {
+            return "";
+        }
+        int j = len - 1;
+        string res = "";
+        while (j >= 0) {
+            if (s[j] == ' ') {
+                // 当 s[j] 是空格时，j 不断左移
+                j--;
+                continue;
+            }
+            while (j >= 0 && s[j] != ' ') {
+                // 注意 while 里必须用 && 短路求值，且 j >= 0 要放前面
+                // 不然如果 j 变成 -1，那么计算 s[j] 会发生溢出错误！
+                j--;
+            }
+            int pos = j; // 用 pos 保存 j 当前的位置
+            j++; // j 现在指向的是一个空格，需要右移一位才能指向一个单词的开头
+            //其实就是找到每个单词的开头  然后进行拷贝
+            while (s[j] != ' ' && j < len) {
+                // 向 res 中添加单词
+                res += s[j];
+                j++;
+            }
+            j = pos; // j 回到新添加的单词的最左端再往左一个空格处
+            res += ' '; // 单词添加完毕后需要加上一个空格
+        }
+        if (res[res.length() - 1] == ' ') {
+            // 删除 res 最后一位的多余空格
+            res.erase(res.length() - 1, 1);
+        }
+        return res;
+    }
 };
+```
 **又想到一种，每个字符串压入栈，到末尾之后出栈结合；**
 ![image.png](https://oss1.aistar.cool/elog-offer-now/0688213dbe89f5f8207418b48b89a2f1.png)
 	**这道题是上一道题的进阶版：将上题的法一应用到该题，需要旋转的部分和后续部分分为两个部分，而后先旋转所有，再分辨旋转前后两个部分，即可完成题目要求（这个需要实际遇到的时候推导一遍其特性）；**
-	**也可以利用切片的思想，将旋转部分和后续部分分别切片再倒序拼接即可，实际实现过程使用****erase和+；**
-# **059.****队列的最大值**
-	![image.png](https://oss1.aistar.cool/elog-offer-now/750b569023b06bd5b2d5ccf7bb272119.png)
-	**需要****滑几次？nums-window+1次；**
+	**也可以利用切片的思想，将旋转部分和后续部分分别切片再倒序拼接即可，实际实现过程使用**erase和+；
+# **059.**队列的最大值	![image.png](https://oss1.aistar.cool/elog-offer-now/750b569023b06bd5b2d5ccf7bb272119.png)
+	**需要**滑几次？
+        nums-window+1次；
+
 	考虑到窗口移动之后也许最大值已经出去了，所以动态维护一个数据结构，**可以获取最大值及其下标，发现可以用双端队列**：
 每次加入新值，就实行末尾淘汰；**而后判断当前最大值是否已经超限，超限就弄出去！（注意边界条件！！）**
 [https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/)
 写的最简洁：
 ![image.png](https://oss1.aistar.cool/elog-offer-now/520043e1fe2b040dd2742bc5fcc68546.png)
 ## **补充：deque双端队列的用法**
+```markdown
 deque.push_back(elem); //在容器尾部添加一个数据
 deque.push_front(elem); //在容器头部插入一个数据
 deque.pop_back(); //删除容器最后一个数据
@@ -3472,20 +3501,23 @@ deque.at(idx); //返回索引idx所指的数据，如果idx越界，抛出out_of
 deque[idx]; //返回索引idx所指的数据，如果idx越界，不抛出异常，直接出错。
 deque.front(); //返回第一个数据。
 deque.back(); //返回最后一个数据
+```
+
 ![image.png](https://oss1.aistar.cool/elog-offer-now/81cf491c793e83915b156d015ebc80f7.png)
 需要使用两个双端队列。
+```markdown
 //两个双端队列
 //一个存储原数据
 //一个存储最大值数据，每压入一个数据，可能的最大值都会变化，所以需要存储
 class MaxQueue {
 public:
-    MaxQueue() {
-    }
-    int max_value() {
+    MaxQueue() {
+    }
+    int max_value() {
         if (q2.empty()) return -1;
         return q2.front();
-    }
-    void push_back(int value) {
+    }
+    void push_back(int value) {
         // q1 push
         q1.push_back(value);
         // q2 push
@@ -3494,53 +3526,57 @@ public:
             q2.pop_back();
         }
         q2.push_back(value);
-    }
-    int pop_front() {
+    }
+    int pop_front() {
         if (q1.empty()) return -1;
         else
         {
             if (q1.front() == q2.front()) q2.pop_front();
             int popvalue = q1.front();
-            q1.pop_front();
-            return popvalue;
+            q1.pop_front();
+            return popvalue;
         }
-    }
+    }
 private:
     deque<int> q1, q2;
 };
+```
 # **060.n个骰子的点数**
 ![image.png](https://oss1.aistar.cool/elog-offer-now/f3a3d702d6fd43bf14b12417b59b2e98.png)
 法一、递归，n n-1 n-2，耗时太长了。
 法二、动态规划，**dp**[i](https://www.yuque.com/qingyubailou/rvdeqg/fglaog#)**表示投掷i个骰子时，点数为j的次数，故状态转移方程即是：**
 **dp**[i](https://www.yuque.com/qingyubailou/rvdeqg/fglaog#)** += dp**[i - 1](https://www.yuque.com/qingyubailou/rvdeqg/fglaog#)**(k属于1-6，即进行一个模拟运算)**
+```markdown
 vector<double> twoSum(int n) {
-        int dp[15][70];
-        memset(dp, 0, sizeof(dp));
-        for (int i = 1; i <= 6; i ++) {
-            dp[1][i] = 1;
-        }
-        //这个状态转移才是重点
-        for (int i = 2; i <= n; i ++) {
-            for (int j = i; j <= 6*i; j ++) {
-                for (int cur = 1; cur <= 6; cur ++) {
-                    if (j - cur <= 0) {
-                        break;
-                    }
-                    dp[i][j] += dp[i-1][j-cur];
-                }
-            }
-        }
-        //这个主要是为了算概率的
-        int all = pow(6, n);
-        vector<double> ret;
-        for (int i = n; i <= 6 * n; i ++) {
-            ret.push_back(dp[n][i] * 1.0 / all);
-        }
-        return ret;
-    }
+        int dp[15][70];
+        memset(dp, 0, sizeof(dp));
+        for (int i = 1; i <= 6; i ++) {
+            dp[1][i] = 1;
+        }
+        //这个状态转移才是重点
+        for (int i = 2; i <= n; i ++) {
+            for (int j = i; j <= 6*i; j ++) {
+                for (int cur = 1; cur <= 6; cur ++) {
+                    if (j - cur <= 0) {
+                        break;
+                    }
+                    dp[i][j] += dp[i-1][j-cur];
+                }
+            }
+        }
+        //这个主要是为了算概率的
+        int all = pow(6, n);
+        vector<double> ret;
+        for (int i = n; i <= 6 * n; i ++) {
+            ret.push_back(dp[n][i] * 1.0 / all);
+        }
+        return ret;
+    }
+```
 # **061.扑克牌中的顺子**
 ![image.png](https://oss1.aistar.cool/elog-offer-now/9a5fd6f8f15864fc122c622a1cae4611.png)
 法一、排序，**记录0的个数，从头至尾遍历，如果某一个数不等于前一个+1，就用0补上，如果0不够就报错**；
+```markdown
 class Solution {
 public:
 bool isStraight(vector<int>& nums) {
@@ -3572,7 +3608,9 @@ bool isStraight(vector<int>& nums) {
         return true;
     }
 };
+```
 法二、换一种思路，判断条件是最大牌-最小牌（去除0，且非重复）<5，**即说明可以排序**；（且无重复的非0元素）
+```markdown
 class Solution {
 public:
     bool isStraight(vector<int>& nums) {
@@ -3593,6 +3631,7 @@ public:
         return maxValue - minValue + 1 <= 5;
     }
 };
+```
 # **062.圆圈中最后剩下的数字**
 ![image.png](https://oss1.aistar.cool/elog-offer-now/315007f6a3256bfdfc2dba2e7e390785.png)
 约瑟夫环问题；
@@ -3607,6 +3646,7 @@ public:
 迭代至n即可。
 **这里的 +m 可以理解为向右移动 m 位，取余是在到达尾部还需移动时，将其移到首位。**
 ![image.png](https://oss1.aistar.cool/elog-offer-now/7984a81db67f98025acb59f3a7bd9043.png)
+```markdown
 class Solution {
 public:
     int lastRemaining(int n, int m) {
@@ -3617,9 +3657,11 @@ public:
     return pos;
     }
 };
-# **F063.股票的最大利润**
+```
+# **063.股票的最大利润**
 ![image.png](https://oss1.aistar.cool/elog-offer-now/1f67acaf1927f7cfce355efecd7d6a91.png)
 法一、从后往前逆推寻找最大值,**有点像是单调栈**；（或是从前往后，记录**最小值**，那么就可得知当前卖出获利多少）
+```markdown
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -3644,8 +3686,10 @@ public:
         return tempmax;
     }
 }
+```
 法二、动态规划，状态 选择 转移；**dp**[i](https://www.yuque.com/qingyubailou/rvdeqg/fglaog#)**表示第i天持有或没持有股票时的现金数**；
 PS：可以进行压缩哈，因为只需要昨天的两个值
+```markdown
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -3669,6 +3713,8 @@ public:
     }
 
 };
+```
+
 法三、暴力遍历，n方，忽略；
 # **064.求1+2+....n**
 ![image.png](https://oss1.aistar.cool/elog-offer-now/4854a3000187bb022f69611068ec5553.png)
@@ -3680,6 +3726,7 @@ public:
 ![image.png](https://oss1.aistar.cool/elog-offer-now/28c1c889252cc97e127d819b8b944409.png)
 **由于&&的特性，最后一步时，直接返回0**；
 法五、sizeof特性,然后连加特性
+```markdown
 class Solution {
 public:
     int sumNums(int n) {
@@ -3687,36 +3734,40 @@ public:
         return sizeof(a)>>1;
     }
 };
+```
 # **065.不用加减乘除做加法**
 ![image.png](https://oss1.aistar.cool/elog-offer-now/58e794ff64ddf21286c4895bde942fde.png)
 **无进位和** 与 **异或运算**规律相同。
+```markdown
 //只能用位运算咯
 class Solution {
 public:
-    int add(int a, int b) {
-        if (a == 0 || b == 0) {
-            return a == 0 ? b : a;
-        }
-        int sum = 0, carry = 0;
-        while (b != 0) { // 当没有进位的时候退出循环
-            sum = a ^ b; //异或代表不带进位的加法
-            //主要看书是否有进位
-            carry = (unsigned int) (a & b) << 1; 
-            // C++ 不允许负数进行左移操作，故要加 unsigned int
-            //将进位取出来即可
-            a = sum;
-            b = carry;
-        }
+    int add(int a, int b) {
+        if (a == 0 || b == 0) {
+            return a == 0 ? b : a;
+        }
+        int sum = 0, carry = 0;
+        while (b != 0) { // 当没有进位的时候退出循环
+            sum = a ^ b; //异或代表不带进位的加法
+            //主要看书是否有进位
+            carry = (unsigned int) (a & b) << 1; 
+            // C++ 不允许负数进行左移操作，故要加 unsigned int
+            //将进位取出来即可
+            a = sum;
+            b = carry;
+        }
 
-        return a;
-    }
+        return a;
+    }
 };
+```
 ## **如何利用位运算实现交换两个数的值呢？**
 比如**已知a，b，实现a b值**的转换。
 ![image.png](https://oss1.aistar.cool/elog-offer-now/776149800ce57da7c5520be236c84a4c.png)
-# ****066.构建乘积数组**
+# **066.构建乘积数组**
 ![image.png](https://oss1.aistar.cool/elog-offer-now/b2790dcbdc4bed58843b8ae3fab8953a.png)
 法一、**定义一个输出数组，先记录左边的乘积**，再从右向左遍历，**逐个乘以右边的乘积**，最后返回输出数组
+```markdown
 class Solution {
 public:
     vector<int> constructArr(vector<int>& a) {
@@ -3734,9 +3785,11 @@ public:
         return B;
     }
 };
+```
 # **067.字符串转换为整数**
 这道题的难点在于考虑所有的特殊条件，这在面试的时候需要跟面试官积极交流，**看看他的需求是什么！**
 答：看剑指offer上的解答；
+```markdown
 int strToInt(string str) {
         int i = 0, flag = 1;
         int res = 0; //默认flag = 1，正数
@@ -3752,10 +3805,12 @@ int strToInt(string str) {
         } 
         return flag * res;
     }
+```
 # **068.树中两个节点的最近公共祖先**
 ### **题目一、二叉搜索树的最近公共祖先**
 二叉搜索树的性质，除了有中序遍历是升序之外，还有就是它满足二分搜索，如果我们将root到两个节点的路径保存到容器中，一一比对，就可以找到**最近的公共祖先（找到相同之后，第一个不同）**。
 PS：对于这个容器，hash表最快，vector也是可以的。
+```markdown
 class Solution {
 public:
     vector<TreeNode*> getPath(TreeNode* root, TreeNode* target) {
@@ -3790,135 +3845,144 @@ public:
         return ancestor;
     }
 };
+```
 ### **题目二、二叉树的最近公共祖先**
 普通的二叉树没有办法快速地找到父节点至其的路径，这道题有两种思路，一种是基于DFS（类前序遍历，找到结果就回去）；另一种是基于递归的后序遍历。
 递归法：解释，主要是对左右子树进行pq的寻找，详解如下：
+```markdown
 class Solution {
 public:
-    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        if (!root || !p || !q || p == root || q == root) {
-            return root;
-        }
-        TreeNode* leftTree = lowestCommonAncestor(root -> left, p, q);
-        TreeNode* rightTree = lowestCommonAncestor(root -> right, p, q);
-        if (!leftTree && !rightTree) {
-            return nullptr; // 左边没找到右边也没找到
-        } else if (leftTree && rightTree) {
-            return root; // 左边找到了右边也找到了
-        } else if (!leftTree && rightTree) {
-            return rightTree; // 左边没找到右边找到了
-        } else {
-            return leftTree; // 左边找到了右边没找到
-        }
-    }
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if (!root || !p || !q || p == root || q == root) {
+            return root;
+        }
+        TreeNode* leftTree = lowestCommonAncestor(root -> left, p, q);
+        TreeNode* rightTree = lowestCommonAncestor(root -> right, p, q);
+        if (!leftTree && !rightTree) {
+            return nullptr; // 左边没找到右边也没找到
+        } else if (leftTree && rightTree) {
+            return root; // 左边找到了右边也找到了
+        } else if (!leftTree && rightTree) {
+            return rightTree; // 左边没找到右边找到了
+        } else {
+            return leftTree; // 左边找到了右边没找到
+        }
+    }
 };
+```
 这个是进阶版本的代码：
+```markdown
 class Solution {
 public:
-    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        if(root == NULL)return NULL;        
-        if(root == p||root == q)return root;
-        TreeNode* left = lowestCommonAncestor(root->left, p, q);
-        TreeNode* right = lowestCommonAncestor(root->right, p, q);
-        if(left && right)return root;
-        return left ? left : right; // 只有一个非空则返回该指针，两个都为空则返回空指针(这逻辑无敌了！！)
-    }
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if(root == NULL)return NULL;        
+        if(root == p||root == q)return root;
+        TreeNode* left = lowestCommonAncestor(root->left, p, q);
+        TreeNode* right = lowestCommonAncestor(root->right, p, q);
+        if(left && right)return root;
+        return left ? left : right; // 只有一个非空则返回该指针，两个都为空则返回空指针(这逻辑无敌了！！)
+    }
 };
+```
 另一种则是类前序，代码过于复杂，不建议：
+```markdown
 class Solution {
 public:
-    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        if (!root || !p || !q || p ==root || q == root) {
-            return root;
-        }
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if (!root || !p || !q || p ==root || q == root) {
+            return root;
+        }
 
-        vector<TreeNode*> pPath;
-        vector<TreeNode*> qPath;
+        vector<TreeNode*> pPath;
+        vector<TreeNode*> qPath;
 
-        getNodePath(root, p, pPath); // 找到从 root 到 p 的路径
-        getNodePath(root, q, qPath); // 找到从 root 到 q 的路径
+        getNodePath(root, p, pPath); // 找到从 root 到 p 的路径
+        getNodePath(root, q, qPath); // 找到从 root 到 q 的路径
 
-        return getlowestCommonAncestor(pPath, qPath); // 返回两条路径上最后一个相同的节点
-    }
+        return getlowestCommonAncestor(pPath, qPath); // 返回两条路径上最后一个相同的节点
+    }
 
-    void getNodePath(TreeNode* root, TreeNode* node, vector<TreeNode*>& path) { // 注意传引用
-        if (!root || !node) {
-            return;
-        }
+    void getNodePath(TreeNode* root, TreeNode* node, vector<TreeNode*>& path) { // 注意传引用
+        if (!root || !node) {
+            return;
+        }
 
-        TreeNode* temp = root, *prev = nullptr;
-        deque<TreeNode*> store;
+        TreeNode* temp = root, *prev = nullptr;
+        deque<TreeNode*> store;
 
-        while (temp || !store.empty()) {
-            while (temp) {
-                store.push_back(temp);
+        while (temp || !store.empty()) {
+            while (temp) {
+                store.push_back(temp);
 
-                if (temp == node) { // 中
-                    while (!store.empty()) {
-                        // 如果 root 匹配到了 node，填充 path 并退出函数
-                        TreeNode* t = store.front();
-                        path.push_back(t);
-                        store.pop_front();
-                    }
-                    return;
-                }
+                if (temp == node) { // 中
+                    while (!store.empty()) {
+                        // 如果 root 匹配到了 node，填充 path 并退出函数
+                        TreeNode* t = store.front();
+                        path.push_back(t);
+                        store.pop_front();
+                    }
+                    return;
+                }
 
-                temp = temp -> left; // 左
-            }
+                temp = temp -> left; // 左
+            }
 
-            temp = store.back();
+            temp = store.back();
 
-            if (!temp -> right || temp -> right == prev) {
-                // 如果 temp 没有右子节点，或者我们之前已经访问过其右子节点了
-                store.pop_back();
-                prev = temp;
-                temp = nullptr; // 这样就可以不进入上面那个 "while (temp)" 的子循环了
-            } else {
-                temp = temp -> right; // 右
-            }
-        }
-    }
+            if (!temp -> right || temp -> right == prev) {
+                // 如果 temp 没有右子节点，或者我们之前已经访问过其右子节点了
+                store.pop_back();
+                prev = temp;
+                temp = nullptr; // 这样就可以不进入上面那个 "while (temp)" 的子循环了
+            } else {
+                temp = temp -> right; // 右
+            }
+        }
+    }
 
-    TreeNode* getlowestCommonAncestor(vector<TreeNode*>& path1, vector<TreeNode*>& path2) { // 注意传引用
-        if (path1.empty() || path2.empty()) {
-            return nullptr;
-        }
+    TreeNode* getlowestCommonAncestor(vector<TreeNode*>& path1, vector<TreeNode*>& path2) { // 注意传引用
+        if (path1.empty() || path2.empty()) {
+            return nullptr;
+        }
 
-        int size = min(path1.size(), path2.size());
-        int i = 0;
+        int size = min(path1.size(), path2.size());
+        int i = 0;
 
-        for (; i < size; ++i) {
-            if (path1[i] == path2[i]) {
-                continue;
-            } else {
-                break; // 两条路径上的节点第一次不相同时，退出
-            }
-        }
-        return path1[i - 1]; // 返回两条路径上最后一次相同的节点
-    }
+        for (; i < size; ++i) {
+            if (path1[i] == path2[i]) {
+                continue;
+            } else {
+                break; // 两条路径上的节点第一次不相同时，退出
+            }
+        }
+        return path1[i - 1]; // 返回两条路径上最后一次相同的节点
+    }
 };
+```
 # **二叉树中和为某一值的路径**
 这个路径，指的是从根到叶子节点。
 利用前序遍历即是路径可解。(其实就是回溯法)
+```markdown
 class Solution {
 private:
-    vector<vector<int> > res;
-    vector<int> temp;
+    vector<vector<int> > res;
+    vector<int> temp;
 public:
-    vector<vector<int>> pathSum(TreeNode* root, int sum) {
-        if(!root) return {};
-        recursion(root, sum);
-        return res;
-    }
-    void recursion(TreeNode *root, int sum)
-    {
-        if(!root) return;
-        temp.push_back(root -> val);
-        sum -= root -> val;
-        if(sum == 0 && !root -> left && !root -> right)
-            res.push_back(temp);
-        recursion(root -> left, sum); // 左
-        recursion(root -> right, sum); // 右
-        temp.pop_back(); // 函数退出之前先弹出当前节点
-    }
+    vector<vector<int>> pathSum(TreeNode* root, int sum) {
+        if(!root) return {};
+        recursion(root, sum);
+        return res;
+    }
+    void recursion(TreeNode *root, int sum)
+    {
+        if(!root) return;
+        temp.push_back(root -> val);
+        sum -= root -> val;
+        if(sum == 0 && !root -> left && !root -> right)
+            res.push_back(temp);
+        recursion(root -> left, sum); // 左
+        recursion(root -> right, sum); // 右
+        temp.pop_back(); // 函数退出之前先弹出当前节点
+    }
 };
+```

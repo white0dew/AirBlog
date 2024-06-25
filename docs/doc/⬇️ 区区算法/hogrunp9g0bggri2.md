@@ -2,7 +2,7 @@
 title: "\U0001F5E1 剑指OFFER精讲"
 urlname: hogrunp9g0bggri2
 date: '2024-05-28 16:50:31'
-updated: '2024-06-24 12:30:19'
+updated: '2024-06-25 21:58:55'
 cover: 'https://cdn.nlark.com/yuque/0/2021/png/22382235/1629211889249-6820e8c8-0e98-4006-89f7-1eeb48220c00.png'
 description: '001.赋值运算符函数有一个类声明如下，请重载其赋值运算符：class CMyString { public:     CMyString(char *p = nullptr);     CMyString(const CMyString& str);     ~CMyString(); pr...'
 ---
@@ -1015,7 +1015,10 @@ public:
 ## **补充：动态规划**
 ![image.png](https://oss1.aistar.cool/elog-offer-now/93964339e2cb4ef25560bad539bd8c4b.png)
 ![image.png](https://oss1.aistar.cool/elog-offer-now/d8dc912977fb9a75e3c67731a0a6054b.png)
-# **014.**剪绳子![image.png](https://oss1.aistar.cool/elog-offer-now/0ebd9f5cec5216c36abf72d0bd25a345.png)
+
+# 014.剪绳子
+
+![image.png](https://oss1.aistar.cool/elog-offer-now/0ebd9f5cec5216c36abf72d0bd25a345.png)
 动态规划：O（n）的时间和空间消耗；
 	设f(i)为长度为i时，最大乘积，因此动态规划的公式就为：
 	**f(k)=max（f（i）*f(k-i)）**
@@ -1071,7 +1074,8 @@ public:
     }
 };
 ```
-# **015.**二进制中1的个数
+# 015.二进制中1的个数
+
 ![image.png](https://oss1.aistar.cool/elog-offer-now/52196630fa776363aee9265f2c168b37.png)
 利用**循环移位或者**%取余来进行移动；
 ```
@@ -1112,7 +1116,7 @@ int hammingWeight(uint32_t n) {
 **广度优先搜索的缺点**：在树的层次较深&子节点数较多的情况下，**消耗内存十分严重**。广度优先搜索**适用于节点的子节点数量不多，并且树的层次不会太深的情况。**
 那么**深度优先**就可以克服这个缺点，因为每次搜的过程，每一层只需维护一个节点。但回过头想想，**广度优先能够找到最短路径**，那深度优先能否找到呢？深度优先的方法是一条路走到黑，那显然无法知道这条路是不是最短的，**所以你还得继续走别的路去判断是否是最短路？**
 深度优先搜索的缺点**：难以寻找最优解，仅仅只能寻找有解。其优点就是内存消耗小，克服了刚刚说的广度优先搜索的缺点。**
-# **016.**数值的整数次方
+# 016.数值的整数次方
 ![image.png](https://oss1.aistar.cool/elog-offer-now/4150fb6f8d1fcd233cfc59b881cffb8f.png)
 	难点就在于**底和幂如果小于****1（0或者负数）会怎样呢？**
 	也就是说在**计算的时候需要多判断一下**，另外似乎这个运算是不计较分数次幂的，因为幂是int型。（这道题的难点是考虑全面）
@@ -1143,13 +1147,14 @@ double myPow(double x, int n) {
 		}
 		 return re;
 	  }
-# **017.**打印从1到最大的n位数
+# 017.打印从1到最大的n位数
 ![image.png](https://oss1.aistar.cool/elog-offer-now/e9183e4405b4c2c4695c56308ed0f95e.png)
 	**这种题一定得思考大数问题，而一旦涉及大数问题基本就是用字符串来表示数字。（这种数字打印的题必考）**。
 	主体代码如下：
 ![image.png](https://oss1.aistar.cool/elog-offer-now/e002d6538ab6849c49cdcb8b28d73421.png)
 	难点就在于如何判断**有没有进位**，以及如何按照**日常阅读习惯打印出最后的数据**（**遇到第一个非****0的字符才开始打印**）。
 也就是分为三个部分，**主函数，字符串相加函数，省0操作**（直到找到第一个非0的数字）。
+```
 class Solution {
 public:
     vector<int> output;
@@ -1206,7 +1211,9 @@ public:
         output.push_back(stoi(temp));
     }
 };
+```
 	还有一种解法，从排列来考虑：打印到n位的数据其实就是n个0到9的全排列，**于是依次遍历每一位即可**。**需要用递归**
+```
 class Solution
 {
 public:
@@ -1264,7 +1271,8 @@ public:
         }
     }
 };
-# **018.**删除链表的节点
+```
+# 018.删除链表的节点
 ![image.png](https://oss1.aistar.cool/elog-offer-now/156e2e12408b0c372c7928f8ccacafb8.png)
 ![image.png](https://oss1.aistar.cool/elog-offer-now/647d2a0d3fcb25a5a91f3e26ebb2aadf.png)
 	也就是用next节点的下一个节点的信息覆盖next，而后删除next的下一个节点，那么就相当于**删掉了****next原节点**。
@@ -1369,7 +1377,7 @@ public:
         return head;
     }
 };
-# **019.**正则表达式匹配
+# 019.正则表达式匹配
 ![image.png](https://oss1.aistar.cool/elog-offer-now/da0d5a3de420522670838d8ab2ff06ba.png)
 	正则表达式是一种非常重要的题型。详细分析一下：
 	如果模式中的字符ch是‘.’，**可匹配任何一个字符**；
@@ -1443,7 +1451,7 @@ public:
             //或者return (*s == *p || (*p == '.' && *s != '\0')) && match(s + 1, p) || match(s, p + 2);
     }
 };
-# **020.**表示数值的字符串
+# 020.表示数值的字符串
 ![image.png](https://oss1.aistar.cool/elog-offer-now/cca964775302419365bc3584ff7aecaa.png)
 	这道题跟019类似，都是属于“模板匹配”类题型，只不过约束条件不一样。**关键就在于分析清楚到底有哪些可能的出现形式以及逻辑判断**，在面试的时候跟面试官讨论。
 ![image.png](https://oss1.aistar.cool/elog-offer-now/2742e62e59d5ab9147596671b6638708.png)
@@ -1483,7 +1491,7 @@ public:
         return hasNum && index==n;
     }
 };
-# **021.**使奇数位于偶数前面（参考第二种题解）
+# 021.使奇数位于偶数前面（参考第二种题解）
 ![image.png](https://oss1.aistar.cool/elog-offer-now/3743239d254d4cdd5ab3441bc024eeb9.png)
 	交换顺序的题，**很大可能是用双指针**。即利用双指针的方法进行奇数偶数的快速交换（**如果需要保持数组的相对关系，那么应该从末尾往前进行双指针遍历**）
 	高阶版本，考虑可扩展性，这里所说的可扩展性是指“奇数位于偶数前面”这一限制条件可以更改成任意的数学关系。即将此题解法拓展为可复用修改的代码。
@@ -1509,7 +1517,7 @@ public:
 		return nums;
 	}
 };
-# **022.**链表中倒数第k个节点
+# 022.链表中倒数第k个节点
 ![image.png](https://oss1.aistar.cool/elog-offer-now/bd3cb57664ee65fab17ac2559eca6a3a.png)
 	最简单的方法，将链表节点依次压入栈，而后弹出想要的节点即可。
 	进阶一点呢，快慢指针，快指针先走k步，而后慢指针快指针同时前进，当快指针到达的时候，慢指针所指即是所需的节点。（但是关于快慢指针一定得注意是否会越界或者出现其他的错误信息）
@@ -1532,10 +1540,11 @@ ListNode* getKthFromEnd(ListNode* head, int k) {
         return behind;
 
     }
-# **023.**链表中环的入口节点
+# 023.链表中环的入口节点
 ![image.png](https://oss1.aistar.cool/elog-offer-now/99b1e02741b436584352a28e6ab54b42.png)
 利用快慢指针：先找到快慢指针相遇的那个点。
 先找到相遇点，**然后快指针重置为慢指针，同时走，再次相遇即是入口点；或是先看环有多少个点，而后让一个指针先走这么多点，重合处即是入口节点。(算法手册有相同的题解)**
+```markdown
 ListNode *detectCycle(ListNode *head) {
         if(head==nullptr)
             return head;
@@ -1561,6 +1570,7 @@ ListNode *detectCycle(ListNode *head) {
         }
         return fast;
     }
+```
 # **024.反转链表**
 ![image.png](https://oss1.aistar.cool/elog-offer-now/e79b8b5d2840bd03dcfa8cfafc60eb90.png)
 **这道题可参考算法手册6.6。**
@@ -1907,7 +1917,7 @@ bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
         return st.empty();
 }
 ```
-# **032.**从上到下打印二叉树
+# 032.从上到下打印二叉树
 ![image.png](https://oss1.aistar.cool/elog-offer-now/9e3322e982342e87801b77a157719566.png)
 	关键点就是如何实现一层一层的打印节点，**用队列，压入根结点而后逐个弹出打印再压入子节点。**
 ```cpp
@@ -3150,7 +3160,7 @@ public:
         return mid;
     }
 };
-# **054.**二叉搜索树的第K大节点
+# 054.二叉搜索树的第K大节点
 	![image.png](https://oss1.aistar.cool/elog-offer-now/14c125968f01f723c2e461aa3c71e599.png)
 	法一，二叉搜索树，**中序遍历就是一个从小到大的排序数组**。找第K大，那就先遍历再输出对应位置的数字即可。
  //正解：要想找第n大，只能先将二叉树变成一个数组，从中提取出想要的数
@@ -3203,7 +3213,7 @@ public:
         return n;
     }
 };
-# **055.**二叉树的深度
+# 055.二叉树的深度
 ![image.png](https://oss1.aistar.cool/elog-offer-now/3f71116d1c391a2a248f85f65768602d.png)
 法一、二叉树的深度其实就是**左右子树的最大深度****+1**，那么这就变成了一个简单的递归问题（DFS）。
 class Solution {
@@ -3259,7 +3269,7 @@ bool isBalanced(TreeNode* root,int &pDepth) {
         }
         return false;
     }
-# **056.**数组中出现两次
+# 056.数组中出现两次
 	![image.png](https://oss1.aistar.cool/elog-offer-now/e4475a0a61c6f7b8511fd38ec356d2fb.png)
 	法一、暴力求解；
 法二、异或求解。
@@ -3306,7 +3316,7 @@ public:
         return res;
     }
 };
-# **057.**和为?的数字(两数之和)
+# 057.和为?的数字(两数之和)
 ![image.png](https://oss1.aistar.cool/elog-offer-now/b1cd0120a32192443d98fe8195713bc4.png)
 	一开始通过s=a+b，想到a=s-b，所以直接遍历数组寻找是否存在对应的值即可，但是时间复杂度贼高，n平方。**不过基于这种想法可以利用双指针，提高搜索速度。（加上这个数组是排序的，根据和的**target的大小关系可以更轻松地确定指针前进的方向）**
 ```markdown
@@ -3369,7 +3379,7 @@ vector<vector<int>> findContinuousSequence(int target) {
     return res;
 }
 ```
-# **058.**反转字符串
+# 058.反转字符串
 ![image.png](https://oss1.aistar.cool/elog-offer-now/1725d85948763e45ff1b9d6cc5502d3a.png)
 	**一种解法是先反转****整体字符串，而后再顺序翻转每个单词即可；**
 **PS:**
@@ -3482,7 +3492,7 @@ public:
 ![image.png](https://oss1.aistar.cool/elog-offer-now/0688213dbe89f5f8207418b48b89a2f1.png)
 	**这道题是上一道题的进阶版：将上题的法一应用到该题，需要旋转的部分和后续部分分为两个部分，而后先旋转所有，再分辨旋转前后两个部分，即可完成题目要求（这个需要实际遇到的时候推导一遍其特性）；**
 	**也可以利用切片的思想，将旋转部分和后续部分分别切片再倒序拼接即可，实际实现过程使用**erase和+；
-# **059.**队列的最大值	![image.png](https://oss1.aistar.cool/elog-offer-now/750b569023b06bd5b2d5ccf7bb272119.png)
+# 059.队列的最大值	![image.png](https://oss1.aistar.cool/elog-offer-now/750b569023b06bd5b2d5ccf7bb272119.png)
 	**需要**滑几次？
         nums-window+1次；
 

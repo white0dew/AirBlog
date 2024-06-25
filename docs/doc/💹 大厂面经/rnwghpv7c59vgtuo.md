@@ -1,8 +1,8 @@
 ---
-title: "\U0001F525开发了面经小程序"
+title: "\U0001F525开发一个面经小程序"
 urlname: rnwghpv7c59vgtuo
 date: '2024-05-14 21:15:56'
-updated: '2024-06-19 23:42:44'
+updated: '2024-06-25 21:41:31'
 cover: 'https://cdn.nlark.com/yuque/0/2024/png/22382235/1718811751273-adc0a552-fc72-43d2-bffa-8b7e683804e4.png'
 description: 大家好，我是白露。面试准备对于每一个校招、社招求职的人来说都是折磨。。。。。。吐了！为什么要考八股文？太难背了啊……到底要背什么题目啊大厂都会怎么问啊？……我和朋友开发了一个小程序，目标是：帮助一万个程序员拿到 Offer。这小程序做什么？全面的题库我们汇总了Java、C++、Go、前端、大数...
 ---
@@ -74,7 +74,8 @@ description: 大家好，我是白露。面试准备对于每一个校招、社�
 
 ![image.png](https://oss1.aistar.cool/elog-offer-now/a25aa72d0d4f84fb01e8d53e8a74a4b8.png)
 
-可以**点击下面的链接**购买/体验：
+在微信小程序中搜索“**校招八股文**”：
+![cd28169426579c7ead2269fde343d9e.jpg](https://oss1.aistar.cool/elog-offer-now/56d7a0c27c35e6c0275d7bb0809002a3.jpeg)
 
 购买成功后，小程序内“**我的**”页面将显示会员标识。
 

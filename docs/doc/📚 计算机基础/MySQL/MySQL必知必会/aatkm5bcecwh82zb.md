@@ -1,10 +1,12 @@
 ---
 title: 第3章 MySQL查询数据
 urlname: aatkm5bcecwh82zb
-date: '2024-05-24 11:33:04'
-updated: '2024-05-24 12:29:07'
+date: "2024-05-24 11:33:04"
+updated: "2024-06-26 23:36:38"
+cover: "https://cdn.nlark.com/yuque/__mermaid_v3/b3ff23ead9cd81425fe8cd9a239730e2.svg"
 description: 本章将介绍MySQL的数据查询，包括基本查询语法、条件查询、排序与分页、聚合函数与分组查询等内容。通过这些内容，你将学会如何从数据库中检索所需的数据，并理解MySQL查询的执行过程。3.1 基本查询语法3.1.1 SELECT语句SELECT语句用于从数据库中检索数据。最简单的查询语法如下：S...
 ---
+
 本章将介绍MySQL的数据查询，包括基本查询语法、条件查询、排序与分页、聚合函数与分组查询等内容。通过这些内容，你将学会如何从数据库中检索所需的数据，并理解MySQL查询的执行过程。
 
 ## 3.1 基本查询语法
@@ -207,6 +209,7 @@ EXPLAIN SELECT name, email FROM users WHERE email LIKE '%example.com';
 
 为了更好地理解MySQL查询的执行过程，我们可以使用Mermaid绘制查询执行过程的图示，并进行美化。
 
+![](https://oss1.aistar.cool/elog-offer-now/5bbea3ee59dec6e10fd71121264a4656.svg)
 
 ## 小结
 

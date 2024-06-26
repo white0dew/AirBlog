@@ -82,9 +82,9 @@ class DogeCloudUploader {
         await this.init();
       }
       // 如果后缀是svg直接跳过
-      // if (fileName.endsWith(".svg")) {
-      //   return;
-      // }
+      if (fileName.endsWith(".svg")) {
+        return;
+      }
 
       let tdata = null;
       let terr = null;

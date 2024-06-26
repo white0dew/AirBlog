@@ -2,7 +2,7 @@
 title: 第4章 MySQL高级查询
 urlname: sopmax1eeghv3smd
 date: '2024-05-24 11:40:07'
-updated: '2024-06-04 22:58:03'
+updated: '2024-06-26 23:34:21'
 cover: 'https://cdn.nlark.com/yuque/__puml/a33ebc8326fd5e0b056af13876f9b19c.svg'
 description: 本章将介绍MySQL的高级查询，包括联合查询（JOIN）、子查询和视图的使用。通过这些内容，你将学会如何进行复杂的数据查询和操作，并理解MySQL高级查询的实现原理。4.1 联合查询（JOIN）4.1.1 联合查询的概述联合查询用于从多个表中检索数据。MySQL支持多种类型的联合查询，包括内连...
 ---
@@ -120,7 +120,7 @@ MySQL在执行JOIN操作时，会根据连接条件和数据量选择不同的�
 
 为了更好地理解MySQL的JOIN操作实现原理，我们可以使用Mermaid绘制JOIN操作过程的图示，并进行美化。
 
-
+![](https://oss1.aistar.cool/elog-offer-now/783c3f60f246ce6d1e33b2c5088ed96d.svg)
 ## 4.2 子查询
 
 ### 4.2.1 子查询的概述
@@ -273,11 +273,5 @@ DROP VIEW user_orders;
 ### 视图实现过程图示
 
 为了更好地理解MySQL视图的实现原理，我们可以绘制视图实现过程的图示。
-
-
-## 小结
-
-在本章中，我们详细介绍了MySQL的高级查询，包括联合查询（JOIN）、子查询和视图的使用。我们通过示例和图示详细讲解了这些高级查询的使用方法和底层实现原理。
-
-这些高级查询操作是进行复杂数据检索和操作的基础，掌握这些内容将大大提高你的MySQL使用效率和数据处理能力。
+![](https://oss1.aistar.cool/elog-offer-now/5c23546f6bb1d452598c3c183c6bc297.svg)
 

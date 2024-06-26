@@ -2,12 +2,12 @@
 title: 第2章 MySQL基本操作
 urlname: pz0w9p1xmrhrw4vc
 date: '2024-05-24 11:31:15'
-updated: '2024-05-24 12:28:14'
+updated: '2024-06-26 23:09:47'
 cover: 'https://cdn.nlark.com/yuque/__puml/3ee2c7e3b83a484ac20acb8b2eb6770c.svg'
-description: 本章将介绍MySQL的基本操作，包括如何连接数据库、创建和删除数据库、创建和删除表，以及插入、更新和删除数据。这些操作是使用MySQL进行数据管理的基础。2.1 连接数据库2.1.1 使用MySQL命令行客户端连接数据库启动MySQL命令行客户端mysql -u root -p-u root：...
+description: 本章将介绍MySQL的基本操作，包括如何连接数据库、创建和删除数据库、创建和删除表，以及插入、更新和删除数据。这些操作是使用MySQL进行数据管理的基础。112.1 连接数据库2.1.1 使用MySQL命令行客户端连接数据库启动MySQL命令行客户端mysql -u root -p-u roo...
 ---
 本章将介绍MySQL的基本操作，包括如何连接数据库、创建和删除数据库、创建和删除表，以及插入、更新和删除数据。这些操作是使用MySQL进行数据管理的基础。
-
+11
 ## 2.1 连接数据库
 
 ### 2.1.1 使用MySQL命令行客户端连接数据库
@@ -201,6 +201,7 @@ DELETE FROM users WHERE name = 'Alice';
 为了更好地理解存储引擎的工作原理，我们可以使用Mermaid绘制存储引擎架构图示，并进行美化。
 
 ![](https://oss1.aistar.cool/elog-offer-now/45e6ffaa98d0f316c603bb17ffa59bc6.svg)
+
 ## 小结
 
 在本章中，我们详细介绍了MySQL的基本操作，包括如何连接数据库、创建和删除数据库、创建和删除表，以及如何插入、更新和删除数据。我们还讲解了MySQL的存储引擎架构，并通过Mermaid图示帮助理解其工作原理。

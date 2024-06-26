@@ -81,6 +81,10 @@ class DogeCloudUploader {
       if (!this.client) {
         await this.init();
       }
+      // 如果后缀是svg直接跳过
+      // if (fileName.endsWith(".svg")) {
+      //   return;
+      // }
 
       let tdata = null;
       let terr = null;
@@ -115,8 +119,34 @@ class DogeCloudUploader {
         Bucket: process.env.R2_BUCKET,
         Key: this.config.prefixKey + fileName,
         Body: imgBuffer,
+        // ContentType: "image/svg+xml",
         // 如果需要可以在这里设置更多的上传参数，例如 ContentType 等
       };
+      // 根据后缀类型设置对应的contentType
+      switch (fileName.split(".").pop()) {
+        case "svg":
+          params.ContentType = "image/svg+xml";
+          break;
+        case "png":
+          params.ContentType = "image/png";
+          break;
+        case "jpg":
+          params.ContentType = "image/jpeg";
+          break;
+        case "jpeg":
+          params.ContentType = "image/jpeg";
+          break;
+        case "gif":
+          params.ContentType = "image/gif";
+          break;
+        case "webp":
+          params.ContentType = "image/webp";
+          break;
+        default:
+          params.ContentType = "image/jpeg";
+          break;
+      }
+
       await this.client.putObject(params, function (err, data) {
         if (err) console.error("uploadImg", err, err.stack);
         // else console.error(data);

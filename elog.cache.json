@@ -10671,6 +10671,167 @@
       "realName": "srte6wq59tapieq4",
       "relativePath": "\\🏄 关于\\srte6wq59tapieq4.md",
       "docPath": "docs\\doc\\🏄 关于"
+    },
+    {
+      "id": 175495556,
+      "doc_id": "ck3uzv22499u4byl",
+      "updated": 1719495261000,
+      "properties": {
+        "title": "🤖人工智能",
+        "urlname": "ck3uzv22499u4byl",
+        "date": "2024-06-27 21:31:36",
+        "updated": "2024-06-27 21:34:21",
+        "description": "---is_nav: falsenav_path: aikeywords: 人工智能新闻, AI使用手册, 科技前沿, 智能化趋势, AI实用指南在这个人工智能快速发展的时代，你是否感到既兴奋又困惑？欢迎来到我们的AI探索专栏——您的智能时代导航灯塔！本专栏致力于为您提供最新、最前沿的人工智能...",
+        "is_nav": false,
+        "nav_path": "ai",
+        "keywords": "人工智能新闻, AI使用手册, 科技前沿, 智能化趋势, AI实用指南"
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "ck3uzv22499u4byl"
+        }
+      ],
+      "realName": "ck3uzv22499u4byl",
+      "relativePath": "\\🔥 程序员自我修养\\ck3uzv22499u4byl.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养"
+    },
+    {
+      "id": 175494890,
+      "doc_id": "girytbel2gdup8q4",
+      "updated": 1719494645000,
+      "properties": {
+        "title": "公众号如何实现用户抽奖功能？",
+        "urlname": "girytbel2gdup8q4",
+        "date": "2024-06-27 21:23:49",
+        "updated": "2024-06-27 21:24:05",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1709885517843-80a6a2ca-81ee-40b7-acab-6a92559b9a79.png",
+        "description": "实现背景朋友搞一个了公众号，找我帮忙开发一个功能。他最近为了提高公众号的用户粘性，需要增加一个功能，那就是用户可以点击公众【每日礼包】的按钮，实现抽奖，获得各种奖励等等。实现起来其实挺简单的，时序图如下：实现由于之前已经配置好了后台服务器的事件监听，其实这次主要做的工作就是实现抽奖功能。简单分..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "girytbel2gdup8q4"
+        },
+        {
+          "title": "个人建站 🤖",
+          "doc_id": "girytbel2gdup8q4"
+        }
+      ],
+      "realName": "girytbel2gdup8q4",
+      "relativePath": "\\🔥 程序员自我修养\\个人建站 🤖\\girytbel2gdup8q4.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\个人建站 🤖"
+    },
+    {
+      "id": 175495573,
+      "doc_id": "esc4emi9zi3qc9qq",
+      "updated": 1719495129000,
+      "properties": {
+        "title": "Coze怎么搭建一个产品机器人？",
+        "urlname": "esc4emi9zi3qc9qq",
+        "date": "2024-06-27 21:31:49",
+        "updated": "2024-06-27 21:32:09",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1707663880238-b62be63d-e6d5-4d4b-8a4c-88324546d663.png",
+        "description": "Coze简介Coze（扣子）是由字节跳动推出的一站式 AI开发平台。无论你是编程新手还是资深开发者，都能在Coze平台上轻松搭建个性化的 AI Bot，处理从简单问答到复杂对话的各类场景。更妙的是，你可以将你的Bot发布到各类社交平台和通讯软件上，使你的Bot与更广大的用户群体进行互动。Coz..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "esc4emi9zi3qc9qq"
+        },
+        {
+          "title": "🤖人工智能",
+          "doc_id": "esc4emi9zi3qc9qq"
+        }
+      ],
+      "realName": "esc4emi9zi3qc9qq",
+      "relativePath": "\\🔥 程序员自我修养\\🤖人工智能\\esc4emi9zi3qc9qq.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\🤖人工智能"
+    },
+    {
+      "id": 175494776,
+      "doc_id": "mckaizb5xg98db8b",
+      "updated": 1719494614000,
+      "properties": {
+        "title": "怎么在Redis中实现一个高效的排行榜列表？",
+        "urlname": "mckaizb5xg98db8b",
+        "date": "2024-06-27 21:23:02",
+        "updated": "2024-06-27 21:23:34",
+        "description": "为了在Redis中实现一个高效的排行榜列表缓存方案，可以使用有序集合（sorted set，即上文提到的zset）来存储产品的排行，同时使用散列（hash）来存储每个产品的相关信息。可以快速获取排名前20的产品ID，同样地，也可以迅速获取这些产品的详细信息。1. 使用有序集合(zset)存储产..."
+      },
+      "catalog": [
+        {
+          "title": "📚 计算机基础",
+          "doc_id": "mckaizb5xg98db8b"
+        },
+        {
+          "title": "Redis",
+          "doc_id": "mckaizb5xg98db8b"
+        }
+      ],
+      "realName": "mckaizb5xg98db8b",
+      "relativePath": "\\📚 计算机基础\\Redis\\mckaizb5xg98db8b.md",
+      "docPath": "docs\\doc\\📚 计算机基础\\Redis"
+    },
+    {
+      "id": 175494636,
+      "doc_id": "pnqbru7fl4glmybg",
+      "updated": 1719494531000,
+      "properties": {
+        "title": "6.25 重磅消息！2025届校招提前批火热进行中！",
+        "urlname": "pnqbru7fl4glmybg",
+        "date": "2024-06-27 21:21:55",
+        "updated": "2024-06-27 21:22:11",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22389147/1719323876299-1fe058b6-0e61-4f67-9462-5c9c8aea5f40.png",
+        "description": "大家好，我是白露呀！一个在互联网、IT行业摸爬滚打了十年的观察员！暑期实习还没结束，上一届的春招还有少部分公司仍然在招聘，而新一届的提前批就这样悄无声息的开始了！招聘这节奏，怎么比衣服换季还快！从5月起，很多企业都开始了提前批招聘工作！对于我们求职者来说，提前批也是一个绝佳的机会，能够让你提前..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "pnqbru7fl4glmybg"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "pnqbru7fl4glmybg"
+        },
+        {
+          "title": "6月",
+          "doc_id": "pnqbru7fl4glmybg"
+        }
+      ],
+      "realName": "pnqbru7fl4glmybg",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\6月\\pnqbru7fl4glmybg.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\6月"
+    },
+    {
+      "id": 175494575,
+      "doc_id": "hbgc4el12cgbb4d7",
+      "updated": 1719494510000,
+      "properties": {
+        "title": "6.26 来腾讯三周，已经对大厂祛魅了",
+        "urlname": "hbgc4el12cgbb4d7",
+        "date": "2024-06-27 21:21:30",
+        "updated": "2024-06-27 21:21:50",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1719412540958-035dc1b8-cfea-4b9d-9096-d2673039ab16.png",
+        "description": "大家好，我是白露。 一个网友跟我分享说，来腾讯三周，已经对大厂祛魅了。三周时间做的事情说多不多说少不少，由于mentor的职级已经是t10了，目前更多的是运维部署工作。这位同学就跟着师兄完成了一些部署任务，修改了6个小缺陷，还做了一个小需求（数据迁移，主要是新建一个表和编写一些基础的增删改查操..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "hbgc4el12cgbb4d7"
+        },
+        {
+          "title": "拿下面试官实战",
+          "doc_id": "hbgc4el12cgbb4d7"
+        },
+        {
+          "title": "6月",
+          "doc_id": "hbgc4el12cgbb4d7"
+        }
+      ],
+      "realName": "hbgc4el12cgbb4d7",
+      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\6月\\hbgc4el12cgbb4d7.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\6月"
     }
   ],
   "catalog": [
@@ -10681,7 +10842,7 @@
       "url": "zz7wzx74m9sgu0bb",
       "prev_uuid": "",
       "sibling_uuid": "1Yk7ZpGC1ALK7ryF",
-      "child_uuid": "Oi5FMtop6oZm1oNe",
+      "child_uuid": "kicN7hkPayXrH8jr",
       "parent_uuid": "",
       "doc_id": 171241326,
       "level": 0,
@@ -10691,10 +10852,40 @@
     },
     {
       "type": "DOC",
+      "title": "🤖人工智能",
+      "uuid": "kicN7hkPayXrH8jr",
+      "url": "ck3uzv22499u4byl",
+      "prev_uuid": "_AUtENOpDG0ZxF_E",
+      "sibling_uuid": "Oi5FMtop6oZm1oNe",
+      "child_uuid": "s4uOfrfZy1P0LTdP",
+      "parent_uuid": "_AUtENOpDG0ZxF_E",
+      "doc_id": 175495556,
+      "level": 1,
+      "id": 175495556,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Coze怎么搭建一个产品机器人？",
+      "uuid": "s4uOfrfZy1P0LTdP",
+      "url": "esc4emi9zi3qc9qq",
+      "prev_uuid": "kicN7hkPayXrH8jr",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "kicN7hkPayXrH8jr",
+      "doc_id": 175495573,
+      "level": 2,
+      "id": 175495573,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "最强前端🏷️",
       "uuid": "Oi5FMtop6oZm1oNe",
       "url": "zvhtpcf14k5ubrg3",
-      "prev_uuid": "_AUtENOpDG0ZxF_E",
+      "prev_uuid": "kicN7hkPayXrH8jr",
       "sibling_uuid": "PlrctMGesywNFpWl",
       "child_uuid": "NZEvoXBDorxjl8_J",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
@@ -10920,12 +11111,27 @@
       "uuid": "E9DihaNjFG_s9V6i",
       "url": "yruzbxv5gtss1avi",
       "prev_uuid": "7Il5VOepxYzKww1q",
-      "sibling_uuid": "",
+      "sibling_uuid": "V3bO6wS7Mk6ik7Uv",
       "child_uuid": "",
       "parent_uuid": "pzU6x4VThGDwLdrN",
       "doc_id": 173993979,
       "level": 2,
       "id": 173993979,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "公众号如何实现用户抽奖功能？",
+      "uuid": "V3bO6wS7Mk6ik7Uv",
+      "url": "girytbel2gdup8q4",
+      "prev_uuid": "E9DihaNjFG_s9V6i",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "pzU6x4VThGDwLdrN",
+      "doc_id": 175494890,
+      "level": 2,
+      "id": 175494890,
       "open_window": 1,
       "visible": 1
     },
@@ -11655,12 +11861,27 @@
       "uuid": "oUNn5zMETeBdUqFj",
       "url": "rpkbuac4rqibc4w3",
       "prev_uuid": "OJ_QMojOHNbkWRFj",
-      "sibling_uuid": "",
+      "sibling_uuid": "8AzqPpFOivqROjf-",
       "child_uuid": "",
       "parent_uuid": "JpDwlz0RW8PSAzpL",
       "doc_id": 170953587,
       "level": 2,
       "id": 170953587,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "怎么在Redis中实现一个高效的排行榜列表？",
+      "uuid": "8AzqPpFOivqROjf-",
+      "url": "mckaizb5xg98db8b",
+      "prev_uuid": "oUNn5zMETeBdUqFj",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "JpDwlz0RW8PSAzpL",
+      "doc_id": 175494776,
+      "level": 2,
+      "id": 175494776,
       "open_window": 1,
       "visible": 1
     },
@@ -16306,7 +16527,7 @@
       "url": "rufaif78psnb10tt",
       "prev_uuid": "PzcVTeQ3NXSBPXrT",
       "sibling_uuid": "",
-      "child_uuid": "vCLegJHOYnQrxUek",
+      "child_uuid": "BwOn5g7IDsdBS1qe",
       "parent_uuid": "-4qV2TE5gTaU9pS4",
       "doc_id": 173583359,
       "level": 2,
@@ -16316,10 +16537,40 @@
     },
     {
       "type": "DOC",
+      "title": "6.26 来腾讯三周，已经对大厂祛魅了",
+      "uuid": "BwOn5g7IDsdBS1qe",
+      "url": "hbgc4el12cgbb4d7",
+      "prev_uuid": "pPPzDRd6r7P6pM03",
+      "sibling_uuid": "sJ2QMRrPJJ9OWrRt",
+      "child_uuid": "",
+      "parent_uuid": "pPPzDRd6r7P6pM03",
+      "doc_id": 175494575,
+      "level": 3,
+      "id": 175494575,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "6.25 重磅消息！2025届校招提前批火热进行中！",
+      "uuid": "sJ2QMRrPJJ9OWrRt",
+      "url": "pnqbru7fl4glmybg",
+      "prev_uuid": "BwOn5g7IDsdBS1qe",
+      "sibling_uuid": "vCLegJHOYnQrxUek",
+      "child_uuid": "",
+      "parent_uuid": "pPPzDRd6r7P6pM03",
+      "doc_id": 175494636,
+      "level": 3,
+      "id": 175494636,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "6.22 起底阿里巴巴职级薪资|2024最新版",
       "uuid": "vCLegJHOYnQrxUek",
       "url": "lzsc0ceheeez6zmp",
-      "prev_uuid": "pPPzDRd6r7P6pM03",
+      "prev_uuid": "sJ2QMRrPJJ9OWrRt",
       "sibling_uuid": "Wkw00KFIYVSHgFSt",
       "child_uuid": "",
       "parent_uuid": "pPPzDRd6r7P6pM03",

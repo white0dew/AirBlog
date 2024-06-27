@@ -2,13 +2,11 @@
 title: 4、语义分析
 urlname: tb9loaz638yp9hqh
 date: '2024-05-28 19:36:22'
-updated: '2024-06-23 20:36:42'
+updated: '2024-06-27 21:17:33'
 cover: 'https://cdn.nlark.com/yuque/__mermaid_v3/910451a895a1991e5d1b0eeb920cce06.svg'
-description: 语义分析是编译过程中第三个阶段，负责检查源代码的语义是否正确。本文详细介绍了符号表管理、类型检查、作用域解析和语义规则检查等内容，并提供了相关代码示例和性能优化策略。
+description: '---keywords: 语义分析，编译过程，符号表管理，类型检查，作用域解析---语义分析（Semantic Analysis）是编译过程中的第三个阶段。语义分析器的任务是检查源代码的语义是否正确。例如，类型检查、作用域解析等。语义分析器通常会构建和维护符号表，并进行各种语义检查，以确保程序...'
 keywords: 语义分析，编译过程，符号表管理，类型检查，作用域解析
 ---
-## 4.1 语义分析的概述
-
 语义分析（Semantic Analysis）是编译过程中的第三个阶段。语义分析器的任务是检查源代码的语义是否正确。例如，类型检查、作用域解析等。语义分析器通常会构建和维护符号表，并进行各种语义检查，以确保程序的正确性。
 
 ### 4.1.1 语义分析的功能
@@ -66,7 +64,7 @@ class SymbolTable {
 
 ### 符号表管理示意图
 
-
+![](https://oss1.aistar.cool/elog-offer-now/af468d7db73f7595df920575a318adb5.svg)
 ## 4.3 类型检查
 
 类型检查是语义分析的重要任务之一，用于确保操作数和操作符的类型兼容。类型检查可以防止类型错误，如将整数赋值给字符串变量或将浮点数作为数组索引等。
@@ -128,7 +126,7 @@ public class TypeChecker {
 
 ### 类型检查流程示意图
 
-
+![](https://oss1.aistar.cool/elog-offer-now/0b837126fe0d9000bf03276e1f45e822.svg)
 ## 4.4 作用域与命名空间
 
 作用域和命名空间用于确定符号的可见性和生存期。作用域表示符号在程序中的可见范围，命名空间用于避免符号命名冲突。
@@ -173,7 +171,7 @@ class SymbolTable:
 
 ### 作用域和命名空间管理示意图
 
-
+![](https://oss1.aistar.cool/elog-offer-now/ecfaf142456c063019143c49192a035b.svg)
 ## 4.5 语义规则的检查
 
 语义规则检查是指检查程序是否遵循语言的语义规则，如函数调用中的参数和形参匹配、数组索引的合法性等。
@@ -211,7 +209,7 @@ class SemanticChecker {
 
 ---
 
-
+![](https://oss1.aistar.cool/elog-offer-now/4c73126d777056e2207f746e5c3f4b63.svg)
 ### 示例：语义检查代码
 
 ```javascript
@@ -265,7 +263,7 @@ class SemanticChecker {
 
 在编译过程中，作用域和命名空间解析是用于确定符号定义和使用的有效范围。不同的编程语言可能有不同的作用域规则，但基本原则是相同的。
 
-
+![](https://oss1.aistar.cool/elog-offer-now/c21ab42eb12883d264de4fc45a5ad761.svg)
 ### 示例：作用域管理代码（使用 Python）
 
 ```python
@@ -302,7 +300,7 @@ class Scope:
 3. **作用域解析**：确保所有符号在正确的作用域内定义和使用。
 4. **语义规则检查**：检查程序是否遵循语言的语义规则。
 
-
+![](https://oss1.aistar.cool/elog-offer-now/4c107cd311c816593956320bf80b7338.svg)
 ### 示例：语义分析器集成代码（使用 Java）
 
 ```java
@@ -347,7 +345,7 @@ public class SemanticAnalyzer {
 - **错误报告**：在发现错误时，及时报告错误信息，帮助程序员定位问题。
 - **错误恢复**：尝试从错误中恢复，继续进行语义分析，避免因一个错误而中断整个编译过程。
 
-
+![](https://oss1.aistar.cool/elog-offer-now/81b1625e592ddb8651c8b2f5bd83708e.svg)
 ### 示例：错误处理代码（使用 JavaScript）
 
 ```javascript
@@ -416,7 +414,6 @@ class SemanticChecker {
 3. **并行处理**：在多核处理器上并行处理不同的语义检查任务，提高分析速度。
 
 ![](https://oss1.aistar.cool/elog-offer-now/cdd49bc3434b632dc5face078bf70434.svg)
-## 4.10 总结
 
 在本章中，我们详细介绍了语义分析的基本概念、符号表管理、类型检查、作用域解析及命名空间管理、语义规则检查、语义分析器的实现、错误处理以及性能优化等内容。通过结合 Mermaid 图表，我们直观地展示了语义分析器的工作原理和各个步骤的具体实现。
 

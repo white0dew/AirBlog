@@ -2,11 +2,11 @@
 title: 第12章 MySQL常用工具
 urlname: pogqdcgobu5gk60t
 date: '2024-05-24 12:21:44'
-updated: '2024-05-24 12:30:58'
-description: 本章将介绍MySQL的常用工具，包括MySQL Workbench、命令行工具以及其他一些有用的第三方工具。通过这些内容，你将学会如何高效地使用这些工具进行数据库管理和操作。12.1 MySQL Workbench12.1.1 简介MySQL Workbench是一款集成的可视化工具，用于数据...
+updated: '2024-06-27 19:37:15'
+cover: 'https://cdn.nlark.com/yuque/__mermaid_v3/d9d5503fce8c8f2def881b747762a7b3.svg'
+description: MySQL的常用工具，包括MySQL Workbench、命令行工具以及其他一些有用的第三方工具。通过这些内容，你将学会如何高效地使用这些工具进行数据库管理和操作。12.1 MySQL Workbench12.1.1 简介MySQL Workbench是一款集成的可视化工具，用于数据库设计、开...
 ---
-
-本章将介绍MySQL的常用工具，包括MySQL Workbench、命令行工具以及其他一些有用的第三方工具。通过这些内容，你将学会如何高效地使用这些工具进行数据库管理和操作。
+MySQL的常用工具，包括MySQL Workbench、命令行工具以及其他一些有用的第三方工具。通过这些内容，你将学会如何高效地使用这些工具进行数据库管理和操作。
 
 ## 12.1 MySQL Workbench
 
@@ -62,7 +62,7 @@ sudo apt-get install mysql-workbench
 
 #### MySQL Workbench图示
 
-
+![](https://oss1.aistar.cool/elog-offer-now/572ab6febe7eb487d65224affb06f1be.svg)
 ## 12.2 命令行工具
 
 ### 12.2.1 MySQL命令行客户端
@@ -199,9 +199,7 @@ DBeaver是一款免费的开源数据库管理工具，支持多种数据库，�
 
 #### 常用工具图示
 
-
-## 小结
-
+![](https://oss1.aistar.cool/elog-offer-now/30a0ad0a583be9156d517a769aa8bf83.svg)
 在本章中，我们详细介绍了MySQL的常用工具，包括MySQL Workbench、命令行工具以及其他一些有用的第三方工具。我们通过示例和图示详细讲解了这些工具的功能和使用方法。
 
 这些常用工具是高效管理和操作数据库的重要手段，掌握这些工具的使用将大大提高你的数据库管理能力。

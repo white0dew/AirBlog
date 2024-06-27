@@ -2,7 +2,8 @@
 title: 2、编译器的词法分析
 urlname: ovzvcms97euksuig
 date: '2024-05-28 17:55:59'
-updated: '2024-06-23 20:45:45'
+updated: '2024-06-27 21:08:09'
+cover: 'https://cdn.nlark.com/yuque/__mermaid_v3/149a30f8df0187dae427c8323069ca88.svg'
 description: 本章详细介绍词法分析的基本概念、正则表达式与词法规则、有限自动机、词法分析器的实现方法及常用工具、错误处理和性能优化等内容。
 keywords: '词法分析, 正则表达式, 有限自动机, 词法分析器, Lex, Flex'
 ---
@@ -41,9 +42,10 @@ keywords: '词法分析, 正则表达式, 有限自动机, 词法分析器, Lex,
 - **浮点数常量**：`[0-9]+\.[0-9]*`
 - **关键字**：如 `if`、`else`、`while` 等
 
-### Mermaid 图：词法规则示例
+### 词法分析器工作流程
+> 注: 正则表达式用于匹配不同类型的词法单元
 
-
+![](https://oss1.aistar.cool/elog-offer-now/088a5617f1deb35cebb2495ac005d50e.svg)
 ## 2.3 有限自动机
 
 有限自动机（Finite Automaton, FA）是实现词法分析器的核心模型。有限自动机包括确定性有限自动机（DFA）和非确定性有限自动机（NFA）。
@@ -61,7 +63,7 @@ DFA 是 NFA 的一种特殊形式，它没有空转移（epsilon transitions）�
 NFA 可以通过子集构造算法转换为等价的 DFA。这个过程确保了词法分析器能够高效地识别词法单元。
 ### NFA 和 DFA 示例
 
-
+![](https://oss1.aistar.cool/elog-offer-now/dee7bc12c602c3c2b4fee977ce0270ee.svg)
 ## 2.4 词法分析器的实现
 
 词法分析器可以通过手动编码或使用自动化工具生成。常见的工具包括 Lex 和 Flex。
@@ -108,7 +110,7 @@ int yywrap() {
 
 ### 词法分析器工作流程
 
-
+![](https://oss1.aistar.cool/elog-offer-now/3c18fb6a8c570ea59b96cde9c8ed4c6e.svg)
 ## 2.5 词法分析工具
 
 ### 2.5.1 Lex 和 Flex
@@ -149,7 +151,7 @@ gcc lex.yy.c -o lexer  # 编译生成词法分析器可执行文件
 
 ### 词法分析器工作流程
 
-
+![](https://oss1.aistar.cool/elog-offer-now/060529e6e4236a6244756cd43454c1fa.svg)
 ## 2.7 词法单元（Token）的结构
 
 每一个词法单元（Token）通常包含以下几个部分：
@@ -180,7 +182,7 @@ interface Token {
 
 ### oken 数据结构示意图
 
-
+![](https://oss1.aistar.cool/elog-offer-now/4b8156522a9d0f53d26092c9f33dae8e.svg)
 ## 2.8 词法分析中的错误处理
 
 在词法分析过程中，可能会遇到各种各样的错误，如未闭合的字符串、非法字符等。词法分析器需要有效地检测和报告这些错误，以便程序员可以快速定位和修复问题。
@@ -199,7 +201,7 @@ interface Token {
 
 ### 词法分析中的错误处理流程
 
-
+![](https://oss1.aistar.cool/elog-offer-now/248f2568b1bce74ee9b5d6826165fd44.svg)
 ## 2.9 词法分析器的性能优化
 
 为了提高词法分析器的性能，可以采用以下几种优化策略：
@@ -218,9 +220,7 @@ DFA 的匹配过程在时间复杂度上是线性的，可以通过将正则表�
 
 ### 词法分析器的性能优化流程
 
-
-## 2.10 总结
-
+![](https://oss1.aistar.cool/elog-offer-now/0dd99ae4fbd0a3ff11e7d6ad8d78a576.svg)
 在本章中，我们详细介绍了词法分析的基本概念、正则表达式与词法规则、有限自动机、词法分析器的实现方法及常用工具、错误处理和性能优化等内容。
 
 接下来，我们将在第三章中探讨语法分析的基本概念和实现方法，深入了解编译器的第二个重要阶段。

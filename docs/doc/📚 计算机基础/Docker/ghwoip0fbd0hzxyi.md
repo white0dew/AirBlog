@@ -2,12 +2,9 @@
 title: 第五章：Docker Compose
 urlname: ghwoip0fbd0hzxyi
 date: '2024-06-06 21:22:00'
-updated: '2024-06-06 21:22:18'
-description: Docker Compose 基础什么是 Docker ComposeDocker Compose 是用于定义和运行多容器 Docker 应用程序的一种工具。通过使用一个 YAML 文件来配置应用程序的服务，您可以使用一个单一的命令来创建和启动所有的服务。Docker Compose 解决了以...
+updated: '2024-06-27 21:03:25'
+description: Docker Compose 是用于定义和运行多容器 Docker 应用程序的一种工具。通过使用一个 YAML 文件来配置应用程序的服务，您可以使用一个单一的命令来创建和启动所有的服务。Docker Compose 解决了以下问题：多容器应用的管理：当一个应用程序需要多个容器时，手动管理这些容...
 ---
-## Docker Compose 基础
-
-### 什么是 Docker Compose
 
 Docker Compose 是用于定义和运行多容器 Docker 应用程序的一种工具。通过使用一个 YAML 文件来配置应用程序的服务，您可以使用一个单一的命令来创建和启动所有的服务。
 

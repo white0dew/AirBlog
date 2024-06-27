@@ -2,7 +2,8 @@
 title: 第七章：网络与安全
 urlname: gf2abf0roxptg3gm
 date: '2024-06-06 21:22:33'
-updated: '2024-06-06 21:22:47'
+updated: '2024-06-27 21:03:41'
+cover: 'https://cdn.nlark.com/yuque/__mermaid_v3/3ed1c1f05a2a59d1e8a9d308405b3260.svg'
 description: Docker 在网络和安全方面提供了丰富的功能，帮助开发者构建隔离且安全的应用环境。本章节将深入探讨 Docker 网络的基本概念、网络模式以及容器安全的最佳实践。1. Docker 网络1.1 Docker 网络的基本概念Docker 提供了多种网络模式以满足不同场景下的需求。理解这些网络模...
 ---
 Docker 在网络和安全方面提供了丰富的功能，帮助开发者构建隔离且安全的应用环境。本章节将深入探讨 Docker 网络的基本概念、网络模式以及容器安全的最佳实践。
@@ -13,7 +14,7 @@ Docker 在网络和安全方面提供了丰富的功能，帮助开发者构建�
 
 Docker 提供了多种网络模式以满足不同场景下的需求。理解这些网络模式以及如何管理它们，是使用 Docker 的关键。
 
-
+![](https://oss1.aistar.cool/elog-offer-now/ac9aa28e9b99f32ab87eb400501804f7.svg)
 Docker 网络模式主要包括：
 
 1. **Bridge 网络**：默认的网络模式，适用于单一主机的容器通信。

@@ -2,13 +2,11 @@
 title: 第一章：初识 Docker
 urlname: wxfb81i787twwg1d
 date: '2024-06-06 21:20:13'
-updated: '2024-06-06 21:21:12'
+updated: '2024-06-27 21:01:50'
 description: 1. Docker 简介Docker 的历史与发展Docker 是由 Solomon Hykes 于 2013 年在 Python 语言会议 PyCon 上首次推出的。它从此改变了软件开发和部署的方式，推动了容器化技术的发展。最初，Docker 是 dotCloud 公司（现称为 Docker...
 ---
 ### 1. Docker 简介
-
 #### Docker 的历史与发展
-
 Docker 是由 Solomon Hykes 于 2013 年在 Python 语言会议 PyCon 上首次推出的。它从此改变了软件开发和部署的方式，推动了容器化技术的发展。最初，Docker 是 dotCloud 公司（现称为 Docker Inc.）的一个内部项目，但由于其强大和便捷，迅速在全球开发者社区中获得了广泛关注和使用。
 
 Docker 的核心理念是“Build, Ship, Run”（构建、传输、运行）。它通过容器化技术，使得应用程序可以在任何环境中运行，无论是开发者的本地计算机、测试服务器，还是生产环境的云服务器。
@@ -198,8 +196,6 @@ Hello, World!
 通过这些基本命令，我们可以开始使用 Docker 创建和管理容器，为后续的学习和应用打下坚实的基础。
 
 ---
-
-### 总结
 
 在本章中，我们介绍了 Docker 的历史、应用场景以及为什么选择 Docker，并详细讲解了 Docker 的安装与配置过程。通过编写和运行第一个 Docker 容器，我们了解了 Docker 的基本使用方法和常用命令。
 

@@ -3,14 +3,14 @@
     {
       "id": 170917051,
       "doc_id": "pz0w9p1xmrhrw4vc",
-      "updated": 1719414587000,
+      "updated": 1719485410000,
       "properties": {
         "title": "第2章 MySQL基本操作",
         "urlname": "pz0w9p1xmrhrw4vc",
         "date": "2024-05-24 11:31:15",
-        "updated": "2024-06-26 23:09:47",
+        "updated": "2024-06-27 18:50:10",
         "cover": "https://cdn.nlark.com/yuque/__puml/3ee2c7e3b83a484ac20acb8b2eb6770c.svg",
-        "description": "本章将介绍MySQL的基本操作，包括如何连接数据库、创建和删除数据库、创建和删除表，以及插入、更新和删除数据。这些操作是使用MySQL进行数据管理的基础。112.1 连接数据库2.1.1 使用MySQL命令行客户端连接数据库启动MySQL命令行客户端mysql -u root -p-u roo..."
+        "description": "MySQL的基本操作，包括如何连接数据库、创建和删除数据库、创建和删除表，以及插入、更新和删除数据。这些操作是使用MySQL进行数据管理的基础。2.1 连接数据库2.1.1 使用MySQL命令行客户端连接数据库启动MySQL命令行客户端mysql -u root -p-u root：指定用户名..."
       },
       "catalog": [
         {
@@ -1329,12 +1329,13 @@
     {
       "id": 171448372,
       "doc_id": "ovzvcms97euksuig",
-      "updated": 1719146745000,
+      "updated": 1719493689000,
       "properties": {
         "title": "2、编译器的词法分析",
         "urlname": "ovzvcms97euksuig",
         "date": "2024-05-28 17:55:59",
-        "updated": "2024-06-23 20:45:45",
+        "updated": "2024-06-27 21:08:09",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/149a30f8df0187dae427c8323069ca88.svg",
         "description": "本章详细介绍词法分析的基本概念、正则表达式与词法规则、有限自动机、词法分析器的实现方法及常用工具、错误处理和性能优化等内容。",
         "keywords": "词法分析, 正则表达式, 有限自动机, 词法分析器, Lex, Flex"
       },
@@ -1459,14 +1460,14 @@
     {
       "id": 171457122,
       "doc_id": "tb9loaz638yp9hqh",
-      "updated": 1719146202000,
+      "updated": 1719494253000,
       "properties": {
         "title": "4、语义分析",
         "urlname": "tb9loaz638yp9hqh",
         "date": "2024-05-28 19:36:22",
-        "updated": "2024-06-23 20:36:42",
+        "updated": "2024-06-27 21:17:33",
         "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/910451a895a1991e5d1b0eeb920cce06.svg",
-        "description": "语义分析是编译过程中第三个阶段，负责检查源代码的语义是否正确。本文详细介绍了符号表管理、类型检查、作用域解析和语义规则检查等内容，并提供了相关代码示例和性能优化策略。",
+        "description": "---keywords: 语义分析，编译过程，符号表管理，类型检查，作用域解析---语义分析（Semantic Analysis）是编译过程中的第三个阶段。语义分析器的任务是检查源代码的语义是否正确。例如，类型检查、作用域解析等。语义分析器通常会构建和维护符号表，并进行各种语义检查，以确保程序...",
         "keywords": "语义分析，编译过程，符号表管理，类型检查，作用域解析"
       },
       "catalog": [
@@ -1734,12 +1735,12 @@
     {
       "id": 171454324,
       "doc_id": "oo2c6vylgrygmfaa",
-      "updated": 1718961852000,
+      "updated": 1719494327000,
       "properties": {
         "title": "3、编译语法分析",
         "urlname": "oo2c6vylgrygmfaa",
         "date": "2024-05-28 18:59:35",
-        "updated": "2024-06-21 17:24:12",
+        "updated": "2024-06-27 21:18:47",
         "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/f26cb428fabdb38140beef4650dc7a4b.svg",
         "description": "编译过程中的语法分析概念，涵盖了语法树与抽象语法树的构建、自顶向下和自底向上的语法分析方法、语法错误处理策略以及性能优化技术，是编译器设计的重要参考资料。",
         "keywords": "编译语法分析, 语法树, 抽象语法树, 自顶向下分析, 自底向上分析, 上下文无关文法"
@@ -1761,12 +1762,13 @@
     {
       "id": 171822778,
       "doc_id": "kickx6z0136dvoad",
-      "updated": 1718961783000,
+      "updated": 1719494460000,
       "properties": {
         "title": "5、中间代码生成",
         "urlname": "kickx6z0136dvoad",
         "date": "2024-05-31 11:12:29",
-        "updated": "2024-06-21 17:23:03",
+        "updated": "2024-06-27 21:21:00",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/23fc7f806cbf4db23183045953a076fc.svg",
         "description": "keywords: 中间代码生成, 编译过程, 三地址码, 四元式, 静态单赋值5.1 中间代码生成的概述中间代码生成（Intermediate Code Generation）是编译过程中的第四个阶段。中间代码是一种介于高级语言和机器语言之间的表示形式，通常是独立于具体机器的。中间代码便于优...",
         "keywords": "中间代码生成, 编译过程, 三地址码, 四元式, 静态单赋值"
       },
@@ -6350,12 +6352,12 @@
     {
       "id": 172726195,
       "doc_id": "rhsc97ze4klle0mw",
-      "updated": 1717680305000,
+      "updated": 1719493535000,
       "properties": {
         "title": "第十二章：实用技巧与资源",
         "urlname": "rhsc97ze4klle0mw",
         "date": "2024-06-06 21:24:40",
-        "updated": "2024-06-06 21:25:05",
+        "updated": "2024-06-27 21:05:35",
         "description": "在前面的章节中，我们已经详细讲解了 Docker 的各个方面，从基础概念到进阶应用，再到实战项目。这一章我们将总结一些实用技巧，推荐一些学习资源，并讨论 Docker 相关的职业发展和面试指南。这些内容将帮助你在实际工作中更好地运用 Docker，也为你的职业生涯提供方向。常用 Docker ..."
       },
       "catalog": [
@@ -6375,13 +6377,13 @@
     {
       "id": 172726134,
       "doc_id": "yz1cy1d2qb01sfwr",
-      "updated": 1717680278000,
+      "updated": 1719493525000,
       "properties": {
         "title": "第十一章：Docker 最佳实践",
         "urlname": "yz1cy1d2qb01sfwr",
         "date": "2024-06-06 21:23:41",
-        "updated": "2024-06-06 21:24:38",
-        "description": "1. 编写高效的 DockerfileDockerfile 编写规范在构建 Docker 镜像的过程中，Dockerfile 是一个非常关键的文件。它定义了镜像的构建过程和内容。为了确保 Dockerfile 的高效性，以下是一些编写规范： 分层构建：利用 Docker 的分层存储机制，每一个..."
+        "updated": "2024-06-27 21:05:25",
+        "description": "在构建 Docker 镜像的过程中，Dockerfile 是一个非常关键的文件。它定义了镜像的构建过程和内容。为了确保 Dockerfile 的高效性，以下是一些编写规范： 分层构建：利用 Docker 的分层存储机制，每一个指令（如 RUN, CMD, COPY 等）都会创建一个新的层。尽量..."
       },
       "catalog": [
         {
@@ -6400,13 +6402,13 @@
     {
       "id": 172726109,
       "doc_id": "fgd4f06xqeq9mx27",
-      "updated": 1717680221000,
+      "updated": 1719493493000,
       "properties": {
         "title": "第十章：Docker 与 Kubernetes",
         "urlname": "fgd4f06xqeq9mx27",
         "date": "2024-06-06 21:23:21",
-        "updated": "2024-06-06 21:23:41",
-        "description": "1. Kubernetes 基础1.1 什么是 KubernetesKubernetes（简称 K8s）是一个开源的容器编排平台，用于自动化部署、扩展和管理容器化应用。Kubernetes 最初由 Google 开发，现在由云原生计算基金会（CNCF）维护。Kubernetes 提供了一种将多..."
+        "updated": "2024-06-27 21:04:53",
+        "description": "Kubernetes（简称 K8s）是一个开源的容器编排平台，用于自动化部署、扩展和管理容器化应用。Kubernetes 最初由 Google 开发，现在由云原生计算基金会（CNCF）维护。Kubernetes 提供了一种将多个容器应用以集群方式管理的方式，使得应用的高可用性、扩展性和可维护性..."
       },
       "catalog": [
         {
@@ -6475,12 +6477,13 @@
     {
       "id": 172726056,
       "doc_id": "gf2abf0roxptg3gm",
-      "updated": 1717680167000,
+      "updated": 1719493421000,
       "properties": {
         "title": "第七章：网络与安全",
         "urlname": "gf2abf0roxptg3gm",
         "date": "2024-06-06 21:22:33",
-        "updated": "2024-06-06 21:22:47",
+        "updated": "2024-06-27 21:03:41",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/3ed1c1f05a2a59d1e8a9d308405b3260.svg",
         "description": "Docker 在网络和安全方面提供了丰富的功能，帮助开发者构建隔离且安全的应用环境。本章节将深入探讨 Docker 网络的基本概念、网络模式以及容器安全的最佳实践。1. Docker 网络1.1 Docker 网络的基本概念Docker 提供了多种网络模式以满足不同场景下的需求。理解这些网络模..."
       },
       "catalog": [
@@ -6525,13 +6528,13 @@
     {
       "id": 172726034,
       "doc_id": "ghwoip0fbd0hzxyi",
-      "updated": 1717680138000,
+      "updated": 1719493405000,
       "properties": {
         "title": "第五章：Docker Compose",
         "urlname": "ghwoip0fbd0hzxyi",
         "date": "2024-06-06 21:22:00",
-        "updated": "2024-06-06 21:22:18",
-        "description": "Docker Compose 基础什么是 Docker ComposeDocker Compose 是用于定义和运行多容器 Docker 应用程序的一种工具。通过使用一个 YAML 文件来配置应用程序的服务，您可以使用一个单一的命令来创建和启动所有的服务。Docker Compose 解决了以..."
+        "updated": "2024-06-27 21:03:25",
+        "description": "Docker Compose 是用于定义和运行多容器 Docker 应用程序的一种工具。通过使用一个 YAML 文件来配置应用程序的服务，您可以使用一个单一的命令来创建和启动所有的服务。Docker Compose 解决了以下问题：多容器应用的管理：当一个应用程序需要多个容器时，手动管理这些容..."
       },
       "catalog": [
         {
@@ -6575,12 +6578,12 @@
     {
       "id": 172725989,
       "doc_id": "mylthedoavc4zlah",
-      "updated": 1717680104000,
+      "updated": 1719493371000,
       "properties": {
         "title": "第三章：Docker 命令详解",
         "urlname": "mylthedoavc4zlah",
         "date": "2024-06-06 21:21:29",
-        "updated": "2024-06-06 21:21:44",
+        "updated": "2024-06-27 21:02:51",
         "description": "在这一章中，我们将深入探讨 Docker 的常用命令，帮助你掌握如何高效地管理 Docker 镜像和容器。理解这些命令将使你能够更加自如地使用 Docker 进行开发和部署。1. 镜像管理命令Docker 镜像是容器的基础，每个容器都是由镜像创建的。以下是一些常用的镜像管理命令：docker ..."
       },
       "catalog": [
@@ -6600,12 +6603,13 @@
     {
       "id": 172725967,
       "doc_id": "og4m0zpmpo6fmymk",
-      "updated": 1717680088000,
+      "updated": 1719493353000,
       "properties": {
         "title": "第二章：Docker 基础概念",
         "urlname": "og4m0zpmpo6fmymk",
         "date": "2024-06-06 21:21:13",
-        "updated": "2024-06-06 21:21:28",
+        "updated": "2024-06-27 21:02:33",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/b6d4bf09062680801c45a137f691c2c1.svg",
         "description": "Docker 的基本概念是理解和有效使用 Docker 的关键。本章将深入探讨 Docker 的基本架构、镜像和容器等核心概念。通过学习这些内容，读者将能够更好地理解 Docker 的工作原理，并为后续的高级应用打下坚实的基础。1. Docker 的基本架构Docker 的架构由多个组件组成，..."
       },
       "catalog": [
@@ -6625,12 +6629,12 @@
     {
       "id": 172725892,
       "doc_id": "wxfb81i787twwg1d",
-      "updated": 1717680072000,
+      "updated": 1719493310000,
       "properties": {
         "title": "第一章：初识 Docker",
         "urlname": "wxfb81i787twwg1d",
         "date": "2024-06-06 21:20:13",
-        "updated": "2024-06-06 21:21:12",
+        "updated": "2024-06-27 21:01:50",
         "description": "1. Docker 简介Docker 的历史与发展Docker 是由 Solomon Hykes 于 2013 年在 Python 语言会议 PyCon 上首次推出的。它从此改变了软件开发和部署的方式，推动了容器化技术的发展。最初，Docker 是 dotCloud 公司（现称为 Docker..."
       },
       "catalog": [
@@ -9559,14 +9563,14 @@
     {
       "id": 170918246,
       "doc_id": "sopmax1eeghv3smd",
-      "updated": 1719416061000,
+      "updated": 1719485496000,
       "properties": {
         "title": "第4章 MySQL高级查询",
         "urlname": "sopmax1eeghv3smd",
         "date": "2024-05-24 11:40:07",
-        "updated": "2024-06-26 23:34:21",
+        "updated": "2024-06-27 18:51:36",
         "cover": "https://cdn.nlark.com/yuque/__puml/a33ebc8326fd5e0b056af13876f9b19c.svg",
-        "description": "本章将介绍MySQL的高级查询，包括联合查询（JOIN）、子查询和视图的使用。通过这些内容，你将学会如何进行复杂的数据查询和操作，并理解MySQL高级查询的实现原理。4.1 联合查询（JOIN）4.1.1 联合查询的概述联合查询用于从多个表中检索数据。MySQL支持多种类型的联合查询，包括内连..."
+        "description": "MySQL的高级查询，包括联合查询（JOIN）、子查询和视图的使用。通过这些内容，你将学会如何进行复杂的数据查询和操作，并理解MySQL高级查询的实现原理。4.1 联合查询（JOIN）4.1.1 联合查询的概述联合查询用于从多个表中检索数据。MySQL支持多种类型的联合查询，包括内连接（INN..."
       },
       "catalog": [
         {
@@ -9589,14 +9593,14 @@
     {
       "id": 170920968,
       "doc_id": "nphgk4npeh93y635",
-      "updated": 1716524978000,
+      "updated": 1719486956000,
       "properties": {
         "title": "第6章 MySQL索引",
         "urlname": "nphgk4npeh93y635",
         "date": "2024-05-24 12:11:07",
-        "updated": "2024-05-24 12:29:38",
+        "updated": "2024-06-27 19:15:56",
         "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/c4fa3515f34e474246c3e8da81251923.svg",
-        "description": "本章将介绍MySQL的索引，包括什么是索引、如何创建和删除索引、索引的种类和使用场景。通过这些内容，你将学会如何使用索引来提高查询性能，并理解MySQL索引的实现原理。6.1 什么是索引6.1.1 索引的概述索引是一种用于加速数据检索的数据结构。通过索引，可以快速查找到表中符合条件的记录，而不..."
+        "description": "MySQL的索引，包括什么是索引、如何创建和删除索引、索引的种类和使用场景。通过这些内容，你将学会如何使用索引来提高查询性能，并理解MySQL索引的实现原理。6.1 什么是索引6.1.1 索引的概述索引是一种用于加速数据检索的数据结构。通过索引，可以快速查找到表中符合条件的记录，而不必扫描整个..."
       },
       "catalog": [
         {
@@ -9619,14 +9623,14 @@
     {
       "id": 170917326,
       "doc_id": "aatkm5bcecwh82zb",
-      "updated": 1719416198000,
+      "updated": 1719485440000,
       "properties": {
         "title": "第3章 MySQL查询数据",
         "urlname": "aatkm5bcecwh82zb",
         "date": "2024-05-24 11:33:04",
-        "updated": "2024-06-26 23:36:38",
+        "updated": "2024-06-27 18:50:40",
         "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/b3ff23ead9cd81425fe8cd9a239730e2.svg",
-        "description": "本章将介绍MySQL的数据查询，包括基本查询语法、条件查询、排序与分页、聚合函数与分组查询等内容。通过这些内容，你将学会如何从数据库中检索所需的数据，并理解MySQL查询的执行过程。3.1 基本查询语法3.1.1 SELECT语句SELECT语句用于从数据库中检索数据。最简单的查询语法如下：S..."
+        "description": "MySQL的数据查询，包括基本查询语法、条件查询、排序与分页、聚合函数与分组查询等内容。通过这些内容，你将学会如何从数据库中检索所需的数据，并理解MySQL查询的执行过程。3.1 基本查询语法3.1.1 SELECT语句SELECT语句用于从数据库中检索数据。最简单的查询语法如下：SELECT..."
       },
       "catalog": [
         {
@@ -9649,13 +9653,14 @@
     {
       "id": 170921529,
       "doc_id": "pogqdcgobu5gk60t",
-      "updated": 1716525058000,
+      "updated": 1719488235000,
       "properties": {
         "title": "第12章 MySQL常用工具",
         "urlname": "pogqdcgobu5gk60t",
         "date": "2024-05-24 12:21:44",
-        "updated": "2024-05-24 12:30:58",
-        "description": "本章将介绍MySQL的常用工具，包括MySQL Workbench、命令行工具以及其他一些有用的第三方工具。通过这些内容，你将学会如何高效地使用这些工具进行数据库管理和操作。12.1 MySQL Workbench12.1.1 简介MySQL Workbench是一款集成的可视化工具，用于数据..."
+        "updated": "2024-06-27 19:37:15",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/d9d5503fce8c8f2def881b747762a7b3.svg",
+        "description": "MySQL的常用工具，包括MySQL Workbench、命令行工具以及其他一些有用的第三方工具。通过这些内容，你将学会如何高效地使用这些工具进行数据库管理和操作。12.1 MySQL Workbench12.1.1 简介MySQL Workbench是一款集成的可视化工具，用于数据库设计、开..."
       },
       "catalog": [
         {
@@ -9678,12 +9683,12 @@
     {
       "id": 170916954,
       "doc_id": "rggr746er445f1as",
-      "updated": 1716524881000,
+      "updated": 1719485198000,
       "properties": {
         "title": "第1章 MySQL简介与安装",
         "urlname": "rggr746er445f1as",
         "date": "2024-05-24 11:30:28",
-        "updated": "2024-05-24 12:28:01",
+        "updated": "2024-06-27 18:46:38",
         "description": "本章将介绍MySQL的基本概念、特点和应用场景，并详细讲解在不同操作系统上安装和配置MySQL的方法。通过这些内容，你将了解MySQL的基本特性，并成功安装和配置MySQL数据库。1.1 什么是MySQL1.1.1 定义MySQL是一个开源的关系型数据库管理系统（RDBMS），由瑞典公司MyS..."
       },
       "catalog": [
@@ -9707,13 +9712,14 @@
     {
       "id": 170919589,
       "doc_id": "wg57uzpv5k9xaawf",
-      "updated": 1716524963000,
+      "updated": 1719486358000,
       "properties": {
         "title": "第5章 MySQL主键、外键、唯一键",
         "urlname": "wg57uzpv5k9xaawf",
         "date": "2024-05-24 11:51:49",
-        "updated": "2024-05-24 12:29:23",
-        "description": "本章将介绍MySQL的数据完整性，包括主键与外键、唯一约束与检查约束的使用。通过这些内容，你将学会如何在数据库中确保数据的准确性和一致性，并理解MySQL约束的实现机制。5.1 主键与外键5.1.1 主键（Primary Key）主键是表中一列或多列的组合，其值在表中必须唯一，并且不能为NUL..."
+        "updated": "2024-06-27 19:05:58",
+        "cover": "https://cdn.nlark.com/yuque/__puml/7a724dba78148d402dc8940a912054b2.svg",
+        "description": "MySQL的数据完整性，包括主键与外键、唯一约束与检查约束的使用。通过这些内容，你将学会如何在数据库中确保数据的准确性和一致性，并理解MySQL约束的实现机制。5.1 主键与外键5.1.1 主键（Primary Key）主键是表中一列或多列的组合，其值在表中必须唯一，并且不能为NULL。主键用..."
       },
       "catalog": [
         {
@@ -9736,13 +9742,14 @@
     {
       "id": 170921005,
       "doc_id": "nuznm9xzxtg9fn0r",
-      "updated": 1716524986000,
+      "updated": 1719487546000,
       "properties": {
         "title": "第7章 MySQL事务管理",
         "urlname": "nuznm9xzxtg9fn0r",
         "date": "2024-05-24 12:11:44",
-        "updated": "2024-05-24 12:29:46",
-        "description": "本章将介绍MySQL的事务管理，包括事务的概念、ACID特性、事务的使用以及事务的底层实现原理。通过这些内容，你将学会如何在数据库中使用事务来确保数据的一致性和完整性，并理解MySQL事务的实现机制。7.1 事务的概念7.1.1 事务的定义事务（Transaction）是一个不可分割的工作单元..."
+        "updated": "2024-06-27 19:25:46",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/e45b37cbd3abd81e343e51674e5cc364.svg",
+        "description": "MySQL的事务管理，包括事务的概念、ACID特性、事务的使用以及事务的底层实现原理。通过这些内容，你将学会如何在数据库中使用事务来确保数据的一致性和完整性，并理解MySQL事务的实现机制。7.1 事务的概念7.1.1 事务的定义事务（Transaction）是一个不可分割的工作单元，由一组S..."
       },
       "catalog": [
         {
@@ -9765,13 +9772,14 @@
     {
       "id": 170921372,
       "doc_id": "lfe65y27k6wp1p0a",
-      "updated": 1716525049000,
+      "updated": 1719488208000,
       "properties": {
         "title": "第11章 MySQL性能优化",
         "urlname": "lfe65y27k6wp1p0a",
         "date": "2024-05-24 12:18:52",
-        "updated": "2024-05-24 12:30:49",
-        "description": "本章将介绍MySQL的性能优化，包括查询优化、索引优化和数据库设计优化。通过这些内容，你将学会如何识别和解决性能瓶颈，提高数据库的运行效率，并理解MySQL查询优化器的工作原理。11.1 查询优化11.1.1 使用EXPLAIN分析查询EXPLAIN语句用于显示SQL查询的执行计划，帮助你理解..."
+        "updated": "2024-06-27 19:36:48",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/5b56005966237fc1c4813ccbba0f1fa3.svg",
+        "description": "MySQL的性能优化，包括查询优化、索引优化和数据库设计优化。通过这些内容，你将学会如何识别和解决性能瓶颈，提高数据库的运行效率，并理解MySQL查询优化器的工作原理。11.1 查询优化11.1.1 使用EXPLAIN分析查询EXPLAIN语句用于显示SQL查询的执行计划，帮助你理解查询的执行..."
       },
       "catalog": [
         {
@@ -9794,12 +9802,12 @@
     {
       "id": 170921154,
       "doc_id": "wfq73pht526qgytk",
-      "updated": 1716525032000,
+      "updated": 1719487740000,
       "properties": {
         "title": "第8章 MySQL存储引擎",
         "urlname": "wfq73pht526qgytk",
         "date": "2024-05-24 12:14:31",
-        "updated": "2024-05-24 12:30:32",
+        "updated": "2024-06-27 19:29:00",
         "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/2c8ad32b5ae3599765ae964abd3259a4.svg",
         "description": "本章将介绍MySQL的存储引擎，包括不同存储引擎的概述、特点、使用场景以及存储引擎的底层实现原理。通过这些内容，你将学会如何选择和使用最适合的存储引擎，并理解MySQL存储引擎的工作机制。8.1 存储引擎概述8.1.1 什么是存储引擎存储引擎是MySQL用于存储、处理和检索数据的模块。不同的存..."
       },
@@ -9824,14 +9832,14 @@
     {
       "id": 170921295,
       "doc_id": "wcxhvtogvg6gsxc2",
-      "updated": 1716525043000,
+      "updated": 1719488190000,
       "properties": {
         "title": "第10章 MySQL用户管理与权限",
         "urlname": "wcxhvtogvg6gsxc2",
         "date": "2024-05-24 12:17:00",
-        "updated": "2024-05-24 12:30:43",
+        "updated": "2024-06-27 19:36:30",
         "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/eb1987499e5fc06128a253439ff14a1a.svg",
-        "description": "本章将介绍MySQL的用户管理与权限系统，包括如何创建和删除用户、设置用户权限以及用户管理的最佳实践。通过这些内容，你将学会如何安全高效地管理数据库用户，并理解MySQL权限控制的实现机制。10.1 创建和删除用户10.1.1 创建用户使用CREATE USER语句创建新的数据库用户，并设置其..."
+        "description": "MySQL的用户管理与权限系统，包括如何创建和删除用户、设置用户权限以及用户管理的最佳实践。通过这些内容，你将学会如何安全高效地管理数据库用户，并理解MySQL权限控制的实现机制。10.1 创建和删除用户10.1.1 创建用户使用CREATE USER语句创建新的数据库用户，并设置其登录凭证。..."
       },
       "catalog": [
         {
@@ -9854,14 +9862,14 @@
     {
       "id": 170921209,
       "doc_id": "pigvhm70n8mbghmu",
-      "updated": 1716525037000,
+      "updated": 1719488172000,
       "properties": {
         "title": "第9章 MySQL备份与恢复",
         "urlname": "pigvhm70n8mbghmu",
         "date": "2024-05-24 12:15:29",
-        "updated": "2024-05-24 12:30:37",
+        "updated": "2024-06-27 19:36:12",
         "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/a5d90415a400e1c9623afcb4fd31e153.svg",
-        "description": "本章将介绍MySQL的备份与恢复，包括备份数据的方法、恢复数据的步骤以及逻辑备份与物理备份的区别。通过这些内容，你将学会如何确保数据的安全和可恢复性，并理解MySQL备份与恢复的实现原理。为了更好地理解MySQL备份与恢复的实现原理，我们可以绘制了图片。9.1 备份数据备份是保护数据的重要手段..."
+        "description": "MySQL的备份与恢复，包括备份数据的方法、恢复数据的步骤以及逻辑备份与物理备份的区别。通过这些内容，你将学会如何确保数据的安全和可恢复性，并理解MySQL备份与恢复的实现原理。为了更好地理解MySQL备份与恢复的实现原理，我们可以绘制了图片。9.1 备份数据备份是保护数据的重要手段，MySQ..."
       },
       "catalog": [
         {

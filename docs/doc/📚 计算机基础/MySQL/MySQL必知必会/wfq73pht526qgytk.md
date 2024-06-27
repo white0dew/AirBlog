@@ -2,7 +2,7 @@
 title: 第8章 MySQL存储引擎
 urlname: wfq73pht526qgytk
 date: '2024-05-24 12:14:31'
-updated: '2024-05-24 12:30:32'
+updated: '2024-06-27 19:29:00'
 cover: 'https://cdn.nlark.com/yuque/__mermaid_v3/2c8ad32b5ae3599765ae964abd3259a4.svg'
 description: 本章将介绍MySQL的存储引擎，包括不同存储引擎的概述、特点、使用场景以及存储引擎的底层实现原理。通过这些内容，你将学会如何选择和使用最适合的存储引擎，并理解MySQL存储引擎的工作机制。8.1 存储引擎概述8.1.1 什么是存储引擎存储引擎是MySQL用于存储、处理和检索数据的模块。不同的存...
 ---
@@ -129,10 +129,7 @@ MyISAM存储引擎使用B树作为索引结构，通过表级锁实现并发控�
 
 为了更好地理解MySQL存储引擎的架构和实现原理，我们绘制存储引擎架构的图示。
 
-![](https://oss1.aistar.cool/elog-offer-now/d16211e6c25e6a1a1971a26dc7d57a7e.svg)
-
-## 小结
-
+![](https://oss1.aistar.cool/elog-offer-now/e765f151b7d21c707d884176ecfda87a.svg)
 在本章中，我们详细介绍了MySQL的存储引擎，包括不同存储引擎的概述、特点、使用场景以及存储引擎的底层实现原理。我们通过示例和图示详细讲解了这些存储引擎的使用方法和工作机制。
 
 存储引擎是MySQL的核心组件，掌握这些内容将大大提高你的数据库管理和优化能力。

@@ -2,7 +2,8 @@
 title: 第二章：Docker 基础概念
 urlname: og4m0zpmpo6fmymk
 date: '2024-06-06 21:21:13'
-updated: '2024-06-06 21:21:28'
+updated: '2024-06-27 21:02:33'
+cover: 'https://cdn.nlark.com/yuque/__mermaid_v3/b6d4bf09062680801c45a137f691c2c1.svg'
 description: Docker 的基本概念是理解和有效使用 Docker 的关键。本章将深入探讨 Docker 的基本架构、镜像和容器等核心概念。通过学习这些内容，读者将能够更好地理解 Docker 的工作原理，并为后续的高级应用打下坚实的基础。1. Docker 的基本架构Docker 的架构由多个组件组成，...
 ---
 Docker 的基本概念是理解和有效使用 Docker 的关键。本章将深入探讨 Docker 的基本架构、镜像和容器等核心概念。通过学习这些内容，读者将能够更好地理解 Docker 的工作原理，并为后续的高级应用打下坚实的基础。
@@ -21,7 +22,7 @@ Docker 引擎是 Docker 的核心组件，它负责构建、运行和管理容�
 
 以下是 Docker 引擎的基本架构示意图：
 
-
+![](https://oss1.aistar.cool/elog-offer-now/2d8edc000cb3c3d88205523cc2b5836a.svg)
 ### Docker 镜像
 
 Docker 镜像是运行容器的模板。每个镜像包含了应用程序及其运行环境，镜像是只读的，可以通过层次结构进行扩展和管理。
@@ -42,7 +43,7 @@ Docker 镜像是构建和运行容器的基础。本节将详细介绍镜像的�
 
 Docker 镜像由多个只读层组成，每一层都基于上一层进行构建。镜像层的这种结构使得镜像的构建和传输更加高效。以下是镜像层次结构的示意图：
 
-
+![](https://oss1.aistar.cool/elog-offer-now/3c94272bb3a7584a9b99fe371839c131.svg)
 ### 获取与管理镜像
 
 Docker 提供了一系列命令用于获取和管理镜像：
@@ -106,7 +107,7 @@ Docker 容器是基于镜像创建的运行实例。本节将介绍容器的生�
 
 容器的生命周期包括创建、启动、停止、重启和删除。以下是容器生命周期的示意图：
 
-
+![](https://oss1.aistar.cool/elog-offer-now/65275171631641054ae226eb8d75d68e.svg)
 ### 启动与停止容器
 
 使用以下命令启动和停止容器：
@@ -146,5 +147,5 @@ docker run -v my-volume:/data ubuntu
 ```
  
 
-通过以上内容，读者应该已经掌握了 Docker 的基本概念和操作。接下来，我们将深入探索 Docker 的命令详解。
+接下来，我们将深入探索 Docker 的命令详解。
 

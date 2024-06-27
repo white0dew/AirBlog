@@ -2,7 +2,8 @@
 title: 5、中间代码生成
 urlname: kickx6z0136dvoad
 date: '2024-05-31 11:12:29'
-updated: '2024-06-21 17:23:03'
+updated: '2024-06-27 21:21:00'
+cover: 'https://cdn.nlark.com/yuque/__mermaid_v3/23fc7f806cbf4db23183045953a076fc.svg'
 description: 'keywords: 中间代码生成, 编译过程, 三地址码, 四元式, 静态单赋值5.1 中间代码生成的概述中间代码生成（Intermediate Code Generation）是编译过程中的第四个阶段。中间代码是一种介于高级语言和机器语言之间的表示形式，通常是独立于具体机器的。中间代码便于优...'
 keywords: '中间代码生成, 编译过程, 三地址码, 四元式, 静态单赋值'
 ---
@@ -33,7 +34,8 @@ d = t2 / e
 (/, t2, e, d)
 ```
 
-
+如图所示：
+![](https://oss1.aistar.cool/elog-offer-now/4e3ebc7a79fc6d3887249084abb3e24b.svg)
 ## 5.2 三地址码
 
 三地址码（Three-Address Code, TAC）是一种常见的中间代码表示形式，每条三地址码指令最多包含三个地址（操作数和结果）。
@@ -56,8 +58,8 @@ goto L2
 L1: t4 = g - h
 L2: x = t3 + t4
 ```
-
-
+如图所示：
+![](https://oss1.aistar.cool/elog-offer-now/6ddf7354f9ec5e2bb055af7a25d5e015.svg)
 ### 示例：三地址码生成代码（使用 TypeScript）
 
 ```typescript
@@ -161,7 +163,7 @@ d = t2 / e
 (/, t2, e, d)
 ```
 
-
+![](https://oss1.aistar.cool/elog-offer-now/657183513adae05bf466b8f466d2bde9.svg)
 ### 示例：四元式生成代码（使用 TypeScript）
 
 ```typescript
@@ -315,8 +317,6 @@ class ControlFlowCodeGenerator {
     }
 }
 ```
-
-## 5.6 总结
 
 在本章中，我们详细介绍了中间代码生成的基本概念和实现方法，包括三地址码、静态单赋值（SSA）形式、四元式以及控制流语句的中间代码生成策略。通过结合 Mermaid 图表，我们直观地展示了中间代码生成的工作原理和各个步骤的具体实现。
 

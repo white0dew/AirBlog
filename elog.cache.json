@@ -1835,12 +1835,12 @@
     {
       "id": 170598572,
       "doc_id": "pmgc87gi7d1cap66",
-      "updated": 1718961193000,
+      "updated": 1719546182000,
       "properties": {
         "title": "编译原理",
         "urlname": "pmgc87gi7d1cap66",
         "date": "2024-05-22 08:48:53",
-        "updated": "2024-06-21 17:13:13",
+        "updated": "2024-06-28 11:43:02",
         "description": "探讨编译原理，从词法分析到语法分析，再到代码优化。了解编译器设计与实现的核心内容和前沿技术，全面掌握编译器的结构与功能。",
         "is_nav": false,
         "nav_path": "compile",
@@ -10832,6 +10832,701 @@
       "realName": "hbgc4el12cgbb4d7",
       "relativePath": "\\💹 大厂面经\\拿下面试官实战\\6月\\hbgc4el12cgbb4d7.md",
       "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\6月"
+    },
+    {
+      "id": 176020939,
+      "doc_id": "np44y2r4wyo9kta6",
+      "updated": 1719832476000,
+      "properties": {
+        "title": "字节生活服务 后端一面6.28",
+        "urlname": "np44y2r4wyo9kta6",
+        "date": "2024-07-01 19:14:25",
+        "updated": "2024-07-01 19:14:36",
+        "description": "1.聊实习2.violate关键字作用3.若violate i=0, 有3个线程同时对其+1，i的值是多少；若AtomicInteger i=0, 同样的操作，i的值是多少4.网页中输入url，其过程；为什么是4次挥手，而不是3次挥手5.tcp/ip模型和OSI7层模型对应关系6.了解redi..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "np44y2r4wyo9kta6"
+        },
+        {
+          "title": "面试真题",
+          "doc_id": "np44y2r4wyo9kta6"
+        }
+      ],
+      "realName": "np44y2r4wyo9kta6",
+      "relativePath": "\\💹 大厂面经\\面试真题\\np44y2r4wyo9kta6.md",
+      "docPath": "docs\\doc\\💹 大厂面经\\面试真题"
+    },
+    {
+      "id": 175570435,
+      "doc_id": "tuwzgkad8g0tgm6g",
+      "updated": 1719548519000,
+      "properties": {
+        "title": "10、高级编译器优化技术",
+        "urlname": "tuwzgkad8g0tgm6g",
+        "date": "2024-06-28 12:00:42",
+        "updated": "2024-06-28 12:21:59",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/a41587d01f52a47bbadba94814f66901.svg",
+        "description": "keywords: 编译器优化, 循环优化, 数据流分析, 内联优化, 并行化---编译器优化是提高程序执行效率的关键因素。本章将深入探讨一系列高级编译器优化技术，这些技术能够显著提升程序的性能、减少资源消耗，并为现代硬件架构提供更好的适配。10.1 优化概述编译器优化是一个复杂的过程，涉及多...",
+        "keywords": "编译器优化, 循环优化, 数据流分析, 内联优化, 并行化"
+      },
+      "catalog": [
+        {
+          "title": "📚 计算机基础",
+          "doc_id": "tuwzgkad8g0tgm6g"
+        },
+        {
+          "title": "编译原理",
+          "doc_id": "tuwzgkad8g0tgm6g"
+        }
+      ],
+      "realName": "tuwzgkad8g0tgm6g",
+      "relativePath": "\\📚 计算机基础\\编译原理\\tuwzgkad8g0tgm6g.md",
+      "docPath": "docs\\doc\\📚 计算机基础\\编译原理"
+    },
+    {
+      "id": 175570440,
+      "doc_id": "tp9ez5znawwoshe2",
+      "updated": 1719548369000,
+      "properties": {
+        "title": "9、编译器前沿技术与未来趋势",
+        "urlname": "tp9ez5znawwoshe2",
+        "date": "2024-06-28 12:00:44",
+        "updated": "2024-06-28 12:19:29",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/4b1a042028a48b128557c0d1db3f03ec.svg",
+        "description": "keywords: 并行编译, 跨语言编译, 机器学习编译, 量子计算编译, 编译器安全---随着计算机科学和软件工程的快速发展，编译器技术也在不断进化，以适应新的硬件架构、编程范式和应用需求。本章将深入探讨编译器领域的前沿技术和未来发展趋势，为读者提供一个全面的视角。9.1 并行和分布式编译...",
+        "keywords": "并行编译, 跨语言编译, 机器学习编译, 量子计算编译, 编译器安全"
+      },
+      "catalog": [
+        {
+          "title": "📚 计算机基础",
+          "doc_id": "tp9ez5znawwoshe2"
+        },
+        {
+          "title": "编译原理",
+          "doc_id": "tp9ez5znawwoshe2"
+        }
+      ],
+      "realName": "tp9ez5znawwoshe2",
+      "relativePath": "\\📚 计算机基础\\编译原理\\tp9ez5znawwoshe2.md",
+      "docPath": "docs\\doc\\📚 计算机基础\\编译原理"
+    },
+    {
+      "id": 175571737,
+      "doc_id": "gq0f157tki9wshfb",
+      "updated": 1719548092000,
+      "properties": {
+        "title": "Vue3",
+        "urlname": "gq0f157tki9wshfb",
+        "date": "2024-06-28 12:14:26",
+        "updated": "2024-06-28 12:14:52",
+        "description": "---is_nav: falsenav_path: vue3---",
+        "is_nav": false,
+        "nav_path": "vue3"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "gq0f157tki9wshfb"
+        }
+      ],
+      "realName": "gq0f157tki9wshfb",
+      "relativePath": "\\💻 编程语言\\gq0f157tki9wshfb.md",
+      "docPath": "docs\\doc\\💻 编程语言"
+    },
+    {
+      "id": 175571750,
+      "doc_id": "ecpzrwpgo9ugf2bb",
+      "updated": 1719548129000,
+      "properties": {
+        "title": "15、Vue3实战项目三：社交媒体平台",
+        "urlname": "ecpzrwpgo9ugf2bb",
+        "date": "2024-06-28 12:14:33",
+        "updated": "2024-06-28 12:15:29",
+        "description": "keywords: 社交媒体平台,用户管理,动态发布,评论功能,Vue 项目实战在本章节,我们将使用 Vue 3.0 来开发一个社交媒体平台。通过这个项目,你将学会如何使用 Vue 来构建一个完整的社交应用,包括用户注册登录、用户资料管理、动态发布评论等核心功能。让我们一起来探索 Vue 在实...",
+        "keywords": "社交媒体平台,用户管理,动态发布,评论功能,Vue 项目实战"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "ecpzrwpgo9ugf2bb"
+        },
+        {
+          "title": "Vue3",
+          "doc_id": "ecpzrwpgo9ugf2bb"
+        }
+      ],
+      "realName": "ecpzrwpgo9ugf2bb",
+      "relativePath": "\\💻 编程语言\\Vue3\\ecpzrwpgo9ugf2bb.md",
+      "docPath": "docs\\doc\\💻 编程语言\\Vue3"
+    },
+    {
+      "id": 175570447,
+      "doc_id": "tsrqpph0qqsl9wbq",
+      "updated": 1719547809000,
+      "properties": {
+        "title": "7、代码生成",
+        "urlname": "tsrqpph0qqsl9wbq",
+        "date": "2024-06-28 12:00:48",
+        "updated": "2024-06-28 12:10:09",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/cfb5e3a30e2e1c621dbb67a29ec259fa.svg",
+        "description": "keywords: 代码生成, 目标代码, 指令选择, 寄存器分配, 指令调度---代码生成是编译过程的最后阶段，它将优化后的中间表示转换为目标机器的汇编代码或机器代码。这个阶段直接影响程序的执行效率和资源使用，因此在编译器设计中占据着关键地位。7.1 代码生成概述7.1.1 代码生成的目标和...",
+        "keywords": "代码生成, 目标代码, 指令选择, 寄存器分配, 指令调度"
+      },
+      "catalog": [
+        {
+          "title": "📚 计算机基础",
+          "doc_id": "tsrqpph0qqsl9wbq"
+        },
+        {
+          "title": "编译原理",
+          "doc_id": "tsrqpph0qqsl9wbq"
+        }
+      ],
+      "realName": "tsrqpph0qqsl9wbq",
+      "relativePath": "\\📚 计算机基础\\编译原理\\tsrqpph0qqsl9wbq.md",
+      "docPath": "docs\\doc\\📚 计算机基础\\编译原理"
+    },
+    {
+      "id": 175570444,
+      "doc_id": "dxd5zdrf6d0uhmfc",
+      "updated": 1719547616000,
+      "properties": {
+        "title": "8、编译器实现与工具",
+        "urlname": "dxd5zdrf6d0uhmfc",
+        "date": "2024-06-28 12:00:46",
+        "updated": "2024-06-28 12:06:56",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/1a58e032e050cec963f4527b2d6b16ec.svg",
+        "description": "keywords: 编译器实现, 编译器工具, 词法分析器生成, 语法分析器生成, 中间代码生成---编译器的实现是一个复杂的工程，涉及多个阶段和多种技术。本章将介绍编译器的实现方法，以及在编译器构建过程中常用的工具和技术。8.1 编译器结构概述8.1.1 编译器的基本结构编译器通常由前端、中...",
+        "keywords": "编译器实现, 编译器工具, 词法分析器生成, 语法分析器生成, 中间代码生成"
+      },
+      "catalog": [
+        {
+          "title": "📚 计算机基础",
+          "doc_id": "dxd5zdrf6d0uhmfc"
+        },
+        {
+          "title": "编译原理",
+          "doc_id": "dxd5zdrf6d0uhmfc"
+        }
+      ],
+      "realName": "dxd5zdrf6d0uhmfc",
+      "relativePath": "\\📚 计算机基础\\编译原理\\dxd5zdrf6d0uhmfc.md",
+      "docPath": "docs\\doc\\📚 计算机基础\\编译原理"
+    },
+    {
+      "id": 175570385,
+      "doc_id": "gc74g8642uvv7epf",
+      "updated": 1719547396000,
+      "properties": {
+        "title": "6、 代码优化",
+        "urlname": "gc74g8642uvv7epf",
+        "date": "2024-06-28 12:00:09",
+        "updated": "2024-06-28 12:03:16",
+        "description": "keywords: 代码优化, 编译器优化, 局部优化, 全局优化, 数据流分析6.1 代码优化的概述代码优化是编译器设计中的一个核心环节，其目标是在保持程序语义不变的前提下，改进中间代码或目标代码，以生成更高效的等价程序。优化的重要性不言而喻：它能显著提升程序的执行效率，减少资源消耗，并充分...",
+        "keywords": "代码优化, 编译器优化, 局部优化, 全局优化, 数据流分析"
+      },
+      "catalog": [
+        {
+          "title": "📚 计算机基础",
+          "doc_id": "gc74g8642uvv7epf"
+        },
+        {
+          "title": "编译原理",
+          "doc_id": "gc74g8642uvv7epf"
+        }
+      ],
+      "realName": "gc74g8642uvv7epf",
+      "relativePath": "\\📚 计算机基础\\编译原理\\gc74g8642uvv7epf.md",
+      "docPath": "docs\\doc\\📚 计算机基础\\编译原理"
+    },
+    {
+      "id": 175570045,
+      "doc_id": "zmi52td6uktfvs7n",
+      "updated": 1719547061000,
+      "properties": {
+        "title": "第 1 章 初识 R 语言",
+        "urlname": "zmi52td6uktfvs7n",
+        "date": "2024-06-28 11:57:16",
+        "updated": "2024-06-28 11:57:41",
+        "description": "keywords: R 语言入门, R 语言安装, RStudio, 第一个 R 程序欢迎来到 R 语言的世界!在这一章,我们将一起迈出学习 R 语言的第一步。作为一名有多年 R 语言使用经验的数据分析师,我将与你分享我的学习心得,并引导你快速掌握 R 语言的基础知识。1.1 R 语言简介1....",
+        "keywords": "R 语言入门, R 语言安装, RStudio, 第一个 R 程序"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "zmi52td6uktfvs7n"
+        },
+        {
+          "title": "R语言",
+          "doc_id": "zmi52td6uktfvs7n"
+        }
+      ],
+      "realName": "zmi52td6uktfvs7n",
+      "relativePath": "\\💻 编程语言\\R语言\\zmi52td6uktfvs7n.md",
+      "docPath": "docs\\doc\\💻 编程语言\\R语言"
+    },
+    {
+      "id": 175570003,
+      "doc_id": "ngcm7lntltn1yfo2",
+      "updated": 1719547133000,
+      "properties": {
+        "title": "第 2 章 R 语言基本操作",
+        "urlname": "ngcm7lntltn1yfo2",
+        "date": "2024-06-28 11:56:56",
+        "updated": "2024-06-28 11:58:53",
+        "description": "keywords: R 语言, 基本操作, 数据类型, 向量, 矩阵在前一章中，我们已经初步了解了 R 语言，并成功安装配置了 R 语言环境。接下来，让我们正式开启 R 语言编程之旅，首先从最基础的数据类型和操作开始学习。2.1 基本数据类型2.1.1 标量与向量在 R 语言中，最基本的数据类...",
+        "keywords": "R 语言, 基本操作, 数据类型, 向量, 矩阵"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "ngcm7lntltn1yfo2"
+        },
+        {
+          "title": "R语言",
+          "doc_id": "ngcm7lntltn1yfo2"
+        }
+      ],
+      "realName": "ngcm7lntltn1yfo2",
+      "relativePath": "\\💻 编程语言\\R语言\\ngcm7lntltn1yfo2.md",
+      "docPath": "docs\\doc\\💻 编程语言\\R语言"
+    },
+    {
+      "id": 175569828,
+      "doc_id": "vtlzxmtlpwwggps0",
+      "updated": 1719546975000,
+      "properties": {
+        "title": "第 4 章 数据处理与清洗",
+        "urlname": "vtlzxmtlpwwggps0",
+        "date": "2024-06-28 11:55:36",
+        "updated": "2024-06-28 11:56:15",
+        "description": "keywords: 数据清洗, 缺失值处理, 数据整合, 数据合并在数据分析和建模之前,往往需要对原始数据进行必要的清洗和预处理,以确保数据的质量和可用性。本章将介绍 R 语言中常用的数据处理与清洗技术,包括缺失值处理、异常值处理、数据整合与合并等。通过本章的学习,你将掌握如何使用 R 语言高...",
+        "keywords": "数据清洗, 缺失值处理, 数据整合, 数据合并"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "vtlzxmtlpwwggps0"
+        },
+        {
+          "title": "R语言",
+          "doc_id": "vtlzxmtlpwwggps0"
+        }
+      ],
+      "realName": "vtlzxmtlpwwggps0",
+      "relativePath": "\\💻 编程语言\\R语言\\vtlzxmtlpwwggps0.md",
+      "docPath": "docs\\doc\\💻 编程语言\\R语言"
+    },
+    {
+      "id": 175569965,
+      "doc_id": "zfippxfw1soqpl30",
+      "updated": 1719547139000,
+      "properties": {
+        "title": "第 3 章 数据导入与导出",
+        "urlname": "zfippxfw1soqpl30",
+        "date": "2024-06-28 11:56:39",
+        "updated": "2024-06-28 11:58:59",
+        "description": "keywords: R 语言数据导入, 文本文件, Excel 文件, 数据库, 数据导出在数据分析过程中,我们经常需要从各种来源导入数据到 R 中进行处理和分析。本章将详细介绍如何使用 R 语言从文本文件、Excel 文件和数据库中导入数据,以及如何将处理后的数据导出为各种格式的文件。3.1...",
+        "keywords": "R 语言数据导入, 文本文件, Excel 文件, 数据库, 数据导出"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "zfippxfw1soqpl30"
+        },
+        {
+          "title": "R语言",
+          "doc_id": "zfippxfw1soqpl30"
+        }
+      ],
+      "realName": "zfippxfw1soqpl30",
+      "relativePath": "\\💻 编程语言\\R语言\\zfippxfw1soqpl30.md",
+      "docPath": "docs\\doc\\💻 编程语言\\R语言"
+    },
+    {
+      "id": 175569759,
+      "doc_id": "vxk6z46tg1020y1q",
+      "updated": 1719546935000,
+      "properties": {
+        "title": "第 5 章 数据可视化",
+        "urlname": "vxk6z46tg1020y1q",
+        "date": "2024-06-28 11:55:07",
+        "updated": "2024-06-28 11:55:35",
+        "description": "keywords: 数据可视化, ggplot2, plotly, 交互式图表数据可视化是数据分析过程中至关重要的一环。通过生动形象的图表，我们可以直观地展示数据背后的规律和趋势，让枯燥的数字\"活\"起来。本章将重点介绍 R 语言强大的可视化功能，带你从基础的绘图函数入手，逐步掌握 ggplot...",
+        "keywords": "数据可视化, ggplot2, plotly, 交互式图表"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "vxk6z46tg1020y1q"
+        },
+        {
+          "title": "R语言",
+          "doc_id": "vxk6z46tg1020y1q"
+        }
+      ],
+      "realName": "vxk6z46tg1020y1q",
+      "relativePath": "\\💻 编程语言\\R语言\\vxk6z46tg1020y1q.md",
+      "needUpdate": 1,
+      "docPath": "docs\\doc\\💻 编程语言\\R语言"
+    },
+    {
+      "id": 175569403,
+      "doc_id": "lgc4k6alfoid5cfc",
+      "updated": 1719547151000,
+      "properties": {
+        "title": "第 7 章 复杂数据处理",
+        "urlname": "lgc4k6alfoid5cfc",
+        "date": "2024-06-28 11:52:54",
+        "updated": "2024-06-28 11:59:11",
+        "description": "keywords: 字符串处理, 日期时间处理, 因子处理, 高效数据处理在数据分析过程中,我们经常会遇到一些复杂的数据类型,如字符串、日期时间、因子等。为了更好地分析和处理这些数据,本章将详细介绍如何在 R 语言中进行复杂数据处理。7.1 字符串处理字符串是由一系列字符组成的序列。在数据分析...",
+        "keywords": "字符串处理, 日期时间处理, 因子处理, 高效数据处理"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "lgc4k6alfoid5cfc"
+        },
+        {
+          "title": "R语言",
+          "doc_id": "lgc4k6alfoid5cfc"
+        }
+      ],
+      "realName": "lgc4k6alfoid5cfc",
+      "relativePath": "\\💻 编程语言\\R语言\\lgc4k6alfoid5cfc.md",
+      "docPath": "docs\\doc\\💻 编程语言\\R语言"
+    },
+    {
+      "id": 175569463,
+      "doc_id": "syx0xhctmne8tdep",
+      "updated": 1719546905000,
+      "properties": {
+        "title": "第 6 章 统计分析",
+        "urlname": "syx0xhctmne8tdep",
+        "date": "2024-06-28 11:53:16",
+        "updated": "2024-06-28 11:55:05",
+        "description": "keywords: 描述性统计, 假设检验, 回归分析, 方差分析统计分析是数据科学领域的核心内容之一,它为我们提供了分析和解释数据的方法和工具。在本章中,我们将学习如何使用 R 语言进行各种统计分析,包括描述性统计、假设检验、回归分析和方差分析等。通过本章的学习,你将掌握统计分析的基本概念和...",
+        "keywords": "描述性统计, 假设检验, 回归分析, 方差分析"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "syx0xhctmne8tdep"
+        },
+        {
+          "title": "R语言",
+          "doc_id": "syx0xhctmne8tdep"
+        }
+      ],
+      "realName": "syx0xhctmne8tdep",
+      "relativePath": "\\💻 编程语言\\R语言\\syx0xhctmne8tdep.md",
+      "docPath": "docs\\doc\\💻 编程语言\\R语言"
+    },
+    {
+      "id": 175569165,
+      "doc_id": "buq5kc4vhyclglqc",
+      "updated": 1719547144000,
+      "properties": {
+        "title": "第 8 章 R语言编程技巧",
+        "urlname": "buq5kc4vhyclglqc",
+        "date": "2024-06-28 11:51:09",
+        "updated": "2024-06-28 11:59:04",
+        "description": "keywords: R 语言编程, 函数编程, 面向对象编程, 数据表操作, R 包开发在前面的章节中,我们已经学习了 R 语言的基础知识和数据处理技巧. 本章将深入探讨 R 语言的高级编程技巧,包括函数编程、面向对象编程、数据表操作以及 R 包的开发与发布. 通过本章的学习,你将掌握 R 语...",
+        "keywords": "R 语言编程, 函数编程, 面向对象编程, 数据表操作, R 包开发"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "buq5kc4vhyclglqc"
+        },
+        {
+          "title": "R语言",
+          "doc_id": "buq5kc4vhyclglqc"
+        }
+      ],
+      "realName": "buq5kc4vhyclglqc",
+      "relativePath": "\\💻 编程语言\\R语言\\buq5kc4vhyclglqc.md",
+      "docPath": "docs\\doc\\💻 编程语言\\R语言"
+    },
+    {
+      "id": 175568952,
+      "doc_id": "zhdf45poz36gp34r",
+      "updated": 1719546650000,
+      "properties": {
+        "title": "第 10 章 文本挖掘",
+        "urlname": "zhdf45poz36gp34r",
+        "date": "2024-06-28 11:49:42",
+        "updated": "2024-06-28 11:50:50",
+        "description": "keywords: 文本挖掘,文本分析,情感分析,R 语言,自然语言处理随着互联网的飞速发展,人们每天都会产生大量的文本数据,如新闻报道、博客文章、社交媒体评论等。这些非结构化的文本数据蕴含着丰富的信息,通过文本挖掘技术,我们可以从海量文本数据中发现有价值的知识和见解。本章将介绍如何使用 R ...",
+        "keywords": "文本挖掘,文本分析,情感分析,R 语言,自然语言处理"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "zhdf45poz36gp34r"
+        },
+        {
+          "title": "R语言",
+          "doc_id": "zhdf45poz36gp34r"
+        }
+      ],
+      "realName": "zhdf45poz36gp34r",
+      "relativePath": "\\💻 编程语言\\R语言\\zhdf45poz36gp34r.md",
+      "docPath": "docs\\doc\\💻 编程语言\\R语言"
+    },
+    {
+      "id": 175569211,
+      "doc_id": "pgefb0xgnxa6wrv5",
+      "updated": 1719546734000,
+      "properties": {
+        "title": "第 9 章 机器学习",
+        "urlname": "pgefb0xgnxa6wrv5",
+        "date": "2024-06-28 11:51:30",
+        "updated": "2024-06-28 11:52:14",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/a984b0246682d6e8671f6f85c7d900d8.svg",
+        "description": "keywords: 机器学习,监督学习,无监督学习,模型评估,实践案例机器学习是一门让计算机具备从数据中自主学习的能力,无需进行明确编程的科学。它是人工智能的核心,也是 R 语言数据分析不可或缺的一部分。本章将全面介绍如何使用 R 语言实现机器学习,包括监督学习、无监督学习、模型评估与选择,以...",
+        "keywords": "机器学习,监督学习,无监督学习,模型评估,实践案例"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "pgefb0xgnxa6wrv5"
+        },
+        {
+          "title": "R语言",
+          "doc_id": "pgefb0xgnxa6wrv5"
+        }
+      ],
+      "realName": "pgefb0xgnxa6wrv5",
+      "relativePath": "\\💻 编程语言\\R语言\\pgefb0xgnxa6wrv5.md",
+      "docPath": "docs\\doc\\💻 编程语言\\R语言"
+    },
+    {
+      "id": 175568836,
+      "doc_id": "gbfzefgtudph8bby",
+      "updated": 1719547157000,
+      "properties": {
+        "title": "第 11 章 时间序列分析",
+        "urlname": "gbfzefgtudph8bby",
+        "date": "2024-06-28 11:48:57",
+        "updated": "2024-06-28 11:59:17",
+        "cover": "https://cdn.nlark.com/yuque/__latex/18509f65c42c76e1b28b9b4ec7b94fbf.svg",
+        "description": "keywords: 时间序列分析, 时间序列基本概念, 时间序列建模, 时间序列预测, 销售预测案例时间序列分析是数据分析领域中一个非常重要且广泛应用的分支。它主要用于分析和预测在时间上有序排列的数据。在金融、经济、气象等诸多领域都有时间序列数据的身影。本章将系统地介绍时间序列分析的基本概念、...",
+        "keywords": "时间序列分析, 时间序列基本概念, 时间序列建模, 时间序列预测, 销售预测案例"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "gbfzefgtudph8bby"
+        },
+        {
+          "title": "R语言",
+          "doc_id": "gbfzefgtudph8bby"
+        }
+      ],
+      "realName": "gbfzefgtudph8bby",
+      "relativePath": "\\💻 编程语言\\R语言\\gbfzefgtudph8bby.md",
+      "docPath": "docs\\doc\\💻 编程语言\\R语言"
+    },
+    {
+      "id": 175568645,
+      "doc_id": "bpemebnfunhxkbg9",
+      "updated": 1719547176000,
+      "properties": {
+        "title": "第 13 章 R语言实战项目一: 数据分析与可视化",
+        "urlname": "bpemebnfunhxkbg9",
+        "date": "2024-06-28 11:47:58",
+        "updated": "2024-06-28 11:59:36",
+        "description": "keywords: R语言数据分析, 数据可视化, 统计分析, 项目实战本章我们将通过一个完整的项目案例,带领大家学习如何使用R语言进行数据分析和可视化。通过实战操作,你将掌握数据分析的基本流程,并能使用R强大的可视化功能,生动形象地展示分析结果。13.1 项目需求分析在开始一个数据分析项目之...",
+        "keywords": "R语言数据分析, 数据可视化, 统计分析, 项目实战"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "bpemebnfunhxkbg9"
+        },
+        {
+          "title": "R语言",
+          "doc_id": "bpemebnfunhxkbg9"
+        }
+      ],
+      "realName": "bpemebnfunhxkbg9",
+      "relativePath": "\\💻 编程语言\\R语言\\bpemebnfunhxkbg9.md",
+      "docPath": "docs\\doc\\💻 编程语言\\R语言"
+    },
+    {
+      "id": 175568736,
+      "doc_id": "blqp8e1g3pw560mf",
+      "updated": 1719547161000,
+      "properties": {
+        "0": "k",
+        "1": "e",
+        "2": "y",
+        "3": "w",
+        "4": "o",
+        "5": "r",
+        "6": "d",
+        "7": "s",
+        "8": ":",
+        "9": "R",
+        "10": " ",
+        "11": "语",
+        "12": "言",
+        "13": "大",
+        "14": "数",
+        "15": "据",
+        "16": ",",
+        "17": "H",
+        "18": "a",
+        "19": "d",
+        "20": "o",
+        "21": "o",
+        "22": "p",
+        "23": ",",
+        "24": "S",
+        "25": "p",
+        "26": "a",
+        "27": "r",
+        "28": "k",
+        "29": ",",
+        "30": "高",
+        "31": "效",
+        "32": "数",
+        "33": "据",
+        "34": "处",
+        "35": "理",
+        "36": ",",
+        "37": "大",
+        "38": "数",
+        "39": "据",
+        "40": "分",
+        "41": "析",
+        "title": "第 12 章 R语言 与大数据技术",
+        "urlname": "blqp8e1g3pw560mf",
+        "date": "2024-06-28 11:48:27",
+        "updated": "2024-06-28 11:59:21",
+        "description": "keywords:R 语言大数据,Hadoop,Spark,高效数据处理,大数据分析大数据技术的出现为数据分析带来了新的契机。R 语言作为一种强大的数据分析工具，与大数据技术的结合可以实现高效的大数据处理和分析。本章将介绍如何将 R 语言与主流的大数据技术 Hadoop 和 Spark 进行集..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "blqp8e1g3pw560mf"
+        },
+        {
+          "title": "R语言",
+          "doc_id": "blqp8e1g3pw560mf"
+        }
+      ],
+      "realName": "blqp8e1g3pw560mf",
+      "relativePath": "\\💻 编程语言\\R语言\\blqp8e1g3pw560mf.md",
+      "docPath": "docs\\doc\\💻 编程语言\\R语言"
+    },
+    {
+      "id": 175568477,
+      "doc_id": "izzb2uhqshwmkctl",
+      "updated": 1719547181000,
+      "properties": {
+        "title": "第 14 章 R语言实战项目二:市场篮分析",
+        "urlname": "izzb2uhqshwmkctl",
+        "date": "2024-06-28 11:46:42",
+        "updated": "2024-06-28 11:59:41",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/bae5fc0c9951f67789c6b8ce59b923af.svg",
+        "description": "keywords: 市场篮分析, 关联规则, apriori 算法, 数据挖掘, 销售策略在超市等零售行业,通过对顾客购物篮中商品组合的分析,可以发现商品之间有趣的关联关系,从而优化商品布局和制定销售策略。本章我们将运用 R 语言来实现市场篮分析,带你一步步掌握数据挖掘在业务中的应用。14.1...",
+        "keywords": "市场篮分析, 关联规则, apriori 算法, 数据挖掘, 销售策略"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "izzb2uhqshwmkctl"
+        },
+        {
+          "title": "R语言",
+          "doc_id": "izzb2uhqshwmkctl"
+        }
+      ],
+      "realName": "izzb2uhqshwmkctl",
+      "relativePath": "\\💻 编程语言\\R语言\\izzb2uhqshwmkctl.md",
+      "docPath": "docs\\doc\\💻 编程语言\\R语言"
+    },
+    {
+      "id": 175568392,
+      "doc_id": "io90ggnpu8sezfhz",
+      "updated": 1719547186000,
+      "properties": {
+        "title": "第 15 章 R语言实战项目三:客户细分",
+        "urlname": "io90ggnpu8sezfhz",
+        "date": "2024-06-28 11:46:11",
+        "updated": "2024-06-28 11:59:46",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/3f8dc0bcd89c89392c7e9a41516cae6e.svg",
+        "description": "keywords: 客户细分,聚类分析,K-Means,层次聚类,个性化营销在当今竞争日益激烈的商业环境中,对客户进行细分是企业制定营销策略的重要基础。通过客户细分,企业可以更好地了解不同客户群体的特点和需求,从而制定针对性的营销方案,提高客户满意度和忠诚度。本章将通过一个完整的案例,带领大家...",
+        "keywords": "客户细分,聚类分析,K-Means,层次聚类,个性化营销"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "io90ggnpu8sezfhz"
+        },
+        {
+          "title": "R语言",
+          "doc_id": "io90ggnpu8sezfhz"
+        }
+      ],
+      "realName": "io90ggnpu8sezfhz",
+      "relativePath": "\\💻 编程语言\\R语言\\io90ggnpu8sezfhz.md",
+      "docPath": "docs\\doc\\💻 编程语言\\R语言"
+    },
+    {
+      "id": 175568247,
+      "doc_id": "igbobf3pxzigso5p",
+      "updated": 1719547191000,
+      "properties": {
+        "title": "第 16 章 R语言实战项目四：预测房价走势",
+        "urlname": "igbobf3pxzigso5p",
+        "date": "2024-06-28 11:45:14",
+        "updated": "2024-06-28 11:59:51",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/b212b77d9f7f375621c4547227fdf388.svg",
+        "description": "keywords: 房价预测, 时间序列, ARIMA 模型, 特征工程, 可视化在本章中,我们将通过一个实战项目,运用前面学到的 R 语言知识,来预测未来的房价走势。房地产市场是国民经济的重要组成部分,房价的走势不仅影响着普通百姓的生活,也关系到宏观经济的稳定。因此,准确预测房价走势,对于个...",
+        "keywords": "房价预测, 时间序列, ARIMA 模型, 特征工程, 可视化"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "igbobf3pxzigso5p"
+        },
+        {
+          "title": "R语言",
+          "doc_id": "igbobf3pxzigso5p"
+        }
+      ],
+      "realName": "igbobf3pxzigso5p",
+      "relativePath": "\\💻 编程语言\\R语言\\igbobf3pxzigso5p.md",
+      "needUpdate": 1,
+      "docPath": "docs\\doc\\💻 编程语言\\R语言"
+    },
+    {
+      "id": 175568174,
+      "doc_id": "isich0bo4556w91c",
+      "updated": 1719546312000,
+      "properties": {
+        "title": "R语言",
+        "urlname": "isich0bo4556w91c",
+        "date": "2024-06-28 11:44:43",
+        "updated": "2024-06-28 11:45:12",
+        "description": "---is_nav: falsenav_path: r---",
+        "is_nav": false,
+        "nav_path": "r"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "isich0bo4556w91c"
+        }
+      ],
+      "realName": "isich0bo4556w91c",
+      "relativePath": "\\💻 编程语言\\isich0bo4556w91c.md",
+      "docPath": "docs\\doc\\💻 编程语言"
     }
   ],
   "catalog": [
@@ -12161,12 +12856,87 @@
       "uuid": "mimWNLg6L3tYYgYM",
       "url": "kickx6z0136dvoad",
       "prev_uuid": "b7u14_d6MLYiDvqY",
-      "sibling_uuid": "",
+      "sibling_uuid": "fkYzCRzFCaeox8o3",
       "child_uuid": "",
       "parent_uuid": "qIllkRCeDObCnvZe",
       "doc_id": 171822778,
       "level": 2,
       "id": 171822778,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "6、 代码优化",
+      "uuid": "fkYzCRzFCaeox8o3",
+      "url": "gc74g8642uvv7epf",
+      "prev_uuid": "mimWNLg6L3tYYgYM",
+      "sibling_uuid": "cb6x9jOMvlycozzt",
+      "child_uuid": "",
+      "parent_uuid": "qIllkRCeDObCnvZe",
+      "doc_id": 175570385,
+      "level": 2,
+      "id": 175570385,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "7、代码生成",
+      "uuid": "cb6x9jOMvlycozzt",
+      "url": "tsrqpph0qqsl9wbq",
+      "prev_uuid": "fkYzCRzFCaeox8o3",
+      "sibling_uuid": "CPQYeiwOHNPtYA30",
+      "child_uuid": "",
+      "parent_uuid": "qIllkRCeDObCnvZe",
+      "doc_id": 175570447,
+      "level": 2,
+      "id": 175570447,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "8、编译器实现与工具",
+      "uuid": "CPQYeiwOHNPtYA30",
+      "url": "dxd5zdrf6d0uhmfc",
+      "prev_uuid": "cb6x9jOMvlycozzt",
+      "sibling_uuid": "IpoOZzZ0D8s-kTw4",
+      "child_uuid": "",
+      "parent_uuid": "qIllkRCeDObCnvZe",
+      "doc_id": 175570444,
+      "level": 2,
+      "id": 175570444,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "9、编译器前沿技术与未来趋势",
+      "uuid": "IpoOZzZ0D8s-kTw4",
+      "url": "tp9ez5znawwoshe2",
+      "prev_uuid": "CPQYeiwOHNPtYA30",
+      "sibling_uuid": "v_mSI1X-y0kluPMs",
+      "child_uuid": "",
+      "parent_uuid": "qIllkRCeDObCnvZe",
+      "doc_id": 175570440,
+      "level": 2,
+      "id": 175570440,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "10、高级编译器优化技术",
+      "uuid": "v_mSI1X-y0kluPMs",
+      "url": "tuwzgkad8g0tgm6g",
+      "prev_uuid": "IpoOZzZ0D8s-kTw4",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "qIllkRCeDObCnvZe",
+      "doc_id": 175570435,
+      "level": 2,
+      "id": 175570435,
       "open_window": 1,
       "visible": 1
     },
@@ -14726,7 +15496,7 @@
       "uuid": "XyLVtY3XHTWQeIIY",
       "url": "zxr575sqdpq3e4by",
       "prev_uuid": "GWbkA9WJsR8wmJ0z",
-      "sibling_uuid": "x98AJrMx8CxrVoy6",
+      "sibling_uuid": "EmqDRajMf5H7Epyx",
       "child_uuid": "HD_1J_HuGNJ0oZjQ",
       "parent_uuid": "g79LhyuCIcy2z2cx",
       "doc_id": 172376114,
@@ -14932,11 +15702,266 @@
     },
     {
       "type": "DOC",
+      "title": "R语言",
+      "uuid": "EmqDRajMf5H7Epyx",
+      "url": "isich0bo4556w91c",
+      "prev_uuid": "XyLVtY3XHTWQeIIY",
+      "sibling_uuid": "x98AJrMx8CxrVoy6",
+      "child_uuid": "W4HgRJOqaDs2pdkA",
+      "parent_uuid": "g79LhyuCIcy2z2cx",
+      "doc_id": 175568174,
+      "level": 1,
+      "id": 175568174,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 1 章 初识 R 语言",
+      "uuid": "W4HgRJOqaDs2pdkA",
+      "url": "zmi52td6uktfvs7n",
+      "prev_uuid": "EmqDRajMf5H7Epyx",
+      "sibling_uuid": "EIwDco2rwfPD3E3a",
+      "child_uuid": "",
+      "parent_uuid": "EmqDRajMf5H7Epyx",
+      "doc_id": 175570045,
+      "level": 2,
+      "id": 175570045,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 2 章 R 语言基本操作",
+      "uuid": "EIwDco2rwfPD3E3a",
+      "url": "ngcm7lntltn1yfo2",
+      "prev_uuid": "W4HgRJOqaDs2pdkA",
+      "sibling_uuid": "pcU4SGkM8I5wGQpI",
+      "child_uuid": "",
+      "parent_uuid": "EmqDRajMf5H7Epyx",
+      "doc_id": 175570003,
+      "level": 2,
+      "id": 175570003,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 3 章 数据导入与导出",
+      "uuid": "pcU4SGkM8I5wGQpI",
+      "url": "zfippxfw1soqpl30",
+      "prev_uuid": "EIwDco2rwfPD3E3a",
+      "sibling_uuid": "UUOW8fhxB3YE9b_d",
+      "child_uuid": "",
+      "parent_uuid": "EmqDRajMf5H7Epyx",
+      "doc_id": 175569965,
+      "level": 2,
+      "id": 175569965,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 4 章 数据处理与清洗",
+      "uuid": "UUOW8fhxB3YE9b_d",
+      "url": "vtlzxmtlpwwggps0",
+      "prev_uuid": "pcU4SGkM8I5wGQpI",
+      "sibling_uuid": "uegs48Exi5WWdCTy",
+      "child_uuid": "",
+      "parent_uuid": "EmqDRajMf5H7Epyx",
+      "doc_id": 175569828,
+      "level": 2,
+      "id": 175569828,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 5 章 数据可视化",
+      "uuid": "uegs48Exi5WWdCTy",
+      "url": "vxk6z46tg1020y1q",
+      "prev_uuid": "UUOW8fhxB3YE9b_d",
+      "sibling_uuid": "BHy0-qMt9ilhIl5U",
+      "child_uuid": "",
+      "parent_uuid": "EmqDRajMf5H7Epyx",
+      "doc_id": 175569759,
+      "level": 2,
+      "id": 175569759,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 6 章 统计分析",
+      "uuid": "BHy0-qMt9ilhIl5U",
+      "url": "syx0xhctmne8tdep",
+      "prev_uuid": "uegs48Exi5WWdCTy",
+      "sibling_uuid": "T5WSHgAx7uZ5s93V",
+      "child_uuid": "",
+      "parent_uuid": "EmqDRajMf5H7Epyx",
+      "doc_id": 175569463,
+      "level": 2,
+      "id": 175569463,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 7 章 复杂数据处理",
+      "uuid": "T5WSHgAx7uZ5s93V",
+      "url": "lgc4k6alfoid5cfc",
+      "prev_uuid": "BHy0-qMt9ilhIl5U",
+      "sibling_uuid": "96ojMw-DgkWG2JAW",
+      "child_uuid": "",
+      "parent_uuid": "EmqDRajMf5H7Epyx",
+      "doc_id": 175569403,
+      "level": 2,
+      "id": 175569403,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 8 章 R语言编程技巧",
+      "uuid": "96ojMw-DgkWG2JAW",
+      "url": "buq5kc4vhyclglqc",
+      "prev_uuid": "T5WSHgAx7uZ5s93V",
+      "sibling_uuid": "knm5bU1LHhxK6mwh",
+      "child_uuid": "",
+      "parent_uuid": "EmqDRajMf5H7Epyx",
+      "doc_id": 175569165,
+      "level": 2,
+      "id": 175569165,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 9 章 机器学习",
+      "uuid": "knm5bU1LHhxK6mwh",
+      "url": "pgefb0xgnxa6wrv5",
+      "prev_uuid": "96ojMw-DgkWG2JAW",
+      "sibling_uuid": "L3SBOEnlLPnycy-o",
+      "child_uuid": "",
+      "parent_uuid": "EmqDRajMf5H7Epyx",
+      "doc_id": 175569211,
+      "level": 2,
+      "id": 175569211,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 10 章 文本挖掘",
+      "uuid": "L3SBOEnlLPnycy-o",
+      "url": "zhdf45poz36gp34r",
+      "prev_uuid": "knm5bU1LHhxK6mwh",
+      "sibling_uuid": "qg6oR4RcSkBuTz0B",
+      "child_uuid": "",
+      "parent_uuid": "EmqDRajMf5H7Epyx",
+      "doc_id": 175568952,
+      "level": 2,
+      "id": 175568952,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 11 章 时间序列分析",
+      "uuid": "qg6oR4RcSkBuTz0B",
+      "url": "gbfzefgtudph8bby",
+      "prev_uuid": "L3SBOEnlLPnycy-o",
+      "sibling_uuid": "agW5qZ3QLMgbxDfh",
+      "child_uuid": "",
+      "parent_uuid": "EmqDRajMf5H7Epyx",
+      "doc_id": 175568836,
+      "level": 2,
+      "id": 175568836,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 12 章 R语言 与大数据技术",
+      "uuid": "agW5qZ3QLMgbxDfh",
+      "url": "blqp8e1g3pw560mf",
+      "prev_uuid": "qg6oR4RcSkBuTz0B",
+      "sibling_uuid": "kAABgt54CIDdrDjF",
+      "child_uuid": "",
+      "parent_uuid": "EmqDRajMf5H7Epyx",
+      "doc_id": 175568736,
+      "level": 2,
+      "id": 175568736,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 13 章 R语言实战项目一: 数据分析与可视化",
+      "uuid": "kAABgt54CIDdrDjF",
+      "url": "bpemebnfunhxkbg9",
+      "prev_uuid": "agW5qZ3QLMgbxDfh",
+      "sibling_uuid": "f5fcFJNjdt3xK-gu",
+      "child_uuid": "",
+      "parent_uuid": "EmqDRajMf5H7Epyx",
+      "doc_id": 175568645,
+      "level": 2,
+      "id": 175568645,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 14 章 R语言实战项目二:市场篮分析",
+      "uuid": "f5fcFJNjdt3xK-gu",
+      "url": "izzb2uhqshwmkctl",
+      "prev_uuid": "kAABgt54CIDdrDjF",
+      "sibling_uuid": "BVLsP_43eiS9tbxh",
+      "child_uuid": "",
+      "parent_uuid": "EmqDRajMf5H7Epyx",
+      "doc_id": 175568477,
+      "level": 2,
+      "id": 175568477,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 15 章 R语言实战项目三:客户细分",
+      "uuid": "BVLsP_43eiS9tbxh",
+      "url": "io90ggnpu8sezfhz",
+      "prev_uuid": "f5fcFJNjdt3xK-gu",
+      "sibling_uuid": "Hiqpkg4_4em_UP_M",
+      "child_uuid": "",
+      "parent_uuid": "EmqDRajMf5H7Epyx",
+      "doc_id": 175568392,
+      "level": 2,
+      "id": 175568392,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第 16 章 R语言实战项目四：预测房价走势",
+      "uuid": "Hiqpkg4_4em_UP_M",
+      "url": "igbobf3pxzigso5p",
+      "prev_uuid": "BVLsP_43eiS9tbxh",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "EmqDRajMf5H7Epyx",
+      "doc_id": 175568247,
+      "level": 2,
+      "id": 175568247,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "Vite",
       "uuid": "x98AJrMx8CxrVoy6",
       "url": "fdhn8qt0lpe3ix2h",
-      "prev_uuid": "XyLVtY3XHTWQeIIY",
-      "sibling_uuid": "",
+      "prev_uuid": "EmqDRajMf5H7Epyx",
+      "sibling_uuid": "0naARrYW8MBG6UsF",
       "child_uuid": "qUXAIdt3pS0uyIJS",
       "parent_uuid": "g79LhyuCIcy2z2cx",
       "doc_id": 172345244,
@@ -15107,6 +16132,51 @@
       "doc_id": 172375238,
       "level": 2,
       "id": 172375238,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Vue3",
+      "uuid": "0naARrYW8MBG6UsF",
+      "url": "gq0f157tki9wshfb",
+      "prev_uuid": "x98AJrMx8CxrVoy6",
+      "sibling_uuid": "",
+      "child_uuid": "9xAspZcWREZ_sZh_",
+      "parent_uuid": "g79LhyuCIcy2z2cx",
+      "doc_id": 175571737,
+      "level": 1,
+      "id": 175571737,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "无标题文档",
+      "uuid": "9xAspZcWREZ_sZh_",
+      "url": "ebxce1ws74y0t8tq",
+      "prev_uuid": "0naARrYW8MBG6UsF",
+      "sibling_uuid": "U5YUAOg9MTViLKXT",
+      "child_uuid": "",
+      "parent_uuid": "0naARrYW8MBG6UsF",
+      "doc_id": 175571828,
+      "level": 2,
+      "id": 175571828,
+      "open_window": 1,
+      "visible": 0
+    },
+    {
+      "type": "DOC",
+      "title": "15、Vue3实战项目三：社交媒体平台",
+      "uuid": "U5YUAOg9MTViLKXT",
+      "url": "ecpzrwpgo9ugf2bb",
+      "prev_uuid": "9xAspZcWREZ_sZh_",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "0naARrYW8MBG6UsF",
+      "doc_id": 175571750,
+      "level": 2,
+      "id": 175571750,
       "open_window": 1,
       "visible": 1
     },
@@ -15417,7 +16487,7 @@
       "url": "vxn8883st7lhfom9",
       "prev_uuid": "uHCIfCp4Xzc-fCfY",
       "sibling_uuid": "-4qV2TE5gTaU9pS4",
-      "child_uuid": "n7BE64KRQ0VgWnMm",
+      "child_uuid": "R974TfJzczDtTCez",
       "parent_uuid": "uHCIfCp4Xzc-fCfY",
       "doc_id": 171465323,
       "level": 1,
@@ -15427,10 +16497,25 @@
     },
     {
       "type": "DOC",
+      "title": "字节生活服务 后端一面6.28",
+      "uuid": "R974TfJzczDtTCez",
+      "url": "np44y2r4wyo9kta6",
+      "prev_uuid": "NcVLTZK8sE8hkJmb",
+      "sibling_uuid": "n7BE64KRQ0VgWnMm",
+      "child_uuid": "",
+      "parent_uuid": "NcVLTZK8sE8hkJmb",
+      "doc_id": 176020939,
+      "level": 2,
+      "id": 176020939,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "字节一面",
       "uuid": "n7BE64KRQ0VgWnMm",
       "url": "doq5tu9u8k0zw15d",
-      "prev_uuid": "NcVLTZK8sE8hkJmb",
+      "prev_uuid": "R974TfJzczDtTCez",
       "sibling_uuid": "5klBkaAvorD6tqrc",
       "child_uuid": "",
       "parent_uuid": "NcVLTZK8sE8hkJmb",

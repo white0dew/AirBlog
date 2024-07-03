@@ -47,7 +47,7 @@ export default function ArticlePostLayout({
 
   //   mylog("authorDetails", JSON.stringify(allAuthors));
 
-  const { urlname, date, title, tags, readingTime } = curArticle;
+  const { urlname, date, title, tags, readingTime, updated } = curArticle;
 
   return (
     <div className="w-auto mx-10 py-1 flex flex-col justify-center scroll-smooth ">
@@ -108,14 +108,14 @@ export default function ArticlePostLayout({
               <div>
                 <dl className="space-y-10">
                   <div>
-                    <dt className="sr-only">Published on</dt>
+                    <dt className="sr-only">Modified on</dt>
                     <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
                       <time
-                        dateTime={date}
+                        dateTime={updated ?? date}
                         className="inline-flex items-center"
                       >
                         <FaRegCalendarAlt className="mr-1.5" />
-                        {new Date(date).toLocaleDateString(
+                        {new Date(updated ?? date).toLocaleDateString(
                           "zh-CN",
                           postDateTemplate
                         )}

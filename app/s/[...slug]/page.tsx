@@ -151,7 +151,7 @@ export async function generateMetadata({
     : truncateSummary(curArticle.description, 200);
 
   return {
-    manifest: "public/favicons/site.webmanifest",
+    manifest: "/favicons/site.webmanifest",
     title: curArticle.title,
     description: RemoveYamlFrontMatterForDesc(description),
     openGraph: {
@@ -160,7 +160,7 @@ export async function generateMetadata({
       siteName: siteMetadata.title,
       locale: "zh_CN",
       type: "article",
-      publishedTime: publishedAt,
+      publishedTime: modifiedAt, // 发现很多只看publish
       modifiedTime: modifiedAt,
       url: "./",
       //   images: ogImages,
@@ -222,7 +222,11 @@ export default function ArticlePage({
             md:flex-1 px-1 md:px-6  dark:bg-slate-800 2xl:max-w-3xl xl:min-w-3xl "
         >
           <ArticlePostLayout curArticle={curArticle}>
-            <div className="js-toc-content prose prose-blue dark:prose-invert min-h-screen w-max">
+            <div
+              className="js-toc-content prose
+            line-break break-words
+            prose-blue dark:prose-invert min-h-screen w-max"
+            >
               <MDViewer source={curArticle.body.raw} />
             </div>
           </ArticlePostLayout>

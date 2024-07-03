@@ -2352,17 +2352,17 @@
     {
       "id": 79294310,
       "doc_id": "gu7y1k",
-      "updated": 1718959747000,
+      "updated": 1719983674000,
       "properties": {
         "title": "🏄 关于",
         "urlname": "gu7y1k",
         "date": "2022-06-01 19:34:04",
-        "updated": "2024-06-21 16:49:07",
+        "updated": "2024-07-03 13:14:34",
         "cover": "https://cdn.nlark.com/yuque/0/2022/png/22382235/1654084105084-db848bc6-9549-487f-ab10-78708de3dec5.png",
         "description": "关于页面提供最新的更新信息和网站导航。了解更多关于我们的网站及其最新功能。",
         "is_nav": false,
         "nav_path": "web",
-        "keywords": "关于, 更新, 网站信息, 导航"
+        "keywords": "关于网站, 网站更新, 网站信息,网站导航,友情链接"
       },
       "catalog": [],
       "realName": "gu7y1k",
@@ -10653,13 +10653,13 @@
     {
       "id": 170786633,
       "doc_id": "srte6wq59tapieq4",
-      "updated": 1716820604000,
+      "updated": 1719983812000,
       "properties": {
         "title": "我是谁？青玉白露",
         "urlname": "srte6wq59tapieq4",
         "date": "2024-05-23 13:27:20",
-        "updated": "2024-05-27 22:36:44",
-        "description": "---nav_path: whitedew---青玉白露，现役程序员写过 C/C++、Go、Java, 迷恋上了 AI 。正在学习全栈开发，喜欢 Nextjs、ChakaUI、Tailwindcss 等技术，也开始了解 Web3.0、量化交易。喜欢游戏，最近是「幻兽帕鲁」喜欢阅读，最近喜欢的是...",
+        "updated": "2024-07-03 13:16:52",
+        "description": "---nav_path: whitedew---青玉白露，现役程序员，曾任职于阿里、字节，6年开发经验，前端+后端全栈。写过 C/C++、Go、Java、Python、Typescript、Node.js, 迷恋上了 AI 。正在学习全栈开发，喜欢 Nextjs、ChakaUI、Tailwin...",
         "nav_path": "whitedew"
       },
       "catalog": [
@@ -11359,55 +11359,14 @@
     {
       "id": 175568736,
       "doc_id": "blqp8e1g3pw560mf",
-      "updated": 1719547161000,
+      "updated": 1720007644000,
       "properties": {
-        "0": "k",
-        "1": "e",
-        "2": "y",
-        "3": "w",
-        "4": "o",
-        "5": "r",
-        "6": "d",
-        "7": "s",
-        "8": ":",
-        "9": "R",
-        "10": " ",
-        "11": "语",
-        "12": "言",
-        "13": "大",
-        "14": "数",
-        "15": "据",
-        "16": ",",
-        "17": "H",
-        "18": "a",
-        "19": "d",
-        "20": "o",
-        "21": "o",
-        "22": "p",
-        "23": ",",
-        "24": "S",
-        "25": "p",
-        "26": "a",
-        "27": "r",
-        "28": "k",
-        "29": ",",
-        "30": "高",
-        "31": "效",
-        "32": "数",
-        "33": "据",
-        "34": "处",
-        "35": "理",
-        "36": ",",
-        "37": "大",
-        "38": "数",
-        "39": "据",
-        "40": "分",
-        "41": "析",
         "title": "第 12 章 R语言 与大数据技术",
         "urlname": "blqp8e1g3pw560mf",
         "date": "2024-06-28 11:48:27",
-        "updated": "2024-06-28 11:59:21",
-        "description": "keywords:R 语言大数据,Hadoop,Spark,高效数据处理,大数据分析大数据技术的出现为数据分析带来了新的契机。R 语言作为一种强大的数据分析工具，与大数据技术的结合可以实现高效的大数据处理和分析。本章将介绍如何将 R 语言与主流的大数据技术 Hadoop 和 Spark 进行集..."
+        "updated": "2024-07-03 19:54:04",
+        "description": "keywords: R 语言大数据,Hadoop,Spark,高效数据处理,大数据分析大数据技术的出现为数据分析带来了新的契机。R 语言作为一种强大的数据分析工具，与大数据技术的结合可以实现高效的大数据处理和分析。本章将介绍如何将 R 语言与主流的大数据技术 Hadoop 和 Spark 进行...",
+        "keywords": "R 语言大数据,Hadoop,Spark,高效数据处理,大数据分析"
       },
       "catalog": [
         {
@@ -11527,6 +11486,184 @@
       "realName": "isich0bo4556w91c",
       "relativePath": "\\💻 编程语言\\isich0bo4556w91c.md",
       "docPath": "docs\\doc\\💻 编程语言"
+    },
+    {
+      "id": 176298082,
+      "doc_id": "nt61gsah6eyoi8ip",
+      "updated": 1719983466000,
+      "properties": {
+        "title": "深度学习激活函数有哪些？",
+        "urlname": "nt61gsah6eyoi8ip",
+        "date": "2024-07-03 13:10:52",
+        "updated": "2024-07-03 13:11:06",
+        "cover": "https://cdn.nlark.com/yuque/0/2021/png/22382235/1630684292186-8199f38a-a2e4-4912-bf2a-50830df23763.png",
+        "description": "参考链接1激活函数有什么用？在多层神经网络中，上层节点的输出和下层节点的输入之间具有一个函数关系，这个函数称为激活函数（又称激励函数）。——即是每经过一层节点，需要对该层的输出做一个效用评估，将最后的评估结果传递给下一个节点。而且每层节点的作用一般是线性的（加减乘除），激活函数却是非线性的，而..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "nt61gsah6eyoi8ip"
+        },
+        {
+          "title": "🤖人工智能",
+          "doc_id": "nt61gsah6eyoi8ip"
+        }
+      ],
+      "realName": "nt61gsah6eyoi8ip",
+      "relativePath": "\\🔥 程序员自我修养\\🤖人工智能\\nt61gsah6eyoi8ip.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\🤖人工智能"
+    },
+    {
+      "id": 176297975,
+      "doc_id": "ioa4al8z2lh9hf9o",
+      "updated": 1719983393000,
+      "properties": {
+        "title": "决策树是什么？",
+        "urlname": "ioa4al8z2lh9hf9o",
+        "date": "2024-07-03 13:09:11",
+        "updated": "2024-07-03 13:09:53",
+        "cover": "https://cdn.nlark.com/yuque/0/2021/png/22382235/1631436513352-4a6c9b57-f926-458d-95dd-23d072f3e64d.png",
+        "description": "由于随机森林里有决策树相关的知识，因此先对决策树的知识进行学习简介简单点说就是，决策树是一种类似于流程图的结构，其中每个内部节点代表在某一个特征上的“判断”(例如，一个硬币是正面还是反面)，每个分支代表判断的结果，每个叶节点代表一个类标签(计算所有属性后做出的决定)。从根到叶的路径表示分类规则..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "ioa4al8z2lh9hf9o"
+        },
+        {
+          "title": "🤖人工智能",
+          "doc_id": "ioa4al8z2lh9hf9o"
+        }
+      ],
+      "realName": "ioa4al8z2lh9hf9o",
+      "relativePath": "\\🔥 程序员自我修养\\🤖人工智能\\ioa4al8z2lh9hf9o.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\🤖人工智能"
+    },
+    {
+      "id": 176297941,
+      "doc_id": "rdlggr5pu4ra8ny0",
+      "updated": 1719983337000,
+      "properties": {
+        "title": "逻辑回归与线性回归什么关系？",
+        "urlname": "rdlggr5pu4ra8ny0",
+        "date": "2024-07-03 13:08:39",
+        "updated": "2024-07-03 13:08:57",
+        "cover": "https://cdn.nlark.com/yuque/0/2021/png/22382235/1631866036846-a788ad5d-9fa0-4857-8195-cebf7a65997e.png",
+        "description": "逻辑回归（LR，Logic Regression）链接逻辑回归是用来做分类算法的。通常结合sigmoid函数将输出值域归一化到[0,1]，从而通过设定阈值来进行输出结果的判断。以最简单的一维逻辑回归为例，y=ax+b。如果是以sigmoid函数作为结果的归一化函数，则其损失函数（log los..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "rdlggr5pu4ra8ny0"
+        },
+        {
+          "title": "🤖人工智能",
+          "doc_id": "rdlggr5pu4ra8ny0"
+        }
+      ],
+      "realName": "rdlggr5pu4ra8ny0",
+      "relativePath": "\\🔥 程序员自我修养\\🤖人工智能\\rdlggr5pu4ra8ny0.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\🤖人工智能"
+    },
+    {
+      "id": 176298041,
+      "doc_id": "lk1hgmd5h9mrgodd",
+      "updated": 1719983423000,
+      "properties": {
+        "title": "图像算法工程师面试",
+        "urlname": "lk1hgmd5h9mrgodd",
+        "date": "2024-07-03 13:10:11",
+        "updated": "2024-07-03 13:10:23",
+        "cover": "https://cdn.nlark.com/yuque/0/2021/png/22382235/1631113841304-d88a7820-816b-4490-972a-b6a11c636b0f.png",
+        "description": "机器学习和深度学习的关系其实它俩都是AI中的子问题：机器学习是实现人工智能的方法；深度学习是一种实现机器学习的技术；如何防止过拟合？链接正则化L1、L2；L2如下：更大的数据集：数据增强（平移、切分、亮度、等等）；训练时间太长，提前终止训练；融合多种模型：bagging、Boosting；Dr..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "lk1hgmd5h9mrgodd"
+        }
+      ],
+      "realName": "lk1hgmd5h9mrgodd",
+      "relativePath": "\\💹 大厂面经\\lk1hgmd5h9mrgodd.md",
+      "docPath": "docs\\doc\\💹 大厂面经"
+    },
+    {
+      "id": 176297890,
+      "doc_id": "bznerz89sdg5qwfe",
+      "updated": 1719983320000,
+      "properties": {
+        "title": "KNN分类算法",
+        "urlname": "bznerz89sdg5qwfe",
+        "date": "2024-07-03 13:07:39",
+        "updated": "2024-07-03 13:08:40",
+        "cover": "https://cdn.nlark.com/yuque/0/2021/png/22382235/1631462535724-70e59f8d-3520-4bc3-a83f-eaf803381ced.png",
+        "description": "KNN没有训练一个模型去学习输入到输出的映射，只是会把训练数据存储在kdtree的数据结构中，唯一训练的是kdtree中每个节点的split规则。而kdtree只是加速找NN的过程。KNN，K-Nearest Neighbor algorithm，所谓K近邻算法，即是给定一个训练数据集，对新的..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "bznerz89sdg5qwfe"
+        },
+        {
+          "title": "🤖人工智能",
+          "doc_id": "bznerz89sdg5qwfe"
+        }
+      ],
+      "realName": "bznerz89sdg5qwfe",
+      "relativePath": "\\🔥 程序员自我修养\\🤖人工智能\\bznerz89sdg5qwfe.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\🤖人工智能"
+    },
+    {
+      "id": 176297632,
+      "doc_id": "ucvbe5w9nqtiolmd",
+      "updated": 1719983123000,
+      "properties": {
+        "title": "AI跨界学习，不再是梦",
+        "urlname": "ucvbe5w9nqtiolmd",
+        "date": "2024-07-03 13:04:57",
+        "updated": "2024-07-03 13:05:23",
+        "cover": "https://cdn.nlark.com/yuque/0/2023/png/22382235/1701871171157-61e5195b-0d13-4f96-9b0b-517fe8c9143c.png",
+        "description": "大家好！今天给大家推荐的 GPTs 是【行业知识脉络】，帮助大家快速了解某个领域的脉络，并提供足够的学习资料和建议。在AI时代，从小白到专家的1万小时定律即将失效，用少于1千小时掌握行业知识树和其核心概念是如何学习的呢？昂起来，一起让跨界学习不再是梦！介绍以 【人工智能】为例，当我们提出问题的..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "ucvbe5w9nqtiolmd"
+        },
+        {
+          "title": "🤖人工智能",
+          "doc_id": "ucvbe5w9nqtiolmd"
+        }
+      ],
+      "realName": "ucvbe5w9nqtiolmd",
+      "relativePath": "\\🔥 程序员自我修养\\🤖人工智能\\ucvbe5w9nqtiolmd.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\🤖人工智能"
+    },
+    {
+      "id": 176218018,
+      "doc_id": "clbaakq70pduuoew",
+      "updated": 1720010320000,
+      "properties": {
+        "title": "IDEA 2024.1.4 最新激活码,破解版安装教程（亲测有效~）",
+        "urlname": "clbaakq70pduuoew",
+        "date": "2024-07-02 22:56:42",
+        "updated": "2024-07-03 20:38:40",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/jpeg/22382235/1719932219286-10887949-db2c-4aa0-8fbc-7a86f6700d99.jpeg",
+        "description": "申明：本教程 IntelliJ IDEA 破解补丁、激活码均收集于网络，请勿商用，仅供个人学习使用，如有侵权，请联系作者删除。若条件允许，希望大家购买正版 ！PS: 本教程最新更新时间: 2024 年 6 月 24 日, 网站持续更新，收藏本站防失联哟~前言6 月临近月尾，IDEA 新版本又发..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "clbaakq70pduuoew"
+        },
+        {
+          "title": "环境安装😭",
+          "doc_id": "clbaakq70pduuoew"
+        }
+      ],
+      "realName": "clbaakq70pduuoew",
+      "relativePath": "\\🔥 程序员自我修养\\环境安装😭\\clbaakq70pduuoew.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\环境安装😭"
     }
   ],
   "catalog": [
@@ -11552,7 +11689,7 @@
       "url": "ck3uzv22499u4byl",
       "prev_uuid": "_AUtENOpDG0ZxF_E",
       "sibling_uuid": "Oi5FMtop6oZm1oNe",
-      "child_uuid": "s4uOfrfZy1P0LTdP",
+      "child_uuid": "cZgzGnuivSrN0-HX",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
       "doc_id": 175495556,
       "level": 1,
@@ -11562,10 +11699,85 @@
     },
     {
       "type": "DOC",
+      "title": "深度学习激活函数有哪些？",
+      "uuid": "cZgzGnuivSrN0-HX",
+      "url": "nt61gsah6eyoi8ip",
+      "prev_uuid": "kicN7hkPayXrH8jr",
+      "sibling_uuid": "V2owSNRTTConO8CW",
+      "child_uuid": "",
+      "parent_uuid": "kicN7hkPayXrH8jr",
+      "doc_id": 176298082,
+      "level": 2,
+      "id": 176298082,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "决策树是什么？",
+      "uuid": "V2owSNRTTConO8CW",
+      "url": "ioa4al8z2lh9hf9o",
+      "prev_uuid": "cZgzGnuivSrN0-HX",
+      "sibling_uuid": "B284hKFGd7jOE3pC",
+      "child_uuid": "",
+      "parent_uuid": "kicN7hkPayXrH8jr",
+      "doc_id": 176297975,
+      "level": 2,
+      "id": 176297975,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "逻辑回归与线性回归什么关系？",
+      "uuid": "B284hKFGd7jOE3pC",
+      "url": "rdlggr5pu4ra8ny0",
+      "prev_uuid": "V2owSNRTTConO8CW",
+      "sibling_uuid": "1OxYt9ch42u1DJle",
+      "child_uuid": "",
+      "parent_uuid": "kicN7hkPayXrH8jr",
+      "doc_id": 176297941,
+      "level": 2,
+      "id": 176297941,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "KNN分类算法",
+      "uuid": "1OxYt9ch42u1DJle",
+      "url": "bznerz89sdg5qwfe",
+      "prev_uuid": "B284hKFGd7jOE3pC",
+      "sibling_uuid": "F1zPIwUXpSbH9GRV",
+      "child_uuid": "",
+      "parent_uuid": "kicN7hkPayXrH8jr",
+      "doc_id": 176297890,
+      "level": 2,
+      "id": 176297890,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "AI跨界学习，不再是梦",
+      "uuid": "F1zPIwUXpSbH9GRV",
+      "url": "ucvbe5w9nqtiolmd",
+      "prev_uuid": "1OxYt9ch42u1DJle",
+      "sibling_uuid": "s4uOfrfZy1P0LTdP",
+      "child_uuid": "",
+      "parent_uuid": "kicN7hkPayXrH8jr",
+      "doc_id": 176297632,
+      "level": 2,
+      "id": 176297632,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "Coze怎么搭建一个产品机器人？",
       "uuid": "s4uOfrfZy1P0LTdP",
       "url": "esc4emi9zi3qc9qq",
-      "prev_uuid": "kicN7hkPayXrH8jr",
+      "prev_uuid": "F1zPIwUXpSbH9GRV",
       "sibling_uuid": "",
       "child_uuid": "",
       "parent_uuid": "kicN7hkPayXrH8jr",
@@ -11837,7 +12049,7 @@
       "url": "io5kukplplfeb9ls",
       "prev_uuid": "pzU6x4VThGDwLdrN",
       "sibling_uuid": "dM55tS-xNS9gbu5Q",
-      "child_uuid": "endSX96m-bNscj-H",
+      "child_uuid": "5QWjHKD8k25LYkqM",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
       "doc_id": 171259351,
       "level": 1,
@@ -11847,10 +12059,25 @@
     },
     {
       "type": "DOC",
+      "title": "IDEA 2024.1.4 最新激活码,破解版安装教程（亲测有效~）",
+      "uuid": "5QWjHKD8k25LYkqM",
+      "url": "clbaakq70pduuoew",
+      "prev_uuid": "_d86pwt2PnWp0V6d",
+      "sibling_uuid": "endSX96m-bNscj-H",
+      "child_uuid": "",
+      "parent_uuid": "_d86pwt2PnWp0V6d",
+      "doc_id": 176218018,
+      "level": 2,
+      "id": 176218018,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "Git配置Name和Email",
       "uuid": "endSX96m-bNscj-H",
       "url": "dm7l5god0npph8v4",
-      "prev_uuid": "_d86pwt2PnWp0V6d",
+      "prev_uuid": "5QWjHKD8k25LYkqM",
       "sibling_uuid": "p4X4dU_Ko_TL5FTi",
       "child_uuid": "",
       "parent_uuid": "_d86pwt2PnWp0V6d",
@@ -16472,7 +16699,7 @@
       "url": "gc6kwq2a9iufudga",
       "prev_uuid": "w3lr-82OziASjvSa",
       "sibling_uuid": "rlp57EWbyvPwW5cr",
-      "child_uuid": "NcVLTZK8sE8hkJmb",
+      "child_uuid": "k38gbMVOoHwtcD2F",
       "parent_uuid": "",
       "doc_id": 169649865,
       "level": 0,
@@ -16482,10 +16709,25 @@
     },
     {
       "type": "DOC",
+      "title": "图像算法工程师面试",
+      "uuid": "k38gbMVOoHwtcD2F",
+      "url": "lk1hgmd5h9mrgodd",
+      "prev_uuid": "uHCIfCp4Xzc-fCfY",
+      "sibling_uuid": "NcVLTZK8sE8hkJmb",
+      "child_uuid": "",
+      "parent_uuid": "uHCIfCp4Xzc-fCfY",
+      "doc_id": 176298041,
+      "level": 1,
+      "id": 176298041,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "面试真题",
       "uuid": "NcVLTZK8sE8hkJmb",
       "url": "vxn8883st7lhfom9",
-      "prev_uuid": "uHCIfCp4Xzc-fCfY",
+      "prev_uuid": "k38gbMVOoHwtcD2F",
       "sibling_uuid": "-4qV2TE5gTaU9pS4",
       "child_uuid": "R974TfJzczDtTCez",
       "parent_uuid": "uHCIfCp4Xzc-fCfY",

@@ -2,23 +2,22 @@
 title: 我是谁？青玉白露
 urlname: srte6wq59tapieq4
 date: '2024-05-23 13:27:20'
-updated: '2024-05-27 22:36:44'
-description: '---nav_path: whitedew---青玉白露，现役程序员写过 C/C++、Go、Java, 迷恋上了 AI 。正在学习全栈开发，喜欢 Nextjs、ChakaUI、Tailwindcss 等技术，也开始了解 Web3.0、量化交易。喜欢游戏，最近是「幻兽帕鲁」喜欢阅读，最近喜欢的是...'
+updated: '2024-07-03 13:16:52'
+description: '---nav_path: whitedew---青玉白露，现役程序员，曾任职于阿里、字节，6年开发经验，前端+后端全栈。写过 C/C++、Go、Java、Python、Typescript、Node.js, 迷恋上了 AI 。正在学习全栈开发，喜欢 Nextjs、ChakaUI、Tailwin...'
 nav_path: whitedew
 ---
-青玉白露，现役程序员
+青玉白露，现役程序员，曾任职于阿里、字节，6年开发经验，**前端+后端全栈**。
 
-写过 C/C++、Go、Java, 迷恋上了 AI 。
+写过 C/C++、Go、Java、Python、Typescript、Node.js, 迷恋上了 AI 。
 
 正在学习全栈开发，喜欢 Nextjs、ChakaUI、Tailwindcss 等技术，也开始了解 Web3.0、量化交易。
 
-喜欢游戏，最近是「**幻兽帕鲁**」
+喜欢游戏，最近是「幻兽帕鲁」、「辐射4」、「艾尔登法环」。
 
-喜欢阅读，最近喜欢的是「**变形记**」
+喜欢阅读，最近喜欢的是「变形记」。
 
 ## 关于本站
-
-记录分享日常学习的软硬件技术内容，文笔随意，希望大家不要介意~
+记录分享我在学习的软硬件技术内容，文笔随意，希望大家不要介意~
 
 网站仍有很多功能正在规划中，敬请期待 🚧
 

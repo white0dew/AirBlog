@@ -50,6 +50,13 @@ export default function ProductList() {
   const router = useRouter();
   return (
     <section className="container mx-auto mt-10 ">
+      <h2 className="text-2xl font-bold mb-4 text-center">
+        哈哈，你终于来啦!😊
+      </h2>
+      <h4 className="text-md font-semibold mb-4 text-center">
+        这里有你想学习计算机、编程、校招、实习、AI……所有需要的东西！
+      </h4>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
         {products.map((product, index) => (
           <div

@@ -24,8 +24,8 @@ const config = {
       14: "3.5rem",
     },
     debugScreens: {
-      position: ['bottom', 'right'],
-      ignore: ['dark'],
+      position: ["bottom", "right"],
+      ignore: ["dark"],
     },
     container: {
       center: true,
@@ -36,8 +36,8 @@ const config = {
     },
     extend: {
       minWidth: {
-        '2xl': '42rem',
-        "3xl": '50rem',
+        "2xl": "42rem",
+        "3xl": "50rem",
       },
       colors: {
         border: "hsl(var(--border))",
@@ -80,6 +80,10 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+        slide: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(500%)" },
+        },
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
@@ -99,44 +103,43 @@ const config = {
             transform: "translateX(0%)",
           },
         },
-        'intro-scroll': {
-          '0%': {
-            transform: 'translateY(0)',
-            opacity: '0',
+        "intro-scroll": {
+          "0%": {
+            transform: "translateY(0)",
+            opacity: "0",
           },
-          '20%': {
-            transform: 'translateY(2px)',
-            opacity: '1',
+          "20%": {
+            transform: "translateY(2px)",
+            opacity: "1",
           },
-          '100%': {
-            transform: 'translateY(8px)',
-            opacity: '0',
+          "100%": {
+            transform: "translateY(8px)",
+            opacity: "0",
           },
         },
-        'cursor-blink': {
-          '50%': { borderColor: 'transparent' },
+        "cursor-blink": {
+          "50%": { borderColor: "transparent" },
         },
       },
       animation: {
-
+        "slide-right": "slide 4s infinite",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "bounce-right": "bounce-right 1s ease-in-out infinite",
         // 光标闪烁动画
-        'cursor-blink': 'cursor-blink 0.6s step-end infinite alternate',
-        'intro-scroll': 'intro-scroll 3s ease infinite',
+        "cursor-blink": "cursor-blink 0.6s step-end infinite alternate",
+        "intro-scroll": "intro-scroll 3s ease infinite",
       },
 
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },
     },
-
   },
   plugins: [
     // 开发模式下加载显示屏幕大小的插件
-    process.env.NODE_ENV === 'development' &&
-    require('tailwindcss-debug-screens'),
+    process.env.NODE_ENV === "development" &&
+      require("tailwindcss-debug-screens"),
     require("tailwindcss-animate"),
     require("@tailwindcss/typography"),
     require("tailwind-scrollbar"),

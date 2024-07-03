@@ -32,16 +32,25 @@ export default function Home() {
           <Image src={Logo} alt="logo" width={150} height={150} />
         </div>
         <h1 className="text-6xl font-bold mb-4 animate-bounce">OffewNow</h1>
+        <p className="text-xl">
+          关于
+          <span className="text-3xl px-1 text-blue-300">计算机、编程&&AI</span>
+          ,可能你只需要这
+          <span className="text-3xl">一个</span>网站
+        </p>
 
-        <p className="text-xl">立即拿到Offer哦!</p>
-        <p className="text-xl">分享最新的面试技巧、题库和编程知识</p>
         {/* 数据统计组件 */}
         <div className="text-center space-y-3 flex flex-col items-center">
           <span className="text-2xl font-semibold">
             当前网站共有{" "}
             <span className="text-green-500">{allPosts.length}</span> 份学习资料
           </span>
-
+          <div className="relative w-96 h-1 bg-black overflow-hidden rounded-lg flex flex-row">
+            <div
+              className="absolute w-16 h-1 bg-gradient-to-r rounded-xl from-transparent
+             via-white to-blue-500 animate-slide-right"
+            ></div>
+          </div>
           <div className="flex items-center justify-center ">
             <div className=" animate-bounce-right flex items-center self-center text-xl">
               👉
@@ -54,6 +63,8 @@ export default function Home() {
               赶紧卷起来！
             </CustomLink>
           </div>
+
+          <p className="text-xl">分享最新的面试技巧、题库和编程知识</p>
         </div>
       </section>
 

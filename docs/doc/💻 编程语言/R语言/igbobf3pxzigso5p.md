@@ -2,7 +2,7 @@
 title: 第 16 章 R语言实战项目四：预测房价走势
 urlname: igbobf3pxzigso5p
 date: '2024-06-28 11:45:14'
-updated: '2024-06-28 11:59:51'
+updated: '2024-07-05 12:02:19'
 cover: 'https://cdn.nlark.com/yuque/__mermaid_v3/b212b77d9f7f375621c4547227fdf388.svg'
 description: 'keywords: 房价预测, 时间序列, ARIMA 模型, 特征工程, 可视化在本章中,我们将通过一个实战项目,运用前面学到的 R 语言知识,来预测未来的房价走势。房地产市场是国民经济的重要组成部分,房价的走势不仅影响着普通百姓的生活,也关系到宏观经济的稳定。因此,准确预测房价走势,对于个...'
 keywords: '房价预测, 时间序列, ARIMA 模型, 特征工程, 可视化'
@@ -52,8 +52,7 @@ price_decom <- decompose(price_ts)
 plot(price_decom)
 ```
 通过`decompose`函数,我们将房价数据分解为长期趋势、季节性变动和随机波动三个部分,并通过可视化观察其变化规律,为后续建模做好准备。
-![](https://oss1.aistar.cool/elog-offer-now/105c74079b382d0808709778f5b39e5a.svg)![](https://raw.githubusercontent.com/xxxx/xxxx/output_1.png#from=url&id=Lq1ev&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
-从分解图可以看出,房价数据有明显的上升趋势,且存在一定的季节性周期波动。
+![](https://oss1.aistar.cool/elog-offer-now/105c74079b382d0808709778f5b39e5a.svg)从分解图可以看出,房价数据有明显的上升趋势,且存在一定的季节性周期波动。
 ## 16.3 特征工程
 为了提高预测的准确性,我们可以将一些影响房价的特征因素加入到模型中,如房龄、区域、交通等。下面我们就对这些特征进行一些处理:
 ### 16.3.1 特征提取
@@ -105,7 +104,6 @@ price_arima <- arima(price_ts, order = c(2,1,1))
 summary(price_arima)
 ```
 ACF 和 PACF 图可以帮助我们识别 ARIMA 模型的阶数,在本例中我们选择了 ARIMA(2,1,1)模型,即 2 阶自回归、1 阶差分、1 阶移动平均:
-![](https://raw.githubusercontent.com/xxxx/xxxx/output_2.png#from=url&id=He4O0&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
 ```r
 # ARIMA模型残差检验
 tsdiag(price_arima)
@@ -124,7 +122,6 @@ autoplot(price_fore) +
   labs(title = "房价走势预测",
        x = "日期", y = "价格")
 ```
-![](https://raw.githubusercontent.com/xxxx/xxxx/output_3.png#from=url&id=aODa4&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
 从预测结果可以看出,未来半年房价将保持平稳上涨的态势,预计涨幅在 5%左右。预测的置信区间较窄,说明模型的不确定性较小,预测效果良好。
 ## 16.5 模型评估与调优
 为了评估时间序列模型的预测效果,我们可以用 MAPE(平均绝对百分比误差)等指标衡量:

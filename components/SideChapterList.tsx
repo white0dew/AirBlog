@@ -1,7 +1,7 @@
 "use client";
 
 import { ElogChapter } from "@/types/elog";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import {
   Collapsible,
   CollapsibleContent,
@@ -23,6 +23,17 @@ function SidebarItem({ chapter }: { chapter: ElogChapter }) {
   // 判断是否为可导航项目
   const isNavigable =
     !chapter.is_nav && (!chapter.children || chapter.children.length === 0);
+  const itemRef = useRef<HTMLDivElement>(null); // 新增：用于引用目录项的DOM元素
+
+  // 新增：useEffect钩子，监听path的变化
+  useEffect(() => {
+    if (path === chapter.url && itemRef.current) {
+      itemRef.current.scrollIntoView({
+        behavior: "auto", // 平滑滚动
+        block: "start", // 在视图中心
+      });
+    }
+  }, [path]);
 
   return (
     <Collapsible
@@ -31,6 +42,8 @@ function SidebarItem({ chapter }: { chapter: ElogChapter }) {
       className="w-full space-y-2"
     >
       <CollapsibleTrigger
+        // @ts-ignore
+        ref={itemRef} // 新增：设置ref
         className={cn(
           `relative flex items-center 
             justify-between

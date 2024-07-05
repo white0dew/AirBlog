@@ -160,7 +160,7 @@
     <loc>https://offernow.cn/s/self_improve/install_env/clbaakq70pduuoew</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-07-03T12:38:40.000Z</lastmod>
+    <lastmod>2024-07-03T13:23:04.000Z</lastmod>
   </url>
   <url>
     <loc>https://offernow.cn/s/self_improve/install_env/dm7l5god0npph8v4</loc>
@@ -310,7 +310,7 @@
     <loc>https://offernow.cn/s/cs_base/os/hand_os/vpcarog0vdzlbgx3</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-07-03T13:04:52.596Z</lastmod>
+    <lastmod>2024-07-05T04:21:19.924Z</lastmod>
   </url>
   <url>
     <loc>https://offernow.cn/s/cs_base/os/hand_os/ho88cbpxgbc2gpnf</loc>
@@ -430,7 +430,7 @@
     <loc>https://offernow.cn/s/cs_base/zk26wlg3ozzqospe</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <lastmod>2024-07-03T13:04:52.597Z</lastmod>
+    <lastmod>2024-07-05T04:21:19.924Z</lastmod>
   </url>
   <url>
     <loc>https://offernow.cn/s/cs_base/zk26wlg3ozzqospe/hee9hlritx0n8hcc</loc>
@@ -599,6 +599,48 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <lastmod>2024-06-28T04:21:59.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/cs_base/design_patterns</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2024-07-05T02:59:56.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/cs_base/design_patterns/ev5mq3v4brstfd78</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-07-05T03:29:29.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/cs_base/design_patterns/gc2uxn4sfb8s94ts</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-07-05T03:27:59.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/cs_base/design_patterns/vpb2ynhhocz1pgy6</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-07-05T03:29:51.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/cs_base/design_patterns/dfd7a2gtvtf9mue4</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-07-05T03:30:21.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/cs_base/design_patterns/la44sq94482qcne2</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-07-05T03:30:28.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://offernow.cn/s/cs_base/design_patterns/ymfzf8csegmsccld</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2024-07-05T03:30:33.000Z</lastmod>
   </url>
   <url>
     <loc>https://offernow.cn/s/cs_base/linux</loc>
@@ -1738,7 +1780,7 @@
     <loc>https://offernow.cn/s/language/r/vxk6z46tg1020y1q</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-06-28T03:55:35.000Z</lastmod>
+    <lastmod>2024-07-05T03:57:16.000Z</lastmod>
   </url>
   <url>
     <loc>https://offernow.cn/s/language/r/syx0xhctmne8tdep</loc>
@@ -1804,7 +1846,7 @@
     <loc>https://offernow.cn/s/language/r/igbobf3pxzigso5p</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-06-28T03:59:51.000Z</lastmod>
+    <lastmod>2024-07-05T04:02:19.000Z</lastmod>
   </url>
   <url>
     <loc>https://offernow.cn/s/language/vite</loc>
@@ -1888,7 +1930,7 @@
     <loc>https://offernow.cn/s/language/vue3/ebxce1ws74y0t8tq</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-07-03T13:04:52.602Z</lastmod>
+    <lastmod>2024-07-05T04:21:19.927Z</lastmod>
   </url>
   <url>
     <loc>https://offernow.cn/s/language/vue3/ecpzrwpgo9ugf2bb</loc>
@@ -2164,7 +2206,7 @@
     <loc>https://offernow.cn/s/interview/chat_view/20244/lgawhfx8pq2slyko</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <lastmod>2024-07-03T13:04:52.603Z</lastmod>
+    <lastmod>2024-07-05T04:21:19.927Z</lastmod>
   </url>
   <url>
     <loc>https://offernow.cn/s/interview/chat_view/20244/iv993phgec0ybt41</loc>

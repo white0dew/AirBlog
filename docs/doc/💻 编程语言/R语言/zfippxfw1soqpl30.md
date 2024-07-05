@@ -241,7 +241,7 @@ dbDisconnect(con)
 - MySQL 数据库`test`中的`results`表: 包含`results`数据框的数据
 
 通过这个示例,我们演示了如何使用 R 语言将数据导出为不同格式的文件和数据库表。
-![](https://oss1.aistar.cool/elog-offer-now/3f283787ba48aa0fdfa3d5a2c29f3e05.png)
+![](https://cdn.jsdelivr.net/gh/BulletTech2021/Pics/2021-6-14/1623637670600-r-export.png#from=url&id=eaSIj&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
 以上就是 R 语言数据导入与导出的主要内容。通过本章的学习,你应该掌握了如何:
 
 - 从文本文件(CSV、TXT)中读取数据

@@ -2,7 +2,8 @@
 title: 诸葛亮的七星灯阵 - 单例模式
 urlname: gc2uxn4sfb8s94ts
 date: '2024-07-05 11:02:44'
-updated: '2024-07-05 11:27:59'
+updated: '2024-07-08 22:39:30'
+cover: 'https://cdn.nlark.com/yuque/__mermaid_v3/1052bb1bd8e93fd0fc5d255a61287ba6.svg'
 description: '"运筹帷幄之中，决胜千里之外。一盏明灯，照亮万里江山。"在蜀汉建兴五年，诸葛亮率军北伐，欲一举扫平魏国。然而，大军行至祁山，却遭遇了前所未有的困境。在这危急时刻，诸葛亮设下了一个神秘的阵法——七星灯阵。这个阵法不仅化解了危机，更蕴含了现代软件设计中单例模式的精髓。七星灯阵耀夜空，一盏明灯定乾坤...'
 ---
 "运筹帷幄之中，决胜千里之外。一盏明灯，照亮万里江山。"
@@ -33,7 +34,7 @@ description: '"运筹帷幄之中，决胜千里之外。一盏明灯，照亮�
 - 只有一盏天枢灯，确保了阵法的统一性和有效性
 
 让我们用类图来理解单例模式的结构：
-## 代码实现
+![](https://oss1.aistar.cool/elog-offer-now/43d6c69c174f842a57bee55c68fbd7c7.svg)## 代码实现
 让我们用 Java 来实现这个七星灯阵系统：
 ```java
 public class SevenStarLampFormation {

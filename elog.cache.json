@@ -927,9 +927,8 @@
         }
       ],
       "realName": "zfippxfw1soqpl30",
-      "relativePath": "\\💻 编程语言\\R语言\\zfippxfw1soqpl30.md",
-      "needUpdate": 1,
-      "docPath": "docs\\doc\\💻 编程语言\\R语言"
+      "relativePath": "/💻 编程语言/R语言/zfippxfw1soqpl30.md",
+      "docPath": "docs/doc/💻 编程语言/R语言"
     },
     {
       "id": 175569828,
@@ -11985,6 +11984,35 @@
       "realName": "glme2cxvpkbflykn",
       "relativePath": "\\💻 编程语言\\Go\\🏫 新手入门\\glme2cxvpkbflykn.md",
       "docPath": "docs\\doc\\💻 编程语言\\Go\\🏫 新手入门"
+    },
+    {
+      "id": 177644200,
+      "doc_id": "muby5dz3x4wlzb5k",
+      "updated": 1720759732000,
+      "properties": {
+        "title": "Go内存模型详解",
+        "urlname": "muby5dz3x4wlzb5k",
+        "date": "2024-07-12 12:39:23",
+        "updated": "2024-07-12 12:48:52",
+        "description": "引言Go内存模型规定了在一个goroutine中读取变量时，在何种条件下可以保证观察到另一个goroutine中对同一变量的写入所产生的值。建议同时被多个goroutine访问的程序数据必须进行同步访问。要序列化访问，请使用通道操作或其他同步原语（如sync和sync/atomic包中的那些）..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "muby5dz3x4wlzb5k"
+        },
+        {
+          "title": "Go",
+          "doc_id": "muby5dz3x4wlzb5k"
+        },
+        {
+          "title": "🎁 最佳实践",
+          "doc_id": "muby5dz3x4wlzb5k"
+        }
+      ],
+      "realName": "muby5dz3x4wlzb5k",
+      "relativePath": "/💻 编程语言/Go/🎁 最佳实践/muby5dz3x4wlzb5k.md",
+      "docPath": "docs/doc/💻 编程语言/Go/🎁 最佳实践"
     }
   ],
   "catalog": [
@@ -13840,7 +13868,7 @@
       "url": "htpzy6yum72pgula",
       "prev_uuid": "A8eSO-NCQw0ild1y",
       "sibling_uuid": "u2KBx-kui0oQ6a40",
-      "child_uuid": "0mSAwTN00OhNernO",
+      "child_uuid": "v08I-Wt6rBgM_etV",
       "parent_uuid": "Kz42HmwRUbbo3mma",
       "doc_id": 170698560,
       "level": 2,
@@ -13850,10 +13878,25 @@
     },
     {
       "type": "DOC",
+      "title": "Go内存模型详解",
+      "uuid": "v08I-Wt6rBgM_etV",
+      "url": "muby5dz3x4wlzb5k",
+      "prev_uuid": "YOd5pEsvtecnipV1",
+      "sibling_uuid": "0mSAwTN00OhNernO",
+      "child_uuid": "",
+      "parent_uuid": "YOd5pEsvtecnipV1",
+      "doc_id": 177644200,
+      "level": 3,
+      "id": 177644200,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "并发：Goroutines和Channels的详细指南",
       "uuid": "0mSAwTN00OhNernO",
       "url": "acksp7eld7k9p7ag",
-      "prev_uuid": "YOd5pEsvtecnipV1",
+      "prev_uuid": "v08I-Wt6rBgM_etV",
       "sibling_uuid": "QbSmaCB_JDZ5arro",
       "child_uuid": "",
       "parent_uuid": "YOd5pEsvtecnipV1",

@@ -11102,12 +11102,12 @@
     {
       "id": 170693123,
       "doc_id": "rwa8n4f482ryn4o9",
-      "updated": 1716526142000,
+      "updated": 1720791513000,
       "properties": {
         "title": "🤔 Golang语法速查手册",
         "urlname": "rwa8n4f482ryn4o9",
         "date": "2024-05-22 19:12:04",
-        "updated": "2024-05-24 12:49:02",
+        "updated": "2024-07-12 21:38:33",
         "description": "---nav_path: golang_instant_reference---golang-cheat-sheet是目前GitHub上最流行的golang代码速查表。作者Ariel Mashraki也是Facebook著名ORM框架ent(2019年开源)的作者和首席布道师。这一篇是中文翻译...",
         "nav_path": "golang_instant_reference"
       },
@@ -11122,8 +11122,8 @@
         }
       ],
       "realName": "rwa8n4f482ryn4o9",
-      "relativePath": "\\💻 编程语言\\Go\\rwa8n4f482ryn4o9.md",
-      "docPath": "docs\\doc\\💻 编程语言\\Go"
+      "relativePath": "/💻 编程语言/Go/rwa8n4f482ryn4o9.md",
+      "docPath": "docs/doc/💻 编程语言/Go"
     },
     {
       "id": 170922080,
@@ -11399,13 +11399,14 @@
     {
       "id": 170598553,
       "doc_id": "qnf5c4s774uxb7s4",
-      "updated": 1716515578000,
+      "updated": 1720760803000,
       "properties": {
         "title": "Java",
         "urlname": "qnf5c4s774uxb7s4",
         "date": "2024-05-22 08:48:41",
-        "updated": "2024-05-24 09:52:58",
-        "description": "---nav_path: java---",
+        "updated": "2024-07-12 13:06:43",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/3dfd7076e3fd2cae25db4b4ea5aa127b.svg",
+        "description": "---nav_path: java2024年Java开发者学习路线图1. 基础知识1.1 Java语法变量、数据类型、运算符控制流程（if-else, switch, loops）方法和参数传递数组和字符串操作1.2 面向对象编程(OOP)概念类和对象继承、封装、多态抽象类和接口包和访问修饰符...",
         "nav_path": "java"
       },
       "catalog": [
@@ -11415,8 +11416,8 @@
         }
       ],
       "realName": "qnf5c4s774uxb7s4",
-      "relativePath": "\\💻 编程语言\\qnf5c4s774uxb7s4.md",
-      "docPath": "docs\\doc\\💻 编程语言"
+      "relativePath": "/💻 编程语言/qnf5c4s774uxb7s4.md",
+      "docPath": "docs/doc/💻 编程语言"
     },
     {
       "id": 170897521,
@@ -11566,13 +11567,14 @@
     {
       "id": 170676389,
       "doc_id": "gzdu2g90x1k7goos",
-      "updated": 1716514695000,
+      "updated": 1720760549000,
       "properties": {
         "title": "Go",
         "urlname": "gzdu2g90x1k7goos",
         "date": "2024-05-22 17:04:00",
-        "updated": "2024-05-24 09:38:15",
-        "description": "---nav_path: golang---",
+        "updated": "2024-07-12 13:02:29",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/23323cea8b284be9547a58448ae06501.svg",
+        "description": "---nav_path: golangGo 开发者路线图 20241. 基础知识1.1 语法基础变量、常量、数据类型控制结构（if、for、switch）函数和方法包管理错误处理1.2 数据结构数组和切片映射（Map）结构体接口1.3 并发基础GoroutinesChannelsSelect语...",
         "nav_path": "golang"
       },
       "catalog": [
@@ -11582,8 +11584,8 @@
         }
       ],
       "realName": "gzdu2g90x1k7goos",
-      "relativePath": "\\💻 编程语言\\gzdu2g90x1k7goos.md",
-      "docPath": "docs\\doc\\💻 编程语言"
+      "relativePath": "/💻 编程语言/gzdu2g90x1k7goos.md",
+      "docPath": "docs/doc/💻 编程语言"
     },
     {
       "id": 170897039,
@@ -12013,6 +12015,83 @@
       "realName": "muby5dz3x4wlzb5k",
       "relativePath": "/💻 编程语言/Go/🎁 最佳实践/muby5dz3x4wlzb5k.md",
       "docPath": "docs/doc/💻 编程语言/Go/🎁 最佳实践"
+    },
+    {
+      "id": 177716315,
+      "doc_id": "ff0wznhdiy3qw9r2",
+      "updated": 1720794221000,
+      "properties": {
+        "title": "字节商业化一面",
+        "urlname": "ff0wznhdiy3qw9r2",
+        "date": "2024-07-12 22:19:07",
+        "updated": "2024-07-12 22:23:41",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1720793949111-16193cc3-328b-4bce-abb2-8145ffab4361.png",
+        "description": "题目题目来自：https://www.nowcoder.com/feed/main/detail/e56ca5688e3d4f64b7c91ba5f5f0cb71面试记录"
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "ff0wznhdiy3qw9r2"
+        },
+        {
+          "title": "面试真题",
+          "doc_id": "ff0wznhdiy3qw9r2"
+        }
+      ],
+      "realName": "ff0wznhdiy3qw9r2",
+      "relativePath": "/💹 大厂面经/面试真题/ff0wznhdiy3qw9r2.md",
+      "docPath": "docs/doc/💹 大厂面经/面试真题"
+    },
+    {
+      "id": 177645494,
+      "doc_id": "echqwn8b64s6zty0",
+      "updated": 1720835946000,
+      "properties": {
+        "title": "字节后端面经:3小时极限压榨，11个高频问题",
+        "urlname": "echqwn8b64s6zty0",
+        "date": "2024-07-12 13:06:53",
+        "updated": "2024-07-13 09:59:06",
+        "description": "面试问题字节后端面经，严刑拷打3小时。问实习经历，但是拷打的是自己的项目，正规的规则引擎了解过吗。浏览器键入网址全过程http为什么是无状态死锁条件子网掩码的作用mysql b+树和b树redis数据结构，用什么结构实现延迟消息队列redis分片集群，如何分片的，有什么好处jvm内存分布，有垃..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "echqwn8b64s6zty0"
+        },
+        {
+          "title": "面试真题",
+          "doc_id": "echqwn8b64s6zty0"
+        }
+      ],
+      "realName": "echqwn8b64s6zty0",
+      "relativePath": "/💹 大厂面经/面试真题/echqwn8b64s6zty0.md",
+      "docPath": "docs/doc/💹 大厂面经/面试真题"
+    },
+    {
+      "id": 177646166,
+      "doc_id": "mpr8avvkgpn7bi8r",
+      "updated": 1720792370000,
+      "properties": {
+        "title": "字节测开一面：感觉比后端开发还难啊···",
+        "urlname": "mpr8avvkgpn7bi8r",
+        "date": "2024-07-12 13:17:06",
+        "updated": "2024-07-12 21:52:50",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/a4fd339adcbcdf773a32d9d3c9ae4671.svg",
+        "description": "面试内容1.自我介绍2.问自己哪个项目最困难3.问常见的数据结构有哪些4.问怎么用两个队列实现栈5.问计网，TCP与UDP的区别6.进程和线程7.手撕：最长回文子串8.噢想起来还问了一个栈和队列的区别面试回答自我介绍面试官：欢迎来到字节跳动的面试。首先，请你做一个简单的自我介绍吧。求职者：好的..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "mpr8avvkgpn7bi8r"
+        },
+        {
+          "title": "面试真题",
+          "doc_id": "mpr8avvkgpn7bi8r"
+        }
+      ],
+      "realName": "mpr8avvkgpn7bi8r",
+      "relativePath": "/💹 大厂面经/面试真题/mpr8avvkgpn7bi8r.md",
+      "docPath": "docs/doc/💹 大厂面经/面试真题"
     }
   ],
   "catalog": [
@@ -17213,7 +17292,7 @@
       "url": "vxn8883st7lhfom9",
       "prev_uuid": "k38gbMVOoHwtcD2F",
       "sibling_uuid": "-4qV2TE5gTaU9pS4",
-      "child_uuid": "R974TfJzczDtTCez",
+      "child_uuid": "Kr912WUb8RexnPMB",
       "parent_uuid": "uHCIfCp4Xzc-fCfY",
       "doc_id": 171465323,
       "level": 1,
@@ -17223,10 +17302,55 @@
     },
     {
       "type": "DOC",
+      "title": "字节商业化一面",
+      "uuid": "Kr912WUb8RexnPMB",
+      "url": "ff0wznhdiy3qw9r2",
+      "prev_uuid": "NcVLTZK8sE8hkJmb",
+      "sibling_uuid": "huJYCk2Wj4JMxEtX",
+      "child_uuid": "",
+      "parent_uuid": "NcVLTZK8sE8hkJmb",
+      "doc_id": 177716315,
+      "level": 2,
+      "id": 177716315,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "字节测开一面：感觉比后端开发还难啊···",
+      "uuid": "huJYCk2Wj4JMxEtX",
+      "url": "mpr8avvkgpn7bi8r",
+      "prev_uuid": "Kr912WUb8RexnPMB",
+      "sibling_uuid": "MpirGemsOapRz4TT",
+      "child_uuid": "",
+      "parent_uuid": "NcVLTZK8sE8hkJmb",
+      "doc_id": 177646166,
+      "level": 2,
+      "id": 177646166,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "字节后端面经:3小时极限压榨，11个高频问题",
+      "uuid": "MpirGemsOapRz4TT",
+      "url": "echqwn8b64s6zty0",
+      "prev_uuid": "huJYCk2Wj4JMxEtX",
+      "sibling_uuid": "R974TfJzczDtTCez",
+      "child_uuid": "",
+      "parent_uuid": "NcVLTZK8sE8hkJmb",
+      "doc_id": 177645494,
+      "level": 2,
+      "id": 177645494,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "字节生活服务 后端一面6.28",
       "uuid": "R974TfJzczDtTCez",
       "url": "np44y2r4wyo9kta6",
-      "prev_uuid": "NcVLTZK8sE8hkJmb",
+      "prev_uuid": "MpirGemsOapRz4TT",
       "sibling_uuid": "n7BE64KRQ0VgWnMm",
       "child_uuid": "",
       "parent_uuid": "NcVLTZK8sE8hkJmb",

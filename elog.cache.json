@@ -647,13 +647,14 @@
     {
       "id": 176020939,
       "doc_id": "np44y2r4wyo9kta6",
-      "updated": 1719832476000,
+      "updated": 1721052162000,
       "properties": {
-        "title": "字节生活服务 后端一面6.28",
+        "title": "字节生服后端一面：这些问题你都答对了，什么时候入职？618",
         "urlname": "np44y2r4wyo9kta6",
         "date": "2024-07-01 19:14:25",
-        "updated": "2024-07-01 19:14:36",
-        "description": "1.聊实习2.violate关键字作用3.若violate i=0, 有3个线程同时对其+1，i的值是多少；若AtomicInteger i=0, 同样的操作，i的值是多少4.网页中输入url，其过程；为什么是4次挥手，而不是3次挥手5.tcp/ip模型和OSI7层模型对应关系6.了解redi..."
+        "updated": "2024-07-15 22:02:42",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/d4a1fe260c9b9984d1dff94a55d3c478.svg",
+        "description": "面经1.聊实习2.violate关键字作用3.若violate i=0, 有3个线程同时对其+1，i的值是多少；若AtomicInteger i=0, 同样的操作，i的值是多少4.网页中输入url，其过程；为什么是4次挥手，而不是3次挥手5.tcp/ip模型和OSI7层模型对应关系6.了解re..."
       },
       "catalog": [
         {
@@ -666,8 +667,8 @@
         }
       ],
       "realName": "np44y2r4wyo9kta6",
-      "relativePath": "\\💹 大厂面经\\面试真题\\np44y2r4wyo9kta6.md",
-      "docPath": "docs\\doc\\💹 大厂面经\\面试真题"
+      "relativePath": "/💹 大厂面经/面试真题/np44y2r4wyo9kta6.md",
+      "docPath": "docs/doc/💹 大厂面经/面试真题"
     },
     {
       "id": 175570435,
@@ -12019,14 +12020,14 @@
     {
       "id": 177716315,
       "doc_id": "ff0wznhdiy3qw9r2",
-      "updated": 1720794221000,
+      "updated": 1721053113000,
       "properties": {
-        "title": "字节商业化一面",
+        "title": "字节商业化一面:面试内容很多，面试官很nice！",
         "urlname": "ff0wznhdiy3qw9r2",
         "date": "2024-07-12 22:19:07",
-        "updated": "2024-07-12 22:23:41",
+        "updated": "2024-07-15 22:18:33",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1720793949111-16193cc3-328b-4bce-abb2-8145ffab4361.png",
-        "description": "题目题目来自：https://www.nowcoder.com/feed/main/detail/e56ca5688e3d4f64b7c91ba5f5f0cb71面试记录"
+        "description": "题目时间:2024-07-11持续时间:80分钟，算法写了快50min总体体验:面试官很好，循循善诱，没有思路的也有提示问题:1.自我介绍，实习内容2.询问简历中的RBAC模型是什么意思，讲一下3.系统用户量多少(提到了会查出很多ip)ip这么多如何存储，mysql吗，看你提到了es。解释使用..."
       },
       "catalog": [
         {
@@ -12091,6 +12092,81 @@
       ],
       "realName": "mpr8avvkgpn7bi8r",
       "relativePath": "/💹 大厂面经/面试真题/mpr8avvkgpn7bi8r.md",
+      "docPath": "docs/doc/💹 大厂面经/面试真题"
+    },
+    {
+      "id": 177781169,
+      "doc_id": "iv44cpd623e9qmcm",
+      "updated": 1721051051000,
+      "properties": {
+        "title": "4.9 百度二面面经",
+        "urlname": "iv44cpd623e9qmcm",
+        "date": "2024-07-13 14:40:01",
+        "updated": "2024-07-15 21:44:11",
+        "description": "面经docker与虚拟机的区别docker是怎样实现资源隔离和资源限制的docker如何实现相互通信docker file了解吗（不了解）说一下epoll水平触发和边缘触发sql题，给stu_id,stu_score,stu_name求平均分having是干嘛的手撕：二叉树最大路径和说一下几个..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "iv44cpd623e9qmcm"
+        },
+        {
+          "title": "面试真题",
+          "doc_id": "iv44cpd623e9qmcm"
+        }
+      ],
+      "realName": "iv44cpd623e9qmcm",
+      "relativePath": "/💹 大厂面经/面试真题/iv44cpd623e9qmcm.md",
+      "docPath": "docs/doc/💹 大厂面经/面试真题"
+    },
+    {
+      "id": 177780672,
+      "doc_id": "ptnpq2ugcgpw5404",
+      "updated": 1720852467000,
+      "properties": {
+        "title": "美团后端日常实习一面面经",
+        "urlname": "ptnpq2ugcgpw5404",
+        "date": "2024-07-13 14:34:19",
+        "updated": "2024-07-13 14:34:27",
+        "description": "1、自我介绍2、挑选一个你觉得最有价值的项目说一下：说了一个数据中台的项目。其中有两个有意思的地方。（1）一个控制反转思想设计的外键依赖自动检查工具。详情见博客：https://blog.csdn.net/qq_28625359/article/details/140147873?spm=10..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "ptnpq2ugcgpw5404"
+        },
+        {
+          "title": "面试真题",
+          "doc_id": "ptnpq2ugcgpw5404"
+        }
+      ],
+      "realName": "ptnpq2ugcgpw5404",
+      "relativePath": "/💹 大厂面经/面试真题/ptnpq2ugcgpw5404.md",
+      "docPath": "docs/doc/💹 大厂面经/面试真题"
+    },
+    {
+      "id": 177781126,
+      "doc_id": "dymac5z7gm1iragd",
+      "updated": 1721051194000,
+      "properties": {
+        "title": "字节飞书后端二面：简单的一批！",
+        "urlname": "dymac5z7gm1iragd",
+        "date": "2024-07-13 14:39:12",
+        "updated": "2024-07-15 21:46:34",
+        "description": "最简单的一集1、自我介绍2、项目太简单，随便问了两句==================数据结构================1、数据结构的排序算法有哪些？（每种时间复杂度都说一下，快排和堆排的编程思想是什么？）2、说一下经典的图论算法及使用场景（最短路、最小生成树等等）3、如何判断有向图是..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "dymac5z7gm1iragd"
+        },
+        {
+          "title": "面试真题",
+          "doc_id": "dymac5z7gm1iragd"
+        }
+      ],
+      "realName": "dymac5z7gm1iragd",
+      "relativePath": "/💹 大厂面经/面试真题/dymac5z7gm1iragd.md",
       "docPath": "docs/doc/💹 大厂面经/面试真题"
     }
   ],
@@ -17292,7 +17368,7 @@
       "url": "vxn8883st7lhfom9",
       "prev_uuid": "k38gbMVOoHwtcD2F",
       "sibling_uuid": "-4qV2TE5gTaU9pS4",
-      "child_uuid": "Kr912WUb8RexnPMB",
+      "child_uuid": "KLvPONRvQmW1LqHX",
       "parent_uuid": "uHCIfCp4Xzc-fCfY",
       "doc_id": 171465323,
       "level": 1,
@@ -17302,10 +17378,55 @@
     },
     {
       "type": "DOC",
-      "title": "字节商业化一面",
+      "title": "4.9 百度二面面经",
+      "uuid": "KLvPONRvQmW1LqHX",
+      "url": "iv44cpd623e9qmcm",
+      "prev_uuid": "NcVLTZK8sE8hkJmb",
+      "sibling_uuid": "0steaF0Wm5Nvnzkd",
+      "child_uuid": "",
+      "parent_uuid": "NcVLTZK8sE8hkJmb",
+      "doc_id": 177781169,
+      "level": 2,
+      "id": 177781169,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "字节飞书后端二面：简单的一批！",
+      "uuid": "0steaF0Wm5Nvnzkd",
+      "url": "dymac5z7gm1iragd",
+      "prev_uuid": "KLvPONRvQmW1LqHX",
+      "sibling_uuid": "Sxf2q9xnSXRBuVOA",
+      "child_uuid": "",
+      "parent_uuid": "NcVLTZK8sE8hkJmb",
+      "doc_id": 177781126,
+      "level": 2,
+      "id": 177781126,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "美团后端日常实习一面面经",
+      "uuid": "Sxf2q9xnSXRBuVOA",
+      "url": "ptnpq2ugcgpw5404",
+      "prev_uuid": "0steaF0Wm5Nvnzkd",
+      "sibling_uuid": "Kr912WUb8RexnPMB",
+      "child_uuid": "",
+      "parent_uuid": "NcVLTZK8sE8hkJmb",
+      "doc_id": 177780672,
+      "level": 2,
+      "id": 177780672,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "字节商业化一面:面试内容很多，面试官很nice！",
       "uuid": "Kr912WUb8RexnPMB",
       "url": "ff0wznhdiy3qw9r2",
-      "prev_uuid": "NcVLTZK8sE8hkJmb",
+      "prev_uuid": "Sxf2q9xnSXRBuVOA",
       "sibling_uuid": "huJYCk2Wj4JMxEtX",
       "child_uuid": "",
       "parent_uuid": "NcVLTZK8sE8hkJmb",
@@ -17347,7 +17468,7 @@
     },
     {
       "type": "DOC",
-      "title": "字节生活服务 后端一面6.28",
+      "title": "字节生服后端一面：这些问题你都答对了，什么时候入职？618",
       "uuid": "R974TfJzczDtTCez",
       "url": "np44y2r4wyo9kta6",
       "prev_uuid": "MpirGemsOapRz4TT",

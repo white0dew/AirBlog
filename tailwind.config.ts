@@ -1,12 +1,9 @@
-// @ts-check
+// @ts-nocheck
+
 import type { Config } from "tailwindcss";
 const { fontFamily } = require("tailwindcss/defaultTheme");
 import colors from "tailwindcss/colors";
-import {
-  createVariableColors,
-  variableColorsPlugin,
-} from "tailwindcss-variable-colors";
-import { mylog } from "./lib/utils";
+import { variableColorsPlugin } from "tailwindcss-variable-colors";
 
 const config = {
   darkMode: ["class"],
@@ -36,6 +33,8 @@ const config = {
       },
     },
     extend: {
+      // @ts-nocheck
+      // @ts-ignore
       typography: ({ theme }) => ({
         DEFAULT: {
           css: {

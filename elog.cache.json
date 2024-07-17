@@ -2624,13 +2624,13 @@
     {
       "id": 170598462,
       "doc_id": "qfaugcu7d1ucqdq5",
-      "updated": 1719323343000,
+      "updated": 1721227781000,
       "properties": {
         "title": "更新日志",
         "urlname": "qfaugcu7d1ucqdq5",
         "date": "2024-05-22 08:47:22",
-        "updated": "2024-06-25 21:49:03",
-        "description": "---nav_path: changelog2024-6-24修复主页字数错误更新智力题以及高频场景题2024-6-23新增keywords关键词2024-6-19新增内容：新增Go语言相关内容新增最强前端、最强后端相关内容新增友情链接功能2024-6-13优化网站排版：防止页面崩溃更新主页I...",
+        "updated": "2024-07-17 22:49:41",
+        "description": "---nav_path: changelog2024-7-17新增搜索功能搜索功能还有一些问题，显示有误，待修复更新readme更新文档2024-6-24修复主页字数错误更新智力题以及高频场景题2024-6-23新增keywords关键词2024-6-19新增内容：新增Go语言相关内容新增最强...",
         "nav_path": "changelog"
       },
       "catalog": [
@@ -12193,6 +12193,31 @@
       "realName": "bg15413yf107b8lc",
       "relativePath": "\\💹 大厂面经\\面试真题\\bg15413yf107b8lc.md",
       "docPath": "docs\\doc\\💹 大厂面经\\面试真题"
+    },
+    {
+      "id": 178373399,
+      "doc_id": "elci0wuxaz92cymo",
+      "updated": 1721227979000,
+      "properties": {
+        "title": "pnpm、npm 、yarn更换国内源",
+        "urlname": "elci0wuxaz92cymo",
+        "date": "2024-07-17 21:51:15",
+        "updated": "2024-07-17 22:52:59",
+        "description": "背景pnpm下载国外包的时候实在是太难受了！！我要换源！pnpm换源相关命令# 安装 npm install -g pnpm # 查看源 pnpm get registry pnpm config get registry # 临时修改 pnpm config set registry <re..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "elci0wuxaz92cymo"
+        },
+        {
+          "title": "最强前端🏷️",
+          "doc_id": "elci0wuxaz92cymo"
+        }
+      ],
+      "realName": "elci0wuxaz92cymo",
+      "relativePath": "\\🔥 程序员自我修养\\最强前端🏷️\\elci0wuxaz92cymo.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\最强前端🏷️"
     }
   ],
   "catalog": [
@@ -12323,7 +12348,7 @@
       "url": "zvhtpcf14k5ubrg3",
       "prev_uuid": "kicN7hkPayXrH8jr",
       "sibling_uuid": "PlrctMGesywNFpWl",
-      "child_uuid": "NZEvoXBDorxjl8_J",
+      "child_uuid": "wF3md0-zXEfLv0Eo",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
       "doc_id": 173652661,
       "level": 1,
@@ -12333,10 +12358,25 @@
     },
     {
       "type": "DOC",
+      "title": "pnpm、npm 、yarn更换国内源",
+      "uuid": "wF3md0-zXEfLv0Eo",
+      "url": "elci0wuxaz92cymo",
+      "prev_uuid": "Oi5FMtop6oZm1oNe",
+      "sibling_uuid": "NZEvoXBDorxjl8_J",
+      "child_uuid": "",
+      "parent_uuid": "Oi5FMtop6oZm1oNe",
+      "doc_id": 178373399,
+      "level": 2,
+      "id": 178373399,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "MIME 类型是什么？",
       "uuid": "NZEvoXBDorxjl8_J",
       "url": "ui42mgng3t1nsxhh",
-      "prev_uuid": "Oi5FMtop6oZm1oNe",
+      "prev_uuid": "wF3md0-zXEfLv0Eo",
       "sibling_uuid": "bwhz0PmXvKX-Wpck",
       "child_uuid": "",
       "parent_uuid": "Oi5FMtop6oZm1oNe",

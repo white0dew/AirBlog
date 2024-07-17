@@ -107,5 +107,31 @@ function flattenTree(node: ElogChapter): ElogChapter[] {
 // 假设ChapterTree是一个具有嵌套children属性的树状结构
 export const ChapterList = ChapterTree.flatMap(flattenTree);
 
+// 定义一个方法，用于传入uuid，找到对应path
+function GetPathByUuid(uuid: string): string {
+  function findPath(node: ElogChapter): string | null {
+    // mylog("findPath", node.urlname, uuid);
+    if (node.urlname === uuid) {
+      return node.url;
+    }
+    for (const child of node.children) {
+      const result = findPath(child);
+      if (result) {
+        return result;
+      }
+    }
+    return null;
+  }
+
+  for (const chapter of ChapterTree) {
+    const path = findPath(chapter);
+    if (path) {
+      return path;
+    }
+  }
+
+  return "";
+}
+
 console.log("buildChapterTree success");
-export { ChapterTree, ElogCacheData, DocIDMap };
+export { ChapterTree, ElogCacheData, DocIDMap, GetPathByUuid };

@@ -1,5 +1,6 @@
 "use client";
 import Link from "@/components/Link";
+// @ts-ignore
 import Logo from "@/public/images/home.png";
 import siteMetadata from "@/assets/siteMetadata";
 import ThemeSwitch from "@/components/nav/ThemeSwitch";
@@ -7,6 +8,7 @@ import MobileNav from "@/components/nav/MobileNav";
 import Navigation from "./nav/WebNav";
 import { ChapterTree } from "@/lib/elog";
 import Image from "next/image";
+import SearchButton from "./nav/SearchButton";
 
 export default function Header() {
   // 检查当前路径是否包含特定的路径段
@@ -41,6 +43,7 @@ export default function Header() {
 
       <div className="flex items-center px-4 lg:pr-14">
         <Navigation chapters={ChapterTree} />
+        <SearchButton />
         <ThemeSwitch />
         <MobileNav />
       </div>

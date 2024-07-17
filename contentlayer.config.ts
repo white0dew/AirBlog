@@ -2,11 +2,9 @@ import {
   defineDocumentType,
   makeSource,
   ComputedFields,
-  LocalDocument,
 } from "contentlayer2/source-files";
 import siteMetadata from "./assets/siteMetadata";
 import rehypePrismPlus from "rehype-prism-plus";
-import { fromHtmlIsomorphic } from "hast-util-from-html-isomorphic";
 import generateSitemap from "./lib/sitemap";
 import {
   remarkCodeTitles,
@@ -20,10 +18,14 @@ import remarkMath from "remark-math";
 import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypePresetMinify from "rehype-preset-minify";
-// import { Pluggable } from "unified";
 import rehypeKatex from "rehype-katex";
 import { countWords } from "./lib/utils";
 import rehypeCitation from "rehype-citation";
+// import { allPosts } from "contentlayer/generated";
+import { writeFileSync } from "fs";
+import { allCoreContent, sortPosts } from "pliny/utils/contentlayer.js";
+const root = process.cwd();
+const isProduction = process.env.NODE_ENV === "production";
 
 const computedFields: ComputedFields = {
   readingTime: { type: "json", resolve: (doc) => countWords(doc.body.raw) },
@@ -44,8 +46,18 @@ const computedFields: ComputedFields = {
   // elog_info: { type: "json", resolve: (doc) => parseFromElogInfo(doc) },
 };
 
-const root = process.cwd();
-const isProduction = process.env.NODE_ENV === "production";
+function createSearchIndex(allBlogs: any) {
+  if (
+    siteMetadata?.search?.provider === "kbar" &&
+    siteMetadata.search.kbarConfig.searchDocumentsPath
+  ) {
+    writeFileSync(
+      `public/${path.basename(siteMetadata.search.kbarConfig.searchDocumentsPath)}`,
+      JSON.stringify(allCoreContent(sortPosts(allBlogs)))
+    );
+    console.log("Local search index generated...");
+  }
+}
 
 export const Post = defineDocumentType(() => ({
   name: "Post",
@@ -159,8 +171,8 @@ export default makeSource({
   },
   onSuccess: async (importData) => {
     generateSitemap();
-    // const { allBlogs } = await importData();
+    const { allPosts } = await importData();
     // createTagCount(allBlogs);
-    // createSearchIndex(allBlogs);
+    createSearchIndex(allPosts);
   },
 });

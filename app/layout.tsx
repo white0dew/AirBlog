@@ -8,6 +8,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Inter as FontSans } from "next/font/google";
 import { cn } from "@/lib/utils";
+import { SearchConfig } from "pliny/search";
+import { SearchProvider } from "@/components/nav/SearchProvider";
 
 // 参考:https://github.com/shadcn-ui/ui/issues/94 中dongnez 的写法,解决下拉菜单的问题
 const fontSans = FontSans({
@@ -125,8 +127,10 @@ export default function RootLayout({
               fontSans.variable
             )}
           >
-            <Header />
-            <main>{children}</main>
+            <SearchProvider searchConfig={siteMetadata.search as SearchConfig}>
+              <Header />
+              <main>{children}</main>
+            </SearchProvider>
             <Footer />
           </div>
         </ThemeProviders>

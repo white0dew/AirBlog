@@ -39,11 +39,11 @@ export async function GetPages(page_type: PageType, limit?: number) {
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
-      mylog("response", response); // 输出获取的数据
+      // mylog("response", response); // 输出获取的数据
       return response.json();
     })
     .then(({ data }) => {
-      mylog("GetPages data", data); // 输出获取的数据
+      // mylog("GetPages data", data); // 输出获取的数据
       res = data;
     })
     .catch((error) => {

@@ -1,3 +1,4 @@
+// @ts-check
 import type { Config } from "tailwindcss";
 const { fontFamily } = require("tailwindcss/defaultTheme");
 import colors from "tailwindcss/colors";
@@ -7,7 +8,6 @@ import {
 } from "tailwindcss-variable-colors";
 import { mylog } from "./lib/utils";
 
-// @ts-ignore
 const config = {
   darkMode: ["class"],
   content: [

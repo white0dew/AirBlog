@@ -1,6 +1,6 @@
 import "@/assets/css/tailwind.css";
 import "@/assets/css/toc.css";
-
+import "pliny/search/algolia.css";
 import type { Metadata } from "next";
 import siteMetadata from "@/assets/siteMetadata";
 import { ThemeProviders } from "@/components/ThemeProviders";
@@ -127,7 +127,7 @@ export default function RootLayout({
               fontSans.variable
             )}
           >
-            <SearchProvider searchConfig={siteMetadata.search as SearchConfig}>
+            <SearchProvider>
               <Header />
               <main>{children}</main>
             </SearchProvider>

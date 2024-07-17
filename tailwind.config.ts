@@ -7,6 +7,7 @@ import {
 } from "tailwindcss-variable-colors";
 import { mylog } from "./lib/utils";
 
+// @ts-ignore
 const config = {
   darkMode: ["class"],
   content: [
@@ -35,20 +36,59 @@ const config = {
       },
     },
     extend: {
+      typography: ({ theme }) => ({
+        DEFAULT: {
+          css: {
+            a: {
+              color: theme("colors.primary.500"),
+              "&:hover": {
+                color: `${theme("colors.primary.600")}`,
+              },
+              code: { color: theme("colors.primary.400") },
+            },
+            "h1,h2": {
+              fontWeight: "700",
+              letterSpacing: theme("letterSpacing.tight"),
+            },
+            h3: {
+              fontWeight: "600",
+            },
+            code: {
+              color: theme("colors.indigo.500"),
+            },
+          },
+        },
+        invert: {
+          css: {
+            a: {
+              color: theme("colors.primary.500"),
+              "&:hover": {
+                color: `${theme("colors.primary.400")}`,
+              },
+              code: { color: theme("colors.primary.400") },
+            },
+            "h1,h2,h3,h4,h5,h6": {
+              color: theme("colors.gray.100"),
+            },
+          },
+        },
+      }),
       minWidth: {
         "2xl": "42rem",
         "3xl": "50rem",
       },
       colors: {
+        gray: colors.gray,
+        primary: colors.pink,
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
-        },
+        // primary: {
+        //   DEFAULT: "hsl(var(--primary))",
+        //   foreground: "hsl(var(--primary-foreground))",
+        // },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",

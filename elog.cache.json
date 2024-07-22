@@ -2692,12 +2692,12 @@
     {
       "id": 169649920,
       "doc_id": "rnwghpv7c59vgtuo",
-      "updated": 1719322891000,
+      "updated": 1721229358000,
       "properties": {
         "title": "🔥开发一个面经小程序",
         "urlname": "rnwghpv7c59vgtuo",
         "date": "2024-05-14 21:15:56",
-        "updated": "2024-06-25 21:41:31",
+        "updated": "2024-07-17 23:15:58",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1718811751273-adc0a552-fc72-43d2-bffa-8b7e683804e4.png",
         "description": "大家好，我是白露。面试准备对于每一个校招、社招求职的人来说都是折磨。。。。。。吐了！为什么要考八股文？太难背了啊……到底要背什么题目啊大厂都会怎么问啊？……我和朋友开发了一个小程序，目标是：帮助一万个程序员拿到 Offer。这小程序做什么？全面的题库我们汇总了Java、C++、Go、前端、大数..."
       },
@@ -2708,8 +2708,8 @@
         }
       ],
       "realName": "rnwghpv7c59vgtuo",
-      "relativePath": "\\💹 大厂面经\\rnwghpv7c59vgtuo.md",
-      "docPath": "docs\\doc\\💹 大厂面经"
+      "relativePath": "/💹 大厂面经/rnwghpv7c59vgtuo.md",
+      "docPath": "docs/doc/💹 大厂面经"
     },
     {
       "id": 175185902,
@@ -10154,14 +10154,15 @@
     {
       "id": 171465323,
       "doc_id": "vxn8883st7lhfom9",
-      "updated": 1717460828000,
+      "updated": 1721229658000,
       "properties": {
         "title": "面试真题",
         "urlname": "vxn8883st7lhfom9",
         "date": "2024-05-28 20:57:41",
-        "updated": "2024-06-04 08:27:08",
-        "description": "---is_nav: true---今天和大家分享一个超级实用的资源——网站面试真题栏目，针对求职过程中最重要的环节之一：面试。无论你是初入职场的“小白”，还是正在寻找更高层次职位的职场老兵，这里都有你需要的干货与秘诀。什么是面试真题栏目？面试真题栏目是一个专门收集和整理各大企业面试题目的平台...",
-        "is_nav": true
+        "updated": "2024-07-17 23:20:58",
+        "description": "---is_nav: truenav_path: real_interview---今天和大家分享一个超级实用的资源——网站面试真题栏目，针对求职过程中最重要的环节之一：面试。无论你是初入职场的“小白”，还是正在寻找更高层次职位的职场老兵，这里都有你需要的干货与秘诀。什么是面试真题栏目？面试真...",
+        "is_nav": true,
+        "nav_path": "real_interview"
       },
       "catalog": [
         {
@@ -10170,8 +10171,8 @@
         }
       ],
       "realName": "vxn8883st7lhfom9",
-      "relativePath": "\\💹 大厂面经\\vxn8883st7lhfom9.md",
-      "docPath": "docs\\doc\\💹 大厂面经"
+      "relativePath": "/💹 大厂面经/vxn8883st7lhfom9.md",
+      "docPath": "docs/doc/💹 大厂面经"
     },
     {
       "id": 172260289,
@@ -12218,6 +12219,80 @@
       "realName": "elci0wuxaz92cymo",
       "relativePath": "\\🔥 程序员自我修养\\最强前端🏷️\\elci0wuxaz92cymo.md",
       "docPath": "docs\\doc\\🔥 程序员自我修养\\最强前端🏷️"
+    },
+    {
+      "id": 178829565,
+      "doc_id": "kgo2qgo7afzgxnng",
+      "updated": 1721546671000,
+      "properties": {
+        "title": "生财有术的七条原则",
+        "urlname": "kgo2qgo7afzgxnng",
+        "date": "2024-07-21 15:22:40",
+        "updated": "2024-07-21 15:24:31",
+        "description": "这篇文章是亦仁对自己创办的\"生财有术\"社群七年历程的总结和反思。以下是我的读书笔记，主要围绕亦仁提出的七条重要原则展开：保持头脑极度开放亦仁强调，赚钱机会往往来自于我们第一眼看不上的信息差。保持开放的心态可以让各种信息和机会流入。他建议多尝试一些看似没有前途的小项目，因为大项目往往是小项目叠加..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "kgo2qgo7afzgxnng"
+        },
+        {
+          "title": "个人成长",
+          "doc_id": "kgo2qgo7afzgxnng"
+        }
+      ],
+      "realName": "kgo2qgo7afzgxnng",
+      "relativePath": "/🔥 程序员自我修养/个人成长/kgo2qgo7afzgxnng.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/个人成长"
+    },
+    {
+      "id": 178829466,
+      "doc_id": "ff52fo66g2cpghn4",
+      "updated": 1721546471000,
+      "properties": {
+        "title": "个人成长",
+        "urlname": "ff52fo66g2cpghn4",
+        "date": "2024-07-21 15:20:40",
+        "updated": "2024-07-21 15:21:11",
+        "description": "---is_nav: falsenav_path: improvekeywords: 个人成长,副业",
+        "is_nav": false,
+        "nav_path": "improve",
+        "keywords": "个人成长,副业"
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "ff52fo66g2cpghn4"
+        }
+      ],
+      "realName": "ff52fo66g2cpghn4",
+      "relativePath": "/🔥 程序员自我修养/ff52fo66g2cpghn4.md",
+      "docPath": "docs/doc/🔥 程序员自我修养"
+    },
+    {
+      "id": 178826133,
+      "doc_id": "syenr4ggcg4kapal",
+      "updated": 1721544623000,
+      "properties": {
+        "title": "Docker 镜像加速配置指南（2024年7月更新）",
+        "urlname": "syenr4ggcg4kapal",
+        "date": "2024-07-21 14:32:34",
+        "updated": "2024-07-21 14:50:23",
+        "description": "在国内使用Docker时，由于网络原因，从官方仓库拉取镜像可能会很慢。1. 常用仓库镜像对应表原始仓库国内镜像docker.iohttps://dockerhub.jobcher.com/https//docker.chenby.cnhttps://docker.anyhub.us.kg***..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "syenr4ggcg4kapal"
+        },
+        {
+          "title": "环境安装😭",
+          "doc_id": "syenr4ggcg4kapal"
+        }
+      ],
+      "realName": "syenr4ggcg4kapal",
+      "relativePath": "/🔥 程序员自我修养/环境安装😭/syenr4ggcg4kapal.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/环境安装😭"
     }
   ],
   "catalog": [
@@ -12228,7 +12303,7 @@
       "url": "zz7wzx74m9sgu0bb",
       "prev_uuid": "",
       "sibling_uuid": "1Yk7ZpGC1ALK7ryF",
-      "child_uuid": "kicN7hkPayXrH8jr",
+      "child_uuid": "ZQkvDtiMigyZEcwf",
       "parent_uuid": "",
       "doc_id": 171241326,
       "level": 0,
@@ -12238,10 +12313,40 @@
     },
     {
       "type": "DOC",
+      "title": "个人成长",
+      "uuid": "ZQkvDtiMigyZEcwf",
+      "url": "ff52fo66g2cpghn4",
+      "prev_uuid": "_AUtENOpDG0ZxF_E",
+      "sibling_uuid": "kicN7hkPayXrH8jr",
+      "child_uuid": "la67knEMszy2q6rT",
+      "parent_uuid": "_AUtENOpDG0ZxF_E",
+      "doc_id": 178829466,
+      "level": 1,
+      "id": 178829466,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "生财有术的七条原则",
+      "uuid": "la67knEMszy2q6rT",
+      "url": "kgo2qgo7afzgxnng",
+      "prev_uuid": "ZQkvDtiMigyZEcwf",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "ZQkvDtiMigyZEcwf",
+      "doc_id": 178829565,
+      "level": 2,
+      "id": 178829565,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "🤖人工智能",
       "uuid": "kicN7hkPayXrH8jr",
       "url": "ck3uzv22499u4byl",
-      "prev_uuid": "_AUtENOpDG0ZxF_E",
+      "prev_uuid": "ZQkvDtiMigyZEcwf",
       "sibling_uuid": "Oi5FMtop6oZm1oNe",
       "child_uuid": "cZgzGnuivSrN0-HX",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
@@ -12618,7 +12723,7 @@
       "url": "io5kukplplfeb9ls",
       "prev_uuid": "pzU6x4VThGDwLdrN",
       "sibling_uuid": "dM55tS-xNS9gbu5Q",
-      "child_uuid": "5QWjHKD8k25LYkqM",
+      "child_uuid": "5k7niHm_6ERdnY_9",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
       "doc_id": 171259351,
       "level": 1,
@@ -12628,10 +12733,25 @@
     },
     {
       "type": "DOC",
+      "title": "Docker 镜像加速配置指南（2024年7月更新）",
+      "uuid": "5k7niHm_6ERdnY_9",
+      "url": "syenr4ggcg4kapal",
+      "prev_uuid": "_d86pwt2PnWp0V6d",
+      "sibling_uuid": "5QWjHKD8k25LYkqM",
+      "child_uuid": "",
+      "parent_uuid": "_d86pwt2PnWp0V6d",
+      "doc_id": 178826133,
+      "level": 2,
+      "id": 178826133,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "IDEA 2024.1.4 最新激活码,破解版安装教程（亲测有效~）",
       "uuid": "5QWjHKD8k25LYkqM",
       "url": "clbaakq70pduuoew",
-      "prev_uuid": "_d86pwt2PnWp0V6d",
+      "prev_uuid": "5k7niHm_6ERdnY_9",
       "sibling_uuid": "endSX96m-bNscj-H",
       "child_uuid": "",
       "parent_uuid": "_d86pwt2PnWp0V6d",

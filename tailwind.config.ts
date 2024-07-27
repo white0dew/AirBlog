@@ -55,6 +55,9 @@ const config = {
             code: {
               color: theme("colors.indigo.500"),
             },
+            strong: {
+              color: theme("colors.indigo.600"),
+            },
           },
         },
         invert: {

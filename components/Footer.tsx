@@ -9,13 +9,13 @@ export default function Footer() {
       <div className="mt-16 flex flex-col items-center bg-black text-white pt-10 md:pt-10">
         <div className=" sm:flex sm:justify-between md:py-5 md:space-x-10">
           {/* Company Info & Links */}
-          <div className="hidden md:flex flex-1 mb-6 sm:mb-0">
+          <div className="hidden md:flex md:flex-col flex-1 mb-6 sm:mb-0">
             <h5 className="text-lg font-bold  mb-2">关于我们</h5>
-            <p>OfferNow, 分享知识的平台</p>
-            <p>让每个人了解计算机、编程、AI</p>
+            <p>分享知识的平台</p>
+            <p>让每个人了解编程、AI</p>
           </div>
 
-          <div className="hidden  md:flex flex-1 mb-6 sm:mb-0 space-y-1">
+          <div className="hidden  md:flex  md:flex-col  flex-1 mb-6 sm:mb-0 space-y-1">
             <h5 className="text-lg font-bold  mb-2">联系方式</h5>
             <ul>
               <li>1373685219@qq.com</li>

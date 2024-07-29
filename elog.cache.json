@@ -12396,6 +12396,56 @@
       "realName": "hngzre30rz030yuy",
       "relativePath": "/🔥 程序员自我修养/十万个为什么💡/hngzre30rz030yuy.md",
       "docPath": "docs/doc/🔥 程序员自我修养/十万个为什么💡"
+    },
+    {
+      "id": 179919062,
+      "doc_id": "hdp8nlb2144e4dsn",
+      "updated": 1722228163000,
+      "properties": {
+        "title": "推荐几个开源的Newletter！",
+        "urlname": "hdp8nlb2144e4dsn",
+        "date": "2024-07-29 12:41:32",
+        "updated": "2024-07-29 12:42:43",
+        "description": "有一些优秀的开源 newsletter 项目，其中一些还提供 Docker 镜像。ListmonkListmonk 是一个自托管的、现代化的 newsletter 和邮件列表管理器。GitHub: https://github.com/knadh/listmonk特点：Go 语言编写提供 Do..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "hdp8nlb2144e4dsn"
+        },
+        {
+          "title": "个人建站 🤖",
+          "doc_id": "hdp8nlb2144e4dsn"
+        }
+      ],
+      "realName": "hdp8nlb2144e4dsn",
+      "relativePath": "/🔥 程序员自我修养/个人建站 🤖/hdp8nlb2144e4dsn.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/个人建站 🤖"
+    },
+    {
+      "id": 179918345,
+      "doc_id": "nrzyh8l8y1vdi8d2",
+      "updated": 1722228093000,
+      "properties": {
+        "title": "rss订阅是怎么实现的？",
+        "urlname": "nrzyh8l8y1vdi8d2",
+        "date": "2024-07-29 12:32:06",
+        "updated": "2024-07-29 12:41:33",
+        "description": "RSS（Really Simple Syndication）是一种用于发布频繁更新的网站内容的标准格式。我计划用Nextjs实现一波。包括以下步骤：创建 RSS Feed生成 RSS XML提供 RSS 端点1. 安装依赖首先，我们需要安装 feed 库来帮助生成 RSS feed：npm i..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "nrzyh8l8y1vdi8d2"
+        },
+        {
+          "title": "个人建站 🤖",
+          "doc_id": "nrzyh8l8y1vdi8d2"
+        }
+      ],
+      "realName": "nrzyh8l8y1vdi8d2",
+      "relativePath": "/🔥 程序员自我修养/个人建站 🤖/nrzyh8l8y1vdi8d2.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/个人建站 🤖"
     }
   ],
   "catalog": [
@@ -12751,7 +12801,7 @@
       "url": "ogfvsltzo95v0k88",
       "prev_uuid": "PlrctMGesywNFpWl",
       "sibling_uuid": "_d86pwt2PnWp0V6d",
-      "child_uuid": "GGXJU5XvIZPUKeCD",
+      "child_uuid": "juWXtOvLlMJD1iBG",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
       "doc_id": 171769376,
       "level": 1,
@@ -12761,10 +12811,40 @@
     },
     {
       "type": "DOC",
+      "title": "rss订阅是怎么实现的？",
+      "uuid": "juWXtOvLlMJD1iBG",
+      "url": "nrzyh8l8y1vdi8d2",
+      "prev_uuid": "pzU6x4VThGDwLdrN",
+      "sibling_uuid": "R59kMPJ0-PPHmDKm",
+      "child_uuid": "",
+      "parent_uuid": "pzU6x4VThGDwLdrN",
+      "doc_id": 179918345,
+      "level": 2,
+      "id": 179918345,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "推荐几个开源的Newletter！",
+      "uuid": "R59kMPJ0-PPHmDKm",
+      "url": "hdp8nlb2144e4dsn",
+      "prev_uuid": "juWXtOvLlMJD1iBG",
+      "sibling_uuid": "GGXJU5XvIZPUKeCD",
+      "child_uuid": "",
+      "parent_uuid": "pzU6x4VThGDwLdrN",
+      "doc_id": 179919062,
+      "level": 2,
+      "id": 179919062,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "svg图片不显示在网站上",
       "uuid": "GGXJU5XvIZPUKeCD",
       "url": "ybyfy5goc6dp2d87",
-      "prev_uuid": "pzU6x4VThGDwLdrN",
+      "prev_uuid": "R59kMPJ0-PPHmDKm",
       "sibling_uuid": "7Il5VOepxYzKww1q",
       "child_uuid": "",
       "parent_uuid": "pzU6x4VThGDwLdrN",

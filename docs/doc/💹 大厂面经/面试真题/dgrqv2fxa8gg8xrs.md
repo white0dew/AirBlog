@@ -2,24 +2,24 @@
 title: 百度日常实习一面&二面
 urlname: dgrqv2fxa8gg8xrs
 date: '2024-07-27 20:25:19'
-updated: '2024-07-27 20:37:55'
+updated: '2024-07-27 20:49:03'
 cover: 'https://cdn.nlark.com/yuque/__puml/90a7d789afce7c5f4ad81ba1e1c9d6a3.svg'
-description: 面试问题0.项目拷打1.Redis避免主从读取不一致的问题2.线程的生命周期3.操作系统层面线程和进程的区别4.JAVA集合有哪些?5.hashmap底层实现原理6.java gc过程7.Java四大引用区别和应用8.分布式服务 对接口做限流 实现思路9.redis淘汰策略10.JAVA设计模...
+description: 面试问题项目拷打Redis避免主从读取不一致的问题线程的生命周期操作系统层面线程和进程的区别JAVA集合有哪些?hashmap底层实现原理java gc过程Java四大引用区别和应用分布式服务 对接口做限流 实现思路redis淘汰策略JAVA设计模式Java反射理解十万个单词  从中找出访问频...
 ---
 # 面试问题
-0.项目拷打
-1.Redis避免主从读取不一致的问题
-2.线程的生命周期
-3.操作系统层面线程和进程的区别
-4.JAVA集合有哪些?
-5.hashmap底层实现原理
-6.java gc过程
-7.Java四大引用区别和应用
-8.分布式服务 对接口做限流 实现思路
-9.redis淘汰策略
-10.JAVA设计模式
-11.Java反射理解
-12.十万个单词  从中找出访问频率最高的单词
+1. 项目拷打
+2. Redis避免主从读取不一致的问题
+3. 线程的生命周期
+4. 操作系统层面线程和进程的区别
+5. JAVA集合有哪些?
+6. hashmap底层实现原理
+7. java gc过程
+8. Java四大引用区别和应用
+9. 分布式服务 对接口做限流 实现思路
+10. redis淘汰策略
+11. JAVA设计模式
+12. Java反射理解
+13. 十万个单词  从中找出访问频率最高的单词
 > 原问题链接：[https://www.nowcoder.com/discuss/645681234500165632?sourceSSR=users](https://www.nowcoder.com/discuss/645681234500165632?sourceSSR=users)
 
 # 参考回答

@@ -10104,13 +10104,13 @@
     {
       "id": 172299343,
       "doc_id": "ui2hbm8gh5o1k1gq",
-      "updated": 1717462265000,
+      "updated": 1722334605000,
       "properties": {
         "title": "美团一面",
         "urlname": "ui2hbm8gh5o1k1gq",
         "date": "2024-06-04 08:50:15",
-        "updated": "2024-06-04 08:51:05",
-        "description": "讲一下多态TCP和UDP的区别为什么是四次挥手linux操作命令git操作命令现在预算有限，请求很少，如果不用epoll你会用什么线程和进程的区别innodb用的什么索引，为什么不用红黑树当索引哪些协议用到了UDP哪些用到了TCP为什么访问寄存器的速度比访问内存的速度更快用count(*)用哪..."
+        "updated": "2024-07-30 18:16:45",
+        "description": "面试内容讲一下多态TCP和UDP的区别为什么是四次挥手linux操作命令git操作命令现在预算有限，请求很少，如果不用epoll你会用什么线程和进程的区别innodb用的什么索引，为什么不用红黑树当索引哪些协议用到了UDP哪些用到了TCP为什么访问寄存器的速度比访问内存的速度更快用count(..."
       },
       "catalog": [
         {
@@ -10123,8 +10123,8 @@
         }
       ],
       "realName": "ui2hbm8gh5o1k1gq",
-      "relativePath": "\\💹 大厂面经\\面试真题\\ui2hbm8gh5o1k1gq.md",
-      "docPath": "docs\\doc\\💹 大厂面经\\面试真题"
+      "relativePath": "/💹 大厂面经/面试真题/ui2hbm8gh5o1k1gq.md",
+      "docPath": "docs/doc/💹 大厂面经/面试真题"
     },
     {
       "id": 171765323,
@@ -10177,13 +10177,14 @@
     {
       "id": 172260289,
       "doc_id": "nddl3dg8byerdi06",
-      "updated": 1717428573000,
+      "updated": 1722334421000,
       "properties": {
-        "title": "腾讯-搜狗输入法-PC客户端-一面",
+        "title": "腾讯-搜狗PC客户端一面  面试官：这些C++问题你都能答上来，我就跪了",
         "urlname": "nddl3dg8byerdi06",
         "date": "2024-06-03 23:29:13",
-        "updated": "2024-06-03 23:29:33",
-        "description": "自我介绍手撕快排C++重载是怎么实现的？C++多态是怎么实现的？C++代码是如何转化为二进制文件的？DLL加载文件顺序DLL调用的内存分区PE文件结构delete []内存泄露如何定位基类、派生类、成员对象构造函数调用顺序unordered_map和map哈希冲突，如何解决HTTPS密钥协商过..."
+        "updated": "2024-07-30 18:13:41",
+        "cover": "https://cdn.nlark.com/yuque/__puml/2d5af544d86059bee31d4cd8a7ddf06e.svg",
+        "description": "面试问题自我介绍手撕快排C++重载是怎么实现的？C++多态是怎么实现的？C++代码是如何转化为二进制文件的？DLL加载文件顺序DLL调用的内存分区PE文件结构delete []内存泄露如何定位基类、派生类、成员对象构造函数调用顺序unordered_map和map哈希冲突，如何解决HTTPS密..."
       },
       "catalog": [
         {
@@ -10196,8 +10197,8 @@
         }
       ],
       "realName": "nddl3dg8byerdi06",
-      "relativePath": "\\💹 大厂面经\\面试真题\\nddl3dg8byerdi06.md",
-      "docPath": "docs\\doc\\💹 大厂面经\\面试真题"
+      "relativePath": "/💹 大厂面经/面试真题/nddl3dg8byerdi06.md",
+      "docPath": "docs/doc/💹 大厂面经/面试真题"
     },
     {
       "id": 170953587,
@@ -12446,6 +12447,81 @@
       "realName": "nrzyh8l8y1vdi8d2",
       "relativePath": "/🔥 程序员自我修养/个人建站 🤖/nrzyh8l8y1vdi8d2.md",
       "docPath": "docs/doc/🔥 程序员自我修养/个人建站 🤖"
+    },
+    {
+      "id": 180149494,
+      "doc_id": "xpa3f9bvo294qeb8",
+      "updated": 1722334854000,
+      "properties": {
+        "title": "百度网盘一二面",
+        "urlname": "xpa3f9bvo294qeb8",
+        "date": "2024-07-30 18:20:14",
+        "updated": "2024-07-30 18:20:54",
+        "description": "面试内容一面实习项目go学习多久C++ golang python优缺点GMP模型slice底层实现cap和len的区别TCP和UDP区别TCP如何保证可靠性拥塞控制TCP两次握手可行性MySQL使用的是什么索引为什么使用B+树而不是平衡二叉树查看某个端口的占用的Linux命令统计一个文件中的..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "xpa3f9bvo294qeb8"
+        },
+        {
+          "title": "面试真题",
+          "doc_id": "xpa3f9bvo294qeb8"
+        }
+      ],
+      "realName": "xpa3f9bvo294qeb8",
+      "relativePath": "/💹 大厂面经/面试真题/xpa3f9bvo294qeb8.md",
+      "docPath": "docs/doc/💹 大厂面经/面试真题"
+    },
+    {
+      "id": 180149677,
+      "doc_id": "volv8i2cdtcg7vbp",
+      "updated": 1722335028000,
+      "properties": {
+        "title": "字节 抖音一面 很难！",
+        "urlname": "volv8i2cdtcg7vbp",
+        "date": "2024-07-30 18:23:07",
+        "updated": "2024-07-30 18:23:48",
+        "description": "面试内容项目由来 自己优化的部分 主要加一些什么样的功能 是否部署过 部署的细节项目的分布式锁是怎么设计的 分布式锁用什么来实现？所需用 Redis 用具体的是哪些命令行来实现的 setnx是否能设置过期时间; 使用lua脚本的话，我是怎样让它尽量避免死锁的。如果想避免死锁要如何处理 缓存一致..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "volv8i2cdtcg7vbp"
+        },
+        {
+          "title": "面试真题",
+          "doc_id": "volv8i2cdtcg7vbp"
+        }
+      ],
+      "realName": "volv8i2cdtcg7vbp",
+      "relativePath": "/💹 大厂面经/面试真题/volv8i2cdtcg7vbp.md",
+      "docPath": "docs/doc/💹 大厂面经/面试真题"
+    },
+    {
+      "id": 180149377,
+      "doc_id": "dndp91gf7gdmw7gx",
+      "updated": 1722335707000,
+      "properties": {
+        "title": "必看！字节后端-质量 一面面经",
+        "urlname": "dndp91gf7gdmw7gx",
+        "date": "2024-07-30 18:18:38",
+        "updated": "2024-07-30 18:35:07",
+        "description": "这次模拟面试涵盖了Go语言的多个核心概念，包括slice、map、channel、defer、panic/recover、GMP模型和垃圾回收机制等。面试者展示了对这些概念的深入理解，以及在实际编程中的应用能力。这样的回答应该会给面试官留下很好的印象。面试问题一、自我介绍 5m二、项目并穿插八..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "dndp91gf7gdmw7gx"
+        },
+        {
+          "title": "面试真题",
+          "doc_id": "dndp91gf7gdmw7gx"
+        }
+      ],
+      "realName": "dndp91gf7gdmw7gx",
+      "relativePath": "/💹 大厂面经/面试真题/dndp91gf7gdmw7gx.md",
+      "docPath": "docs/doc/💹 大厂面经/面试真题"
     }
   ],
   "catalog": [
@@ -17481,7 +17557,7 @@
       "url": "vxn8883st7lhfom9",
       "prev_uuid": "k38gbMVOoHwtcD2F",
       "sibling_uuid": "-4qV2TE5gTaU9pS4",
-      "child_uuid": "YP1MoaxC8YeDsuEc",
+      "child_uuid": "jSYsbQlMaBCMyPzm",
       "parent_uuid": "uHCIfCp4Xzc-fCfY",
       "doc_id": 171465323,
       "level": 1,
@@ -17491,10 +17567,55 @@
     },
     {
       "type": "DOC",
+      "title": "字节 抖音一面 很难！",
+      "uuid": "jSYsbQlMaBCMyPzm",
+      "url": "volv8i2cdtcg7vbp",
+      "prev_uuid": "NcVLTZK8sE8hkJmb",
+      "sibling_uuid": "jD3uO8Qfkx27CcvQ",
+      "child_uuid": "",
+      "parent_uuid": "NcVLTZK8sE8hkJmb",
+      "doc_id": 180149677,
+      "level": 2,
+      "id": 180149677,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "百度网盘一二面",
+      "uuid": "jD3uO8Qfkx27CcvQ",
+      "url": "xpa3f9bvo294qeb8",
+      "prev_uuid": "jSYsbQlMaBCMyPzm",
+      "sibling_uuid": "wyGrtAMxtujj9nWQ",
+      "child_uuid": "",
+      "parent_uuid": "NcVLTZK8sE8hkJmb",
+      "doc_id": 180149494,
+      "level": 2,
+      "id": 180149494,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "必看！字节后端-质量 一面面经",
+      "uuid": "wyGrtAMxtujj9nWQ",
+      "url": "dndp91gf7gdmw7gx",
+      "prev_uuid": "jD3uO8Qfkx27CcvQ",
+      "sibling_uuid": "YP1MoaxC8YeDsuEc",
+      "child_uuid": "",
+      "parent_uuid": "NcVLTZK8sE8hkJmb",
+      "doc_id": 180149377,
+      "level": 2,
+      "id": 180149377,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "百度日常实习一面&二面",
       "uuid": "YP1MoaxC8YeDsuEc",
       "url": "dgrqv2fxa8gg8xrs",
-      "prev_uuid": "NcVLTZK8sE8hkJmb",
+      "prev_uuid": "wyGrtAMxtujj9nWQ",
       "sibling_uuid": "-tyUcCd0E-wqTC5T",
       "child_uuid": "",
       "parent_uuid": "NcVLTZK8sE8hkJmb",
@@ -17671,7 +17792,7 @@
     },
     {
       "type": "DOC",
-      "title": "腾讯-搜狗输入法-PC客户端-一面",
+      "title": "腾讯-搜狗PC客户端一面  面试官：这些C++问题你都能答上来，我就跪了",
       "uuid": "vMEkTw9LMl5TNuiU",
       "url": "nddl3dg8byerdi06",
       "prev_uuid": "5klBkaAvorD6tqrc",

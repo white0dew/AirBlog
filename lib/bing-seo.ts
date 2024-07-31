@@ -1,16 +1,14 @@
+import { mylog } from "./utils";
+
 export const submitUrlsToIndexNow = async (urls: string[]) => {
   const url = "https://api.indexnow.org/indexnow";
   let payload = {
     host: "offernow.cn",
     key: "e5d66260a41d4cca9e9b369be3efaa81",
     keyLocation: "https://offernow.cn/e5d66260a41d4cca9e9b369be3efaa81.txt",
-    urlList: [
-      "https://www.example.org/url1",
-      "https://www.example.org/folder/url2",
-      "https://www.example.org/url3",
-    ],
+    urlList: url,
   };
-  payload.urlList = urls;
+  console.log("submitUrlsToIndexNow", urls);
 
   try {
     const response = await fetch(url, {

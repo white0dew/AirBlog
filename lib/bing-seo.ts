@@ -1,9 +1,9 @@
 export const submitUrlsToIndexNow = async (urls: string[]) => {
   const url = "https://api.indexnow.org/indexnow";
   let payload = {
-    host: "www.offernow.cn",
-    key: "b7cdab194acd432abf7093149e78bf5a",
-    keyLocation: "https://www.offernow.cn/b7cdab194acd432abf7093149e78bf5a.txt",
+    host: "offernow.cn",
+    key: "e5d66260a41d4cca9e9b369be3efaa81",
+    keyLocation: "https://offernow.cn/e5d66260a41d4cca9e9b369be3efaa81.txt",
     urlList: [
       "https://www.example.org/url1",
       "https://www.example.org/folder/url2",

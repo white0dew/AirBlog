@@ -21,7 +21,6 @@ import rehypePresetMinify from "rehype-preset-minify";
 import rehypeKatex from "rehype-katex";
 import { countWords } from "./lib/utils";
 import rehypeCitation from "rehype-citation";
-// import { allPosts } from "contentlayer/generated";
 import { writeFileSync } from "fs";
 import { allCoreContent, sortPosts } from "pliny/utils/contentlayer.js";
 const root = process.cwd();
@@ -42,8 +41,6 @@ const computedFields: ComputedFields = {
     resolve: (doc) => doc._raw.sourceFilePath,
   },
   toc: { type: "list", resolve: (doc) => extractTocHeadings(doc.body.raw) },
-  // elog_cata: { type: "json", resolve: (doc) => parseFromElogCataLog(doc) },
-  // elog_info: { type: "json", resolve: (doc) => parseFromElogInfo(doc) },
 };
 
 function createSearchIndex(allBlogs: any) {

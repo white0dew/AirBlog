@@ -12224,12 +12224,12 @@
     {
       "id": 178829565,
       "doc_id": "kgo2qgo7afzgxnng",
-      "updated": 1721546671000,
+      "updated": 1722380996000,
       "properties": {
         "title": "生财有术的七条原则",
         "urlname": "kgo2qgo7afzgxnng",
         "date": "2024-07-21 15:22:40",
-        "updated": "2024-07-21 15:24:31",
+        "updated": "2024-07-31 07:09:56",
         "description": "这篇文章是亦仁对自己创办的\"生财有术\"社群七年历程的总结和反思。以下是我的读书笔记，主要围绕亦仁提出的七条重要原则展开：保持头脑极度开放亦仁强调，赚钱机会往往来自于我们第一眼看不上的信息差。保持开放的心态可以让各种信息和机会流入。他建议多尝试一些看似没有前途的小项目，因为大项目往往是小项目叠加..."
       },
       "catalog": [
@@ -12521,6 +12521,32 @@
       ],
       "realName": "dndp91gf7gdmw7gx",
       "relativePath": "/💹 大厂面经/面试真题/dndp91gf7gdmw7gx.md",
+      "docPath": "docs/doc/💹 大厂面经/面试真题"
+    },
+    {
+      "id": 180664037,
+      "doc_id": "cfd64u2k9y1i2kk9",
+      "updated": 1722597436000,
+      "properties": {
+        "title": "京东秋招实习面经",
+        "urlname": "cfd64u2k9y1i2kk9",
+        "date": "2024-08-02 19:13:22",
+        "updated": "2024-08-02 19:17:16",
+        "cover": "https://cdn.nlark.com/yuque/__puml/254e87cf2b01fc509e44845a6d3b363d.svg",
+        "description": "京东实习面经你之前说你的项目这边涉及大数据这块比较多，那你代码工程是怎么样的一个工程，就是直接用一些have的SQL去搞这种直接数据的开发，还是怎么去做的这种系统的编程。这个工程是怎么搭出来的对外提供什么接口，系统之间是怎么调接口的传输方式，就是说不同部门之间怎么去调一个服务Java通常使用什..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "cfd64u2k9y1i2kk9"
+        },
+        {
+          "title": "面试真题",
+          "doc_id": "cfd64u2k9y1i2kk9"
+        }
+      ],
+      "realName": "cfd64u2k9y1i2kk9",
+      "relativePath": "/💹 大厂面经/面试真题/cfd64u2k9y1i2kk9.md",
       "docPath": "docs/doc/💹 大厂面经/面试真题"
     }
   ],
@@ -17557,7 +17583,7 @@
       "url": "vxn8883st7lhfom9",
       "prev_uuid": "k38gbMVOoHwtcD2F",
       "sibling_uuid": "-4qV2TE5gTaU9pS4",
-      "child_uuid": "jSYsbQlMaBCMyPzm",
+      "child_uuid": "ZHHNRSroll5OdyS0",
       "parent_uuid": "uHCIfCp4Xzc-fCfY",
       "doc_id": 171465323,
       "level": 1,
@@ -17567,10 +17593,25 @@
     },
     {
       "type": "DOC",
+      "title": "京东秋招实习面经",
+      "uuid": "ZHHNRSroll5OdyS0",
+      "url": "cfd64u2k9y1i2kk9",
+      "prev_uuid": "NcVLTZK8sE8hkJmb",
+      "sibling_uuid": "jSYsbQlMaBCMyPzm",
+      "child_uuid": "",
+      "parent_uuid": "NcVLTZK8sE8hkJmb",
+      "doc_id": 180664037,
+      "level": 2,
+      "id": 180664037,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "字节 抖音一面 很难！",
       "uuid": "jSYsbQlMaBCMyPzm",
       "url": "volv8i2cdtcg7vbp",
-      "prev_uuid": "NcVLTZK8sE8hkJmb",
+      "prev_uuid": "ZHHNRSroll5OdyS0",
       "sibling_uuid": "jD3uO8Qfkx27CcvQ",
       "child_uuid": "",
       "parent_uuid": "NcVLTZK8sE8hkJmb",

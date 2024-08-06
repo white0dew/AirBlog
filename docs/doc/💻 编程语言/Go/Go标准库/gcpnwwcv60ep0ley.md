@@ -2,7 +2,7 @@
 title: 7天玩转 Golang 标准库之 http/net
 urlname: gcpnwwcv60ep0ley
 date: '2024-06-19 23:17:42'
-updated: '2024-06-19 23:17:50'
+updated: '2024-08-06 19:30:45'
 description: 在构建web应用时，我们经常需要处理HTTP请求、做网页抓取或者搭建web服务器等任务，而Go语言在这方面为我们提供了强大的内置工具：net/http标准库，它为我们操作和处理HTTP协议提供了便利。基础用法一：处理HTTP请求首先，我们来看看如何使用net/http标准库发送一个HTTP请求...
 ---
 在构建web应用时，我们经常需要处理HTTP请求、做网页抓取或者搭建web服务器等任务，而Go语言在这方面为我们提供了强大的内置工具：net/http标准库，它为我们操作和处理HTTP协议提供了便利。
@@ -57,7 +57,9 @@ func main() {
 }
 ```
 ## 三：使用http.Client自定义请求行为
-有时，我们需要对HTTP请求进行更细粒度的控制，比如设置超时时间、添加请求头等等。这个时候，我们可以使用`http.Client`和`http.Request`来自定义我们的请求行为。
+有时，我们需要对HTTP请求进行更细粒度的控制，比如设置超时时间、添加请求头等等。
+
+这个时候，我们可以使用`http.Client`和`http.Request`来自定义我们的请求行为。
 ```go
 package main
 
@@ -153,7 +155,9 @@ func main() {
 }
 ```
 在上面的例子中，我们创建了一个简单的回音服务，客户端发送一个消息到服务器，服务器会追加一个"Received: "前缀并发送回去。
+
 需要注意的是，WebSocket 只能用于已具有兼容 WebSocket 的客户端（如一些现代 web 浏览器）的 HTTP 服务器。websocket包并不能用于一个普通的HTTP服务端。
+
 当然，除了反向代理和Websocket， `net/http`包中还有诸多高级的使用方法。这里，我会介绍两个常见的高级应用场景：使用`http.RoundTripper`自定义HTTP请求过程和使用`http.CookieJar`接口处理Cookie。
 ## 自定义HTTP请求过程
 

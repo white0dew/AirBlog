@@ -2,13 +2,17 @@
 title: 7天玩转 Golang 标准库之 sync
 urlname: nvgy48uvwxy19xo7
 date: '2024-06-19 23:16:50'
-updated: '2024-06-19 23:17:04'
+updated: '2024-08-06 19:33:03'
 description: Go语言作为现代编程语言，其并发编程的优势是有目共睹的。在实际编程中，我们常常需要保证多个goroutine之间的同步，这就需要使用到Go语言的sync标准库。sync库提供了基本的同步原语，例如互斥锁（Mutex）和等待组（WaitGroup），这些都是协调和控制并发执行的重要工具。基础应用...
 ---
-Go语言作为现代编程语言，其并发编程的优势是有目共睹的。在实际编程中，我们常常需要保证多个goroutine之间的同步，这就需要使用到Go语言的`sync`标准库。`sync`库提供了基本的同步原语，例如互斥锁（Mutex）和等待组（WaitGroup），这些都是协调和控制并发执行的重要工具。
+Go语言作为现代编程语言，其并发编程的优势是有目共睹的。在实际编程中，我们常常需要保证多个goroutine之间的同步，这就需要使用到Go语言的`sync`标准库。
+
+`sync`库提供了基本的同步原语，例如互斥锁（Mutex）和等待组（WaitGroup），这些都是协调和控制并发执行的重要工具。
 # 基础应用
 ### 1. 使用Mutex实现互斥
-在很多情况下，我们需要保证在任意时刻只有一个goroutine能够访问某个数据。这时我们就可以使用Mutex（互斥锁）来实现这个需求。Mutex有两个方法：`Lock`和`Unlock`。在`Lock`和`Unlock`之间的代码块，同一时刻只有一个goroutine可以执行，其他尝试执行这部分代码的goroutine会被阻塞直到锁被解开。以下面的例子为例，我们试图在多个goroutine中对一个全局变量完成加法操作：
+在很多情况下，我们需要保证在任意时刻只有一个goroutine能够访问某个数据。这时我们就可以使用Mutex（互斥锁）来实现这个需求。Mutex有两个方法：`Lock`和`Unlock`。
+
+在`Lock`和`Unlock`之间的代码块，同一时刻只有一个goroutine可以执行，其他尝试执行这部分代码的goroutine会被阻塞直到锁被解开。以下面的例子为例，我们试图在多个goroutine中对一个全局变量完成加法操作：
 
 ```go
 package main
@@ -47,7 +51,9 @@ func main() {
 }
 ```
 ### 2. 使用WaitGroup等待并发操作结束
-在另外一种常见的应用场景中，我们需要开启一组goroutine去处理任务，而主goroutine需要等待这些任务完成后才能结束。这可以通过`sync.WaitGroup`来实现。WaitGroup有三个方法：`Add`增加计数，`Done`减少计数，`Wait`等待计数归零。
+在另外一种常见的应用场景中，我们需要开启一组goroutine去处理任务，而主goroutine需要等待这些任务完成后才能结束。这可以通过`sync.WaitGroup`来实现。
+
+WaitGroup有三个方法：`Add`增加计数，`Done`减少计数，`Wait`等待计数归零。
 ```go
 package main
 

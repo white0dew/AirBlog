@@ -4715,12 +4715,12 @@
     {
       "id": 174403422,
       "doc_id": "acksp7eld7k9p7ag",
-      "updated": 1718810324000,
+      "updated": 1722943997000,
       "properties": {
         "title": "并发：Goroutines和Channels的详细指南",
         "urlname": "acksp7eld7k9p7ag",
         "date": "2024-06-19 23:18:29",
-        "updated": "2024-06-19 23:18:44",
+        "updated": "2024-08-06 19:33:17",
         "description": "0. 并发和并行的区别并发与并行在许多情况下被用作相互替代的术语，但在计算中，它们之间有着明显的区别。并发是指同时管理很多事情，这是软件设计的一种方式；而并行执行则指同时做很多事情，是根据硬件的计算能力来进行的。例如，假设我们在一个餐厅里做若干件事情：点菜、吃饭、结账。在并发的世界里，我们将这..."
       },
       "catalog": [
@@ -4738,18 +4738,18 @@
         }
       ],
       "realName": "acksp7eld7k9p7ag",
-      "relativePath": "\\💻 编程语言\\Go\\🎁 最佳实践\\acksp7eld7k9p7ag.md",
-      "docPath": "docs\\doc\\💻 编程语言\\Go\\🎁 最佳实践"
+      "relativePath": "/💻 编程语言/Go/🎁 最佳实践/acksp7eld7k9p7ag.md",
+      "docPath": "docs/doc/💻 编程语言/Go/🎁 最佳实践"
     },
     {
       "id": 174403386,
       "doc_id": "qqhpbchysd8n881w",
-      "updated": 1718810292000,
+      "updated": 1722943794000,
       "properties": {
         "title": "7天玩转 Golang 标准库之 flag",
         "urlname": "qqhpbchysd8n881w",
         "date": "2024-06-19 23:18:07",
-        "updated": "2024-06-19 23:18:12",
+        "updated": "2024-08-06 19:29:54",
         "description": "在编写Golang命令行应用时，flag标准库无疑是一个很有价值的工具。它允许你以各种方式来定义和解析命令行参数。基础示例：定义与解析参数若想使用flag标准库，你必须首先定义你希望从命令行接收的参数。下面展示了几种常见的参数类型：package main  import ( \t\"flag\" ..."
       },
       "catalog": [
@@ -4767,18 +4767,18 @@
         }
       ],
       "realName": "qqhpbchysd8n881w",
-      "relativePath": "\\💻 编程语言\\Go\\Go标准库\\qqhpbchysd8n881w.md",
-      "docPath": "docs\\doc\\💻 编程语言\\Go\\Go标准库"
+      "relativePath": "/💻 编程语言/Go/Go标准库/qqhpbchysd8n881w.md",
+      "docPath": "docs/doc/💻 编程语言/Go/Go标准库"
     },
     {
       "id": 174403360,
       "doc_id": "kg7o7vghu19v2b48",
-      "updated": 1718810282000,
+      "updated": 1722943819000,
       "properties": {
         "title": "7天玩转 Golang 标准库之 sort",
         "urlname": "kg7o7vghu19v2b48",
         "date": "2024-06-19 23:17:53",
-        "updated": "2024-06-19 23:18:02",
+        "updated": "2024-08-06 19:30:19",
         "description": "数据排序 是编程任务的一个常见部分，而Go标准库的sort包提供了对切片和用户定义集合的排序操作。1.基础排序：整数、浮点数和字符串Golang自带了对于整数切片[]int，浮点数切片[]float64以及字符切片[]string的排序：package main  import ( \t\"fmt..."
       },
       "catalog": [
@@ -4796,18 +4796,18 @@
         }
       ],
       "realName": "kg7o7vghu19v2b48",
-      "relativePath": "\\💻 编程语言\\Go\\Go标准库\\kg7o7vghu19v2b48.md",
-      "docPath": "docs\\doc\\💻 编程语言\\Go\\Go标准库"
+      "relativePath": "/💻 编程语言/Go/Go标准库/kg7o7vghu19v2b48.md",
+      "docPath": "docs/doc/💻 编程语言/Go/Go标准库"
     },
     {
       "id": 174403328,
       "doc_id": "ka141a7685toxaw8",
-      "updated": 1718810262000,
+      "updated": 1722943875000,
       "properties": {
         "title": "7天玩转 Golang 标准库之 os",
         "urlname": "ka141a7685toxaw8",
         "date": "2024-06-19 23:17:34",
-        "updated": "2024-06-19 23:17:42",
+        "updated": "2024-08-06 19:31:15",
         "description": "在 Golang 的日常开发中，往往要面对各种和操作系统相关的操作，例如文件的读写、环境变量的处理、程序参数的获取等等。Golang 的 os 标准库为我们提供了与操作系统打交道的各类工具，能让这些操作变得更加简洁和简单。基础应用文件的读写操作在进行文件操作时，“读” 和 “写” 是最常见且重..."
       },
       "catalog": [
@@ -4825,18 +4825,18 @@
         }
       ],
       "realName": "ka141a7685toxaw8",
-      "relativePath": "\\💻 编程语言\\Go\\Go标准库\\ka141a7685toxaw8.md",
-      "docPath": "docs\\doc\\💻 编程语言\\Go\\Go标准库"
+      "relativePath": "/💻 编程语言/Go/Go标准库/ka141a7685toxaw8.md",
+      "docPath": "docs/doc/💻 编程语言/Go/Go标准库"
     },
     {
       "id": 174403338,
       "doc_id": "gcpnwwcv60ep0ley",
-      "updated": 1718810270000,
+      "updated": 1722943845000,
       "properties": {
         "title": "7天玩转 Golang 标准库之 http/net",
         "urlname": "gcpnwwcv60ep0ley",
         "date": "2024-06-19 23:17:42",
-        "updated": "2024-06-19 23:17:50",
+        "updated": "2024-08-06 19:30:45",
         "description": "在构建web应用时，我们经常需要处理HTTP请求、做网页抓取或者搭建web服务器等任务，而Go语言在这方面为我们提供了强大的内置工具：net/http标准库，它为我们操作和处理HTTP协议提供了便利。基础用法一：处理HTTP请求首先，我们来看看如何使用net/http标准库发送一个HTTP请求..."
       },
       "catalog": [
@@ -4854,18 +4854,18 @@
         }
       ],
       "realName": "gcpnwwcv60ep0ley",
-      "relativePath": "\\💻 编程语言\\Go\\Go标准库\\gcpnwwcv60ep0ley.md",
-      "docPath": "docs\\doc\\💻 编程语言\\Go\\Go标准库"
+      "relativePath": "/💻 编程语言/Go/Go标准库/gcpnwwcv60ep0ley.md",
+      "docPath": "docs/doc/💻 编程语言/Go/Go标准库"
     },
     {
       "id": 174403299,
       "doc_id": "ehoqyhe7wl3ytbqk",
-      "updated": 1718810250000,
+      "updated": 1722943921000,
       "properties": {
         "title": "7天玩转 Golang 标准库之 io",
         "urlname": "ehoqyhe7wl3ytbqk",
         "date": "2024-06-19 23:17:19",
-        "updated": "2024-06-19 23:17:30",
+        "updated": "2024-08-06 19:32:01",
         "description": "在任何语言的开发中，输入/输出 (I/O) 操作都是非常关键的一部分。Golang 提供了 io 和 io/ioutil 标准库，帮助我们进行方便、高效的I/O操作。通过这篇文章，你将了解io库如何提供了对IO原语的基本接口，而io/ioutil库则提供了一些更高级的函数。初级应用读写的基础类..."
       },
       "catalog": [
@@ -4883,18 +4883,18 @@
         }
       ],
       "realName": "ehoqyhe7wl3ytbqk",
-      "relativePath": "\\💻 编程语言\\Go\\Go标准库\\ehoqyhe7wl3ytbqk.md",
-      "docPath": "docs\\doc\\💻 编程语言\\Go\\Go标准库"
+      "relativePath": "/💻 编程语言/Go/Go标准库/ehoqyhe7wl3ytbqk.md",
+      "docPath": "docs/doc/💻 编程语言/Go/Go标准库"
     },
     {
       "id": 174403240,
       "doc_id": "nvgy48uvwxy19xo7",
-      "updated": 1718810224000,
+      "updated": 1722943983000,
       "properties": {
         "title": "7天玩转 Golang 标准库之 sync",
         "urlname": "nvgy48uvwxy19xo7",
         "date": "2024-06-19 23:16:50",
-        "updated": "2024-06-19 23:17:04",
+        "updated": "2024-08-06 19:33:03",
         "description": "Go语言作为现代编程语言，其并发编程的优势是有目共睹的。在实际编程中，我们常常需要保证多个goroutine之间的同步，这就需要使用到Go语言的sync标准库。sync库提供了基本的同步原语，例如互斥锁（Mutex）和等待组（WaitGroup），这些都是协调和控制并发执行的重要工具。基础应用..."
       },
       "catalog": [
@@ -4912,18 +4912,18 @@
         }
       ],
       "realName": "nvgy48uvwxy19xo7",
-      "relativePath": "\\💻 编程语言\\Go\\Go标准库\\nvgy48uvwxy19xo7.md",
-      "docPath": "docs\\doc\\💻 编程语言\\Go\\Go标准库"
+      "relativePath": "/💻 编程语言/Go/Go标准库/nvgy48uvwxy19xo7.md",
+      "docPath": "docs/doc/💻 编程语言/Go/Go标准库"
     },
     {
       "id": 174403271,
       "doc_id": "ly3q2gpooe353xn2",
-      "updated": 1718810239000,
+      "updated": 1722943940000,
       "properties": {
         "title": "7天玩转 Golang 标准库之 text/template",
         "urlname": "ly3q2gpooe353xn2",
         "date": "2024-06-19 23:17:06",
-        "updated": "2024-06-19 23:17:19",
+        "updated": "2024-08-06 19:32:20",
         "description": "在许多编程场景中，我们经常需要把数据按照某种格式进行输出，比如生成HTML页面，或者生成配置文件。这时，我们就需要模板引擎的帮助。幸运的是，Go语言在标准库中就提供了两个强大的模板引擎：text/template和html/template。初级应用text/template库的使用text/..."
       },
       "catalog": [
@@ -4941,8 +4941,8 @@
         }
       ],
       "realName": "ly3q2gpooe353xn2",
-      "relativePath": "\\💻 编程语言\\Go\\Go标准库\\ly3q2gpooe353xn2.md",
-      "docPath": "docs\\doc\\💻 编程语言\\Go\\Go标准库"
+      "relativePath": "/💻 编程语言/Go/Go标准库/ly3q2gpooe353xn2.md",
+      "docPath": "docs/doc/💻 编程语言/Go/Go标准库"
     },
     {
       "id": 174403202,
@@ -10528,13 +10528,13 @@
     {
       "id": 170698550,
       "doc_id": "keyfqrqqbpiaa3ug",
-      "updated": 1716888754000,
+      "updated": 1722942836000,
       "properties": {
         "title": "第7章：Go航天器 - 模块化与测试",
         "urlname": "keyfqrqqbpiaa3ug",
         "date": "2024-05-22 20:16:57",
-        "updated": "2024-05-28 17:32:34",
-        "description": "欢迎进入Go航天器的世界，这里我们将探索Go语言的模块化构建和测试机制，保障你的代码质量和性能。包与模块的管理、单元测试与性能测试，以及并发编程模式和同步机制将是我们的重点。航天工程 - 包与模块的创建与管理在Go语言中，包和模块是代码组织和依赖管理的基石。创建和管理包创建包：在Go项目中，每..."
+        "updated": "2024-08-06 19:13:56",
+        "description": "包与模块的管理、单元测试与性能测试，以及并发编程模式和同步机制将是我们的重点。航天工程 - 包与模块的创建与管理在Go语言中，包和模块是代码组织和依赖管理的基石。创建和管理包创建包：在Go项目中，每个目录都可以视为一个包，包名通常与目录名相同。创建一个新的包，只需创建一个新的目录，并在其中添加..."
       },
       "catalog": [
         {
@@ -10546,13 +10546,13 @@
           "doc_id": "keyfqrqqbpiaa3ug"
         },
         {
-          "title": "🏫 新手入门",
+          "title": "Go 新手入门",
           "doc_id": "keyfqrqqbpiaa3ug"
         }
       ],
       "realName": "keyfqrqqbpiaa3ug",
-      "relativePath": "\\💻 编程语言\\Go\\🏫 新手入门\\keyfqrqqbpiaa3ug.md",
-      "docPath": "docs\\doc\\💻 编程语言\\Go\\🏫 新手入门"
+      "relativePath": "/💻 编程语言/Go/Go 新手入门/keyfqrqqbpiaa3ug.md",
+      "docPath": "docs/doc/💻 编程语言/Go/Go 新手入门"
     },
     {
       "id": 170923280,
@@ -10688,12 +10688,12 @@
     {
       "id": 171439962,
       "doc_id": "gw3x2w4gvo9f3p6d",
-      "updated": 1716886684000,
+      "updated": 1722943718000,
       "properties": {
         "title": "🔥 Golang学习笔记",
         "urlname": "gw3x2w4gvo9f3p6d",
         "date": "2024-05-28 16:57:23",
-        "updated": "2024-05-28 16:58:04",
+        "updated": "2024-08-06 19:28:38",
         "cover": "https://cdn.nlark.com/yuque/0/2022/png/22382235/1654694414190-af83c57e-5dd5-4bc1-813d-4703d10bf870.png",
         "description": "安装环境安装环境=安装golang环境+编辑器安装golang环境：https://www.runoob.com/go/go-environment.html，注意配置环境变量，大致有三个：安装编辑器：goland（只有30天免费使用）或者直接使用sublime text（配置教程）或VSCo..."
       },
@@ -10708,8 +10708,8 @@
         }
       ],
       "realName": "gw3x2w4gvo9f3p6d",
-      "relativePath": "\\💻 编程语言\\Go\\gw3x2w4gvo9f3p6d.md",
-      "docPath": "docs\\doc\\💻 编程语言\\Go"
+      "relativePath": "/💻 编程语言/Go/gw3x2w4gvo9f3p6d.md",
+      "docPath": "docs/doc/💻 编程语言/Go"
     },
     {
       "id": 171438287,
@@ -11793,12 +11793,12 @@
     {
       "id": 170894224,
       "doc_id": "eigb7p6levvwasze",
-      "updated": 1716514344000,
+      "updated": 1722943729000,
       "properties": {
-        "title": "🏫 新手入门",
+        "title": "Go 新手入门",
         "urlname": "eigb7p6levvwasze",
         "date": "2024-05-24 09:29:15",
-        "updated": "2024-05-24 09:32:24",
+        "updated": "2024-08-06 19:28:49",
         "description": "---nav_path: noob---",
         "nav_path": "noob"
       },
@@ -11813,19 +11813,19 @@
         }
       ],
       "realName": "eigb7p6levvwasze",
-      "relativePath": "\\💻 编程语言\\Go\\eigb7p6levvwasze.md",
-      "docPath": "docs\\doc\\💻 编程语言\\Go"
+      "relativePath": "/💻 编程语言/Go/eigb7p6levvwasze.md",
+      "docPath": "docs/doc/💻 编程语言/Go"
     },
     {
       "id": 170697730,
       "doc_id": "fkhl2h5k4efw4611",
-      "updated": 1716514133000,
+      "updated": 1722942804000,
       "properties": {
         "title": "第6章：Go操控台 - 高级特性",
         "urlname": "fkhl2h5k4efw4611",
         "date": "2024-05-22 20:07:10",
-        "updated": "2024-05-24 09:28:53",
-        "description": "这一章节将带你进入Go语言高级特性的操控台，从接口的灵活性到并发编程的强大，再到异常处理的艺术。让我们逐一深入解析。接口定义 - 接口的声明与实现接口在Go语言中是一种类型，它定义了一组方法，但不实现这些方法。当一个类型为接口中的所有方法提供了实现，它被称为实现该接口。接口声明// 定义一个动..."
+        "updated": "2024-08-06 19:13:24",
+        "description": "这一章节将带你进入Go语言高级特性的操控台，从接口的灵活性到并发编程的强大，再到异常处理的艺术。接口定义 - 接口的声明与实现接口在Go语言中是一种类型，它定义了一组方法，但不实现这些方法。当一个类型为接口中的所有方法提供了实现，它被称为实现该接口。接口声明// 定义一个动物的接口 type ..."
       },
       "catalog": [
         {
@@ -11837,24 +11837,24 @@
           "doc_id": "fkhl2h5k4efw4611"
         },
         {
-          "title": "🏫 新手入门",
+          "title": "Go 新手入门",
           "doc_id": "fkhl2h5k4efw4611"
         }
       ],
       "realName": "fkhl2h5k4efw4611",
-      "relativePath": "\\💻 编程语言\\Go\\🏫 新手入门\\fkhl2h5k4efw4611.md",
-      "docPath": "docs\\doc\\💻 编程语言\\Go\\🏫 新手入门"
+      "relativePath": "/💻 编程语言/Go/Go 新手入门/fkhl2h5k4efw4611.md",
+      "docPath": "docs/doc/💻 编程语言/Go/Go 新手入门"
     },
     {
       "id": 170696195,
       "doc_id": "ri9u49otr6ib48c2",
-      "updated": 1716514129000,
+      "updated": 1722942775000,
       "properties": {
         "title": "第5章：Go动力核心 - 函数与方法",
         "urlname": "ri9u49otr6ib48c2",
         "date": "2024-05-22 19:49:53",
-        "updated": "2024-05-24 09:28:49",
-        "description": "在这一章中，我们将探讨Go中的函数与方法，它们是构建强大和高效程序的动力核心。让我们来详细了解能量转换的艺术，动力系统的构建，以及能量场的奥秘。能量转换 - 编写和调用函数函数是Go中用来封装一段执行特定任务代码的单元。理解函数的编写和调用对于开发高效且可复用代码至关重要。编写函数// 定义一..."
+        "updated": "2024-08-06 19:12:55",
+        "description": "在这一章中，我们将探讨Go中的函数与方法，它们是构建强大和高效程序的动力核心。能量转换 - 编写和调用函数函数是Go中用来封装一段执行特定任务代码的单元。理解函数的编写和调用对于开发高效且可复用代码至关重要。编写函数// 定义一个计算两数和的函数 func Sum(a int, b int) ..."
       },
       "catalog": [
         {
@@ -11866,24 +11866,24 @@
           "doc_id": "ri9u49otr6ib48c2"
         },
         {
-          "title": "🏫 新手入门",
+          "title": "Go 新手入门",
           "doc_id": "ri9u49otr6ib48c2"
         }
       ],
       "realName": "ri9u49otr6ib48c2",
-      "relativePath": "\\💻 编程语言\\Go\\🏫 新手入门\\ri9u49otr6ib48c2.md",
-      "docPath": "docs\\doc\\💻 编程语言\\Go\\🏫 新手入门"
+      "relativePath": "/💻 编程语言/Go/Go 新手入门/ri9u49otr6ib48c2.md",
+      "docPath": "docs/doc/💻 编程语言/Go/Go 新手入门"
     },
     {
       "id": 170695641,
       "doc_id": "gcu7t8o1hfh3tgks",
-      "updated": 1716514119000,
+      "updated": 1722942572000,
       "properties": {
         "title": "第3章：Go行动指南 - 流程控制与决策",
         "urlname": "gcu7t8o1hfh3tgks",
         "date": "2024-05-22 19:42:06",
-        "updated": "2024-05-24 09:28:39",
-        "description": "本章节将引导你穿越Go语言的逻辑迷宫，深入了解条件语句和循环语句的使用，是时候做出决策和循环巡航了。路线选择 - 条件语句if/switch的使用在Go的世界中，条件语句就像是在路口做出选择的指南针，它帮助我们根据不同的条件走向不同的路径。使用if语句if语句是最基础的条件判断语句，它允许程序..."
+        "updated": "2024-08-06 19:09:32",
+        "description": "深入了解条件语句和循环语句的使用，是时候做出决策和循环巡航了。路线选择 - 条件语句if/switch的使用在Go的世界中，条件语句就像是在路口做出选择的指南针，它帮助我们根据不同的条件走向不同的路径。使用if语句if语句是最基础的条件判断语句，它允许程序根据条件的真假执行不同的代码段。if ..."
       },
       "catalog": [
         {
@@ -11895,24 +11895,24 @@
           "doc_id": "gcu7t8o1hfh3tgks"
         },
         {
-          "title": "🏫 新手入门",
+          "title": "Go 新手入门",
           "doc_id": "gcu7t8o1hfh3tgks"
         }
       ],
       "realName": "gcu7t8o1hfh3tgks",
-      "relativePath": "\\💻 编程语言\\Go\\🏫 新手入门\\gcu7t8o1hfh3tgks.md",
-      "docPath": "docs\\doc\\💻 编程语言\\Go\\🏫 新手入门"
+      "relativePath": "/💻 编程语言/Go/Go 新手入门/gcu7t8o1hfh3tgks.md",
+      "docPath": "docs/doc/💻 编程语言/Go/Go 新手入门"
     },
     {
       "id": 170695619,
       "doc_id": "yvlmw16u6dg0bnyb",
-      "updated": 1716514113000,
+      "updated": 1722942523000,
       "properties": {
         "title": "第2章：Go工具箱 - 基础语法全接触",
         "urlname": "yvlmw16u6dg0bnyb",
         "date": "2024-05-22 19:41:38",
-        "updated": "2024-05-24 09:28:33",
-        "description": "进一步深入Go语言的世界，本章将全方位接触Go的基础语法，从数据类型、变量与常量的声明与初始化，到运算符与表达式的应用，为你绘制出Go语言的基本脉络。处理信号 - 数据类型的运用与转换在Go语言的行星上，正确地处理数据类型和进行类型转换就像是在浩瀚的宇宙中发送和接收信号一样重要。基本数据类型G..."
+        "updated": "2024-08-06 19:08:43",
+        "description": "本章将全方位接触Go的基础语法，从数据类型、变量与常量的声明与初始化，到运算符与表达式的应用，为你绘制出Go语言的基本脉络。处理信号 - 数据类型的运用与转换在Go语言的行星上，正确地处理数据类型和进行类型转换就像是在浩瀚的宇宙中发送和接收信号一样重要。基本数据类型Go语言提供了丰富的数据类型..."
       },
       "catalog": [
         {
@@ -11924,23 +11924,23 @@
           "doc_id": "yvlmw16u6dg0bnyb"
         },
         {
-          "title": "🏫 新手入门",
+          "title": "Go 新手入门",
           "doc_id": "yvlmw16u6dg0bnyb"
         }
       ],
       "realName": "yvlmw16u6dg0bnyb",
-      "relativePath": "\\💻 编程语言\\Go\\🏫 新手入门\\yvlmw16u6dg0bnyb.md",
-      "docPath": "docs\\doc\\💻 编程语言\\Go\\🏫 新手入门"
+      "relativePath": "/💻 编程语言/Go/Go 新手入门/yvlmw16u6dg0bnyb.md",
+      "docPath": "docs/doc/💻 编程语言/Go/Go 新手入门"
     },
     {
       "id": 170695193,
       "doc_id": "tgkdc0idgg402xt1",
-      "updated": 1716514110000,
+      "updated": 1722942455000,
       "properties": {
         "title": "第1章：Go启航 - 快速入门指南",
         "urlname": "tgkdc0idgg402xt1",
         "date": "2024-05-22 19:36:24",
-        "updated": "2024-05-24 09:28:30",
+        "updated": "2024-08-06 19:07:35",
         "description": "在这个章节中，我们将深入探索Go的程序结构，包括包声明、导入包、函数、变量、语句和表达式以及注释等各个部分。通过详细解析和配合实例代码，让你对Go程序的基本结构有个全面的了解。1.1 包声明在Go语言中，每个文件都属于一个包，而一个程序可能由多个包组成。包是Go语言组织代码的基本单位，有助于代..."
       },
       "catalog": [
@@ -11953,24 +11953,24 @@
           "doc_id": "tgkdc0idgg402xt1"
         },
         {
-          "title": "🏫 新手入门",
+          "title": "Go 新手入门",
           "doc_id": "tgkdc0idgg402xt1"
         }
       ],
       "realName": "tgkdc0idgg402xt1",
-      "relativePath": "\\💻 编程语言\\Go\\🏫 新手入门\\tgkdc0idgg402xt1.md",
-      "docPath": "docs\\doc\\💻 编程语言\\Go\\🏫 新手入门"
+      "relativePath": "/💻 编程语言/Go/Go 新手入门/tgkdc0idgg402xt1.md",
+      "docPath": "docs/doc/💻 编程语言/Go/Go 新手入门"
     },
     {
       "id": 170695646,
       "doc_id": "glme2cxvpkbflykn",
-      "updated": 1716514123000,
+      "updated": 1722942669000,
       "properties": {
         "title": "第4章：Go组件库 - 数据结构与集合",
         "urlname": "glme2cxvpkbflykn",
         "date": "2024-05-22 19:42:09",
-        "updated": "2024-05-24 09:28:43",
-        "description": "在本章节中，我们将深入探讨Go语言中的数组与切片、Map以及结构体与指针的高效使用与实战应用。这些是构建Go应用程序中不可或缺的基石，能够帮助我们更好地管理和操作数据。装载资源 - 数组与切片的高效使用数组和切片是Go语言中处理一系列数据的基本工具。数组的大小在声明时固定，而切片则更加灵活，支..."
+        "updated": "2024-08-06 19:11:09",
+        "description": "在本章节中，我们将深入探讨Go语言中的数组与切片、Map以及结构体与指针的高效使用与实战应用。装载资源 - 数组与切片的高效使用数组和切片是Go语言中处理一系列数据的基本工具。数组的大小在声明时固定，而切片则更加灵活，支持动态扩展。数组数组是具有固定大小和类型的元素序列。var planets..."
       },
       "catalog": [
         {
@@ -11982,13 +11982,13 @@
           "doc_id": "glme2cxvpkbflykn"
         },
         {
-          "title": "🏫 新手入门",
+          "title": "Go 新手入门",
           "doc_id": "glme2cxvpkbflykn"
         }
       ],
       "realName": "glme2cxvpkbflykn",
-      "relativePath": "\\💻 编程语言\\Go\\🏫 新手入门\\glme2cxvpkbflykn.md",
-      "docPath": "docs\\doc\\💻 编程语言\\Go\\🏫 新手入门"
+      "relativePath": "/💻 编程语言/Go/Go 新手入门/glme2cxvpkbflykn.md",
+      "docPath": "docs/doc/💻 编程语言/Go/Go 新手入门"
     },
     {
       "id": 177644200,
@@ -12526,12 +12526,12 @@
     {
       "id": 180664037,
       "doc_id": "cfd64u2k9y1i2kk9",
-      "updated": 1722597436000,
+      "updated": 1722609347000,
       "properties": {
         "title": "京东秋招实习面经",
         "urlname": "cfd64u2k9y1i2kk9",
         "date": "2024-08-02 19:13:22",
-        "updated": "2024-08-02 19:17:16",
+        "updated": "2024-08-02 22:35:47",
         "cover": "https://cdn.nlark.com/yuque/__puml/254e87cf2b01fc509e44845a6d3b363d.svg",
         "description": "京东实习面经你之前说你的项目这边涉及大数据这块比较多，那你代码工程是怎么样的一个工程，就是直接用一些have的SQL去搞这种直接数据的开发，还是怎么去做的这种系统的编程。这个工程是怎么搭出来的对外提供什么接口，系统之间是怎么调接口的传输方式，就是说不同部门之间怎么去调一个服务Java通常使用什..."
       },
@@ -12548,6 +12548,30 @@
       "realName": "cfd64u2k9y1i2kk9",
       "relativePath": "/💹 大厂面经/面试真题/cfd64u2k9y1i2kk9.md",
       "docPath": "docs/doc/💹 大厂面经/面试真题"
+    },
+    {
+      "id": 180725593,
+      "doc_id": "ls3yv2g2ssevtkvo",
+      "updated": 1722657770000,
+      "properties": {
+        "title": "Goland 国内Proxy",
+        "urlname": "ls3yv2g2ssevtkvo",
+        "date": "2024-08-03 12:02:37",
+        "updated": "2024-08-03 12:02:50"
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "ls3yv2g2ssevtkvo"
+        },
+        {
+          "title": "环境安装😭",
+          "doc_id": "ls3yv2g2ssevtkvo"
+        }
+      ],
+      "realName": "ls3yv2g2ssevtkvo",
+      "relativePath": "/🔥 程序员自我修养/环境安装😭/ls3yv2g2ssevtkvo.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/环境安装😭"
     }
   ],
   "catalog": [
@@ -13008,7 +13032,7 @@
       "url": "io5kukplplfeb9ls",
       "prev_uuid": "pzU6x4VThGDwLdrN",
       "sibling_uuid": "dM55tS-xNS9gbu5Q",
-      "child_uuid": "jF2S9NqA98x9ztCI",
+      "child_uuid": "k15IPeeiWLWl8oT_",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
       "doc_id": 171259351,
       "level": 1,
@@ -13018,10 +13042,25 @@
     },
     {
       "type": "DOC",
+      "title": "Goland 国内Proxy",
+      "uuid": "k15IPeeiWLWl8oT_",
+      "url": "ls3yv2g2ssevtkvo",
+      "prev_uuid": "_d86pwt2PnWp0V6d",
+      "sibling_uuid": "jF2S9NqA98x9ztCI",
+      "child_uuid": "",
+      "parent_uuid": "_d86pwt2PnWp0V6d",
+      "doc_id": 180725593,
+      "level": 2,
+      "id": 180725593,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "夸克网盘自动签到功能上线",
       "uuid": "jF2S9NqA98x9ztCI",
       "url": "tgaw8ygonvh5e6rf",
-      "prev_uuid": "_d86pwt2PnWp0V6d",
+      "prev_uuid": "k15IPeeiWLWl8oT_",
       "sibling_uuid": "5k7niHm_6ERdnY_9",
       "child_uuid": "",
       "parent_uuid": "_d86pwt2PnWp0V6d",
@@ -14368,7 +14407,7 @@
     },
     {
       "type": "DOC",
-      "title": "🏫 新手入门",
+      "title": "Go 新手入门",
       "uuid": "SBteHfLgsx_bPvlO",
       "url": "eigb7p6levvwasze",
       "prev_uuid": "Kz42HmwRUbbo3mma",

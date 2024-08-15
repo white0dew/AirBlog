@@ -2,16 +2,19 @@
 title: 第一章：初识 JavaScript
 urlname: lzdv93b8t8soe0mn
 date: '2024-06-07 10:32:26'
-updated: '2024-06-07 10:33:49'
-description: JavaScript 是现代 Web 开发的核心技术之一，任何想要成为全栈开发者的人都必须掌握它。这一章将带你初步了解 JavaScript，从其历史、发展到应用领域，再到实际的环境搭建和第一个 JavaScript 程序编写。这是你迈入 JavaScript 世界的第一步。1. JavaSc...
+updated: '2024-08-15 16:37:24'
+description: JavaScript 是现代 Web 开发的核心技术之一，任何想要成为全栈开发者的人都必须掌握它。这一章将带你初步了解 JavaScript，从其历史、发展到应用领域，再到实际的环境搭建和第一个 JavaScript 程序编写。1. JavaScript 简介1.1 JavaScript 的历...
 ---
-JavaScript 是现代 Web 开发的核心技术之一，任何想要成为全栈开发者的人都必须掌握它。这一章将带你初步了解 JavaScript，从其历史、发展到应用领域，再到实际的环境搭建和第一个 JavaScript 程序编写。这是你迈入 JavaScript 世界的第一步。
+JavaScript 是现代 Web 开发的核心技术之一，任何想要成为全栈开发者的人都必须掌握它。
+这一章将带你初步了解 JavaScript，从其历史、发展到应用领域，再到实际的环境搭建和第一个 JavaScript 程序编写。
 
 ## 1. JavaScript 简介
 
 ### 1.1 JavaScript 的历史与发展
 
-JavaScript 诞生于 1995 年，由 Brendan Eich 在 Netscape Communications 公司开发。最初，它被命名为 Mocha，后改为 LiveScript，最终命名为 JavaScript。JavaScript 迅速成为 Web 浏览器的标准编程语言，并在 1997 年被 ECMA（European Computer Manufacturers Association）标准化，称为 ECMAScript。
+JavaScript 诞生于 1995 年，由 Brendan Eich 在 Netscape Communications 公司开发。
+
+最初，它被命名为 Mocha，后改为 LiveScript，最终命名为 JavaScript。JavaScript 迅速成为 Web 浏览器的标准编程语言，并在 1997 年被 ECMA（European Computer Manufacturers Association）标准化，称为 ECMAScript。
 
 在过去的几十年里，JavaScript 进行了多次迭代和改进，从简单的脚本语言演变为强大的编程语言，支持面向对象编程、函数式编程和事件驱动编程等多种范式。
 

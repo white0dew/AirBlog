@@ -4998,12 +4998,12 @@
     {
       "id": 174403073,
       "doc_id": "ihwoz00dunyzo09m",
-      "updated": 1718810098000,
+      "updated": 1722947569000,
       "properties": {
         "title": "Go到底能做什么？不能做什么？",
         "urlname": "ihwoz00dunyzo09m",
         "date": "2024-06-19 23:14:51",
-        "updated": "2024-06-19 23:14:58",
+        "updated": "2024-08-06 20:32:49",
         "description": "首先，让我表达一下我对Golang的喜爱。作为一名科技博主和程序员，我个人非常喜欢Golang，主要有以下几点原因：1、简洁易用：Go语言非常简洁，没有繁杂的语法，读起来非常流畅。同时，它的标准库提供了丰富的功能，可以有效地减少了我们的开发工作。2、高并发：Go语言的并发模型Goroutine..."
       },
       "catalog": [
@@ -5021,8 +5021,8 @@
         }
       ],
       "realName": "ihwoz00dunyzo09m",
-      "relativePath": "\\💻 编程语言\\Go\\🎁 最佳实践\\ihwoz00dunyzo09m.md",
-      "docPath": "docs\\doc\\💻 编程语言\\Go\\🎁 最佳实践"
+      "relativePath": "/💻 编程语言/Go/🎁 最佳实践/ihwoz00dunyzo09m.md",
+      "docPath": "docs/doc/💻 编程语言/Go/🎁 最佳实践"
     },
     {
       "id": 174403112,
@@ -7869,12 +7869,12 @@
     {
       "id": 170944181,
       "doc_id": "qf6b0vmagi3cbnbv",
-      "updated": 1718240355000,
+      "updated": 1723710895000,
       "properties": {
-        "title": "🔥 MySQL面试必问（二）",
+        "title": "MySQL面试必问（二）🔥",
         "urlname": "qf6b0vmagi3cbnbv",
         "date": "2024-05-24 15:19:07",
-        "updated": "2024-06-13 08:59:15",
+        "updated": "2024-08-15 16:34:55",
         "description": "一、存储引擎MySQL有哪些常用的存储引擎？回答：InnoDB：默认存储引擎，支持ACID事务、外键、行级锁和自动崩溃恢复。适用于支持高并发事务处理和数据完整性要求高的应用。MyISAM：不支持事务和外键，使用表级锁，适用于读操作频繁、数据修改较少的应用。具有较高的读取性能。Memory：将数..."
       },
       "catalog": [
@@ -7888,8 +7888,8 @@
         }
       ],
       "realName": "qf6b0vmagi3cbnbv",
-      "relativePath": "\\📚 计算机基础\\MySQL\\qf6b0vmagi3cbnbv.md",
-      "docPath": "docs\\doc\\📚 计算机基础\\MySQL"
+      "relativePath": "/📚 计算机基础/MySQL/qf6b0vmagi3cbnbv.md",
+      "docPath": "docs/doc/📚 计算机基础/MySQL"
     },
     {
       "id": 173435904,
@@ -7942,12 +7942,12 @@
     {
       "id": 172786087,
       "doc_id": "obhmxn0wg1gxp2n6",
-      "updated": 1717727966000,
+      "updated": 1723711401000,
       "properties": {
         "title": "第十二章：高级应用与最佳实践",
         "urlname": "obhmxn0wg1gxp2n6",
         "date": "2024-06-07 10:39:12",
-        "updated": "2024-06-07 10:39:26",
+        "updated": "2024-08-15 16:43:21",
         "description": "在前面的章节中，我们已经掌握了JavaScript的基础知识和进阶技巧。在本章中，我们将探讨一些高级应用和最佳实践，帮助你在实际项目中更高效地运用JavaScript。前沿技术与框架React 的基本概念与使用React 是由 Facebook 开发的一个用于构建用户界面的 JavaScrip..."
       },
       "catalog": [
@@ -7961,18 +7961,18 @@
         }
       ],
       "realName": "obhmxn0wg1gxp2n6",
-      "relativePath": "\\💻 编程语言\\JavaScript\\obhmxn0wg1gxp2n6.md",
-      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+      "relativePath": "/💻 编程语言/JavaScript/obhmxn0wg1gxp2n6.md",
+      "docPath": "docs/doc/💻 编程语言/JavaScript"
     },
     {
       "id": 172786002,
       "doc_id": "myrlyqga6ewhaxdm",
-      "updated": 1717727951000,
+      "updated": 1723711381000,
       "properties": {
         "title": "第十一章：现代 JavaScript 工具链",
         "urlname": "myrlyqga6ewhaxdm",
         "date": "2024-06-07 10:38:43",
-        "updated": "2024-06-07 10:39:11",
+        "updated": "2024-08-15 16:43:01",
         "description": "由代码编写到代码部署，合理地使用工具可以大幅提升开发效率和代码质量。本章我们将深入探讨几种重要的 JavaScript 工具，包括模块打包工具、代码质量工具和构建与部署工具，并通过实际操作示例，帮助你熟悉并掌握这些工具的使用。模块打包工具模块化开发有助于代码的维护和复用，而模块打包工具则是将这..."
       },
       "catalog": [
@@ -7986,18 +7986,18 @@
         }
       ],
       "realName": "myrlyqga6ewhaxdm",
-      "relativePath": "\\💻 编程语言\\JavaScript\\myrlyqga6ewhaxdm.md",
-      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+      "relativePath": "/💻 编程语言/JavaScript/myrlyqga6ewhaxdm.md",
+      "docPath": "docs/doc/💻 编程语言/JavaScript"
     },
     {
       "id": 172785957,
       "doc_id": "tvi5rnx6lvl2sczq",
-      "updated": 1717727922000,
+      "updated": 1723711366000,
       "properties": {
         "title": "第十章：测试与调试",
         "urlname": "tvi5rnx6lvl2sczq",
         "date": "2024-06-07 10:38:31",
-        "updated": "2024-06-07 10:38:42",
+        "updated": "2024-08-15 16:42:46",
         "description": "1. 单元测试1.1 什么是单元测试单元测试（Unit Testing）是对软件的最小可测试单元进行验证，以确保其功能正确。它能够帮助开发者发现和修复错误，提高代码的稳定性和可维护性。单元测试通常由开发者自己编写，并且与实际的业务逻辑代码分开。1.2 使用 Jest 编写单元测试Jest 是一..."
       },
       "catalog": [
@@ -8011,18 +8011,18 @@
         }
       ],
       "realName": "tvi5rnx6lvl2sczq",
-      "relativePath": "\\💻 编程语言\\JavaScript\\tvi5rnx6lvl2sczq.md",
-      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+      "relativePath": "/💻 编程语言/JavaScript/tvi5rnx6lvl2sczq.md",
+      "docPath": "docs/doc/💻 编程语言/JavaScript"
     },
     {
       "id": 172785881,
       "doc_id": "xwymt3c06amgkp2n",
-      "updated": 1717727909000,
+      "updated": 1723711347000,
       "properties": {
         "title": "第九章：项目实战：创建一个任务管理应用",
         "urlname": "xwymt3c06amgkp2n",
         "date": "2024-06-07 10:38:06",
-        "updated": "2024-06-07 10:38:29",
+        "updated": "2024-08-15 16:42:27",
         "description": "在这一章中，我们将通过创建一个完整的任务管理应用，来综合运用前几章所学的知识。这个项目将涵盖需求分析、功能规划、开发实现以及项目部署等多个方面，帮助你掌握实际项目开发的流程。项目介绍与规划项目需求分析与功能规划在开发一个任务管理应用之前，我们需要首先明确应用的需求和功能。以下是对项目的需求分析..."
       },
       "catalog": [
@@ -8036,18 +8036,18 @@
         }
       ],
       "realName": "xwymt3c06amgkp2n",
-      "relativePath": "\\💻 编程语言\\JavaScript\\xwymt3c06amgkp2n.md",
-      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+      "relativePath": "/💻 编程语言/JavaScript/xwymt3c06amgkp2n.md",
+      "docPath": "docs/doc/💻 编程语言/JavaScript"
     },
     {
       "id": 172785828,
       "doc_id": "fkoyngxgpmgaeg44",
-      "updated": 1717727884000,
+      "updated": 1723711318000,
       "properties": {
         "title": "第八章：浏览器 API 与本地存储",
         "urlname": "fkoyngxgpmgaeg44",
         "date": "2024-06-07 10:37:53",
-        "updated": "2024-06-07 10:38:04",
+        "updated": "2024-08-15 16:41:58",
         "description": "1. 浏览器 API在现代 Web 开发中，浏览器为开发者提供了丰富的 API，用于处理各种任务，如网络请求、剪贴板操作等。本节将介绍一些常用的浏览器 API，并演示其使用方法。常用浏览器 API 介绍Fetch APIFetch API 用于执行网络请求，替代了老旧的 XMLHttpRequ..."
       },
       "catalog": [
@@ -8061,18 +8061,19 @@
         }
       ],
       "realName": "fkoyngxgpmgaeg44",
-      "relativePath": "\\💻 编程语言\\JavaScript\\fkoyngxgpmgaeg44.md",
-      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+      "relativePath": "/💻 编程语言/JavaScript/fkoyngxgpmgaeg44.md",
+      "docPath": "docs/doc/💻 编程语言/JavaScript"
     },
     {
       "id": 172785778,
       "doc_id": "bbsxpgzzhu3i88xy",
-      "updated": 1717727872000,
+      "updated": 1723711301000,
       "properties": {
         "title": "第七章：DOM 操作与事件处理",
         "urlname": "bbsxpgzzhu3i88xy",
         "date": "2024-06-07 10:37:40",
-        "updated": "2024-06-07 10:37:52",
+        "updated": "2024-08-15 16:41:41",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/15266c94d9ccd675f00027a43ab14bfe.svg",
         "description": "1. DOM 基本概念什么是 DOMDOM（Document Object Model）是 HTML 和 XML 文档的编程接口。它提供了一组标准的对象，使开发者能够动态访问和更新文档的内容、结构和样式。DOM 把文档表示为一个树结构，其中每个节点都是文档的一部分。DOM 树的结构DOM 树是..."
       },
       "catalog": [
@@ -8086,18 +8087,18 @@
         }
       ],
       "realName": "bbsxpgzzhu3i88xy",
-      "relativePath": "\\💻 编程语言\\JavaScript\\bbsxpgzzhu3i88xy.md",
-      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+      "relativePath": "/💻 编程语言/JavaScript/bbsxpgzzhu3i88xy.md",
+      "docPath": "docs/doc/💻 编程语言/JavaScript"
     },
     {
       "id": 172785732,
       "doc_id": "xwdzodwra6u55sib",
-      "updated": 1717727859000,
+      "updated": 1723711265000,
       "properties": {
         "title": "第六章：异步编程",
         "urlname": "xwdzodwra6u55sib",
         "date": "2024-06-07 10:37:26",
-        "updated": "2024-06-07 10:37:39",
+        "updated": "2024-08-15 16:41:05",
         "description": "1. 回调函数在 JavaScript 中，异步编程是处理时间消耗任务（如网络请求、文件读取等）的核心技术之一。回调函数是处理异步操作的最基本方式。什么是回调函数回调函数是作为参数传递给另一个函数的函数，当那个函数完成其任务后会调用这个回调函数。此模式常用于处理异步操作。以下是一个基本示例：f..."
       },
       "catalog": [
@@ -8111,18 +8112,18 @@
         }
       ],
       "realName": "xwdzodwra6u55sib",
-      "relativePath": "\\💻 编程语言\\JavaScript\\xwdzodwra6u55sib.md",
-      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+      "relativePath": "/💻 编程语言/JavaScript/xwdzodwra6u55sib.md",
+      "docPath": "docs/doc/💻 编程语言/JavaScript"
     },
     {
       "id": 172785226,
       "doc_id": "pogg73bgofw753sb",
-      "updated": 1717727721000,
+      "updated": 1723711248000,
       "properties": {
         "title": "第五章：面向对象编程",
         "urlname": "pogg73bgofw753sb",
         "date": "2024-06-07 10:34:54",
-        "updated": "2024-06-07 10:35:21",
+        "updated": "2024-08-15 16:40:48",
         "description": "1. ObjectsJavaScript 的对象是存储键值对的容器。对象在 JavaScript 中扮演了重要的角色，它们允许我们将数据和功能组织在一起，使代码更加结构化和模块化。1.1 对象的定义与属性在 JavaScript 中，可以使用花括号 {} 来定义对象，并通过键值对的形式来添加属..."
       },
       "catalog": [
@@ -8136,19 +8137,20 @@
         }
       ],
       "realName": "pogg73bgofw753sb",
-      "relativePath": "\\💻 编程语言\\JavaScript\\pogg73bgofw753sb.md",
-      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+      "relativePath": "/💻 编程语言/JavaScript/pogg73bgofw753sb.md",
+      "docPath": "docs/doc/💻 编程语言/JavaScript"
     },
     {
       "id": 172785156,
       "doc_id": "yl3i2ox3zh528deh",
-      "updated": 1717727692000,
+      "updated": 1723711234000,
       "properties": {
         "title": "第四章：函数与作用域",
         "urlname": "yl3i2ox3zh528deh",
         "date": "2024-06-07 10:34:29",
-        "updated": "2024-06-07 10:34:52",
-        "description": "在这一章中，我们将深入探讨 JavaScript 中函数的各个方面，包括函数的定义与调用、参数与返回值、箭头函数与匿名函数。此外，我们还会探讨作用域的概念，以及如何利用闭包来创建更强大的代码。最后，我们将介绍高阶函数及其在简化代码方面的应用。1. 函数1.1 函数的定义与调用在 JavaScr..."
+        "updated": "2024-08-15 16:40:34",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/75959c4cecb87a93a3941a567ef66e9e.svg",
+        "description": "在这一章将深入探讨 JavaScript 中函数的各个方面，包括函数的定义与调用、参数与返回值、箭头函数与匿名函数。此外，我们还会探讨作用域的概念，以及如何利用闭包来创建更强大的代码。最后，我们将介绍高阶函数及其在简化代码方面的应用。1. 函数1.1 函数的定义与调用在 JavaScript ..."
       },
       "catalog": [
         {
@@ -8161,19 +8163,19 @@
         }
       ],
       "realName": "yl3i2ox3zh528deh",
-      "relativePath": "\\💻 编程语言\\JavaScript\\yl3i2ox3zh528deh.md",
-      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+      "relativePath": "/💻 编程语言/JavaScript/yl3i2ox3zh528deh.md",
+      "docPath": "docs/doc/💻 编程语言/JavaScript"
     },
     {
       "id": 172785097,
       "doc_id": "ced0rgbttkbm4gsn",
-      "updated": 1717727667000,
+      "updated": 1723711161000,
       "properties": {
         "title": "第三章：控制结构",
         "urlname": "ced0rgbttkbm4gsn",
         "date": "2024-06-07 10:34:15",
-        "updated": "2024-06-07 10:34:27",
-        "description": "在编写程序的过程中，控制结构是非常重要的概念。它们决定了代码的执行顺序，使我们能够根据不同的条件或重复执行代码块。JavaScript 提供了丰富的控制结构，包括条件语句和循环语句。本章将详细介绍这些控制结构及其应用。1. 条件语句条件语句允许代码根据不同的条件执行不同的操作。这对于编写逻辑复..."
+        "updated": "2024-08-15 16:39:21",
+        "description": "JavaScript 提供了丰富的控制结构，包括条件语句和循环语句。本章将详细介绍这些控制结构及其应用。1. 条件语句条件语句允许代码根据不同的条件执行不同的操作。这对于编写逻辑复杂的程序至关重要。if 语句if 语句是最基本的条件语句之一，通常用于在某个条件满足时执行代码块。其语法如下：if..."
       },
       "catalog": [
         {
@@ -8186,19 +8188,19 @@
         }
       ],
       "realName": "ced0rgbttkbm4gsn",
-      "relativePath": "\\💻 编程语言\\JavaScript\\ced0rgbttkbm4gsn.md",
-      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+      "relativePath": "/💻 编程语言/JavaScript/ced0rgbttkbm4gsn.md",
+      "docPath": "docs/doc/💻 编程语言/JavaScript"
     },
     {
       "id": 172785030,
       "doc_id": "wyh4y9de5m1h1n0e",
-      "updated": 1717727654000,
+      "updated": 1723711140000,
       "properties": {
         "title": "第二章：JavaScript 基础语法",
         "urlname": "wyh4y9de5m1h1n0e",
         "date": "2024-06-07 10:33:50",
-        "updated": "2024-06-07 10:34:14",
-        "description": "1. 变量与数据类型变量的声明在 JavaScript 中，我们可以使用 var、let 和 const 这三种关键词来声明变量。下面是每种声明方式的详细解释和示例：var 关键词var 是 JavaScript 中最早用来声明变量的关键词。它有一些特性需要注意：var name = \"Ali..."
+        "updated": "2024-08-15 16:39:00",
+        "description": "1. 变量与数据类型变量的声明在 JavaScript 中，我们可以使用 var、let 和 const 这三种关键词来声明变量。下面是每种声明方式的详细解释和示例：var 关键词var 是 JavaScript 中最早用来声明变量的关键词。var name = \"Alice\"; consol..."
       },
       "catalog": [
         {
@@ -8211,8 +8213,8 @@
         }
       ],
       "realName": "wyh4y9de5m1h1n0e",
-      "relativePath": "\\💻 编程语言\\JavaScript\\wyh4y9de5m1h1n0e.md",
-      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+      "relativePath": "/💻 编程语言/JavaScript/wyh4y9de5m1h1n0e.md",
+      "docPath": "docs/doc/💻 编程语言/JavaScript"
     },
     {
       "id": 172726084,
@@ -8242,13 +8244,13 @@
     {
       "id": 172784684,
       "doc_id": "lzdv93b8t8soe0mn",
-      "updated": 1717727629000,
+      "updated": 1723711044000,
       "properties": {
         "title": "第一章：初识 JavaScript",
         "urlname": "lzdv93b8t8soe0mn",
         "date": "2024-06-07 10:32:26",
-        "updated": "2024-06-07 10:33:49",
-        "description": "JavaScript 是现代 Web 开发的核心技术之一，任何想要成为全栈开发者的人都必须掌握它。这一章将带你初步了解 JavaScript，从其历史、发展到应用领域，再到实际的环境搭建和第一个 JavaScript 程序编写。这是你迈入 JavaScript 世界的第一步。1. JavaSc..."
+        "updated": "2024-08-15 16:37:24",
+        "description": "JavaScript 是现代 Web 开发的核心技术之一，任何想要成为全栈开发者的人都必须掌握它。这一章将带你初步了解 JavaScript，从其历史、发展到应用领域，再到实际的环境搭建和第一个 JavaScript 程序编写。1. JavaScript 简介1.1 JavaScript 的历..."
       },
       "catalog": [
         {
@@ -8261,8 +8263,8 @@
         }
       ],
       "realName": "lzdv93b8t8soe0mn",
-      "relativePath": "\\💻 编程语言\\JavaScript\\lzdv93b8t8soe0mn.md",
-      "docPath": "docs\\doc\\💻 编程语言\\JavaScript"
+      "relativePath": "/💻 编程语言/JavaScript/lzdv93b8t8soe0mn.md",
+      "docPath": "docs/doc/💻 编程语言/JavaScript"
     },
     {
       "id": 172726067,
@@ -10311,12 +10313,12 @@
     {
       "id": 172187614,
       "doc_id": "hn222ds8l0mhz091",
-      "updated": 1717395656000,
+      "updated": 1722947587000,
       "properties": {
         "title": "深入解析 Go 语言的垃圾回收机制",
         "urlname": "hn222ds8l0mhz091",
         "date": "2024-06-03 14:20:31",
-        "updated": "2024-06-03 14:20:56",
+        "updated": "2024-08-06 20:33:07",
         "description": "在现代编程语言中，垃圾回收（Garbage Collection, GC）机制是提升开发效率和代码可靠性的重要功能之一。Go 语言的垃圾回收机制经过多年的演进，已经变得非常高效和智能。什么是垃圾回收？垃圾回收是一种自动内存管理技术，用于回收程序中不再使用的内存资源。这种技术可以减少内存泄漏和其..."
       },
       "catalog": [
@@ -10334,8 +10336,8 @@
         }
       ],
       "realName": "hn222ds8l0mhz091",
-      "relativePath": "\\💻 编程语言\\Go\\🎁 最佳实践\\hn222ds8l0mhz091.md",
-      "docPath": "docs\\doc\\💻 编程语言\\Go\\🎁 最佳实践"
+      "relativePath": "/💻 编程语言/Go/🎁 最佳实践/hn222ds8l0mhz091.md",
+      "docPath": "docs/doc/💻 编程语言/Go/🎁 最佳实践"
     },
     {
       "id": 172185765,
@@ -10688,12 +10690,12 @@
     {
       "id": 171439962,
       "doc_id": "gw3x2w4gvo9f3p6d",
-      "updated": 1722943718000,
+      "updated": 1722947532000,
       "properties": {
         "title": "🔥 Golang学习笔记",
         "urlname": "gw3x2w4gvo9f3p6d",
         "date": "2024-05-28 16:57:23",
-        "updated": "2024-08-06 19:28:38",
+        "updated": "2024-08-06 20:32:12",
         "cover": "https://cdn.nlark.com/yuque/0/2022/png/22382235/1654694414190-af83c57e-5dd5-4bc1-813d-4703d10bf870.png",
         "description": "安装环境安装环境=安装golang环境+编辑器安装golang环境：https://www.runoob.com/go/go-environment.html，注意配置环境变量，大致有三个：安装编辑器：goland（只有30天免费使用）或者直接使用sublime text（配置教程）或VSCo..."
       },
@@ -11204,12 +11206,12 @@
     {
       "id": 170922417,
       "doc_id": "kewfeh2gmbrr6p0q",
-      "updated": 1716889667000,
+      "updated": 1723710888000,
       "properties": {
-        "title": "🔥 MySQL面试必问（一）",
+        "title": "MySQL面试必问（一）🔥",
         "urlname": "kewfeh2gmbrr6p0q",
         "date": "2024-05-24 12:43:33",
-        "updated": "2024-05-28 17:47:47",
+        "updated": "2024-08-15 16:34:48",
         "cover": "https://cdn.nlark.com/yuque/0/2021/png/22382235/1630507852986-80aef639-4ae5-4f18-88d1-932c3606d05e.png",
         "description": "数据库基础知识数据库三范式（3NF）简单来说，在关系型数据库汇总，三范式就是设计一个好的数据库所必须要遵循的一些规则。每列原子性（1NF）比如某一个数据表中有“地址”信息，但是实际业务场景下经常查询“地址”中的城市部分，那么就需要将“地址”拆分成多个部分来保存（否则的话，实际业务场景还需要在地..."
       },
@@ -11224,8 +11226,8 @@
         }
       ],
       "realName": "kewfeh2gmbrr6p0q",
-      "relativePath": "\\📚 计算机基础\\MySQL\\kewfeh2gmbrr6p0q.md",
-      "docPath": "docs\\doc\\📚 计算机基础\\MySQL"
+      "relativePath": "/📚 计算机基础/MySQL/kewfeh2gmbrr6p0q.md",
+      "docPath": "docs/doc/📚 计算机基础/MySQL"
     },
     {
       "id": 170897593,
@@ -12572,6 +12574,28 @@
       "realName": "ls3yv2g2ssevtkvo",
       "relativePath": "/🔥 程序员自我修养/环境安装😭/ls3yv2g2ssevtkvo.md",
       "docPath": "docs/doc/🔥 程序员自我修养/环境安装😭"
+    },
+    {
+      "id": 181246765,
+      "doc_id": "kxspepu7t1b7783v",
+      "updated": 1723032382000,
+      "properties": {
+        "title": "计算机网络面试必问",
+        "urlname": "kxspepu7t1b7783v",
+        "date": "2024-08-07 12:53:57",
+        "updated": "2024-08-07 20:06:22",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1722953399419-c3811ae6-707c-48c1-8a48-d32f46d24b40.png?x-oss-process=image%2Fformat%2Cwebp",
+        "description": "HTTP常用的状态码及其含义HTTP状态码是用来表示服务器响应客户端请求的状态。常用的状态码分为以下几类：状态码含义200OK：请求成功，服务器已返回所请求的数据。201Created：请求成功并且服务器创建了新的资源。204No Content：服务器成功处理了请求，但没有返回任何内容。30..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "kxspepu7t1b7783v"
+        }
+      ],
+      "realName": "kxspepu7t1b7783v",
+      "relativePath": "/💹 大厂面经/kxspepu7t1b7783v.md",
+      "docPath": "docs/doc/💹 大厂面经"
     }
   ],
   "catalog": [
@@ -13552,7 +13576,7 @@
     },
     {
       "type": "DOC",
-      "title": "🔥 MySQL面试必问（一）",
+      "title": "MySQL面试必问（一）🔥",
       "uuid": "d8j8nIfk7mEGouOA",
       "url": "kewfeh2gmbrr6p0q",
       "prev_uuid": "NqPQmrLc_QZ1nPAj",
@@ -13567,7 +13591,7 @@
     },
     {
       "type": "DOC",
-      "title": "🔥 MySQL面试必问（二）",
+      "title": "MySQL面试必问（二）🔥",
       "uuid": "k9uj_UI95OXK9ikq",
       "url": "qf6b0vmagi3cbnbv",
       "prev_uuid": "d8j8nIfk7mEGouOA",
@@ -14562,7 +14586,7 @@
       "url": "htpzy6yum72pgula",
       "prev_uuid": "A8eSO-NCQw0ild1y",
       "sibling_uuid": "u2KBx-kui0oQ6a40",
-      "child_uuid": "v08I-Wt6rBgM_etV",
+      "child_uuid": "QbSmaCB_JDZ5arro",
       "parent_uuid": "Kz42HmwRUbbo3mma",
       "doc_id": 170698560,
       "level": 2,
@@ -14572,10 +14596,25 @@
     },
     {
       "type": "DOC",
+      "title": "Go到底能做什么？不能做什么？",
+      "uuid": "QbSmaCB_JDZ5arro",
+      "url": "ihwoz00dunyzo09m",
+      "prev_uuid": "YOd5pEsvtecnipV1",
+      "sibling_uuid": "v08I-Wt6rBgM_etV",
+      "child_uuid": "",
+      "parent_uuid": "YOd5pEsvtecnipV1",
+      "doc_id": 174403073,
+      "level": 3,
+      "id": 174403073,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "Go内存模型详解",
       "uuid": "v08I-Wt6rBgM_etV",
       "url": "muby5dz3x4wlzb5k",
-      "prev_uuid": "YOd5pEsvtecnipV1",
+      "prev_uuid": "QbSmaCB_JDZ5arro",
       "sibling_uuid": "0mSAwTN00OhNernO",
       "child_uuid": "",
       "parent_uuid": "YOd5pEsvtecnipV1",
@@ -14591,7 +14630,7 @@
       "uuid": "0mSAwTN00OhNernO",
       "url": "acksp7eld7k9p7ag",
       "prev_uuid": "v08I-Wt6rBgM_etV",
-      "sibling_uuid": "QbSmaCB_JDZ5arro",
+      "sibling_uuid": "OQU4CuyqNKP1JxfO",
       "child_uuid": "",
       "parent_uuid": "YOd5pEsvtecnipV1",
       "doc_id": 174403422,
@@ -14602,25 +14641,10 @@
     },
     {
       "type": "DOC",
-      "title": "Go到底能做什么？不能做什么？",
-      "uuid": "QbSmaCB_JDZ5arro",
-      "url": "ihwoz00dunyzo09m",
-      "prev_uuid": "0mSAwTN00OhNernO",
-      "sibling_uuid": "OQU4CuyqNKP1JxfO",
-      "child_uuid": "",
-      "parent_uuid": "YOd5pEsvtecnipV1",
-      "doc_id": 174403073,
-      "level": 3,
-      "id": 174403073,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
       "title": "Go 语言的内存模型",
       "uuid": "OQU4CuyqNKP1JxfO",
       "url": "gngndpw23pnmp9ui",
-      "prev_uuid": "QbSmaCB_JDZ5arro",
+      "prev_uuid": "0mSAwTN00OhNernO",
       "sibling_uuid": "P5MzyabivdN61cQG",
       "child_uuid": "",
       "parent_uuid": "YOd5pEsvtecnipV1",
@@ -17592,7 +17616,7 @@
       "url": "gc6kwq2a9iufudga",
       "prev_uuid": "g79LhyuCIcy2z2cx",
       "sibling_uuid": "w3lr-82OziASjvSa",
-      "child_uuid": "k38gbMVOoHwtcD2F",
+      "child_uuid": "aVKd4kGVa0tNyVRo",
       "parent_uuid": "",
       "doc_id": 169649865,
       "level": 0,
@@ -17602,10 +17626,25 @@
     },
     {
       "type": "DOC",
+      "title": "计算机网络面试必问",
+      "uuid": "aVKd4kGVa0tNyVRo",
+      "url": "kxspepu7t1b7783v",
+      "prev_uuid": "uHCIfCp4Xzc-fCfY",
+      "sibling_uuid": "k38gbMVOoHwtcD2F",
+      "child_uuid": "",
+      "parent_uuid": "uHCIfCp4Xzc-fCfY",
+      "doc_id": 181246765,
+      "level": 1,
+      "id": 181246765,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "图像算法工程师面试",
       "uuid": "k38gbMVOoHwtcD2F",
       "url": "lk1hgmd5h9mrgodd",
-      "prev_uuid": "uHCIfCp4Xzc-fCfY",
+      "prev_uuid": "aVKd4kGVa0tNyVRo",
       "sibling_uuid": "NcVLTZK8sE8hkJmb",
       "child_uuid": "",
       "parent_uuid": "uHCIfCp4Xzc-fCfY",

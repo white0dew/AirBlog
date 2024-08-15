@@ -2,7 +2,7 @@
 title: 第八章：浏览器 API 与本地存储
 urlname: fkoyngxgpmgaeg44
 date: '2024-06-07 10:37:53'
-updated: '2024-06-07 10:38:04'
+updated: '2024-08-15 16:41:58'
 description: 1. 浏览器 API在现代 Web 开发中，浏览器为开发者提供了丰富的 API，用于处理各种任务，如网络请求、剪贴板操作等。本节将介绍一些常用的浏览器 API，并演示其使用方法。常用浏览器 API 介绍Fetch APIFetch API 用于执行网络请求，替代了老旧的 XMLHttpRequ...
 ---
 ## 1. 浏览器 API
@@ -229,10 +229,5 @@ function deleteNote(id) {
 
 通过以上代码，我们实现了一个简单的记事本应用，能够添加、显示和删除记事，并将数据持久化存储在 `LocalStorage` 中。这样，即使刷新页面或关闭浏览器，记事内容也能够保留。
 
----
-
-**小结：**
 
 本章介绍了常用的浏览器 API 和本地存储技术，包括 `Fetch API`、剪贴板 API、`LocalStorage`、`SessionStorage` 和 `IndexedDB`。通过这些知识，你可以开发出功能更丰富、用户体验更好的 Web 应用。
-
-【本章节完毕】

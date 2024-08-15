@@ -2,7 +2,8 @@
 title: 第七章：DOM 操作与事件处理
 urlname: bbsxpgzzhu3i88xy
 date: '2024-06-07 10:37:40'
-updated: '2024-06-07 10:37:52'
+updated: '2024-08-15 16:41:41'
+cover: 'https://cdn.nlark.com/yuque/__mermaid_v3/15266c94d9ccd675f00027a43ab14bfe.svg'
 description: 1. DOM 基本概念什么是 DOMDOM（Document Object Model）是 HTML 和 XML 文档的编程接口。它提供了一组标准的对象，使开发者能够动态访问和更新文档的内容、结构和样式。DOM 把文档表示为一个树结构，其中每个节点都是文档的一部分。DOM 树的结构DOM 树是...
 ---
 ## 1. DOM 基本概念
@@ -15,7 +16,7 @@ DOM（Document Object Model）是 HTML 和 XML 文档的编程接口。它提供
 
 DOM 树是层次化的结构，包含了文档的所有元素。树的每个节点都代表文档中的一部分，比如元素、属性或文本内容。
 
-
+![](https://oss1.aistar.cool/elog-offer-now/f1b9a4ff67673a319fa7b9a96cb039d9.svg)
 ### 常用 DOM 操作方法
 
 以下是一些常用的 DOM 操作方法：
@@ -183,5 +184,3 @@ child.addEventListener(
 ```
 
 通过以上内容的学习，你已经掌握了基本的 DOM 操作和事件处理方法。接下来可以通过实际项目练习更加深入地理解和应用这些知识。
-
-【本章节完毕】

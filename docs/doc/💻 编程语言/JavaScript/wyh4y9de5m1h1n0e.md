@@ -2,8 +2,8 @@
 title: 第二章：JavaScript 基础语法
 urlname: wyh4y9de5m1h1n0e
 date: '2024-06-07 10:33:50'
-updated: '2024-06-07 10:34:14'
-description: 1. 变量与数据类型变量的声明在 JavaScript 中，我们可以使用 var、let 和 const 这三种关键词来声明变量。下面是每种声明方式的详细解释和示例：var 关键词var 是 JavaScript 中最早用来声明变量的关键词。它有一些特性需要注意：var name = "Ali...
+updated: '2024-08-15 16:39:00'
+description: 1. 变量与数据类型变量的声明在 JavaScript 中，我们可以使用 var、let 和 const 这三种关键词来声明变量。下面是每种声明方式的详细解释和示例：var 关键词var 是 JavaScript 中最早用来声明变量的关键词。var name = "Alice"; consol...
 ---
 ## 1. 变量与数据类型
 
@@ -13,7 +13,7 @@ description: 1. 变量与数据类型变量的声明在 JavaScript 中，我们�
 
 #### var 关键词
 
-`var` 是 JavaScript 中最早用来声明变量的关键词。它有一些特性需要注意：
+`var` 是 JavaScript 中最早用来声明变量的关键词。
 
 ```javascript
 var name = "Alice";
@@ -22,14 +22,12 @@ console.log(name); // 输出：Alice
 var name = "Bob";
 console.log(name); // 输出：Bob
 ```
+它有一些特性需要注意：
 
-特性：
-
-1. 变量可以重新声明。
+1. 变量可以**重新声明**。
 2. 变量提升，即变量可以在声明之前使用（但值为 `undefined`）。
 
 #### let 关键词
-
 `let` 是 ES6 引入的，用来声明局部变量，它比 `var` 更加严格和安全。
 
 ```javascript
@@ -39,7 +37,6 @@ console.log(age); // 输出：25
 age = 26;
 console.log(age); // 输出：26
 ```
-
 特性：
 
 1. 变量不能重新声明。
@@ -221,7 +218,7 @@ console.log(remainder); // 输出：1
 
 用于比较两个值，并返回布尔值：
 
-1.  **等于 (****) 和全等 (****=)** 
+1.  **等于 (**) 和全等 (**=)** 
 ```javascript
 console.log(5 == "5"); // 输出：true
 console.log(5 === "5"); // 输出：false

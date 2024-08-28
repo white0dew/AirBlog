@@ -7663,12 +7663,12 @@
     {
       "id": 173583366,
       "doc_id": "bo3u73tfp6ek94n6",
-      "updated": 1718284483000,
+      "updated": 1724574933000,
       "properties": {
         "title": "6.10 双非本科一年20w，已是人中龙凤了",
         "urlname": "bo3u73tfp6ek94n6",
         "date": "2024-06-13 21:14:36",
-        "updated": "2024-06-13 21:14:43",
+        "updated": "2024-08-25 16:35:33",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1718197592810-0a2f2074-a697-4090-9e64-9bb18cf99ae9.png",
         "description": "大家好，我是白露啊。 “双非本科一年20w已经是人中龙凤了”……吗？牛客上刷到这条帖子，我一开始以为是一个钓鱼、引战贴。看完才觉得他说的很对，现在在求职选择工作的时候，网上都觉得得40万、50万，但当真没必要那么焦虑，因为那毕竟是少数。各位同学，不要被牛客、脉脉等论坛上“公布”的薪资给打击到了..."
       },
@@ -7687,8 +7687,8 @@
         }
       ],
       "realName": "bo3u73tfp6ek94n6",
-      "relativePath": "\\💹 大厂面经\\拿下面试官实战\\6月\\bo3u73tfp6ek94n6.md",
-      "docPath": "docs\\doc\\💹 大厂面经\\拿下面试官实战\\6月"
+      "relativePath": "/💹 大厂面经/拿下面试官实战/6月/bo3u73tfp6ek94n6.md",
+      "docPath": "docs/doc/💹 大厂面经/拿下面试官实战/6月"
     },
     {
       "id": 173583364,
@@ -12600,12 +12600,12 @@
     {
       "id": 183506392,
       "doc_id": "wcur7204xegeks3o",
-      "updated": 1724386845000,
+      "updated": 1724828289000,
       "properties": {
         "title": "《学会提问》",
         "urlname": "wcur7204xegeks3o",
         "date": "2024-08-23 12:15:55",
-        "updated": "2024-08-23 12:20:45",
+        "updated": "2024-08-28 14:58:09",
         "cover": "https://cdn.nlark.com/yuque/0/2024/jpeg/22382235/1724386717240-2896e294-700a-4a60-ab2b-60224d10113e.jpeg"
       },
       "catalog": [
@@ -12646,7 +12646,7 @@
       "url": "ff52fo66g2cpghn4",
       "prev_uuid": "_AUtENOpDG0ZxF_E",
       "sibling_uuid": "kicN7hkPayXrH8jr",
-      "child_uuid": "hR__VaWckNIegMLy",
+      "child_uuid": "QCLGD079vNnOtNMw",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
       "doc_id": 178829466,
       "level": 1,
@@ -12656,10 +12656,25 @@
     },
     {
       "type": "DOC",
+      "title": "《增长思维》",
+      "uuid": "QCLGD079vNnOtNMw",
+      "url": "kkvg71dvpggpe5p7",
+      "prev_uuid": "ZQkvDtiMigyZEcwf",
+      "sibling_uuid": "hR__VaWckNIegMLy",
+      "child_uuid": "",
+      "parent_uuid": "ZQkvDtiMigyZEcwf",
+      "doc_id": 183970771,
+      "level": 2,
+      "id": 183970771,
+      "open_window": 1,
+      "visible": 0
+    },
+    {
+      "type": "DOC",
       "title": "《学会提问》",
       "uuid": "hR__VaWckNIegMLy",
       "url": "wcur7204xegeks3o",
-      "prev_uuid": "ZQkvDtiMigyZEcwf",
+      "prev_uuid": "QCLGD079vNnOtNMw",
       "sibling_uuid": "la67knEMszy2q6rT",
       "child_uuid": "",
       "parent_uuid": "ZQkvDtiMigyZEcwf",

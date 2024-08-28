@@ -12621,6 +12621,32 @@
       "realName": "wcur7204xegeks3o",
       "relativePath": "/🔥 程序员自我修养/个人成长/wcur7204xegeks3o.md",
       "docPath": "docs/doc/🔥 程序员自我修养/个人成长"
+    },
+    {
+      "id": 184185497,
+      "doc_id": "gyuw9ixg30htr4y6",
+      "updated": 1724837992000,
+      "properties": {
+        "title": "操作系统面试必问 50 题！",
+        "urlname": "gyuw9ixg30htr4y6",
+        "date": "2024-08-28 16:10:53",
+        "updated": "2024-08-28 17:39:52",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/3a0131b1c5bfdbec608eb40353411248.svg",
+        "description": "问题一览什么是操作系统？操作系统主要有哪些功能？常见的操作系统有哪些？什么是用户态和内核态？为什么要有用户态和内核态？只有一个内核态不行么？用户态和内核态是如何切换的？什么是系统调用？系统调用的过程了解吗？什么是进程和线程？进程和线程的区别是什么？有了进程为什么还需要线程？为什么要使用多线程？..."
+      },
+      "catalog": [
+        {
+          "title": "📚 计算机基础",
+          "doc_id": "gyuw9ixg30htr4y6"
+        },
+        {
+          "title": "操作系统",
+          "doc_id": "gyuw9ixg30htr4y6"
+        }
+      ],
+      "realName": "gyuw9ixg30htr4y6",
+      "relativePath": "/📚 计算机基础/操作系统/gyuw9ixg30htr4y6.md",
+      "docPath": "docs/doc/📚 计算机基础/操作系统"
     }
   ],
   "catalog": [
@@ -13440,7 +13466,7 @@
       "uuid": "pDHMwZRQIJTaL1JF",
       "url": "kzeaege1xzso8hh8",
       "prev_uuid": "TXk0ZQsG_e0NV7As",
-      "sibling_uuid": "jUuglbGbRbX_L56c",
+      "sibling_uuid": "ig6eBFW1v1VJo4L9",
       "child_uuid": "",
       "parent_uuid": "TXk0ZQsG_e0NV7As",
       "doc_id": 170922123,
@@ -13451,10 +13477,25 @@
     },
     {
       "type": "DOC",
+      "title": "操作系统面试必问 50 题！",
+      "uuid": "ig6eBFW1v1VJo4L9",
+      "url": "gyuw9ixg30htr4y6",
+      "prev_uuid": "pDHMwZRQIJTaL1JF",
+      "sibling_uuid": "jUuglbGbRbX_L56c",
+      "child_uuid": "",
+      "parent_uuid": "TXk0ZQsG_e0NV7As",
+      "doc_id": 184185497,
+      "level": 2,
+      "id": 184185497,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "🔥《手写操作系统》",
       "uuid": "jUuglbGbRbX_L56c",
       "url": "tfhlw8c5gubnwfsb",
-      "prev_uuid": "pDHMwZRQIJTaL1JF",
+      "prev_uuid": "ig6eBFW1v1VJo4L9",
       "sibling_uuid": "",
       "child_uuid": "1VzHtPj3AX-pN5T_",
       "parent_uuid": "TXk0ZQsG_e0NV7As",

@@ -12528,12 +12528,12 @@
     {
       "id": 180664037,
       "doc_id": "cfd64u2k9y1i2kk9",
-      "updated": 1722609347000,
+      "updated": 1725006233000,
       "properties": {
         "title": "京东秋招实习面经",
         "urlname": "cfd64u2k9y1i2kk9",
         "date": "2024-08-02 19:13:22",
-        "updated": "2024-08-02 22:35:47",
+        "updated": "2024-08-30 16:23:53",
         "cover": "https://cdn.nlark.com/yuque/__puml/254e87cf2b01fc509e44845a6d3b363d.svg",
         "description": "京东实习面经你之前说你的项目这边涉及大数据这块比较多，那你代码工程是怎么样的一个工程，就是直接用一些have的SQL去搞这种直接数据的开发，还是怎么去做的这种系统的编程。这个工程是怎么搭出来的对外提供什么接口，系统之间是怎么调接口的传输方式，就是说不同部门之间怎么去调一个服务Java通常使用什..."
       },
@@ -12578,12 +12578,12 @@
     {
       "id": 181246765,
       "doc_id": "kxspepu7t1b7783v",
-      "updated": 1723863152000,
+      "updated": 1725005251000,
       "properties": {
         "title": "计算机网络面试必问",
         "urlname": "kxspepu7t1b7783v",
         "date": "2024-08-07 12:53:57",
-        "updated": "2024-08-17 10:52:32",
+        "updated": "2024-08-30 16:07:31",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1722953399419-c3811ae6-707c-48c1-8a48-d32f46d24b40.png?x-oss-process=image%2Fformat%2Cwebp",
         "description": "HTTP常用的状态码及其含义HTTP状态码是用来表示服务器响应客户端请求的状态。常用的状态码分为以下几类：状态码含义200OK：请求成功，服务器已返回所请求的数据。201Created：请求成功并且服务器创建了新的资源。204No Content：服务器成功处理了请求，但没有返回任何内容。30..."
       },
@@ -12647,6 +12647,83 @@
       "realName": "gyuw9ixg30htr4y6",
       "relativePath": "/📚 计算机基础/操作系统/gyuw9ixg30htr4y6.md",
       "docPath": "docs/doc/📚 计算机基础/操作系统"
+    },
+    {
+      "id": 185409618,
+      "doc_id": "mrsvwpagy3d8zlog",
+      "updated": 1725584263000,
+      "properties": {
+        "title": "Goland 2024 激活码,破解版安装教程",
+        "urlname": "mrsvwpagy3d8zlog",
+        "date": "2024-09-06 08:55:59",
+        "updated": "2024-09-06 08:57:43",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/jpeg/22382235/1725584167919-05f6067c-8a82-4c84-afd6-2774940d55fa.jpeg",
+        "description": "申明：本教程 GoLand 破解补丁、激活码均收集于网络，请勿商用，仅供个人学习使用，如有侵权，请联系作者删除。若条件允许，希望大家购买正版 ！PS: 本教程最新更新时间: 2024年8月18日~前言笔者几乎试了网上几乎所有的 GoLand 破解方案，废了好大气力，汇总了目前网上比较靠谱的三种..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "mrsvwpagy3d8zlog"
+        },
+        {
+          "title": "环境安装😭",
+          "doc_id": "mrsvwpagy3d8zlog"
+        }
+      ],
+      "realName": "mrsvwpagy3d8zlog",
+      "relativePath": "/🔥 程序员自我修养/环境安装😭/mrsvwpagy3d8zlog.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/环境安装😭"
+    },
+    {
+      "id": 184507908,
+      "doc_id": "uro1zd2qgmd99kxt",
+      "updated": 1725006443000,
+      "properties": {
+        "title": "无标题文档",
+        "urlname": "uro1zd2qgmd99kxt",
+        "date": "2024-08-30 16:27:09",
+        "updated": "2024-08-30 16:27:23",
+        "description": "面试一面 专业面试（组长面）（腾讯会议 40mins）自我介绍主要围绕简历提问，专业所学的课程，相关的实习经历：关于项目中用到的模型，如何模型优化？模型有哪些维度的特征？为什么会选择这些维度的特征？手撕代码（这个比较费时间）理论知识1）P值与显著性水平的含义？P值>0.05可能的原因？什么是一..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "uro1zd2qgmd99kxt"
+        },
+        {
+          "title": "面试真题",
+          "doc_id": "uro1zd2qgmd99kxt"
+        }
+      ],
+      "realName": "uro1zd2qgmd99kxt",
+      "relativePath": "/💹 大厂面经/面试真题/uro1zd2qgmd99kxt.md",
+      "docPath": "docs/doc/💹 大厂面经/面试真题"
+    },
+    {
+      "id": 184507321,
+      "doc_id": "ubg35bic4t7bekms",
+      "updated": 1725010903000,
+      "properties": {
+        "title": "收钱吧面试真题",
+        "urlname": "ubg35bic4t7bekms",
+        "date": "2024-08-30 16:23:16",
+        "updated": "2024-08-30 17:41:43",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/479ed6eea08aca112f7582a5bacc2460.svg",
+        "description": "面试问题什么叫线程安全Java里面有哪些基本类型，对应的包装类有哪些什么场景下使用包装类包装类线程安全吗？ 除了不能修改值，还不能修改什么 String中split方法不是修改String，为啥能保证线程安全线程池的参数创建线程时，是优先把线程最大数放满还是优先放入队列 IO密集型，如何设置参..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "ubg35bic4t7bekms"
+        },
+        {
+          "title": "面试真题",
+          "doc_id": "ubg35bic4t7bekms"
+        }
+      ],
+      "realName": "ubg35bic4t7bekms",
+      "relativePath": "/💹 大厂面经/面试真题/ubg35bic4t7bekms.md",
+      "docPath": "docs/doc/💹 大厂面经/面试真题"
     }
   ],
   "catalog": [
@@ -13181,7 +13258,7 @@
       "uuid": "5k7niHm_6ERdnY_9",
       "url": "syenr4ggcg4kapal",
       "prev_uuid": "jF2S9NqA98x9ztCI",
-      "sibling_uuid": "5QWjHKD8k25LYkqM",
+      "sibling_uuid": "PzwwhRUgEkK4scPS",
       "child_uuid": "",
       "parent_uuid": "_d86pwt2PnWp0V6d",
       "doc_id": 178826133,
@@ -13192,10 +13269,25 @@
     },
     {
       "type": "DOC",
+      "title": "Goland 2024 激活码,破解版安装教程",
+      "uuid": "PzwwhRUgEkK4scPS",
+      "url": "mrsvwpagy3d8zlog",
+      "prev_uuid": "5k7niHm_6ERdnY_9",
+      "sibling_uuid": "5QWjHKD8k25LYkqM",
+      "child_uuid": "",
+      "parent_uuid": "_d86pwt2PnWp0V6d",
+      "doc_id": 185409618,
+      "level": 2,
+      "id": 185409618,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "IDEA 2024.1.4 最新激活码,破解版安装教程（亲测有效~）",
       "uuid": "5QWjHKD8k25LYkqM",
       "url": "clbaakq70pduuoew",
-      "prev_uuid": "5k7niHm_6ERdnY_9",
+      "prev_uuid": "PzwwhRUgEkK4scPS",
       "sibling_uuid": "endSX96m-bNscj-H",
       "child_uuid": "",
       "parent_uuid": "_d86pwt2PnWp0V6d",
@@ -13466,7 +13558,7 @@
       "uuid": "pDHMwZRQIJTaL1JF",
       "url": "kzeaege1xzso8hh8",
       "prev_uuid": "TXk0ZQsG_e0NV7As",
-      "sibling_uuid": "ig6eBFW1v1VJo4L9",
+      "sibling_uuid": "jUuglbGbRbX_L56c",
       "child_uuid": "",
       "parent_uuid": "TXk0ZQsG_e0NV7As",
       "doc_id": 170922123,
@@ -13477,25 +13569,10 @@
     },
     {
       "type": "DOC",
-      "title": "操作系统面试必问 50 题！",
-      "uuid": "ig6eBFW1v1VJo4L9",
-      "url": "gyuw9ixg30htr4y6",
-      "prev_uuid": "pDHMwZRQIJTaL1JF",
-      "sibling_uuid": "jUuglbGbRbX_L56c",
-      "child_uuid": "",
-      "parent_uuid": "TXk0ZQsG_e0NV7As",
-      "doc_id": 184185497,
-      "level": 2,
-      "id": 184185497,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
       "title": "🔥《手写操作系统》",
       "uuid": "jUuglbGbRbX_L56c",
       "url": "tfhlw8c5gubnwfsb",
-      "prev_uuid": "ig6eBFW1v1VJo4L9",
+      "prev_uuid": "pDHMwZRQIJTaL1JF",
       "sibling_uuid": "",
       "child_uuid": "1VzHtPj3AX-pN5T_",
       "parent_uuid": "TXk0ZQsG_e0NV7As",
@@ -17712,7 +17789,7 @@
       "url": "gc6kwq2a9iufudga",
       "prev_uuid": "g79LhyuCIcy2z2cx",
       "sibling_uuid": "w3lr-82OziASjvSa",
-      "child_uuid": "aVKd4kGVa0tNyVRo",
+      "child_uuid": "ig6eBFW1v1VJo4L9",
       "parent_uuid": "",
       "doc_id": 169649865,
       "level": 0,
@@ -17722,10 +17799,25 @@
     },
     {
       "type": "DOC",
+      "title": "操作系统面试必问 50 题！",
+      "uuid": "ig6eBFW1v1VJo4L9",
+      "url": "gyuw9ixg30htr4y6",
+      "prev_uuid": "uHCIfCp4Xzc-fCfY",
+      "sibling_uuid": "aVKd4kGVa0tNyVRo",
+      "child_uuid": "",
+      "parent_uuid": "uHCIfCp4Xzc-fCfY",
+      "doc_id": 184185497,
+      "level": 1,
+      "id": 184185497,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "计算机网络面试必问",
       "uuid": "aVKd4kGVa0tNyVRo",
       "url": "kxspepu7t1b7783v",
-      "prev_uuid": "uHCIfCp4Xzc-fCfY",
+      "prev_uuid": "ig6eBFW1v1VJo4L9",
       "sibling_uuid": "k38gbMVOoHwtcD2F",
       "child_uuid": "",
       "parent_uuid": "uHCIfCp4Xzc-fCfY",
@@ -17757,7 +17849,7 @@
       "url": "vxn8883st7lhfom9",
       "prev_uuid": "k38gbMVOoHwtcD2F",
       "sibling_uuid": "-4qV2TE5gTaU9pS4",
-      "child_uuid": "ZHHNRSroll5OdyS0",
+      "child_uuid": "E1e44y2gCtGtoGiZ",
       "parent_uuid": "uHCIfCp4Xzc-fCfY",
       "doc_id": 171465323,
       "level": 1,
@@ -17767,10 +17859,40 @@
     },
     {
       "type": "DOC",
+      "title": "无标题文档",
+      "uuid": "E1e44y2gCtGtoGiZ",
+      "url": "uro1zd2qgmd99kxt",
+      "prev_uuid": "NcVLTZK8sE8hkJmb",
+      "sibling_uuid": "NNGpo_NW1QKe3LNz",
+      "child_uuid": "",
+      "parent_uuid": "NcVLTZK8sE8hkJmb",
+      "doc_id": 184507908,
+      "level": 2,
+      "id": 184507908,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "收钱吧面试真题",
+      "uuid": "NNGpo_NW1QKe3LNz",
+      "url": "ubg35bic4t7bekms",
+      "prev_uuid": "E1e44y2gCtGtoGiZ",
+      "sibling_uuid": "ZHHNRSroll5OdyS0",
+      "child_uuid": "",
+      "parent_uuid": "NcVLTZK8sE8hkJmb",
+      "doc_id": 184507321,
+      "level": 2,
+      "id": 184507321,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "京东秋招实习面经",
       "uuid": "ZHHNRSroll5OdyS0",
       "url": "cfd64u2k9y1i2kk9",
-      "prev_uuid": "NcVLTZK8sE8hkJmb",
+      "prev_uuid": "NNGpo_NW1QKe3LNz",
       "sibling_uuid": "jSYsbQlMaBCMyPzm",
       "child_uuid": "",
       "parent_uuid": "NcVLTZK8sE8hkJmb",

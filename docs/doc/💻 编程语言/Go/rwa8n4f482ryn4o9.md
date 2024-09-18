@@ -1,38 +1,49 @@
 ---
-title: "\U0001F914 Golang语法速查手册"
+title: "\U0001F914Golang语法速查手册"
 urlname: rwa8n4f482ryn4o9
 date: '2024-05-22 19:12:04'
-updated: '2024-07-12 21:38:33'
+updated: '2024-09-18 15:14:47'
 description: '---nav_path: golang_instant_reference---golang-cheat-sheet是目前GitHub上最流行的golang代码速查表。作者Ariel Mashraki也是Facebook著名ORM框架ent(2019年开源)的作者和首席布道师。这一篇是中文翻译...'
 nav_path: golang_instant_reference
 ---
 > [golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet)是目前GitHub上最流行的golang代码速查表。作者Ariel Mashraki也是Facebook著名ORM框架ent(2019年开源)的作者和首席布道师。
+>
 > 这一篇是中文翻译版
+>
 
 ## 致谢
-大多数代码示例来源于[A Tour of Go](https://go.dev/tour/list)，它对Go做了非常棒的介绍。
+大多数代码示例来源于[A Tour of Go](https://go.dev/tour/list)，它对Go做了非常棒的介绍。  
 很认真地说，如果你是Go新手，一定要看完[A Tour of Go](https://go.dev/tour/list)。
+
+
 
 ## Go特性一览
 
-- 命令式编程语言
-- 静态类型
-- 语法类似C语言(但是和C语言相比，圆括号更少，没有分号)，结构类似Oberon-2编程语言
-- 编译成机器代码(没有JVM)
-- 没有类，但是有可以带方法的结构体
-- 接口类型Interfaces
-- 没有继承，但是有[类型嵌套](https://go.dev/doc/effective_go#embedding)
-- 函数是一等公民
-- 函数可以返回多个值
-- 有闭包
-- 有指针，但是没有指针运算
-- 内置并发原语：协程goroutine和管道channel
+
++ 命令式编程语言
++ 静态类型
++ 语法类似C语言(但是和C语言相比，圆括号更少，没有分号)，结构类似Oberon-2编程语言
++ 编译成机器代码(没有JVM)
++ 没有类，但是有可以带方法的结构体
++ 接口类型Interfaces
++ 没有继承，但是有[类型嵌套](https://go.dev/doc/effective_go#embedding)
++ 函数是一等公民
++ 函数可以返回多个值
++ 有闭包
++ 有指针，但是没有指针运算
++ 内置并发原语：协程goroutine和管道channel
+
+
 
 # 基础语法
 
+
 ## Hello World
 
+
 文件 `hello.go`:
+
+
 
 ```go
 package main
@@ -44,9 +55,14 @@ func main() {
 }
 ```
 
+
+
 `$ go run hello.go`
 
+
+
 ## 操作符
+
 
 ### 算术操作符
 | Operator | Description |
@@ -57,11 +73,13 @@ func main() {
 | `/` | 除 |
 | `%` | 取余 |
 | `&` | 按位与 |
-| `\\&#124;` | 按位或 |
+| `\|` | 按位或 |
 | `^` | 按位异或，这个也可以当做”按位取反“操作符 |
-| `&^` | bit clear (and not)操作，x&y表示把y按位取反，再和x做位与&操作，也即x&(y) |
+| `&^` | bit clear (and not)操作，x&<sup>y表示把y按位取反，再和x做位与&操作，也即x&(</sup>y) |
 | `<<` | 按位左移 |
 | `>>` | 按位右移 |
+
+
 
 
 ### 比较操作符
@@ -75,12 +93,16 @@ func main() {
 | `>=` | 大于等于 |
 
 
+
+
 ### 逻辑操作符
 | Operator | Description |
 | --- | --- |
 | `&&` | 逻辑与 |
-| `\\&#124;\\&#124;` | 逻辑或 |
+| `\|\|` | 逻辑或 |
 | `!` | 逻辑非 |
+
+
 
 
 ### 其它
@@ -91,9 +113,14 @@ func main() {
 | `<-` | 管道channel的发送和接收操作符 |
 
 
+
+
 ## 声明
 
+
 类型在标识符后面
+
+
 
 ```go
 var foo int // 只声明，不做初始化
@@ -115,7 +142,10 @@ fmt.Println(a, b) // 1 2 (0被赋值给了_，相当于被跳过了)
 fmt.Println(c, d) // 8 16 (2^3, 2^4)
 ```
 
+
+
 ## 函数
+
 
 ```go
 // 一个简单的函数
@@ -148,7 +178,10 @@ func returnMulti2() (n int, s string) {
 var x, str = returnMulti2()
 ```
 
+
+
 ### 函数作为值和闭包
+
 
 ```go
 func main() {
@@ -186,7 +219,10 @@ func outer() (func() int, int) {
 }
 ```
 
+
+
 ### 参数可变的函数
+
 
 ```go
 func main() {
@@ -208,7 +244,10 @@ func adder(args ...int) int {
 }
 ```
 
+
+
 ## 内置类型
+
 
 ```go
 bool
@@ -227,9 +266,14 @@ float32 float64
 complex64 complex128
 ```
 
+
+
 Go所有的内置类型都被定义在标准库的[builtin](https://pkg.go.dev/builtin)这个包里。
 
+
+
 ## 类型转换
+
 
 ```go
 var i int = 42
@@ -242,17 +286,24 @@ f := float64(i)
 u := uint(f)
 ```
 
+
+
 ## 包
 
-- 在每个Go源文件的最开头(不包括注释)添加包声明
-- 可执行文件在main包里
-- 惯例：包名 == 包导入路径的最后一个名称(导入路径 `math/rand` => 包名 `rand`)
-- 大写字母开头的标识符: 表示可导出(exported)标识符， 对其它包可见
-- 小写字母开头的标识符: 表示私有(private)标识符，对其它包不可见
+
++ 在每个Go源文件的最开头(不包括注释)添加包声明
++ 可执行文件在main包里
++ 惯例：包名 == 包导入路径的最后一个名称(导入路径 `math/rand` => 包名 `rand`)
++ 大写字母开头的标识符: 表示可导出(exported)标识符， 对其它包可见
++ 小写字母开头的标识符: 表示私有(private)标识符，对其它包不可见
+
+
 
 ## 控制结构
 
+
 ### If
+
 
 ```go
 func main() {
@@ -280,7 +331,10 @@ func main() {
 }
 ```
 
+
+
 ### 循环
+
 
 ```go
     // Go只有for，没有while和until关键字
@@ -324,7 +378,10 @@ there:
     }
 ```
 
+
+
 ### Switch
+
 
 ```go
 // switch语句
@@ -363,9 +420,13 @@ switch char {
 }
 ```
 
+
+
 ## 数组，切片和range迭代
 
+
 ### 数组
+
 
 ```go
 var a [10]int // 声明一个长度为10的int数组，数组长度也是数组类型的一部分
@@ -378,7 +439,10 @@ a := [2]int{1, 2} //简写
 a := [...]int{1, 2} // 编译器自行推导数组长度
 ```
 
+
+
 ### 切片
+
 
 ```go
 var a []int                             // 声明切片，和数组类型声明类似，不需要指定长度
@@ -402,9 +466,14 @@ x := [3]string{"Лайка", "Белка", "Стрелка"}
 s := x[:] // 切片s指向了数组x的内存空间，改变切片s的值，也会影响数组x的值
 ```
 
+
+
 ### 数组和切片上的操作
 
+
 `len(a)`可以用来计算数组或切片的长度，len()是Go的内置函数，不是数组或者切片的方法
+
+
 
 ```go
 // 循环遍历数组或切片
@@ -428,7 +497,10 @@ for range time.Tick(time.Second) {
 }
 ```
 
+
+
 ## 集合
+
 
 ```go
 m := make(map[string]int)
@@ -450,9 +522,14 @@ for key, value := range m {
 }
 ```
 
+
+
 ## 结构体
 
+
 Go没有class，只有结构体struct，结构体可以有自己的方法。
+
+
 
 ```go
 // 结构体是一种类型，也是一系列字段的集合
@@ -487,8 +564,12 @@ func (v *Vertex) add(n float64) {
 }
 ```
 
-**匿名结构体:**
+
+
+**匿名结构体:**  
 比使用`map[string]interface{}`更轻量、更安全。
+
+
 
 ```go
 point := struct {
@@ -496,7 +577,10 @@ point := struct {
 }{1, 2}
 ```
 
+
+
 ## 指针
+
 
 ```go
 p := Vertex{1, 2}  // p是结构体Vertex的变量或者说实例
@@ -508,7 +592,10 @@ r := &Vertex{1, 2} // r也是指向Vertex的指针
 var s *Vertex = new(Vertex) // new函数创建一个指向Vertex实例的指针
 ```
 
+
+
 ## 接口
+
 
 ```go
 // 接口声明
@@ -526,9 +613,14 @@ func (foo Foo) Awesomize() string {
 }
 ```
 
+
+
 ## 接口和结构体嵌套
 
+
 Go没有子类的概念，不过Go有接口嵌套和结构体嵌套。
+
+
 
 ```go
 // 接口嵌套，ReadWriter的实现一定要同时实现Reader和Writer这2个接口类型里的所有方法
@@ -554,9 +646,14 @@ server.Log(...) // 相当于调用了server.Logger.Log(...)
 var logger *log.Logger = server.Logger
 ```
 
+
+
 ## 错误处理
 
+
 Go没有异常处理。函数如果可能产生错误只需要在函数返回值里额外增加一个类型为[error](https://pkg.go.dev/builtin#error)的返回值。error接口类型的定义如下:
+
+
 
 ```go
 // error接口类型是Go内置类型，用于表示错误
@@ -566,7 +663,11 @@ type error interface {
 }
 ```
 
+
+
 这里有一个示例:
+
+
 
 ```go
 func sqrt(x float64) (float64, error) {
@@ -588,11 +689,17 @@ func main() {
 }
 ```
 
+
+
 # 并发
+
 
 ## 协程Goroutine
 
+
 Goroutines是轻量级线程(由Go运行时来管理，不是操作系统线程)。 `go f(a, b)` 语句会开启了一个新的goroutine，这个goroutine执行`f(a, b)`这个函数调用。
+
+
 
 ```go
 // 这里只是定义一个函数，后面用于goroutine执行
@@ -610,7 +717,10 @@ func main() {
 }
 ```
 
+
+
 ## 管道Channel
+
 
 ```go
 ch := make(chan int) // 创建类型为int的管道
@@ -649,25 +759,33 @@ func doStuff(channelOut, channelIn chan int) {
 }
 ```
 
+
+
 ### Channel原则
 
--  给值为nil的管道发送数据会一直阻塞 
+
++  给值为nil的管道发送数据会一直阻塞 
+
 ```go
 var c chan string
 c <- "Hello, World!"
 // fatal error: all goroutines are asleep - deadlock!
 ```
+
  
 
--  从值为nil的管道接收数据会一直阻塞 
++  从值为nil的管道接收数据会一直阻塞 
+
 ```go
 var c chan string
 fmt.Println(<-c)
 // fatal error: all goroutines are asleep - deadlock!
 ```
+
  
 
--  往被关闭的管道发送数据会panic 
++  往被关闭的管道发送数据会panic 
+
 ```go
 var c = make(chan string, 1)
 c <- "Hello, World!"
@@ -675,9 +793,11 @@ close(c)
 c <- "Hello, Panic!"
 // panic: send on closed channel
 ```
+
  
 
--  从被关闭的管道接收数据会立即返回零值 
++  从被关闭的管道接收数据会立即返回零值 
+
 ```go
 var c = make(chan int, 2)
 c <- 1
@@ -688,9 +808,13 @@ for i := 0; i < 3; i++ {
 }
 // 1 2 0
 ```
+
  
 
+
+
 ## 打印
+
 
 ```go
 fmt.Println("Hello, 你好, नमस्ते, Привет, ᎣᏏᏲ") //基本的打印，会自动换行
@@ -707,11 +831,17 @@ hellomsg := `
 ` // 跨越多行的字符串，使用``
 ```
 
+
+
 ## 反射
+
 
 ### 类型Switch
 
+
 类型switch类似普通的switch语句，只是case分支的判断条件是类型，而不是具体的值。使用场景主要是用于判断接口变量的值类型。
+
+
 
 ```go
 func do(i interface{}) {
@@ -732,11 +862,17 @@ func main() {
 }
 ```
 
+
+
 # 代码片段
+
 
 ## 文件嵌入
 
+
 Go程序可以使用embed包嵌入静态文件
+
+
 
 ```go
 package main
@@ -780,11 +916,18 @@ func main() {
 }
 ```
 
+
+
 [Go Playground代码示例](https://go.dev/play/p/pwWxdrQSrYv)
+
+
 
 ## HTTP服务器
 
+
 运行下面的代码，在浏览器访问 [http://127.0.0.1:4000](http://127.0.0.1:4000) 会显示"hello"
+
+
 
 ```go
 package main
@@ -813,3 +956,4 @@ func main() {
 //     ServeHTTP(w http.ResponseWriter, r *http.Request)
 // }
 ```
+

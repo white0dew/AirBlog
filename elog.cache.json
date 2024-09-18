@@ -10690,12 +10690,12 @@
     {
       "id": 171439962,
       "doc_id": "gw3x2w4gvo9f3p6d",
-      "updated": 1722947532000,
+      "updated": 1726643700000,
       "properties": {
-        "title": "🔥 Golang学习笔记",
+        "title": "🔥Golang学习笔记",
         "urlname": "gw3x2w4gvo9f3p6d",
         "date": "2024-05-28 16:57:23",
-        "updated": "2024-08-06 20:32:12",
+        "updated": "2024-09-18 15:15:00",
         "cover": "https://cdn.nlark.com/yuque/0/2022/png/22382235/1654694414190-af83c57e-5dd5-4bc1-813d-4703d10bf870.png",
         "description": "安装环境安装环境=安装golang环境+编辑器安装golang环境：https://www.runoob.com/go/go-environment.html，注意配置环境变量，大致有三个：安装编辑器：goland（只有30天免费使用）或者直接使用sublime text（配置教程）或VSCo..."
       },
@@ -11107,12 +11107,12 @@
     {
       "id": 170693123,
       "doc_id": "rwa8n4f482ryn4o9",
-      "updated": 1720791513000,
+      "updated": 1726643687000,
       "properties": {
-        "title": "🤔 Golang语法速查手册",
+        "title": "🤔Golang语法速查手册",
         "urlname": "rwa8n4f482ryn4o9",
         "date": "2024-05-22 19:12:04",
-        "updated": "2024-07-12 21:38:33",
+        "updated": "2024-09-18 15:14:47",
         "description": "---nav_path: golang_instant_reference---golang-cheat-sheet是目前GitHub上最流行的golang代码速查表。作者Ariel Mashraki也是Facebook著名ORM框架ent(2019年开源)的作者和首席布道师。这一篇是中文翻译...",
         "nav_path": "golang_instant_reference"
       },
@@ -12783,13 +12783,13 @@
     {
       "id": 186015682,
       "doc_id": "shpy0flq1gs5icfx",
-      "updated": 1725968268000,
+      "updated": 1726647075000,
       "properties": {
-        "title": "无标题文档",
+        "title": "第八章：Lua标准库与应用实例",
         "urlname": "shpy0flq1gs5icfx",
         "date": "2024-09-10 19:37:43",
-        "updated": "2024-09-10 19:37:48",
-        "description": "好的，我将为您提供第八章 \"Lua标准库与应用实例\" 的具体内容。第八章：Lua标准库与应用实例Lua 标准库提供了一系列有用的函数和模块，可以帮助我们更高效地完成常见任务。本章将介绍一些重要的标准库，并通过实际应用来展示它们的用法。8.1 字符串库字符串库提供了处理字符串的各种函数。loca..."
+        "updated": "2024-09-18 16:11:15",
+        "description": "Lua 标准库提供了一系列有用的函数和模块，可以帮助我们更高效地完成常见任务。本章将介绍一些重要的标准库，并通过实际应用来展示它们的用法。8.1 字符串库字符串库提供了处理字符串的各种函数。local s = \"Hello, Lua!\"  -- 字符串长度 print(#s)  -- 输出: ..."
       },
       "catalog": [
         {
@@ -12808,13 +12808,13 @@
     {
       "id": 186014897,
       "doc_id": "giem4f7n0m7h2lpc",
-      "updated": 1725968195000,
+      "updated": 1726647023000,
       "properties": {
-        "title": "无标题文档",
+        "title": "第七章：错误处理与协程",
         "urlname": "giem4f7n0m7h2lpc",
         "date": "2024-09-10 19:30:24",
-        "updated": "2024-09-10 19:36:35",
-        "description": "好的，我将为您详细展开第七章 \"错误处理与协程\" 的内容。第七章：错误处理与协程错误处理和协程是 Lua 编程中两个重要的高级主题。本章将深入探讨如何有效地处理错误，以及如何使用协程来管理复杂的控制流。7.1 错误类型和异常Lua 中的错误可以分为两种主要类型：语法错误和运行时错误。语法错误语..."
+        "updated": "2024-09-18 16:10:23",
+        "description": "错误处理和协程是 Lua 编程中两个重要的高级主题。本章将深入探讨如何有效地处理错误，以及如何使用协程来管理复杂的控制流。7.1 错误类型和异常Lua 中的错误可以分为两种主要类型：语法错误和运行时错误。语法错误语法错误在代码编译阶段就会被检测到。例如：print(\"Hello, World\"..."
       },
       "catalog": [
         {
@@ -12833,13 +12833,13 @@
     {
       "id": 186014493,
       "doc_id": "kvvinls6kz2aglt6",
-      "updated": 1725967597000,
+      "updated": 1726647005000,
       "properties": {
-        "title": "无标题文档",
+        "title": "第四章：表与数组",
         "urlname": "kvvinls6kz2aglt6",
         "date": "2024-09-10 19:26:19",
-        "updated": "2024-09-10 19:26:37",
-        "description": "好的，我将为您详细展开第四章\"表与数组\"的内容。第四章：表与数组表是Lua中最重要且唯一的数据结构，它可以用来实现数组、字典、对象等多种编程概念。本章将深入探讨表的各种用法和特性。4.1 表的创建和访问表是Lua中用于存储各种值的容器，类似于其他语言中的数组或字典。创建表使用花括号 {} 来创..."
+        "updated": "2024-09-18 16:10:05",
+        "description": "表是Lua中最重要且唯一的数据结构，它可以用来实现数组、字典、对象等多种编程概念。本章将深入探讨表的各种用法和特性。4.1 表的创建和访问表是Lua中用于存储各种值的容器，类似于其他语言中的数组或字典。创建表使用花括号 {} 来创建表：local emptyTable = {} local s..."
       },
       "catalog": [
         {
@@ -12858,13 +12858,13 @@
     {
       "id": 186014519,
       "doc_id": "fbrwxh12fgi623y8",
-      "updated": 1725967825000,
+      "updated": 1726647050000,
       "properties": {
-        "title": "无标题文档",
+        "title": "第六章：面向对象编程",
         "urlname": "fbrwxh12fgi623y8",
         "date": "2024-09-10 19:26:36",
-        "updated": "2024-09-10 19:30:25",
-        "description": "非常好，让我们详细展开第六章的内容。第六章：面向对象编程Lua 本身不是一个面向对象的语言，但它提供了强大而灵活的机制来实现面向对象编程（OOP）的概念。本章将探讨如何在 Lua 中实现类、对象、继承和多态等 OOP 特性。6.1 使用表实现类在 Lua 中，我们使用表和函数来模拟类和对象。基..."
+        "updated": "2024-09-18 16:10:50",
+        "description": "Lua 本身不是一个面向对象的语言，但它提供了强大而灵活的机制来实现面向对象编程（OOP）的概念。本章将探讨如何在 Lua 中实现类、对象、继承和多态等 OOP 特性。6.1 使用表实现类在 Lua 中，我们使用表和函数来模拟类和对象。基本类的实现local Dog = {} Dog.__in..."
       },
       "catalog": [
         {
@@ -12883,13 +12883,13 @@
     {
       "id": 186012395,
       "doc_id": "gz8r0q1cnpo5qprm",
-      "updated": 1725967581000,
+      "updated": 1726646986000,
       "properties": {
-        "title": "无标题文档",
+        "title": "第五章：模块与包",
         "urlname": "gz8r0q1cnpo5qprm",
         "date": "2024-09-10 19:06:18",
-        "updated": "2024-09-10 19:26:21",
-        "description": "非常好，让我们详细展开第五章的内容。第五章：模块与包模块和包是组织和管理大型程序的重要工具。它们允许我们将代码分割成小的、可管理的部分，提高代码的可重用性和可维护性。5.1 模块的概念模块是一种将相关函数和变量组织在一起的方式，它提供了一个独立的命名空间，有助于避免全局变量的污染。模块的优势：..."
+        "updated": "2024-09-18 16:09:46",
+        "description": "模块和包是组织和管理大型程序的重要工具。它们允许我们将代码分割成小的、可管理的部分，提高代码的可重用性和可维护性。5.1 模块的概念模块是一种将相关函数和变量组织在一起的方式，它提供了一个独立的命名空间，有助于避免全局变量的污染。模块的优势：代码组织：相关功能集中在一起。命名空间管理：避免命名..."
       },
       "catalog": [
         {
@@ -12908,13 +12908,13 @@
     {
       "id": 186011821,
       "doc_id": "mn5rq5mtwli8hbd0",
-      "updated": 1725966222000,
+      "updated": 1726646872000,
       "properties": {
-        "title": "无标题文档",
+        "title": "第二章：Lua基础语法与数据类型",
         "urlname": "mn5rq5mtwli8hbd0",
         "date": "2024-09-10 19:00:16",
-        "updated": "2024-09-10 19:03:42",
-        "description": "好的，让我们开始《Lua入门手册》的第二章内容。第二章：Lua基础语法与数据类型2.1 注释和标识符注释Lua支持单行注释和多行注释：-- 这是单行注释  --[[     这是多行注释     可以跨越多行 ]]标识符标识符是用来命名变量、函数或其他用户定义的项目。Lua的标识符规则如下：由..."
+        "updated": "2024-09-18 16:07:52",
+        "description": "2.1 注释和标识符注释Lua支持单行注释和多行注释：-- 这是单行注释  --[[     这是多行注释     可以跨越多行 ]]标识符标识符是用来命名变量、函数或其他用户定义的项目。Lua的标识符规则如下：由字母、数字和下划线组成不能以数字开头区分大小写有效的标识符例子：name Nam..."
       },
       "catalog": [
         {
@@ -12933,13 +12933,13 @@
     {
       "id": 186011857,
       "doc_id": "pg1rblzimdlhg4lt",
-      "updated": 1725966377000,
+      "updated": 1726646960000,
       "properties": {
-        "title": "无标题文档",
+        "title": "第三章：控制结构与函数",
         "urlname": "pg1rblzimdlhg4lt",
         "date": "2024-09-10 19:00:33",
-        "updated": "2024-09-10 19:06:17",
-        "description": "第三章：控制结构与函数控制结构和函数是任何编程语言的核心部分，Lua也不例外。本章将详细介绍Lua中的条件语句、循环结构以及函数的定义和使用。3.1 条件语句 (if-else)条件语句允许程序根据不同的条件执行不同的代码块。Lua提供了灵活的if-else结构来实现条件判断。基本if语句最简..."
+        "updated": "2024-09-18 16:09:20",
+        "description": "控制结构和函数是任何编程语言的核心部分，Lua也不例外。本章将详细介绍Lua中的条件语句、循环结构以及函数的定义和使用。3.1 条件语句 (if-else)条件语句允许程序根据不同的条件执行不同的代码块。Lua提供了灵活的if-else结构来实现条件判断。基本if语句最简单的if语句语法如下：..."
       },
       "catalog": [
         {
@@ -12958,13 +12958,13 @@
     {
       "id": 186011199,
       "doc_id": "yronrdwammftmsd9",
-      "updated": 1725965775000,
+      "updated": 1726646842000,
       "properties": {
-        "title": "无标题文档",
+        "title": "第一章：Lua简介与环境搭建",
         "urlname": "yronrdwammftmsd9",
         "date": "2024-09-10 18:53:07",
-        "updated": "2024-09-10 18:56:15",
-        "description": "第一章：Lua简介与环境搭建1.1 Lua的历史和特点Lua是一种轻量级、高效、可嵌入的脚本语言，由巴西里约热内卢天主教大学（PUC-Rio）的一个研究小组于1993年开发。Lua这个名字在葡萄牙语中意为\"月亮\"。Lua的主要特点：轻量级：Lua的解释器和标准库的总大小通常不超过500KB，非..."
+        "updated": "2024-09-18 16:07:22",
+        "description": "1.1 Lua的历史和特点Lua是一种轻量级、高效、可嵌入的脚本语言，由巴西里约热内卢天主教大学（PUC-Rio）的一个研究小组于1993年开发。Lua这个名字在葡萄牙语中意为\"月亮\"。Lua的主要特点：轻量级：Lua的解释器和标准库的总大小通常不超过500KB，非常适合嵌入到其他应用程序中。..."
       },
       "catalog": [
         {
@@ -13002,6 +13002,58 @@
       "realName": "ltmodb8b1a4v48u8",
       "relativePath": "/💻 编程语言/ltmodb8b1a4v48u8.md",
       "docPath": "docs/doc/💻 编程语言"
+    },
+    {
+      "id": 186956183,
+      "doc_id": "kpowsnfa74htuuep",
+      "updated": 1726643607000,
+      "properties": {
+        "title": "Golang各版本特性",
+        "urlname": "kpowsnfa74htuuep",
+        "date": "2024-09-18 15:10:23",
+        "updated": "2024-09-18 15:13:27",
+        "description": "---is_nav: falsenav_path: go_version---Go 1.22循环变量改进：解决for循环中循环变量意外共享问题，for range中的循环变量在每次迭代中有自己的变量，go work增加支持vendor特性，go mod init不再考虑GOPATH时代的包依赖...",
+        "is_nav": false,
+        "nav_path": "go_version"
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "kpowsnfa74htuuep"
+        },
+        {
+          "title": "Go",
+          "doc_id": "kpowsnfa74htuuep"
+        }
+      ],
+      "realName": "kpowsnfa74htuuep",
+      "relativePath": "/💻 编程语言/Go/kpowsnfa74htuuep.md",
+      "docPath": "docs/doc/💻 编程语言/Go"
+    },
+    {
+      "id": 186329404,
+      "doc_id": "yrfceens21sa98a1",
+      "updated": 1726138684000,
+      "properties": {
+        "title": "【黑神话·悟空】珍玩图谱",
+        "urlname": "yrfceens21sa98a1",
+        "date": "2024-09-12 18:45:09",
+        "updated": "2024-09-12 18:58:04",
+        "description": "以下是数组内容的依次输出：---**原址**: https://wiki.biligame.com//wukong/%E4%B8%89%E6%B8%85%E4%BB%A4  **名称** ：三清令  **类型**：珍玩  **品质** : 上品  **效果**：生命不足时，一定程度增加暴击率（..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "yrfceens21sa98a1"
+        },
+        {
+          "title": "十万个为什么💡",
+          "doc_id": "yrfceens21sa98a1"
+        }
+      ],
+      "realName": "yrfceens21sa98a1",
+      "relativePath": "/🔥 程序员自我修养/十万个为什么💡/yrfceens21sa98a1.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/十万个为什么💡"
     }
   ],
   "catalog": [
@@ -13642,7 +13694,7 @@
       "url": "uz8g4zstl7skaubu",
       "prev_uuid": "_d86pwt2PnWp0V6d",
       "sibling_uuid": "aRn1n4HB0iY7c91I",
-      "child_uuid": "UFXm0_vqWnejedpg",
+      "child_uuid": "1COJy_DKfMIKKInA",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
       "doc_id": 171259325,
       "level": 1,
@@ -13652,10 +13704,25 @@
     },
     {
       "type": "DOC",
+      "title": "【黑神话·悟空】珍玩图谱",
+      "uuid": "1COJy_DKfMIKKInA",
+      "url": "yrfceens21sa98a1",
+      "prev_uuid": "dM55tS-xNS9gbu5Q",
+      "sibling_uuid": "UFXm0_vqWnejedpg",
+      "child_uuid": "",
+      "parent_uuid": "dM55tS-xNS9gbu5Q",
+      "doc_id": 186329404,
+      "level": 2,
+      "id": 186329404,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "【入职必备】Git 入门指南",
       "uuid": "UFXm0_vqWnejedpg",
       "url": "hngzre30rz030yuy",
-      "prev_uuid": "dM55tS-xNS9gbu5Q",
+      "prev_uuid": "1COJy_DKfMIKKInA",
       "sibling_uuid": "EhlXmaVpGv8otbdj",
       "child_uuid": "",
       "parent_uuid": "dM55tS-xNS9gbu5Q",
@@ -14872,7 +14939,7 @@
       "url": "gu2a0qdxqzzgwob6",
       "prev_uuid": "1Yk7ZpGC1ALK7ryF",
       "sibling_uuid": "uHCIfCp4Xzc-fCfY",
-      "child_uuid": "LkwQMOGhmPq8PVCC",
+      "child_uuid": "Kz42HmwRUbbo3mma",
       "parent_uuid": "",
       "doc_id": 170676314,
       "level": 0,
@@ -14882,147 +14949,12 @@
     },
     {
       "type": "DOC",
-      "title": "Lua",
-      "uuid": "LkwQMOGhmPq8PVCC",
-      "url": "ltmodb8b1a4v48u8",
-      "prev_uuid": "g79LhyuCIcy2z2cx",
-      "sibling_uuid": "Kz42HmwRUbbo3mma",
-      "child_uuid": "dJ5HMTcpownGNMR8",
-      "parent_uuid": "g79LhyuCIcy2z2cx",
-      "doc_id": 186010528,
-      "level": 1,
-      "id": 186010528,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "无标题文档",
-      "uuid": "dJ5HMTcpownGNMR8",
-      "url": "shpy0flq1gs5icfx",
-      "prev_uuid": "LkwQMOGhmPq8PVCC",
-      "sibling_uuid": "XpSMSogz9o5K1Njw",
-      "child_uuid": "",
-      "parent_uuid": "LkwQMOGhmPq8PVCC",
-      "doc_id": 186015682,
-      "level": 2,
-      "id": 186015682,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "无标题文档",
-      "uuid": "XpSMSogz9o5K1Njw",
-      "url": "giem4f7n0m7h2lpc",
-      "prev_uuid": "dJ5HMTcpownGNMR8",
-      "sibling_uuid": "P7zR45UhWbHMsp_-",
-      "child_uuid": "",
-      "parent_uuid": "LkwQMOGhmPq8PVCC",
-      "doc_id": 186014897,
-      "level": 2,
-      "id": 186014897,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "无标题文档",
-      "uuid": "P7zR45UhWbHMsp_-",
-      "url": "fbrwxh12fgi623y8",
-      "prev_uuid": "XpSMSogz9o5K1Njw",
-      "sibling_uuid": "m7S0xLZF5iabeeej",
-      "child_uuid": "",
-      "parent_uuid": "LkwQMOGhmPq8PVCC",
-      "doc_id": 186014519,
-      "level": 2,
-      "id": 186014519,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "无标题文档",
-      "uuid": "m7S0xLZF5iabeeej",
-      "url": "kvvinls6kz2aglt6",
-      "prev_uuid": "P7zR45UhWbHMsp_-",
-      "sibling_uuid": "4kCsMVJFTzhNwItE",
-      "child_uuid": "",
-      "parent_uuid": "LkwQMOGhmPq8PVCC",
-      "doc_id": 186014493,
-      "level": 2,
-      "id": 186014493,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "无标题文档",
-      "uuid": "4kCsMVJFTzhNwItE",
-      "url": "gz8r0q1cnpo5qprm",
-      "prev_uuid": "m7S0xLZF5iabeeej",
-      "sibling_uuid": "yxy3and0zp_svpiN",
-      "child_uuid": "",
-      "parent_uuid": "LkwQMOGhmPq8PVCC",
-      "doc_id": 186012395,
-      "level": 2,
-      "id": 186012395,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "无标题文档",
-      "uuid": "yxy3and0zp_svpiN",
-      "url": "pg1rblzimdlhg4lt",
-      "prev_uuid": "4kCsMVJFTzhNwItE",
-      "sibling_uuid": "TGx4xoCgc9njBWB9",
-      "child_uuid": "",
-      "parent_uuid": "LkwQMOGhmPq8PVCC",
-      "doc_id": 186011857,
-      "level": 2,
-      "id": 186011857,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "无标题文档",
-      "uuid": "TGx4xoCgc9njBWB9",
-      "url": "mn5rq5mtwli8hbd0",
-      "prev_uuid": "yxy3and0zp_svpiN",
-      "sibling_uuid": "mX7CPxMiLSexKF3R",
-      "child_uuid": "",
-      "parent_uuid": "LkwQMOGhmPq8PVCC",
-      "doc_id": 186011821,
-      "level": 2,
-      "id": 186011821,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "无标题文档",
-      "uuid": "mX7CPxMiLSexKF3R",
-      "url": "yronrdwammftmsd9",
-      "prev_uuid": "TGx4xoCgc9njBWB9",
-      "sibling_uuid": "",
-      "child_uuid": "",
-      "parent_uuid": "LkwQMOGhmPq8PVCC",
-      "doc_id": 186011199,
-      "level": 2,
-      "id": 186011199,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
       "title": "Go",
       "uuid": "Kz42HmwRUbbo3mma",
       "url": "gzdu2g90x1k7goos",
-      "prev_uuid": "LkwQMOGhmPq8PVCC",
+      "prev_uuid": "g79LhyuCIcy2z2cx",
       "sibling_uuid": "RO5GHZ28Ar7Yjtoa",
-      "child_uuid": "SBteHfLgsx_bPvlO",
+      "child_uuid": "5n8uAuXLxQ1XqUwF",
       "parent_uuid": "g79LhyuCIcy2z2cx",
       "doc_id": 170676389,
       "level": 1,
@@ -15032,10 +14964,25 @@
     },
     {
       "type": "DOC",
+      "title": "Golang各版本特性",
+      "uuid": "5n8uAuXLxQ1XqUwF",
+      "url": "kpowsnfa74htuuep",
+      "prev_uuid": "Kz42HmwRUbbo3mma",
+      "sibling_uuid": "SBteHfLgsx_bPvlO",
+      "child_uuid": "",
+      "parent_uuid": "Kz42HmwRUbbo3mma",
+      "doc_id": 186956183,
+      "level": 2,
+      "id": 186956183,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "Go 新手入门",
       "uuid": "SBteHfLgsx_bPvlO",
       "url": "eigb7p6levvwasze",
-      "prev_uuid": "Kz42HmwRUbbo3mma",
+      "prev_uuid": "5n8uAuXLxQ1XqUwF",
       "sibling_uuid": "ZB_oxenbcQlwuU1s",
       "child_uuid": "hA9plW5hlrNNtayO",
       "parent_uuid": "Kz42HmwRUbbo3mma",
@@ -15152,7 +15099,7 @@
     },
     {
       "type": "DOC",
-      "title": "🔥 Golang学习笔记",
+      "title": "🔥Golang学习笔记",
       "uuid": "ZB_oxenbcQlwuU1s",
       "url": "gw3x2w4gvo9f3p6d",
       "prev_uuid": "SBteHfLgsx_bPvlO",
@@ -15167,7 +15114,7 @@
     },
     {
       "type": "DOC",
-      "title": "🤔 Golang语法速查手册",
+      "title": "🤔Golang语法速查手册",
       "uuid": "A8eSO-NCQw0ild1y",
       "url": "rwa8n4f482ryn4o9",
       "prev_uuid": "ZB_oxenbcQlwuU1s",
@@ -17346,7 +17293,7 @@
       "uuid": "IksL8_aQ70Z_soJh",
       "url": "czngzmnckwyp8lff",
       "prev_uuid": "nfwKTnNeHKbuusxV",
-      "sibling_uuid": "xhJdZBj0R2MwVeMv",
+      "sibling_uuid": "LkwQMOGhmPq8PVCC",
       "child_uuid": "EwrfHCtvFc33MrqE",
       "parent_uuid": "g79LhyuCIcy2z2cx",
       "doc_id": 172724080,
@@ -17537,10 +17484,145 @@
     },
     {
       "type": "DOC",
+      "title": "Lua",
+      "uuid": "LkwQMOGhmPq8PVCC",
+      "url": "ltmodb8b1a4v48u8",
+      "prev_uuid": "IksL8_aQ70Z_soJh",
+      "sibling_uuid": "xhJdZBj0R2MwVeMv",
+      "child_uuid": "mX7CPxMiLSexKF3R",
+      "parent_uuid": "g79LhyuCIcy2z2cx",
+      "doc_id": 186010528,
+      "level": 1,
+      "id": 186010528,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第一章：Lua简介与环境搭建",
+      "uuid": "mX7CPxMiLSexKF3R",
+      "url": "yronrdwammftmsd9",
+      "prev_uuid": "LkwQMOGhmPq8PVCC",
+      "sibling_uuid": "TGx4xoCgc9njBWB9",
+      "child_uuid": "",
+      "parent_uuid": "LkwQMOGhmPq8PVCC",
+      "doc_id": 186011199,
+      "level": 2,
+      "id": 186011199,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第二章：Lua基础语法与数据类型",
+      "uuid": "TGx4xoCgc9njBWB9",
+      "url": "mn5rq5mtwli8hbd0",
+      "prev_uuid": "mX7CPxMiLSexKF3R",
+      "sibling_uuid": "yxy3and0zp_svpiN",
+      "child_uuid": "",
+      "parent_uuid": "LkwQMOGhmPq8PVCC",
+      "doc_id": 186011821,
+      "level": 2,
+      "id": 186011821,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第三章：控制结构与函数",
+      "uuid": "yxy3and0zp_svpiN",
+      "url": "pg1rblzimdlhg4lt",
+      "prev_uuid": "TGx4xoCgc9njBWB9",
+      "sibling_uuid": "m7S0xLZF5iabeeej",
+      "child_uuid": "",
+      "parent_uuid": "LkwQMOGhmPq8PVCC",
+      "doc_id": 186011857,
+      "level": 2,
+      "id": 186011857,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第四章：表与数组",
+      "uuid": "m7S0xLZF5iabeeej",
+      "url": "kvvinls6kz2aglt6",
+      "prev_uuid": "yxy3and0zp_svpiN",
+      "sibling_uuid": "4kCsMVJFTzhNwItE",
+      "child_uuid": "",
+      "parent_uuid": "LkwQMOGhmPq8PVCC",
+      "doc_id": 186014493,
+      "level": 2,
+      "id": 186014493,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第五章：模块与包",
+      "uuid": "4kCsMVJFTzhNwItE",
+      "url": "gz8r0q1cnpo5qprm",
+      "prev_uuid": "m7S0xLZF5iabeeej",
+      "sibling_uuid": "P7zR45UhWbHMsp_-",
+      "child_uuid": "",
+      "parent_uuid": "LkwQMOGhmPq8PVCC",
+      "doc_id": 186012395,
+      "level": 2,
+      "id": 186012395,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第六章：面向对象编程",
+      "uuid": "P7zR45UhWbHMsp_-",
+      "url": "fbrwxh12fgi623y8",
+      "prev_uuid": "4kCsMVJFTzhNwItE",
+      "sibling_uuid": "XpSMSogz9o5K1Njw",
+      "child_uuid": "",
+      "parent_uuid": "LkwQMOGhmPq8PVCC",
+      "doc_id": 186014519,
+      "level": 2,
+      "id": 186014519,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第七章：错误处理与协程",
+      "uuid": "XpSMSogz9o5K1Njw",
+      "url": "giem4f7n0m7h2lpc",
+      "prev_uuid": "P7zR45UhWbHMsp_-",
+      "sibling_uuid": "dJ5HMTcpownGNMR8",
+      "child_uuid": "",
+      "parent_uuid": "LkwQMOGhmPq8PVCC",
+      "doc_id": 186014897,
+      "level": 2,
+      "id": 186014897,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "第八章：Lua标准库与应用实例",
+      "uuid": "dJ5HMTcpownGNMR8",
+      "url": "shpy0flq1gs5icfx",
+      "prev_uuid": "XpSMSogz9o5K1Njw",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "LkwQMOGhmPq8PVCC",
+      "doc_id": 186015682,
+      "level": 2,
+      "id": 186015682,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "Matlab",
       "uuid": "xhJdZBj0R2MwVeMv",
       "url": "zpa1orwyl0ly0pmg",
-      "prev_uuid": "IksL8_aQ70Z_soJh",
+      "prev_uuid": "LkwQMOGhmPq8PVCC",
       "sibling_uuid": "EmqDRajMf5H7Epyx",
       "child_uuid": "BQgdhKH6oLRyPbrv",
       "parent_uuid": "g79LhyuCIcy2z2cx",

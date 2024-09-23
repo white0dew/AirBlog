@@ -12,12 +12,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
-interface SidebarProps {
-  chapters: ElogChapter[];
-}
-
 function SidebarItem({ chapter }: { chapter: ElogChapter }) {
-  const router = useRouter();
   const path = usePathname();
   const [isOpen, setIsOpen] = useState(path.includes(chapter.nav_path));
   // 判断是否为可导航项目

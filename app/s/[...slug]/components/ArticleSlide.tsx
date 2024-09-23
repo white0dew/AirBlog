@@ -1,5 +1,4 @@
 import { ChapterList, ElogCacheData } from "@/lib/elog";
-import { mylog } from "@/lib/utils";
 import { ElogChapter } from "@/types/elog";
 
 // 假定 chapters 是整个章节树的根节点数组

@@ -5,8 +5,10 @@ import { ElogChapter } from "@/types/elog";
 import { notFound } from "next/navigation";
 import Comment from "@/components/Comment";
 import Toc from "@/components/markdown/Toc";
+import { ArticleRightSider } from "@/app/s/[...slug]/components/ArticleSider";
 import { coreContent } from "pliny/utils/contentlayer";
 import ArticlePostLayout from "./components/ArticleLayout";
+import { ArticleContent } from "./components/ArticleContent";
 import {
   IsEmptyString,
   mylog,
@@ -19,10 +21,9 @@ import siteMetadata from "@/assets/siteMetadata";
 import MDViewer from "@/components/markdown/MarkdownView";
 import Image from "next/image";
 import { ContentPrefixPath } from "@/constants/path";
-import { Suspense } from "react";
 
 export const dynamicParams = true;
-export const revalidate = 60 * 60 * 1; //60*60*1 s
+export const revalidate = 3600; //60*60*1 s不能够写乘法，否则不生效
 
 export async function generateStaticParams() {
   return [];
@@ -177,17 +178,9 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: curArticle.title,
       description: description,
-      //   images: imageList,
     },
   };
 }
-
-const LoadingSpinner = () => (
-  <div className="spinner">
-    {/* 你可以使用你喜欢的加载指示器样式 */}
-    <div>Loading...</div>
-  </div>
-);
 
 export default function ArticlePage({
   params,
@@ -196,14 +189,11 @@ export default function ArticlePage({
 }) {
   const curChapter = findChapterV2(ChapterList, params.slug);
   const curArticle = findPost(params.slug, curChapter);
-
   // 如果实在是找不到
   if (!curArticle && !curChapter) {
     return notFound();
   }
-  // mylog(curArticle?.body.raw)
   return (
-    // <Suspense fallback={<LoadingSpinner />}>
     <div
       className="relative mx-auto max-w-screen-xl justify-center space-x-3 px-4 py-2 
         md:flex md:flex-row md:py-2 lg:space-x-16"
@@ -217,69 +207,12 @@ export default function ArticlePage({
       </div>
 
       {curArticle && !IsEmptyString(curArticle?.body.raw) ? (
-        <div
-          className=" w-max lg:min-w-2xl lg:max-w-2xl py-10 min-h-screen 
-            md:flex-1 px-1 md:px-6  dark:bg-slate-800 2xl:max-w-3xl xl:min-w-3xl "
-        >
-          <ArticlePostLayout curArticle={curArticle}>
-            <div
-              className="js-toc-content prose
-            line-break break-words
-            prose-blue dark:prose-invert min-h-screen w-max"
-            >
-              <MDViewer source={curArticle.body.raw} />
-            </div>
-          </ArticlePostLayout>
-          <div
-            id="comment"
-            className="p-4 text-start text-gray-800 mt-10 w-full"
-          >
-            <Comment />
-          </div>
-        </div>
+        <ArticleContent article={curArticle} />
       ) : (
         <EmptyArticle />
       )}
 
-      <div
-        className="hidden sticky top-[80px]  h-[calc(100vh-20vh)] prose prose-blue
-            dark:prose-invert
-            w-[324px] xl:flex md:shrink-0 xl:flex-col md:justify-between "
-      >
-        {curArticle && (
-          <div
-            className="overflow-y-auto scrollbar-thin h-fit
-            scrollbar-thumb-rounded-full
-            scroll-m-2 scrollbar-thumb-gray-900 scrollbar-track-gray-100 scrollbar-corner-ring scrollbar-w-1 
-            dark:scrollbar-thumb-sky-500 overflow-x-hidden"
-          >
-            <Toc />
-          </div>
-        )}
-
-        {curArticle && (
-          <div
-            className="flex-1 flex flex-col 
-                mt-10
-                items-center mb-1 sm:mb-0 self-center h-fit"
-          >
-            <h5 className="text-lg text-center font-bold mb-2">
-              关注获取一手Offer信息
-            </h5>
-            <div className="mb-3 flex space-x-4 ">
-              <Image
-                src={
-                  "https://oss1.aistar.cool/%E4%BA%8C%E8%BF%9B%E5%88%B6%E7%9A%84%E8%80%B3%E8%AF%AD.jpg "
-                }
-                width={200}
-                height={200}
-                alt=""
-              />
-            </div>
-          </div>
-        )}
-      </div>
+      {curArticle && <ArticleRightSider />}
     </div>
-    // </Suspense>
   );
 }

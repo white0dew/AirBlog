@@ -18,8 +18,16 @@ function ArticlesContainer({
       <h4 className="text-md font-semibold mb-4 text-center">{subTitle}</h4>
       {/* 使用grid布局，并通过gap-4设置网格项之间的间距 */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {articles.map((article) => (
-          <ArticleCard key={article.id} {...article} />
+        {articles.map((article, idx) => (
+          <ol
+            key={idx}
+            className="animate-fade-up animate-ease-in-out"
+            style={{
+              animationDelay: `${Number(idx + 1) * 200}ms`,
+            }}
+          >
+            <ArticleCard key={article.id} {...article} />
+          </ol>
         ))}
       </div>
     </div>

@@ -61,7 +61,7 @@ function ArticleCard({
       className="block transform transition duration-300 hover:scale-105 hover:bg-blue-100 
       dark:bg-slate-800"
     >
-      <div className="max-w-sm rounded overflow-hidden shadow-lg w-full h-full">
+      <div className="max-w-sm rounded overflow-hidden shadow-lg w-full h-full animate-fade-up animate-ease-in-out">
         <div className="w-full h-20 text-6xl flex justify-center items-center ">
           {icon}
         </div>

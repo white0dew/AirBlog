@@ -3,11 +3,8 @@ import SidebarChapter from "@/components/SideChapterList";
 import { ChapterList, ChapterTree } from "@/lib/elog";
 import { ElogChapter } from "@/types/elog";
 import { notFound } from "next/navigation";
-import Comment from "@/components/Comment";
-import Toc from "@/components/markdown/Toc";
 import { ArticleRightSider } from "@/app/s/[...slug]/components/ArticleSider";
 import { coreContent } from "pliny/utils/contentlayer";
-import ArticlePostLayout from "./components/ArticleLayout";
 import { ArticleContent } from "./components/ArticleContent";
 import {
   IsEmptyString,
@@ -18,12 +15,11 @@ import {
 import EmptyArticle from "./components/EmptyArticle";
 import { Metadata } from "next";
 import siteMetadata from "@/assets/siteMetadata";
-import MDViewer from "@/components/markdown/MarkdownView";
-import Image from "next/image";
 import { ContentPrefixPath } from "@/constants/path";
 
 export const dynamicParams = true;
 export const revalidate = 3600; //60*60*1 s不能够写乘法，否则不生效
+export const dynamic = "force-dynamic";
 
 export async function generateStaticParams() {
   return [];

@@ -8,7 +8,7 @@ export function ArticleRightSider() {
         w-[324px] xl:flex md:shrink-0 xl:flex-col md:justify-between"
     >
       <div
-        className="overflow-y-auto scrollbar-thin h-fit min-h-64
+        className="overflow-y-auto scrollbar-thin h-fit min-h-80
         scrollbar-thumb-rounded-full
         scroll-m-2 scrollbar-thumb-gray-900 scrollbar-track-gray-100 scrollbar-corner-ring scrollbar-w-1 
         dark:scrollbar-thumb-sky-500 overflow-x-hidden"

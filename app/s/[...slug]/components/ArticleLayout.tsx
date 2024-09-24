@@ -78,7 +78,15 @@ export default function ArticlePostLayout({
                       <dl className="whitespace-nowrap text-sm font-medium leading-5">
                         <dt className="sr-only">Name</dt>
                         <dd className="text-gray-900 dark:text-gray-100">
-                          {author.name}
+                          {/* {author.name} */}
+                          {author.name && (
+                            <Link
+                              href={`https://www.yuque.com/qingyubailou/gygiq6/${curArticle.urlname}`}
+                              className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                            >
+                              {author.name}
+                            </Link>
+                          )}
                         </dd>
                         <dt className="sr-only">Github</dt>
                         <dd>

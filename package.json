@@ -69,7 +69,7 @@
     "tailwindcss-animate": "^1.0.7",
     "tailwindcss-animated": "^1.1.2",
     "tailwindcss-debug-screens": "^2.2.1",
-    "tocbot": "^4.27.20",
+    "tocbot": "^4.29.0",
     "typescript-eslint": "^7.10.0",
     "vaul": "^0.9.1",
     "xmlbuilder2": "^3.1.1",

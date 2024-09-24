@@ -66,10 +66,9 @@ function ArticleCard({
           {icon}
         </div>
         <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2 dark:text-yellow-200">
+          <div className="font-bold text-xl mb-2 dark:text-yellow-200 line-clamp-1">
             {trimTitle(title)}
           </div>
-          {/* <p className="text-gray-700 text-base">{summary}</p> */}
           <span className="dark:text-yellow-200">
             {" "}
             {/* 保证在深色模式下文字颜色为黄色 */}

@@ -8,7 +8,7 @@ export function ArticleRightSider() {
         w-[324px] xl:flex md:shrink-0 xl:flex-col md:justify-between"
     >
       <div
-        className="overflow-y-auto scrollbar-thin h-fit min-h-80
+        className="overflow-y-auto scrollbar-thin h-full min-h-96
         scrollbar-thumb-rounded-full
         scroll-m-2 scrollbar-thumb-gray-900 scrollbar-track-gray-100 scrollbar-corner-ring scrollbar-w-1 
         dark:scrollbar-thumb-sky-500 overflow-x-hidden"
@@ -17,9 +17,11 @@ export function ArticleRightSider() {
       </div>
       {/* 公告板块，介绍服务器 */}
 
-      <div className="flex flex-col space-y-1 items-center mb-3 bg-slate-100 rounded-lg p-2 ml-4">
-        <h5 className="text-lg text-center font-bold mb-2">公告</h5>
-        <text>
+      <div className="flex flex-col space-y-1 items-center m-3 bg-slate-100 dark:bg-slate-900 rounded-lg p-2 ml-4">
+        <h5 className="text-lg text-center font-bold mb-2 dark:text-gray-100">
+          公告
+        </h5>
+        <text className="dark:text-gray-100">
           💬 国内服务器高性价比首选 - 2c2g香港服务器仅
           <p className="inline text-red-800 text-xl">￥20/月</p>，
           <a
@@ -36,18 +38,18 @@ export function ArticleRightSider() {
       {/* 二维码模块 */}
       <div
         className="flex-1 flex flex-col 
-            mt-5
+            mt-1
             items-center mb-1 sm:mb-0 self-center h-fit"
       >
-        <h5 className="text-lg text-center font-bold mb-2">关注获取更多内容</h5>
+        <h5 className="text-lg text-center font-bold mb-1">关注获取更多内容</h5>
         <div className="mb-3 flex space-x-4 ">
           <Image
             src={
               "https://oss1.aistar.cool/%E4%BA%8C%E8%BF%9B%E5%88%B6%E7%9A%84%E8%80%B3%E8%AF%AD.jpg "
             }
-            width={200}
-            height={200}
-            alt=""
+            width={150}
+            height={150}
+            alt="扫描二维码"
           />
         </div>
       </div>

@@ -14,24 +14,7 @@ export const SearchProvider = ({ children }) => {
     <KBarSearchProvider
       kbarConfig={{
         searchDocumentsPath: "search.json",
-        defaultActions: [
-          //   {
-          //     id: "homepage",
-          //     name: "Homepage",
-          //     keywords: "",
-          //     shortcut: ["h", "h"],
-          //     section: "Home",
-          //     perform: () => router.push("/"),
-          //   },
-          //   {
-          //     id: "projects",
-          //     name: "Projects",
-          //     keywords: "",
-          //     shortcut: ["p"],
-          //     section: "Home",
-          //     perform: () => router.push("/projects"),
-          //   },
-        ],
+        defaultActions: [],
         onSearchDocumentsLoad(json) {
           // json 先过滤一遍，必须elogcachedata能够找到
           mylog("json b", json.length);
@@ -47,7 +30,7 @@ export const SearchProvider = ({ children }) => {
             id: post.path,
             name: post.title,
             keywords: post?.description || "",
-            section: "学校资料",
+            section: "学习资料",
             subtitle: post.tags.join(", "),
             perform: () => {
               mylog("post", post.urlname);

@@ -41,7 +41,7 @@ export default function Header() {
         />
       </div>
 
-      <div className="flex items-center px-4 lg:pr-14">
+      <div className="flex items-center px-4 lg:pr-14 py-5">
         <Navigation chapters={ChapterTree} />
         <SearchButton />
         <ThemeSwitch />

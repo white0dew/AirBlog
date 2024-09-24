@@ -56,22 +56,26 @@ export function ArticleSlideLinks({ path }: { path: string }) {
 
   return (
     <div
-      className="flex flex-col justify-between
-     rounded-xl
-    bg-slate-100 p-3 dark:bg-slate-800"
+      className="flex flex-row justify-between
+      px-auto
+     rounded-sm
+    bg-slate-50 p-10 dark:bg-slate-800
+    text-center
+    lg:text-xl"
     >
       {prev ? (
-        <div className=" self-start">
+        <div className=" self-start  min-w-8">
           {" "}
-          <span>⬆️</span> <a href={prev.url}>{prev.title}</a>
+          <a href={prev.url}>{prev.title}</a>
+          <span>👈</span>
         </div>
       ) : (
         <span />
       )}
       {next ? (
-        <div className=" self-end">
+        <div className=" self-end min-w-10">
           {" "}
-          <span>⬆</span>{" "}
+          <span>👉</span>{" "}
           <a href={next.url} className="">
             {next.title}
           </a>

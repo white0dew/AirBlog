@@ -60,7 +60,7 @@ export default function Home() {
               href={"/s/language"}
             >
               {" "}
-              赶紧卷起来！
+              赶紧学起来！
             </CustomLink>
           </div>
 

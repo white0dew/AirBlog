@@ -7,7 +7,7 @@ import { Post } from "@/.contentlayer/generated/types";
 import { useSearchParams } from "next/navigation";
 import { usePathname } from "next/navigation";
 import { useRouter } from "next/navigation";
-
+import { ArticleSlideLinks } from "./ArticleSlide";
 interface ArticleContentProps {
   article: Post;
 }
@@ -26,6 +26,12 @@ export function ArticleContent({ article }: ArticleContentProps) {
         behavior: "auto", // 平滑滚动
         block: "start", // 在视图中心
       });
+
+      // 防止window undefined
+
+      if (window) {
+        window.scrollBy(0, -50);
+      }
     }
   }, [path]);
   return (
@@ -61,7 +67,10 @@ export function ArticleContent({ article }: ArticleContentProps) {
           <MDViewer source={article.body.raw} />
         </div>
       </ArticlePostLayout>
-      <div id="comment" className="p-4 text-start text-gray-800 mt-10 w-full">
+      <div className="w-full px-5 mt-5">
+        <ArticleSlideLinks path={path} />
+      </div>
+      <div id="comment" className="p-4 text-start text-gray-800 mt-5 w-full">
         <Comment />
       </div>
     </div>

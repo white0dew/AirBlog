@@ -27,7 +27,7 @@
     "@radix-ui/react-switch": "^1.0.3",
     "@radix-ui/react-toast": "^1.1.5",
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
-    "artalk": "^2.8.6",
+    "artalk": "^2.8.7",
     "aws-sdk": "^2.1621.0",
     "axios": "^1.7.2",
     "class-variance-authority": "^0.7.0",

@@ -1,12 +1,11 @@
 ---
-title: Go
-urlname: gzdu2g90x1k7goos
-date: '2024-05-22 17:04:00'
-updated: '2024-09-10 18:46:38'
-cover: 'https://cdn.nlark.com/yuque/__mermaid_v3/23323cea8b284be9547a58448ae06501.svg'
-description: '---nav_path: golangGo 开发者路线图 20241. 基础知识1.1 语法基础变量、常量、数据类型控制结构（if、for、switch）函数和方法包管理错误处理1.2 数据结构数组和切片映射（Map）结构体接口1.3 并发基础GoroutinesChannelsSelect语...'
+
 nav_path: golang
+
+is_nav:true
+
 ---
+
 # Go 开发者路线图 2024
 ![](https://oss1.aistar.cool/elog-offer-now/c0feb1210bea28b8632430a4e8780d01.svg)
 

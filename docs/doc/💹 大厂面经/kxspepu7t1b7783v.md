@@ -2,7 +2,7 @@
 title: 计算机网络面试必问
 urlname: kxspepu7t1b7783v
 date: '2024-08-07 12:53:57'
-updated: '2024-09-24 11:41:42'
+updated: '2024-09-24 20:58:29'
 cover: 'https://cdn.nlark.com/yuque/0/2024/png/22382235/1722953399419-c3811ae6-707c-48c1-8a48-d32f46d24b40.png?x-oss-process=image%2Fformat%2Cwebp'
 description: HTTP常用的状态码及其含义HTTP状态码是用来表示服务器响应客户端请求的状态。常用的状态码分为以下几类：状态码含义200OK：请求成功，服务器已返回所请求的数据。201Created：请求成功并且服务器创建了新的资源。204No Content：服务器成功处理了请求，但没有返回任何内容。30...
 ---
@@ -614,33 +614,29 @@ CSRF（Cross-Site Request Forgery，跨站请求伪造）是一种常见的网�
     - 利用了用户已认证的身份。
     - 欺骗用户的浏览器发送HTTP请求给目标站点。
     - 通常用于执行非法的转账、更改密码等操作。
-3. **避免CSRF攻击的方法**：a) **使用CSRF Token**：
+3. **避免CSRF攻击的方法**：
 
-b) **检查Referer字段**：
-
-
-
-c) **使用SameSite Cookie属性**：
+a) **使用CSRF Token**
 
 
 
-d) **双重Cookie验证**：
+b) **检查Referer字段**
 
 
 
-e) **实施严格的身份验证**：
+c) **使用SameSite Cookie属性**
 
 
 
-f) **使用自定义请求头**：
+d) **双重Cookie验证**
 
-    - 在表单中嵌入一个随机生成的token。
-    - 服务器验证这个token的有效性。
-    - 验证请求的来源站点。
-    - 限制第三方网站发送的请求中携带Cookie。
-    - 在请求中附带一个Cookie值作为参数。
-    - 对敏感操作要求重新输入密码。
-    - 对于AJAX请求，使用自定义的HTTP头。
+
+
+e) **实施严格的身份验证**
+
+
+
+f) **使用自定义请求头**
 
 示例代码（使用CSRF Token）：
 

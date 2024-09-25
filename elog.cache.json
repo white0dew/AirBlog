@@ -2624,13 +2624,13 @@
     {
       "id": 170598462,
       "doc_id": "qfaugcu7d1ucqdq5",
-      "updated": 1727227247000,
+      "updated": 1727274920000,
       "properties": {
         "title": "更新日志",
         "urlname": "qfaugcu7d1ucqdq5",
         "date": "2024-05-22 08:47:22",
-        "updated": "2024-09-25 09:20:47",
-        "description": "---nav_path: changelog2024-09-24新增评论邮件发送功能优化评论邮件通知功能中模板功能新增-标签系统友情链接页面优化新增图片优化;For production Image Optimization with Next.js, the optional 'sharp'...",
+        "updated": "2024-09-25 22:35:20",
+        "description": "---nav_path: changelog2024-09-24新增评论邮件发送功能切换邮件通知功能到163邮箱，防止被设置为垃圾邮箱新增评论审核功能优化评论邮件通知功能中模板样式在每个页面的下面增加一功能，叫做当前页面的热评新增-标签系统友情链接页面优化新增图片优化;For producti...",
         "nav_path": "changelog"
       },
       "catalog": [
@@ -12625,12 +12625,12 @@
     {
       "id": 184185497,
       "doc_id": "gyuw9ixg30htr4y6",
-      "updated": 1727149240000,
+      "updated": 1727267206000,
       "properties": {
         "title": "操作系统面试必问 50 题！",
         "urlname": "gyuw9ixg30htr4y6",
         "date": "2024-08-28 16:10:53",
-        "updated": "2024-09-24 11:40:40",
+        "updated": "2024-09-25 20:26:46",
         "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/3a0131b1c5bfdbec608eb40353411248.svg",
         "description": "问题一览什么是操作系统？操作系统主要有哪些功能？常见的操作系统有哪些？什么是用户态和内核态？为什么要有用户态和内核态？只有一个内核态不行么？用户态和内核态是如何切换的？什么是系统调用？系统调用的过程了解吗？什么是进程和线程？进程和线程的区别是什么？有了进程为什么还需要线程？为什么要使用多线程？..."
       },
@@ -13104,6 +13104,58 @@
       "realName": "lprgqgib9yvhskqy",
       "relativePath": "/⬇️ 区区算法/lprgqgib9yvhskqy.md",
       "docPath": "docs/doc/⬇️ 区区算法"
+    },
+    {
+      "id": 188053359,
+      "doc_id": "xf27pqyhtdno058e",
+      "updated": 1727273676000,
+      "properties": {
+        "title": "artalk的几个邮件通知模板",
+        "urlname": "xf27pqyhtdno058e",
+        "date": "2024-09-25 21:32:26",
+        "updated": "2024-09-25 22:14:36",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1727271225596-cf33d76c-72eb-4bdf-a802-17d4175db587.png",
+        "description": "artalk是一个开源的评论组件。根据自己修改以及网上收集，找到了几种好看的样式。信封样式代码：   "
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "xf27pqyhtdno058e"
+        },
+        {
+          "title": "个人建站 🤖",
+          "doc_id": "xf27pqyhtdno058e"
+        }
+      ],
+      "realName": "xf27pqyhtdno058e",
+      "relativePath": "/🔥 程序员自我修养/个人建站 🤖/xf27pqyhtdno058e.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/个人建站 🤖"
+    },
+    {
+      "id": 188047268,
+      "doc_id": "obfo90gmi892umzf",
+      "updated": 1727269869000,
+      "properties": {
+        "title": "2207-字符串中最多数目的子序列",
+        "urlname": "obfo90gmi892umzf",
+        "date": "2024-09-25 20:34:21",
+        "updated": "2024-09-25 21:11:09",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1727268604843-f2f506b7-7117-4c73-aec4-70ad9a7aed60.png",
+        "description": "---is_nav: falsekeyword:中等,力扣,贪心,字符串---题目给你一个下标从 0 开始的字符串 text 和另一个下标从 0 开始且长度为 2 的字符串 pattern ，两者都只包含小写英文字母。你可以在 text 中任意位置插入 一个 字符，这个插入的字符必须是 pat..."
+      },
+      "catalog": [
+        {
+          "title": "⬇️ 区区算法",
+          "doc_id": "obfo90gmi892umzf"
+        },
+        {
+          "title": "每日一题⬆️",
+          "doc_id": "obfo90gmi892umzf"
+        }
+      ],
+      "realName": "obfo90gmi892umzf",
+      "relativePath": "/⬇️ 区区算法/每日一题⬆️/obfo90gmi892umzf.md",
+      "docPath": "docs/doc/⬇️ 区区算法/每日一题⬆️"
     }
   ],
   "catalog": [
@@ -13519,7 +13571,7 @@
       "url": "ogfvsltzo95v0k88",
       "prev_uuid": "PlrctMGesywNFpWl",
       "sibling_uuid": "_d86pwt2PnWp0V6d",
-      "child_uuid": "juWXtOvLlMJD1iBG",
+      "child_uuid": "Lr-s00SfjmdGwMP7",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
       "doc_id": 171769376,
       "level": 1,
@@ -13529,10 +13581,25 @@
     },
     {
       "type": "DOC",
+      "title": "artalk的几个邮件通知模板",
+      "uuid": "Lr-s00SfjmdGwMP7",
+      "url": "xf27pqyhtdno058e",
+      "prev_uuid": "pzU6x4VThGDwLdrN",
+      "sibling_uuid": "juWXtOvLlMJD1iBG",
+      "child_uuid": "",
+      "parent_uuid": "pzU6x4VThGDwLdrN",
+      "doc_id": 188053359,
+      "level": 2,
+      "id": 188053359,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "rss订阅是怎么实现的？",
       "uuid": "juWXtOvLlMJD1iBG",
       "url": "nrzyh8l8y1vdi8d2",
-      "prev_uuid": "pzU6x4VThGDwLdrN",
+      "prev_uuid": "Lr-s00SfjmdGwMP7",
       "sibling_uuid": "R59kMPJ0-PPHmDKm",
       "child_uuid": "",
       "parent_uuid": "pzU6x4VThGDwLdrN",
@@ -20239,11 +20306,26 @@
       "url": "lprgqgib9yvhskqy",
       "prev_uuid": "rlp57EWbyvPwW5cr",
       "sibling_uuid": "reKm3I0g1TgNAMyB",
-      "child_uuid": "",
+      "child_uuid": "EEQToEjqX6iRZcLj",
       "parent_uuid": "rlp57EWbyvPwW5cr",
       "doc_id": 187842890,
       "level": 1,
       "id": 187842890,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "2207-字符串中最多数目的子序列",
+      "uuid": "EEQToEjqX6iRZcLj",
+      "url": "obfo90gmi892umzf",
+      "prev_uuid": "SX-tr4Aq0jIIWIqw",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "SX-tr4Aq0jIIWIqw",
+      "doc_id": 188047268,
+      "level": 2,
+      "id": 188047268,
       "open_window": 1,
       "visible": 1
     },

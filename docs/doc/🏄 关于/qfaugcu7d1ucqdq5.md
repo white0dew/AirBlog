@@ -2,13 +2,16 @@
 title: 更新日志
 urlname: qfaugcu7d1ucqdq5
 date: '2024-05-22 08:47:22'
-updated: '2024-09-25 09:20:47'
-description: '---nav_path: changelog2024-09-24新增评论邮件发送功能优化评论邮件通知功能中模板功能新增-标签系统友情链接页面优化新增图片优化;For production Image Optimization with Next.js, the optional ''sharp''...'
+updated: '2024-09-25 22:35:20'
+description: '---nav_path: changelog2024-09-24新增评论邮件发送功能切换邮件通知功能到163邮箱，防止被设置为垃圾邮箱新增评论审核功能优化评论邮件通知功能中模板样式在每个页面的下面增加一功能，叫做当前页面的热评新增-标签系统友情链接页面优化新增图片优化;For producti...'
 nav_path: changelog
 ---
 ## 2024-09-24
 - [x] 新增评论邮件发送功能
-- [ ] 优化评论邮件通知功能中模板功能
+- [ ] 切换邮件通知功能到163邮箱，防止被设置为垃圾邮箱
+- [ ] 新增评论审核功能
+- [x] 优化评论邮件通知功能中模板样式
+- [ ] 在每个页面的下面增加一功能，叫做**当前页面的热评**
 - [ ] 新增-标签系统
 - [ ] 友情链接页面优化
 - [ ] 新增图片优化;<font style="color:rgb(240, 246, 252);background-color:rgb(1, 4, 9);">For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run 'npm i sharp', and Next.js will use it automatically for Image Optimization.</font>
@@ -18,7 +21,7 @@ nav_path: changelog
 - [x] 优化黑白模式-公告
 - [ ] 优化搜索功能-背景颜色不对(是pliny的背景不对，以及github提问了）
 - [x] 优化页面-切换页面链接的时候，视图不对
-- [ ] 新增栏目-每日算法题
+- [x] 新增栏目-每日算法题
 - [ ] 新增栏目-开源项目、go框架、参考gostack.cc
 - [ ] 借鉴 xargin.com网站排版
 - [ ] 试用openwite插件

@@ -2,21 +2,9 @@
 title: 【黑神话·悟空】珍玩图谱
 urlname: yrfceens21sa98a1
 date: '2024-09-12 18:45:09'
-updated: '2024-09-12 18:58:04'
-description: '以下是数组内容的依次输出：---**原址**: https://wiki.biligame.com//wukong/%E4%B8%89%E6%B8%85%E4%BB%A4  **名称** ：三清令  **类型**：珍玩  **品质** : 上品  **效果**：生命不足时，一定程度增加暴击率（...'
+updated: '2024-09-26 12:46:04'
+description: '**原址**: https://wiki.biligame.com//wukong/%E4%B8%89%E6%B8%85%E4%BB%A4  **名称** ：三清令  **类型**：珍玩  **品质** : 上品  **效果**：生命不足时，一定程度增加暴击率（详细效果:生命不足 50%时，增...'
 ---
-```markdown
-
-```
-
-以下是数组内容的依次输出：
-
-
-
----
-
-
-
 **原址**: [https://wiki.biligame.com//wukong/%E4%B8%89%E6%B8%85%E4%BB%A4](https://wiki.biligame.com//wukong/%E4%B8%89%E6%B8%85%E4%BB%A4)  
 
 **名称** ：三清令  

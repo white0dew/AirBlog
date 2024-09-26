@@ -2,7 +2,7 @@
 
 is_nav: false
 
-keyword:中等,力扣,贪心,字符串
+keywords:中等,力扣,贪心,字符串
 
 ---
 

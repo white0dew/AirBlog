@@ -2,7 +2,7 @@
 title: 更新日志
 urlname: qfaugcu7d1ucqdq5
 date: '2024-05-22 08:47:22'
-updated: '2024-09-25 22:35:20'
+updated: '2024-09-26 09:21:17'
 description: '---nav_path: changelog2024-09-24新增评论邮件发送功能切换邮件通知功能到163邮箱，防止被设置为垃圾邮箱新增评论审核功能优化评论邮件通知功能中模板样式在每个页面的下面增加一功能，叫做当前页面的热评新增-标签系统友情链接页面优化新增图片优化;For producti...'
 nav_path: changelog
 ---
@@ -24,7 +24,8 @@ nav_path: changelog
 - [x] 新增栏目-每日算法题
 - [ ] 新增栏目-开源项目、go框架、参考gostack.cc
 - [ ] 借鉴 xargin.com网站排版
-- [ ] 试用openwite插件
+- [ ] 试用openwite插件/或者techgrowth插件
+- [ ] 查看网站：[https://www.techgrow.cn/posts/52f22f9b.html](https://www.techgrow.cn/posts/52f22f9b.html) 实现赞赏功能
 
 ## 2024-7-17
 + 新增**搜索功能**

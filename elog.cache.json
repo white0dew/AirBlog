@@ -2624,12 +2624,12 @@
     {
       "id": 170598462,
       "doc_id": "qfaugcu7d1ucqdq5",
-      "updated": 1727274920000,
+      "updated": 1727313677000,
       "properties": {
         "title": "更新日志",
         "urlname": "qfaugcu7d1ucqdq5",
         "date": "2024-05-22 08:47:22",
-        "updated": "2024-09-25 22:35:20",
+        "updated": "2024-09-26 09:21:17",
         "description": "---nav_path: changelog2024-09-24新增评论邮件发送功能切换邮件通知功能到163邮箱，防止被设置为垃圾邮箱新增评论审核功能优化评论邮件通知功能中模板样式在每个页面的下面增加一功能，叫做当前页面的热评新增-标签系统友情链接页面优化新增图片优化;For producti...",
         "nav_path": "changelog"
       },
@@ -3792,13 +3792,13 @@
     {
       "id": 171422424,
       "doc_id": "ke4dfxri1tn7lnbm",
-      "updated": 1718961026000,
+      "updated": 1727325491000,
       "properties": {
         "title": "ElasticSearch",
         "urlname": "ke4dfxri1tn7lnbm",
         "date": "2024-05-28 15:14:51",
-        "updated": "2024-06-21 17:10:26",
-        "description": "Elasticsearch（简称 ES）是一个基于 Lucene 的全文检索引擎。其核心功能是将数据进行分词后保存索引，从而实现高效的查询。虽然在频繁数据更新和关联查询方面不如 MySQL，但在处理和管理大数据量的查询上，Elasticsearch 展现出了极高的效率。索引的重要性nav_pa..."
+        "updated": "2024-09-26 12:38:11",
+        "description": "nav_path:eskeywords: Elasticsearch, Lucene, 倒排索引, Term Dictionary,Term Index, FSTdescription: 了解Elasticsearch（简称ES）的核心功能及其基于Lucene的倒排索引技术，探索Term Di..."
       },
       "catalog": [
         {
@@ -3807,8 +3807,8 @@
         }
       ],
       "realName": "ke4dfxri1tn7lnbm",
-      "relativePath": "\\📚 计算机基础\\ke4dfxri1tn7lnbm.md",
-      "docPath": "docs\\doc\\📚 计算机基础"
+      "relativePath": "/📚 计算机基础/ke4dfxri1tn7lnbm.md",
+      "docPath": "docs/doc/📚 计算机基础"
     },
     {
       "id": 169963644,
@@ -13134,14 +13134,14 @@
     {
       "id": 188047268,
       "doc_id": "obfo90gmi892umzf",
-      "updated": 1727269869000,
+      "updated": 1727324614000,
       "properties": {
         "title": "2207-字符串中最多数目的子序列",
         "urlname": "obfo90gmi892umzf",
         "date": "2024-09-25 20:34:21",
-        "updated": "2024-09-25 21:11:09",
+        "updated": "2024-09-26 12:23:34",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1727268604843-f2f506b7-7117-4c73-aec4-70ad9a7aed60.png",
-        "description": "---is_nav: falsekeyword:中等,力扣,贪心,字符串---题目给你一个下标从 0 开始的字符串 text 和另一个下标从 0 开始且长度为 2 的字符串 pattern ，两者都只包含小写英文字母。你可以在 text 中任意位置插入 一个 字符，这个插入的字符必须是 pat..."
+        "description": "---is_nav: falsekeywords:中等,力扣,贪心,字符串---题目给你一个下标从 0 开始的字符串 text 和另一个下标从 0 开始且长度为 2 的字符串 pattern ，两者都只包含小写英文字母。你可以在 text 中任意位置插入 一个 字符，这个插入的字符必须是 pa..."
       },
       "catalog": [
         {
@@ -13156,6 +13156,191 @@
       "realName": "obfo90gmi892umzf",
       "relativePath": "/⬇️ 区区算法/每日一题⬆️/obfo90gmi892umzf.md",
       "docPath": "docs/doc/⬇️ 区区算法/每日一题⬆️"
+    },
+    {
+      "id": 188132549,
+      "doc_id": "bpg1mnp8mrrl6bg7",
+      "updated": 1727325594000,
+      "properties": {
+        "title": "ES 倒排索引讲解",
+        "urlname": "bpg1mnp8mrrl6bg7",
+        "date": "2024-09-26 12:36:25",
+        "updated": "2024-09-26 12:39:54",
+        "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/e9923c0080f2156413f8aba119009254.svg",
+        "description": "在学习其他数据库时，我们了解到索引是数据库系统中至关重要的部分，直接决定着查询的效率。Elasticsearch 之所以能够实现高速查询，主要得益于其底层 Lucene 使用了倒排索引（Inverted Index）的方式，并通过多种优化提升性能。索引的重要性什么是倒排索引？首先，我们来了解一..."
+      },
+      "catalog": [
+        {
+          "title": "📚 计算机基础",
+          "doc_id": "bpg1mnp8mrrl6bg7"
+        },
+        {
+          "title": "ElasticSearch",
+          "doc_id": "bpg1mnp8mrrl6bg7"
+        }
+      ],
+      "realName": "bpg1mnp8mrrl6bg7",
+      "relativePath": "/📚 计算机基础/ElasticSearch/bpg1mnp8mrrl6bg7.md",
+      "docPath": "docs/doc/📚 计算机基础/ElasticSearch"
+    },
+    {
+      "id": 188132553,
+      "doc_id": "eqx15o4rsygvh108",
+      "updated": 1727325465000,
+      "properties": {
+        "title": "Elasticsearch 的 Mapping设置",
+        "urlname": "eqx15o4rsygvh108",
+        "date": "2024-09-26 12:36:28",
+        "updated": "2024-09-26 12:37:45",
+        "description": "在 Elasticsearch 中，Mapping（映射）是非常重要的概念，它定义了文档中各个字段的类型、存储方式、分析器等属性。正确地设置 Mapping 可以确保数据能够被有效地存储和检索。本文将详细介绍 Elasticsearch Mapping 文件的设置。一、Mapping 的作用M..."
+      },
+      "catalog": [
+        {
+          "title": "📚 计算机基础",
+          "doc_id": "eqx15o4rsygvh108"
+        },
+        {
+          "title": "ElasticSearch",
+          "doc_id": "eqx15o4rsygvh108"
+        }
+      ],
+      "realName": "eqx15o4rsygvh108",
+      "relativePath": "/📚 计算机基础/ElasticSearch/eqx15o4rsygvh108.md",
+      "docPath": "docs/doc/📚 计算机基础/ElasticSearch"
+    },
+    {
+      "id": 188132201,
+      "doc_id": "po4zfzpnv9b90scm",
+      "updated": 1727325380000,
+      "properties": {
+        "0": "d",
+        "1": "e",
+        "2": "s",
+        "3": "c",
+        "4": "r",
+        "5": "i",
+        "6": "p",
+        "7": "t",
+        "8": "i",
+        "9": "o",
+        "10": "n",
+        "11": ":",
+        "12": "校",
+        "13": "招",
+        "14": "面",
+        "15": "试",
+        "16": "算",
+        "17": "法",
+        "18": "题",
+        "19": "必",
+        "20": "刷",
+        "21": "之",
+        "22": "两",
+        "23": "数",
+        "24": "之",
+        "25": "和",
+        "26": "。",
+        "27": "\n",
+        "28": "k",
+        "29": "e",
+        "30": "y",
+        "31": "w",
+        "32": "o",
+        "33": "r",
+        "34": "d",
+        "35": "s",
+        "36": ":",
+        "37": "简",
+        "38": "单",
+        "39": ",",
+        "40": "数",
+        "41": "组",
+        "title": "1-两数之和",
+        "urlname": "po4zfzpnv9b90scm",
+        "date": "2024-09-26 12:28:43",
+        "updated": "2024-09-26 12:36:20",
+        "description": "---description:校招面试算法题必刷之两数之和。keywords:简单,数组---题目给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target  的那 两个 整数，并返回它们的数组下标。你可以假设每种输入只会对应一个答案，并且你不能使..."
+      },
+      "catalog": [
+        {
+          "title": "⬇️ 区区算法",
+          "doc_id": "po4zfzpnv9b90scm"
+        },
+        {
+          "title": "每日一题⬆️",
+          "doc_id": "po4zfzpnv9b90scm"
+        }
+      ],
+      "realName": "po4zfzpnv9b90scm",
+      "relativePath": "/⬇️ 区区算法/每日一题⬆️/po4zfzpnv9b90scm.md",
+      "docPath": "docs/doc/⬇️ 区区算法/每日一题⬆️"
+    },
+    {
+      "id": 188131962,
+      "doc_id": "gfcdgx0b9ydfla1g",
+      "updated": 1727324924000,
+      "properties": {
+        "0": "k",
+        "1": "e",
+        "2": "y",
+        "3": "w",
+        "4": "o",
+        "5": "r",
+        "6": "d",
+        "7": ":",
+        "8": "简",
+        "9": "单",
+        "10": ",",
+        "11": "数",
+        "12": "组",
+        "title": "2535-数组元素和与数字和的绝对差",
+        "urlname": "gfcdgx0b9ydfla1g",
+        "date": "2024-09-26 12:23:38",
+        "updated": "2024-09-26 12:28:44",
+        "description": "---keyword:简单,数组---题目给你一个正整数数组 nums 。元素和 是 nums 中的所有元素相加求和。数字和 是 nums 中每一个元素的每一数位（重复数位需多次求和）相加求和。返回 元素和 与 数字和 的绝对差。示例 1：输入：nums = [1,15,6,3]输出：9解释：..."
+      },
+      "catalog": [
+        {
+          "title": "⬇️ 区区算法",
+          "doc_id": "gfcdgx0b9ydfla1g"
+        },
+        {
+          "title": "每日一题⬆️",
+          "doc_id": "gfcdgx0b9ydfla1g"
+        }
+      ],
+      "realName": "gfcdgx0b9ydfla1g",
+      "relativePath": "/⬇️ 区区算法/每日一题⬆️/gfcdgx0b9ydfla1g.md",
+      "docPath": "docs/doc/⬇️ 区区算法/每日一题⬆️"
+    },
+    {
+      "id": 188113463,
+      "doc_id": "txn4h4d17m17hx21",
+      "updated": 1727317350000,
+      "properties": {
+        "title": "Go 为何没有三元运算符？",
+        "urlname": "txn4h4d17m17hx21",
+        "date": "2024-09-26 10:21:49",
+        "updated": "2024-09-26 10:22:30",
+        "description": "在今天编写 Go 语言代码时，我发现了一个有趣的现象：Go 语言竟然没有传统意义上的三元运算符。这让我不禁思考，为什么 Go 语言的设计者会做出这样的选择呢？在许多编程语言中，三元运算符（?:）是一种简洁的表达方式，用于根据条件选择两个值中的一个。例如，在 C、C++、Java 等语言中，可以..."
+      },
+      "catalog": [
+        {
+          "title": "💻 编程语言",
+          "doc_id": "txn4h4d17m17hx21"
+        },
+        {
+          "title": "Go",
+          "doc_id": "txn4h4d17m17hx21"
+        },
+        {
+          "title": "🎁 最佳实践",
+          "doc_id": "txn4h4d17m17hx21"
+        }
+      ],
+      "realName": "txn4h4d17m17hx21",
+      "relativePath": "/💻 编程语言/Go/🎁 最佳实践/txn4h4d17m17hx21.md",
+      "docPath": "docs/doc/💻 编程语言/Go/🎁 最佳实践"
     }
   ],
   "catalog": [
@@ -14171,7 +14356,7 @@
       "url": "htpzy6yum72pgula",
       "prev_uuid": "SBteHfLgsx_bPvlO",
       "sibling_uuid": "u2KBx-kui0oQ6a40",
-      "child_uuid": "nTglIJUhcgjhDzUF",
+      "child_uuid": "vT1eZv-flHTvrgNS",
       "parent_uuid": "Kz42HmwRUbbo3mma",
       "doc_id": 170698560,
       "level": 2,
@@ -14181,10 +14366,25 @@
     },
     {
       "type": "DOC",
+      "title": "Go 为何没有三元运算符？",
+      "uuid": "vT1eZv-flHTvrgNS",
+      "url": "txn4h4d17m17hx21",
+      "prev_uuid": "YOd5pEsvtecnipV1",
+      "sibling_uuid": "nTglIJUhcgjhDzUF",
+      "child_uuid": "",
+      "parent_uuid": "YOd5pEsvtecnipV1",
+      "doc_id": 188113463,
+      "level": 3,
+      "id": 188113463,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "golang中stringbuilder字符串拼接性能对比",
       "uuid": "nTglIJUhcgjhDzUF",
       "url": "ml8rzewka106hl4m",
-      "prev_uuid": "YOd5pEsvtecnipV1",
+      "prev_uuid": "vT1eZv-flHTvrgNS",
       "sibling_uuid": "QbSmaCB_JDZ5arro",
       "child_uuid": "",
       "parent_uuid": "YOd5pEsvtecnipV1",
@@ -18431,11 +18631,41 @@
       "url": "ke4dfxri1tn7lnbm",
       "prev_uuid": "wBenEb1xOKuqMtgf",
       "sibling_uuid": "",
-      "child_uuid": "",
+      "child_uuid": "D4hrJx6vwKWSaRnH",
       "parent_uuid": "1Yk7ZpGC1ALK7ryF",
       "doc_id": 171422424,
       "level": 1,
       "id": 171422424,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "ES 倒排索引讲解",
+      "uuid": "D4hrJx6vwKWSaRnH",
+      "url": "bpg1mnp8mrrl6bg7",
+      "prev_uuid": "ARr0dfbmXLgkGUau",
+      "sibling_uuid": "tHnCDSmF0tYP39d6",
+      "child_uuid": "",
+      "parent_uuid": "ARr0dfbmXLgkGUau",
+      "doc_id": 188132549,
+      "level": 2,
+      "id": 188132549,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Elasticsearch 的 Mapping设置",
+      "uuid": "tHnCDSmF0tYP39d6",
+      "url": "eqx15o4rsygvh108",
+      "prev_uuid": "D4hrJx6vwKWSaRnH",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "ARr0dfbmXLgkGUau",
+      "doc_id": 188132553,
+      "level": 2,
+      "id": 188132553,
       "open_window": 1,
       "visible": 1
     },
@@ -20306,7 +20536,7 @@
       "url": "lprgqgib9yvhskqy",
       "prev_uuid": "rlp57EWbyvPwW5cr",
       "sibling_uuid": "reKm3I0g1TgNAMyB",
-      "child_uuid": "EEQToEjqX6iRZcLj",
+      "child_uuid": "78sidCdUWH_PNo2I",
       "parent_uuid": "rlp57EWbyvPwW5cr",
       "doc_id": 187842890,
       "level": 1,
@@ -20316,10 +20546,40 @@
     },
     {
       "type": "DOC",
+      "title": "1-两数之和",
+      "uuid": "78sidCdUWH_PNo2I",
+      "url": "po4zfzpnv9b90scm",
+      "prev_uuid": "SX-tr4Aq0jIIWIqw",
+      "sibling_uuid": "lf6wVspPaER4JW5o",
+      "child_uuid": "",
+      "parent_uuid": "SX-tr4Aq0jIIWIqw",
+      "doc_id": 188132201,
+      "level": 2,
+      "id": 188132201,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "2535-数组元素和与数字和的绝对差",
+      "uuid": "lf6wVspPaER4JW5o",
+      "url": "gfcdgx0b9ydfla1g",
+      "prev_uuid": "78sidCdUWH_PNo2I",
+      "sibling_uuid": "EEQToEjqX6iRZcLj",
+      "child_uuid": "",
+      "parent_uuid": "SX-tr4Aq0jIIWIqw",
+      "doc_id": 188131962,
+      "level": 2,
+      "id": 188131962,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "2207-字符串中最多数目的子序列",
       "uuid": "EEQToEjqX6iRZcLj",
       "url": "obfo90gmi892umzf",
-      "prev_uuid": "SX-tr4Aq0jIIWIqw",
+      "prev_uuid": "lf6wVspPaER4JW5o",
       "sibling_uuid": "",
       "child_uuid": "",
       "parent_uuid": "SX-tr4Aq0jIIWIqw",

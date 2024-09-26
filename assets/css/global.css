@@ -1,0 +1,8 @@
+/* 为 id 为 read-morede二维码样式 的元素设置样式 */
+#qrcode-img {
+  /* width: 90%; */
+  margin: 0 auto;
+  padding: 10px;
+  /* background-color: #f0f0f0; */
+  border: 1px solid #ccc;
+}

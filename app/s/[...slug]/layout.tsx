@@ -1,21 +1,18 @@
+import Script from "next/script";
 import { ReactNode } from "react";
 
-const postDateTemplate: Intl.DateTimeFormatOptions = {
-    weekday: 'long',
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-};
-
 interface LayoutProps {
-    children: ReactNode
+  children: ReactNode;
 }
 
 export default function ArticleLayout({ children }: LayoutProps) {
-
-    return (
-        <div className="w-full py-1 flex flex-col justify-center scroll-smooth">
-            {children}
-        </div>
-    )
+  return (
+    <div className="w-full py-1 flex flex-col justify-center scroll-smooth">
+      <Script
+        src="https://readmore.openwrite.cn/js/readmore-2.0.js"
+        type="text/javascript"
+      />
+      {children}
+    </div>
+  );
 }

@@ -59,12 +59,15 @@ export function ArticleSlideLinks({ path }: { path: string }) {
       className="flex flex-row justify-between
       px-auto
      rounded-sm
-    bg-slate-50 p-10 dark:bg-slate-800
+    bg-slate-100 p-8 dark:bg-slate-800
     text-center
     lg:text-xl"
     >
       {prev ? (
-        <div className=" self-start  min-w-8">
+        <div
+          className=" self-start  min-w-8 py-6 px-2 bg-gray-200 dark:bg-gray-800 rounded-md hover:bg-gray-400
+        hover:dark:bg-gray-400"
+        >
           {" "}
           <a href={prev.url}>{prev.title}</a>
           <span>👈</span>
@@ -72,8 +75,13 @@ export function ArticleSlideLinks({ path }: { path: string }) {
       ) : (
         <span />
       )}
+
       {next ? (
-        <div className=" self-end min-w-10">
+        <div
+          className=" self-end min-w-8 py-6 px-2 bg-gray-200 dark:bg-gray-800 rounded-md hover:bg-gray-400
+        
+        hover:dark:bg-gray-400"
+        >
           {" "}
           <span>👉</span>{" "}
           <a href={next.url} className="">

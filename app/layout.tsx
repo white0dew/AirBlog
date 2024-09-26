@@ -1,5 +1,6 @@
 import "@/assets/css/tailwind.css";
 import "@/assets/css/toc.css";
+import "@/assets/css/global.css";
 import "pliny/search/algolia.css";
 import type { Metadata } from "next";
 import siteMetadata from "@/assets/siteMetadata";

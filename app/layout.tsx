@@ -11,7 +11,7 @@ import { Inter as FontSans } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { SearchConfig } from "pliny/search";
 import { SearchProvider } from "@/components/nav/SearchProvider";
-
+import React from "react";
 // 参考:https://github.com/shadcn-ui/ui/issues/94 中dongnez 的写法,解决下拉菜单的问题
 const fontSans = FontSans({
   subsets: ["latin"],

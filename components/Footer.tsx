@@ -19,9 +19,6 @@ export default function Footer() {
             <h5 className="text-lg font-bold  mb-2">联系方式</h5>
             <ul>
               <li>1373685219@qq.com</li>
-              <li>
-                官网:<Link href={"https://aistar.cool"}>aistar.cool </Link>
-              </li>
             </ul>
           </div>
 

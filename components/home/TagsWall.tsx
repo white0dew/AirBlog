@@ -1,3 +1,5 @@
+import React from "react";
+
 // 基于nextjs 实现标签墙
 
 export function TagsWall() {

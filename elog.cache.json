@@ -2624,13 +2624,13 @@
     {
       "id": 170598462,
       "doc_id": "qfaugcu7d1ucqdq5",
-      "updated": 1727363463000,
+      "updated": 1727400180000,
       "properties": {
         "title": "更新日志",
         "urlname": "qfaugcu7d1ucqdq5",
         "date": "2024-05-22 08:47:22",
-        "updated": "2024-09-26 23:11:03",
-        "description": "---nav_path: changelog2024-09新增评论邮件发送功能优化评论邮件通知功能中模板样式新增页面下一页以及上一页优化黑白模式-公告优化页面-切换页面链接的时候，视图不对优化首页排版-高度不一致新增栏目-每日算法题切换邮件通知功能到163邮箱，防止被设置为垃圾邮箱新增评论审核...",
+        "updated": "2024-09-27 09:23:00",
+        "description": "---nav_path: changelog2024-09新增评论邮件发送功能优化评论邮件通知功能中模板样式新增页面下一页以及上一页优化黑白模式-公告优化页面-切换页面链接的时候，视图不对优化首页排版-高度不一致新增栏目-每日算法题新增-标签系统首页修改-新增标签墙切换邮件通知功能到163邮箱...",
         "nav_path": "changelog"
       },
       "catalog": [
@@ -2640,8 +2640,8 @@
         }
       ],
       "realName": "qfaugcu7d1ucqdq5",
-      "relativePath": "\\🏄 关于\\qfaugcu7d1ucqdq5.md",
-      "docPath": "docs\\doc\\🏄 关于"
+      "relativePath": "/🏄 关于/qfaugcu7d1ucqdq5.md",
+      "docPath": "docs/doc/🏄 关于"
     },
     {
       "id": 170598252,

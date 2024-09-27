@@ -2,8 +2,8 @@
 title: 更新日志
 urlname: qfaugcu7d1ucqdq5
 date: '2024-05-22 08:47:22'
-updated: '2024-09-26 23:11:03'
-description: '---nav_path: changelog2024-09新增评论邮件发送功能优化评论邮件通知功能中模板样式新增页面下一页以及上一页优化黑白模式-公告优化页面-切换页面链接的时候，视图不对优化首页排版-高度不一致新增栏目-每日算法题切换邮件通知功能到163邮箱，防止被设置为垃圾邮箱新增评论审核...'
+updated: '2024-09-27 09:23:00'
+description: '---nav_path: changelog2024-09新增评论邮件发送功能优化评论邮件通知功能中模板样式新增页面下一页以及上一页优化黑白模式-公告优化页面-切换页面链接的时候，视图不对优化首页排版-高度不一致新增栏目-每日算法题新增-标签系统首页修改-新增标签墙切换邮件通知功能到163邮箱...'
 nav_path: changelog
 ---
 ## 2024-09
@@ -14,10 +14,11 @@ nav_path: changelog
 - [x] 优化页面-切换页面链接的时候，视图不对
 - [x] 优化首页排版-高度不一致
 - [x] 新增栏目-每日算法题
+- [x] 新增-标签系统
+- [ ] 首页修改-新增标签墙
 - [ ] 切换邮件通知功能到163邮箱，防止被设置为垃圾邮箱
 - [ ] 新增评论审核功能：关键词（阿里云、腾讯云的api接口太贵了）
 - [ ] 在每个页面的下面增加一功能，叫做**当前页面的热评**
-- [ ] 新增-标签系统
 - [ ] 友情链接页面优化
 - [ ] 新增图片优化：For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run '**npm i sharp**', and Next.js will use it automatically for Image Optimization
 - [ ] 优化移动端排版（网盘拉新必备）

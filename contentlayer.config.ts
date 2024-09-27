@@ -12,6 +12,7 @@ import {
   remarkImgToJsx,
   extractTocHeadings,
 } from "pliny/mdx-plugins/index.js";
+import { slug } from "github-slugger";
 import path from "path";
 import remarkGfm from "remark-gfm";
 import remarkMath from "remark-math";
@@ -23,6 +24,7 @@ import { countWords } from "./lib/utils";
 import rehypeCitation from "rehype-citation";
 import { writeFileSync } from "fs";
 import { allCoreContent, sortPosts } from "pliny/utils/contentlayer.js";
+import { Post } from "./.contentlayer/generated";
 const root = process.cwd();
 const isProduction = process.env.NODE_ENV === "production";
 
@@ -56,7 +58,25 @@ function createSearchIndex(allBlogs: any) {
   }
 }
 
-export const Post = defineDocumentType(() => ({
+function createTagCount(allBlogs: any) {
+  const tagCount: Record<string, number> = {};
+  allBlogs.forEach((file: Post) => {
+    if (file.tags && !isProduction) {
+      console.log("Generating tag count...");
+      file.tags.forEach((tag) => {
+        const formattedTag = slug(tag);
+        if (formattedTag in tagCount) {
+          tagCount[formattedTag] += 1;
+        } else {
+          tagCount[formattedTag] = 1;
+        }
+      });
+    }
+  });
+  writeFileSync("public/tag-data.json", JSON.stringify(tagCount));
+}
+
+export const PostBlog = defineDocumentType(() => ({
   name: "Post",
   filePathPattern: `docs/doc/**/*.md`,
   contentType: "markdown",
@@ -113,7 +133,7 @@ export const Author = defineDocumentType(() => ({
 export default makeSource({
   contentDirPath: ".",
   contentDirInclude: ["docs/authors", "docs/doc"],
-  documentTypes: [Post, Author],
+  documentTypes: [PostBlog, Author],
   markdown: {
     remarkPlugins: [
       remarkExtractFrontmatter,
@@ -124,16 +144,7 @@ export default makeSource({
     ],
     rehypePlugins: [
       rehypeSlug,
-      [
-        rehypeAutolinkHeadings,
-        // {
-        //   behavior: "prepend",
-        //   headingProperties: {
-        //     className: ["content-header"],
-        //   },
-        //   content: icon,
-        // },
-      ],
+      [rehypeAutolinkHeadings],
       rehypeKatex,
       [rehypeCitation, { path: path.join(root, "data") }],
       [rehypePrismPlus, { defaultLanguage: "js", ignoreMissing: true }],
@@ -150,16 +161,7 @@ export default makeSource({
     ],
     rehypePlugins: [
       rehypeSlug,
-      [
-        rehypeAutolinkHeadings,
-        // {
-        //   behavior: "prepend",
-        //   headingProperties: {
-        //     className: ["content-header"],
-        //   },
-        //   content: icon,
-        // },
-      ],
+      [rehypeAutolinkHeadings],
       rehypeKatex,
       [rehypeCitation, { path: path.join(root, "data") }],
       [rehypePrismPlus, { defaultLanguage: "js", ignoreMissing: true }],
@@ -169,7 +171,7 @@ export default makeSource({
   onSuccess: async (importData) => {
     generateSitemap();
     const { allPosts } = await importData();
-    // createTagCount(allBlogs);
+    createTagCount(allPosts);
     createSearchIndex(allPosts);
   },
 });

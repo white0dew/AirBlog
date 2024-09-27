@@ -2,9 +2,11 @@
 title: 1-两数之和
 urlname: po4zfzpnv9b90scm
 date: '2024-09-26 12:28:43'
-updated: '2024-09-26 12:54:49'
+updated: '2024-09-27 08:14:47'
 description: 校招面试算法题必刷之两数之和。
-keywords: '简单,数组'
+tags:
+  - 简单
+  - 数组
 ---
 # 题目
 给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target  的那 两个 整数，并返回它们的数组下标。

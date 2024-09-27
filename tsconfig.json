@@ -21,6 +21,12 @@
     ],
     "paths": {
       "@/*": ["./*"],
+      "@/components/*": ["components/*"],
+      "@/layouts/*": ["layouts/*"],
+      "@/lib/*": ["lib/*"],
+      "@/app/*": ["app/*"],
+      "@/public/*": ["public/*"],
+      "@/asserts/*": ["asserts/*"],
       "contentlayer/generated": ["./.contentlayer/generated"]
     }
   },

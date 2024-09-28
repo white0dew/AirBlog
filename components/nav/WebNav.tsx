@@ -30,7 +30,7 @@ export default function Navigation({ chapters }: { chapters: ElogChapter[] }) {
       delayDuration={200}
       className="hidden md:flex text-lg  mr-10  md:mr-64"
     >
-      <NavigationMenuList className=" space-x-3">
+      <NavigationMenuList className=" space-x-3 ">
         {chapters.map((chapter: ElogChapter) =>
           chapter.children &&
           chapter.children.length > 0 &&
@@ -40,7 +40,7 @@ export default function Navigation({ chapters }: { chapters: ElogChapter[] }) {
                   <NavigationMenuTrigger
                     className={cn(
                       `${path.includes(chapter.url) ? "bg-slate-300" : ""}`,
-                      "px-2",
+                      "px-2 py-4 text-md",
                       "shadow-md"
                     )}
                   >
@@ -61,7 +61,7 @@ export default function Navigation({ chapters }: { chapters: ElogChapter[] }) {
                             <NavigationMenuLink
                               className={cn(
                                 navigationMenuTriggerStyle(),
-                                "px-2"
+                                "px-2 text-sm"
                               )}
                             >
                               {child.title}
@@ -79,7 +79,7 @@ export default function Navigation({ chapters }: { chapters: ElogChapter[] }) {
                       className={cn(
                         navigationMenuTriggerStyle(),
                         "shadow-md",
-                        `${path.includes(chapter.url) ? "bg-slate-300" : ""}`,
+                        `${path.includes(chapter.url) ? "bg-slate-300 dark:bg-slate-200 " : ""}`,
                         "px-2"
                       )}
                     >

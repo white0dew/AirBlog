@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { Button } from '@/components/ui/button';
-import { useRouter } from 'next/navigation';
-import { useEffect } from 'react';
+import { Button } from "@/components/ui/button";
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 
 export default function Error({
   error,
@@ -15,7 +15,7 @@ export default function Error({
 
   useEffect(() => {
     // Log the error to an error reporting service
-    console.error('error js', error);
+    console.error("error js", error);
   }, [error]);
 
   return (
@@ -26,7 +26,10 @@ export default function Error({
       <Button
         onClick={
           // Attempt to recover by trying to re-render the segment
-          () => reset()
+          () => {
+            reset();
+            router.refresh();
+          }
         }
       >
         1：再试一次
@@ -35,7 +38,7 @@ export default function Error({
       <Button
         onClick={() => {
           // Attempt to recover by trying to re-render the segment
-          router.push('/');
+          router.push("/");
           return;
         }}
       >

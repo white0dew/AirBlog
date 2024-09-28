@@ -62,9 +62,7 @@ export default function ArticlePostLayout({
               tags.length > 0 &&
               tags.map((tag) => {
                 return (
-                  <Badge
-                    className={badgeVariants({ variant: "destructive" }) + ""}
-                  >
+                  <Badge className="bg-red-300 px-2  hover:bg-red-500 text-sm">
                     <Link href={`/tag/${tag}`} className="text-md p-1">
                       {tag}
                     </Link>

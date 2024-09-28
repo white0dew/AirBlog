@@ -62,7 +62,7 @@ export function ArticleContent({ article }: ArticleContentProps) {
           id="container"
           className="js-toc-content prose
               line-break break-words
-              prose-blue dark:prose-invert min-h-screen w-max"
+             prose-blue dark:prose-invert min-h-screen w-max"
         >
           <MDViewer source={article.body.raw} />
         </div>

@@ -50,7 +50,7 @@ function SidebarItem({ chapter }: { chapter: ElogChapter }) {
             
             
             `,
-          `${path == chapter.url ? "bg-blue-200 dark:bg-blue-700" : ""}`,
+          `${path == chapter.url ? "bg-blue-200 dark:bg-blue-700 " : ""}`,
           `${chapter.level === 4 ? "text-base" : ""}`,
           `${chapter.level === 3 ? "text-md" : ""}`,
           `${chapter.level === 1 ? "text-xl font-semibold py-2 " : ""},`,

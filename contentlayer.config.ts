@@ -74,7 +74,8 @@ function createTagCount(allBlogs: any) {
       });
     }
   });
-  mylog("Tag count generated...");
+  console.log("Tag count generated...");
+  console.log(JSON.stringify(tagCount));
   writeFileSync("public/tag-data.json", JSON.stringify(tagCount));
 }
 
@@ -130,6 +131,7 @@ function createFriendLinks(allBlogs: Post[]) {
       }
 
       mylog("生成友情链接完成");
+      console.log(websiteInfos);
 
       writeFileSync(`public/friend-links.json`, JSON.stringify(websiteInfos));
     }

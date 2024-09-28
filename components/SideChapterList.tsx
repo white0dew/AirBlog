@@ -44,7 +44,7 @@ function SidebarItem({ chapter }: { chapter: ElogChapter }) {
             justify-between
             py-1
             px-3 cursor-pointer hover:bg-blue-100 dark:hover:bg-blue-600 w-full text-start
-            shadow-sm
+            shadow-lg
             rounded-sm
             break-all
             
@@ -53,17 +53,17 @@ function SidebarItem({ chapter }: { chapter: ElogChapter }) {
           `${path == chapter.url ? "bg-blue-200 dark:bg-blue-700 " : ""}`,
           `${chapter.level === 4 ? "text-base" : ""}`,
           `${chapter.level === 3 ? "text-md" : ""}`,
-          `${chapter.level === 1 ? "text-xl font-semibold py-2 " : ""},`,
+          `${chapter.level === 1 ? "text-lg font-semibold py-2 " : ""},`,
           `${chapter.level === 2 ? "text-lg font-semibold" : ""},`
         )}
       >
         {isNavigable ? (
-          <Link href={chapter.url} passHref>
+          <Link href={chapter.url} passHref className="text-xl">
             <text>{chapter.title}</text>
           </Link>
         ) : (
           <div onClick={() => setIsOpen(!isOpen)} className="flex-grow">
-            <text>{chapter.title}</text>
+            <text className="text-xl">{chapter.title}</text>
           </div>
         )}
         {chapter.children && chapter.children.length > 0 && (

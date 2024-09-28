@@ -28,11 +28,14 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-slate-900">
       {/* Hero Section */}
-      <section className="text-center py-20 bg-gradient-to-r  from-teal-900 to-blue-700 text-white">
+      <section
+        className="text-center py-40 bg-gradient-to-r 
+       from-teal-900 to-blue-700 text-white"
+      >
         <div className="m-2 animate-bounce flex justify-center">
           <Image src={Logo} alt="logo" width={150} height={150} />
         </div>
-        <h1 className="text-6xl font-bold mb-4 animate-bounce">OffewNow</h1>
+        <h1 className="text-6xl font-bold mb-6 animate-bounce">OffewNow</h1>
         <p className="text-xl">
           关于
           <span className="text-3xl px-1 text-blue-300">计算机、编程&&AI</span>
@@ -44,7 +47,7 @@ export default function Home() {
         <div className="text-center space-y-3 flex flex-col items-center">
           <span className="text-2xl font-semibold">
             当前网站共有{" "}
-            <span className="text-green-500">{allPosts.length}</span> 份学习资料
+            <span className="text-green-500">{allPosts.length}</span> 份资料
           </span>
           <div className="relative w-96 h-1 bg-black overflow-hidden rounded-lg flex flex-row">
             <div
@@ -53,12 +56,13 @@ export default function Home() {
             ></div>
           </div>
           <div className="flex items-center justify-center ">
-            <div className=" animate-bounce-right flex items-center self-center text-xl">
+            <div className=" animate-bounce-right flex items-center self-center text-2xl">
               👉
             </div>
             <CustomLink
-              className="w-fit font-semibold bg-teal-500 dark:bg-teal-800 rounded-md py-1 px-2 hover:bg-teal-600"
-              href={"/s/language"}
+              className="w-fit font-semibold xl:text-xl bg-green-500 dark:bg-red-800 rounded-md py-1 px-4
+               hover:bg-green-600"
+              href={"#tag"}
             >
               {" "}
               赶紧学起来！
@@ -71,7 +75,9 @@ export default function Home() {
 
       {/* Products Grid Section */}
       <ProductList />
-      <TagsWall />
+      <div id="tag">
+        <TagsWall />
+      </div>
       <ArticlesShow />
     </div>
   );

@@ -107,9 +107,10 @@ export default function ListLayoutWithTags({
       <div className="pb-6 pt-2">
         <h1
           className=" text-2xl font-extrabold leading-9 
-        tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-4xl md:leading-14 uppercase"
+        tracking-tight text-gray-900 dark:text-gray-100 
+        sm:text-3xl sm:leading-10 md:text-4xl md:leading-14 uppercase"
         >
-          筛选标签:{title}
+          筛选标签:<p className="inline  text-primary-900">「{title}」</p>
         </h1>
       </div>
 
@@ -119,7 +120,7 @@ export default function ListLayoutWithTags({
          bg-gray-50 dark:bg-gray-900/70 shadow-md pt-5 dark:shadow-gray-800/40 rounded min-w-[280px] max-w-[280px] overflow-auto"
         >
           <div className="py-4 px-6">
-            <h3 className="text-primary-500 font-bold uppercase text-2xl">
+            <h3 className="text-blue-900 font-bold uppercase text-2xl">
               全部文章
             </h3>
             <ul>

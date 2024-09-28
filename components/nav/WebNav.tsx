@@ -16,6 +16,7 @@ import {
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { useParams, usePathname } from "next/navigation";
+import { Badge } from "../ui/badge";
 
 // 假设这是从哪里获取的章节数据
 const chapters: ElogChapter[] = [
@@ -31,6 +32,7 @@ export default function Navigation({ chapters }: { chapters: ElogChapter[] }) {
       className="hidden md:flex text-lg  mr-10  md:mr-64"
     >
       <NavigationMenuList className=" space-x-3 ">
+        {/* 有子目录的情况 */}
         {chapters.map((chapter: ElogChapter) =>
           chapter.children &&
           chapter.children.length > 0 &&
@@ -40,14 +42,15 @@ export default function Navigation({ chapters }: { chapters: ElogChapter[] }) {
                   <NavigationMenuTrigger
                     className={cn(
                       `${path.includes(chapter.url) ? "bg-slate-300" : ""}`,
-                      "px-2 py-4 text-md",
-                      "shadow-lg"
+                      "px-2 py-5 text-md",
+                      "shadow-lg",
+                      " border-2"
                     )}
                   >
                     {chapter.title}
                   </NavigationMenuTrigger>
 
-                  <NavigationMenuContent className=" border-1  px-2">
+                  <NavigationMenuContent className="  px-2 flex flex-wrap justify-center opacity-100">
                     {chapter.children.map(
                       (child) =>
                         child?.is_nav && (
@@ -56,12 +59,12 @@ export default function Navigation({ chapters }: { chapters: ElogChapter[] }) {
                             href={child.url}
                             legacyBehavior
                             passHref
-                            className="w-full"
+                            className="w-full "
                           >
                             <NavigationMenuLink
                               className={cn(
                                 navigationMenuTriggerStyle(),
-                                "px-2 text-sm"
+                                "h-full text-sm w-full font-semibold border-solid border-b-2 border-sky-500"
                               )}
                             >
                               {child.title}
@@ -80,7 +83,7 @@ export default function Navigation({ chapters }: { chapters: ElogChapter[] }) {
                         navigationMenuTriggerStyle(),
                         "shadow-md text-md",
                         `${path.includes(chapter.url) ? "bg-slate-300 dark:bg-slate-200 " : ""}`,
-                        "px-2"
+                        "px-2 border-2"
                       )}
                     >
                       {chapter.title}

@@ -41,7 +41,7 @@ export default function Navigation({ chapters }: { chapters: ElogChapter[] }) {
                     className={cn(
                       `${path.includes(chapter.url) ? "bg-slate-300" : ""}`,
                       "px-2 py-4 text-md",
-                      "shadow-md"
+                      "shadow-lg"
                     )}
                   >
                     {chapter.title}
@@ -78,7 +78,7 @@ export default function Navigation({ chapters }: { chapters: ElogChapter[] }) {
                     <NavigationMenuLink
                       className={cn(
                         navigationMenuTriggerStyle(),
-                        "shadow-md",
+                        "shadow-md text-md",
                         `${path.includes(chapter.url) ? "bg-slate-300 dark:bg-slate-200 " : ""}`,
                         "px-2"
                       )}

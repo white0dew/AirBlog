@@ -66,7 +66,7 @@ export default function ProductList() {
           >
             {/* Icon */}
             <Link className="p-6 cursor-pointer" href={product.path}>
-              <h3 className="pl-3 text-2xl font-semibold mb-2 dark:text-yellow-200">
+              <h3 className="pl-3 text-2xl text-center font-semibold mb-2 dark:text-yellow-200">
                 {product.name}
               </h3>
               <p className="p-3 text-gray-700 dark:text-yellow-100 ">

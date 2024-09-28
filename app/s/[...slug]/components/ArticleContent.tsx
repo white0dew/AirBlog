@@ -8,6 +8,7 @@ import { usePathname } from "next/navigation";
 import { ArticleSlideLinks } from "./ArticleSlide";
 import Script from "next/script";
 import { NotWechatScanPathList } from "@/constants/path";
+const isProduction = process.env.NODE_ENV === "production";
 interface ArticleContentProps {
   article: Post;
 }
@@ -36,7 +37,7 @@ export function ArticleContent({ article }: ArticleContentProps) {
       ref={itemRef} // 新增：设置ref
     >
       {/* 部分页面不加载 */}
-      {!NotWechatScanPathList.includes(path) && (
+      {!NotWechatScanPathList.includes(path) && isProduction && (
         <Script strategy="lazyOnload">
           {`
         if (typeof window.btw === 'undefined') {

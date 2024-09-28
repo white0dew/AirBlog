@@ -8,7 +8,7 @@ import type { Post } from "contentlayer/generated";
 import Link from "@/components/Link";
 import Tag from "@/components/Tag";
 import siteMetadata from "@/assets/siteMetadata";
-import { truncateSummary } from "@/lib/utils";
+import { RemoveYamlFrontMatterForDesc, truncateSummary } from "@/lib/utils";
 import { FaRegCommentDots, FaStreetView } from "react-icons/fa6";
 import React from "react";
 import tagData from "@/public/tag-data.json";
@@ -179,9 +179,11 @@ export default function ListLayoutWithTags({
                         </div>
                       </div>
                       <div className="prose max-w-none text-gray-500 dark:text-gray-400 line-clamp-3">
-                        {truncateSummary(description)}
+                        {RemoveYamlFrontMatterForDesc(
+                          truncateSummary(description)
+                        )}
                       </div>
-                      <div className="flex text-sm flex-row items-center">
+                      {/* <div className="flex text-sm flex-row items-center">
                         <FaStreetView className="mr-1.5 ml-3.5" />
                         <text>
                           阅读:
@@ -203,7 +205,7 @@ export default function ListLayoutWithTags({
                             ..
                           </span>
                         </text>
-                      </div>
+                      </div> */}
                     </div>
                   </article>
                 </li>

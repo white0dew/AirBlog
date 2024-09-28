@@ -47,13 +47,14 @@ function SidebarItem({ chapter }: { chapter: ElogChapter }) {
             shadow-sm
             rounded-sm
             break-all
-            truncate
+            
+            
             `,
           `${path == chapter.url ? "bg-blue-200 dark:bg-blue-700" : ""}`,
           `${chapter.level === 4 ? "text-base" : ""}`,
-          `${chapter.level === 3 ? "text-sm" : ""}`,
-          `${chapter.level === 1 ? "text-lg font-semibold" : ""},`,
-          `${chapter.level === 2 ? "text-md font-semibold" : ""},`
+          `${chapter.level === 3 ? "text-md" : ""}`,
+          `${chapter.level === 1 ? "text-xl font-semibold py-2 " : ""},`,
+          `${chapter.level === 2 ? "text-lg font-semibold" : ""},`
         )}
       >
         {isNavigable ? (

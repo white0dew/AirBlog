@@ -4,6 +4,7 @@ import ProductList from "@/components/home/ProductShow";
 import Image from "next/image";
 import Logo from "@/public/images/home.png";
 import ArticlesShow from "@/components/home/ArticleShow";
+import { TagsWall } from "@/components/home/TagsWall";
 
 // 示例产品数据
 // 产品数据
@@ -70,6 +71,7 @@ export default function Home() {
 
       {/* Products Grid Section */}
       <ProductList />
+      <TagsWall />
       <ArticlesShow />
     </div>
   );

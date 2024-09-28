@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Company Info & Links */}
           <div className="hidden md:flex md:flex-col flex-1 mb-6 sm:mb-0">
             <h5 className="text-lg font-bold  mb-2">关于我们</h5>
-            <p>分享知识的平台</p>
+            <p>程序员的自我修养</p>
             <p>让每个人了解编程、AI</p>
           </div>
 

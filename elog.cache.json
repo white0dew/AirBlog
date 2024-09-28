@@ -624,14 +624,14 @@
     {
       "id": 171259325,
       "doc_id": "uz8g4zstl7skaubu",
-      "updated": 1719923447000,
+      "updated": 1727496252000,
       "properties": {
         "title": "十万个为什么💡",
         "urlname": "uz8g4zstl7skaubu",
         "date": "2024-05-27 14:09:41",
-        "updated": "2024-07-02 20:30:47",
-        "description": "---is_nav: falsenav_path: screct_qas---你是否曾经对身边的事物充满好奇？为什么天是蓝的？为什么编程中有这么多奇怪的缩写？为什么有些人能轻松学会新技能，而有些人却总是事倍功半？欢迎来到\"十万个为什么\"的奇妙世界！这里是你的知识探险乐园，我们将一同揭开日常生活...",
-        "is_nav": false,
+        "updated": "2024-09-28 12:04:12",
+        "description": "---is_nav: truenav_path: screct_qas---你是否曾经对身边的事物充满好奇？为什么天是蓝的？为什么编程中有这么多奇怪的缩写？为什么有些人能轻松学会新技能，而有些人却总是事倍功半？欢迎来到\"十万个为什么\"的奇妙世界！这里是你的知识探险乐园，我们将一同揭开日常生活和...",
+        "is_nav": true,
         "nav_path": "screct_qas"
       },
       "catalog": [
@@ -2624,12 +2624,12 @@
     {
       "id": 170598462,
       "doc_id": "qfaugcu7d1ucqdq5",
-      "updated": 1727489771000,
+      "updated": 1727496059000,
       "properties": {
         "title": "更新日志",
         "urlname": "qfaugcu7d1ucqdq5",
         "date": "2024-05-22 08:47:22",
-        "updated": "2024-09-28 10:16:11",
+        "updated": "2024-09-28 12:00:59",
         "description": "---nav_path: changelog2024-09新增评论邮件发送功能优化评论邮件通知功能中模板样式新增页面下一页以及上一页优化黑白模式-公告优化页面-切换页面链接的时候，视图不对优化首页排版-高度不一致新增栏目-每日算法题新增-标签系统修改仓库名称为AirBlog首页修改-新增标签墙...",
         "nav_path": "changelog"
       },
@@ -3670,14 +3670,15 @@
     {
       "id": 170598544,
       "doc_id": "wqxa4oybgctzpy2u",
-      "updated": 1718961740000,
+      "updated": 1727497572000,
       "properties": {
         "title": "操作系统",
         "urlname": "wqxa4oybgctzpy2u",
         "date": "2024-05-22 08:48:36",
-        "updated": "2024-06-21 17:22:20",
+        "updated": "2024-09-28 12:26:12",
         "description": "了解操作系统的基本概念和功能，探索系统软件的架构和应用，掌握IT基础知识。",
         "nav_path": "os",
+        "is_nav": true,
         "keywords": "操作系统, OS, 系统软件, IT基础"
       },
       "catalog": [
@@ -3746,14 +3747,15 @@
     {
       "id": 170598652,
       "doc_id": "oawe7ufgang93sac",
-      "updated": 1718961081000,
+      "updated": 1727497700000,
       "properties": {
         "title": "MySQL",
         "urlname": "oawe7ufgang93sac",
         "date": "2024-05-22 08:50:06",
-        "updated": "2024-06-21 17:11:21",
+        "updated": "2024-09-28 12:28:20",
         "description": "MySQL数据库管理系统，支持SQL语言，提供高效的数据存储和数据库优化解决方案。了解更多关于MySQL的详细信息。",
         "nav_path": "mysql",
+        "is_nav": true,
         "keywords": "MySQL, 数据库管理, SQL语言, 数据存储, 数据库优化"
       },
       "catalog": [
@@ -3769,13 +3771,14 @@
     {
       "id": 172725844,
       "doc_id": "sohzx6ofbqpb4kz2",
-      "updated": 1718961712000,
+      "updated": 1727498121000,
       "properties": {
         "title": "Docker",
         "urlname": "sohzx6ofbqpb4kz2",
         "date": "2024-06-06 21:19:40",
-        "updated": "2024-06-21 17:21:52",
+        "updated": "2024-09-28 12:35:21",
         "description": "探索Docker的世界，从容器技术到自动化部署，了解最新的Docker发展动态和应用方案。",
+        "is_nav": true,
         "nav_path": "Docker",
         "keywords": "Docker, 容器技术, 软件部署, 自动化部署"
       },
@@ -3813,14 +3816,15 @@
     {
       "id": 169963644,
       "doc_id": "kbo5ucr66rpm0n73",
-      "updated": 1718960980000,
+      "updated": 1727497352000,
       "properties": {
         "title": "计算机网络",
         "urlname": "kbo5ucr66rpm0n73",
         "date": "2024-05-16 22:30:55",
-        "updated": "2024-06-21 17:09:40",
+        "updated": "2024-09-28 12:22:32",
         "description": "本文探讨了计算机网络的相关技术和应用，包括信息传输、网络安全和网络架构等内容。",
         "nav_path": "network",
+        "is_nav": true,
         "keywords": "计算机网络, 网络技术, 信息传输, 网络安全, 网络架构, 数据通信"
       },
       "catalog": [
@@ -4359,14 +4363,15 @@
     {
       "id": 174450340,
       "doc_id": "lg82iagvpxi4fpn0",
-      "updated": 1718958602000,
+      "updated": 1727496333000,
       "properties": {
         "title": "Rust",
         "urlname": "lg82iagvpxi4fpn0",
         "date": "2024-06-20 10:00:25",
-        "updated": "2024-06-21 16:30:02",
+        "updated": "2024-09-28 12:05:33",
         "description": "本课程介绍了Rust的基本概念及其应用领域，解释了为什么选择Rust。",
         "nav_path": "rust",
+        "is_nav": true,
         "keywords": "Rust入门, Rust基础, Rust编程, Rust开发环境, Rust"
       },
       "catalog": [
@@ -5351,14 +5356,14 @@
     {
       "id": 171769376,
       "doc_id": "ogfvsltzo95v0k88",
-      "updated": 1718593380000,
+      "updated": 1727496836000,
       "properties": {
         "title": "个人建站 🤖",
         "urlname": "ogfvsltzo95v0k88",
         "date": "2024-05-30 23:28:31",
-        "updated": "2024-06-17 11:03:00",
-        "description": "---is_nav: falsenav_path: own_web---分享我在个人建站、网站开发方面遇到的一些问题、解决方法以及经验~",
-        "is_nav": false,
+        "updated": "2024-09-28 12:13:56",
+        "description": "---is_nav: truenav_path: own_web---分享我在个人建站、网站开发方面遇到的一些问题、解决方法以及经验~在互联网的广袤世界里，拥有一个属于自己的网站就如同拥有一片独特的天地。“个人建站”栏目应运而生，旨在为你分享在个人建站和网站开发旅程中的点点滴滴，包括那些遇到的...",
+        "is_nav": true,
         "nav_path": "own_web"
       },
       "catalog": [
@@ -5404,14 +5409,14 @@
     {
       "id": 173652661,
       "doc_id": "zvhtpcf14k5ubrg3",
-      "updated": 1718335132000,
+      "updated": 1727496702000,
       "properties": {
         "title": "最强前端🏷️",
         "urlname": "zvhtpcf14k5ubrg3",
         "date": "2024-06-14 11:17:29",
-        "updated": "2024-06-14 11:18:52",
-        "description": "---is_nav: falsenav_path: fe---",
-        "is_nav": false,
+        "updated": "2024-09-28 12:11:42",
+        "description": "---is_nav: truenav_path: fe---“最强前端🏷️”博客专栏是前端技术的知识汇聚地。在内容上，涵盖前端核心技术的深度剖析。HTML、CSS 和 JavaScript 的精髓被详细解读，从基础语法到高级特性，让你全面掌握。前端框架如 Vue.js、React 等也有深入...",
+        "is_nav": true,
         "nav_path": "fe"
       },
       "catalog": [
@@ -5452,14 +5457,14 @@
     {
       "id": 171259873,
       "doc_id": "nhp7016fcte2xc9l",
-      "updated": 1718335103000,
+      "updated": 1727496734000,
       "properties": {
         "title": "最强后端🐚",
         "urlname": "nhp7016fcte2xc9l",
         "date": "2024-05-27 14:12:07",
-        "updated": "2024-06-14 11:18:23",
-        "description": "---is_nav: falsenav_path: server---",
-        "is_nav": false,
+        "updated": "2024-09-28 12:12:14",
+        "description": "---is_nav: truenav_path: server---“最强后端🏷️”博客专栏是后端开发领域的专业指南和知识宝库。一、丰富全面的内容主流语言与框架深入解析后端开发中的主流语言，如 Java、Python、Node.js 等。从语言基础语法到高级特性，一一为你讲解，让你掌握语言的...",
+        "is_nav": true,
         "nav_path": "server"
       },
       "catalog": [
@@ -7921,14 +7926,15 @@
     {
       "id": 172784644,
       "doc_id": "offv8b28x2gp79gv",
-      "updated": 1717728162000,
+      "updated": 1727496315000,
       "properties": {
         "title": "JavaScript",
         "urlname": "offv8b28x2gp79gv",
         "date": "2024-06-07 10:32:16",
-        "updated": "2024-06-07 10:42:42",
-        "description": "---nav_path: js---第一部分：JavaScript 入门第一章：初识 JavaScript JavaScript 简介 JavaScript 的历史与发展JavaScript 的应用领域为什么选择 JavaScript 安装与设置 浏览器自带的 JavaScript 环境安装 ...",
-        "nav_path": "js"
+        "updated": "2024-09-28 12:05:15",
+        "description": "---nav_path: jsis_nav: true---第一部分：JavaScript 入门第一章：初识 JavaScript JavaScript 简介 JavaScript 的历史与发展JavaScript 的应用领域为什么选择 JavaScript 安装与设置 浏览器自带的 Java...",
+        "nav_path": "js",
+        "is_nav": true
       },
       "catalog": [
         {
@@ -8345,14 +8351,15 @@
     {
       "id": 172725092,
       "doc_id": "zhq6gocbicvee96s",
-      "updated": 1717679917000,
+      "updated": 1727496302000,
       "properties": {
         "title": "Python",
         "urlname": "zhq6gocbicvee96s",
         "date": "2024-06-06 21:08:48",
-        "updated": "2024-06-06 21:18:37",
-        "description": "---nav_path: python---第一部分：Python 入门第一章：初识 Python Python 简介 Python 的历史与发展Python 的应用领域为什么选择 Python 安装与设置 安装 Python（Windows、macOS、Linux）配置环境变量安装 IDE（...",
-        "nav_path": "python"
+        "updated": "2024-09-28 12:05:02",
+        "description": "---nav_path: pythonis_nav: true---第一部分：Python 入门第一章：初识 Python Python 简介 Python 的历史与发展Python 的应用领域为什么选择 Python 安装与设置 安装 Python（Windows、macOS、Linux）配...",
+        "nav_path": "python",
+        "is_nav": true
       },
       "catalog": [
         {
@@ -8692,14 +8699,15 @@
     {
       "id": 172376114,
       "doc_id": "zxr575sqdpq3e4by",
-      "updated": 1721218903000,
+      "updated": 1727496323000,
       "properties": {
         "title": "CSS",
         "urlname": "zxr575sqdpq3e4by",
         "date": "2024-06-04 15:54:07",
-        "updated": "2024-07-17 20:21:43",
-        "description": "---nav_path: css---第一部分：CSS 入门第一章：初识 CSS CSS 简介 CSS 的历史与发展CSS 的应用领域为什么选择 CSS CSS 基础 CSS 的基本概念CSS 的层叠与继承CSS 的语法与结构 CSS 的引入方式 内联样式内部样式表外部样式表第二章：选择器与规...",
-        "nav_path": "css"
+        "updated": "2024-09-28 12:05:23",
+        "description": "---nav_path: cssis_nav: true---第一部分：CSS 入门第一章：初识 CSS CSS 简介 CSS 的历史与发展CSS 的应用领域为什么选择 CSS CSS 基础 CSS 的基本概念CSS 的层叠与继承CSS 的语法与结构 CSS 的引入方式 内联样式内部样式表外部...",
+        "nav_path": "css",
+        "is_nav": true
       },
       "catalog": [
         {
@@ -8714,14 +8722,15 @@
     {
       "id": 172376096,
       "doc_id": "aik2girglv1pxdnz",
-      "updated": 1717679279000,
+      "updated": 1727496308000,
       "properties": {
         "title": "HTML",
         "urlname": "aik2girglv1pxdnz",
         "date": "2024-06-04 15:54:02",
-        "updated": "2024-06-06 21:07:59",
-        "description": "---nav_path: html---HTML 是前端开发的基础，掌握 HTML 对于学习 Web 开发至关重要。第一部分：HTML 入门 什么是 HTML？ HTML 的历史与发展HTML 在 Web 开发中的作用 HTML 基础语法 HTML 文档的基本结构常用的 HTML 标签标签的属...",
-        "nav_path": "html"
+        "updated": "2024-09-28 12:05:08",
+        "description": "---nav_path: htmlis_nav: true---HTML 是前端开发的基础，掌握 HTML 对于学习 Web 开发至关重要。第一部分：HTML 入门 什么是 HTML？ HTML 的历史与发展HTML 在 Web 开发中的作用 HTML 基础语法 HTML 文档的基本结构常用的...",
+        "nav_path": "html",
+        "is_nav": true
       },
       "catalog": [
         {
@@ -10888,12 +10897,12 @@
     {
       "id": 171259351,
       "doc_id": "io5kukplplfeb9ls",
-      "updated": 1716992279000,
+      "updated": 1727496869000,
       "properties": {
         "title": "环境安装😭",
         "urlname": "io5kukplplfeb9ls",
         "date": "2024-05-27 14:09:49",
-        "updated": "2024-05-29 22:17:59",
+        "updated": "2024-09-28 12:14:29",
         "description": "---is_nav: falsenav_path: install_env---",
         "is_nav": false,
         "nav_path": "install_env"
@@ -11159,14 +11168,15 @@
     {
       "id": 170922071,
       "doc_id": "ieg2wz53uo7g4oik",
-      "updated": 1721218912000,
+      "updated": 1727496287000,
       "properties": {
         "title": "C++",
         "urlname": "ieg2wz53uo7g4oik",
         "date": "2024-05-24 12:33:28",
-        "updated": "2024-07-17 20:21:52",
-        "description": "---nav_path: cppdocs__doc__💻 编程语言__Cdocs__doc__💻 编程语言__Cdocs__doc__💻 编程语言__Cdocs__doc__💻 编程语言__Cdocs__doc__💻 编程语言__Cdocs__doc__💻 编程语言__Cdocs_...",
-        "nav_path": "cpp"
+        "updated": "2024-09-28 12:04:47",
+        "description": "---nav_path: cppis_nav: true",
+        "nav_path": "cpp",
+        "is_nav": true
       },
       "catalog": [
         {
@@ -11405,15 +11415,16 @@
     {
       "id": 170598553,
       "doc_id": "qnf5c4s774uxb7s4",
-      "updated": 1720760803000,
+      "updated": 1727496299000,
       "properties": {
         "title": "Java",
         "urlname": "qnf5c4s774uxb7s4",
         "date": "2024-05-22 08:48:41",
-        "updated": "2024-07-12 13:06:43",
+        "updated": "2024-09-28 12:04:59",
         "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/3dfd7076e3fd2cae25db4b4ea5aa127b.svg",
-        "description": "---nav_path: java2024年Java开发者学习路线图1. 基础知识1.1 Java语法变量、数据类型、运算符控制流程（if-else, switch, loops）方法和参数传递数组和字符串操作1.2 面向对象编程(OOP)概念类和对象继承、封装、多态抽象类和接口包和访问修饰符...",
-        "nav_path": "java"
+        "description": "---nav_path: javais_nav: true2024年Java开发者学习路线图1. 基础知识1.1 Java语法变量、数据类型、运算符控制流程（if-else, switch, loops）方法和参数传递数组和字符串操作1.2 面向对象编程(OOP)概念类和对象继承、封装、多态抽...",
+        "nav_path": "java",
+        "is_nav": true
       },
       "catalog": [
         {
@@ -11422,8 +11433,8 @@
         }
       ],
       "realName": "qnf5c4s774uxb7s4",
-      "relativePath": "/💻 编程语言/qnf5c4s774uxb7s4.md",
-      "docPath": "docs/doc/💻 编程语言"
+      "relativePath": "\\💻 编程语言\\qnf5c4s774uxb7s4.md",
+      "docPath": "docs\\doc\\💻 编程语言"
     },
     {
       "id": 170897521,
@@ -11573,14 +11584,16 @@
     {
       "id": 170676389,
       "doc_id": "gzdu2g90x1k7goos",
-      "updated": 1727185465000,
+      "updated": 1727496921000,
       "properties": {
         "title": "Go",
         "urlname": "gzdu2g90x1k7goos",
         "date": "2024-05-22 17:04:00",
-        "updated": "2024-09-24 21:44:25",
+        "updated": "2024-09-28 12:15:21",
         "cover": "https://cdn.nlark.com/yuque/__mermaid_v3/23323cea8b284be9547a58448ae06501.svg",
-        "description": "---nav_path: golangis_nav:trueGo 开发者路线图 20241. 基础知识1.1 语法基础变量、常量、数据类型控制结构（if、for、switch）函数和方法包管理错误处理1.2 数据结构数组和切片映射（Map）结构体接口1.3 并发基础GoroutinesChan..."
+        "description": "---nav_path: golangis_nav: true---Go 开发者路线图 20241. 基础知识1.1 语法基础变量、常量、数据类型控制结构（if、for、switch）函数和方法包管理错误处理1.2 数据结构数组和切片映射（Map）结构体接口1.3 并发基础Goroutines...",
+        "nav_path": "golang",
+        "is_nav": true
       },
       "catalog": [
         {
@@ -11589,8 +11602,8 @@
         }
       ],
       "realName": "gzdu2g90x1k7goos",
-      "relativePath": "/💻 编程语言/gzdu2g90x1k7goos.md",
-      "docPath": "docs/doc/💻 编程语言"
+      "relativePath": "\\💻 编程语言\\gzdu2g90x1k7goos.md",
+      "docPath": "docs\\doc\\💻 编程语言"
     },
     {
       "id": 170897039,
@@ -12226,12 +12239,12 @@
     {
       "id": 178829565,
       "doc_id": "kgo2qgo7afzgxnng",
-      "updated": 1722380996000,
+      "updated": 1727496178000,
       "properties": {
-        "title": "生财有术的七条原则",
+        "title": "生财有术的七条原则|副业原则",
         "urlname": "kgo2qgo7afzgxnng",
         "date": "2024-07-21 15:22:40",
-        "updated": "2024-07-31 07:09:56",
+        "updated": "2024-09-28 12:02:58",
         "description": "这篇文章是亦仁对自己创办的\"生财有术\"社群七年历程的总结和反思。以下是我的读书笔记，主要围绕亦仁提出的七条重要原则展开：保持头脑极度开放亦仁强调，赚钱机会往往来自于我们第一眼看不上的信息差。保持开放的心态可以让各种信息和机会流入。他建议多尝试一些看似没有前途的小项目，因为大项目往往是小项目叠加..."
       },
       "catalog": [
@@ -12240,13 +12253,13 @@
           "doc_id": "kgo2qgo7afzgxnng"
         },
         {
-          "title": "个人成长",
+          "title": "个人成长🔝",
           "doc_id": "kgo2qgo7afzgxnng"
         }
       ],
       "realName": "kgo2qgo7afzgxnng",
-      "relativePath": "/🔥 程序员自我修养/个人成长/kgo2qgo7afzgxnng.md",
-      "docPath": "docs/doc/🔥 程序员自我修养/个人成长"
+      "relativePath": "\\🔥 程序员自我修养\\个人成长🔝\\kgo2qgo7afzgxnng.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\个人成长🔝"
     },
     {
       "id": 178829466,
@@ -12601,12 +12614,12 @@
     {
       "id": 183506392,
       "doc_id": "wcur7204xegeks3o",
-      "updated": 1724828289000,
+      "updated": 1727496219000,
       "properties": {
-        "title": "《学会提问》",
+        "title": "《学会提问》读书笔记",
         "urlname": "wcur7204xegeks3o",
         "date": "2024-08-23 12:15:55",
-        "updated": "2024-08-28 14:58:09",
+        "updated": "2024-09-28 12:03:39",
         "cover": "https://cdn.nlark.com/yuque/0/2024/jpeg/22382235/1724386717240-2896e294-700a-4a60-ab2b-60224d10113e.jpeg"
       },
       "catalog": [
@@ -12615,13 +12628,13 @@
           "doc_id": "wcur7204xegeks3o"
         },
         {
-          "title": "个人成长",
+          "title": "个人成长🔝",
           "doc_id": "wcur7204xegeks3o"
         }
       ],
       "realName": "wcur7204xegeks3o",
-      "relativePath": "/🔥 程序员自我修养/个人成长/wcur7204xegeks3o.md",
-      "docPath": "docs/doc/🔥 程序员自我修养/个人成长"
+      "relativePath": "\\🔥 程序员自我修养\\个人成长🔝\\wcur7204xegeks3o.md",
+      "docPath": "docs\\doc\\🔥 程序员自我修养\\个人成长🔝"
     },
     {
       "id": 184185497,
@@ -13085,16 +13098,15 @@
     {
       "id": 187842890,
       "doc_id": "lprgqgib9yvhskqy",
-      "updated": 1727326258000,
+      "updated": 1727495819000,
       "properties": {
         "title": "每日一题 ⬆️",
         "urlname": "lprgqgib9yvhskqy",
         "date": "2024-09-24 15:39:39",
-        "updated": "2024-09-26 12:50:58",
-        "description": "---is_nav: truenav_path: algo-dailyskip_nav: false---Hello World!欢迎来到《算法之道：每日一题，提升思维》专栏！在这里，我们每天将为您讲解一道来自力扣、牛客或网上的精选算法题。无论您是算法初学者还是经验丰富的开发者，这个专栏都将为...",
+        "updated": "2024-09-28 11:56:59",
+        "description": "---is_nav: truenav_path: algo-daily---Hello World!欢迎来到《算法之道：每日一题，提升思维》专栏！在这里，我们每天将为您讲解一道来自力扣、牛客或网上的精选算法题。无论您是算法初学者还是经验丰富的开发者，这个专栏都将为您提供宝贵的学习机会。通过每天...",
         "is_nav": true,
-        "nav_path": "algo-daily",
-        "skip_nav": false
+        "nav_path": "algo-daily"
       },
       "catalog": [
         {
@@ -13103,8 +13115,8 @@
         }
       ],
       "realName": "lprgqgib9yvhskqy",
-      "relativePath": "/⬇️ 区区算法/lprgqgib9yvhskqy.md",
-      "docPath": "docs/doc/⬇️ 区区算法"
+      "relativePath": "\\⬇️ 区区算法\\lprgqgib9yvhskqy.md",
+      "docPath": "docs\\doc\\⬇️ 区区算法"
     },
     {
       "id": 188053359,
@@ -13352,6 +13364,30 @@
       "realName": "srmc2fvlpohay0an",
       "relativePath": "\\⬇️ 区区算法\\每日一题 ⬆️\\srmc2fvlpohay0an.md",
       "docPath": "docs\\doc\\⬇️ 区区算法\\每日一题 ⬆️"
+    },
+    {
+      "id": 170921032,
+      "doc_id": "zk26wlg3ozzqospe",
+      "updated": 1727497782000,
+      "properties": {
+        "title": "Redis",
+        "urlname": "zk26wlg3ozzqospe",
+        "date": "2024-05-24 12:12:12",
+        "updated": "2024-09-28 12:29:42",
+        "description": "---is_nav: truenav_path: rediskeywords: redis教程,redis源码,redis面试问题---Redis 栏目介绍“Redis”栏目致力于为你提供全面的学习资源与深入的交流平台。一、学习知识基础数据结构：深入了解 Redis 的多种数据结构，如字符串（...",
+        "is_nav": true,
+        "nav_path": "redis",
+        "keywords": "redis教程,redis源码,redis面试问题"
+      },
+      "catalog": [
+        {
+          "title": "📚 计算机基础",
+          "doc_id": "zk26wlg3ozzqospe"
+        }
+      ],
+      "realName": "zk26wlg3ozzqospe",
+      "relativePath": "\\📚 计算机基础\\zk26wlg3ozzqospe.md",
+      "docPath": "docs\\doc\\📚 计算机基础"
     }
   ],
   "catalog": [
@@ -13362,7 +13398,7 @@
       "url": "zz7wzx74m9sgu0bb",
       "prev_uuid": "",
       "sibling_uuid": "g79LhyuCIcy2z2cx",
-      "child_uuid": "ZQkvDtiMigyZEcwf",
+      "child_uuid": "Oi5FMtop6oZm1oNe",
       "parent_uuid": "",
       "doc_id": 171241326,
       "level": 0,
@@ -13372,175 +13408,10 @@
     },
     {
       "type": "DOC",
-      "title": "个人成长🔝",
-      "uuid": "ZQkvDtiMigyZEcwf",
-      "url": "ff52fo66g2cpghn4",
-      "prev_uuid": "_AUtENOpDG0ZxF_E",
-      "sibling_uuid": "kicN7hkPayXrH8jr",
-      "child_uuid": "QCLGD079vNnOtNMw",
-      "parent_uuid": "_AUtENOpDG0ZxF_E",
-      "doc_id": 178829466,
-      "level": 1,
-      "id": 178829466,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "《增长思维》",
-      "uuid": "QCLGD079vNnOtNMw",
-      "url": "kkvg71dvpggpe5p7",
-      "prev_uuid": "ZQkvDtiMigyZEcwf",
-      "sibling_uuid": "hR__VaWckNIegMLy",
-      "child_uuid": "",
-      "parent_uuid": "ZQkvDtiMigyZEcwf",
-      "doc_id": 183970771,
-      "level": 2,
-      "id": 183970771,
-      "open_window": 1,
-      "visible": 0
-    },
-    {
-      "type": "DOC",
-      "title": "《学会提问》",
-      "uuid": "hR__VaWckNIegMLy",
-      "url": "wcur7204xegeks3o",
-      "prev_uuid": "QCLGD079vNnOtNMw",
-      "sibling_uuid": "la67knEMszy2q6rT",
-      "child_uuid": "",
-      "parent_uuid": "ZQkvDtiMigyZEcwf",
-      "doc_id": 183506392,
-      "level": 2,
-      "id": 183506392,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "生财有术的七条原则",
-      "uuid": "la67knEMszy2q6rT",
-      "url": "kgo2qgo7afzgxnng",
-      "prev_uuid": "hR__VaWckNIegMLy",
-      "sibling_uuid": "",
-      "child_uuid": "",
-      "parent_uuid": "ZQkvDtiMigyZEcwf",
-      "doc_id": 178829565,
-      "level": 2,
-      "id": 178829565,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "人工智能🤖️",
-      "uuid": "kicN7hkPayXrH8jr",
-      "url": "ck3uzv22499u4byl",
-      "prev_uuid": "ZQkvDtiMigyZEcwf",
-      "sibling_uuid": "Oi5FMtop6oZm1oNe",
-      "child_uuid": "cZgzGnuivSrN0-HX",
-      "parent_uuid": "_AUtENOpDG0ZxF_E",
-      "doc_id": 175495556,
-      "level": 1,
-      "id": 175495556,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "深度学习激活函数有哪些？",
-      "uuid": "cZgzGnuivSrN0-HX",
-      "url": "nt61gsah6eyoi8ip",
-      "prev_uuid": "kicN7hkPayXrH8jr",
-      "sibling_uuid": "V2owSNRTTConO8CW",
-      "child_uuid": "",
-      "parent_uuid": "kicN7hkPayXrH8jr",
-      "doc_id": 176298082,
-      "level": 2,
-      "id": 176298082,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "决策树是什么？",
-      "uuid": "V2owSNRTTConO8CW",
-      "url": "ioa4al8z2lh9hf9o",
-      "prev_uuid": "cZgzGnuivSrN0-HX",
-      "sibling_uuid": "B284hKFGd7jOE3pC",
-      "child_uuid": "",
-      "parent_uuid": "kicN7hkPayXrH8jr",
-      "doc_id": 176297975,
-      "level": 2,
-      "id": 176297975,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "逻辑回归与线性回归什么关系？",
-      "uuid": "B284hKFGd7jOE3pC",
-      "url": "rdlggr5pu4ra8ny0",
-      "prev_uuid": "V2owSNRTTConO8CW",
-      "sibling_uuid": "1OxYt9ch42u1DJle",
-      "child_uuid": "",
-      "parent_uuid": "kicN7hkPayXrH8jr",
-      "doc_id": 176297941,
-      "level": 2,
-      "id": 176297941,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "KNN分类算法",
-      "uuid": "1OxYt9ch42u1DJle",
-      "url": "bznerz89sdg5qwfe",
-      "prev_uuid": "B284hKFGd7jOE3pC",
-      "sibling_uuid": "F1zPIwUXpSbH9GRV",
-      "child_uuid": "",
-      "parent_uuid": "kicN7hkPayXrH8jr",
-      "doc_id": 176297890,
-      "level": 2,
-      "id": 176297890,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "AI跨界学习，不再是梦",
-      "uuid": "F1zPIwUXpSbH9GRV",
-      "url": "ucvbe5w9nqtiolmd",
-      "prev_uuid": "1OxYt9ch42u1DJle",
-      "sibling_uuid": "s4uOfrfZy1P0LTdP",
-      "child_uuid": "",
-      "parent_uuid": "kicN7hkPayXrH8jr",
-      "doc_id": 176297632,
-      "level": 2,
-      "id": 176297632,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "Coze怎么搭建一个产品机器人？",
-      "uuid": "s4uOfrfZy1P0LTdP",
-      "url": "esc4emi9zi3qc9qq",
-      "prev_uuid": "F1zPIwUXpSbH9GRV",
-      "sibling_uuid": "",
-      "child_uuid": "",
-      "parent_uuid": "kicN7hkPayXrH8jr",
-      "doc_id": 175495573,
-      "level": 2,
-      "id": 175495573,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
       "title": "最强前端🏷️",
       "uuid": "Oi5FMtop6oZm1oNe",
       "url": "zvhtpcf14k5ubrg3",
-      "prev_uuid": "kicN7hkPayXrH8jr",
+      "prev_uuid": "_AUtENOpDG0ZxF_E",
       "sibling_uuid": "PlrctMGesywNFpWl",
       "child_uuid": "jnYOD86cVlBDX55q",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
@@ -14036,7 +13907,7 @@
       "uuid": "dM55tS-xNS9gbu5Q",
       "url": "uz8g4zstl7skaubu",
       "prev_uuid": "_d86pwt2PnWp0V6d",
-      "sibling_uuid": "aRn1n4HB0iY7c91I",
+      "sibling_uuid": "ZQkvDtiMigyZEcwf",
       "child_uuid": "1COJy_DKfMIKKInA",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
       "doc_id": 171259325,
@@ -14212,10 +14083,160 @@
     },
     {
       "type": "DOC",
+      "title": "个人成长🔝",
+      "uuid": "ZQkvDtiMigyZEcwf",
+      "url": "ff52fo66g2cpghn4",
+      "prev_uuid": "dM55tS-xNS9gbu5Q",
+      "sibling_uuid": "kicN7hkPayXrH8jr",
+      "child_uuid": "hR__VaWckNIegMLy",
+      "parent_uuid": "_AUtENOpDG0ZxF_E",
+      "doc_id": 178829466,
+      "level": 1,
+      "id": 178829466,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "《学会提问》读书笔记",
+      "uuid": "hR__VaWckNIegMLy",
+      "url": "wcur7204xegeks3o",
+      "prev_uuid": "ZQkvDtiMigyZEcwf",
+      "sibling_uuid": "la67knEMszy2q6rT",
+      "child_uuid": "",
+      "parent_uuid": "ZQkvDtiMigyZEcwf",
+      "doc_id": 183506392,
+      "level": 2,
+      "id": 183506392,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "生财有术的七条原则|副业原则",
+      "uuid": "la67knEMszy2q6rT",
+      "url": "kgo2qgo7afzgxnng",
+      "prev_uuid": "hR__VaWckNIegMLy",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "ZQkvDtiMigyZEcwf",
+      "doc_id": 178829565,
+      "level": 2,
+      "id": 178829565,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "人工智能🤖️",
+      "uuid": "kicN7hkPayXrH8jr",
+      "url": "ck3uzv22499u4byl",
+      "prev_uuid": "ZQkvDtiMigyZEcwf",
+      "sibling_uuid": "aRn1n4HB0iY7c91I",
+      "child_uuid": "cZgzGnuivSrN0-HX",
+      "parent_uuid": "_AUtENOpDG0ZxF_E",
+      "doc_id": 175495556,
+      "level": 1,
+      "id": 175495556,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "深度学习激活函数有哪些？",
+      "uuid": "cZgzGnuivSrN0-HX",
+      "url": "nt61gsah6eyoi8ip",
+      "prev_uuid": "kicN7hkPayXrH8jr",
+      "sibling_uuid": "V2owSNRTTConO8CW",
+      "child_uuid": "",
+      "parent_uuid": "kicN7hkPayXrH8jr",
+      "doc_id": 176298082,
+      "level": 2,
+      "id": 176298082,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "决策树是什么？",
+      "uuid": "V2owSNRTTConO8CW",
+      "url": "ioa4al8z2lh9hf9o",
+      "prev_uuid": "cZgzGnuivSrN0-HX",
+      "sibling_uuid": "B284hKFGd7jOE3pC",
+      "child_uuid": "",
+      "parent_uuid": "kicN7hkPayXrH8jr",
+      "doc_id": 176297975,
+      "level": 2,
+      "id": 176297975,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "逻辑回归与线性回归什么关系？",
+      "uuid": "B284hKFGd7jOE3pC",
+      "url": "rdlggr5pu4ra8ny0",
+      "prev_uuid": "V2owSNRTTConO8CW",
+      "sibling_uuid": "1OxYt9ch42u1DJle",
+      "child_uuid": "",
+      "parent_uuid": "kicN7hkPayXrH8jr",
+      "doc_id": 176297941,
+      "level": 2,
+      "id": 176297941,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "KNN分类算法",
+      "uuid": "1OxYt9ch42u1DJle",
+      "url": "bznerz89sdg5qwfe",
+      "prev_uuid": "B284hKFGd7jOE3pC",
+      "sibling_uuid": "F1zPIwUXpSbH9GRV",
+      "child_uuid": "",
+      "parent_uuid": "kicN7hkPayXrH8jr",
+      "doc_id": 176297890,
+      "level": 2,
+      "id": 176297890,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "AI跨界学习，不再是梦",
+      "uuid": "F1zPIwUXpSbH9GRV",
+      "url": "ucvbe5w9nqtiolmd",
+      "prev_uuid": "1OxYt9ch42u1DJle",
+      "sibling_uuid": "s4uOfrfZy1P0LTdP",
+      "child_uuid": "",
+      "parent_uuid": "kicN7hkPayXrH8jr",
+      "doc_id": 176297632,
+      "level": 2,
+      "id": 176297632,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Coze怎么搭建一个产品机器人？",
+      "uuid": "s4uOfrfZy1P0LTdP",
+      "url": "esc4emi9zi3qc9qq",
+      "prev_uuid": "F1zPIwUXpSbH9GRV",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "kicN7hkPayXrH8jr",
+      "doc_id": 175495573,
+      "level": 2,
+      "id": 175495573,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "代码工具 💻",
       "uuid": "aRn1n4HB0iY7c91I",
       "url": "dt41v1b1lx0wnavv",
-      "prev_uuid": "dM55tS-xNS9gbu5Q",
+      "prev_uuid": "kicN7hkPayXrH8jr",
       "sibling_uuid": "",
       "child_uuid": "",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
@@ -17622,7 +17643,7 @@
       "url": "lee28kbqshx46bn8",
       "prev_uuid": "g79LhyuCIcy2z2cx",
       "sibling_uuid": "uHCIfCp4Xzc-fCfY",
-      "child_uuid": "TXk0ZQsG_e0NV7As",
+      "child_uuid": "c1Doep2zcca_61xM",
       "parent_uuid": "",
       "doc_id": 169649886,
       "level": 0,
@@ -17632,11 +17653,41 @@
     },
     {
       "type": "DOC",
+      "title": "计算机网络",
+      "uuid": "c1Doep2zcca_61xM",
+      "url": "kbo5ucr66rpm0n73",
+      "prev_uuid": "1Yk7ZpGC1ALK7ryF",
+      "sibling_uuid": "TXk0ZQsG_e0NV7As",
+      "child_uuid": "JZGuJnU9gvxziuKF",
+      "parent_uuid": "1Yk7ZpGC1ALK7ryF",
+      "doc_id": 169963644,
+      "level": 1,
+      "id": 169963644,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "计网疑云",
+      "uuid": "JZGuJnU9gvxziuKF",
+      "url": "traig2qo1kgs1ct7",
+      "prev_uuid": "c1Doep2zcca_61xM",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "c1Doep2zcca_61xM",
+      "doc_id": 170922556,
+      "level": 2,
+      "id": 170922556,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "操作系统",
       "uuid": "TXk0ZQsG_e0NV7As",
       "url": "wqxa4oybgctzpy2u",
-      "prev_uuid": "1Yk7ZpGC1ALK7ryF",
-      "sibling_uuid": "c1Doep2zcca_61xM",
+      "prev_uuid": "c1Doep2zcca_61xM",
+      "sibling_uuid": "NqPQmrLc_QZ1nPAj",
       "child_uuid": "pDHMwZRQIJTaL1JF",
       "parent_uuid": "1Yk7ZpGC1ALK7ryF",
       "doc_id": 170598544,
@@ -17797,40 +17848,10 @@
     },
     {
       "type": "DOC",
-      "title": "计算机网络",
-      "uuid": "c1Doep2zcca_61xM",
-      "url": "kbo5ucr66rpm0n73",
-      "prev_uuid": "TXk0ZQsG_e0NV7As",
-      "sibling_uuid": "NqPQmrLc_QZ1nPAj",
-      "child_uuid": "JZGuJnU9gvxziuKF",
-      "parent_uuid": "1Yk7ZpGC1ALK7ryF",
-      "doc_id": 169963644,
-      "level": 1,
-      "id": 169963644,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
-      "title": "计网疑云",
-      "uuid": "JZGuJnU9gvxziuKF",
-      "url": "traig2qo1kgs1ct7",
-      "prev_uuid": "c1Doep2zcca_61xM",
-      "sibling_uuid": "",
-      "child_uuid": "",
-      "parent_uuid": "c1Doep2zcca_61xM",
-      "doc_id": 170922556,
-      "level": 2,
-      "id": 170922556,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
       "title": "MySQL",
       "uuid": "NqPQmrLc_QZ1nPAj",
       "url": "oawe7ufgang93sac",
-      "prev_uuid": "c1Doep2zcca_61xM",
+      "prev_uuid": "TXk0ZQsG_e0NV7As",
       "sibling_uuid": "JpDwlz0RW8PSAzpL",
       "child_uuid": "d8j8nIfk7mEGouOA",
       "parent_uuid": "1Yk7ZpGC1ALK7ryF",
@@ -18078,7 +18099,7 @@
       "level": 1,
       "id": 170921032,
       "open_window": 1,
-      "visible": 0
+      "visible": 1
     },
     {
       "type": "DOC",

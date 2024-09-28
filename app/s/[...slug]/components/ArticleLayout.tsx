@@ -14,6 +14,8 @@ import {
 import Image from "@/components/Image";
 import Link from "@/components/Link";
 import { allAuthors } from "contentlayer/generated";
+import { Badge } from "@/components/ui/badge";
+import { badgeVariants } from "@/components/ui/badge";
 
 const postDateTemplate: Intl.DateTimeFormatOptions = {
   weekday: "long",
@@ -54,6 +56,21 @@ export default function ArticlePostLayout({
         <div className="flex flex-col space-y-1 text-center mb-2">
           <div className="mb-4 max-w-full">
             <PageTitle>{title}</PageTitle>
+          </div>
+          <div className="flex flex-row justify-center space-x-2 ">
+            {tags &&
+              tags.length > 0 &&
+              tags.map((tag) => {
+                return (
+                  <Badge
+                    className={badgeVariants({ variant: "destructive" }) + ""}
+                  >
+                    <Link href={`/tag/${tag}`} className="text-md p-1">
+                      {tag}
+                    </Link>
+                  </Badge>
+                );
+              })}
           </div>
 
           <div className="flex space-x-4 flex-row justify-center items-center">

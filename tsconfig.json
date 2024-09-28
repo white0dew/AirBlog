@@ -5,9 +5,10 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,
     "noEmit": true,
     "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
@@ -20,13 +21,15 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"],
+      "@/action/*": ["action/*"],
       "@/components/*": ["components/*"],
       "@/layouts/*": ["layouts/*"],
       "@/lib/*": ["lib/*"],
       "@/app/*": ["app/*"],
       "@/public/*": ["public/*"],
-      "@/asserts/*": ["asserts/*"],
+      "@/assets/*": ["assets/*"],
+      "@/constants/*": ["constants/*"],
+      "@/types/*": ["types/*"],
       "contentlayer/generated": ["./.contentlayer/generated"]
     }
   },
@@ -43,5 +46,9 @@
     ".contentlayer/generated/**/*.json",
     ".contentlayer/generated"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules",
+    "public/search.json",
+    ".contentlayer/generated/Post/*"
+  ]
 }

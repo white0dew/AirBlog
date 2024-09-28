@@ -8,7 +8,7 @@ export const submitUrlsToIndexNow = async (urls: string[]) => {
     keyLocation: "https://offernow.cn/e5d66260a41d4cca9e9b369be3efaa81.txt",
     urlList: urls,
   };
-  console.log("submitUrlsToIndexNow", payload);
+  // console.log("submitUrlsToIndexNow", payload);
 
   try {
     // 设置超时时间

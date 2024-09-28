@@ -20,11 +20,12 @@ import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypePresetMinify from "rehype-preset-minify";
 import rehypeKatex from "rehype-katex";
-import { countWords } from "./lib/utils";
+import { countWords, mylog } from "./lib/utils";
 import rehypeCitation from "rehype-citation";
 import { writeFileSync } from "fs";
 import { allCoreContent, sortPosts } from "pliny/utils/contentlayer.js";
 import { Post } from "./.contentlayer/generated";
+import { FriendWebsiteInfo } from "@/types/friend-link";
 const root = process.cwd();
 const isProduction = process.env.NODE_ENV === "production";
 
@@ -59,10 +60,10 @@ function createSearchIndex(allBlogs: any) {
 }
 
 function createTagCount(allBlogs: any) {
+  console.log("Generating tag count...");
   const tagCount: Record<string, number> = {};
   allBlogs.forEach((file: Post) => {
     if (file.tags && !isProduction) {
-      console.log("Generating tag count...");
       file.tags.forEach((tag) => {
         const formattedTag = slug(tag);
         if (formattedTag in tagCount) {
@@ -73,7 +74,66 @@ function createTagCount(allBlogs: any) {
       });
     }
   });
+  mylog("Tag count generated...");
   writeFileSync("public/tag-data.json", JSON.stringify(tagCount));
+}
+
+// 生成友情链接
+function createFriendLinks(allBlogs: Post[]) {
+  // 只查看友情链接的配置
+  for (const file of allBlogs) {
+    if (file.title === "友情链接") {
+      mylog("生成友情链接...");
+      // 去除首位的换行符
+      let tmpStr = file.body.raw.trim();
+      const tableContent = tmpStr;
+      mylog(JSON.stringify(tableContent));
+      const lines = tableContent.split("\n");
+      const headers = lines[1]
+        .split("|")
+        .map((item) => item.trim())
+        .slice(1, -1);
+      const websiteInfos: FriendWebsiteInfo[] = [];
+
+      for (let i = 2; i < lines.length; i++) {
+        const values = lines[i]
+          .split("|")
+          .map((item) => item.trim())
+          .slice(1, -1);
+        if (values.length === headers.length) {
+          const url = values[1]
+            .replace(/\[|\]/g, "")
+            .split("(")[1]
+            .split(")")[0];
+
+          // 使用正则表达式提取 URL
+          const markdownImageUrlRegex =
+            /!\[.*?\]\((https?:\/\/.*?\.(?:webp|png|jpg|jpeg|gif))\)/;
+
+          const matches = values[3].match(markdownImageUrlRegex);
+          let imageUrl = "";
+          if (matches && matches.length > 1) {
+            imageUrl = matches[1]; // 第一个捕获组是 URL
+            console.log(imageUrl); // 输出 URL
+          } else {
+            console.log("No URL found");
+            imageUrl = "";
+          }
+          const websiteInfo: FriendWebsiteInfo = {
+            name: values[0],
+            url: url,
+            description: values[2],
+            imageUrl: imageUrl,
+          };
+          websiteInfos.push(websiteInfo);
+        }
+      }
+
+      mylog("生成友情链接完成");
+
+      writeFileSync(`public/friend-links.json`, JSON.stringify(websiteInfos));
+    }
+  }
 }
 
 export const PostBlog = defineDocumentType(() => ({
@@ -88,6 +148,7 @@ export const PostBlog = defineDocumentType(() => ({
     nav_path: { type: "string" },
     updated: { type: "date" },
     skip_nav: { type: "boolean" },
+    not_show: { type: "boolean", default: false },
     description: { type: "string" },
     cover: { type: "string" },
     tags: { type: "list", of: { type: "string" }, default: [] },
@@ -173,5 +234,6 @@ export default makeSource({
     const { allPosts } = await importData();
     createTagCount(allPosts);
     createSearchIndex(allPosts);
+    createFriendLinks(allPosts);
   },
 });

@@ -9,6 +9,7 @@ export interface DocProperties {
   is_nav?: boolean; // 是否是导航:一级和二级
   nav_path?: string; // 自定义导航路径
   skip_nav?: boolean; // 是否跳过当前目录路径，防止路径过长，为true时，子文章的nav不包括该nav_path
+  not_show?: boolean; // 是否不显示,仅用作后台
 }
 
 export interface Doc {
@@ -60,6 +61,7 @@ export interface ElogChapter {
   is_nav: boolean; // 是否是导航,目前只支持二级导航
   skip_nav: boolean; // 是否跳过当前目录路径，防止路径过长，为true时，子文章的nav不包括该nav_path
   nav_path: string; // 自定义导航路径
+  not_show: boolean; // 是否不显示,仅用作后台
   children: ElogChapter[];
   parent: ElogChapter | null;
 }

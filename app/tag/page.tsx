@@ -3,6 +3,7 @@ import tagData from "@/public/tag-data.json";
 import { genPageMetadata } from "@/lib/seo";
 import Tag from "@/components/Tag";
 import Link from "next/link";
+import React from "react";
 export const metadata = genPageMetadata({
   title: "Tags",
   description: "Things I blog about",

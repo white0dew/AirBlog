@@ -39,16 +39,16 @@ export function ArticleRightSider() {
       <div
         className="flex-1 flex flex-col 
             mt-1
-            items-center mb-1 sm:mb-0 self-center h-fit"
+            items-center mb-1 sm:mb-0 self-center "
       >
         <h5 className="text-lg text-center font-bold mb-1">关注获取更多内容</h5>
-        <div className="mb-3 flex space-x-4 ">
+        <div className="mb-1 flex  ">
           <Image
             src={
               "https://oss1.aistar.cool/%E4%BA%8C%E8%BF%9B%E5%88%B6%E7%9A%84%E8%80%B3%E8%AF%AD.jpg "
             }
-            width={150}
-            height={150}
+            width={100}
+            height={100}
             alt="扫描二维码"
           />
         </div>

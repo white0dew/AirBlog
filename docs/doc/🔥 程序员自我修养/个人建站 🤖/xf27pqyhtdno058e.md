@@ -2,7 +2,7 @@
 title: artalk的几个邮件通知模板
 urlname: xf27pqyhtdno058e
 date: '2024-09-25 21:32:26'
-updated: '2024-09-26 19:18:58'
+updated: '2024-09-27 14:14:40'
 cover: 'https://cdn.nlark.com/yuque/0/2024/png/22382235/1727271225596-cf33d76c-72eb-4bdf-a802-17d4175db587.png'
 description: 'artalk是一个开源的评论组件。根据自己修改以及网上收集，找到了几种好看的样式。信封样式代码：   '
 ---

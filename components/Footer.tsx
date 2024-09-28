@@ -2,7 +2,7 @@ import Link from "@/components/Link";
 import siteMetadata from "@/assets/siteMetadata";
 import SocialIcon from "@/assets/social-icons";
 import Image from "next/image";
-
+import React from "react";
 export default function Footer() {
   return (
     <footer className="w-full">
@@ -41,7 +41,7 @@ export default function Footer() {
             <h5 className="text-lg font-bold  mb-2 ">关于网站</h5>
             <div className="flex-row space-x-2 lg:flex-col">
               <Link href="/s/web/changelog">更新日志</Link>
-              <Link href="/s/web/links">友情链接</Link>
+              <Link href="/friend-links">友情链接</Link>
               <Link href="/s/web/whitedew">网站作者</Link>
               <Link href="/sitemap.xml">站点地图</Link>
             </div>

@@ -19,7 +19,12 @@ function buildChapterTree(
   // 首先，创建一个映射，以便于通过 uuid 查找目录项
   const itemMap = new Map<string, ElogChapter>();
   catalog.forEach((item) => {
+    // 如果not_show为ture直接跳过
+    if (DocIDMap.get(item.url)?.properties?.not_show) {
+      return;
+    }
     itemMap.set(item.uuid, {
+      not_show: DocIDMap.get(item.url)?.properties?.not_show,
       doc_id: item.doc_id.toString(), // 其实就是URLName
       uuid: item.uuid,
       children: [],

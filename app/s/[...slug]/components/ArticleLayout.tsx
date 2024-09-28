@@ -1,4 +1,4 @@
-import { Author, Post } from "@/.contentlayer/generated/types";
+import { Author, Post } from "contentlayer/generated";
 import PageTitle from "@/components/PageTitle";
 import ProgressBar from "@/components/ProgressBar";
 import ScrollTopAndComment from "@/components/ScrollTopAndComment";
@@ -13,7 +13,7 @@ import {
 } from "react-icons/fa";
 import Image from "@/components/Image";
 import Link from "@/components/Link";
-import { allAuthors } from "@/.contentlayer/generated";
+import { allAuthors } from "contentlayer/generated";
 
 const postDateTemplate: Intl.DateTimeFormatOptions = {
   weekday: "long",

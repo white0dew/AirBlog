@@ -1,4 +1,4 @@
-import { allAuthors, allPosts, Author } from "@/.contentlayer/generated";
+import { allAuthors, allPosts, Author } from "contentlayer/generated";
 import SidebarChapter from "@/components/SideChapterList";
 import { ChapterList, ChapterTree } from "@/lib/elog";
 import { ElogChapter } from "@/types/elog";

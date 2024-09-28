@@ -3,10 +3,11 @@ import React, { useEffect, useRef, useState } from "react";
 import ArticlePostLayout from "./ArticleLayout";
 import MDViewer from "@/components/markdown/MarkdownView";
 import Comment from "@/components/Comment";
-import { Post } from "@/.contentlayer/generated/types";
+import { Post } from "contentlayer/generated";
 import { usePathname } from "next/navigation";
 import { ArticleSlideLinks } from "./ArticleSlide";
 import Script from "next/script";
+import { NotWechatScanPathList } from "@/constants/path";
 interface ArticleContentProps {
   article: Post;
 }
@@ -34,8 +35,10 @@ export function ArticleContent({ article }: ArticleContentProps) {
               md:flex-1 px-1 md:px-6  dark:bg-slate-800 2xl:max-w-3xl xl:min-w-3xl "
       ref={itemRef} // 新增：设置ref
     >
-      <Script strategy="lazyOnload">
-        {`
+      {/* 部分页面不加载 */}
+      {!NotWechatScanPathList.includes(path) && (
+        <Script strategy="lazyOnload">
+          {`
         if (typeof window.btw === 'undefined') {
          const btw = new BTWPlugin();
          btw.init({
@@ -50,7 +53,9 @@ export function ArticleContent({ article }: ArticleContentProps) {
       });
         }
    `}
-      </Script>
+        </Script>
+      )}
+
       <ArticlePostLayout curArticle={article}>
         <div
           id="container"

@@ -2,10 +2,15 @@ const { withContentlayer } = require("next-contentlayer2");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
   swcMinify: true,
   output: "standalone",
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
+  // Next.js 开发模式默认会开启 React Strict Mode，会渲染2次，我们不需要
+  reactStrictMode: false,
+  // build 阶段禁止 ts 类型检查
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   images: {
     remotePatterns: [
       {
@@ -18,6 +23,16 @@ const nextConfig = {
         protocol: "https",
         hostname: "oss1.aistar.cool",
         pathname: "/**/**",
+      },
+      {
+        protocol: "https",
+        hostname: ".*",
+        port: "",
+        pathname: "*/**",
+      },
+      {
+        protocol: "http",
+        hostname: "localhost",
       },
     ],
   },

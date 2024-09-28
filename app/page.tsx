@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-slate-900">
       {/* Hero Section */}
-      <section className="text-center py-20 bg-gradient-to-r  from-teal-700 to-blue-500 text-white">
+      <section className="text-center py-20 bg-gradient-to-r  from-teal-900 to-blue-700 text-white">
         <div className="m-2 animate-bounce flex justify-center">
           <Image src={Logo} alt="logo" width={150} height={150} />
         </div>

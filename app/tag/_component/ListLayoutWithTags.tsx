@@ -11,7 +11,7 @@ import siteMetadata from "@/assets/siteMetadata";
 import { RemoveYamlFrontMatterForDesc, truncateSummary } from "@/lib/utils";
 import { FaRegCommentDots, FaStreetView } from "react-icons/fa6";
 import React from "react";
-import tagData from "@/public/tag-data.json";
+import tagData from "@/app/tag-data.json";
 import { GetPathByUuid } from "@/lib/elog";
 interface PaginationProps {
   totalPages: number;

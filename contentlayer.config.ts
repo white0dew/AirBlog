@@ -76,7 +76,7 @@ function createTagCount(allBlogs: any) {
   });
   console.log("Tag count generated...");
   console.log(JSON.stringify(tagCount));
-  writeFileSync("public/tag-data.json", JSON.stringify(tagCount));
+  writeFileSync("./app/tag-data.json", JSON.stringify(tagCount));
 }
 
 // 生成友情链接

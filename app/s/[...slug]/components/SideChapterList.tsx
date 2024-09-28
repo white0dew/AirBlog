@@ -6,8 +6,8 @@ import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "./ui/collapsible";
-import { Icons } from "./Icons";
+} from "@/components/ui/collapsible";
+import { Icons } from "@/components/Icons";
 import { usePathname, useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
@@ -47,8 +47,6 @@ function SidebarItem({ chapter }: { chapter: ElogChapter }) {
             shadow-sm
             rounded-sm
             break-all
-            
-            
             `,
           `${path == chapter.url ? "bg-blue-200 dark:bg-blue-700 " : ""}`,
           `${chapter.level === 4 ? "text-base" : ""}`,
@@ -74,7 +72,7 @@ function SidebarItem({ chapter }: { chapter: ElogChapter }) {
       </CollapsibleTrigger>
 
       {chapter.children && (
-        <CollapsibleContent className="ml-2 space-y-1">
+        <CollapsibleContent className="ml-2 space-y-1 line-clamp-2">
           {chapter.children.map((child) => (
             <SidebarItem key={child.urlname} chapter={child} />
           ))}

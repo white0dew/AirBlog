@@ -1,14 +1,6 @@
 import React from "react";
 import { slug } from "github-slugger";
-import { allCoreContent, sortPosts } from "pliny/utils/contentlayer";
-import siteMetadata from "@/assets/siteMetadata";
-import ListLayout from "@/app/tag/_component/ListLayoutWithTags";
-import { allPosts } from "contentlayer/generated";
-import tagData from "@/public/tag-data.json";
-import { genPageMetadata } from "@/lib/seo";
-import { Metadata } from "next";
-import { notFound } from "next/navigation";
-import Tag from "@/components/Tag";
+import tagData from "@/app/tag-data.json";
 import Link from "next/link";
 import { Badge } from "../ui/badge";
 // 基于nextjs 实现标签墙

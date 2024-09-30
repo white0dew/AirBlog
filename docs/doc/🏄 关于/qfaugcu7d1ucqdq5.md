@@ -2,10 +2,14 @@
 title: 更新日志
 urlname: qfaugcu7d1ucqdq5
 date: '2024-05-22 08:47:22'
-updated: '2024-09-28 13:54:45'
-description: '---nav_path: changelog2024-09新增评论邮件发送功能优化评论邮件通知功能中模板样式新增页面下一页以及上一页优化黑白模式-公告优化页面-切换页面链接的时候，视图不对优化首页排版-高度不一致新增栏目-每日算法题新增-标签系统切换为静态生成网页修改仓库名称为AirBlog首...'
+updated: '2024-09-28 20:58:38'
+description: '---nav_path: changelog---介绍当前网站的更新计划以及快要更新的东西，如果大家有特别的需要也可以进行留言。2024-09新增评论邮件发送功能优化评论邮件通知功能中模板样式新增页面下一页以及上一页优化黑白模式-公告优化页面-切换页面链接的时候，视图不对优化首页排版-高度不一...'
 nav_path: changelog
 ---
+介绍当前网站的更新计划以及快要更新的东西，如果大家有特别的需要也可以进行留言。
+
+
+
 ## 2024-09
 - [x] 新增评论邮件发送功能
 - [x] 优化评论邮件通知功能中模板样式
@@ -15,25 +19,23 @@ nav_path: changelog
 - [x] 优化首页排版-高度不一致
 - [x] 新增栏目-每日算法题
 - [x] 新增-标签系统
+- [x] 使用openwite插件/或者techgrowth插件
+- [x] 优化插件：仅在除友情链接之外的部分网页使用，其他地方不使用
+- [x] 友情链接页面优化
+- [x] 新增图片优化：For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run '**npm i sharp**', and Next.js will use it automatically for Image Optimization
+- [x] 优化搜索功能-背景颜色不对(是pliny的背景不对，github提问了）
 - [ ] 切换为静态生成网页
 - [ ] 修改仓库名称为AirBlog
 - [ ] 首页修改-新增标签墙
 - [ ] 切换邮件通知功能到163邮箱，防止被设置为垃圾邮箱
 - [ ] 新增评论审核功能：关键词（阿里云、腾讯云的api接口太贵了）
 - [ ] 在每个页面的下面增加一功能，叫做**当前页面的热评**
-- [x] 友情链接页面优化
-- [x] 新增图片优化：For production Image Optimization with Next.js, the optional 'sharp' package is strongly recommended. Run '**npm i sharp**', and Next.js will use it automatically for Image Optimization
 - [ ] 优化移动端排版（网盘拉新必备）
-- [x] 优化搜索功能-背景颜色不对(是pliny的背景不对，github提问了）
 - [ ] 优化搜索功能-宽度
 - [ ] 新增栏目-开源项目、go框架、参考gostack.cc
 - [ ] 借鉴 xargin.com网站排版
-- [x] 使用openwite插件/或者techgrowth插件
-- [x] 优化插件：仅在除友情链接之外的部分网页使用，其他地方不使用
+- [ ] **百度提交**改为先提交最新的20篇文章，再在之前的文章里随机挑选提交
 - [ ] 新增留言版
-- [ ] 
-
-
 
 ## 2024-7-17
 + 新增**搜索功能**

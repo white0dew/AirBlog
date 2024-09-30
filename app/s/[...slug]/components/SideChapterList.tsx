@@ -72,7 +72,7 @@ function SidebarItem({ chapter }: { chapter: ElogChapter }) {
       </CollapsibleTrigger>
 
       {chapter.children && (
-        <CollapsibleContent className="ml-2 space-y-1 line-clamp-2">
+        <CollapsibleContent className="ml-2 space-y-1 line-clamp-2 border-l-2  border-blue-900">
           {chapter.children.map((child) => (
             <SidebarItem key={child.urlname} chapter={child} />
           ))}

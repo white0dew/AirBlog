@@ -1,4 +1,5 @@
 import { ChapterList, ElogCacheData } from "@/lib/elog";
+import { mylog } from "@/lib/utils";
 import { ElogChapter } from "@/types/elog";
 
 // 假定 chapters 是整个章节树的根节点数组
@@ -53,24 +54,23 @@ function findChapters(
 // 假定您的UI组件
 export function ArticleSlideLinks({ path }: { path: string }) {
   const { prev, next } = findChapters(ChapterList, path);
-
+  mylog(process.env.NODE_ENV);
   return (
     <div
       className="flex flex-row justify-between
       px-auto
      rounded-sm
-    bg-slate-100 p-8 dark:bg-slate-800
+    bg-slate-50 p-8 dark:bg-slate-800
     text-center
     lg:text-xl"
     >
       {prev ? (
         <div
-          className=" self-start  min-w-8 py-6 px-2 bg-gray-200 dark:bg-gray-800 rounded-md hover:bg-gray-400
+          className=" self-start  min-w-8 py-6 px-2 bg-gray-100 dark:bg-gray-800 rounded-md hover:bg-gray-200
         hover:dark:bg-gray-400"
         >
-          {" "}
+          <span>{"< "}</span>
           <a href={prev.url}>{prev.title}</a>
-          <span>👈</span>
         </div>
       ) : (
         <span />
@@ -78,15 +78,14 @@ export function ArticleSlideLinks({ path }: { path: string }) {
 
       {next ? (
         <div
-          className=" self-end min-w-8 py-6 px-2 bg-gray-200 dark:bg-gray-800 rounded-md hover:bg-gray-400
+          className=" self-end min-w-8 py-6 px-2 bg-gray-100 dark:bg-gray-800 rounded-md hover:bg-gray-200
         
         hover:dark:bg-gray-400"
         >
-          {" "}
-          <span>👉</span>{" "}
           <a href={next.url} className="">
             {next.title}
-          </a>
+          </a>{" "}
+          <span>{">"}</span>{" "}
         </div>
       ) : (
         <span />

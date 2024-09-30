@@ -16,7 +16,6 @@ import {
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { useParams, usePathname } from "next/navigation";
-import { Badge } from "../ui/badge";
 
 // 假设这是从哪里获取的章节数据
 const chapters: ElogChapter[] = [
@@ -29,7 +28,7 @@ export default function Navigation({ chapters }: { chapters: ElogChapter[] }) {
   return (
     <NavigationMenu
       delayDuration={200}
-      className="hidden md:flex text-lg  mr-10  md:mr-64"
+      className="hidden md:flex  mr-10  md:mr-32 xl:mr-64"
     >
       <NavigationMenuList className=" space-x-3 ">
         {/* 有子目录的情况 */}
@@ -42,9 +41,9 @@ export default function Navigation({ chapters }: { chapters: ElogChapter[] }) {
                   <NavigationMenuTrigger
                     className={cn(
                       `${path.includes(chapter.url) ? "bg-slate-300" : ""}`,
-                      "px-2 py-5 text-md",
+                      "px-2 py-2 text-md",
                       "shadow-lg",
-                      " border-2"
+                      "border-2"
                     )}
                   >
                     {chapter.title}
@@ -64,7 +63,7 @@ export default function Navigation({ chapters }: { chapters: ElogChapter[] }) {
                             <NavigationMenuLink
                               className={cn(
                                 navigationMenuTriggerStyle(),
-                                "h-full text-sm w-full font-semibold border-solid border-b-2 border-sky-500"
+                                "h-full text-sm w-full font-semibold rounded-b-none border-solid border-b-2 border-sky-800"
                               )}
                             >
                               {child.title}

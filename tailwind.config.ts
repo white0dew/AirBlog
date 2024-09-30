@@ -23,7 +23,7 @@ const config = {
     },
     debugScreens: {
       position: ["bottom", "right"],
-      ignore: ["dark"],
+      // ignore: ["dark"],
     },
     container: {
       center: true,

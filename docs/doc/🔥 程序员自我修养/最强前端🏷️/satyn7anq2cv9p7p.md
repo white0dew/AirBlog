@@ -1,8 +1,8 @@
 ---
-title: 【教程】不一样的Nextjs！
+title: 「万赞」不一样的Nextjs！
 urlname: satyn7anq2cv9p7p
 date: '2024-09-30 11:08:19'
-updated: '2024-09-30 11:36:11'
+updated: '2024-09-30 22:39:53'
 description: '---is_nav: falsenav_path: nextjskeywords: Nextjs,Nextjs教程tags: [''Nextjs'']---在前端开发的广袤天地中，Next.js 犹如一颗璀璨的新星，吸引着无数开发者的目光。本专栏——“聊点不一样的 Next.js！”将带你踏上一场...'
 is_nav: false
 nav_path: nextjs

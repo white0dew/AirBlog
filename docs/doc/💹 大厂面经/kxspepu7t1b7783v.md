@@ -2,7 +2,7 @@
 title: 计算机网络面试必问
 urlname: kxspepu7t1b7783v
 date: '2024-08-07 12:53:57'
-updated: '2024-09-24 20:58:29'
+updated: '2024-10-04 09:08:21'
 cover: 'https://cdn.nlark.com/yuque/0/2024/png/22382235/1722953399419-c3811ae6-707c-48c1-8a48-d32f46d24b40.png?x-oss-process=image%2Fformat%2Cwebp'
 description: HTTP常用的状态码及其含义HTTP状态码是用来表示服务器响应客户端请求的状态。常用的状态码分为以下几类：状态码含义200OK：请求成功，服务器已返回所请求的数据。201Created：请求成功并且服务器创建了新的资源。204No Content：服务器成功处理了请求，但没有返回任何内容。30...
 ---
@@ -667,11 +667,7 @@ if (!receivedToken.equals(sessionToken)) {
 
 
 
-**「参考回答」**：
-
-WebSocket和socket虽然名字相似，但它们在本质上有很大的区别：
-
-
+**「参考回答」**：WebSocket和socket虽然名字相似，但它们在本质上有很大的区别，一句话，WebSocket是HTML5新增的协议，用于解决浏览器与服务器全双工通信的问题，而Socket是一个更底层的概念，是网络编程的基础。
 
 1. **概念层面**：
     - **Socket**：是一个**底层的通信接口**，是应用层与TCP/IP协议族通信的中间软件抽象层。它是一组接口，在设计模式中，Socket其实就是一个门面模式，它把复杂的TCP/IP协议族隐藏在Socket后面。
@@ -692,7 +688,7 @@ WebSocket和socket虽然名字相似，但它们在本质上有很大的区别�
     - **Socket**：通常**不涉及跨域**问题。
     - **WebSocket**：**支持跨域**通信。
 
-总的来说，WebSocket是HTML5新增的协议，用于解决浏览器与服务器全双工通信的问题，而Socket是一个更底层的概念，是网络编程的基础。
+
 
 # DoS、DDoS、DRDoS攻击的区别
 **「面试官」**：请解释一下什么是DoS、DDoS、DRDoS攻击？

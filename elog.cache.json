@@ -12594,12 +12594,12 @@
     {
       "id": 181246765,
       "doc_id": "kxspepu7t1b7783v",
-      "updated": 1727182709000,
+      "updated": 1728004101000,
       "properties": {
         "title": "计算机网络面试必问",
         "urlname": "kxspepu7t1b7783v",
         "date": "2024-08-07 12:53:57",
-        "updated": "2024-09-24 20:58:29",
+        "updated": "2024-10-04 09:08:21",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1722953399419-c3811ae6-707c-48c1-8a48-d32f46d24b40.png?x-oss-process=image%2Fformat%2Cwebp",
         "description": "HTTP常用的状态码及其含义HTTP状态码是用来表示服务器响应客户端请求的状态。常用的状态码分为以下几类：状态码含义200OK：请求成功，服务器已返回所请求的数据。201Created：请求成功并且服务器创建了新的资源。204No Content：服务器成功处理了请求，但没有返回任何内容。30..."
       },
@@ -13478,12 +13478,12 @@
     {
       "id": 188627200,
       "doc_id": "satyn7anq2cv9p7p",
-      "updated": 1727667371000,
+      "updated": 1727707193000,
       "properties": {
-        "title": "【教程】不一样的Nextjs！",
+        "title": "「万赞」不一样的Nextjs！",
         "urlname": "satyn7anq2cv9p7p",
         "date": "2024-09-30 11:08:19",
-        "updated": "2024-09-30 11:36:11",
+        "updated": "2024-09-30 22:39:53",
         "description": "---is_nav: falsenav_path: nextjskeywords: Nextjs,Nextjs教程tags: ['Nextjs']---在前端开发的广袤天地中，Next.js 犹如一颗璀璨的新星，吸引着无数开发者的目光。本专栏——“聊点不一样的 Next.js！”将带你踏上一场...",
         "is_nav": false,
         "nav_path": "nextjs",
@@ -13505,6 +13505,61 @@
       "realName": "satyn7anq2cv9p7p",
       "relativePath": "/🔥 程序员自我修养/最强前端🏷️/satyn7anq2cv9p7p.md",
       "docPath": "docs/doc/🔥 程序员自我修养/最强前端🏷️"
+    },
+    {
+      "id": 188692563,
+      "doc_id": "negzqyxtxszvawof",
+      "updated": 1728348721000,
+      "properties": {
+        "title": "「项目」开发一个导航网站",
+        "urlname": "negzqyxtxszvawof",
+        "date": "2024-09-30 22:40:04",
+        "updated": "2024-10-08 08:52:01",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1727781047419-0223592a-fe80-4c9b-b389-4e833643c4f9.png",
+        "description": "背景在工作学习中，发现一个问题，那就是有一个导航网站非常重要！无意之中，看到一个很棒的导航网站，打算基于此开发一个，记录一下开发的过程。Demo仓库：https://github.com/wangfengyuan/frontend-nav记录tailwindcss的scrollbarhttps..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "negzqyxtxszvawof"
+        },
+        {
+          "title": "最强前端🏷️",
+          "doc_id": "negzqyxtxszvawof"
+        },
+        {
+          "title": "「万赞」不一样的Nextjs！",
+          "doc_id": "negzqyxtxszvawof"
+        }
+      ],
+      "realName": "negzqyxtxszvawof",
+      "relativePath": "/🔥 程序员自我修养/最强前端🏷️/「万赞」不一样的Nextjs！/negzqyxtxszvawof.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/最强前端🏷️/「万赞」不一样的Nextjs！"
+    },
+    {
+      "id": 188843369,
+      "doc_id": "iuv8q8c4vg3h6tg8",
+      "updated": 1727881821000,
+      "properties": {
+        "title": "字节三次面试面经",
+        "urlname": "iuv8q8c4vg3h6tg8",
+        "date": "2024-10-02 23:07:25",
+        "updated": "2024-10-02 23:10:21",
+        "description": "一面MySQL相关MySQL CPU飙高如何排查？整个系统的性能瓶颈是什么？如何排查的慢SQL？MySQL的索引结构是什么？详细讲一下B +树。MySQL的数据在B +树上是如何存储的？GC垃圾回收相关讲一下GC垃圾回收。GC垃圾回收时CPU大概会提升多少？Redis相关Redis的过期删除机..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "iuv8q8c4vg3h6tg8"
+        },
+        {
+          "title": "面试真题",
+          "doc_id": "iuv8q8c4vg3h6tg8"
+        }
+      ],
+      "realName": "iuv8q8c4vg3h6tg8",
+      "relativePath": "/💹 大厂面经/面试真题/iuv8q8c4vg3h6tg8.md",
+      "docPath": "docs/doc/💹 大厂面经/面试真题"
     }
   ],
   "catalog": [
@@ -13855,11 +13910,11 @@
     },
     {
       "type": "DOC",
-      "title": "【教程】不一样的Nextjs！",
+      "title": "「万赞」不一样的Nextjs！",
       "uuid": "2cJ18ZvNWGR6hhHx",
       "url": "satyn7anq2cv9p7p",
       "prev_uuid": "Oi5FMtop6oZm1oNe",
-      "sibling_uuid": "65Zy9C8l2pAx_MzP",
+      "sibling_uuid": "jnYOD86cVlBDX55q",
       "child_uuid": "-AFgYDHw_54vMFRY",
       "parent_uuid": "Oi5FMtop6oZm1oNe",
       "doc_id": 188627200,
@@ -13874,7 +13929,7 @@
       "uuid": "-AFgYDHw_54vMFRY",
       "url": "le4uyv5kbaf9gy65",
       "prev_uuid": "2cJ18ZvNWGR6hhHx",
-      "sibling_uuid": "1Lvhxo_-uRpiTKwf",
+      "sibling_uuid": "65Zy9C8l2pAx_MzP",
       "child_uuid": "",
       "parent_uuid": "2cJ18ZvNWGR6hhHx",
       "doc_id": 188631178,
@@ -13885,11 +13940,26 @@
     },
     {
       "type": "DOC",
+      "title": "「推荐」三个例子解释Nextjs的ISR、SSR、SSG",
+      "uuid": "65Zy9C8l2pAx_MzP",
+      "url": "hn2yy5i3avufqfhq",
+      "prev_uuid": "-AFgYDHw_54vMFRY",
+      "sibling_uuid": "1Lvhxo_-uRpiTKwf",
+      "child_uuid": "",
+      "parent_uuid": "2cJ18ZvNWGR6hhHx",
+      "doc_id": 188432276,
+      "level": 3,
+      "id": 188432276,
+      "open_window": 1,
+      "visible": 0
+    },
+    {
+      "type": "DOC",
       "title": "你真的知道Nextjs的api怎么用吗？",
       "uuid": "1Lvhxo_-uRpiTKwf",
       "url": "rtnwlsk5vh350o83",
-      "prev_uuid": "-AFgYDHw_54vMFRY",
-      "sibling_uuid": "",
+      "prev_uuid": "65Zy9C8l2pAx_MzP",
+      "sibling_uuid": "LIvU2PY4A3qPVXWp",
       "child_uuid": "",
       "parent_uuid": "2cJ18ZvNWGR6hhHx",
       "doc_id": 188627476,
@@ -13900,25 +13970,25 @@
     },
     {
       "type": "DOC",
-      "title": "【付费】三个例子解释Nextjs的ISR、SSR、SSG",
-      "uuid": "65Zy9C8l2pAx_MzP",
-      "url": "hn2yy5i3avufqfhq",
-      "prev_uuid": "2cJ18ZvNWGR6hhHx",
-      "sibling_uuid": "jnYOD86cVlBDX55q",
+      "title": "「项目」开发一个导航网站",
+      "uuid": "LIvU2PY4A3qPVXWp",
+      "url": "negzqyxtxszvawof",
+      "prev_uuid": "1Lvhxo_-uRpiTKwf",
+      "sibling_uuid": "",
       "child_uuid": "",
-      "parent_uuid": "Oi5FMtop6oZm1oNe",
-      "doc_id": 188432276,
-      "level": 2,
-      "id": 188432276,
+      "parent_uuid": "2cJ18ZvNWGR6hhHx",
+      "doc_id": 188692563,
+      "level": 3,
+      "id": 188692563,
       "open_window": 1,
-      "visible": 0
+      "visible": 1
     },
     {
       "type": "DOC",
       "title": "pnpm lockfile版本不一致",
       "uuid": "jnYOD86cVlBDX55q",
       "url": "ypqbhwx47hgka006",
-      "prev_uuid": "65Zy9C8l2pAx_MzP",
+      "prev_uuid": "2cJ18ZvNWGR6hhHx",
       "sibling_uuid": "bMLi3II7MP6uNKzl",
       "child_uuid": "",
       "parent_uuid": "Oi5FMtop6oZm1oNe",
@@ -18975,7 +19045,7 @@
       "url": "vxn8883st7lhfom9",
       "prev_uuid": "k38gbMVOoHwtcD2F",
       "sibling_uuid": "-4qV2TE5gTaU9pS4",
-      "child_uuid": "NNGpo_NW1QKe3LNz",
+      "child_uuid": "SJCHophUCpSrCSpm",
       "parent_uuid": "uHCIfCp4Xzc-fCfY",
       "doc_id": 171465323,
       "level": 1,
@@ -18985,10 +19055,25 @@
     },
     {
       "type": "DOC",
+      "title": "字节三次面试面经",
+      "uuid": "SJCHophUCpSrCSpm",
+      "url": "iuv8q8c4vg3h6tg8",
+      "prev_uuid": "NcVLTZK8sE8hkJmb",
+      "sibling_uuid": "NNGpo_NW1QKe3LNz",
+      "child_uuid": "",
+      "parent_uuid": "NcVLTZK8sE8hkJmb",
+      "doc_id": 188843369,
+      "level": 2,
+      "id": 188843369,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "收钱吧面试真题",
       "uuid": "NNGpo_NW1QKe3LNz",
       "url": "ubg35bic4t7bekms",
-      "prev_uuid": "NcVLTZK8sE8hkJmb",
+      "prev_uuid": "SJCHophUCpSrCSpm",
       "sibling_uuid": "ZHHNRSroll5OdyS0",
       "child_uuid": "",
       "parent_uuid": "NcVLTZK8sE8hkJmb",

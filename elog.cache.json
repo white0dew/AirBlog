@@ -13560,6 +13560,187 @@
       "realName": "iuv8q8c4vg3h6tg8",
       "relativePath": "/💹 大厂面经/面试真题/iuv8q8c4vg3h6tg8.md",
       "docPath": "docs/doc/💹 大厂面经/面试真题"
+    },
+    {
+      "id": 189629624,
+      "doc_id": "ksy4hu9wabv473vi",
+      "updated": 1728538216000,
+      "properties": {
+        "title": "实现一个mac-PC风格的浮空导航栏",
+        "urlname": "ksy4hu9wabv473vi",
+        "date": "2024-10-10 13:28:55",
+        "updated": "2024-10-10 13:30:16",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1728538182981-314375f7-23fd-421a-b52c-490d7dc93dbd.png",
+        "description": "代码\"use client\"; import React, { useState } from \"react\";  const Navbar = () =&gt; {   const [isOpen, setIsOpen] = useState(true);    const toggleNavba..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "ksy4hu9wabv473vi"
+        },
+        {
+          "title": "最强前端🏷️",
+          "doc_id": "ksy4hu9wabv473vi"
+        }
+      ],
+      "realName": "ksy4hu9wabv473vi",
+      "relativePath": "/🔥 程序员自我修养/最强前端🏷️/ksy4hu9wabv473vi.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/最强前端🏷️"
+    },
+    {
+      "id": 189613319,
+      "doc_id": "fqnm4sbfyool9hsr",
+      "updated": 1728538225000,
+      "properties": {
+        "title": "inset-0是什么意思？",
+        "urlname": "fqnm4sbfyool9hsr",
+        "date": "2024-10-10 11:04:12",
+        "updated": "2024-10-10 13:30:25",
+        "description": "inset-0 是 Tailwind CSS 中的一个实用类，用于设置元素的 top、right、bottom 和 left 属性为 0。它通常用于将一个绝对定位的元素（position: absolute）拉伸到其相对定位的父元素的边缘，使其充满整个父元素的空间。具体解释inset-0：to..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "fqnm4sbfyool9hsr"
+        },
+        {
+          "title": "最强前端🏷️",
+          "doc_id": "fqnm4sbfyool9hsr"
+        }
+      ],
+      "realName": "fqnm4sbfyool9hsr",
+      "relativePath": "/🔥 程序员自我修养/最强前端🏷️/fqnm4sbfyool9hsr.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/最强前端🏷️"
+    },
+    {
+      "id": 189587048,
+      "doc_id": "oxwter7kgwvcsr3g",
+      "updated": 1728519716000,
+      "properties": {
+        "title": "A component is changing an uncontrolled input to be controlled.",
+        "urlname": "oxwter7kgwvcsr3g",
+        "date": "2024-10-10 08:21:01",
+        "updated": "2024-10-10 08:21:56",
+        "description": "在前端开发中，我们经常会处理表单输入。表单输入组件可以分为受控组件和非受控组件，理解它们之间的转换以及背后的原理对于构建高效、可维护的用户界面至关重要。一、受控组件与非受控组件的概念受控组件受控组件的值由React组件的状态来控制。当表单元素的值发生变化时，通过事件处理函数将新的值更新到组件的..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "oxwter7kgwvcsr3g"
+        },
+        {
+          "title": "最强前端🏷️",
+          "doc_id": "oxwter7kgwvcsr3g"
+        }
+      ],
+      "realName": "oxwter7kgwvcsr3g",
+      "relativePath": "/🔥 程序员自我修养/最强前端🏷️/oxwter7kgwvcsr3g.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/最强前端🏷️"
+    },
+    {
+      "id": 189393984,
+      "doc_id": "lkhm7yt97ntl3t9f",
+      "updated": 1728400125000,
+      "properties": {
+        "title": "如何在Tailwind CSS中使用calc()？",
+        "urlname": "lkhm7yt97ntl3t9f",
+        "date": "2024-10-08 23:08:04",
+        "updated": "2024-10-08 23:08:45",
+        "description": "在Tailwind CSS中，calc()是一个非常有用的功能，它允许我们进行动态的样式计算。以下是关于如何在Tailwind CSS中使用calc()的介绍。一、calc()基础calc()是CSS中的一个函数，它允许我们在样式规则中进行数学计算。例如，我们可以使用它来计算元素的宽度、高度、..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "lkhm7yt97ntl3t9f"
+        },
+        {
+          "title": "最强前端🏷️",
+          "doc_id": "lkhm7yt97ntl3t9f"
+        }
+      ],
+      "realName": "lkhm7yt97ntl3t9f",
+      "relativePath": "/🔥 程序员自我修养/最强前端🏷️/lkhm7yt97ntl3t9f.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/最强前端🏷️"
+    },
+    {
+      "id": 189531479,
+      "doc_id": "mt3ef6lkky93w4w2",
+      "updated": 1728471863000,
+      "properties": {
+        "title": "关于 react-use-form，你不知道的一些事情",
+        "urlname": "mt3ef6lkky93w4w2",
+        "date": "2024-10-09 19:03:05",
+        "updated": "2024-10-09 19:04:23",
+        "description": "1. HTML表单的深层解析1.1 表单的默认行为与阻止HTML表单默认会在提交时刷新页面，这是因为表单提交会发送一个HTTP请求。这个行为可能会中断用户体验，特别是在单页应用（SPA）中。阻止默认行为的标准方法是：form.addEventListener('submit', (event)..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "mt3ef6lkky93w4w2"
+        },
+        {
+          "title": "最强前端🏷️",
+          "doc_id": "mt3ef6lkky93w4w2"
+        }
+      ],
+      "realName": "mt3ef6lkky93w4w2",
+      "relativePath": "/🔥 程序员自我修养/最强前端🏷️/mt3ef6lkky93w4w2.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/最强前端🏷️"
+    },
+    {
+      "id": 189465744,
+      "doc_id": "fh0i0wlmcihk1f0s",
+      "updated": 1728451877000,
+      "properties": {
+        "title": "「加餐」关于Next Image你可能不知道的事情",
+        "urlname": "fh0i0wlmcihk1f0s",
+        "date": "2024-10-09 13:19:12",
+        "updated": "2024-10-09 13:31:17",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1728451253027-87e5e1dc-6464-4e01-b71c-2d976ffd7030.png",
+        "description": "如果您使用过 Next.js，您可能遇到过 Next Image 组件。这种无忧的图像优化解决方案不仅提供对 webp 和 avif 等现代格式的支持，而且还生成针对不同屏幕尺寸定制的多个版本。要利用这种魔力，只需将以下代码添加到您的页面即可：import Image from 'next/i..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "fh0i0wlmcihk1f0s"
+        },
+        {
+          "title": "最强前端🏷️",
+          "doc_id": "fh0i0wlmcihk1f0s"
+        },
+        {
+          "title": "「万赞」不一样的Nextjs！",
+          "doc_id": "fh0i0wlmcihk1f0s"
+        }
+      ],
+      "realName": "fh0i0wlmcihk1f0s",
+      "relativePath": "/🔥 程序员自我修养/最强前端🏷️/「万赞」不一样的Nextjs！/fh0i0wlmcihk1f0s.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/最强前端🏷️/「万赞」不一样的Nextjs！"
+    },
+    {
+      "id": 189386051,
+      "doc_id": "cvggg24kfgt46g7k",
+      "updated": 1728394403000,
+      "properties": {
+        "title": "比亚迪线下hr面+一面+线上二面面经",
+        "urlname": "cvggg24kfgt46g7k",
+        "date": "2024-10-08 21:31:32",
+        "updated": "2024-10-08 21:33:23",
+        "description": "HR面 作用是了解你的简历，然后给你分对应的面试官，好多人简历的方向不对口，被直接在这个环节劝退，非常逆天，byd的HR连简历都筛不明白是让人想不到的 拷打我既然有腾讯的经历为什么来比亚迪，哥们自己狗扯了一下，你自己公司自己都不自信你招锤子人才，byd我觉得首先培训下HR的话术把，真的捞。 h..."
+      },
+      "catalog": [
+        {
+          "title": "💹 大厂面经",
+          "doc_id": "cvggg24kfgt46g7k"
+        },
+        {
+          "title": "面试真题",
+          "doc_id": "cvggg24kfgt46g7k"
+        }
+      ],
+      "realName": "cvggg24kfgt46g7k",
+      "relativePath": "/💹 大厂面经/面试真题/cvggg24kfgt46g7k.md",
+      "docPath": "docs/doc/💹 大厂面经/面试真题"
     }
   ],
   "catalog": [
@@ -13914,8 +14095,8 @@
       "uuid": "2cJ18ZvNWGR6hhHx",
       "url": "satyn7anq2cv9p7p",
       "prev_uuid": "Oi5FMtop6oZm1oNe",
-      "sibling_uuid": "jnYOD86cVlBDX55q",
-      "child_uuid": "-AFgYDHw_54vMFRY",
+      "sibling_uuid": "XVQKdEsA8mmsVP03",
+      "child_uuid": "M2tXajtc_Pb3h6Q3",
       "parent_uuid": "Oi5FMtop6oZm1oNe",
       "doc_id": 188627200,
       "level": 2,
@@ -13925,10 +14106,25 @@
     },
     {
       "type": "DOC",
+      "title": "「加餐」关于Next Image你可能不知道的事情",
+      "uuid": "M2tXajtc_Pb3h6Q3",
+      "url": "fh0i0wlmcihk1f0s",
+      "prev_uuid": "2cJ18ZvNWGR6hhHx",
+      "sibling_uuid": "-AFgYDHw_54vMFRY",
+      "child_uuid": "",
+      "parent_uuid": "2cJ18ZvNWGR6hhHx",
+      "doc_id": 189465744,
+      "level": 3,
+      "id": 189465744,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "「推荐」如何安全地使用Nextjs的server-action？",
       "uuid": "-AFgYDHw_54vMFRY",
       "url": "le4uyv5kbaf9gy65",
-      "prev_uuid": "2cJ18ZvNWGR6hhHx",
+      "prev_uuid": "M2tXajtc_Pb3h6Q3",
       "sibling_uuid": "65Zy9C8l2pAx_MzP",
       "child_uuid": "",
       "parent_uuid": "2cJ18ZvNWGR6hhHx",
@@ -13985,10 +14181,55 @@
     },
     {
       "type": "DOC",
+      "title": "实现一个mac-PC风格的浮空导航栏",
+      "uuid": "XVQKdEsA8mmsVP03",
+      "url": "ksy4hu9wabv473vi",
+      "prev_uuid": "2cJ18ZvNWGR6hhHx",
+      "sibling_uuid": "Sv3xlm6qoexXl5CO",
+      "child_uuid": "",
+      "parent_uuid": "Oi5FMtop6oZm1oNe",
+      "doc_id": 189629624,
+      "level": 2,
+      "id": 189629624,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "inset-0是什么意思？",
+      "uuid": "Sv3xlm6qoexXl5CO",
+      "url": "fqnm4sbfyool9hsr",
+      "prev_uuid": "XVQKdEsA8mmsVP03",
+      "sibling_uuid": "zNsW0lCy58QzIMT-",
+      "child_uuid": "",
+      "parent_uuid": "Oi5FMtop6oZm1oNe",
+      "doc_id": 189613319,
+      "level": 2,
+      "id": 189613319,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "如何在Tailwind CSS中使用calc()？",
+      "uuid": "zNsW0lCy58QzIMT-",
+      "url": "lkhm7yt97ntl3t9f",
+      "prev_uuid": "Sv3xlm6qoexXl5CO",
+      "sibling_uuid": "jnYOD86cVlBDX55q",
+      "child_uuid": "",
+      "parent_uuid": "Oi5FMtop6oZm1oNe",
+      "doc_id": 189393984,
+      "level": 2,
+      "id": 189393984,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "pnpm lockfile版本不一致",
       "uuid": "jnYOD86cVlBDX55q",
       "url": "ypqbhwx47hgka006",
-      "prev_uuid": "2cJ18ZvNWGR6hhHx",
+      "prev_uuid": "zNsW0lCy58QzIMT-",
       "sibling_uuid": "bMLi3II7MP6uNKzl",
       "child_uuid": "",
       "parent_uuid": "Oi5FMtop6oZm1oNe",
@@ -14079,7 +14320,7 @@
       "uuid": "Cv2Cf0lmYZ2F3aed",
       "url": "cq9pzn6cr3pnlwb8",
       "prev_uuid": "bwhz0PmXvKX-Wpck",
-      "sibling_uuid": "xYEG0ISPE83hVlOs",
+      "sibling_uuid": "dzHIb_jBjbn452a2",
       "child_uuid": "",
       "parent_uuid": "Oi5FMtop6oZm1oNe",
       "doc_id": 174403112,
@@ -14090,10 +14331,25 @@
     },
     {
       "type": "DOC",
+      "title": "A component is changing an uncontrolled input to be controlled.",
+      "uuid": "dzHIb_jBjbn452a2",
+      "url": "oxwter7kgwvcsr3g",
+      "prev_uuid": "Cv2Cf0lmYZ2F3aed",
+      "sibling_uuid": "xYEG0ISPE83hVlOs",
+      "child_uuid": "",
+      "parent_uuid": "Oi5FMtop6oZm1oNe",
+      "doc_id": 189587048,
+      "level": 2,
+      "id": 189587048,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "节流和防抖知道吗？",
       "uuid": "xYEG0ISPE83hVlOs",
       "url": "kwwca84uhgta9e5s",
-      "prev_uuid": "Cv2Cf0lmYZ2F3aed",
+      "prev_uuid": "dzHIb_jBjbn452a2",
       "sibling_uuid": "e6ujkS__UEPW9UOj",
       "child_uuid": "",
       "parent_uuid": "Oi5FMtop6oZm1oNe",
@@ -14124,7 +14380,7 @@
       "uuid": "-ayp8mF-R054XzBd",
       "url": "ria4g4alm00t95pc",
       "prev_uuid": "e6ujkS__UEPW9UOj",
-      "sibling_uuid": "N_OwC3ocEFR3hwrW",
+      "sibling_uuid": "lU9mL-RJBz31kGGg",
       "child_uuid": "",
       "parent_uuid": "Oi5FMtop6oZm1oNe",
       "doc_id": 174402950,
@@ -14135,10 +14391,25 @@
     },
     {
       "type": "DOC",
+      "title": "关于 react-use-form，你不知道的一些事情",
+      "uuid": "lU9mL-RJBz31kGGg",
+      "url": "mt3ef6lkky93w4w2",
+      "prev_uuid": "-ayp8mF-R054XzBd",
+      "sibling_uuid": "N_OwC3ocEFR3hwrW",
+      "child_uuid": "",
+      "parent_uuid": "Oi5FMtop6oZm1oNe",
+      "doc_id": 189531479,
+      "level": 2,
+      "id": 189531479,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "使用react-markdown 自定义组件在 Next.js 中进行渲染",
       "uuid": "N_OwC3ocEFR3hwrW",
       "url": "ee5pgwsb1imq4fyg",
-      "prev_uuid": "-ayp8mF-R054XzBd",
+      "prev_uuid": "lU9mL-RJBz31kGGg",
       "sibling_uuid": "",
       "child_uuid": "",
       "parent_uuid": "Oi5FMtop6oZm1oNe",
@@ -19045,7 +19316,7 @@
       "url": "vxn8883st7lhfom9",
       "prev_uuid": "k38gbMVOoHwtcD2F",
       "sibling_uuid": "-4qV2TE5gTaU9pS4",
-      "child_uuid": "SJCHophUCpSrCSpm",
+      "child_uuid": "-mdfUWRFJMnG0i-k",
       "parent_uuid": "uHCIfCp4Xzc-fCfY",
       "doc_id": 171465323,
       "level": 1,
@@ -19055,10 +19326,25 @@
     },
     {
       "type": "DOC",
+      "title": "比亚迪线下hr面+一面+线上二面面经",
+      "uuid": "-mdfUWRFJMnG0i-k",
+      "url": "cvggg24kfgt46g7k",
+      "prev_uuid": "NcVLTZK8sE8hkJmb",
+      "sibling_uuid": "SJCHophUCpSrCSpm",
+      "child_uuid": "",
+      "parent_uuid": "NcVLTZK8sE8hkJmb",
+      "doc_id": 189386051,
+      "level": 2,
+      "id": 189386051,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "字节三次面试面经",
       "uuid": "SJCHophUCpSrCSpm",
       "url": "iuv8q8c4vg3h6tg8",
-      "prev_uuid": "NcVLTZK8sE8hkJmb",
+      "prev_uuid": "-mdfUWRFJMnG0i-k",
       "sibling_uuid": "NNGpo_NW1QKe3LNz",
       "child_uuid": "",
       "parent_uuid": "NcVLTZK8sE8hkJmb",

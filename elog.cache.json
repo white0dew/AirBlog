@@ -2624,13 +2624,13 @@
     {
       "id": 170598462,
       "doc_id": "qfaugcu7d1ucqdq5",
-      "updated": 1727528318000,
+      "updated": 1728565084000,
       "properties": {
         "title": "更新日志",
         "urlname": "qfaugcu7d1ucqdq5",
         "date": "2024-05-22 08:47:22",
-        "updated": "2024-09-28 20:58:38",
-        "description": "---nav_path: changelog---介绍当前网站的更新计划以及快要更新的东西，如果大家有特别的需要也可以进行留言。2024-09新增评论邮件发送功能优化评论邮件通知功能中模板样式新增页面下一页以及上一页优化黑白模式-公告优化页面-切换页面链接的时候，视图不对优化首页排版-高度不一...",
+        "updated": "2024-10-10 20:58:04",
+        "description": "---nav_path: changelog---介绍当前网站的更新计划以及快要更新的东西，如果大家有特别的需要也可以进行留言。2024-10新增：写一个脚本，每日定时更新网站切换为静态生成网页修改仓库名称为AirBlog首页修改-新增标签墙切换邮件通知功能到163邮箱，防止被设置为垃圾邮箱新...",
         "nav_path": "changelog"
       },
       "catalog": [
@@ -13615,12 +13615,12 @@
     {
       "id": 189587048,
       "doc_id": "oxwter7kgwvcsr3g",
-      "updated": 1728519716000,
+      "updated": 1728564666000,
       "properties": {
         "title": "A component is changing an uncontrolled input to be controlled.",
         "urlname": "oxwter7kgwvcsr3g",
         "date": "2024-10-10 08:21:01",
-        "updated": "2024-10-10 08:21:56",
+        "updated": "2024-10-10 20:51:06",
         "description": "在前端开发中，我们经常会处理表单输入。表单输入组件可以分为受控组件和非受控组件，理解它们之间的转换以及背后的原理对于构建高效、可维护的用户界面至关重要。一、受控组件与非受控组件的概念受控组件受控组件的值由React组件的状态来控制。当表单元素的值发生变化时，通过事件处理函数将新的值更新到组件的..."
       },
       "catalog": [
@@ -13690,14 +13690,14 @@
     {
       "id": 189465744,
       "doc_id": "fh0i0wlmcihk1f0s",
-      "updated": 1728451877000,
+      "updated": 1728564909000,
       "properties": {
-        "title": "「加餐」关于Next Image你可能不知道的事情",
+        "title": "关于Next Image你可能不知道的事情",
         "urlname": "fh0i0wlmcihk1f0s",
         "date": "2024-10-09 13:19:12",
-        "updated": "2024-10-09 13:31:17",
+        "updated": "2024-10-10 20:55:09",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1728451253027-87e5e1dc-6464-4e01-b71c-2d976ffd7030.png",
-        "description": "如果您使用过 Next.js，您可能遇到过 Next Image 组件。这种无忧的图像优化解决方案不仅提供对 webp 和 avif 等现代格式的支持，而且还生成针对不同屏幕尺寸定制的多个版本。要利用这种魔力，只需将以下代码添加到您的页面即可：import Image from 'next/i..."
+        "description": "如果使用过 Next.js，可能遇到过 Next Image 组件。这种无忧的图像优化解决方案不仅提供对 webp 和 avif 等现代格式的支持，而且还生成针对不同屏幕尺寸定制的多个版本。要利用这种魔力，只需将以下代码添加到的页面即可：import Image from 'next/imag..."
       },
       "catalog": [
         {
@@ -14096,7 +14096,7 @@
       "url": "satyn7anq2cv9p7p",
       "prev_uuid": "Oi5FMtop6oZm1oNe",
       "sibling_uuid": "XVQKdEsA8mmsVP03",
-      "child_uuid": "M2tXajtc_Pb3h6Q3",
+      "child_uuid": "1Lvhxo_-uRpiTKwf",
       "parent_uuid": "Oi5FMtop6oZm1oNe",
       "doc_id": 188627200,
       "level": 2,
@@ -14106,10 +14106,25 @@
     },
     {
       "type": "DOC",
-      "title": "「加餐」关于Next Image你可能不知道的事情",
+      "title": "你真的知道Nextjs的api怎么用吗？",
+      "uuid": "1Lvhxo_-uRpiTKwf",
+      "url": "rtnwlsk5vh350o83",
+      "prev_uuid": "2cJ18ZvNWGR6hhHx",
+      "sibling_uuid": "M2tXajtc_Pb3h6Q3",
+      "child_uuid": "",
+      "parent_uuid": "2cJ18ZvNWGR6hhHx",
+      "doc_id": 188627476,
+      "level": 3,
+      "id": 188627476,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "关于Next Image你可能不知道的事情",
       "uuid": "M2tXajtc_Pb3h6Q3",
       "url": "fh0i0wlmcihk1f0s",
-      "prev_uuid": "2cJ18ZvNWGR6hhHx",
+      "prev_uuid": "1Lvhxo_-uRpiTKwf",
       "sibling_uuid": "-AFgYDHw_54vMFRY",
       "child_uuid": "",
       "parent_uuid": "2cJ18ZvNWGR6hhHx",
@@ -14140,7 +14155,7 @@
       "uuid": "65Zy9C8l2pAx_MzP",
       "url": "hn2yy5i3avufqfhq",
       "prev_uuid": "-AFgYDHw_54vMFRY",
-      "sibling_uuid": "1Lvhxo_-uRpiTKwf",
+      "sibling_uuid": "LIvU2PY4A3qPVXWp",
       "child_uuid": "",
       "parent_uuid": "2cJ18ZvNWGR6hhHx",
       "doc_id": 188432276,
@@ -14151,25 +14166,10 @@
     },
     {
       "type": "DOC",
-      "title": "你真的知道Nextjs的api怎么用吗？",
-      "uuid": "1Lvhxo_-uRpiTKwf",
-      "url": "rtnwlsk5vh350o83",
-      "prev_uuid": "65Zy9C8l2pAx_MzP",
-      "sibling_uuid": "LIvU2PY4A3qPVXWp",
-      "child_uuid": "",
-      "parent_uuid": "2cJ18ZvNWGR6hhHx",
-      "doc_id": 188627476,
-      "level": 3,
-      "id": 188627476,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
       "title": "「项目」开发一个导航网站",
       "uuid": "LIvU2PY4A3qPVXWp",
       "url": "negzqyxtxszvawof",
-      "prev_uuid": "1Lvhxo_-uRpiTKwf",
+      "prev_uuid": "65Zy9C8l2pAx_MzP",
       "sibling_uuid": "",
       "child_uuid": "",
       "parent_uuid": "2cJ18ZvNWGR6hhHx",

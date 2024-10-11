@@ -1,6 +1,6 @@
 const { withContentlayer } = require("next-contentlayer2");
-const NextOSSPlugin = require("next-oss-webpack-plugin");
-const isProd = process.env.NODE_ENV === "production";
+// const NextOSSPlugin = require("next-oss-webpack-plugin");
+// const isProd = process.env.NODE_ENV === "production";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // 配置 CDN 地址

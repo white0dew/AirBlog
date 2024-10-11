@@ -5,7 +5,6 @@ const {
 } = require("@aws-sdk/client-s3");
 // 节省体积，只引入 S3 服务（推荐）
 const S3 = require("aws-sdk/clients/s3");
-// const dogecloudApi = require("./lib/doge-sdk"); // 请替换为正确的dogecloudApi函数路径
 var axios = require("axios");
 var crypto = require("crypto");
 var querystring = require("querystring");

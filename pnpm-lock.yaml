@@ -77,6 +77,9 @@ importers:
       dayjs:
         specifier: ^1.11.11
         version: 1.11.13
+      dotenv:
+        specifier: ^16.4.5
+        version: 16.4.5
       embla-carousel-react:
         specifier: ^8.0.4
         version: 8.3.0(react@18.3.1)
@@ -98,12 +101,18 @@ importers:
       mdx:
         specifier: ^0.3.1
         version: 0.3.1
+      mime-types:
+        specifier: ^2.1.35
+        version: 2.1.35
       next:
         specifier: 14.2.8
         version: 14.2.8(@babel/core@7.25.2)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       next-contentlayer2:
         specifier: 0.4.6
         version: 0.4.6(contentlayer2@0.4.6(esbuild@0.21.5))(esbuild@0.21.5)(next@14.2.8(@babel/core@7.25.2)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      next-oss-webpack-plugin:
+        specifier: ^1.0.0
+        version: 1.0.0(proxy-agent@5.0.0)
       next-themes:
         specifier: ^0.3.0
         version: 0.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -128,6 +137,9 @@ importers:
       react-syntax-highlighter:
         specifier: ^15.5.0
         version: 15.5.0(react@18.3.1)
+      recursive-readdir:
+        specifier: ^2.2.3
+        version: 2.2.3
       rehype-autolink-headings:
         specifier: ^7.1.0
         version: 7.1.0
@@ -2958,6 +2970,9 @@ packages:
     resolution: {integrity: sha512-LElXdjswlqjWrPpJFg1Fx4wpkOCxj1TDHlSV4PlaRxHGWko024xICaa97ZkMfs6DRKlCguiAI+rbXv5GWwXIkg==}
     hasBin: true
 
+  async@2.6.4:
+    resolution: {integrity: sha512-mzo5dfJYwAn29PeiJ0zvwTo04zj8HDJj0Mn8TD7sno7q12prdbnasKJHhkm2c1LgrhlJ0teaea8860oxi51mGA==}
+
   asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
 
@@ -5319,6 +5334,9 @@ packages:
       react: '*'
       react-dom: '*'
 
+  next-oss-webpack-plugin@1.0.0:
+    resolution: {integrity: sha512-uyH7r+YIWt5L7OgKfJKOefrXqpK8tvm7jlrJHT9cefNhksmxSx+AJ/LK707dR42SuDMdO8ssjPy+xaBB9phBgQ==}
+
   next-themes@0.3.0:
     resolution: {integrity: sha512-/QHIrsYpd6Kfk7xakK4svpDI5mmXP0gfvCoJdGpZQ2TOrQZmsW0QxjaiLn8wbIKjtm4BTSqLoix4lxYYOnLJ/w==}
     peerDependencies:
@@ -5956,6 +5974,10 @@ packages:
   rechoir@0.6.2:
     resolution: {integrity: sha512-HFM8rkZ+i3zrV+4LQjwQ0W+ez98pApMGM3HUrN04j3CqzPOzl9nmP15Y8YXNm8QHGv/eacOVEjqhmWpkRV0NAw==}
     engines: {node: '>= 0.10'}
+
+  recursive-readdir@2.2.3:
+    resolution: {integrity: sha512-8HrF5ZsXk5FAH9dgsx3BlUer73nIhuj+9OrQwEbLTPOBzGkL1lsFCR01am+v+0m2Cmbs1nP12hLDl5FA7EszKA==}
+    engines: {node: '>=6.0.0'}
 
   redent@1.0.0:
     resolution: {integrity: sha512-qtW5hKzGQZqKoh6JNSD+4lfitfPKGz42e6QwiRmPM5mmKtR0N41AbJRYu0xJi7nhOJ4WDgRkKvAk6tw4WIwR4g==}
@@ -10716,6 +10738,10 @@ snapshots:
 
   astring@1.9.0: {}
 
+  async@2.6.4:
+    dependencies:
+      lodash: 4.17.21
+
   asynckit@0.4.0: {}
 
   atomically@1.7.0: {}
@@ -13731,6 +13757,14 @@ snapshots:
       - markdown-wasm
       - supports-color
 
+  next-oss-webpack-plugin@1.0.0(proxy-agent@5.0.0):
+    dependencies:
+      ali-oss: 6.21.0(proxy-agent@5.0.0)
+      async: 2.6.4
+    transitivePeerDependencies:
+      - proxy-agent
+      - supports-color
+
   next-themes@0.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       react: 18.3.1
@@ -14422,6 +14456,10 @@ snapshots:
   rechoir@0.6.2:
     dependencies:
       resolve: 1.22.8
+
+  recursive-readdir@2.2.3:
+    dependencies:
+      minimatch: 3.1.2
 
   redent@1.0.0:
     dependencies:

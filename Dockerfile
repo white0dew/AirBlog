@@ -68,3 +68,4 @@ ENV PORT 3020
 # https://nextjs.org/docs/pages/api-reference/next-config-js/output
 # 启动服务
 CMD ["node", "server.js"]
+# CMD ["sh", "-c", "node .js && node server.js"]

@@ -13509,12 +13509,12 @@
     {
       "id": 188692563,
       "doc_id": "negzqyxtxszvawof",
-      "updated": 1728348721000,
+      "updated": 1728823016000,
       "properties": {
         "title": "「项目」开发一个导航网站",
         "urlname": "negzqyxtxszvawof",
         "date": "2024-09-30 22:40:04",
-        "updated": "2024-10-08 08:52:01",
+        "updated": "2024-10-13 20:36:56",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1727781047419-0223592a-fe80-4c9b-b389-4e833643c4f9.png",
         "description": "背景在工作学习中，发现一个问题，那就是有一个导航网站非常重要！无意之中，看到一个很棒的导航网站，打算基于此开发一个，记录一下开发的过程。Demo仓库：https://github.com/wangfengyuan/frontend-nav记录tailwindcss的scrollbarhttps..."
       },
@@ -13564,12 +13564,12 @@
     {
       "id": 189629624,
       "doc_id": "ksy4hu9wabv473vi",
-      "updated": 1728538216000,
+      "updated": 1728623691000,
       "properties": {
         "title": "实现一个mac-PC风格的浮空导航栏",
         "urlname": "ksy4hu9wabv473vi",
         "date": "2024-10-10 13:28:55",
-        "updated": "2024-10-10 13:30:16",
+        "updated": "2024-10-11 13:14:51",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1728538182981-314375f7-23fd-421a-b52c-490d7dc93dbd.png",
         "description": "代码\"use client\"; import React, { useState } from \"react\";  const Navbar = () =&gt; {   const [isOpen, setIsOpen] = useState(true);    const toggleNavba..."
       },
@@ -13741,6 +13741,82 @@
       "realName": "cvggg24kfgt46g7k",
       "relativePath": "/💹 大厂面经/面试真题/cvggg24kfgt46g7k.md",
       "docPath": "docs/doc/💹 大厂面经/面试真题"
+    },
+    {
+      "id": 190137743,
+      "doc_id": "gcssgnt470rg4vbi",
+      "updated": 1728917625000,
+      "properties": {
+        "title": "使用Docker安装Umami，统计网站PV/UV",
+        "urlname": "gcssgnt470rg4vbi",
+        "date": "2024-10-14 08:34:32",
+        "updated": "2024-10-14 22:53:45",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1728866928325-2fb3c2f3-9493-4408-9269-dd6c53a89cea.png",
+        "description": "因为有好几个网站，尝试了google、百度的分析统计软件，都不太好用……其实最好用的是vercel，但是要收费，于是找到了Umami这个开源的统计网站，下面是安装教程，数据库是MYsql（我用的8.4）。先下载Docker镜像docker pull docker.umami.is/umami-..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "gcssgnt470rg4vbi"
+        },
+        {
+          "title": "个人建站 🤖",
+          "doc_id": "gcssgnt470rg4vbi"
+        }
+      ],
+      "realName": "gcssgnt470rg4vbi",
+      "relativePath": "/🔥 程序员自我修养/个人建站 🤖/gcssgnt470rg4vbi.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/个人建站 🤖"
+    },
+    {
+      "id": 189950108,
+      "doc_id": "wv60xhlzkan6yq95",
+      "updated": 1728782647000,
+      "properties": {
+        "title": "怎么将中文字符等转换为url友好的字符串？",
+        "urlname": "wv60xhlzkan6yq95",
+        "date": "2024-10-12 15:34:08",
+        "updated": "2024-10-13 09:24:07",
+        "description": "最近在做一个导航网站，需要将中文转成url。尝试了两种。选型第一种 pinyin很大使用量的库，https://www.npmjs.com/package/pinyin?activeTab=versions。但……不知道为什么，在nextjs14下无法正常使用，没办法，只能放弃了。import..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "wv60xhlzkan6yq95"
+        },
+        {
+          "title": "最强前端🏷️",
+          "doc_id": "wv60xhlzkan6yq95"
+        }
+      ],
+      "realName": "wv60xhlzkan6yq95",
+      "relativePath": "/🔥 程序员自我修养/最强前端🏷️/wv60xhlzkan6yq95.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/最强前端🏷️"
+    },
+    {
+      "id": 189897561,
+      "doc_id": "qyxl3y4us6uuwyui",
+      "updated": 1728872119000,
+      "properties": {
+        "title": "Linux环境怎么下测试网络速度？",
+        "urlname": "qyxl3y4us6uuwyui",
+        "date": "2024-10-12 09:48:44",
+        "updated": "2024-10-14 10:15:19",
+        "description": "最近买了多个服务器，为了防止服务商虚构数值，有必要检测一下。在Linux系统中,有多种工具可以用来测试网络速度。1. 使用 speedtest-clispeedtest-cli 是一个基于命令行的速度测试工具,它使用 Speedtest.net 的服务器来测试你的网络速度。安装在大多数Linu..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "qyxl3y4us6uuwyui"
+        },
+        {
+          "title": "个人建站 🤖",
+          "doc_id": "qyxl3y4us6uuwyui"
+        }
+      ],
+      "realName": "qyxl3y4us6uuwyui",
+      "relativePath": "/🔥 程序员自我修养/个人建站 🤖/qyxl3y4us6uuwyui.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/个人建站 🤖"
     }
   ],
   "catalog": [
@@ -13826,7 +13902,7 @@
       "url": "ogfvsltzo95v0k88",
       "prev_uuid": "PlrctMGesywNFpWl",
       "sibling_uuid": "_d86pwt2PnWp0V6d",
-      "child_uuid": "Lr-s00SfjmdGwMP7",
+      "child_uuid": "FZOMVqbaidMlwhbQ",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
       "doc_id": 171769376,
       "level": 1,
@@ -13836,10 +13912,40 @@
     },
     {
       "type": "DOC",
+      "title": "使用Docker安装Umami，统计网站PV/UV",
+      "uuid": "FZOMVqbaidMlwhbQ",
+      "url": "gcssgnt470rg4vbi",
+      "prev_uuid": "pzU6x4VThGDwLdrN",
+      "sibling_uuid": "wtiW3eQx5HD5v5Zg",
+      "child_uuid": "",
+      "parent_uuid": "pzU6x4VThGDwLdrN",
+      "doc_id": 190137743,
+      "level": 2,
+      "id": 190137743,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Linux环境怎么下测试网络速度？",
+      "uuid": "wtiW3eQx5HD5v5Zg",
+      "url": "qyxl3y4us6uuwyui",
+      "prev_uuid": "FZOMVqbaidMlwhbQ",
+      "sibling_uuid": "Lr-s00SfjmdGwMP7",
+      "child_uuid": "",
+      "parent_uuid": "pzU6x4VThGDwLdrN",
+      "doc_id": 189897561,
+      "level": 2,
+      "id": 189897561,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "artalk的几个邮件通知模板",
       "uuid": "Lr-s00SfjmdGwMP7",
       "url": "xf27pqyhtdno058e",
-      "prev_uuid": "pzU6x4VThGDwLdrN",
+      "prev_uuid": "wtiW3eQx5HD5v5Zg",
       "sibling_uuid": "juWXtOvLlMJD1iBG",
       "child_uuid": "",
       "parent_uuid": "pzU6x4VThGDwLdrN",
@@ -14095,7 +14201,7 @@
       "uuid": "2cJ18ZvNWGR6hhHx",
       "url": "satyn7anq2cv9p7p",
       "prev_uuid": "Oi5FMtop6oZm1oNe",
-      "sibling_uuid": "XVQKdEsA8mmsVP03",
+      "sibling_uuid": "Lv3mFIBzooztVkgs",
       "child_uuid": "1Lvhxo_-uRpiTKwf",
       "parent_uuid": "Oi5FMtop6oZm1oNe",
       "doc_id": 188627200,
@@ -14181,10 +14287,25 @@
     },
     {
       "type": "DOC",
+      "title": "怎么将中文字符等转换为url友好的字符串？",
+      "uuid": "Lv3mFIBzooztVkgs",
+      "url": "wv60xhlzkan6yq95",
+      "prev_uuid": "2cJ18ZvNWGR6hhHx",
+      "sibling_uuid": "XVQKdEsA8mmsVP03",
+      "child_uuid": "",
+      "parent_uuid": "Oi5FMtop6oZm1oNe",
+      "doc_id": 189950108,
+      "level": 2,
+      "id": 189950108,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "实现一个mac-PC风格的浮空导航栏",
       "uuid": "XVQKdEsA8mmsVP03",
       "url": "ksy4hu9wabv473vi",
-      "prev_uuid": "2cJ18ZvNWGR6hhHx",
+      "prev_uuid": "Lv3mFIBzooztVkgs",
       "sibling_uuid": "Sv3xlm6qoexXl5CO",
       "child_uuid": "",
       "parent_uuid": "Oi5FMtop6oZm1oNe",

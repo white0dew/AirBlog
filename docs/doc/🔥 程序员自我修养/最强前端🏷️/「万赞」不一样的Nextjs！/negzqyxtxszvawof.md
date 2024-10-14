@@ -2,7 +2,7 @@
 title: 「项目」开发一个导航网站
 urlname: negzqyxtxszvawof
 date: '2024-09-30 22:40:04'
-updated: '2024-10-08 08:52:01'
+updated: '2024-10-13 20:36:56'
 cover: 'https://cdn.nlark.com/yuque/0/2024/png/22382235/1727781047419-0223592a-fe80-4c9b-b389-4e833643c4f9.png'
 description: '背景在工作学习中，发现一个问题，那就是有一个导航网站非常重要！无意之中，看到一个很棒的导航网站，打算基于此开发一个，记录一下开发的过程。Demo仓库：https://github.com/wangfengyuan/frontend-nav记录tailwindcss的scrollbarhttps...'
 ---
@@ -41,20 +41,6 @@ Demo仓库：[https://github.com/wangfengyuan/frontend-nav](https://github.com/w
 
 
 ## 登陆怎么做？
-### 测试账号
-```typescript
-test1997321@qq.com
-  test1997322@qq.com
-    test1997323@qq.com
-    test1997324@qq.com
-      test1997325@qq.com
-      test1997326@qq.com ** admin
-123456789	
-
-email: '1373685219@qq.com',
-  password: 'leilei1997321me',
-```
-
 
 
 ### <font style="color:rgb(17, 17, 17);">bcrypt-ts到底怎么用?</font>
@@ -371,6 +357,12 @@ console.log(newObj2);
 
 
 
-## TODO 怎么实现点击url跳转对应的页面，但是url不变？
+## shadcn/ui的Drawer组件在移动端有问题！
+会导致移动端输入、下滑出现问题。
+
+
+
+直接换成Sheet组件即可！
+
 
 

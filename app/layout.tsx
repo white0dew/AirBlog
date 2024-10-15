@@ -11,6 +11,7 @@ import { Inter as FontSans } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { SearchProvider } from "@/components/nav/SearchProvider";
 import React from "react";
+import Script from "next/script";
 // 参考:https://github.com/shadcn-ui/ui/issues/94 中dongnez 的写法,解决下拉菜单的问题
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -135,6 +136,13 @@ export default function RootLayout({
           </div>
         </ThemeProviders>
       </body>
+
+      <Script
+          id="umami"
+          src={process.env.NEXT_PUBLIC_UMAMI_URL}
+          async
+          data-website-id={process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID}
+        />
     </html>
   );
 }

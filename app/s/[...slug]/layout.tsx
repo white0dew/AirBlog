@@ -8,12 +8,12 @@ interface LayoutProps {
 export default function ArticleLayout({ children }: LayoutProps) {
   return (
     <div className="w-full py-1 flex flex-col justify-center scroll-smooth">
-      {isProduction && (
+      {/* {isProduction && (
         <Script
           src="https://readmore.openwrite.cn/js/readmore-2.0.js"
           type="text/javascript"
         />
-      )}
+      )} */}
 
       {children}
     </div>

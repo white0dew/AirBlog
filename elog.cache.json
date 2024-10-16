@@ -5285,14 +5285,14 @@
     {
       "id": 170598820,
       "doc_id": "qhcv6k1zz4pwgp11",
-      "updated": 1727503594000,
+      "updated": 1729084460000,
       "properties": {
         "title": "友情链接",
         "urlname": "qhcv6k1zz4pwgp11",
         "date": "2024-05-22 08:52:07",
-        "updated": "2024-09-28 14:06:34",
+        "updated": "2024-10-16 21:14:20",
         "cover": "https://cdn.nlark.com/yuque/0/2024/webp/22382235/1727492030194-fc4d0fde-e024-4719-ba21-f51110283a9b.webp",
-        "description": "not_show: true网站名称网站地址网站简介网站头图Jayden's sitehttps://xxu.do/为天地立心,为生民立命, 为往圣继绝学,为万世开太平。氿月博客https://chuishen.xyz/程序设计，网页设计，用户界面设计，文史哲Ever Fuhttps://ww...",
+        "description": "not_show: true网站名称网站地址网站简介网站头图Jayden's sitehttps://xxu.do/为天地立心,为生民立命, 为往圣继绝学,为万世开太平。平凡之路https://pfzlcx.cn/平凡之路：一个平凡的人，一个平凡的个人博客网站，分享一些有用的，比较好的免费资源...",
         "not_show": true
       },
       "catalog": [
@@ -13817,6 +13817,31 @@
       "realName": "qyxl3y4us6uuwyui",
       "relativePath": "/🔥 程序员自我修养/个人建站 🤖/qyxl3y4us6uuwyui.md",
       "docPath": "docs/doc/🔥 程序员自我修养/个人建站 🤖"
+    },
+    {
+      "id": 190307938,
+      "doc_id": "lh0kgxgxqw8am6bg",
+      "updated": 1728952111000,
+      "properties": {
+        "title": "Cursor AI : 让我的开发效率提高了十倍",
+        "urlname": "lh0kgxgxqw8am6bg",
+        "date": "2024-10-15 08:26:37",
+        "updated": "2024-10-15 08:28:31",
+        "description": "下载地址初体验官方参考文档：https://docs.cursor.com/context/rules-for-ai最佳实践"
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "lh0kgxgxqw8am6bg"
+        },
+        {
+          "title": "人工智能🤖️",
+          "doc_id": "lh0kgxgxqw8am6bg"
+        }
+      ],
+      "realName": "lh0kgxgxqw8am6bg",
+      "relativePath": "/🔥 程序员自我修养/人工智能🤖️/lh0kgxgxqw8am6bg.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/人工智能🤖️"
     }
   ],
   "catalog": [
@@ -14787,7 +14812,7 @@
       "url": "ck3uzv22499u4byl",
       "prev_uuid": "ZQkvDtiMigyZEcwf",
       "sibling_uuid": "aRn1n4HB0iY7c91I",
-      "child_uuid": "cZgzGnuivSrN0-HX",
+      "child_uuid": "a1nCmBm8_Pc7Gw-S",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
       "doc_id": 175495556,
       "level": 1,
@@ -14797,10 +14822,25 @@
     },
     {
       "type": "DOC",
+      "title": "Cursor AI : 让我的开发效率提高了十倍",
+      "uuid": "a1nCmBm8_Pc7Gw-S",
+      "url": "lh0kgxgxqw8am6bg",
+      "prev_uuid": "kicN7hkPayXrH8jr",
+      "sibling_uuid": "cZgzGnuivSrN0-HX",
+      "child_uuid": "",
+      "parent_uuid": "kicN7hkPayXrH8jr",
+      "doc_id": 190307938,
+      "level": 2,
+      "id": 190307938,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "深度学习激活函数有哪些？",
       "uuid": "cZgzGnuivSrN0-HX",
       "url": "nt61gsah6eyoi8ip",
-      "prev_uuid": "kicN7hkPayXrH8jr",
+      "prev_uuid": "a1nCmBm8_Pc7Gw-S",
       "sibling_uuid": "V2owSNRTTConO8CW",
       "child_uuid": "",
       "parent_uuid": "kicN7hkPayXrH8jr",

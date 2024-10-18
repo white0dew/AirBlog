@@ -5285,12 +5285,12 @@
     {
       "id": 170598820,
       "doc_id": "qhcv6k1zz4pwgp11",
-      "updated": 1729085593000,
+      "updated": 1729086530000,
       "properties": {
         "title": "友情链接",
         "urlname": "qhcv6k1zz4pwgp11",
         "date": "2024-05-22 08:52:07",
-        "updated": "2024-10-16 21:33:13",
+        "updated": "2024-10-16 21:48:50",
         "cover": "https://cdn.nlark.com/yuque/0/2024/webp/22382235/1727492030194-fc4d0fde-e024-4719-ba21-f51110283a9b.webp",
         "description": "not_show: true网站名称网站地址网站简介网站头图Jayden's sitehttps://xxu.do/为天地立心,为生民立命, 为往圣继绝学,为万世开太平。平凡之路https://pfzlcx.cn/平凡之路：一个平凡的人，一个平凡的个人博客网站，分享一些有用的，比较好的免费资源...",
         "not_show": true
@@ -13842,6 +13842,107 @@
       "realName": "lh0kgxgxqw8am6bg",
       "relativePath": "/🔥 程序员自我修养/人工智能🤖️/lh0kgxgxqw8am6bg.md",
       "docPath": "docs/doc/🔥 程序员自我修养/人工智能🤖️"
+    },
+    {
+      "id": 190843874,
+      "doc_id": "nqhr4eu4lt5m0q57",
+      "updated": 1729245290000,
+      "properties": {
+        "title": "前端全栈必会的Lodash!",
+        "urlname": "nqhr4eu4lt5m0q57",
+        "date": "2024-10-18 17:50:07",
+        "updated": "2024-10-18 17:54:50",
+        "description": "大家好,我是白露。今天我想和大家分享一个我日常开发中离不开的JavaScript工具库 —— Lodash。简单来说,Lodash是一个一致性、模块化、高性能的 JavaScript 实用工具库,它能让你像切黄油一样轻松地处理数组、数字、对象、字符串等。我相信,这个库也能帮助到许多和我有同样困..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "nqhr4eu4lt5m0q57"
+        },
+        {
+          "title": "最强前端🏷️",
+          "doc_id": "nqhr4eu4lt5m0q57"
+        }
+      ],
+      "realName": "nqhr4eu4lt5m0q57",
+      "relativePath": "/🔥 程序员自我修养/最强前端🏷️/nqhr4eu4lt5m0q57.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/最强前端🏷️"
+    },
+    {
+      "id": 190858670,
+      "doc_id": "zzbp4y3b2vy1q6lg",
+      "updated": 1729257774000,
+      "properties": {
+        "title": "部署在Vercel的Mysql数据库查询非常慢",
+        "urlname": "zzbp4y3b2vy1q6lg",
+        "date": "2024-10-18 21:19:51",
+        "updated": "2024-10-18 21:22:54",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/22382235/1729257728403-eae48fed-d064-4e18-ac6d-977a32bac426.png",
+        "description": "最近在做一个导航网站，https://airnav.icu/own结果发现当项目部署上线后，mysql查询速度贼慢。只有几十条记录，查询时间要接近一秒钟，这肯定是不科学的。后面想到，Mysql的查询速度有很大一部分原因是网络传输，于是想到了是不是vercel的配置问题？终于在vercel项目的..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "zzbp4y3b2vy1q6lg"
+        },
+        {
+          "title": "个人建站 🤖",
+          "doc_id": "zzbp4y3b2vy1q6lg"
+        }
+      ],
+      "realName": "zzbp4y3b2vy1q6lg",
+      "relativePath": "/🔥 程序员自我修养/个人建站 🤖/zzbp4y3b2vy1q6lg.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/个人建站 🤖"
+    },
+    {
+      "id": 190842106,
+      "doc_id": "gcv7c8a32l42gylz",
+      "updated": 1729254772000,
+      "properties": {
+        "title": "前端进阶必须会的Zod ！",
+        "urlname": "gcv7c8a32l42gylz",
+        "date": "2024-10-18 17:35:19",
+        "updated": "2024-10-18 20:32:52",
+        "description": "大家好,我是白露。今天我想和大家分享一个我最近在使用的TypeScript库 —— Zod。简单来说,Zod是一个用于数据验证的库,它可以让你的TypeScript代码更加安全和可靠。最近几个月我一直在使用Zod,发现它不仅解决了我长期以来的一些痛点,还大大提高了我的开发效率。我相信,这个库也..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "gcv7c8a32l42gylz"
+        },
+        {
+          "title": "最强前端🏷️",
+          "doc_id": "gcv7c8a32l42gylz"
+        }
+      ],
+      "realName": "gcv7c8a32l42gylz",
+      "relativePath": "/🔥 程序员自我修养/最强前端🏷️/gcv7c8a32l42gylz.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/最强前端🏷️"
+    },
+    {
+      "id": 190621692,
+      "doc_id": "qg33msccyyg3w151",
+      "updated": 1729127190000,
+      "properties": {
+        "title": "Cursor Composer：AI 编程革命性功能",
+        "urlname": "qg33msccyyg3w151",
+        "date": "2024-10-17 09:04:51",
+        "updated": "2024-10-17 09:06:30",
+        "description": "随着人工智能技术的迅猛发展，AI 辅助编程工具正逐渐成为软件开发领域的明星。在众多工具中，Cursor 以其独特的功能脱颖而出，特别是其 Composer 功能，支持多文件同时修改。这不仅显著提升了工程师的生产力，还通过与 Claude-3.5-Sonnet 和 GPT-4 等顶尖模型的深度集..."
+      },
+      "catalog": [
+        {
+          "title": "🔥 程序员自我修养",
+          "doc_id": "qg33msccyyg3w151"
+        },
+        {
+          "title": "人工智能🤖️",
+          "doc_id": "qg33msccyyg3w151"
+        }
+      ],
+      "realName": "qg33msccyyg3w151",
+      "relativePath": "/🔥 程序员自我修养/人工智能🤖️/qg33msccyyg3w151.md",
+      "docPath": "docs/doc/🔥 程序员自我修养/人工智能🤖️"
     }
   ],
   "catalog": [
@@ -13927,7 +14028,7 @@
       "url": "ogfvsltzo95v0k88",
       "prev_uuid": "PlrctMGesywNFpWl",
       "sibling_uuid": "_d86pwt2PnWp0V6d",
-      "child_uuid": "FZOMVqbaidMlwhbQ",
+      "child_uuid": "DLGRqetrXBHmrWne",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
       "doc_id": 171769376,
       "level": 1,
@@ -13937,10 +14038,25 @@
     },
     {
       "type": "DOC",
+      "title": "部署在Vercel的Mysql数据库查询非常慢",
+      "uuid": "DLGRqetrXBHmrWne",
+      "url": "zzbp4y3b2vy1q6lg",
+      "prev_uuid": "pzU6x4VThGDwLdrN",
+      "sibling_uuid": "FZOMVqbaidMlwhbQ",
+      "child_uuid": "",
+      "parent_uuid": "pzU6x4VThGDwLdrN",
+      "doc_id": 190858670,
+      "level": 2,
+      "id": 190858670,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "使用Docker安装Umami，统计网站PV/UV",
       "uuid": "FZOMVqbaidMlwhbQ",
       "url": "gcssgnt470rg4vbi",
-      "prev_uuid": "pzU6x4VThGDwLdrN",
+      "prev_uuid": "DLGRqetrXBHmrWne",
       "sibling_uuid": "wtiW3eQx5HD5v5Zg",
       "child_uuid": "",
       "parent_uuid": "pzU6x4VThGDwLdrN",
@@ -14451,7 +14567,7 @@
       "uuid": "bwhz0PmXvKX-Wpck",
       "url": "yngxyvkbqaf61ywf",
       "prev_uuid": "NZEvoXBDorxjl8_J",
-      "sibling_uuid": "Cv2Cf0lmYZ2F3aed",
+      "sibling_uuid": "OxVNVtY0UHydZHmd",
       "child_uuid": "",
       "parent_uuid": "Oi5FMtop6oZm1oNe",
       "doc_id": 174504399,
@@ -14462,10 +14578,40 @@
     },
     {
       "type": "DOC",
+      "title": "前端进阶必须会的Zod ！",
+      "uuid": "OxVNVtY0UHydZHmd",
+      "url": "gcv7c8a32l42gylz",
+      "prev_uuid": "bwhz0PmXvKX-Wpck",
+      "sibling_uuid": "-Ehdx2EPqk4_cJ53",
+      "child_uuid": "",
+      "parent_uuid": "Oi5FMtop6oZm1oNe",
+      "doc_id": 190842106,
+      "level": 2,
+      "id": 190842106,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "前端全栈必会的Lodash!",
+      "uuid": "-Ehdx2EPqk4_cJ53",
+      "url": "nqhr4eu4lt5m0q57",
+      "prev_uuid": "OxVNVtY0UHydZHmd",
+      "sibling_uuid": "Cv2Cf0lmYZ2F3aed",
+      "child_uuid": "",
+      "parent_uuid": "Oi5FMtop6oZm1oNe",
+      "doc_id": 190843874,
+      "level": 2,
+      "id": 190843874,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "前端需要学GraphQL 吗？",
       "uuid": "Cv2Cf0lmYZ2F3aed",
       "url": "cq9pzn6cr3pnlwb8",
-      "prev_uuid": "bwhz0PmXvKX-Wpck",
+      "prev_uuid": "-Ehdx2EPqk4_cJ53",
       "sibling_uuid": "dzHIb_jBjbn452a2",
       "child_uuid": "",
       "parent_uuid": "Oi5FMtop6oZm1oNe",
@@ -14812,7 +14958,7 @@
       "url": "ck3uzv22499u4byl",
       "prev_uuid": "ZQkvDtiMigyZEcwf",
       "sibling_uuid": "aRn1n4HB0iY7c91I",
-      "child_uuid": "a1nCmBm8_Pc7Gw-S",
+      "child_uuid": "UlRD-hluWLCG8yhO",
       "parent_uuid": "_AUtENOpDG0ZxF_E",
       "doc_id": 175495556,
       "level": 1,
@@ -14822,10 +14968,25 @@
     },
     {
       "type": "DOC",
+      "title": "Cursor Composer：AI 编程革命性功能",
+      "uuid": "UlRD-hluWLCG8yhO",
+      "url": "qg33msccyyg3w151",
+      "prev_uuid": "kicN7hkPayXrH8jr",
+      "sibling_uuid": "a1nCmBm8_Pc7Gw-S",
+      "child_uuid": "",
+      "parent_uuid": "kicN7hkPayXrH8jr",
+      "doc_id": 190621692,
+      "level": 2,
+      "id": 190621692,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "Cursor AI : 让我的开发效率提高了十倍",
       "uuid": "a1nCmBm8_Pc7Gw-S",
       "url": "lh0kgxgxqw8am6bg",
-      "prev_uuid": "kicN7hkPayXrH8jr",
+      "prev_uuid": "UlRD-hluWLCG8yhO",
       "sibling_uuid": "cZgzGnuivSrN0-HX",
       "child_uuid": "",
       "parent_uuid": "kicN7hkPayXrH8jr",

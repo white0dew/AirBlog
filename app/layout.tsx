@@ -118,7 +118,7 @@ export default function RootLayout({
       <body
         className="bg-white w-screen max-w-screen
        overflow-x-hidden
-      text-black antialiased dark:bg-gray-950 dark:text-white"
+      text-black antialiased dark:bg-slate-950 dark:text-slate-100"
       >
         <script dangerouslySetInnerHTML={getBdAnalyticsTag()} />
         <ThemeProviders>
@@ -138,11 +138,11 @@ export default function RootLayout({
       </body>
 
       <Script
-          id="umami"
-          src={process.env.NEXT_PUBLIC_UMAMI_URL}
-          async
-          data-website-id={process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID}
-        />
+        id="umami"
+        src={process.env.NEXT_PUBLIC_UMAMI_URL}
+        async
+        data-website-id={process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID}
+      />
     </html>
   );
 }

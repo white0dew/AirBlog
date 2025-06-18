@@ -15,10 +15,11 @@ export default function Header() {
 
   return (
     <header
-      className="sticky w-screen min-w-screen px-1 md:px-10 xl:px-20 z-50 flex  bg-slate-50 
-    dark:bg-slate-700
+      className="sticky w-screen min-w-screen px-1 md:px-10 xl:px-20 z-50 flex  
+    bg-white/80 backdrop-blur-md border-b border-gray-200/20
+    dark:bg-slate-900/80 dark:backdrop-blur-md dark:border-slate-700/30
     justify-between 
-    opacity-95 top-0"
+    top-0 transition-all duration-300"
     >
       <div>
         <Link href="/" aria-label={siteMetadata.headerTitle}>

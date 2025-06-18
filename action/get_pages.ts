@@ -30,8 +30,13 @@ export async function GetPages(page_type: PageType, limit?: number) {
   const siteName = "offernow"; // 替换为实际的站点名
   const limitNum = limit ? limit : 15;
 
-  const url = `https://artalk.aistar.cool/api/v2/stats/${getPageParam(page_type)}?
-  site_name=${encodeURIComponent(siteName)}&limit=${limitNum}`;
+  const url = `https://artalk.aistar.cool/api/v2/stats/${getPageParam(
+    page_type
+  )}?site_name=${encodeURIComponent(siteName)}&limit=${limitNum}`;
+
+  mylog("Request URL:", url);
+  mylog("Site name:", siteName);
+  mylog("Page type:", getPageParam(page_type));
 
   let res: GetPageStruct[] = [];
   await fetch(url)

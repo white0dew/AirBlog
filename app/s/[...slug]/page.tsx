@@ -191,24 +191,32 @@ export default function ArticlePage({
   }
   return (
     <div
-      className="relative mx-auto max-w-screen-xl justify-center space-x-3 px-4 py-2 
-        md:flex md:flex-row md:py-2 lg:space-x-16"
+      className="min-h-screen bg-gradient-to-br from-gray-50/50 to-gray-100/30 
+                dark:bg-gradient-to-br dark:from-slate-950 dark:via-slate-900/95 dark:to-slate-800/90"
     >
       <div
-        className="sticky top-[90px] hidden h-[calc(100vh-20vh)] w-[284px] 
-            md:flex md:shrink-0 md:flex-col md:justify-between
-            overflow-y-auto scrollbar-thin"
+        className="relative mx-auto max-w-screen-xl justify-center space-x-3 px-4 py-2 
+          md:flex md:flex-row md:py-2 lg:space-x-16"
       >
-        <SidebarChapter chapters={curChapter?.children ?? []} />
+        <div
+          className="sticky top-[90px] hidden h-[calc(100vh-20vh)] w-[284px] 
+            md:flex md:shrink-0 md:flex-col md:justify-between
+            overflow-y-auto scrollbar-thin
+            bg-white/40 dark:bg-slate-900/40 backdrop-blur-sm
+            border-r border-gray-200/30 dark:border-slate-700/30
+            rounded-r-lg"
+        >
+          <SidebarChapter chapters={curChapter?.children ?? []} />
+        </div>
+
+        {curArticle && !IsEmptyString(curArticle?.body.raw) ? (
+          <ArticleContent article={curArticle} />
+        ) : (
+          <EmptyArticle />
+        )}
+
+        {curArticle && <ArticleRightSider />}
       </div>
-
-      {curArticle && !IsEmptyString(curArticle?.body.raw) ? (
-        <ArticleContent article={curArticle} />
-      ) : (
-        <EmptyArticle />
-      )}
-
-      {curArticle && <ArticleRightSider />}
     </div>
   );
 }

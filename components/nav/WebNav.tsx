@@ -40,16 +40,27 @@ export default function Navigation({ chapters }: { chapters: ElogChapter[] }) {
                 <NavigationMenuItem key={chapter.uuid} className="w-full">
                   <NavigationMenuTrigger
                     className={cn(
-                      `${path.includes(chapter.url) ? "bg-slate-300" : ""}`,
-                      "px-2 py-2 text-md",
-                      "shadow-lg",
-                      "border-2"
+                      `${
+                        path.includes(chapter.url)
+                          ? "bg-gradient-to-r from-blue-500/20 to-purple-500/20 dark:from-blue-600/30 dark:to-purple-600/30 border-blue-500/50"
+                          : "bg-white/60 hover:bg-white/80 dark:bg-slate-800/60 dark:hover:bg-slate-700/80"
+                      }`,
+                      "px-4 py-2 text-sm font-medium rounded-lg",
+                      "backdrop-blur-sm border border-gray-200/30 dark:border-slate-700/50",
+                      "shadow-sm hover:shadow-md",
+                      "transition-all duration-300",
+                      "hover:scale-105 hover:border-blue-400/50 dark:hover:border-purple-400/50"
                     )}
                   >
                     {chapter.title}
                   </NavigationMenuTrigger>
 
-                  <NavigationMenuContent className="  px-2 flex flex-wrap justify-center opacity-100">
+                  <NavigationMenuContent
+                    className="px-3 py-2 flex flex-wrap justify-center 
+                                  bg-white/90 dark:bg-slate-900/90 backdrop-blur-md
+                                  border border-gray-200/50 dark:border-slate-700/50 rounded-lg shadow-lg
+                                  opacity-100"
+                  >
                     {chapter.children.map(
                       (child) =>
                         child?.is_nav && (
@@ -63,7 +74,11 @@ export default function Navigation({ chapters }: { chapters: ElogChapter[] }) {
                             <NavigationMenuLink
                               className={cn(
                                 navigationMenuTriggerStyle(),
-                                "h-full text-sm w-full font-semibold rounded-b-none border-solid border-b-2 border-sky-800"
+                                "h-full text-sm w-full font-medium rounded-md my-1",
+                                "bg-white/70 hover:bg-blue-50 dark:bg-slate-800/70 dark:hover:bg-slate-700/90",
+                                "border border-gray-200/30 dark:border-slate-700/50",
+                                "hover:border-blue-400/50 dark:hover:border-purple-400/50",
+                                "transition-all duration-200 hover:scale-[1.02]"
                               )}
                             >
                               {child.title}
@@ -80,9 +95,15 @@ export default function Navigation({ chapters }: { chapters: ElogChapter[] }) {
                     <NavigationMenuLink
                       className={cn(
                         navigationMenuTriggerStyle(),
-                        "shadow-md text-md",
-                        `${path.includes(chapter.url) ? "bg-slate-300 dark:bg-slate-200 " : ""}`,
-                        "px-2 border-2"
+                        "shadow-sm hover:shadow-md text-sm font-medium rounded-lg",
+                        `${
+                          path.includes(chapter.url)
+                            ? "bg-gradient-to-r from-blue-500/20 to-purple-500/20 dark:from-blue-600/30 dark:to-purple-600/30 border-blue-500/50"
+                            : "bg-white/60 hover:bg-white/80 dark:bg-slate-800/60 dark:hover:bg-slate-700/80"
+                        }`,
+                        "px-4 py-2 backdrop-blur-sm border border-gray-200/30 dark:border-slate-700/50",
+                        "transition-all duration-300 hover:scale-105",
+                        "hover:border-blue-400/50 dark:hover:border-purple-400/50"
                       )}
                     >
                       {chapter.title}

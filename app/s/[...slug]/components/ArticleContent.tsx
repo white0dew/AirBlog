@@ -32,8 +32,9 @@ export function ArticleContent({ article }: ArticleContentProps) {
   }, [path]);
   return (
     <div
-      className=" w-max lg:min-w-2xl lg:max-w-2xl py-10 min-h-screen 
-              md:flex-1 px-1 md:px-6  dark:bg-slate-800 2xl:max-w-3xl xl:min-w-3xl "
+      className="w-max lg:min-w-2xl lg:max-w-2xl py-10 min-h-screen 
+              md:flex-1 px-1 md:px-6 2xl:max-w-3xl xl:min-w-3xl
+              article-content mx-2"
       ref={itemRef} // 新增：设置ref
     >
       {/* 部分页面不加载 */}

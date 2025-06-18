@@ -63,7 +63,7 @@ function createTagCount(allBlogs: any) {
   console.log("Generating tag count...");
   const tagCount: Record<string, number> = {};
   allBlogs.forEach((file: Post) => {
-    if (file.tags && !isProduction) {
+    if (file.tags) {
       file.tags.forEach((tag) => {
         const formattedTag = slug(tag);
         if (formattedTag in tagCount) {

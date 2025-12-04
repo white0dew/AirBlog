@@ -7,7 +7,12 @@ export default function Footer() {
   return (
     <footer className="w-full">
       <div className="mt-16 flex flex-col items-center bg-black text-white pt-10 md:pt-10">
-        <div className=" sm:flex sm:justify-between md:py-5 md:space-x-10">
+        {/* Mobile minimal footer */}
+        <div className="w-full py-6 text-center text-base font-semibold md:hidden">
+          OfferNow
+        </div>
+
+        <div className="hidden w-full sm:flex sm:justify-between md:py-5 md:space-x-10">
           {/* Company Info & Links */}
           <div className="hidden md:flex md:flex-col flex-1 mb-6 sm:mb-0">
             <h5 className="text-lg font-bold  mb-2">关于我们</h5>
@@ -48,7 +53,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mb-2 flex flex-grow space-x-2 text-sm text-gray-500 dark:text-gray-400">
+        <div className="mb-2 hidden flex-grow space-x-2 text-sm text-gray-500 dark:text-gray-400 sm:flex">
           <div>{siteMetadata.author}</div>
           <div>{` • `}</div>
           <div>{`© ${new Date().getFullYear()}`}</div>

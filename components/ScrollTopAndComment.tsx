@@ -3,7 +3,12 @@
 import siteMetadata from '@/assets/siteMetadata'
 import { useEffect, useState } from 'react'
 
-const ScrollTopAndComment = () => {
+type ScrollTopAndCommentProps = {
+  // 默认保持以前的 fixed 行为；在文档页可以用 inline 作为正文右侧的侧栏按钮
+  position?: 'fixed' | 'inline'
+}
+
+const ScrollTopAndComment = ({ position = 'fixed' }: ScrollTopAndCommentProps) => {
   const [show, setShow] = useState(false)
 
   useEffect(() => {
@@ -22,10 +27,19 @@ const ScrollTopAndComment = () => {
   const handleScrollToComment = () => {
     document.getElementById('comment')?.scrollIntoView()
   }
+
+  const containerBase = 'flex flex-col gap-3'
+
+  // 博客页默认 fixed，文档页可以作为 inline 侧栏渲染
+  const containerPositionClass =
+    position === 'fixed'
+      ? `fixed bottom-8 right-8 hidden ${show ? 'md:flex' : 'md:hidden'}`
+      : show
+        ? 'flex'
+        : 'hidden'
+
   return (
-    <div
-      className={`fixed bottom-8 right-8 hidden flex-col gap-3 ${show ? 'md:flex' : 'md:hidden'}`}
-    >
+    <div className={`${containerBase} ${containerPositionClass}`}>
       {siteMetadata.comments?.provider && (
         <button
           aria-label="Scroll To Comment"

@@ -54,7 +54,7 @@ export function countWords(str: string) {
 
 export function mylog(message: any, ...optionalParams: any[]) {
   if (process.env.NODE_ENV === "development") {
-    const styledMessage = `%c${message}`;
+    const styledMessage = "%c[AirBlog]";
     const style = "color: green; font-weight: bold;"; // 定义样式字符串
 
     // JSON.stringify的复用函数，用于处理BigInt
@@ -67,7 +67,7 @@ export function mylog(message: any, ...optionalParams: any[]) {
       const stringifiedParams = optionalParams.map((param) =>
         JSON.stringify(param, replacer)
       );
-      console.log(styledMessage, style, ...stringifiedParams);
+      console.log(styledMessage, style, stringifiedMessage, ...stringifiedParams);
     } catch (error) {
       console.error("Logging error:", error);
       console.log(message, ...optionalParams); // 如果转换失败，直接输出原始数据

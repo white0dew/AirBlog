@@ -105,11 +105,11 @@ importers:
         specifier: ^2.1.35
         version: 2.1.35
       next:
-        specifier: 14.2.8
-        version: 14.2.8(@babel/core@7.25.2)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 14.2.35
+        version: 14.2.35(@babel/core@7.25.2)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       next-contentlayer2:
         specifier: 0.4.6
-        version: 0.4.6(contentlayer2@0.4.6(esbuild@0.21.5))(esbuild@0.21.5)(next@14.2.8(@babel/core@7.25.2)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 0.4.6(contentlayer2@0.4.6(esbuild@0.21.5))(esbuild@0.21.5)(next@14.2.35(@babel/core@7.25.2)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       next-oss-webpack-plugin:
         specifier: ^1.0.0
         version: 1.0.0(proxy-agent@5.0.0)
@@ -118,7 +118,7 @@ importers:
         version: 0.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       pliny:
         specifier: ^0.2.1
-        version: 0.2.2(@algolia/client-search@5.6.1)(@types/react-dom@18.3.0)(@types/react@18.3.9)(esbuild@0.21.5)(next@14.2.8(@babel/core@7.25.2)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.17.2)
+        version: 0.2.2(@algolia/client-search@5.6.1)(@types/react-dom@18.3.0)(@types/react@18.3.9)(esbuild@0.21.5)(next@14.2.35(@babel/core@7.25.2)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.17.2)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -1749,66 +1749,66 @@ packages:
   '@mdx-js/mdx@3.0.1':
     resolution: {integrity: sha512-eIQ4QTrOWyL3LWEe/bu6Taqzq2HQvHcyTMaOrI95P2/LmJE7AsfPfgJGuFLPVqBUE1BC1rik3VIhU+s9u72arA==}
 
-  '@next/env@14.2.8':
-    resolution: {integrity: sha512-L44a+ynqkolyNBnYfF8VoCiSrjSZWgEHYKkKLGcs/a80qh7AkfVUD/MduVPgdsWZ31tgROR+yJRA0PZjSVBXWQ==}
+  '@next/env@14.2.35':
+    resolution: {integrity: sha512-DuhvCtj4t9Gwrx80dmz2F4t/zKQ4ktN8WrMwOuVzkJfBilwAwGr6v16M5eI8yCuZ63H9TTuEU09Iu2HqkzFPVQ==}
 
   '@next/eslint-plugin-next@14.1.4':
     resolution: {integrity: sha512-n4zYNLSyCo0Ln5b7qxqQeQ34OZKXwgbdcx6kmkQbywr+0k6M3Vinft0T72R6CDAcDrne2IAgSud4uWCzFgc5HA==}
 
-  '@next/swc-darwin-arm64@14.2.8':
-    resolution: {integrity: sha512-1VrQlG8OzdyvvGZhGJFnaNE2P10Jjy/2FopnqbY0nSa/gr8If3iINxvOEW3cmVeoAYkmW0RsBazQecA2dBFOSw==}
+  '@next/swc-darwin-arm64@14.2.33':
+    resolution: {integrity: sha512-HqYnb6pxlsshoSTubdXKu15g3iivcbsMXg4bYpjL2iS/V6aQot+iyF4BUc2qA/J/n55YtvE4PHMKWBKGCF/+wA==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@next/swc-darwin-x64@14.2.8':
-    resolution: {integrity: sha512-87t3I86rNRSOJB1gXIUzaQWWSWrkWPDyZGsR0Z7JAPtLeX3uUOW2fHxl7dNWD2BZvbvftctTQjgtfpp7nMtmWg==}
+  '@next/swc-darwin-x64@14.2.33':
+    resolution: {integrity: sha512-8HGBeAE5rX3jzKvF593XTTFg3gxeU4f+UWnswa6JPhzaR6+zblO5+fjltJWIZc4aUalqTclvN2QtTC37LxvZAA==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
 
-  '@next/swc-linux-arm64-gnu@14.2.8':
-    resolution: {integrity: sha512-ta2sfVzbOpTbgBrF9HM5m+U58dv6QPuwU4n5EX4LLyCJGKc433Z0D9h9gay/HSOjLEXJ2fJYrMP5JYYbHdxhtw==}
+  '@next/swc-linux-arm64-gnu@14.2.33':
+    resolution: {integrity: sha512-JXMBka6lNNmqbkvcTtaX8Gu5by9547bukHQvPoLe9VRBx1gHwzf5tdt4AaezW85HAB3pikcvyqBToRTDA4DeLw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@next/swc-linux-arm64-musl@14.2.8':
-    resolution: {integrity: sha512-+IoLTPK6Z5uIgDhgeWnQF5/o5GBN7+zyUNrs4Bes1W3g9++YELb8y0unFybS8s87ntAKMDl6jeQ+mD7oNwp/Ng==}
+  '@next/swc-linux-arm64-musl@14.2.33':
+    resolution: {integrity: sha512-Bm+QulsAItD/x6Ih8wGIMfRJy4G73tu1HJsrccPW6AfqdZd0Sfm5Imhgkgq2+kly065rYMnCOxTBvmvFY1BKfg==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@next/swc-linux-x64-gnu@14.2.8':
-    resolution: {integrity: sha512-pO+hVXC+mvzUOQJJRG4RX4wJsRJ5BkURSf6dD6EjUXAX4Ml9es1WsEfkaZ4lcpmFzFvY47IkDaffks/GdCn9ag==}
+  '@next/swc-linux-x64-gnu@14.2.33':
+    resolution: {integrity: sha512-FnFn+ZBgsVMbGDsTqo8zsnRzydvsGV8vfiWwUo1LD8FTmPTdV+otGSWKc4LJec0oSexFnCYVO4hX8P8qQKaSlg==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@next/swc-linux-x64-musl@14.2.8':
-    resolution: {integrity: sha512-bCat9izctychCtf3uL1nqHq31N5e1VxvdyNcBQflkudPMLbxVnlrw45Vi87K+lt1CwrtVayHqzo4ie0Szcpwzg==}
+  '@next/swc-linux-x64-musl@14.2.33':
+    resolution: {integrity: sha512-345tsIWMzoXaQndUTDv1qypDRiebFxGYx9pYkhwY4hBRaOLt8UGfiWKr9FSSHs25dFIf8ZqIFaPdy5MljdoawA==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@next/swc-win32-arm64-msvc@14.2.8':
-    resolution: {integrity: sha512-gbxfUaSPV7EyUobpavida2Hwi62GhSJaSg7iBjmBWoxkxlmETOD7U4tWt763cGIsyE6jM7IoNavq0BXqwdW2QA==}
+  '@next/swc-win32-arm64-msvc@14.2.33':
+    resolution: {integrity: sha512-nscpt0G6UCTkrT2ppnJnFsYbPDQwmum4GNXYTeoTIdsmMydSKFz9Iny2jpaRupTb+Wl298+Rh82WKzt9LCcqSQ==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
 
-  '@next/swc-win32-ia32-msvc@14.2.8':
-    resolution: {integrity: sha512-PUXzEzjTTlUh3b5VAn1nlpwvujTnuCMMwbiCnaTazoVlN1nA3kWjlmp42IfURA2N/nyrlVEw7pURa/o4Qxj1cw==}
+  '@next/swc-win32-ia32-msvc@14.2.33':
+    resolution: {integrity: sha512-pc9LpGNKhJ0dXQhZ5QMmYxtARwwmWLpeocFmVG5Z0DzWq5Uf0izcI8tLc+qOpqxO1PWqZ5A7J1blrUIKrIFc7Q==}
     engines: {node: '>= 10'}
     cpu: [ia32]
     os: [win32]
 
-  '@next/swc-win32-x64-msvc@14.2.8':
-    resolution: {integrity: sha512-EnPKv0ttq02E9/1KZ/8Dn7kuutv6hy1CKc0HlNcvzOQcm4/SQtvfws5gY0zrG9tuupd3HfC2L/zcTrnBhpjTuQ==}
+  '@next/swc-win32-x64-msvc@14.2.33':
+    resolution: {integrity: sha512-nOjfZMy8B94MdisuzZo9/57xuFVLHJaDj5e/xrduJp9CV2/HrfxTRH2fbyLe+K9QT41WBLUd4iXX3R7jBp0EUg==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -2994,6 +2994,7 @@ packages:
   aws-sdk@2.1691.0:
     resolution: {integrity: sha512-/F2YC+DlsY3UBM2Bdnh5RLHOPNibS/+IcjUuhP8XuctyrN+MlL+fWDAiela32LTDk7hMy4rx8MTgvbJ+0blO5g==}
     engines: {node: '>= 10.0.0'}
+    deprecated: The AWS SDK for JavaScript (v2) has reached end-of-support, and no longer receives updates. Please migrate your code to use AWS SDK for JavaScript (v3). More info https://a.co/cUPnyil
 
   aws-sign2@0.7.0:
     resolution: {integrity: sha512-08kcGqnYf/YmjoRhfxyu+CLxBjUtHLXLXX/vUfx9l2LYzG3c1m61nrpyFUZI6zeS+Li/wWMMidD9KgrqtGq3mA==}
@@ -3866,6 +3867,7 @@ packages:
   eslint@8.57.1:
     resolution: {integrity: sha512-ypowyDxpVSYpkXr9WPv2PAZCtNip1Mv5KTW0SCurXv/9iOpcrH9PaqUElksqEB6pChqHGDRCFTyrZlGhnLNGiA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   espree@9.6.1:
@@ -4169,15 +4171,17 @@ packages:
   glob@10.3.10:
     resolution: {integrity: sha512-fa46+tv1Ak0UPK1TOy/pZrIybNNt4HCv7SDzwyfiOZkvZLEbjsZkJBPtDHVshZjbecAoAGSC20MjLDG/qr679g==}
     engines: {node: '>=16 || 14 >=14.17'}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@10.4.5:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   globals@11.12.0:
     resolution: {integrity: sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==}
@@ -5343,8 +5347,8 @@ packages:
       react: ^16.8 || ^17 || ^18
       react-dom: ^16.8 || ^17 || ^18
 
-  next@14.2.8:
-    resolution: {integrity: sha512-EyEyJZ89r8C5FPlS/401AiF3O8jeMtHIE+bLom9MwcdWJJFBgRl+MR/2VgO0v5bI6tQORNY0a0DR5sjpFNrjbg==}
+  next@14.2.35:
+    resolution: {integrity: sha512-KhYd2Hjt/O1/1aZVX3dCwGXM1QmOV4eNM2UTacK5gipDdPN/oHHK/4oVGy7X8GMfPMsUTUEmGlsy0EY1YGAkig==}
     engines: {node: '>=18.17.0'}
     hasBin: true
     peerDependencies:
@@ -5367,6 +5371,7 @@ packages:
   node-domexception@1.0.0:
     resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
     engines: {node: '>=10.5.0'}
+    deprecated: Use your platform's native DOMException instead
 
   node-fetch@2.6.13:
     resolution: {integrity: sha512-StxNAxh15zr77QvvkmveSQ8uCQ4+v5FkvNTj0OESmiHu+VRi/gXArXtkWMElOsOUNLtUEvI4yS+rdtOHZTwlQA==}
@@ -6525,12 +6530,12 @@ packages:
   superagent@3.8.1:
     resolution: {integrity: sha512-VMBFLYgFuRdfeNQSMLbxGSLfmXL/xc+OO+BZp41Za/NRDBet/BNbkRJrYzCUu0u4GU0i/ml2dtT8b9qgkw9z6Q==}
     engines: {node: '>= 4.0'}
-    deprecated: Please upgrade to v9.0.0+ as we have fixed a public vulnerability with formidable dependency. Note that v9.0.0+ requires Node.js v14.18.0+. See https://github.com/ladjs/superagent/pull/1800 for insight. This project is supported and maintained by the team at Forward Email @ https://forwardemail.net
+    deprecated: Please upgrade to superagent v10.2.2+, see release notes at https://github.com/forwardemail/superagent/releases/tag/v10.2.2 - maintenance is supported by Forward Email @ https://forwardemail.net
 
   superagent@4.1.0:
     resolution: {integrity: sha512-FT3QLMasz0YyCd4uIi5HNe+3t/onxMyEho7C3PSqmti3Twgy2rXT4fmkTz6wRL6bTF4uzPcfkUCa8u4JWHw8Ag==}
     engines: {node: '>= 6.0'}
-    deprecated: Please upgrade to v9.0.0+ as we have fixed a public vulnerability with formidable dependency. Note that v9.0.0+ requires Node.js v14.18.0+. See https://github.com/ladjs/superagent/pull/1800 for insight. This project is supported and maintained by the team at Forward Email @ https://forwardemail.net
+    deprecated: Please upgrade to superagent v10.2.2+, see release notes at https://github.com/forwardemail/superagent/releases/tag/v10.2.2 - maintenance is supported by Forward Email @ https://forwardemail.net
 
   supports-color@5.5.0:
     resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==}
@@ -7031,6 +7036,7 @@ packages:
   whatwg-encoding@2.0.0:
     resolution: {integrity: sha512-p41ogyeMUrw3jWclHWTQg1k05DSVXPLcVxRTYsXUk+ZooOCZLcoYgPZ/HL/D/N+uQPOtcp1me1WhBEaX02mhWg==}
     engines: {node: '>=12'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@3.0.0:
     resolution: {integrity: sha512-nt+N2dzIutVRxARx1nghPKGv1xHikU7HKdfafKkLNLindmPU/ch3U31NOCGGA/dmPcmb1VlofO0vnKAcsm0o/Q==}
@@ -9356,37 +9362,37 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@next/env@14.2.8': {}
+  '@next/env@14.2.35': {}
 
   '@next/eslint-plugin-next@14.1.4':
     dependencies:
       glob: 10.3.10
 
-  '@next/swc-darwin-arm64@14.2.8':
+  '@next/swc-darwin-arm64@14.2.33':
     optional: true
 
-  '@next/swc-darwin-x64@14.2.8':
+  '@next/swc-darwin-x64@14.2.33':
     optional: true
 
-  '@next/swc-linux-arm64-gnu@14.2.8':
+  '@next/swc-linux-arm64-gnu@14.2.33':
     optional: true
 
-  '@next/swc-linux-arm64-musl@14.2.8':
+  '@next/swc-linux-arm64-musl@14.2.33':
     optional: true
 
-  '@next/swc-linux-x64-gnu@14.2.8':
+  '@next/swc-linux-x64-gnu@14.2.33':
     optional: true
 
-  '@next/swc-linux-x64-musl@14.2.8':
+  '@next/swc-linux-x64-musl@14.2.33':
     optional: true
 
-  '@next/swc-win32-arm64-msvc@14.2.8':
+  '@next/swc-win32-arm64-msvc@14.2.33':
     optional: true
 
-  '@next/swc-win32-ia32-msvc@14.2.8':
+  '@next/swc-win32-ia32-msvc@14.2.33':
     optional: true
 
-  '@next/swc-win32-x64-msvc@14.2.8':
+  '@next/swc-win32-x64-msvc@14.2.33':
     optional: true
 
   '@nodelib/fs.scandir@2.1.5':
@@ -11659,7 +11665,7 @@ snapshots:
       debug: 4.3.7
       enhanced-resolve: 5.17.1
       eslint: 8.57.1
-      eslint-module-utils: 2.11.1(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.6.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.6.2))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.30.0)(eslint@8.57.1))(eslint@8.57.1)
+      eslint-module-utils: 2.11.1(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.6.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3)(eslint@8.57.1)
       fast-glob: 3.3.2
       get-tsconfig: 4.8.1
       is-bun-module: 1.2.1
@@ -11672,7 +11678,7 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
-  eslint-module-utils@2.11.1(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.6.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.6.2))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.30.0)(eslint@8.57.1))(eslint@8.57.1):
+  eslint-module-utils@2.11.1(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.6.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3)(eslint@8.57.1):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
@@ -11694,7 +11700,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 8.57.1
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.11.1(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.6.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.6.2))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.30.0)(eslint@8.57.1))(eslint@8.57.1)
+      eslint-module-utils: 2.11.1(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.6.2))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.3)(eslint@8.57.1)
       hasown: 2.0.2
       is-core-module: 2.15.1
       is-glob: 4.0.3
@@ -13743,12 +13749,12 @@ snapshots:
 
   netmask@2.0.2: {}
 
-  next-contentlayer2@0.4.6(contentlayer2@0.4.6(esbuild@0.21.5))(esbuild@0.21.5)(next@14.2.8(@babel/core@7.25.2)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  next-contentlayer2@0.4.6(contentlayer2@0.4.6(esbuild@0.21.5))(esbuild@0.21.5)(next@14.2.35(@babel/core@7.25.2)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@contentlayer2/core': 0.4.3(esbuild@0.21.5)
       '@contentlayer2/utils': 0.4.3
       contentlayer2: 0.4.6(esbuild@0.21.5)
-      next: 14.2.8(@babel/core@7.25.2)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      next: 14.2.35(@babel/core@7.25.2)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     transitivePeerDependencies:
@@ -13770,9 +13776,9 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  next@14.2.8(@babel/core@7.25.2)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  next@14.2.35(@babel/core@7.25.2)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
-      '@next/env': 14.2.8
+      '@next/env': 14.2.35
       '@swc/helpers': 0.5.5
       busboy: 1.6.0
       caniuse-lite: 1.0.30001663
@@ -13782,15 +13788,15 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       styled-jsx: 5.1.1(@babel/core@7.25.2)(react@18.3.1)
     optionalDependencies:
-      '@next/swc-darwin-arm64': 14.2.8
-      '@next/swc-darwin-x64': 14.2.8
-      '@next/swc-linux-arm64-gnu': 14.2.8
-      '@next/swc-linux-arm64-musl': 14.2.8
-      '@next/swc-linux-x64-gnu': 14.2.8
-      '@next/swc-linux-x64-musl': 14.2.8
-      '@next/swc-win32-arm64-msvc': 14.2.8
-      '@next/swc-win32-ia32-msvc': 14.2.8
-      '@next/swc-win32-x64-msvc': 14.2.8
+      '@next/swc-darwin-arm64': 14.2.33
+      '@next/swc-darwin-x64': 14.2.33
+      '@next/swc-linux-arm64-gnu': 14.2.33
+      '@next/swc-linux-arm64-musl': 14.2.33
+      '@next/swc-linux-x64-gnu': 14.2.33
+      '@next/swc-linux-x64-musl': 14.2.33
+      '@next/swc-win32-arm64-msvc': 14.2.33
+      '@next/swc-win32-ia32-msvc': 14.2.33
+      '@next/swc-win32-x64-msvc': 14.2.33
       '@opentelemetry/api': 1.9.0
     transitivePeerDependencies:
       - '@babel/core'
@@ -14108,7 +14114,7 @@ snapshots:
 
   platform@1.3.6: {}
 
-  pliny@0.2.2(@algolia/client-search@5.6.1)(@types/react-dom@18.3.0)(@types/react@18.3.9)(esbuild@0.21.5)(next@14.2.8(@babel/core@7.25.2)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.17.2):
+  pliny@0.2.2(@algolia/client-search@5.6.1)(@types/react-dom@18.3.0)(@types/react@18.3.9)(esbuild@0.21.5)(next@14.2.35(@babel/core@7.25.2)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.17.2):
     dependencies:
       '@docsearch/react': 3.6.1(@algolia/client-search@5.6.1)(@types/react@18.3.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(search-insights@2.17.2)
       '@giscus/react': 3.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -14118,8 +14124,8 @@ snapshots:
       github-slugger: 2.0.0
       js-yaml: 4.1.0
       kbar: 0.1.0-beta.45(@types/react-dom@18.3.0)(@types/react@18.3.9)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      next: 14.2.8(@babel/core@7.25.2)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      next-contentlayer2: 0.4.6(contentlayer2@0.4.6(esbuild@0.21.5))(esbuild@0.21.5)(next@14.2.8(@babel/core@7.25.2)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      next: 14.2.35(@babel/core@7.25.2)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      next-contentlayer2: 0.4.6(contentlayer2@0.4.6(esbuild@0.21.5))(esbuild@0.21.5)(next@14.2.35(@babel/core@7.25.2)(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       next-themes: 0.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       probe-image-size: 7.2.3
       react: 18.3.1
